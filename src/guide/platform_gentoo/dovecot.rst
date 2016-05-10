@@ -34,9 +34,9 @@ reload`.
 A limited set of :manpage:`doveadm(1)` subcommands is available to users with
 `sudo-srv` permission. Examples::
 
-   sudo -u vmail doveadm mailbox list -u user@domain
-   sudo -u dovecot doveadm auth test user@domain password
-
+   sudo doveadm mailbox list -u user@domain
+   sudo doveadm auth test user@domain password
+   sudo doveadm who
 
 Monitoring
 ----------
