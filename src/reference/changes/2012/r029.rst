@@ -1,0 +1,25 @@
+:Publish Date: 2012-09-26
+
+Release 2012-09-26
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201209-07 / icu
+  <http://www.gentoo.org/security/en/glsa/glsa-201209-07.xml>`_ (#11452).
+* Security update for `GLSA 201209-06 / expat
+  <http://www.gentoo.org/security/en/glsa/glsa-201209-06.xml>`_ (#11453).
+* Security update for `GLSA 201209-12 / libtasn1
+  <http://www.gentoo.org/security/en/glsa/glsa-201209-12.xml>`_ (#11458).
+  This update make a PostgreSQL restart necessary on all affected machines.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Also build managed python3-compatible python libs for python3.2, not only
+  python3.1.
+
+
+.. vim: set spell spelllang=en:

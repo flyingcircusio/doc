@@ -1,0 +1,23 @@
+:Publish Date: 2015-05-06
+
+Release 2015_023 (2015-05-06)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Upgrade app-text/ghostscript to 9.14 (#15556).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Increase nginx bucket size. Needs to happen in global config due to early
+  usage of our platform maps (#15516).
+
+* Do not inherit the locale environment from SSH connections. This can end
+  up with very confusing situations including breaking data consistency.
+
+* Roll out Consul base installation (#14919).
+
+.. vim: set spell spelllang=en:

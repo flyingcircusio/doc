@@ -1,0 +1,37 @@
+:Publish Date: 2013-03-14
+
+Release 2013-03-14
+------------------
+
+Packages
+^^^^^^^^
+
+* Add various XML extensions to the default PHP install.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Add safeguard against rare KVM host crashes due to failed processor MSR
+  read/writes (#12195).
+* Improve internal NTP server hierarchy to provide more stable system clocks on
+  VMs (#10580, #11540).
+* Disallow memory overcommit for increased safety. This may affect Redis
+  instances with very large allocations.
+* Fix bug where Apache's PHP configuration tends to disappear spontaneously
+  after package upgrades.
+* Drop discontinued NJABL blacklist for spam filtering.
+* Adjust RAID controller settings to reduce the chance of data losses after
+  machine crashes.
+
+
+Monitoring
+^^^^^^^^^^
+
+* Improve alerting error handling so that failures in sending out critical
+  alerts are escalated right away (#12190).
+* Add some flexibility for disk checks so that the 15% limit does not apply
+  blindly on very large volumes (#12036).
+
+
+.. vim: set spell spelllang=en:

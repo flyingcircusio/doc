@@ -1,0 +1,19 @@
+:Publish Date: 2014-09-25
+
+Release 2014_044 (2014-09-25)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201409-09 / bash
+  <http://www.gentoo.org/security/en/glsa/glsa-201409-09.xml>`_ (#13649).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix bug that triggered automated disk shrinks for no reason (RT 97881).
+
+
+.. vim: set spell spelllang=en:

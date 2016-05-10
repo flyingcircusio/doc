@@ -1,0 +1,30 @@
+:Publish Date: 2013-09-26
+
+Release 2013_026 (2013-09-28)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201309-16 / chromium v8
+  <http://www.gentoo.org/security/en/glsa/glsa-201309-16.xml>`_ (#12872).
+  Updated v8 and nodejs.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix interaction bug the services won't be restarted if the main configuration
+  run failed (RT 90981).
+* Changed IP addresses of ns.whq.gocept.net: 212.122.41.149 and
+  2a02:238:f030:102::1d.
+
+
+Monitoring
+^^^^^^^^^^
+
+* Refine disk checks to get more accurate warnings if disks run out of space
+  (#12834).
+
+
+.. vim: set spell spelllang=en:

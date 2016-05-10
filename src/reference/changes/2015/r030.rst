@@ -1,0 +1,22 @@
+:Publish Date: 2015-06-17
+
+Release 2015_030 (2015-06-17)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Install `ngrep` utility by default (#12945).
+* Upgrade Boost C++ libraries to 1.55.0 (#15797).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Extend fix that protects against udev-init scripts becoming corrupted
+  (#16072).
+* Move elasticsearch data directory to :file:`/srv/elasticsearch` (#11117).
+* Compress rotated elasticsearch logs (#16208).
+
+
+.. vim: set spell spelllang=en:

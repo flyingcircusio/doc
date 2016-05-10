@@ -1,0 +1,23 @@
+:Publish Date: 2015-07-23
+
+Release 2015_037 (2015-07-23)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Clean up deleted machines' packages from build servers automatically (#9680).
+* Improve scheduled PostgreSQL restart (#16413).
+* Ceph: improve automatic PG sizing (#16711).
+* Standardize UIDs for various system users like `messagebus` etc. (#16186).
+* Fix bug that allowed to register user names conflicting with system users.
+* Restart died system services like logstash automatically (#16772).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Fix megaraid_cache Nagios check (#16816)
+
+
+.. vim: set spell spelllang=en:

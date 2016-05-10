@@ -1,0 +1,28 @@
+:Publish Date: 2014-12-17
+
+Release 2014_058 (2014-12-17)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201412-12 / dbus <http://www.gentoo.org/security/en/glsa/glsa-201412-12.xml>`_ (#14063).
+* Security update for `GLSA 201412-27 / Ruby <http://www.gentoo.org/security/en/glsa/glsa-201412-27.xml>`_ (#14064).
+* Security update for `GLSA 201412-21 / mod_wsgi <http://www.gentoo.org/security/en/glsa/glsa-201412-21.xml>`_ (#14065).
+* Remove platform support for Tomcat (#14066).
+* Security update for `GLSA 201412-23 / nagios-core <http://www.gentoo.org/security/en/glsa/glsa-201412-23.xml>`_ (#14067).
+
+Configuration
+^^^^^^^^^^^^^
+
+* Disable automatic disk shrink due to kernel issues (#14050).
+* Adjust `smtpd_relay_restrictions` Postfix parameter which has been introduced by the OS update (#14072).
+
+
+Monitoring
+^^^^^^^^^^
+
+* The upgraded Nagios server has an improved web UI.
+
+
+.. vim: set spell spelllang=en:

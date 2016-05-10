@@ -1,0 +1,20 @@
+:Publish Date: 2015-06-04
+
+Release 2015_028 (2015-06-04)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Reboot all VMs to activate Qemu 2.2 which is not affected by the VENOM
+  vulnerability (#15748).
+* Allow selected SSH algorithms for key exchange (diffie-hellman-group14-sha1)
+  and MAC (hmac-sha1) which are helpful for compatibility with older clients
+  and are reasonably safe for now. (#15940, #15913, #15871)
+* Mails passed through mailing list servers are seen by amavis/spamassassin only
+  once now.
+* Create auxiliary mailboxes (Trash, Sent, Drafts) automatically on IMAP servers
+  (#15813).
+
+
+.. vim: set spell spelllang=en:

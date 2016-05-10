@@ -1,0 +1,20 @@
+:Publish Date: 2013-07-25
+
+Release 2013_017 (2013-07-25)
+-----------------------------
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Set ext4 errors behaviour to "remount-ro" to stop filesystem write access to
+  defective volumes (#12586).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Performance improvements in perfdata collection to reduce graphing latencies.
+
+
+.. vim: set spell spelllang=en:

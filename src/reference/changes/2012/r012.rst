@@ -1,0 +1,14 @@
+:Publish Date: 2012-05-09
+
+Release 2012-05-10
+------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Provide a convenience script 'slapimport' on OpenLDAP servers to automate
+  the 'slapadd, slapindex, chown' dance.
+* Increase hard limit for open files to 8192. Applications may increase their
+  soft limit on startup.
+
+.. vim: set spell spelllang=en:

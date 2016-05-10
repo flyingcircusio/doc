@@ -1,0 +1,25 @@
+:Publish Date: 2016-01-26
+
+Release 2016_003 (2016-01-26)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Update pmacctd to 1.5.2 (#17260)
+
+Configuration
+^^^^^^^^^^^^^
+
+* Managed traffic accounting setup on routers (#17260)
+* Improve Ceph OSD start procedure by locking the object map database (omap)
+  into memory (#18860).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Don't monitor RAID controllers on machines which don't have one (#19805)
+
+
+.. vim: set spell spelllang=en:

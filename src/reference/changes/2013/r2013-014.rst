@@ -1,0 +1,17 @@
+:Publish Date: 2013-06-21
+
+Release 2013_014 (2013-06-26)
+-----------------------------
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Introduce a new VLAN for storage backend communication in preparation for
+  the upcoming storage revamp (#12511).
+* Make postgrey actually obey the contents of the user-writable configuration
+  file `/etc/postfix/postgrey_whitelist_clients.local` (RT 89569).
+
+
+
+.. vim: set spell spelllang=en:

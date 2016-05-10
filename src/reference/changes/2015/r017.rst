@@ -1,0 +1,29 @@
+:Publish Date: 2015-03-30
+
+Release 2015_017 (2015-03-30)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201503-13 / BusyBox
+  <https://security.gentoo.org/glsa/201503-13>`_ (#15162).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Move haproxy configuration file to :file:`/etc/haproxy/haproxy.cfg` and make
+  directory writable by service users. This makes haproxy configuration easier
+  to manage with tools like Ansible. The old location is still accessible via a
+  symlink (#15030).
+* Make :file:`/etc/apparmor.d` writable for service users (#13408).
+* Enable MySQL query cache with 10MiB size by default (#15134).
+
+Documentation
+^^^^^^^^^^^^^
+
+* Mention new haproxy configuration location in :ref:`loadbalancer`.
+
+
+.. vim: set spell spelllang=en:

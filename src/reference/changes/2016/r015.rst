@@ -1,0 +1,38 @@
+.. XXX update on release :Publish Date: YYYY-MM-DD
+
+Release 2016_015 (unreleased)
+-----------------------------
+
+Impact
+^^^^^^
+
+* nothing yet
+
+Packages
+^^^^^^^^
+
+* Upgrade fc.agent to 1.9.3 (#21393).
+* Install dev-python/mysql-python on all MySQL servers to
+  assist Ansible deployments. (#21250)
+
+* NixOS: Add Java role (installs OpenJDK 8), see :ref:`nixos-java`.
+
+Configuration
+^^^^^^^^^^^^^
+
+* Provide the popular "ll" alias in bash by default.
+
+
+Monitoring
+^^^^^^^^^^
+
+* nothing yet
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* nothing yet
+
+
+.. vim: set spell spelllang=en:

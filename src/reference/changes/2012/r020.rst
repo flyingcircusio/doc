@@ -1,0 +1,22 @@
+:Publish Date: 2012-06-29
+
+Release 2012-06-29
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for sys-libs/pam: `GLSA 201206-31 / pam
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-31.xml>`_ (#11089).
+  PostgreSQL restart necessary.
+* Security update for www-client/links: `GLSA 201206-32 / Links
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-32.xml>`_ (#11110).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Increase retention time for :file:`/var/log/haproxy.log` to 60 days to help
+  debugging sporadic performance problems.
+
+.. vim: set spell spelllang=en:

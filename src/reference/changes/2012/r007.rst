@@ -1,0 +1,31 @@
+:Publish Date: 2012-03-29
+
+Release 2012-03-29
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for nginx: GLSA 201203-22.
+* Include the :command:`symlinks` command on all machines.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Improve mail server resistance against SMTP scans by limiting the number of
+  connections from a single client (#10309).
+* Don't force connections to the submission port to use StartTLS;
+  accept unencrypted connections with digest authentication (#10309).
+* Fix bug that caused broken ClamAV scanners on some mail servers.
+* Make :command:`ip` appear in :envvar:`PATH` for non-privileged users.
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Clarified in :ref:`userinit` that the init.d subdirectory must
+  correspond to the user name.
+
+
+.. vim: set spell spelllang=en:

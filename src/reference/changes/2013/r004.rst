@@ -1,0 +1,22 @@
+:Publish Date: 2013-03-21
+
+Release 2013-03-22
+------------------
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix bug in PostgreSQL's init script which caused rare PostgreSQL startup
+  failures.
+
+
+Monitoring
+^^^^^^^^^^
+
+* Massive improvements to our alerting infrastructure. Reworked the way SLA
+  critical alerts are processed to be prepared for more complex setups in the
+  future.
+
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,25 @@
+:Publish Date: 2015-02-11
+
+Release 2015_007 (2015-02-11)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201502-03 / bind
+  <http://www.gentoo.org/security/en/glsa/glsa-201502-03.xml>`_ (#14543).
+* Security update for `GLSA 201502-05 / tcpdump
+  <http://www.gentoo.org/security/en/glsa/glsa-201502-05.xml>`_ (#14533).
+* Security update for `GLSA 201502-07 / libevent
+  <http://www.gentoo.org/security/en/glsa/glsa-201502-07.xml>`_ (#14534).
+* Remove mod_passenger and use unicorn instead on puppet masters (#14508).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fully automate VM retirement (#13279).
+* Improve firewall code for better subnet isolation (#14487).
+
+
+.. vim: set spell spelllang=en:

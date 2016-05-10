@@ -1,0 +1,26 @@
+:Publish Date: 2015-07-09
+
+Release 2015_035 (2015-07-09)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for chrony: `GLSA 201507-01
+  <https://glsa.gentoo.org/glsa/201507-01>`_ (#16562).
+* Security update for icu: `GLSA 201507-04
+  <https://glsa.gentoo.org/glsa/201507-04>`_ (#16579).
+* Security update for libxml2 `GLSA 201507-08
+  <https://glsa.gentoo.org/glsa/201507-08>`_ (#16577).
+* Security update for sqlite `GLSA 201507-05
+  <https://glsa.gentoo.org/glsa/201507-05>`_ (#16578).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Added smtp4 as a postfix service for IPv4 only delivery (#16557).
+* Improve init scripts for storage servers to avoid resource overload (#16585).
+
+
+.. vim: set spell spelllang=en:

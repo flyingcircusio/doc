@@ -1,0 +1,20 @@
+:Publish Date: 2015-01-22
+
+Release 2015_003 (2015-01-22)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* update app-office/abiword to 3.0.0-r2. The old version (3.0.0-r1) crashed
+  when converting documents to PDF. (#14301)
+
+* Provide a workaround to allow older Pillow/PIL installations to work.
+
+Configuration
+^^^^^^^^^^^^^
+
+* Remove discontinued AHBL blacklist from SpamAssassin (#14303).
+
+
+.. vim: set spell spelllang=en:

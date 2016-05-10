@@ -1,0 +1,28 @@
+:Publish Date: 2013-06-14
+
+Release 2013_013 (2013-06-14)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* *puppetlabs-stdlib* 3.2.0 (#12500).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Re-apply mail access filters after Mailman so that addresses expanded from
+  mailing lists can be blocked individually (RT 89418).
+* Refine DHCP configuration so that statically allocated addresses are never
+  assigned dynamically (RT 89460).
+* Introduce new storage backend network for future Ceph integration (#12511).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* :ref:`hardware-specs` updated.
+
+
+.. vim: set spell spelllang=en:

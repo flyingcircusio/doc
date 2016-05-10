@@ -1,0 +1,21 @@
+:Publish Date: 2013-06-06
+
+Release 2013-06-06
+------------------
+
+Packages
+^^^^^^^^
+
+* Use better GTP partitioning tool `gptfdisk` on storage servers (#12386).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Improved resilience to node name spoofing in our systems automation (#12337).
+* Whitelist mails from outlook.com on mail servers. Our mail servers rejected
+  mail traffic from outlook.com partly because of incorrect DNS setups on
+  Microsoft's side (RT 89179).
+
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,43 @@
+:Publish Date: 2014-08-22
+
+Release 2014_041 (2014-08-22)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Move several in-house packages to https://bitbucket.org/flyingcircus --
+  this will act as a central location for all platform management code (#13577).
+
+* Security update for `GLSA 201408-10 / libgcrypt
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml>`_ (#13611).
+
+* Security update for `GLSA 201408-12 / apache
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml>`_ (#13614).
+
+* Security update for `GLSA 201408-09 / libtasn1
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml>`_ (#13613).
+
+* Security update for `GLSA GLSA 201408-13 / jinja
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml>`_ (#13620).
+
+* Security update for `GLSA GLSA 201409-03 / dhcpcd
+  <http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml>`_ (#13623).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Serialize Ceph daemon restarts if scheduled on multiple storage servers.
+* Move persistent varnish cache from tmpfs to /tmp (#13293).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Detect failed bootstrap image creation.
+* Turn off our own US and FR monitoring satellites (#13017).
+* Improve monitoring of disk problems on the controller level.
+
+
+.. vim: set spell spelllang=en:

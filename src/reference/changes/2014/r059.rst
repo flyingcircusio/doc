@@ -1,0 +1,31 @@
+:Publish Date: 2014-12-20
+
+Release 2014_059 (2014-12-20)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201412-16 / couchdb
+  <http://www.gentoo.org/security/en/glsa/glsa-201412-16.xml>`_ (#14100).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Improve PostgreSQL managed components (#13894).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Improve cross location check between data centers (#14110).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Fix :ref:`postgresql-server` role documentation (#13894).
+
+
+.. vim: set spell spelllang=en:

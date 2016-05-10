@@ -1,0 +1,49 @@
+:Publish Date: 2012-06-28
+
+Release 2012-06-28
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for net-libs/gnutls: `GLSA 201206-18 / GnuTLS
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-18.xml>`_ (#11063).
+* Security update for x11-libs/gdk-pixbuf: `GLSA 201206-20 / gdk-pixbuf
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-20.xml>`_ (#11064).
+* Security update for www-servers/tomcat: `GLSA 201206-24 / apache tomcat
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-24.xml>`_ (#11067).
+* Security update for www-servers/apache: `GLSA 201206-25 / apache
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-25.xml>`_ (#11068).
+* Security update for app-text/texlive-core `GLSA 201206-28 / TeX Live
+  <http://www.gentoo.org/security/en/glsa/glsa-201206-28.xml>`_ (#11088).
+* Upgrade additional packages to meet updated version
+  dependencies introduced by security updates metioned above:
+
+  * app-text/dvipsk-5.991_p20110705
+  * app-text/poppler-0.18.4
+  * app-text/ps2pkm-1.5_p20110705
+  * app-text/texlive-core-2011-r6
+  * dev-libs/boost-1.48.0-r2
+  * dev-libs/kpathsea-6.0.1_p20110705
+  * dev-tex/bibtexu-3.71_p20110705
+  * dev-texlive/texlive-basic-2011-r1
+  * dev-texlive/texlive-documentation-base-2011
+  * dev-texlive/texlive-latex-2011
+  * dev-tex/luatex-0.70.1
+  * dev-util/boost-build-1.48.0-r1
+  * sci-geosciences/mapnik-2.0.1
+  * sci-libs/gdal-1.8.1
+  * sci-libs/libgeotiff-1.4.0
+
+PostgreSQL restart may be necessary due to changed shared object dependencies.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix bug with apache2 crashing during upgrades.
+* Fix bug that caused failed binary package rebuilds not to be detected
+  (#11065).
+
+
+.. vim: set spell spelllang=en:

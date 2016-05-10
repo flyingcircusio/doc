@@ -1,0 +1,35 @@
+:Publish Date: 2016-04-11
+
+Release 2016_012 (2016-04-11)
+-----------------------------
+
+Impact
+^^^^^^
+
+* The OpenSSL upgrade causes restarts of all services that offer encryption.
+
+
+Packages
+^^^^^^^^
+
+* OpenSSL: update to 1.0.2g for `GLSA 201603-15
+  <https://security.gentoo.org/glsa/201603-15>`_ (#20792).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Change :ref:`box` directories from direct mountpoints to symbolic links
+  and autofs. This improves VM startup reliability (#19668).
+* Improve reliability of the VM bootstrap process.
+
+
+Monitoring
+^^^^^^^^^^
+
+* Remove temperature monitoring from ProCurve switches: not all of them
+  support it and the data is not useful enough to make the monitoring
+  configuration more complicated. (#18515)
+
+
+.. vim: set spell spelllang=en:

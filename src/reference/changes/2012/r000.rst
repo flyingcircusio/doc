@@ -1,0 +1,13 @@
+:Publish Date: 2012-01-13
+
+Release 2012-01-13
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for www-apache/mod_authnz_external: CVE-2011-2688 (#10165).
+* Security update for dev-db/phpmyadmin: GLSA2012-01 (#10166).
+
+
+.. vim: set spell spelllang=en:
