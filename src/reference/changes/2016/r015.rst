@@ -1,12 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-05-10
 
-Release 2016_015 (unreleased)
+Release 2016_015 (2016-05-10)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
 
 Packages
 ^^^^^^^^
@@ -21,18 +16,6 @@ Configuration
 ^^^^^^^^^^^^^
 
 * Provide the popular "ll" alias in bash by default.
-
-
-Monitoring
-^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
