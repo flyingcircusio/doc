@@ -1,0 +1,14 @@
+:Publish Date: 2013-08-30
+
+Release 2013_022 (2013-08-30)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201308-06 / mysql
+  <http://www.gentoo.org/security/en/glsa/glsa-201308-06.xml>`_ (#12776).
+  A MySQL service restart is necessary during the update.
+
+
+.. vim: set spell spelllang=en:

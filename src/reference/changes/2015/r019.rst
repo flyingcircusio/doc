@@ -1,0 +1,25 @@
+:Publish Date: 2015-04-13
+
+Release 2015_019 (2015-04-13)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Managed NFS shared directory role (#13340).
+* Remove systemtap as is tends to break libc6 builds (#15049).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Exclude non-admin users from logcheck notifications (#14900).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Update :ref:`NFS` role documentation.
+
+
+.. vim: set spell spelllang=en:

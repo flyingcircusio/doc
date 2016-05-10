@@ -1,0 +1,19 @@
+:Publish Date: 2014-05-14
+
+Release 2014_024 (2014-05-14)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201405-06 / openssh
+  <http://www.gentoo.org/security/en/glsa/glsa-201405-06.xml>`_ (#13405).
+
+Documentation
+^^^^^^^^^^^^^
+
+* Add :ref:`lamp` stack role documentation.
+* Improve VM :ref:`jump host <jumphost>` documentation to fix circular
+  host/proxy reference.
+
+.. vim: set spell spelllang=en:

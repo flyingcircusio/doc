@@ -1,0 +1,30 @@
+:Publish Date: 2011-12-09
+
+Release 2011-12-09
+------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Upgrade to Puppet 2.6. This involves PostgreSQL restarts due to changed flags
+  (#8821).
+* Allow the document conversion role (pspdf) to be applied to physical machines
+  as well (RT 80061).
+* Allow MySQL installations to be managed by service users (RT 80132).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Shorten time required for Nagios restarts to avoid monitoring "holes" (#9665).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Add `RSS feed`_ for documentation updates (#9789).
+
+.. _RSS feed: ../../../../rss.xml
+
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,29 @@
+:Publish Date: 2014-04-07
+
+Release 2014_018 (2014-04-07)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Add FastCGI Process Manager (FPM) for PHP (#12901).
+* Add XKCD font "Humor" to support XKCD-style matplotlib charts (#13324).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Provide bitbucket's and gocept's code repository HTTPS host fingerprints
+  (#13304).
+* Do not force unmanaged rsync servers to be switched off in preparation of
+  adding rsync-based log-shipping for nginx servers (#13329).
+* Rework user management to talk directly to gocept.directory instead of
+  querying LDAP (#13278).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Monitor IP DNS blacklisting on all postfix mail servers (#9110).
+
+.. vim: set spell spelllang=en:

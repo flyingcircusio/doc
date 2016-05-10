@@ -1,0 +1,18 @@
+:Publish Date: 2014-02-14
+
+Release 2014_009 (2014-02-20)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201402-08 / stunnel
+  <http://www.gentoo.org/security/en/glsa/glsa-201402-08.xml>`_ (#13213).
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix race condition during VM live migration.
+
+
+.. vim: set spell spelllang=en:

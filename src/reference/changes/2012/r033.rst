@@ -1,0 +1,14 @@
+:Publish Date: 2012-10-18
+
+Release 2012-10-18
+------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Correct error in yesterday's awstats update that caused awstats to stop
+  working (#11363).
+* Postfix also obeys access restrictions on the submission port now (RT 85520).
+
+
+.. vim: set spell spelllang=en:

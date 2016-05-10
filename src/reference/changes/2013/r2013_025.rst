@@ -1,0 +1,15 @@
+:Publish Date: 2013-09-25
+
+Release 2013_025 (2013-09-25)
+-----------------------------
+
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201309-11 / subversion
+  <http://www.gentoo.org/security/en/glsa/glsa-201309-11.xml>`_ .
+* Security update for `GLSA 201309-12 / apache
+  <http://www.gentoo.org/security/en/glsa/glsa-201309-12.xml>`_ .
+
+.. vim: set spell spelllang=en:

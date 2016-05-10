@@ -1,0 +1,14 @@
+:Publish Date: 2015-09-21
+
+Release 2015_043 (2015-09-21)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Replace old "directory.gocept.net" name with "directory.fcio.net".
+* Provide a fix that will restart varnish if it fails to automatically
+  restart its child. (#16618)
+
+
+.. vim: set spell spelllang=en:

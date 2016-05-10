@@ -1,0 +1,40 @@
+:Publish Date: 2014-12-15
+
+Release 2014_057 (2014-12-15)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201412-03 / dovecot
+  <http://www.gentoo.org/security/en/glsa/glsa-201412-03.xml>`_ (#13977).
+* Security update for `GLSA 201412-05 / clamav
+  <http://www.gentoo.org/security/en/glsa/glsa-201412-05.xml>`_ (#13995).
+* Security update for `GLSA 201412-06 / libxml2
+  <http://www.gentoo.org/security/en/glsa/glsa-201412-06.xml>`_ (#13996). May
+  require restart of PostgreSQL instances.
+* Upgrade nginx to 1.7.6, including improved SSL handling and mod_security 2.8
+  (#13419).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Lower retention period for web server logs to 3 months (#13965).
+* Fix bug in disk resize code which increased grow times unnecessarily (#13930).
+* iptables are now reloaded regularly (#13879).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Reduce level of Nagios noise from unavailable Puppet servers (#13965).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* :ref:`modsecurity` (#13419).
+
+
+.. vim: set spell spelllang=en:

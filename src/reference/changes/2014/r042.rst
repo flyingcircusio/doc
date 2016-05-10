@@ -1,0 +1,41 @@
+:Publish Date: 2014-09-04
+
+Release 2014_042 (2014-09-04)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+
+* Security update for `GLSA 201408-18 / nrpe
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-18.xml>`_ (#13610).
+
+* Security update for `GLSA 201408-10 / libgcrypt
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml>`_ (#13611).
+
+* Security update for `GLSA 201409-02 / net-snmp
+  <http://www.gentoo.org/security/en/glsa/glsa-201409-02.xml>`_ (#13619).
+
+* Security update for `GLSA 201408-12 / apache
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml>`_ (#13614).
+
+* Security update for `GLSA 201408-15 / postgresql-server
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-15.xml>`_ (#13616).
+
+* Security update for `GLSA 201408-09 / libtasn1
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml>`_ (#13613).
+
+* Security update for `GLSA 201408-08 / file
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-08.xml>`_ (#13612).
+
+* Security update for `GLSA 201408-11 / php
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-11.xml>`_ (#13617).
+
+* Security update for `GLSA 201408-13 / jinja
+  <http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml>`_ (#13620).
+
+* Security update for `GLSA 201409-03 / dhcpcd
+  <http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml>`_ (#13623).
+
+
+.. vim: set spell spelllang=en:

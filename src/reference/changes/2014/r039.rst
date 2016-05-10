@@ -1,0 +1,21 @@
+:Publish Date: 2014-08-07
+
+Release 2014_039 (2014-08-07)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Prepare KVM init scripts for improved live migration (#13229).
+* Make backup scheduling more resilient against unresponsive VMs (RT 96877).
+* Improve Ceph OSD restart to avoid blocked requests and fix a live-lock
+  condition (RT 96886).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Monitor Ceph storage cluster more closely for blocked requests (#12589).
+
+
+.. vim: set spell spelllang=en:

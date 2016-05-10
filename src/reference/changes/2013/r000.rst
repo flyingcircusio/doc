@@ -1,0 +1,15 @@
+:Publish Date: 2013-01-10
+
+Release 2013-01-10
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for `GLSA 201301-02 / haproxy
+  <http://www.gentoo.org/security/en/glsa/glsa-201301-02.xml>`_ (#11853).
+* Security update for `GLSA 201301-06 / ISC DHCP Server
+  <http://www.gentoo.org/security/en/glsa/glsa-201301-06.xml>`_ (#11855).
+
+
+.. vim: set spell spelllang=en:

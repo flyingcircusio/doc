@@ -1,0 +1,70 @@
+Vertrag zur Auftragsdatenverarbeitung
+
+- Gegenstand / Dauer / Beendigung
+
+- Art, Umfang und Zweck
+
+- zulaessigkeit von unterauftragsverhaeltnissen
+
+- umfang der weisungsrechte des auftraggebers
+    - keine weisungsrechte
+
+- preise
+
+- haftungsbeschraenkung
+
+- kontrollrechte des auftraggebers
+
+- sanktionen bei verstoessen des auftragnehmers gegen den vertrag
+
+- Leistungsbeschreibung
+    - public cloud
+    - infrastructure + platform
+    - einschliesslich flexibilitaet und skalierbarkeit
+    - abgrenzung zu leistungsaenderungen
+    - nur grober umriss im  vertrag, weiteres in separatem dokument, verweis
+      dorthin
+    - workflow wie aenderungen ausgerollt/angekuendigt werden
+      und dies mit sonderkuendigungsrechten zusammenspielt
+
+- sla
+    - regelung der rechtsfolgen
+
+- datenschutz / datensicherheit
+    - datenuebermittlung ist nicht bei uns sondern beim auftraggeber
+
+    - technische massnahmen nach §9 BDSG
+
+        - genaue festlegung der massnahmen zu
+            (siehe praesentation arnd broeken, graf von westphalen)
+            - zutrittskontrolle
+            - zugangskontrolle
+            - zugriffskontrolle
+            - weitergabekontrolle
+            - eingabekontrolle
+            - auftragskontrolle
+            - verfuegbarkeitskontrolle
+            - trennungskontrolle
+
+    - datenuebermittlung in drittstaaten
+        - fuer monitoring/performance-messungszwecke einzelne laden, die daten
+          beinhalten koennen und von denen teile auch zeitweise dort geloggt werden
+          koennen (eventuell als interessenabtregung noch §28 abs1 bdsg)
+
+
+    - laufendes berichtswesen
+
+
+- datensicherheit
+
+- betriebsausfallrisikio / notfallmanagement
+
+    
+
+- exit management
+
+- mietvertragsproblematik
+
+- indemnification / freistellung von rechtsanspruechen
+
+

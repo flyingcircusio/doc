@@ -1,0 +1,27 @@
+:Publish Date: 2014-12-10
+
+Release 2014_056 (2014-12-10)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Introduce packaging for ``fc.mcollective`` which contains Flying Circus
+  <-> mcollective integrations (#13867).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Allow service users and users granted sudo-srv permissions to run
+  localconfig with sudo to speed up configuration changes. (#13879)
+
+
+Monitoring
+^^^^^^^^^^
+
+* Increase warning limits for HDD media errors to 50. Thomas Krenn advised us
+  that this is the threshold where RMAs are definitely valid. (#13895)
+
+
+.. vim: set spell spelllang=en:

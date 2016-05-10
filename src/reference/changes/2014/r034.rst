@@ -1,0 +1,29 @@
+:Publish Date: 2014-07-09
+
+Release 2014_034 (2014-07-09)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Switch to custom *libreoffice* build since the binary package causes shared
+  library incompatibilities (RT 96271).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Check PostgreSQL and MySQL databases for consistency. Each machine will
+  schedule a maintenance job (#13496).
+* Check all installed OS files against portage checksums (#13496).
+* Reindex all LDAP databases (#13496).
+* Increase default varnish cache size to 1GiB using a file-based,
+  memory-mapped storage.
+
+Monitoring
+^^^^^^^^^^
+
+* Improve physical disk monitoring to detect correctable media errors early
+  (#13496).
+
+.. vim: set spell spelllang=en:

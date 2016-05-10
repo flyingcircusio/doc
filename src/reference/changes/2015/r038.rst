@@ -1,0 +1,23 @@
+:Publish Date: 2015-07-30
+
+Release 2015_038 (2015-07-30)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Security update for libXfont `GLSA 201507-21
+  <https://glsa.gentoo.org/glsa/201507-21>`_ (#16837).
+* Security update for e2fsprogs `GLSA 201507-22
+  <https://glsa.gentoo.org/glsa/201507-22>`_ (#16853).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Introduce new chapter :ref:`logging <logging>` that deals with using and
+  configuring our managed ELK stack (see :ref:`Loghost <loghost>`) (#16130).
+* Simplify :ref:`Loghost <loghost>` documentation (#16130).
+
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,21 @@
+:Publish Date: 2016-01-15
+
+Release 2016_001 (2016-01-18)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Update `backy` to version 2.1 (#19532, #13456).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Migrate Ceph MON data stores into own LVM volumes for improved performance
+  (#18803).
+* Turn off SSH roaming support which is affected by the "triple seven" bug
+  (#19764).
+
+
+.. vim: set spell spelllang=en:

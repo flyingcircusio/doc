@@ -1,0 +1,24 @@
+:Publish Date: 2013-03-27
+
+Release 2013-03-28
+------------------
+
+Packages
+^^^^^^^^
+
+* `libreoffice-bin` 3.6.4 for document conversion (RT 87751).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* User-writable snippet directory :file:`/etc/mysql/local` as
+  integration point for :file:`/etc/mysql/my.cnf` additions.
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* :ref:`mysql-server`
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,37 @@
+:Publish Date: 2012-12-14
+
+Release 2012-12-17
+------------------
+
+Packages
+^^^^^^^^
+
+* Managed ejabberd installation (#11446).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Default configuration for ejabberd together with integration point to inject
+  custom ejabberd configuration (#11446).
+* Reorder local configure scripts to improve timeliness of scheduled maintenance
+  runs (#9504).
+* Make mail servers' DNS lookup mechanism more robust against DNS hiccups
+  (RT86188).
+* Add *en_ZA* to the list of locales supported by default (RT86245).
+
+
+Monitoring
+^^^^^^^^^^
+
+* Ejabberd port and process monitoring (#11446).
+* Improved hardware health monitoring via IPMI for TK servers (#7651).
+* Fixed bug where disk usage graphs got stuck (#11697).
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* :ref:`jabber` server role documentation
+
+.. vim: set spell spelllang=en:

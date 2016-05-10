@@ -1,0 +1,26 @@
+:Publish Date: 2011-12-21
+
+Release 2011-12-21
+------------------
+
+Packages
+^^^^^^^^
+
+* Extend the document conversion role (pspdf) to include abiword, htmltidy and
+  corefonts by default (#10046).
+* Install virtualenv on all customer VMs by default (#10004).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Log long running PostgreSQL queries (>10s) by default to enable post-mortem
+  analysis of performance problems. PostgreSQL restart required (#10111).
+* Tune PostgreSQL FSM settings for PostgreSQL 8.2. PostgreSQL restart required
+  (RT 80418).
+* Speed up VM creation process further through improved Puppet certificate
+  sign process and refined DHCP configuration (#5816, #9541).
+* Adjust Tomcat limits to allow dynamic reloading to consume more memory (RT
+  80507).
+
+.. vim: set spell spelllang=en:

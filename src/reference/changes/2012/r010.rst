@@ -1,0 +1,26 @@
+:Publish Date: 2012-04-18
+
+Release 2012-04-18
+------------------
+
+Packages
+^^^^^^^^
+
+* Security update for FreeType: Multiple vulnerabilities GLSA 201204-04 (#10778).
+* Security update for SWFTools: User-assisted execution of arbitrary code GLSA 201204-05 (#10778).
+* Security update for Perl DBD-Pg Module: Arbitrary code execution GLSA 201204-08 (#10778).
+
+.. note::
+
+   These update may involve PostgreSQL restarts depending on the set of packages
+   actually installed on a machine.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* LDAP: additional index to speed up substring uid matches.
+* Increase number of maximum allowed PostgreSQL connections to 200 to
+  accommodate large installations.
+
+.. vim: set spell spelllang=en:

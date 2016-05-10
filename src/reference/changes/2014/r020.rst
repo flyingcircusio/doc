@@ -1,0 +1,24 @@
+:Publish Date: 2014-04-14
+
+Release 2014_020 (2014-04-14)
+-----------------------------
+
+Packages
+^^^^^^^^
+
+* Upgrade Squirrelmail on https://mail.gocept.net/webmail/ to snapshot
+  2014-04-09 to solve a PHP 5.4 bug (RT 94654).
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Change UID/GID of :program:`redis` to 120 to prevent UID/GID collisions with
+  portmap. A restart of redis may be necessary (#13157).
+* Fix bug in user management code which led to missing access rights for FC
+  administrators (RT 94745).
+* Whitelist managed Outlook's outgoing mail relays from greylisting since they
+  use another IP address for every delivery attempt (RT 94761).
+
+
+.. vim: set spell spelllang=en:

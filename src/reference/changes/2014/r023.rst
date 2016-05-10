@@ -1,0 +1,20 @@
+:Publish Date: 2014-04-30
+
+Release 2014_023 (2014-04-30)
+-----------------------------
+
+Configuration
+^^^^^^^^^^^^^
+
+* Fix another regression on unicode handling in the localconfig-users code
+  and improve test coverage.
+* Switch testrunner for "gocept.net" utility code to py.test.
+
+
+Monitoring
+^^^^^^^^^^
+
+* Fix bug in PuppetDB configuration that caused restricted machines disappearing
+  from the monitoring.
+
+.. vim: set spell spelllang=en:

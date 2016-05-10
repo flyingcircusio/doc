@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import collections
+import glob
+import os
+import re
+import subprocess
+
+
+class Release(collections.namedtuple('Release', ['year', 'num'])):
+    """ChangeLog infrastructure for a specific release."""
+
+    @property
+    def id(self):
+        """Release ID without leading 'r'."""
+        return '{}_{:03n}'.format(self.year, self.num)
+
+    @property
+    def filename(self):
+        """Where the ChangeLog for this release resides."""
+        return 'src/reference/changes/{}/r{:03n}.rst'.format(
+            self.year, self.num)
+
+    def read_changelog(self):
+        """Returns ChangeLog contents."""
+        with open(self.filename, 'r') as f:
+            return f.read()
+
+    def write_changelog(self, string):
+        """Replaces ChangeLog with `string`."""
+        with open(self.filename, 'w') as f:
+            f.write(string)
+
+
+def last_release():
+    candidates = glob.glob('src/reference/changes/{}/r*.rst'.format(
+        datetime.date.today().year))
+    candidates.sort()
+    try:
+        last = candidates[-1]
+    except IndexError:
+        raise RuntimeError('cannot handle new year yet -- edit manually')
+    last = os.path.basename(last).split('.')[0].lstrip('r')
+    last = int(last, 10)
+    return Release(datetime.date.today().year, last)
+
+
+def finalize_old_changelog(last_release, release_date):
+    text = last_release.read_changelog()
+
+    r_publish_date = re.compile(
+        r'^\.\. XXX update on release :Publish Date: YYYY-MM-DD')
+    text = r_publish_date.sub(':Publish Date: {}'.format(release_date), text)
+
+    r_headline = re.compile(r'(Release ...._...) \(unreleased\)\n-{6,40}')
+    text = r_headline.sub(r'\1 ({})\n-----------------------------'.format(
+        release_date), text)
+
+    r_empty_sec = re.compile(r'^.{6,40}\n\^{6,40}\n+^\* nothing yet\n+', re.M)
+    text = r_empty_sec.sub('', text, count=4)
+    last_release.write_changelog(text)
+
+
+def prepare_new_changelog(new_release):
+    print('Preparing release {}'.format(new_release.id))
+    with open('src/reference/changes/skel') as f:
+        changes = f.read()
+    changes = changes.replace('YYYY_NNN', new_release.id)
+    new_release.write_changelog(changes)
+    subprocess.check_call(['hg', 'add', new_release.filename])
+
+    if os.path.lexists('CHANGES.rst'):
+        os.unlink('CHANGES.rst')
+    os.symlink(new_release.filename, 'CHANGES.rst')
+
+
+def update_index(last, new):
+    new_line = ''
+    last_index = 'r{:03n}'.format(last.num)
+    year = datetime.date.today().year
+    with open('src/reference/changes/{}/index.rst'.format(year)) as index:
+        for line in index.readlines():
+            if last_index in line:
+                new_line = line.replace(last_index, 'r{:03n}'.format(new.num))
+                break
+    with open('src/reference/changes/{}/index.rst'.format(year),
+              'a') as index:
+        index.write(''.join(new_line))
+
+
+def main():
+    a = argparse.ArgumentParser()
+    a.add_argument('release_date', nargs='?',
+                   default=datetime.date.today().strftime('%Y-%m-%d'),
+                   help='set planned roll-out date (default: %(default)s)')
+    args = a.parse_args()
+    last = last_release()
+    new = Release(datetime.date.today().year, last.num + 1)
+    finalize_old_changelog(last, args.release_date)
+    prepare_new_changelog(new)
+    update_index(last, new)
+    print('Committing changes')
+    subprocess.check_call([
+        'hg', 'commit', '-m', 'finalize changelog r{}, create r{}'.format(
+            last.id, new.id)])
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,19 @@
+:Publish Date: 2012-08-13
+
+Release 2012-08-13
+------------------
+
+Packages
+^^^^^^^^
+
+* Provide :program:`mosh` for convenient interactive access over flaky links.
+
+
+Configuration
+^^^^^^^^^^^^^
+
+* Improve DNS resolver setup further: avoid rare cases where DNS resolution
+  fails during DSL link outages (RT 84234).
+
+
+.. vim: set spell spelllang=en:
