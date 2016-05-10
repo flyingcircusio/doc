@@ -8,20 +8,15 @@ Impact
 
 * nothing yet
 
-Packages
-^^^^^^^^
+
+NixOS platform
+^^^^^^^^^^^^^^
 
 * nothing yet
 
 
-Configuration
-^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Monitoring
-^^^^^^^^^^
+Gentoo platform
+^^^^^^^^^^^^^^^
 
 * nothing yet
 
@@ -31,5 +26,14 @@ Documentation
 
 * nothing yet
 
+
+References
+^^^^^^^^^^
+
+* NixOS source:
+  https://github.com/flyingcircusio/nixpkgs/commit/{COMMIT}
+
+* Puppet source:
+  https://bitbucket.org/flyingcircus/fc.platform/commits/{COMMIT}
 
 .. vim: set spell spelllang=en:
