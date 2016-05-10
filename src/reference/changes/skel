@@ -31,9 +31,9 @@ References
 ^^^^^^^^^^
 
 * NixOS source:
-  https://github.com/flyingcircusio/nixpkgs/commit/{COMMIT}
+  https://github.com/flyingcircusio/nixpkgs/commit/{TBA}
 
 * Puppet source:
-  https://bitbucket.org/flyingcircus/fc.platform/commits/{COMMIT}
+  https://bitbucket.org/flyingcircus/fc.platform/commits/{TBA}
 
 .. vim: set spell spelllang=en:

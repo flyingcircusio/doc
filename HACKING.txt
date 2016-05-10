@@ -1,0 +1,17 @@
+How to develop docs locally
+===========================
+
+Create environment
+------------------
+
+    virtualenv -p python2.7 .
+    ./bootstrap.py
+    bin/buildout
+
+Build docs
+----------
+
+    make
+
+
+.. vim: set ft=rst:

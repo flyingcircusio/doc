@@ -43,7 +43,6 @@ We are here to help. Here is how to get in touch with us:
 * Check our `status page <http://status.flyingcircus.io/>`_
 * Check updates in our :doc:`/reference/changes/index`
 * Check our twitter feed `@flyingcircus <http://twitter.com/flyingcircusio>`_
-* Chat with us using the "Chat with us" box on the lower right of this site.
 * Call us at `+49 345 219401-0 <tel:+49 345 2194010>`_
 
 

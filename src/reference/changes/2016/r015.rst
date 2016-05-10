@@ -18,4 +18,13 @@ Configuration
 * Provide the popular "ll" alias in bash by default.
 
 
+References
+^^^^^^^^^^
+
+* NixOS source:
+  https://github.com/flyingcircusio/nixpkgs/commit/{TBA}
+
+* Puppet source:
+  https://bitbucket.org/flyingcircus/fc.platform/commits/{TBA}
+
 .. vim: set spell spelllang=en:
