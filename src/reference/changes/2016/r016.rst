@@ -6,7 +6,8 @@ Release 2016_016 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* The Apache 2.4 upgrade may require updating custom Apache configuration files
+  in :file:`/etc/apache2/local`.
 
 
 NixOS platform
@@ -18,7 +19,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Allow service users to run doveadm via sudo (#21485)
+* Upgrade Apache to 2.4 to get up-to-date encryption support. (#20447)
+* Allow service users to run doveadm via sudo. (#21485)
 
 
 Documentation
