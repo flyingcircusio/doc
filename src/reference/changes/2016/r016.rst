@@ -16,6 +16,8 @@ NixOS platform
 * Improve monitoring of managed MySQL/Percona instances. (#21337)
 * Fix monitoring bug where NixOS VMs running in a project specific environment
   were incorrectly reported as broken. (#21511)
+* Fix systemd user unit management so that users can place own unit files in
+  /etc/local/systemd. (#20984)
 
 
 Gentoo platform
