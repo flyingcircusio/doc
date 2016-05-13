@@ -13,7 +13,9 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve monitoring of managed MySQL/Percona instances. (#21337)
+* Fix monitoring bug where NixOS VMs running in a project specific environment
+  were incorrectly reported as broken. (#21511)
 
 
 Gentoo platform
