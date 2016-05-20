@@ -6,26 +6,30 @@ Release 2016_016 (unreleased)
 Impact
 ^^^^^^
 
-* The Apache 2.4 upgrade may require updating custom Apache configuration files
-  in :file:`/etc/apache2/local`.
+* The Apache 2.4 upgrade has compatibility modules to version 2.2 activated,
+  but we recommend you to review your configuration files
+  in :file:`/etc/apache2/local` after the update
+  and review deprecation warnings in :file:`/var/log/apache2/error.log`.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Improve monitoring of managed MySQL/Percona instances. (#21337)
-* Fix monitoring bug where NixOS VMs running in a project specific environment
-  were incorrectly reported as broken. (#21511)
-* Fix systemd user unit management so that users can place own unit files in
-  /etc/local/systemd. (#20984)
 
+* Relax monitoring limits for system load.
+
+* Set an explicit shell timeout to discontinue shells that are stuck in
+  broken SSH connections.
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Upgrade Apache to 2.4 to get up-to-date encryption support. (#20447)
 * Allow service users to run doveadm via sudo. (#21485)
-
+* Fix router runlevel switch on failure.
+* Fix detection of ENC environment class.
+* Add conffile rule for /etc/filesystems.
 
 Documentation
 ^^^^^^^^^^^^^
