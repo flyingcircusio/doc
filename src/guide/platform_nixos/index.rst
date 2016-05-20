@@ -16,9 +16,10 @@ more memory for larger applications.
 
    base
    local
+   systemd
    cron
+   logrotate
    firewall
    java
-   logrotate
    mysql
    postgresql

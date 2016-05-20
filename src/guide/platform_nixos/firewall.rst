@@ -24,7 +24,7 @@ that all lines are either:
 
 Here's an example:
 
-.. code-block: bash
+.. code-block:: bash
 
     # Enable port 1234 to be accessed on the frontend network via
     # IPv4 and IPv6
