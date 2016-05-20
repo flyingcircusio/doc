@@ -28,3 +28,4 @@ parts/
 *.sw?
 tags
 .todo
+pip-selfcheck.json
