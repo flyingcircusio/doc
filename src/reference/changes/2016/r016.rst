@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-05-20
 
-Release 2016_016 (unreleased)
+Release 2016_016 (2016-05-20)
 -----------------------------
 
 Impact
@@ -30,12 +30,6 @@ Gentoo platform
 * Fix router runlevel switch on failure.
 * Fix detection of ENC environment class.
 * Add conffile rule for /etc/filesystems.
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 References
 ^^^^^^^^^^
