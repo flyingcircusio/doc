@@ -77,7 +77,9 @@ transports. For example, a transport line ::
 
 causes all mails sent to a virtual domain being piped into the executable
 :file:`~webapp/bin/deliver`. The local delivery script is called for every
-incoming mail with the parameters::
+incoming mail with the parameters
+
+.. code-block:: console
 
    $HOME/bin/deliver -f $sender $nexthop $recipient [$recipient ...]
 
@@ -136,7 +138,7 @@ Postfix configuration::
 Greylisting
 ^^^^^^^^^^^
 
-By default external mail servers have to pass `greylisting`_ when delivering 
+By default external mail servers have to pass `greylisting`_ when delivering
 mail for the first time. Service users may whitelist specific clients or
 recipients by setting a whiteliste rule in
 :file:`/etc/postfix/postgrey_whitelist_clients.local` or
@@ -146,7 +148,7 @@ recipients by setting a whiteliste rule in
 To put changes into effect, invoke :command:`sudo /etc/init.d/postgrey restart`
 as service user.
 
-.. _greylisting: http://projects.puremagic.com/greylisting/ 
+.. _greylisting: http://projects.puremagic.com/greylisting/
 .. _postgrey man page: http://linux.die.net/man/8/postgrey
 
 Interaction
@@ -155,7 +157,7 @@ Interaction
 * To put changed postfix maps and aliases into effect, invoke :command:`sudo
   /etc/init.d/postfix reload` as service user.
 * Use :command:`sudo saslpasswd2` to edit the Postfix authentication database
-  as service user. (see :manpage:`saslpasswd2(8)`). Note that the :option:`-f`
+  as service user. (see :manpage:`saslpasswd2(8)`). Note that the :literal:`-f`
   option is not allowed. Use :command:`sudo sasldblistusers2` to inspect the
   SASL authentication database.
 
