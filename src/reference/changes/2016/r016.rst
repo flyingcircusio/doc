@@ -1,6 +1,6 @@
-:Publish Date: 2016-05-20
+:Publish Date: 2016-05-23
 
-Release 2016_016 (2016-05-20)
+Release 2016_016 (2016-05-23)
 -----------------------------
 
 Impact
@@ -21,6 +21,17 @@ NixOS platform
 
 * Set an explicit shell timeout to discontinue shells that are stuck in
   broken SSH connections.
+
+* Fix monitoring bug where NixOS VMs running in a project specific environment
+  were incorrectly reported as broken. (#21511)
+
+* Fix systemd user unit management so that users can place own unit files in
+  /etc/local/systemd. (#20984)
+
+* Introduce a timeout for the :literal:`fc-manage` job. (#21538)
+
+* Add Sensu monitoring for managed MongoDB instances. (#21336)
+
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
