@@ -23,3 +23,4 @@ more memory for larger applications.
    java
    mysql
    postgresql
+   datadog
