@@ -27,6 +27,7 @@ Guide
    guide/users/index
    guide/vms/index
    guide/networking/index
+   guide/infrastructure/index
    guide/platform_gentoo/index
    guide/platform_nixos/index
    guide/deployment/index
