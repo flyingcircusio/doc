@@ -1,33 +1,34 @@
-.. _storage:
+.. _infrastructure-storage:
 
 Storage
 =======
 
-Terminology
+VM storage is provided by a Ceph cluster. Each block device visible in VMs
+(e.g., :file:`/dev/vda` or :file:`/dev/sda`) reflects an underlying Ceph `RBD
+volume`_.
+
+.. _RBD volume: http://docs.ceph.com/docs/master/architecture/
+
+Disk Layout
 -----------
 
-Disk quota
-	Restriction of usable disk space. The function of using disk quotas is to allocate limited disk space.
-Nagios
-	A monitoring and alerting service for servers
+Each RBD volume contains a complete virtual disk image consisting of a partition
+table and one or more filesystems. We use both XFS and ext4 filesystems in VMs.
 
 
-:ref:`platform-gentoo`
-``````````````````````
+Growing and shrinking disks
+---------------------------
 
-It's possible to grow the disk to the desired size. Unfortunately this isn't the case for shrinking the disk. After resizing the disk to a smaller size we don't change anything about the machine configuration itself but inform the nagios checks about the new disk size. Using tools like **df** or **lsblk** won't reflect those changes.
+Such a virtual disk is quite easy to grow but not so easy to shrink.
 
-:ref:`platform-nixos`
-`````````````````````
+When *growing* a virtual disk, we enlarge the underlying RBD volume, adapt the
+partition table and resize the main filesystem. This procedure is fully
+transpart and can be performed without downtime.
 
-Growing the disk works the same as on our Gentoo based plattform. Shrinking is realized by changing the allowed disk quota. Changes in the quota rules are reflected by command line tools and hence should no longer lead to confusion by the user.
-
-
-Hands-On
---------
-
-Showing the size of the root-partition. *Hint: Currently only useful on NixOS*
-
-.. code-block:: console
-
-   $ lsblk -n --output SIZE /dev/disk-by-label/root
+*Shrinking* a virtual disk is not directly supported. On customer request, we
+install a filesystem quota to ensure that no more space is used than booked. On
+newer :ref:`NixOS VMs <platform-nixos>` with XFS filesystems, tools like
+:command:`df` report that reduced size correctly. Older, :ref:`Gentoo-based VMs
+<platform-gentoo>` with ext4 filesystems are not so smart; :command:`df` still
+reports the old size even when a quota is installed.  Nonetheless, we will
+monitor disk usage on basis of the reduced disk size.
