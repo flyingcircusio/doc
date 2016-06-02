@@ -24,6 +24,16 @@ NixOS platform
 * Switch bootstrapping to Ceph cloning to further speed up creation of new
   VMs.
 
+* Password authentication was accidentally enabled for SSHD and is disabled
+  again.
+
+* Machines automatically get a local SSMTP configuration that uses a resource
+  group's mail server if it exists.
+
+* Add ``mc`` to the default package list.
+
+* Install ``innotop`` on MySQL servers.
+
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
