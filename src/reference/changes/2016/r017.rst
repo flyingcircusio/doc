@@ -6,13 +6,23 @@ Release 2016_017 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
-
+* We do not expect any noticable impact.
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Generously increase file and process limit for MongoDB.
+
+* Fix swap file usage in Vagrant base images. (#21522)
+
+* Provide a simplified and more useful version of the
+  ``local.nix`` template on new nodes.
+
+* Provide role to enable the `datadog <https://www.datadoghq.com>`_ agent
+  and support custom configuration.
+
+* Switch bootstrapping to Ceph cloning to further speed up creation of new
+  VMs.
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
@@ -29,6 +39,24 @@ Gentoo platform
   <https://glsa.gentoo.org/glsa/201605-04>`_ (#21743).
 
 * Activate mysqli extension for PHP (#21574)
+
+* Clean unused Apache config.
+
+* Apply our low-level fixing mechanism optimistically during system
+  updates to give a chance to puppet fixing things.
+
+* Ensure eselect-based activation of ruby profile if rubygems was
+  installed out of order and not appearing after a bootstrap.
+
+* Update Ceph to 0.94.7. This is a bugfix release and has no major impact
+  apart from slowly restarting OSDs which has no noticable impact any
+  longer.
+
+* Added configuration for SSD-based Ceph pools. (This was pre-released
+  already.)
+
+* Enable periodic gratuitous ARP messages on our routers to help VMs that
+  miss a packet during router failover to quickly catch up. (#21681)
 
 Documentation
 ^^^^^^^^^^^^^
