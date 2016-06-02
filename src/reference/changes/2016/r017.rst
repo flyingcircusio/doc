@@ -17,8 +17,18 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update pnp4nagios to fix compatibility with PHP 5.6+. This caused
+  performance graphs accessible through Nagios to only display error
+  messages. (#21768)
 
+* Update box to fix compatibility with new automounter setup which
+  uses a symlink and did not work due to security measures to avoid
+  setuid privilege escalations. (#21202)
+
+* Security update for rsync `GLSA 201605-04
+  <https://glsa.gentoo.org/glsa/201605-04>`_ (#21743).
+
+* Activate mysqli extension for PHP (#21574)
 
 Documentation
 ^^^^^^^^^^^^^
