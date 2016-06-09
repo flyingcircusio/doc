@@ -6,19 +6,39 @@ Release 2016_018 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* nginx will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Patch nginx for CVE-2016-4450. (#21775)
 
+* Fix bug in automatic VM memory adjustments that caused an infinite
+  reboot loop. (#21724)
+
+* Implement transit mode (details see below).
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update backy: reduce partial backup verifications to a time-based limit to
+  avoid extremely long periods that block other backups. The verification is
+  an additional safety-belt to other data protection schemes, like BTRFS
+  scrubbing. (#21879)
+
+* Implement transit mode: physical and virtual machines can be placed in a
+  location-independent non-servicing state where the network configuration is
+  based on DHCP so that the machine is manageable from either location and
+  can be cleanly relocated.
+
+* Security update for gnupg `GLSA 201606-04
+  <https://glsa.gentoo.org/glsa/201606-04>`_ (#21829).
+
+* Security update for nginx (no GLSA yet, #21775, CVE-2016-4450)
+
+* Security update for pam  to 1.2.1 `GLSA 201606-05
+  <https://glsa.gentoo.org/glsa/201606-05>`_ (#21753).
 
 
 Documentation
