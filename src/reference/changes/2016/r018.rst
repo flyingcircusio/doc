@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-06-09
 
-Release 2016_018 (unreleased)
+Release 2016_018 (2016-06-09)
 -----------------------------
 
 Impact
@@ -39,12 +39,6 @@ Gentoo platform
 
 * Security update for pam  to 1.2.1 `GLSA 201606-05
   <https://glsa.gentoo.org/glsa/201606-05>`_ (#21753).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 References
