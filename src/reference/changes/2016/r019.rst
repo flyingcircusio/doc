@@ -6,34 +6,37 @@ Release 2016_019 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Percona 5.7 servers need to be restarted due to the version upgrade.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Upgrade percona (MySQL clone) version to 5.7.12.
+
+* Improve mailout configuration for system/cron mails.
+
+* Provide pre-built PHP 5.5 in addition to PHP 5.6.
+
+* Add libjpeg and related command line utilities to the default installation
+  (#21949).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide new backup schedule "default-full" which takes full backups every day.
+  This is meant for heavily used database VMs with high change rates (#21960).
+
+* Improve monitoring and alerting for overflowing disks in Ceph clusters. Now
+  the supported is alerted in advance to get more reaction time (#21961).
+
+* Moderate size of swap and tmp volumes for large VMs (#21961).
 
 
 Documentation
 ^^^^^^^^^^^^^
 
 * nothing yet
-
-
-References
-^^^^^^^^^^
-
-* NixOS source:
-  https://github.com/flyingcircusio/nixpkgs/commit/{TBA}
-
-* Puppet source:
-  https://bitbucket.org/flyingcircus/fc.platform/commits/{TBA}
 
 .. vim: set spell spelllang=en:
