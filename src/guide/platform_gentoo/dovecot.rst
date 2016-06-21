@@ -29,7 +29,8 @@ Service users may place custom configuration directives into
 :file:`/etc/dovecot/local.conf`.
 
 Service users may reload dovecot using :command:`sudo /etc/init.d/dovecot
-reload`.
+reload`. The init-script can be also used to restart dovcot using
+:command:`sudo /etc/init.d/dovecot restart`.
 
 A limited set of :manpage:`doveadm(1)` subcommands is available to users with
 `sudo-srv` permission. Examples::
