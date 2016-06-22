@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-06-22
 
-Release 2016_019 (unreleased)
+Release 2016_019 (2016-06-22)
 -----------------------------
 
 Impact
@@ -33,10 +33,5 @@ Gentoo platform
 
 * Moderate size of swap and tmp volumes for large VMs (#21961).
 
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 .. vim: set spell spelllang=en:
