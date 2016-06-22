@@ -14,7 +14,7 @@ NixOS platform
 
 * Upgrade percona (MySQL clone) version to 5.7.12.
 
-* Improve mailout configuration for system/cron mails.
+* Improve mailout configuration for system/cron mails (#21964).
 
 * Provide pre-built PHP 5.5 in addition to PHP 5.6.
 
@@ -29,7 +29,7 @@ Gentoo platform
   This is meant for heavily used database VMs with high change rates (#21960).
 
 * Improve monitoring and alerting for overflowing disks in Ceph clusters. Now
-  the supported is alerted in advance to get more reaction time (#21961).
+  the supporter is alerted in advance to get more reaction time (#21961).
 
 * Moderate size of swap and tmp volumes for large VMs (#21961).
 
