@@ -39,3 +39,12 @@ cronjob with `source /etc/profile;`, e.g.::
 
 There is also the possibility to set custom environment variables at the top of
 a user crontab. See :manpage:`crontab(5)` for details.
+
+We advise strongly to include a line like
+
+.. code-block:: sh
+
+   MAILTO=mail@address
+
+into the top section to get error mails delivered to an address where they are
+actually read and acted upon.
