@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Add webproxy role (varnish) on NixOS, too (#21977).
+* Improve VM memory detection to make RAM changes more reliable (#21724).
 
 
 Gentoo platform
