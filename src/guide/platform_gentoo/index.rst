@@ -16,6 +16,7 @@ It is maintained but not developed much further.
    :titlesonly:
 
    base
+   firewall
 
 Roles and packages
 ------------------
