@@ -16,6 +16,13 @@ It is maintained but not developed much further.
    :titlesonly:
 
    base
+
+Roles and packages
+------------------
+
+.. toctree::
+   :titlesonly:
+
    antivirus
    apache
    apparmor

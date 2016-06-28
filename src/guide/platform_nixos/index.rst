@@ -20,6 +20,14 @@ more memory for larger applications.
    cron
    logrotate
    firewall
+
+
+Roles and packages
+------------------
+
+.. toctree::
+   :titlesonly:
+
    java
    mysql
    postgresql
