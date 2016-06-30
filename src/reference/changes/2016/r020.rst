@@ -12,8 +12,24 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
+* Monitoring: adjust concurrent connection threshold for MongoDB servers
+  (#22091).
+
+* Allow service users to invoke :command:`sudo systemctl` (#22013).
+
 * Add webproxy role (varnish) on NixOS, too (#21977).
+
+* Fix :command:`crontab FILE`{file}` bug and cron job execution environment
+  (#21757, #21964).
+
 * Improve VM memory detection to make RAM changes more reliable (#21724).
+
+* Sensu client check can now access the services group (e.g., for group-writable
+  supervisord sockets).
+
+* MySQL role: Allow to choose between percona 5.7, 5.6, and mysql 5.5.
+
+* Add logrotate to Vagrant image.
 
 
 Gentoo platform
