@@ -3,6 +3,12 @@
 Release 2016_020 (2016-06-30)
 -----------------------------
 
+Impact
+------
+
+Gentoo nginx instances will get restarted.
+
+
 NixOS platform
 ^^^^^^^^^^^^^^
 
@@ -22,6 +28,11 @@ NixOS platform
 * MySQL role: Allow to choose between percona 5.7, 5.6, and mysql 5.5.
 
 * Add logrotate to Vagrant image.
+
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+Security upgrade for nginx to fix CVE-2016-4450 (#22084).
 
 
 .. vim: set spell spelllang=en:
