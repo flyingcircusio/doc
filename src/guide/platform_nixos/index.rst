@@ -32,3 +32,4 @@ Roles and packages
    mysql
    postgresql
    datadog
+   webgateway
