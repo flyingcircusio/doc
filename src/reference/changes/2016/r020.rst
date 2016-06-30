@@ -4,7 +4,7 @@ Release 2016_020 (2016-06-30)
 -----------------------------
 
 Impact
-------
+^^^^^^
 
 Gentoo nginx instances will get restarted.
 
