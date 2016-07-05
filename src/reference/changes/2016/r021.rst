@@ -18,7 +18,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for GLSA 201606-14: ImageMagick (#22198).
+* Security update for GLSA 201606-13: sudo (#22197).
 
 
 Documentation
