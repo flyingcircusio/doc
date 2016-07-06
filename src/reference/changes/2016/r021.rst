@@ -23,7 +23,7 @@ Gentoo platform
 
 * Security update for GLSA 201606-14: ImageMagick (#22198).
 * Security update for GLSA 201606-13: sudo (#22197).
-* Fix data corruption bug with always-full backup schemes (#21693).
+* Fix data corruption bug with always-full backup schemes (#21963).
 
 
 .. vim: set spell spelllang=en:
