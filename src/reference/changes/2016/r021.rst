@@ -6,13 +6,16 @@ Release 2016_021 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Most services on NixOS VMs will be restarted due to the glibc security update.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for glibc.
+* Port *resource group NFS share* roles (client/server) to NixOS VMs (#22107).
+* Add username/password options to HTTP(s) monitoring (#22191).
+* Include NixOS into internal metrics collection (#20262).
 
 
 Gentoo platform
@@ -20,6 +23,7 @@ Gentoo platform
 
 * Security update for GLSA 201606-14: ImageMagick (#22198).
 * Security update for GLSA 201606-13: sudo (#22197).
+* Fix data corruption bug with always-full backup schemes (#21693).
 
 
 Documentation
