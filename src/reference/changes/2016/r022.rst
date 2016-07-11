@@ -6,7 +6,7 @@ Release 2016_022 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* The security upgrade of glibc will cause restarts of nearly all services.
 
 
 NixOS platform
@@ -18,7 +18,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for GLSA 201606-18: icedtea-bin, glibc (#22453).
 
 
 Documentation
