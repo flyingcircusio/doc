@@ -1,12 +1,13 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-07-12
 
-Release 2016_022 (unreleased)
+Release 2016_022 (2016-07-12)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* The security upgrade of glibc will cause restarts of nearly all services.
+* The security upgrade of glibc will cause restarts of nearly all services on
+  Gentoo machines.
 
 
 NixOS platform
@@ -21,12 +22,6 @@ Gentoo platform
 
 * Security update for GLSA 201606-18: icedtea-bin, glibc (#22453).
 * Fix :ref:`box` bug where box directories could not be mounted (#22514).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
