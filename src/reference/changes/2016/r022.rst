@@ -12,13 +12,15 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Reboot VMs automatically when the number of cores is changed (#22200).
+* Provide `osm2pgsql` package on request (#22214).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Security update for GLSA 201606-18: icedtea-bin, glibc (#22453).
+* Fix :ref:`box` bug where box directories could not be mounted (#22514).
 
 
 Documentation
