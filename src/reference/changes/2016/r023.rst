@@ -13,7 +13,7 @@ Impact
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Security update for GLSA 201607-02: libprce (#22496).
+* Security update for GLSA 201607-02: libpcre (#22496).
 * Fix bug in full package rebuild on binhosts (#22449).
 * Simplify initial bootstrapping of physical machines to reduce turn-over time
   for new hardware (#21108).
