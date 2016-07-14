@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-07-14
 
-Release 2016_023 (unreleased)
+Release 2016_023 (2016-07-14)
 -----------------------------
 
 Impact
@@ -10,12 +10,6 @@ Impact
   update.
 
 
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
@@ -23,12 +17,6 @@ Gentoo platform
 * Fix bug in full package rebuild on binhosts (#22449).
 * Simplify initial bootstrapping of physical machines to reduce turn-over time
   for new hardware (#21108).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
