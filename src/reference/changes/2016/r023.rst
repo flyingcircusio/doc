@@ -6,7 +6,8 @@ Release 2016_023 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Several services will be restarted on Gentoo VMs due to the PCRE security
+  update.
 
 
 NixOS platform
@@ -18,7 +19,10 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for GLSA 201607-02: libprce (#22496).
+* Fix bug in full package rebuild on binhosts (#22449).
+* Simplify initial bootstrapping of physical machines to reduce turn-over time
+  for new hardware (#21108).
 
 
 Documentation
