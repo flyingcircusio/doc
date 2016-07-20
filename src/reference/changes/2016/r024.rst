@@ -18,7 +18,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve handling of stale Puppet SSL certificates (#21955).
 
 
 Documentation
