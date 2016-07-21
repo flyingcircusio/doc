@@ -7,7 +7,7 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Rework IP policy routing to ensure predictable source addresses. In
-  particular, turn off autoconfigured IPv6 addresses (#22136, #22704).
+  particular, turn off autoconfigured IPv6 addresses (#22136, #21704).
 * Get NFS RG shares working again (#22494).
 
 
