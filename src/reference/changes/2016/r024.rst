@@ -12,13 +12,16 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Rework IP policy routing to ensure predictable source addresses. In
+  particular, turn off autoconfigured IPv6 addresses (#22136, #22704).
+* Get NFS RG shares working again (#22494).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Improve handling of stale Puppet SSL certificates (#21955).
+* Security update for GLSA 201607-04: GD (#22596).
 
 
 Documentation
