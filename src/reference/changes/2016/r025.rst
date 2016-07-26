@@ -18,7 +18,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for GLSA 201607-10: varnish (#22647).
 
 
 Documentation
