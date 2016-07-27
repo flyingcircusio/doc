@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-07-27
 
-Release 2016_025 (unreleased)
+Release 2016_025 (2016-07-27)
 -----------------------------
 
 Impact
@@ -27,12 +27,6 @@ Gentoo platform
 
 * Security update for GLSA 201607-10: varnish (#22647, #22761, #22773).
 * Update Python2.7 to 2.7.12 for improved SSL support (#21938).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
