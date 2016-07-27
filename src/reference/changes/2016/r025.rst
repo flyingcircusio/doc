@@ -6,13 +6,20 @@ Release 2016_025 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Gentoo VMs will get varnishd restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide MongoDB 3.2.1 package on request (#)
+* Improve journal check so that it reports suspicious log lines directly to the
+  support (#22217).
+* Add `file` utility to the standard shell environment.
+* Fix a network problem which stopped clients behind a VPN from connecting to
+  some VMs (#22733).
+* Improve network debugging capabilities by enabling rpfilter logging (#22733).
+* Make systemd journal world-readable (#22577).
 
 
 Gentoo platform
