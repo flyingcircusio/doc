@@ -18,7 +18,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Security update for GLSA 201607-10: varnish (#22647).
+* Security update for GLSA 201607-10: varnish (#22647, #22761, #22773).
+* Update Python2.7 to 2.7.12 for improved SSL support (#21938).
 
 
 Documentation
