@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Provide MongoDB 3.2.1 package on request (#)
+* Provide MongoDB 3.2.1 package on request (#22683)
 * Improve journal check so that it reports suspicious log lines directly to the
   support (#22217).
 * Add `file` utility to the standard shell environment.
