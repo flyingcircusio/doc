@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Upgrade Postfix to 3.0.3 (#22490).
+* Add support for postfix configuration items in /etc/local/postfix (#22490).
 
 
 Gentoo platform
