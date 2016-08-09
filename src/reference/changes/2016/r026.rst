@@ -6,7 +6,7 @@ Release 2016_026 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* MongoDB instances will be restarted due to configuration changes (#22535).
 
 
 NixOS platform
@@ -16,13 +16,16 @@ NixOS platform
 * Add support for postfix configuration items in /etc/local/postfix (#22490).
 * Fix varnishtools (varnishlog, varnishstat etc.) so that they just work without
   explicit statedir specification (#22948).
-* Fix "journal" sensu check (#22804).
+* Add rsyslog to NixOS VMs (#22535).
+* Drain several sources of high-volume journal logging to stabilize VM hosts
+  (#22535, #23015).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Adapt PHP configuration for PHP 5.6 (#22879, #22569).
+* Fix stability problems on VM hosts due to overflowing VM log files (#23045).
 
 
 Documentation
