@@ -33,3 +33,4 @@ Roles and packages
    postgresql
    datadog
    webgateway
+   webproxy
