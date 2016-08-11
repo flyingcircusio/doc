@@ -6,13 +6,13 @@ Release 2016_027 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* MongoDB instances need to be restarted due to configuration changes (#22535).
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Reduce MongoDB log output size and log into own file (#22535).
 
 
 Gentoo platform
