@@ -12,6 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
+* Improve VM bootstrapping time by avoiding unnecessary work after first boot.
 * Reduce MongoDB log output size and log into own file (#22535).
 
 
