@@ -76,20 +76,17 @@ following is sufficient:
        # The rest of server configuration
    }
 
-.. warning::
+.. note::
 
    If you configure SSL, please place your certificate files next to the config
-   in :file:`/etc/local/nginx/` and use **relative** paths **with a leading ./**
-   to these files inside your configuration, e.g.:
+   in :file:`/etc/local/nginx/` and use **absolute** paths to these files inside
+   your configuration, e.g.:
 
    .. code-block:: console
 
-      ssl_certificate ./mydomain.crt
-      ssl_certificate_key ./mydomain.key
+      ssl_certificate /etc/local/nginx/mydomain.crt;
+      ssl_certificate_key /etc/local/nginx/mydomain.key;
 
-   This is important because your certificate files will be copied into the Nix
-   store along with your confguration files. Absoulte paths will then no longer
-   match.
 
 Debugging
 ---------
