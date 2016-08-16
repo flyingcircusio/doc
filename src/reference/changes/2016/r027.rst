@@ -12,8 +12,12 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Improve VM bootstrapping time by avoiding unnecessary work after first boot.
-* Reduce MongoDB log output size and log into own file (#22535).
+* Improve VM bootstrapping time by avoiding unnecessary work after first boot
+  (#22964).
+* Reduce MongoDB log output size and log into own file (#22535, #23015).
+* Make redis password configurable by service users (#23116, #23179).
+* Postfix' `myhostname` parameter can now be set via
+  :file:`/etc/local/postfix/myhostname` (#23084).
 
 
 Gentoo platform
