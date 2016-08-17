@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-08-17
 
-Release 2016_027 (unreleased)
+Release 2016_027 (2016-08-17)
 -----------------------------
 
 Impact
@@ -18,18 +18,6 @@ NixOS platform
 * Make redis password configurable by service users (#23116, #23179).
 * Postfix' `myhostname` parameter can now be set via
   :file:`/etc/local/postfix/myhostname` (#23084).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
