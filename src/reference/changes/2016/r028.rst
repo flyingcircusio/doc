@@ -17,7 +17,7 @@ NixOS platform
 * Simplify inter-VM routing (#20617).
 * Improve PostgreSQL metrics.
 * Ensure :file:`/etc/local/redis/password` is owned by redis:service (#23116).
-* Activate *vulnix* security scanner on all machines (#21381).
+* Activate *vulnix* security scanner on all machines (#22553).
 
 
 Gentoo platform
