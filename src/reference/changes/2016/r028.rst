@@ -12,13 +12,20 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve VM bootstrap time by eliminating unnecessary service dependencies
+  (#22964).
+* Simplify inter-VM routing (#20617).
+* Improve PostgreSQL metrics.
+* Ensure :file:`/etc/local/redis/password` is owned by redis:service (#23116).
+* Activate *vulnix* security scanner on all machines (#21381).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Use process accouting on VM hosts for improved debugging capabilities
+  (#23226).
+* Enable driver for LSI SAS3004 adapter on physical machines (#23279).
 
 
 Documentation
