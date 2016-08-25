@@ -18,6 +18,7 @@ NixOS platform
 * Improve PostgreSQL metrics.
 * Ensure :file:`/etc/local/redis/password` is owned by redis:service (#23116).
 * Activate *vulnix* security scanner on all machines (#22553).
+* `wget` is now available in the standard PATH.
 
 
 Gentoo platform
@@ -25,7 +26,6 @@ Gentoo platform
 
 * Use process accouting on VM hosts for improved debugging capabilities
   (#23226).
-* Enable driver for LSI SAS3004 adapter on physical machines (#23279).
 
 
 Documentation
