@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-08-25
 
-Release 2016_028 (unreleased)
+Release 2016_028 (2016-08-25)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -26,12 +20,6 @@ Gentoo platform
 
 * Use process accouting on VM hosts for improved debugging capabilities
   (#23226).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
