@@ -28,9 +28,10 @@ Roles and packages
 .. toctree::
    :titlesonly:
 
+   datadog
+   external_net
    java
    mysql
    postgresql
-   datadog
    webgateway
    webproxy

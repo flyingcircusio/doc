@@ -76,8 +76,6 @@ VM has a private IPv4 and you do not have native IPv6
 This is the tricky part: the VM is only accessible via IPv6 directly from the
 outside but you don't have it yet.
 
-Here are a few options that are not optimal, but should work:
-
 .. _jumphost:
 
 Using an IPv4 SSH jump host
@@ -105,6 +103,13 @@ Remember to replace <VMNAME> with the name of a VM that has a public frontend
 IPv4 address configured. It doesn't matter which other VM you connect to. Also,
 replace <USERNAME> with the unix username that you are using in the Flying
 Circus.
+
+Using a private OpenVPN server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If a resource group has an OpenVPN server available (:ref:`nixos-external_net`
+role), tunneling through a VPN connection may be a convenient alternative.
+
 
 Using IPv6 rapid deployment options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
