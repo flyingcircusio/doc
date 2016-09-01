@@ -12,7 +12,13 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Add "external_net" role which creates a RG-specific OpenVPN gateway (#21387)
+
+* Varnish listens on ethsrv as well now. Before it was only listening on 127.0.0.1. (#23196)
+
+* Postfix: Fix setting of IPv6 addresses in mynetworks (#23236)
+
+ * Fix resolving IP addresses from /etc/hosts entries for hosts with more than one IP address (#23464).
 
 
 Gentoo platform
