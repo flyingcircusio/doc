@@ -27,16 +27,5 @@ NixOS platform
 *  Fix maintenance handling for VMs with RAM a amount which is not a power of 2 (#23358)
 
 
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
