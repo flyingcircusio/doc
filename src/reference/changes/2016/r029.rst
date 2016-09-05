@@ -1,12 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-09-05
 
-Release 2016_029 (unreleased)
+Release 2016_029 (2016-09-05)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* NixOX only: If you have customized postfix with :file:`/etc/local/postfix/local.cf` copy it over to :file:`/etc/local/postfix/main.cf` before the release. You ran remove :file:`local.cf` after the release. Be sure to also change automatic deployment procedures accordingly.
+* NixOS only: If you have customized postfix with :file:`/etc/local/postfix/local.cf` copy it over to :file:`/etc/local/postfix/main.cf` before the release. You ran remove :file:`local.cf` after the release. Be sure to also change automatic deployment procedures accordingly.
 
 
 NixOS platform
