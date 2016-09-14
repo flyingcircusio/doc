@@ -16,7 +16,7 @@ automatically upon the next run of our configuration agent (generally every
 
 .. code-block:: console
 
-  $ sudo systemctl start fc-manage
+  $ sudo fc-manage --build
 
 This will update the machine's system configuration, which includes copying the
 local configuration files into the Nix store. Your custom config is thus

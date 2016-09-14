@@ -37,4 +37,4 @@ Here's an example:
     behaviour.
 
 After making changes to the firewall configuration, either wait for the
-agent to apply it or run ``sudo systemctl start fc-manage``.
+agent to apply it or run ``sudo fc-manage --build``.

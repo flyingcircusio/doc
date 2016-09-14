@@ -35,13 +35,13 @@ and how you are used to configure, start, stop and maintain these packages.
   Since we use NixOS, files have to be edited in `/etc/local/nginx` and
   `/etc/local/haproxy/`, followed by a NixOS rebuild which copies them into the
   Nix store and activates the new configuration. To do so, run the command
-  :command:`sudo systemctl start fc-manage`
+  :command:`sudo fc-manage --build`
 
 * **service control:**
 
   We use :command:`systemd` to control processes. You can use familiar commands
   like :command:`sudo systemctl restart nginx.service` to control services.
-  However, remember that invoking :command:`sudo systemctl start fc-manage` is
+  However, remember that invoking :command:`sudo fc-manage --build` is
   necessary to put configuration changes into effect. A simple restart is not
   sufficient. For further information, also see :ref:`nixos-local`.
 

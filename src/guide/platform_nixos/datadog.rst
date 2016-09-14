@@ -29,7 +29,7 @@ Please consult the datadog integrations help for details.
 Interaction
 -----------
 
-Service users may invoke :command:`sudo systemctl start fc-manage` to apply
+Service users may invoke :command:`sudo fc-manage --build` to apply
 service configuration changes and trigger service restarts (if necessary).
 
 Monitoring
