@@ -32,7 +32,7 @@ The password for MySQL's root user can be found in
 Interaction
 -----------
 
-Service users may invoke :command:`sudo systemctl start fc-manage` to apply
+Service users may invoke :command:`sudo fc-manage --build` to apply
 service configuration changes and trigger service restarts (if necessary).
 
 Monitoring
