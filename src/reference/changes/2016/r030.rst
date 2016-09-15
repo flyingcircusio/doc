@@ -10,5 +10,12 @@ NixOS platform
 * Fix RabbitMQ permission handling so that new nodes appear in monitoring.
 * Improve Postfix monitoring: mailq check, port check (#23353)
 * Make delayed message exchange plugin for RabbitMQ optionally availabe (#23617)
+* Enable `sudo fc-manage --build` for service users as a way to trigger system
+  rebuilds (#23731)
+
+Documentation
+^^^^^^^^^^^^^
+
+* Update rebuild instructions for :ref:`nixos-local`.
 
 .. vim: set spell spelllang=en:
