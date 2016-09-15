@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-09-15
 
-Release 2016_030 (unreleased)
+Release 2016_030 (2016-09-15)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -16,17 +10,5 @@ NixOS platform
 * Fix RabbitMQ permission handling so that new nodes appear in monitoring.
 * Improve Postfix monitoring: mailq check, port check (#23353)
 * Make delayed message exchange plugin for RabbitMQ optionally availabe (#23617)
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
