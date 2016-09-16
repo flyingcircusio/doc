@@ -91,7 +91,7 @@ hosts::
 
     Host *.gocept.net
         User <USERNAME>
-        ProxyCommand ssh flyingcircus-jump-host nc %h %p
+        ProxyCommand ssh flyingcircus-jump-host -W %h:%p
 
     Host flyingcircus-jump-host
         HostName <VMNAME>.fe.rzob.ipv4.gocept.net
