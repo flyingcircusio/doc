@@ -6,7 +6,7 @@ Process management
 Supervisord
 -----------
 
-We recommend the use of `supervisord`_ to monitore your application and restart
+We recommend the use of `supervisord`_ to monitor your application and restart
 the process in case of problems.
 
 To install supervisord into your virtualenv add a supervisor section to your
