@@ -6,24 +6,25 @@ Overview
 Physical networks
 -----------------
 
-The physical network is implemented with Gigabit Ethernet switches. Prevalently
-they are HP ProCurve 2810, slowly being replaced by HP ProCurve 2530 in some
-cases.
-
-For traffic separation we leverage VLANs and provide physical servers with a
-dedicated link for each VLAN that it needs access to.
+The physical network is implemented with Gigabit Ethernet switches for frontend
+and management access, and 10 Gigabit Ethernet switches for intra-server and
+storage access.  For traffic separation we leverage :abbr:`VLANs (virtual local
+area networks)` and provide physical servers with a dedicated link for each VLAN
+that it needs access to.
 
 Routers are attached to upstream ports provided by the data center, a dedicated
 management link, and a link with tagged VLANs for everything else.
 
-.. _logical_networks:
 
-Logical networks
+.. _logical_networks:
+.. _virtual_networks:
+
+Virtual networks
 ----------------
 
 .. image:: logical.png
 
-The following VLANs and logical networks are in use:
+The following VLAN classes are in use:
 
 **MGM** - Management, purely for administrative purposes. This VLAN connects
 switch management ports, Remote Access Controllers, and typically provides a

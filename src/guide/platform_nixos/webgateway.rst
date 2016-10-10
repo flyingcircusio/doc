@@ -88,6 +88,13 @@ following is sufficient:
       ssl_certificate_key /etc/local/nginx/mydomain.key;
 
 
+Firewall
+--------
+
+This role includes firewall rules to accept connections on port 80/tcp and
+443/tcp on frontend networks.
+
+
 Debugging
 ---------
 
