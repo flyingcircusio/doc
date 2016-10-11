@@ -17,7 +17,7 @@ management link, and a link with tagged VLANs for everything else.
 
 
 .. _logical_networks:
-.. _virtual_networks:
+.. _virtual-networks:
 
 Virtual networks
 ----------------
