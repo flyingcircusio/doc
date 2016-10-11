@@ -6,14 +6,17 @@ Release 2016_031 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* MySQL servers running on NixOS VMs are being restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Increase kernel loglevel to help debug VM crashes.
+* Reduce MySQL buffer pool from 80% to 70% of RAM. We saw VMs starting to swap.
+* Update Vulnix for improved scanning times and flexible whitelist handling
+  (#23254).
+* Port kernel settings from original Gentoo config (#11896).
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
