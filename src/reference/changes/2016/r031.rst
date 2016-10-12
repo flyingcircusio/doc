@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-10-13
 
-Release 2016_031 (unreleased)
+Release 2016_031 (2016-10-13)
 -----------------------------
 
 Impact
@@ -19,18 +19,6 @@ NixOS platform
   (#23254).
 * Reduce journal noise: sensu-client, systemd-quotacheck (#21808).
 * Update RabbitMQ to 3.6.5 (#23773).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
