@@ -148,6 +148,13 @@ Monitoring
   time), please notify the support.
 
 
+Testing
+^^^^^^^
+
+To test your settings, e.g. to ensure you did not introduce some syntax error,
+you can use :command:`sudo /etc/init.d/nginx configtest`.
+
+
 .. _modsecurity:
 
 mod_security
