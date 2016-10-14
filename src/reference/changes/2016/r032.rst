@@ -22,7 +22,9 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Cap IOPS rate for individual VMs according to policy (see above; #22936).
+* Fix race conditions in VM migration orchestration (#23729).
+* Improve backy monitoring (#23738).
 
 
 Documentation
