@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-10-18
 
-Release 2016_032 (unreleased)
+Release 2016_032 (2016-10-18)
 -----------------------------
 
 Impact
@@ -14,12 +14,6 @@ Impact
 * All services using OpenSSL need to be restarted.
 
 
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
@@ -28,12 +22,6 @@ Gentoo platform
 * Fix race conditions in VM migration orchestration (#23729).
 * Improve backy monitoring (#23738).
 * Fix VM restore bug on backy servers (#23311).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
