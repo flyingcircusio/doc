@@ -6,13 +6,17 @@ Release 2016_033 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* VMs that used to exceed disk quota tacitly may now get "disk full" errors.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix quota handling bug which rendered "virtual" disk shrink via quotas
+  ineffective (#21994).
+* Remove monitoring of logged in users. Lots of noise, little effect (#22541).
+* Security update for dnsmasq (CVE-2015-8899, #23865).
+* Update vulnix to 1.1.5 (#24192).
 
 
 Gentoo platform
