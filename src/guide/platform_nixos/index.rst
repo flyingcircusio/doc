@@ -29,6 +29,7 @@ Roles and packages
    :titlesonly:
 
    datadog
+   elasticsearch
    external_net
    java
    mysql
