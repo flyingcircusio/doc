@@ -7,6 +7,7 @@ Impact
 ^^^^^^
 
 * VMs that used to exceed disk quota tacitly may now get "disk full" errors.
+* MySQL servers will be restarted.
 
 
 NixOS platform
@@ -22,7 +23,9 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update of MySQL from 5.5.43 to 5.5.53 (#24156).
+* Security update of subversion and serf (#24157, #24157).
+* Security update of libgcrypt from 1.6.3 to 1.7.3 (#24159).
 
 
 Documentation
