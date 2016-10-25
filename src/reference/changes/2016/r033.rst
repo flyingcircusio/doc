@@ -1,6 +1,6 @@
-:Publish Date: 2016-10-24
+:Publish Date: 2016-10-25
 
-Release 2016_033 (2016-10-24)
+Release 2016_033 (2016-10-25)
 -----------------------------
 
 Impact
@@ -26,6 +26,7 @@ Gentoo platform
 * Security update of MySQL from 5.5.43 to 5.5.53 (#24156).
 * Security update of subversion and serf (#24157, #24157).
 * Security update of libgcrypt from 1.6.3 to 1.7.3 (#24159).
+* Update XFS filesystem utilites for improved recovery capabilities (#24288)
 
 
 .. vim: set spell spelllang=en:
