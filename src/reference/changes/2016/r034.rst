@@ -36,6 +36,7 @@ Gentoo platform
   (#24288).
 * Improve backy server performance (#24295).
 * Fix XFS filesystem issue leading to VM hangs (#24309).
+* Fix Ceph instrumentation bug on VM hosts (#24416).
 
 
 Documentation
