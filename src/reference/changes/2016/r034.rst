@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-11-17
 
-Release 2016_034 (unreleased)
+Release 2016_034 (2016-11-17)
 -----------------------------
 
 Impact
@@ -37,12 +37,6 @@ Gentoo platform
 * Improve backy server performance (#24295).
 * Fix XFS filesystem issue leading to VM hangs (#24309).
 * Fix Ceph instrumentation bug on VM hosts (#24416).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
