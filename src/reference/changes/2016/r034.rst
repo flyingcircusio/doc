@@ -24,6 +24,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
+* Update Linux to 4.4.27 (dirty cow) (#24271).
 * Security update of Qemu from 2.5 to 2.7 (#23965).
 * Security update of MySQL from 5.5.43 to 5.5.53 (#24156).
 * Security update of subversion and serf (#24157, #24157).
@@ -34,6 +35,7 @@ Gentoo platform
 * Reduce parallelism in mass VM starts/stops for improved VM host stability
   (#24288).
 * Improve backy server performance (#24295).
+* Fix XFS filesystem issue leading to VM hangs (#24309).
 
 
 Documentation
