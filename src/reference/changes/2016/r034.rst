@@ -17,8 +17,9 @@ NixOS platform
 * Update Linux to 4.4.27 (dirty cow) (#24271).
 * Optimize reboot management in scheduled maintenance machinery (#23965,
   #24189).
-* UID/GID allocation for system users with predictable output (#21537).
 * Deactivate CPU "steal accounting" since it is broken (#23769).
+* Set "out of service" flag in the directory while a VM performs maintenance
+  (#24029).
 
 
 Gentoo platform
