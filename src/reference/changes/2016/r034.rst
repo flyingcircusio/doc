@@ -28,7 +28,7 @@ Gentoo platform
 * Update Linux to 4.4.27 (dirty cow) (#24271).
 * Security update of Qemu from 2.5 to 2.7 (#23965).
 * Security update of MySQL from 5.5.43 to 5.5.53 (#24156).
-* Security update of subversion and serf (#24157, #24157).
+* Security update of subversion and serf (#24157, #24158).
 * Security update of libgcrypt from 1.6.3 to 1.7.3 (#24159).
 * Security update of bind (#24155).
 * Update XFS filesystem utilites for improved recovery capabilities (#24288)
