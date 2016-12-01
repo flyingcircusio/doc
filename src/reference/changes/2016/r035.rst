@@ -6,7 +6,8 @@ Release 2016_035 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Apache, nginx and other applications linked against libcurl will be restarted.
+* Applications linked against libpng will be restarted.
 
 
 NixOS platform
@@ -18,7 +19,15 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug that caused several Qemu instances being left over from migrations
+  (#24434).
+* Provide smartmontools on all physical machines for improved debugging
+  capabilities (#24436).
+* Security update for wget (#24450).
+* Security update for unzip (#24499).
+* Security update for curl (#24528).
+* Security update for libpng (#24695).
+* Security update for GNU tar (#25002).
 
 
 Documentation
