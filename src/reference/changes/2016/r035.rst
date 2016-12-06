@@ -28,6 +28,7 @@ Gentoo platform
 * Security update for curl (#24528).
 * Security update for libpng (#24695).
 * Security update for GNU tar (#25002).
+* Adapt Ceph build flags for newer libxfs versions.
 
 
 Documentation
