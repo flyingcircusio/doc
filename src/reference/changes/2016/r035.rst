@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-12-07
 
-Release 2016_035 (unreleased)
+Release 2016_035 (2016-12-07)
 -----------------------------
 
 Impact
@@ -8,12 +8,6 @@ Impact
 
 * Apache, nginx and other applications linked against libcurl will be restarted.
 * Applications linked against libpng will be restarted.
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Gentoo platform
@@ -29,12 +23,6 @@ Gentoo platform
 * Security update for libpng (#24695).
 * Security update for GNU tar (#25002).
 * Adapt Ceph build flags for newer libxfs versions.
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
