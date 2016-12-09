@@ -6,7 +6,9 @@ Release 2016_036 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* The updated bundler version may behave slightly different while installing
+  Ruby applications (#23967).
+* NFS server will be restarted due to the rpcbind update (#25003).
 
 
 NixOS platform
@@ -18,7 +20,9 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for ruby-bundler (#23967).
+* Security update for xinetd (#24696).
+* Security update for rpcbind (#25003).
 
 
 Documentation
