@@ -15,6 +15,7 @@ NixOS platform
 * Refactor integration of our own addition with upstream packages to ease future
   security and feature updates (#22964)
 * Security update for dnsmasq (CVE-2015-8899, #23865).
+* Fix GID allocation for permission groups (sudo-srv, ...) (#21537).
 
 
 Gentoo platform
