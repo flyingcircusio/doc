@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-12-15
 
-Release 2016_037 (unreleased)
+Release 2016_037 (2016-12-15)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -16,18 +10,6 @@ NixOS platform
   security and feature updates (#22964)
 * Security update for dnsmasq (CVE-2015-8899, #23865).
 * Fix GID allocation for permission groups (sudo-srv, ...) (#21537).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
