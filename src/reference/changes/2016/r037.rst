@@ -3,6 +3,13 @@
 Release 2016_037 (2016-12-15)
 -----------------------------
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* Security update for GNU patch (GLSA 201612-12, #25146).
+* Fix bug in VM charging code to improve VM bootstrapping (#25145).
+
+
 NixOS platform
 ^^^^^^^^^^^^^^
 
