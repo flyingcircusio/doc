@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2016-12-20
 
-Release 2016_038 (unreleased)
+Release 2016_038 (2016-12-20)
 -----------------------------
 
 Impact
@@ -24,12 +24,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Security update for OpenSSH (GLSA 201612-18, #25184).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
