@@ -6,19 +6,24 @@ Release 2016_038 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* SSH services will be restarted. The update disables some insecure ciphers.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Managed Elasticsearch cluster (#23966).
+* Managed PostgreSQL 9.5 role (#25215).
+* Provide nodejs 6.9.1 package (#24336).
+* Fix bug which caused custom MySQL configuration in :file:`/etc/local/mysql`
+  not to be included.
+* Fix encoding issues in journal check to reduce false positives (#23128).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for OpenSSH (GLSA 201612-18, #25184).
 
 
 Documentation
