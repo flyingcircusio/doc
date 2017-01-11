@@ -18,3 +18,4 @@ You can subscribe to our `RSS feed of changes <../../rss.xml>`_.
    2014/index
    2015/index
    2016/index
+   2017/index
