@@ -18,6 +18,9 @@ NixOS platform
 * Provide NFS box access for NixOS VMs under :file:`/mnt/auto/box`. Symlinks
   from users' home directories and the :command:`box` command are still missing
   (#21486).
+* Reduce noise in SSH connection attempt monitoring (#25476).
+* Security update for PCRE (CVE-2016-3191; #24063).
+* Security update for expat (CVE-2013-0340; #23872).
 
 
 Gentoo platform
