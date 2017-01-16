@@ -6,8 +6,10 @@ Release 2017_000 (2017-01-16)
 Impact
 ^^^^^^
 
-* MySQL servers and other applications linking against MySQL libraries will get
-  restarted.
+* Gentoo: MySQL servers and other applications linking against MySQL libraries
+  will get restarted.
+* NixOS: several services linking against PCRE (MySQL, PostgreSQL, Postfix) will
+  get restarted.
 
 
 NixOS platform
