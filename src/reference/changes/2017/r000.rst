@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-01-16
 
-Release 2017_000 (unreleased)
+Release 2017_000 (2017-01-16)
 -----------------------------
 
 Impact
@@ -32,12 +32,6 @@ Gentoo platform
 * Security update for coreutils (GLSA 201612-22; #25194).
 * Security update for util-linux (GLSA 201612-14; #25185).
 * Security update for cracklib (GLSA 201612-25; #25191).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
