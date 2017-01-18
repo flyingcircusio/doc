@@ -6,7 +6,10 @@ Release 2017_001 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* memcached will be restarted. The updated memcached has a few new options, so
+  please review your configuration.
+* User applications compiled against pixman might need to be recompiled.
+* User applications compiled against expat might need to be recompiled.
 
 
 NixOS platform
@@ -18,7 +21,12 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for memcached (GLSA 201701-12; #25403).
+* Security update for elfutils (GLSA 201612-32; #25457).
+* Security update for pixman (GLSA 201612-37; #25468).
+* Security update for expat (GLSA 201701-21; #25462).
+* Security update for the `file` utility (GLSA 201701-42; #25522).
+* Security update for BIND (GLSA 201701-26; #25460).
 
 
 Documentation
