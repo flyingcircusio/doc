@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-01-19
 
-Release 2017_001 (unreleased)
+Release 2017_001 (2017-01-19)
 -----------------------------
 
 Impact
@@ -35,12 +35,6 @@ Gentoo platform
 * Security update for expat (GLSA 201701-21; #25462).
 * Security update for the `file` utility (GLSA 201701-42; #25522).
 * Security update for BIND (GLSA 201701-26; #25460).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
