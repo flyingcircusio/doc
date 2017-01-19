@@ -6,13 +6,13 @@ Release 2017_002 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] nginx will get restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update nginx to 1.10.2 for HTTP/2 support (#25455).
 
 
 Gentoo platform

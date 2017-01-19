@@ -6,24 +6,10 @@ Release 2017_001 (2017-01-19)
 Impact
 ^^^^^^
 
-Gentoo
-~~~~~~
-
 * memcached will be restarted. The updated memcached has a few new options, so
   please review your configuration.
 * User applications compiled against pixman might need to be recompiled.
 * User applications compiled against expat might need to be recompiled.
-
-NixOS
-~~~~~
-
-* nginx will get restarted.
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* Update nginx to 1.10.2 for HTTP/2 support (#25455).
 
 
 Gentoo platform
