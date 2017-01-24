@@ -31,6 +31,7 @@ Roles and packages
    datadog
    elasticsearch
    external_net
+   graylog
    java
    mysql
    postgresql
