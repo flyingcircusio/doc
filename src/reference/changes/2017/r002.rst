@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-01-26
 
-Release 2017_002 (unreleased)
+Release 2017_002 (2017-01-26)
 -----------------------------
 
 Impact
@@ -30,12 +30,6 @@ Gentoo platform
 * Security update for zlib (GLSA 201701-56; #25597).
 * Security update for libxml2 (GLSA 201701-37; #25520).
 * Enable kernel Network Block Device (NBD) client everywhere.
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
