@@ -30,6 +30,7 @@ Gentoo platform
 * Security update for zlib (GLSA 201701-56; #25597).
 * Security update for libxml2 (GLSA 201701-37; #25520).
 * Enable kernel Network Block Device (NBD) client everywhere.
+* Improve robustness of restart code for rsyslogd, sshd, and others (#25566).
 
 
 .. vim: set spell spelllang=en:
