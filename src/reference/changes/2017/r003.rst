@@ -24,6 +24,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * GLSA reporting now marks advisories that are already worked on as such.
+* Fix bug which causes sshd to crash during system updates (#25566).
 
 
 Documentation
