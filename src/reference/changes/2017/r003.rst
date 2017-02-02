@@ -12,13 +12,18 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update vulnix to version 1.2.2 with improved reporting.
+* Add mongodb-tools to mongodb servers (#25713).
+* Update PHP to recent versions with improved MySQL drivers: 5.5.35, 5.6.21,
+  7.0.15 (#25713).
+* Add Kibana service. Needs local configuration (#25713).
+* `memcached` listens now on all configured SRV addresses (#25641).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* GLSA reporting now marks advisories that are already worked on as such.
 
 
 Documentation
