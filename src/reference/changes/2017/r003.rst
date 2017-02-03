@@ -18,6 +18,8 @@ NixOS platform
   7.0.15 (#25713).
 * Add Kibana service. Needs local configuration (#25713).
 * `memcached` listens now on all configured SRV addresses (#25641).
+* Allow to customize ElasticSearch via
+  :file:`/etc/local/elasticsearch/elasticsearch.yml` (#25713)
 
 
 Gentoo platform
