@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-02-06
 
-Release 2017_003 (unreleased)
+Release 2017_003 (2017-02-06)
 -----------------------------
 
 Impact
@@ -29,12 +29,6 @@ Gentoo platform
 * Fix bug which causes sshd to crash during system updates (#25566).
 * Disable transparent huge pages (THP) on VM hosts as we suspect that it is the
   source of recent kernel crashes (#25515).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
