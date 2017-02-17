@@ -18,7 +18,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug that caused creating VM directly in the SSD storage pool to fail
+  (#20692).
 
 
 Documentation
