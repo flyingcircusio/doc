@@ -20,6 +20,7 @@ Gentoo platform
 
 * Fix bug that caused creating VM directly in the SSD storage pool to fail
   (#20692).
+* Enable xmlsec package (#25824)
 
 
 Documentation
