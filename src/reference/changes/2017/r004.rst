@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-02-23
 
-Release 2017_004 (unreleased)
+Release 2017_004 (2017-02-23)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -21,12 +15,6 @@ Gentoo platform
 * Fix bug that caused creating VM directly in the SSD storage pool to fail
   (#20692).
 * Enable xmlsec package (#25824).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
