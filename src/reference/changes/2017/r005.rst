@@ -12,13 +12,14 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for MariaDB (#23933).
+* Integrate graylog with nginx (#22495).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug in automated VM deletion (#25879).
 
 
 Documentation
