@@ -14,6 +14,9 @@ NixOS platform
 
 * Security update for MariaDB (#23933).
 * Integrate graylog with nginx (#22495).
+* Provide :file:`/etc/local/nginx/htpasswd_fcio_users` with nginx role for
+  authentication against system users.
+* Add `postgresql96` role for PostgreSQL 9.6 with RUM extension (#25926).
 
 
 Gentoo platform
