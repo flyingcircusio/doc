@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-03-13
 
-Release 2017_005 (unreleased)
+Release 2017_005 (2017-03-13)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -23,12 +17,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix bug in automated VM deletion (#25879).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
