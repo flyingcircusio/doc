@@ -6,19 +6,24 @@ Release 2017_006 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* MySQL machines on NixOS probably need :file:`/etc/nixos/local.nix` reviewed.
+* ElasticSearch instances running on NixOS will be restarted.
+* Graylog instances running on NixOS will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide separate roles for MySQL 5.5, 5.6, and Percona. Display selected MySQL
+  version in https://my.flyingcircus.io (#26125).
+* Changelog: Fix Elasticsearch resource limits (#26125).
+* Dynamically adapt Graylog settings to available resources (#26216).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update sshguard (#14542).
 
 
 Documentation
