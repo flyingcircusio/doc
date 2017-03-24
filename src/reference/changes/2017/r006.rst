@@ -16,16 +16,20 @@ NixOS platform
 
 * Provide separate roles for MySQL 5.5, 5.6, and Percona. Display selected MySQL
   version in https://my.flyingcircus.io (#26125).
-* Provide separate roles for MongoDB 3.0 and 3.2 (#26125).
+* Provide separate roles for MongoDB 3.0 and 3.2
   version in https://my.flyingcircus.io (#26125).
 * Changelog: Fix Elasticsearch resource limits (#26125).
 * Dynamically adapt Graylog settings to available resources (#26216).
+* Improve `box` automounter configuration (#21486).
+* Allow token based authentication for Graylog to make the API accessible
+  (#26239).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Update sshguard (#14542).
+* Update sshguard on routers (#14542).
+* Add ffmpeg and libvorbis as packages installable on request (#25474).
 
 
 Documentation
