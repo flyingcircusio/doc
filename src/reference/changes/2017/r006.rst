@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-03-27
 
-Release 2017_006 (unreleased)
+Release 2017_006 (2017-03-27)
 -----------------------------
 
 Impact
@@ -32,12 +32,6 @@ Gentoo platform
 
 * Update sshguard on routers (#14542).
 * Add ffmpeg and libvorbis as packages installable on request (#25474).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
