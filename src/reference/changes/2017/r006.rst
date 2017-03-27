@@ -30,7 +30,6 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Update sshguard on routers (#14542).
 * Add ffmpeg and libvorbis as packages installable on request (#25474).
 
 
