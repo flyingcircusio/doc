@@ -6,7 +6,9 @@ Release 2017_006 (unreleased)
 Impact
 ^^^^^^
 
-* MySQL machines on NixOS probably need :file:`/etc/nixos/local.nix` reviewed.
+* MySQL and MongoDB machines on NixOS need manual support intervention to set
+  the new roles and remove obsolete config from :file:`/etc/nixos/local.nix`. No
+  downtime is expected.
 * ElasticSearch instances running on NixOS will be restarted.
 * Graylog instances running on NixOS will be restarted.
 
