@@ -12,7 +12,11 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Introduce :file:`/etc/local/postfix/master.cf` to add local master.cf content
+  to Postfix (#26492).
+* Monitoring: Ignore invalid client-side cipher selection in SSH journal check
+  (#26493).
+* Add sysstat service (#26608).
 
 
 Gentoo platform
