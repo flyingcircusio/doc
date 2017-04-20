@@ -16,3 +16,4 @@ Releases performed in 2017.
    r005
    r006
    r007
+   r008
