@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-04-24
 
-Release 2017_007 (unreleased)
+Release 2017_007 (2017-04-24)
 -----------------------------
 
 Impact
@@ -34,12 +34,6 @@ Gentoo platform
 * Enable VP8 support for `ffmpeg` (#26260).
 * Increase router conntrack memory to avoid packet losses (#26425).
 * Move backy to XFS volumes instead of btrfs (#26014).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
