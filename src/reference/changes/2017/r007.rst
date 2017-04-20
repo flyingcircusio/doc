@@ -29,8 +29,11 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Enable VP8 support for `ffmpeg` (#26260).
+* Update fc.qemu to get rid of VM hangs (#26521).
 * Improve rotation of MySQL logs (#25164, #26230).
+* Enable VP8 support for `ffmpeg` (#26260).
+* Increase router conntrack memory to avoid packet losses (#26425).
+* Move backy to XFS volumes instead of btrfs (#26014).
 
 
 Documentation
