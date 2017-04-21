@@ -145,7 +145,7 @@ Technically, there are three access variants to perform privileged
 administrative operations:
 
 #. Using a user account which has been granted the 'login' and
-   'wheel' :ref:`permissions <permissions>` for a certain resource group. This
+   'wheel' :ref:`permissions <permissions>` for a certain project. This
    requires the user to log into a regular account using his SSH key and
    additionally provide his password to access privileged operations.
 
@@ -293,7 +293,7 @@ ring):
   users associated to that customer. Examples include customer VMs.
 
 All resources that belong logically together (e.g., VMs, storage
-volumes) are bundled into *resource groups*. Resource groups share that same set
+volumes) are bundled into *projects*. projects share that same set
 of user accounts and permissions.
 
 

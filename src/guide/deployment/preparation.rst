@@ -58,7 +58,7 @@ Service User
 ~~~~~~~~~~~~
 
 The service user for your application is most likely identical to the name of
-the resource group of your project.
+the project of your project.
 
 Running services
 ~~~~~~~~~~~~~~~~

@@ -6,7 +6,7 @@ The Box
 
 The box is a special temporary disk space in the Flying Circus that can be used
 to perform administrative tasks that require a lot of disk space temporarily
-and to move data between VMs and resource groups securely and conveniently.
+and to move data between VMs and projects securely and conveniently.
 
 .. contents::
     :local:
@@ -64,7 +64,7 @@ Bouncing between service users and machines
 -------------------------------------------
 
 Service users do not have their own box and in some cases you will need to move
-data between different service users and different resource groups.
+data between different service users and different projects.
 
 For that you can use your own box and the ``box grant`` command to "bounce"
 data around. Lets say we want to make a database dump and move it from myapp01

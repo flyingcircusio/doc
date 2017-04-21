@@ -8,7 +8,7 @@ extensions <https://ws.apache.org/xmlrpc/extensions.html>`_  to
 support ``null`` values and ``long`` integer types.
 
 There are two methods implemented (``query()`` and ``apply()``) that work on
-resources like virtual machines, user permissions, resource groups, maintenance
+resources like virtual machines, user permissions, projects, maintenance
 windows, and so on.
 
 .. code-block:: pycon
@@ -28,7 +28,7 @@ actual objects on our platform within a given period of time.
 
 For example: changing the RAM of a virtual machine will update the record
 in our database. This in turn causes maintenance to be scheduled for a
-controlled reboot of the VM depending on the resource group's maintenance
+controlled reboot of the VM depending on the project's maintenance
 window configuration.
 
 .. contents:: :local:
@@ -44,12 +44,12 @@ Authentication
 --------------
 
 To interact with the API you need to authenticate within the context of
-a resource group. For every resource group there exists an API key that can
+a project. For every project there exists an API key that can
 be managed from the `self-service UI API dashboard <https://my.flyingcircus.io/api/tokens>`_.
 
 Authentication happens through HTTP Basic Auth with the username being
-the name of the resource group and the password being the access key
-for this resource group.
+the name of the project and the password being the access key
+for this project.
 
 .. code-block:: pycon
 
@@ -60,15 +60,15 @@ for this resource group.
 Authorization
 -------------
 
-Access to any resource is granted based on the relation of the resource group
+Access to any resource is granted based on the relation of the project
 the access key belongs to. A key is granted either full access (r/w)
-to any object within the resource group or no access at all. This includes
-all objects of any child resource groups.
+to any object within the project or no access at all. This includes
+all objects of any child projects.
 
 .. note::
 
-  The API key can not be used to delete the resource group it belongs to.
-  It can only delete child resource groups.
+  The API key can not be used to delete the project it belongs to.
+  It can only delete child projects.
 
 
 Limits
@@ -79,7 +79,7 @@ The API may enforce semantic limits on the application of changes:
 * resource limits to avoid exceeding the capacity and redundancy of our
   infrastructure (RAM, CPU, disk)
 * credit limits to avoid exceeding the value of services a customer is willing
-  to pay for (limit per resource group and its children, based on a projection
+  to pay for (limit per project and its children, based on a projection
   of the additional monthly cost of adjusted resources)
 
 When limits are enforced the API will return a specific fault indicating this.

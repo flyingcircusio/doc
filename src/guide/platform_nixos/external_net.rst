@@ -4,7 +4,7 @@ External network gateway
 ========================
 
 The external network gateway (external_net) role provides connectivity between
-VPN and VxLAN tunnels and the local resource group. Client connections across
+VPN and VxLAN tunnels and the local project. Client connections across
 these tunnels may access ports in the RG's backend network (srv).
 
 Components
