@@ -45,7 +45,7 @@ components to talk to each other, e.g. database traffic and for management
 purposes on the application level. This network is firewalled from the DC
 firewalls and allows only HTTP/S and SSH traffic. Additionally VMs can filter
 this traffic locally and only allow free traffic by default from VMs belonging
-to the same resource group. All VMs have this NIC used and addresses
+to the same project. All VMs have this NIC used and addresses
 allocated. DNS example: *vm00.srv.rzob.gocept.net* or simply
 *vm00.gocept.net*.
 

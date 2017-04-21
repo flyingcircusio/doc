@@ -9,7 +9,7 @@ access is limited by default and can be enabled on a per-case basis.
 You are free to open any port you like on the frontend network (``ethfe``) which
 will be accessible to the outside world. The server-to-server network is only
 accessible in a limited way from the outside and freely to the machines
-in the same resource group.
+in the same project.
 
 To add custom rules, you can place configuration files in
 :file:`/etc/local/firewall/*`. Upon the next config activation all files placed

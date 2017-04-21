@@ -3,7 +3,7 @@
 Loghost
 =======
 
-Provides centralized logging infrastructure inside a resource group
+Provides centralized logging infrastructure inside a project
 including remote `rsyslog <http://www.rsyslog.com/>`_ and ELK (`Elasticsearch
 <https://www.elastic.co/products/elasticsearch>`_, `Logstash
 <https://www.elastic.co/products/logstash>`_, `Kibana

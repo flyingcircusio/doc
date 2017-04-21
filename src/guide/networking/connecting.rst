@@ -107,7 +107,7 @@ Circus.
 Using a private OpenVPN server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a resource group has an OpenVPN server available (:ref:`nixos-external_net`
+If a project has an OpenVPN server available (:ref:`nixos-external_net`
 role), tunneling through a VPN connection may be a convenient alternative.
 
 

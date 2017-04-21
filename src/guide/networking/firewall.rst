@@ -20,7 +20,7 @@ Restrictions on the *srv* network
 ---------------------------------
 
 Only few connections from the public internet to ports on the *srv* network
-can be opened by default. Machines inside the same resource group may access the
+can be opened by default. Machines inside the same project may access the
 *srv* ports of their RG peers freely.
 
 Currently we allow public access for:

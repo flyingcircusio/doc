@@ -14,7 +14,7 @@ information about the usage of those resources platform.
 
 .. note::
 
-  The API is currently under development and only available to selected customers and resource groups at the moment. Please be careful: accidents may happen and cause downtime or data loss.
+  The API is currently under development and only available to selected customers and projects at the moment. Please be careful: accidents may happen and cause downtime or data loss.
 
   If you're interested in accessing the Flying Circus through an API, `let us know <mailto:support@flyingcircus.io>`_!
 

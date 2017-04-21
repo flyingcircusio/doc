@@ -4,7 +4,7 @@ NFS
 ===
 
 Maintains a NFS share to access a data pool from multiple VMs. The NFS share is
-bound to one resource group and one datacenter location.
+bound to one project and one datacenter location.
 
 Components
 ----------
