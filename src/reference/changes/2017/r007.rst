@@ -19,7 +19,7 @@ NixOS platform
   to Postfix (#26492).
 * Add `sysstat` service on all VMs (#26608).
 * Manage Load thresholds based on machine's CPU count (#26550).
-* Monitoring: various improvements to journal checks (#26440).
+* Monitoring: various improvements to journal checks (#26440, #26458).
 * Monitoring: Ignore invalid client-side cipher selection in SSH journal check
   (#26493).
 * Update MongoDB 3.2 to newest release in series (3.2.12) to benefit from fixes
