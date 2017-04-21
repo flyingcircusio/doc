@@ -20,8 +20,8 @@ parts:
     :local:
     :depth: 1
 
-Resource groups
----------------
+Projects
+--------
 
 When you ordered a virtual machine, we asked you for a project name. Let's
 assume your project is called `myapp`. Based on this we gave your first virtual
@@ -29,9 +29,7 @@ machine the name `myapp00`. This way you are ready to add more resources to
 your project when needed without having to invent further names. Additional
 virtual machines will be called subsequently: `myapp01`, `myapp02`, and so on.
 
-The Flying Circus calls this a "resource group" (instead of "project") to
-describe that a set of resources (virtual machines) belongs together and has
-some common settings (like user permissions, firewalling, etc.).
+At Flying Circus we use projects to describe that a set of resources (virtual machines) that belong together and have some common settings (like user permissions, firewalling, etc.).
 
 
 User accounts
@@ -89,10 +87,10 @@ Application deployment
     concept in detail
 
 Server applications should be running in a *service user* account and not in a
-*human user* account. For every resource group we automatically
+*human user* account. For every project we automatically
 provide a service user with a matching name. For example: if your resource
 group is named `myapp` then there will also be a user account called `myapp` on
-all virtual machines that belong to this resource group.
+all virtual machines that belong to this project.
 
 Change your user context to this user and perform the necessary tasks to deploy
 your application::

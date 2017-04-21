@@ -2,7 +2,7 @@ Examples
 ========
 
 Here is a sample walkthrough how to use the API with the default Python
-``xmlrpclib`` client to create a new resource group, a VM, a service user, and
+``xmlrpclib`` client to create a new project, a VM, a service user, and
 grant permissions to a human user. The walk through can be recreated using
 the same credentials with our Vagrant-based test environment:
 
@@ -17,7 +17,7 @@ the same credentials with our Vagrant-based test environment:
     >>> s.ping()
     'pong'
 
-We start out with a master resource group that the API key is granted to:
+We start out with a master project that the API key is granted to:
 
 .. code-block:: pycon
 
@@ -33,7 +33,7 @@ We start out with a master resource group that the API key is granted to:
       'technical_contacts': ['admin@flyingcircus.io'],
       'timezone': 'Europe/Berlin'}]
 
-We create a new resource group with only minimal details and get the
+We create a new project with only minimal details and get the
 full record back:
 
 .. code-block:: pycon
@@ -50,7 +50,7 @@ full record back:
       'technical_contacts': [],
       'timezone': 'Europe/Berlin'}]
 
-Now we can create a VM in this resource group:
+Now we can create a VM in this project:
 
 .. code-block:: pycon
 
@@ -103,7 +103,7 @@ To let the VM do something useful, we can select classes::
                   'role::webgateway'],
     ...
 
-Now, lets create a service user for this resource group:
+Now, lets create a service user for this project:
 
 .. code-block:: pycon
 
@@ -122,7 +122,7 @@ Now, lets create a service user for this resource group:
       'uid': 's-example',
       'virtual_machines': ['example00']}]
 
-And now lets make the "Admin" user part of this resource group with
+And now lets make the "Admin" user part of this project with
 the right to log in and change into the service user::
 
     >>> s.apply([{'__type__': 'permission',

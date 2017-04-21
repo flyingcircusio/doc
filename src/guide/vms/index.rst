@@ -36,7 +36,7 @@ Virtual machines
 Maintenance
 -----------
 
-For every resource group maintenance is by default configured between 22:00 and
+For every project maintenance is by default configured between 22:00 and
 5:00 with a pre-announcement period of 24 hours. When our tools notice that
 maintenance is required they will automatically pick a window matching the
 configured limits and notify the technical contacts.

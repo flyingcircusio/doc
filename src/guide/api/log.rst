@@ -1,9 +1,9 @@
 Log
 ===
 
-You can access a log of all calls made to the API for a resource group by
+You can access a log of all calls made to the API for a project by
 visiting `your API page <https://my.flyingcircus.io/api/tokens>`_ and selecting
-the ``Log`` utility for a resource group:
+the ``Log`` utility for a project:
 
 .. image:: ../../images/apilog_choose.png
 

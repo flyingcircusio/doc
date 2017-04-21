@@ -13,18 +13,20 @@ at least the primary key to ensure unambiguity.
 .. contents:: :local:
     :depth: 1
 
-Resource Group
-~~~~~~~~~~~~~~
+Project
+~~~~~~~
 
-Resource groups are the foundational building block for organizing resources
+Projects are the foundational building block for organizing resources
 in the Flying Circus platform: they group together which machines belong
 to the same project, which users have permissions for them, what rules
 apply for maintenance, and more.
 
-In addition to the resource group that your key is associated with, you
-can create new child resource groups.
+.. note:: In technical terms a project is just a thing grouping resource, hence we used to call projects "resource groups". The API still uses the old term, and will continue to do so to ensure compatibility.
 
-The structure of a resource group record looks like this:
+In addition to the project that your key is associated with, you
+can create new child projects.
+
+The structure of a project record looks like this:
 
 .. code-block:: python
 
@@ -42,13 +44,13 @@ The structure of a resource group record looks like this:
 name
     *read-only, primary key, filterable*
 
-    The name of the resource group. Needs to be a valid Linux group name.
+    The name of the project. Needs to be a valid Linux group name.
 
 customer_no
     *readonly, filterable, default: inherited or pre-set*
 
     The customer number of the customer who is charged for resources
-    that belong to this resource group.
+    that belong to this project.
 
 maintenance_start
     *filterable, default:* ``22``
@@ -77,20 +79,20 @@ timezone
 parent
     *default:* ``''``
 
-    Name of the parent resource group if this resource group has one.
+    Name of the parent project if this project has one.
 
-    If you create new resource groups, this will be set to the name
-    of the resource group that your API key belongs to. Alternatively
-    you can set the parent to any resource group that your API key
+    If you create new projects, this will be set to the name
+    of the project that your API key belongs to. Alternatively
+    you can set the parent to any project that your API key
     has access to.
 
-    (Making new top-level resource groups does not make much sense as
+    (Making new top-level projects does not make much sense as
     they would become inaccessible to your API key anyway.)
 
 production
     *filterable, default:* ``True``
 
-    Indicates whether the services of this resource group are considered
+    Indicates whether the services of this project are considered
     for production use (in contrast to testing, staging, dev, or similar
     non-production instances).
 
@@ -110,13 +112,13 @@ Service users are used to run your actual services - compared to running them
 in your login user.  This gives additional security and allows more flexible
 workflows when cooperating with other team members.
 
-In nested resource groups, service users exist on all child resource groups
+In nested projects, service users exist on all child projects
 recursively.
 
 You can query, create, update and delete service users. Their names always
 start with ``s-`` to make them distinguishable from regular users. Their names
-are unique per resource group, so you can have multiple services users named
-``s-myservice`` in different resource groups.
+are unique per project, so you can have multiple services users named
+``s-myservice`` in different projects.
 
 The structure of a service user record looks like this:
 
@@ -138,7 +140,7 @@ uid
     *read-only, primary key, filterable*
 
     The Linux name of this service user. Needs to start with ``s-`` and
-    be unique within each resource group.
+    be unique within each project.
 
 resource_group
     *read-only, primary key*
@@ -148,7 +150,7 @@ resource_group
 resource_groups_recursive
     *read-only*
 
-    The flattened list of names of all resource groups that this
+    The flattened list of names of all projects that this
     service user has access to.
 
 description
@@ -198,7 +200,7 @@ virtual_machines
 User permissions
 ~~~~~~~~~~~~~~~~
 
-Permissions are assigned to users (human and service) on a per-resource group
+Permissions are assigned to users (human and service) on a per-project
 basis and control the access level that users have to login and interact with
 virtual machines and other services.
 
@@ -235,8 +237,8 @@ permission
 resource_group
     *read-only, primary key*
 
-    The name of the resource group the permission is granted.
-    Applies to child resource groups as long as the child resource
+    The name of the project the permission is granted.
+    Applies to child projects as long as the child resource
     group does not define any other permission.
 
 uid
@@ -300,7 +302,7 @@ A virtual machine record looks like this:
 name
     *read-only, primary key*
 
-    The name of the virtual machine. All machines within a resource group
+    The name of the virtual machine. All machines within a project
     need to adhere to the schema ``<nameofrg><serialnumber>``. You can choose
     how to allocate those numbers as you like.
 
@@ -314,7 +316,7 @@ name
 resource_group
     *readonly, required*
 
-    The name of the resource group this VM belongs to.
+    The name of the project this VM belongs to.
 
 location
     *readonly, required*
@@ -336,7 +338,7 @@ service_description
 resource_group_parent
     *readonly*
 
-    The name of the parent resource group of the resource group this
+    The name of the parent project of the project this
     VM belongs to.
 
      'timezone': 'Europe/Berlin'
@@ -349,7 +351,7 @@ classes
     in the :ref:`managed-components` documentation.
 
     A few roles are not selectable by you: if your VM runs in a production
-    resource group, it will always be marked as ``role::backupclient`` to
+    project, it will always be marked as ``role::backupclient`` to
     ensure safety of your data.
 
     Generally your VM will always have the ``role::generic`` class applied.
@@ -431,7 +433,7 @@ frontend_ips_v4
 .. note::
 
     Public IPv4 addresses are a scarce resource. Most virtual machines
-    do not require one. Typically you need only 1 per resource group,
+    do not require one. Typically you need only 1 per project,
     maybe 2 or 3 under certain conditions. In the case of excessive use
     we may reduce the number of IPs available to your VM.
 
@@ -563,7 +565,7 @@ scheduled for your services. Maintenance windows can not be changed
 through the API.
 
 General parameters for maintenance windows can be configured on the
-corresponding resource group object.
+corresponding project object.
 
 A maintenance record looks like this:
 
@@ -595,7 +597,7 @@ end of a month, those consumptions are reviewed and turned into invoice items.
 
 Consumptions can be queried during a month to see the ongoing view of
 your traffic, virtual machines, contracts, and more. Consumptions are also
-historic data and remain available even if you delete a resource group, a VM,
+historic data and remain available even if you delete a project, a VM,
 or pass your resources over to a different customer.
 
 Access to consumptions is granted based on the customer of the resource
@@ -613,7 +615,7 @@ A consumption record looks like this:
      'type_id': 'myrg'}
 
 The content of `type_id` depends on the type. For example: traffic is
-accounted per resource group. Virtual machines are accounted per virtual
+accounted per project. Virtual machines are accounted per virtual
 machine. Parameters vary per type as well.
 
 Invoices
