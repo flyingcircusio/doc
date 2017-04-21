@@ -62,7 +62,7 @@ query(type, filter=None)
 
 The ``query()`` method returns all resources of a given type that are visible
 to the current access key. Without any filters this includes the data of
-all child resource groups.
+all child projects.
 
 The list of valid types is given in the section :ref:`api-resource-types`.
 
@@ -82,7 +82,7 @@ log(serial=None)
 ~~~~~~~~~~~~~~~~
 
 The ``log()`` method returns all log entries about any call to the other
-methods within the same resource group.  This allows you to integrate our API
+methods within the same project.  This allows you to integrate our API
 logging into your own logging infrastructure by calling this method regularly.
 A serial counter assures that you will receive only new logs and not miss any
 logs.
@@ -91,10 +91,10 @@ A few rules:
 
 * Logs are kept 30 days.
 * Calls to the ``log()`` method are not logged themselves.
-* If a resource group is deleted, then all associated logs are deleted immediately, too.
+* If a project is deleted, then all associated logs are deleted immediately, too.
 * Please do not poll the API in extremely short cycles.
   Let's say once every few minutes is sufficient.
-* Logs only contain calls from the exact API key associated with the resource group. Calls with access keys from child resource groups are not shown in the parent log.
+* Logs only contain calls from the exact API key associated with the project. Calls with access keys from child projects are not shown in the parent log.
 * Logs are kept when the API key is reset.
 
 How to ensure that you receive a gapless log:
