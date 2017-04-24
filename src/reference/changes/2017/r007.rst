@@ -8,7 +8,7 @@ Impact
 
 * [NixOS] VMs will be rebooted due to a kernel update.
 * [NixOS] MongoDB instances will be restarted.
-* [NixOS] Network will be restarted without activly restarting services.
+* [NixOS] Network will be restarted without actively restarting services.
 
 
 NixOS platform
