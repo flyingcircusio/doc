@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Enable *i6300esb* watchdog for virtual machines (#23942).
 
 
 Gentoo platform
