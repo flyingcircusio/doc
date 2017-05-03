@@ -6,13 +6,15 @@ Release 2017_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] `nginx` instances will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Enable *i6300esb* watchdog for virtual machines (#23942).
+* Provide *uswgi_params* in :file:`/etc/local/nginx`.
+* Improve Datadog StatsD service setup (#26538).
 
 
 Gentoo platform
