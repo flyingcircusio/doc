@@ -20,7 +20,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug in sshguard firewall setup (#14542).
 
 
 Documentation
