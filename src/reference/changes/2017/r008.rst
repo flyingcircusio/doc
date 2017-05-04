@@ -21,6 +21,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix bug in sshguard firewall setup (#14542).
+* Install processor microcode fix (#26735).
 
 
 Documentation
