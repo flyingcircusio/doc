@@ -22,9 +22,9 @@ Configuration
 Documentation
 ^^^^^^^^^^^^^
 
-* Updated :ref:`firststeps`, :ref:`webgateway` and :ref:`loghost` documentation
+* Updated :ref:`firststeps`, :ref:`webgateway` and :ref:`gentoo-loghost` documentation
   to reference the tool menu in https://my.flyingcircus.io.
-* Advertise Grok Constructor in :ref:`loghost` documentation.
+* Advertise Grok Constructor in :ref:`gentoo-loghost` documentation.
 
 
 .. vim: set spell spelllang=en:
