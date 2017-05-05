@@ -16,7 +16,7 @@ Kibana is accessible on `My Flying Circus <https://my.flyingcircus.io>`_ via the
 Creating an index pattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When accessing your :ref:`loghost's <loghost>` Kibana for the first time, you
+When accessing your :ref:`loghost's <gentoo-loghost>` Kibana for the first time, you
 will be asked to create an *index pattern*.  Choose *@timestamp* as your
 *Time-field name*:
 

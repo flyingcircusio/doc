@@ -32,6 +32,7 @@ Roles and packages
    elasticsearch
    external_net
    java
+   loghost
    memcached
    mysql
    postgresql
