@@ -18,7 +18,7 @@ framework/language. Here are some examples of handlers for different languages:
 * Ruby: `logstash-logger <http://www.rubydoc.info/gems/logstash-logger/>`_
 
 When configuring your handler, use the canonical FQDN of your :ref:`loghost
-<loghost>` as the logstash host, e.g. *myapp00.gocept.net*.
+<gentoo-loghost>` as the logstash host, e.g. *myapp00.gocept.net*.
 
 .. note::
 

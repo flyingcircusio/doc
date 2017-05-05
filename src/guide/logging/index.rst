@@ -19,7 +19,7 @@ provide regular log files. See each component's documentation about where to
 find them and how to read them.
 
 For more advanced use cases, you can choose to use the managed :ref:`loghost
-<loghost>` component: using `Elasticsearch
+<gentoo-loghost>` component: using `Elasticsearch
 <https://www.elastic.co/products/elasticsearch>`_, `Logstash
 <https://www.elastic.co/products/logstash>`_, and `Kibana
 <https://www.elastic.co/products/kibana>`_ (known as the ELK stack)  gives you
@@ -27,7 +27,7 @@ powerful tools to store your logs from multiple machines on a central server.
 There you can analyze, filter, notify, search, graph, and create dashboards
 from them.
 
-When you enable a :ref:`loghost <loghost>` it automatically picks up logs from
+When you enable a :ref:`loghost <gentoo-loghost>` it automatically picks up logs from
 our managed components and gives you a starting point to integrate your
 application by either logging directly from your application or integrating
 custom log files.

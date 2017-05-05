@@ -28,7 +28,7 @@ Configuration
 Documentation
 ^^^^^^^^^^^^^
 
-* :ref:`loghost` role documentation (#8658).
+* :ref:`gentoo-loghost` role documentation (#8658).
 
 
 .. vim: set spell spelllang=en:
