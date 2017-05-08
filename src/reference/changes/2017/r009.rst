@@ -6,7 +6,8 @@ Release 2017_009 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* All machines need to be rebooted due to a kernel update.
+
 
 
 NixOS platform
@@ -18,7 +19,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Linux kernel to 4.9.25 to improve VM stability (#26786).
+* Fix bug in sshguard firewall setup (#14542).
 
 
 Documentation
