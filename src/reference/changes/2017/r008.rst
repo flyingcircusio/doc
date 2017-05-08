@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-05-08
 
-Release 2017_008 (unreleased)
+Release 2017_008 (2017-05-08)
 -----------------------------
 
 Impact
@@ -26,12 +26,6 @@ Gentoo platform
 * Update Linux kernel to 4.9.25 to improve VM stability (#26786).
 * Fix bug in sshguard firewall setup (#14542).
 * Install processor microcode fix (#26735).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
