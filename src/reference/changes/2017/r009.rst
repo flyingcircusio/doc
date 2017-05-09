@@ -29,4 +29,21 @@ Documentation
 * nothing yet
 
 
+Updated program versions
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* bash: 4.2_p52 -> 4.3_p48
+* eselect-java: 0.1.0 -> 0.3.0
+* eselect-python: 20111108 -> 20160516
+* libarchive: 3.1.2 -> 3.2.2
+* libudev: 208 -> 215
+* libxcb: 1.10 -> 1.12
+* libXft: 2.3.1 -> 2.3.2
+* procps: 3.3.9 -> 3.3.12
+* python-updater: 0.11 -> 0.14
+* shared-mime-info: 1.2 -> 1.4
+* vim: 7.3.762 -> 8.0.0386
+* webapp-config: 1.52 -> 1.54
+* xcb-proto: 1.10 -> 1.12
+
 .. vim: set spell spelllang=en:
