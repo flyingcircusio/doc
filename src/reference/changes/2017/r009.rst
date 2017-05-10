@@ -6,14 +6,14 @@ Release 2017_009 (unreleased)
 Impact
 ^^^^^^
 
-* All machines need to be rebooted due to a kernel update.
-
+* [Gentoo] All machines need to be rebooted due to a kernel update.
+* [NixOS] Graylog and ElasticSearch instances will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Allow to add ElasticSearch nodes to a Graylog cluster (#26893).
 
 
 Gentoo platform
