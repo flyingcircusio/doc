@@ -14,6 +14,7 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Allow to add ElasticSearch nodes to a Graylog cluster (#26893).
+* Update nodejs to 4.8.3 (#26455).
 
 
 Gentoo platform
