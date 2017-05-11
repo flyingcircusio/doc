@@ -99,6 +99,7 @@ Updated program versions
 * openldap: 2.4.38 -> 2.4.44
 * openrc: 0.12.4 -> 0.23.2
 * openssl: 1.0.2j -> 1.0.2k
+* openvpn: 2.3.6 -> 2.3.12
 * pciutils: 3.2.0 -> 3.4.1
 * pillow: 2.4.0 -> 3.4.2
 * pip: 1.4.1 -> 7.1.2
@@ -129,6 +130,7 @@ Updated program versions
 * simplejson: 3.3.0 -> 3.10.0
 * six: 1.6.1 -> 1.10.0
 * socat: 1.7.2.3 -> 1.7.3.1
+* spidermonkey: 1.8.2.15 -> 1.8.5
 * sqlite: 3.8.10.2 -> 3.16.2
 * tcpdump: 4.7.4 -> 4.9.0
 * tiff: 4.0.3 -> 4.0.7
