@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-05-16
 
-Release 2017_009 (unreleased)
+Release 2017_009 (2017-05-16)
 -----------------------------
 
 Impact
@@ -16,6 +16,7 @@ NixOS platform
 * Allow to add ElasticSearch nodes to a Graylog cluster (#26893).
 * Update nodejs to 4.8.3 (#26455).
 * Allow maintenance request being canceled (#26697).
+* Fix information disclosure bug in OpenVPN monitoring (#26899).
 
 
 Gentoo platform
@@ -25,12 +26,6 @@ Gentoo platform
 * Mass package update to fix several security vulnerabilities with an emphasis
   on the Python ecosystem. See list below for details (#25714).
 * Fix bug in sshguard firewall setup (#14542).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Updated program versions
