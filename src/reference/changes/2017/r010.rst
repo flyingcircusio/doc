@@ -30,6 +30,7 @@ Updated program versions
 * apachetop: 0.12.6 -> 0.12.6
 * apr: 1.5.0 -> 1.5.2
 * asciidoc: 8.6.5 -> 8.6.9
+* audit: 2.1.3 -> 2.6.4
 * automake: 1.14.1 -> 1.15
 * automake-wrapper: 9 -> 10
 * bash: 4.2_p52 -> 4.3_p48
