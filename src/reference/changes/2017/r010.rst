@@ -19,9 +19,12 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update Linux kernel to 4.9.25 to improve VM stability (#26786).
+* Upgrade to a recent portage version to enable EAPI=6 ebuilds (#25202).
 * Mass package update to fix several security vulnerabilities with an emphasis
   on the Python ecosystem. See list below for details (#25714).
 * Fix bug in sshguard firewall setup (#14542).
+* Remove `vm_io` check as it does not bring any useful insight (#26788).
+* Fix bug in VM image charging code (#26700).
 
 
 Updated program versions
