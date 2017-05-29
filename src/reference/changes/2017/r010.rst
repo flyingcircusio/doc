@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-05-29
 
-Release 2017_010 (unreleased)
+Release 2017_010 (2017-05-29)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [Gentoo] All machines need to be rebooted due to a kernel update.
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Gentoo platform
@@ -25,6 +19,8 @@ Gentoo platform
 * Fix bug in sshguard firewall setup (#14542).
 * Remove `vm_io` check as it does not bring any useful insight (#26788).
 * Fix bug in VM image charging code (#26700).
+* Improve debug logging in `fc.qemu` to nail down spurious migration errors
+  (#26862).
 
 
 Updated program versions
