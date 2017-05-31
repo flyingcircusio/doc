@@ -6,12 +6,17 @@ Release 2017_011 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] PostgreSQL 9.4 and 9.5 servers needs to be restarted. Corrupt indexes
+  might
+  need to be `rebuilt
+  <https://www.postgresql.org/docs/9.5/static/release-9-5-6.html>`.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
+* Security update: PostgreSQL 9.5.6 (#27035).
+* Security update: PostgreSQL 9.4.12 (#27058).
 * Add Electron 1.6.8 package (#27161).
 
 
