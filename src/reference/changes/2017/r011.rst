@@ -8,7 +8,7 @@ Impact
 
 * [NixOS] PostgreSQL 9.4, 9.5, and 9.6 servers need to be restarted. Corrupt
   indexes might need to be `rebuilt
-  <https://www.postgresql.org/docs/9.5/static/release-9-5-6.html>`.
+  <https://www.postgresql.org/docs/9.5/static/release-9-5-6.html>`_.
 
 
 NixOS platform
