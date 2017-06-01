@@ -1,4 +1,4 @@
-.. _antivirus:
+.. _antivirus_nixos:
 
 Antivirus
 =========
@@ -12,15 +12,13 @@ Components
 ----------
 
 * clamd - antivirus daemon
-* clamscan - stand-alone virus checker
+* clam(d)scan - command line virus checker
 * freshclam - signature update service
 
 Interaction
 -----------
 
-Use :command:`clamdscan` to pass files to the scanning daemon.
-
-If the :ref:`mailserver` role is also present on the same VM, all mails are
-automatically scanned for viruses and discarded if they contain a known virus.
+Use :command:`clamdscan` to pass files to the scanning daemon or talk directly
+to it via `libclamav`.
 
 .. vim: set spell spelllang=en:

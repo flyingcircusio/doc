@@ -28,6 +28,7 @@ Roles and packages
 .. toctree::
    :titlesonly:
 
+   antivirus
    datadog
    elasticsearch
    external_net

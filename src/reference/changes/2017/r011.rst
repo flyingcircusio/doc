@@ -6,30 +6,34 @@ Release 2017_011 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS] PostgreSQL 9.4 and 9.5 servers needs to be restarted. Corrupt indexes
-  might
-  need to be `rebuilt
+* [NixOS] PostgreSQL 9.4, 9.5, and 9.6 servers need to be restarted. Corrupt
+  indexes might need to be `rebuilt
   <https://www.postgresql.org/docs/9.5/static/release-9-5-6.html>`.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
+* Security update: PostgreSQL 9.6.3 (#27186).
 * Security update: PostgreSQL 9.5.6 (#27035).
 * Security update: PostgreSQL 9.4.12 (#27058).
 * Add Electron 1.6.8 package (#27161).
+* More informative bash shell prompts: indicate if this is a test or production
+  system (#27045).
+* Add `antivirus` role which runs ClamAV on a machine (#27162).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* More informative bash shell prompts: indicate if this is a test or production
+  system (#27045).
 
 
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* :ref:`Antivirus <antivirus_nixos>` role for NixOS (#27162).
 
 
 .. vim: set spell spelllang=en:
