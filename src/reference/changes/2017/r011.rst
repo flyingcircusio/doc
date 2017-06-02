@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-06-06
 
-Release 2017_011 (unreleased)
+Release 2017_011 (2017-06-06)
 -----------------------------
 
 Impact
