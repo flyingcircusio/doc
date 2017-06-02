@@ -17,6 +17,7 @@ NixOS platform
 * Security update: PostgreSQL 9.6.3 (#27186).
 * Security update: PostgreSQL 9.5.6 (#27035).
 * Security update: PostgreSQL 9.4.12 (#27058).
+* Add NodeJS 7 package (#27160).
 * Add Electron 1.6.8 package (#27161).
 * More informative bash shell prompts: indicate if this is a test or production
   system (#27045).
@@ -28,6 +29,10 @@ Gentoo platform
 
 * More informative bash shell prompts: indicate if this is a test or production
   system (#27045).
+* Fix Java/TLS/ECKeys/NSS bug that caused Java VMs to crash while performing
+  communication via SSL (#27109).
+* Security: update `nss` to 3.29.5 (#26889).
+* Security: update `sudo` to 1.8.20_p1 (#27165).
 
 
 Documentation
