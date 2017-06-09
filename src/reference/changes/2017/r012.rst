@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Separate resolver and authoritative nameserver functionalities of dnsmasq on
+  external network gateways to prevent DNS amplification attacks (#27339).
 
 
 Gentoo platform
