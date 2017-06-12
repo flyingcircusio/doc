@@ -5,13 +5,13 @@ PHP
 
 For operating PHP based application we chose to use `FPM <http://php.net/manual/en/intro.fpm.php>`_.
 
-We assume the service user is called ``s-phpsite``, but of course you can use any service user name.
+We assume the service user is called ``s-phpsite``, and that the docroot is :file:`/srv/s-phpsite/docroot`. But of course you can use different service user names, and different docroots.
 
 
 Installation
 ------------
 
-Note that on the NixOS platform it is not strictly necessary to activate a role to install software. You can install Java into the service-user::
+Note that on the NixOS platform it is not necessary to activate a role to install PHP. You can install PHP into the service user::
 
     ssh your-vm
     sudo -iu s-phpsite
@@ -74,6 +74,7 @@ Register the FPM with systemd, to get a running process. Since there are some va
 
 Here is a snippet for configuring the phpfpm support into your nginx virtual host (see also the :revcF:ref:`nixos-nginx` role documentation)::
 
+    root /srv/s-phpsite/docroot;
 
     location / {
         index index.php;
