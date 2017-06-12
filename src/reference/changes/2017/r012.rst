@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-06-13
 
-Release 2017_012 (unreleased)
+Release 2017_012 (2017-06-13)
 -----------------------------
 
 Impact
@@ -24,12 +24,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Improve reliability of storage servers during reboots (#27366).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
