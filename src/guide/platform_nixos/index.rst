@@ -36,6 +36,7 @@ Roles and packages
    loghost
    memcached
    mysql
+   php
    postgresql
    webgateway
    webproxy
