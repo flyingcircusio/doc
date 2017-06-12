@@ -23,7 +23,7 @@ There are different PHP versions to choose from:
 * ``nixos.php56``
 * ``nixos.php70``
 
-.. NOTE:: ou can install different PHP versions at the same time on the same machine in different service users.
+.. NOTE:: You can install different PHP versions at the same time on the same machine in different service users.
 
 
 
