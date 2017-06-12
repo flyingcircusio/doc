@@ -59,6 +59,9 @@ HAProxy
 For HAProxy, you will already find a configuration file which you can change to
 fit your needs. For reference, please refer to the `official documentation <http://cbonte.github.io/haproxy-dconv/configuration-1.5.html>`_.
 
+
+.. _nixos-nginx:
+
 nginx
 ~~~~~
 
