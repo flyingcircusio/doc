@@ -6,19 +6,21 @@ Release 2017_013 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* FE network interfaces will be restarted on some NixOS VMs.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* [NixOS] Fix buggy default route creation when multiple networks exist in the
+  same VLAN and some subnets do not have an IP address locally configured
+  (#27158).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve log checks for Dovecot (#26915).
 
 
 Documentation
