@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-06-21
 
-Release 2017_013 (unreleased)
+Release 2017_013 (2017-06-21)
 -----------------------------
 
 Impact
@@ -23,12 +23,6 @@ Gentoo platform
 
 * Improve mailman reliability (#27497).
 * Improve log checks for Dovecot (#26915).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
