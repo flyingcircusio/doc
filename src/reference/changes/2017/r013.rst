@@ -12,14 +12,16 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* [NixOS] Fix buggy default route creation when multiple networks exist in the
+* Fix buggy default route creation when multiple networks exist in the
   same VLAN and some subnets do not have an IP address locally configured
   (#27158).
+* Provide box client also on NixOS (#21486).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
+* Improve mailman reliability (#27497).
 * Improve log checks for Dovecot (#26915).
 
 
