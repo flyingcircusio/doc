@@ -7,6 +7,9 @@ Impact
 ^^^^^^
 
 * FE network interfaces will be restarted on some NixOS VMs.
+* Graylog instances will be restarted.
+* ElasticSearch nodes on `loghost` VMs will be restarted.
+
 
 
 NixOS platform
@@ -16,6 +19,7 @@ NixOS platform
   same VLAN and some subnets do not have an IP address locally configured
   (#27158).
 * Provide box client also on NixOS (#21486).
+* Tweak Graylog and ElasticSearch Java heap settings.
 
 
 Gentoo platform
