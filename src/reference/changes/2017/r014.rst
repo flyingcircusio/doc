@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Monitor for corrupted systemd journal files (known systemd bug) (#26959).
 
 
 Gentoo platform
