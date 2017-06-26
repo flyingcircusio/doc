@@ -18,7 +18,9 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Ceph: Increase automatic timeout for OSDs so we can reboot without causing
+  backfills (#27541).
+* Fix bug that stopped `qcheck` integrity monitoring from working (#27040).
 
 
 Documentation
