@@ -10,6 +10,7 @@ The following people are administrators for the Flying Circus:
 * Christian Theune
 * Christian Zagrodnick
 * Frank Lanitz
+* Maksim Bronsky
 
 
 List of stand-by supporters
@@ -21,4 +22,5 @@ The following people perform standby support duties:
 * Christian Theune
 * Christian Zagrodnick
 * Frank Lanitz
+* Maksim Bronsky
 
