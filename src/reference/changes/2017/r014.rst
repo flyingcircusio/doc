@@ -16,6 +16,7 @@ NixOS platform
 * Remove LD_LIBRARY_PATH from default environment. It causes more harm than good
   (#25410).
 * Monitor for corrupted systemd journal files (known systemd bug) (#26959).
+* Security update for `busybox` (#26962).
 
 
 Gentoo platform
