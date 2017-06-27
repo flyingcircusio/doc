@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-06-28
 
-Release 2017_014 (unreleased)
+Release 2017_014 (2017-06-28)
 -----------------------------
 
 Impact
@@ -24,12 +24,7 @@ Gentoo platform
 * Ceph: Increase automatic timeout for OSDs so we can reboot without causing
   backfills (#27541).
 * Fix bug that stopped `qcheck` integrity monitoring from working (#27040).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* HA setup for DNS resolvers (#24583).
 
 
 .. vim: set spell spelllang=en:
