@@ -22,8 +22,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Ceph: Increase automatic timeout for OSDs so we can reboot without causing
-  backfills (#27541).
+* Ceph: Increase automatic *out* timeout for OSDs so we can reboot without
+  causing backfills (#27541).
 * Fix bug that stopped `qcheck` integrity monitoring from working (#27040).
 * HA setup for DNS resolvers (#24583).
 
