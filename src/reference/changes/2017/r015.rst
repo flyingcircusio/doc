@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide yarn-0.20.3, to be installed via `nix-env -iA nixos.yarn` (#27599).
 
 
 Gentoo platform
