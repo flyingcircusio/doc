@@ -13,6 +13,8 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Provide yarn-0.20.3, to be installed via `nix-env -iA nixos.yarn` (#27599).
+* Port XCache 3.2.0 to PHP 5.6 (#27595).
+* Security update for ImageMagick (update to 6.9.8-10, #27180).
 
 
 Gentoo platform
