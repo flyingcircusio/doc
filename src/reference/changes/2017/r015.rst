@@ -12,7 +12,7 @@ NixOS platform
 * Pre-build binaries to decrease installation times: pdftk (#27590), Java
 * Re-enable logging in the `graylog` configuration tool (regression fix,
   #27683).
-* Add a basic `coturn` service definition (#
+* Add a basic `coturn` service definition (#26679).
 
 
 .. vim: set spell spelllang=en:
