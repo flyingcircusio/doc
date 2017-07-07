@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug in journal check which lead to invalid file references (#27697).
 
 
 Gentoo platform
