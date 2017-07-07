@@ -65,8 +65,8 @@ physically access the data processing equipment.**
 
 The physical assets (servers, switches, hard drives, ...) are located in EU
 data centers operated by third parties. The ownership of the physical equipment
-is with the Flying Circus, or, in special cases by our customers [#customer-
-owned]_.
+is with the Flying Circus, or, in special cases by our customers
+[#customer-owned]_.
 
 For each data center used by us we require the following measures:
 
