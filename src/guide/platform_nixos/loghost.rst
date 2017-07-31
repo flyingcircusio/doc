@@ -22,7 +22,7 @@ The other (:ref:`srv interface <logical_networks>`, port TCP 9002) is meant for 
 Graylog
 ~~~~~~~
 
-Graylog saves user configs and settings in a mongodb, while ingested messages are stored in :ref:`Elasticsearch <nixos-elasticsearch>`.
+Graylog saves user configs and settings in a MongoDB, while ingested messages are stored in :ref:`Elasticsearch <nixos-elasticsearch>`.
 
 
 
@@ -33,11 +33,9 @@ Interaction
   :class: logo
   :width: 250px
 
-Activating the role adds a button at the most right position of a `VM entry <https://my.flyingcircus.io>`_. From there on you will be transferred to Graylog's dashboard. Doing that for the first time, a user with admin rights and your current login name will be created.
+Activating the role in a project, activates the "Logs …" button on the `dashboard <https://my.flyingcircus.io>`_. From there on you will be transferred to Graylog's dashboard. Doing that for the first time, a user with adminstrator rights and your current login name will be created.
 
-Alternatively, the url to access the dashboard directly is constructed like this:
-
-``http://my.flyingcircus.io/tools/<machine>/graylog/``
+Alternatively, the URL to access the graylog dashboard directly is: ``http://my.flyingcircus.io/tools/<machine>/graylog/``
 
 
 API
@@ -54,6 +52,6 @@ Inputs
 
 The following inputs are active by default:
 
-* Syslog UDP on port 10514
+* Syslog UDP on port 5140
 
 
