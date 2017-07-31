@@ -1,30 +1,31 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-06-28
 
-Release 2017_014 (unreleased)
+Release 2017_014 (2017-06-28)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* nothing yet
+* Users should restart all custom-compiled applications to detect link-level
+  errors.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Remove LD_LIBRARY_PATH from default environment. It causes more harm than good
+  (#25410).
+* Monitor for corrupted systemd journal files (known systemd bug) (#26959).
+* Security update for `busybox` (#26962).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Ceph: Increase automatic *out* timeout for OSDs so we can reboot without
+  causing backfills (#27541).
+* Fix bug that stopped `qcheck` integrity monitoring from working (#27040).
+* HA setup for DNS resolvers (#24583).
 
 
 .. vim: set spell spelllang=en:
