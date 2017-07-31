@@ -1,0 +1,31 @@
+.. XXX update on release :Publish Date: YYYY-MM-DD
+
+Release 2017_016 (unreleased)
+-----------------------------
+
+Impact
+^^^^^^
+
+* `coturn` services will be restarted.
+
+
+NixOS platform
+^^^^^^^^^^^^^^
+
+* Fix bug in journal check which lead to invalid file references (#27697).
+* Update `coturn` from version 4.5.0.3 to 4.5.0.6.
+
+
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* nothing yet
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* nothing yet
+
+
+.. vim: set spell spelllang=en:
