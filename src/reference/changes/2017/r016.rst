@@ -18,6 +18,7 @@ NixOS platform
 * Security: Update NodeJS 7.10.0 to 7.10.1, 6.9.1 to 6.11.1 and 4.8.3 to 4.8.4
   (#27817).
 * Improve startup ordering for varnish (#27558).
+* Grafana/ElasticSearch/Telegraf integration (#27132).
 
 
 Gentoo platform
@@ -29,7 +30,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Update :ref:`nixos-loghost` documentation.
 
 
 .. vim: set spell spelllang=en:
