@@ -20,6 +20,12 @@ NixOS platform
 * Improve startup ordering for varnish (#27558).
 * Grafana/ElasticSearch/Telegraf integration (#27132).
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* We switched the public probes for determining whether our data centers have
+  proper internet connectivity from the usually reliable `heise.de` to the well-known IPs of Google's Public DNS after having had to deal with
+  false positives. (#27868)
 
 Documentation
 ^^^^^^^^^^^^^
