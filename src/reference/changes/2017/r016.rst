@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-08-02
 
-Release 2017_016 (unreleased)
+Release 2017_016 (2017-08-02)
 -----------------------------
 
 Impact
@@ -19,12 +19,6 @@ NixOS platform
   (#27817).
 * Improve startup ordering for varnish (#27558).
 * Grafana/ElasticSearch/Telegraf integration (#27132).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
