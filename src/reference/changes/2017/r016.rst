@@ -10,6 +10,12 @@ Impact
 * NodeJS based services will be restarted.
 
 
+Network
+^^^^^^^
+
+* Add new IPv4 address range 185.105.252.0/24 for VMs (#16370).
+
+
 NixOS platform
 ^^^^^^^^^^^^^^
 
@@ -24,8 +30,9 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * We switched the public probes for determining whether our data centers have
-  proper internet connectivity from the usually reliable `heise.de` to the well-known IPs of Google's Public DNS after having had to deal with
-  false positives. (#27868)
+  proper internet connectivity from the usually reliable `heise.de` to the
+  well-known IPs of Google's Public DNS after having had to deal with false
+  positives. (#27868)
 
 Documentation
 ^^^^^^^^^^^^^
