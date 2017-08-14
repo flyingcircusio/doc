@@ -6,19 +6,23 @@ Release 2017_017 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] NFS shares will be remounted and produce a spurious warning message
+  (#27810).
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug with resource group NFS shares: some of them did not get mounted
+  during boot (#27810).
+* Fix bug with `fc-agent` automatic activation timer (#26699).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Increase snapshot timeout to prevent unnecessary backup failures (#27832).
+* Preload NBD kernel module on physical servers for easy restore (#27681).
 
 
 Documentation
