@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-08-21
 
-Release 2017_017 (unreleased)
+Release 2017_017 (2017-08-21)
 -----------------------------
 
 Impact
@@ -55,12 +55,6 @@ Gentoo platform
 
 * Increase snapshot timeout to prevent unnecessary backup failures (#27832).
 * Preload NBD kernel module on physical servers for easy restore (#27681).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
