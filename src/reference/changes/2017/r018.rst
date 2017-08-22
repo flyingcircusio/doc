@@ -12,7 +12,6 @@ Impact
   (#27810).
 
 
-
 NixOS platform
 ^^^^^^^^^^^^^^
 
@@ -49,6 +48,7 @@ NixOS platform
 * Remove unused xxdiff and thus gstreamer dependency from xtrabackup (#28030).
 * Add preliminary support to protect applications installed in users' homes from
   the Nix gargabe collector (#27553).
+* Configure Nginx so that it uses all available cores (#28021).
 
 
 Gentoo platform
