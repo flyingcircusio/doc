@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve "channel activate in maintenance" mode (#26699)
 
 
 Gentoo platform
