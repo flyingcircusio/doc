@@ -1,30 +1,14 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-08-21
 
-Release 2017_017 (unreleased)
+Release 2017_017 (2017-08-21)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* Improve "channel activate in maintenance" mode (#26699)
-
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Extensive Ceph/storage performance optimizations (#27608).
+* Increase snapshot timeout to prevent unnecessary backup failures (#27832).
+* Preload NBD kernel module on physical servers for easy restore (#27681).
 
 
 .. vim: set spell spelllang=en:
