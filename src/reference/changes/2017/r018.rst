@@ -40,6 +40,7 @@ NixOS platform
 * Fix bug with resource group NFS shares: some of them did not get mounted
   during boot (#27810).
 * Fix bug with `fc-agent` automatic activation timer (#26699).
+* Improve "channel activate in maintenance" mode (#26699)
 * Provide PHP extensions for PHP 7.0 (#24768).
 * Gather Varnish metrics (#24768).
 * Firewall: DNS traffic is allowed while the firewall is being reconfigured
