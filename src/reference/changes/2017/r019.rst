@@ -6,13 +6,18 @@ Release 2017_019 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] PostreSQL instances will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Don't cancel MongoDB startup too eagerly, since it can take a long time for
+  journal initialization (#28239).
+* Fix LibreOffice build (#28259).
+* PostgreSQL: monitor every single listening port to ensure we notice
+  inconsistent states after restarts (#28247).
+* Ensure correct networking dependencies for PostgreSQL during restarts (#28242).
 
 
 Gentoo platform
