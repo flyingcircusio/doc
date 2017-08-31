@@ -6,8 +6,8 @@ Release 2017_019 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS] PostreSQL instances will be restarted.
-
+* [NixOS] Many services will be restarted due to packaging changes, e.g.
+  PostgreSQL, nginx, ...
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -25,6 +25,10 @@ NixOS platform
   port was closed without reason. Disable the Elasticsearch plugin since it
   gives garbage output (#28044, #28267).
 * Update yarn to 0.27.5 (#27873).
+* Do not reload nginx workers during logrotate.
+* Reload nginx when the configuration changes instead of restart (#28325).
+* Improved Nix store references scanning. The scanner is now enabled by default
+  on all non-production systems (#27553).
 
 
 Gentoo platform
