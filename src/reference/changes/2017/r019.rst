@@ -20,6 +20,11 @@ NixOS platform
 * Ensure correct networking dependencies for PostgreSQL during restarts
   (#28242).
 * Fix general metrics collection via Telegraf on VMs with Elasticsearch.
+* Automatically restart Grafana when it crashes (#28290).
+* Update telegraf to 1.3.1. This new version should fix a bug where the output
+  port was closed without reason. Disable the Elasticsearch plugin since it
+  gives garbage output (#28044, #28267).
+* Update yarn to 0.27.5 (#27873).
 
 
 Gentoo platform
