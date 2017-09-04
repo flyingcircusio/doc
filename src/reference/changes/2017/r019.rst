@@ -31,16 +31,10 @@ NixOS platform
   on all non-production systems (#27553).
 
 
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Setting of ``environment_class`` and ``environment`` in customer api.
 
 
 .. vim: set spell spelllang=en:
