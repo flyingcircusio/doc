@@ -358,6 +358,19 @@ classes
 
     Removing those classes is ignored.
 
+environment_class
+    *default*: ``Puppet``
+
+    The ``environment_class`` is the general flavor of your VM. Possible values are:
+
+    * Puppet
+    * NixOS.
+
+environment
+    *default*: ``production``
+
+    The environment
+
 cores
     *default*: ``1``
 
