@@ -17,38 +17,40 @@ Servers
 
 All servers, independently of their role, require:
 
-* 4 physical gigabit network ports (Intel chips)
-* OS disk: 2x256 internal SSD (e.g. via M2)
+* 2 10 GE copper network ports, onboard, shared IPMI port (Intel)
+* OS disks: 2 SSDs (internal or rear side)
+* CPU-Architecture: x86_64
 * BMC supporting IPMI 2.0 with serial console via LAN on shared port
 * Redundant power supply
-* Needs to be bootable from USB flash drive
-* PCIe bus
 * Sliding rack rails
 * Support contract for at least 5 years (next business day, parts
   included)
 * Bootable, built-in rescue system
 
+Historic requirements, usually always given nowadways:
+
+* Needs to be bootable from USB flash drive
+* PCIe bus
+
 Application servers
 ~~~~~~~~~~~~~~~~~~~
 
-* Base: Thomas Krenn RI2208
-* 256 GiB RAM
-* at least 12 physical cores with good thread performance (2x Intel Xeon E5-2643v3 6-core 3.4GHz)
-* CPU flags: vmx, constant_tsc
-* 1 port 10GBit copper (Intel 10 Gigabit X540)
+* Chassis: Thomas Krenn RI2208
+* 512 GiB RAM
+* 2x18 Core CPU at affordable speed
+* Microarchitecture: Westmere+
 * Machine name: kyleXX
 
 Storage servers
 ~~~~~~~~~~~~~~~
 
 * Base: Thomas Krenn RI2224
-* 24 slots for hard drives
+* 16 slots for hard drives
 * at leat 16 cores with sufficient thread performance (2x Intel Xeon E5-2640v3 8-Core)
 * 128 GiB RAM
-* a number of 1TB SATA 2.5" disks
-* for every 7 1TB SATA disks, 1 200GiB DC S3710
-* alternatively a number of Intel DC S3610 drives for SSD-based storage
-* 2 10GBit copper (Intel 10 Gigabit X540)
+* HDD Pool: 2-3 Micron S610DC
+* SSD Pool: 2-3 Intel 800 GB SATA III Intel SSD MLC 2,5" (DC S3610 Series)
+* Journal: 400 GB Intel SSD MLC NVMe PCI-E 3.0 (DC P3700 Series)
 * code name: cartmanXY
 
 Backup servers
@@ -60,7 +62,6 @@ Backup servers
 * at least 15 x 2 TB SAS 7.2k disks, depending on actual requirements.
 * at least 12 GiB RAM
 * at least 4 processor cores
-* 1 port 10GBit copper (Intel 10 Gigabit X540)
 * code name: barbradyXY
 
 Routers
@@ -76,14 +77,12 @@ Network infrastructure
 Switches
 ~~~~~~~~
 
-* Recommended models: HP ProCurve 2530-(24/48)G
-* usually at least 48 10/100/1000 ports (in some cases we require fewer
-  ports, so a 24 port model is acceptable in that case)
-* at least 2 ports for optional fibre uplinks
+* Recommended models: Brocade VDX 6740T
+* 24 Ports
 * code name: stanXY
 
 Cabling
 ~~~~~~~
 
-* Use Cat6
+* Use Cat7
 * Respect color coding
