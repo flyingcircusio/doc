@@ -26,5 +26,6 @@ NixOS platform
   to :file:`/etc/current-config` (#28325).
 * Enable SNMP for Telegraf. This includes an update to a recent Telegraf bugfix
   release 1.3.5.
+* Enable automatic NixOS garbage collection on selected test/dev/staging machines (#27553).
 
 .. vim: set spell spelllang=en:
