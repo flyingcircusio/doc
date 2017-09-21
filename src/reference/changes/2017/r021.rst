@@ -6,8 +6,9 @@ Release 2017_021 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
-
+* Qemu/KVM servers will require maintenance slots to update their network
+  configuration. We will let them perform this slowly to monitor the new
+  live migration code in production.
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -18,7 +19,32 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Multiple storage (Ceph), network and general system performance
+  optimizations to reduce load during recovery and maintenance phases.
+
+  Those were pre-released to our storages a few weeks ago already and are
+  now included in the stable release branch.
+
+  #27608
+
+* Upgraded storage servers' Linux kernel from 4.9.33 to 4.9.43 in an
+  attempt to fix IOMMU issue. (This didn't help unfortunately but downgrading
+  isn't needed. We're disabling the IOMMU on storage servers through an
+  updated BIOS setting now.)
+
+* Major fc.qemu release that massively improves live migration performance and
+  stability (#26784).
+
+* Increase fc.qemu snapshot timeout to prevent unnecessary backup failures
+  (#27832).
+
+* Preload NBD kernel module on physical servers for easy restore (#27681).
+
+* Update backy to release 2.2.
+
+* Fix gcc qcheck symlinks.
+
+* Expunge various older puppet utilities.
 
 
 Documentation
