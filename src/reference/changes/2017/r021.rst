@@ -13,7 +13,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update osrm-backend tp 4.5.0, and update osm2pgsql to 0.92.1 (#28514).
 
 
 Gentoo platform
