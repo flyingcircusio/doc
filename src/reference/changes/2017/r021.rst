@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-09-26
 
-Release 2017_021 (unreleased)
+Release 2017_021 (2017-09-26)
 -----------------------------
 
 Impact
@@ -45,12 +45,6 @@ Gentoo platform
 * Fix gcc qcheck symlinks.
 
 * Expunge various older puppet utilities.
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
