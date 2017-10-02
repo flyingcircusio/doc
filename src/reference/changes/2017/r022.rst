@@ -15,6 +15,8 @@ NixOS platform
 * Update osrm-backend tp 4.5.0, and update osm2pgsql to 0.92.1 (#28514).
 * Don't over-commit memory on machines with both loghost and stathost (#28316).
 * Statshost: allow direct access to the Prometheus UI via HTTP.
+* Fix relabeling of MySQL commands metric in federated Prometheus setups.
+* Collect metrics from Redis.
 
 
 Gentoo platform
