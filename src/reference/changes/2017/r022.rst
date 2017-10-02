@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-10-04
 
-Release 2017_022 (unreleased)
+Release 2017_022 (2017-10-04)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -17,18 +11,6 @@ NixOS platform
 * Statshost: allow direct access to the Prometheus UI via HTTP.
 * Fix relabeling of MySQL commands metric in federated Prometheus setups.
 * Collect metrics from Redis.
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
