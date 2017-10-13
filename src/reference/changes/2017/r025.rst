@@ -1,0 +1,31 @@
+.. XXX update on release :Publish Date: YYYY-MM-DD
+
+Release 2017_024 (unreleased)
+-----------------------------
+
+Impact
+^^^^^^
+
+* nothing yet
+
+
+NixOS platform
+^^^^^^^^^^^^^^
+
+* Update PHP 5.5, 5.6 and 7.0 to most recent bugfix releases (#28594).
+* Security update for ImageMagick: 6.9.9-4 -> 6.9.9-19 (#28605).
+
+
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* nothing yet
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* nothing yet
+
+
+.. vim: set spell spelllang=en:
