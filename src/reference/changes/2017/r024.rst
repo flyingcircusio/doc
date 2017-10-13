@@ -1,6 +1,6 @@
 .. XXX update on release :Publish Date: 2017-10-13
 
-Release 2017_024 (unreleased)
+Release 2017_024 (2017-10-13)
 -----------------------------
 
 Impact
