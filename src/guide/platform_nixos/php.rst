@@ -95,5 +95,17 @@ Here is a snippet for configuring the phpfpm support into your nginx virtual hos
 
 
 
+Local PEAR configuration
+------------------------
+
+PEAR is shipped with PHP, and you will need a local configuration to use it::
+
+    pear config-create $HOME $HOME/.pearrc
+
+For PEAR to work, PHP needs to include PEAR in :file:`php.ini` (see above)::
+
+    include_path = "/srv/s-phpsite/pear/php"
+
+
 .. vim: set spell spelllang=en:
 
