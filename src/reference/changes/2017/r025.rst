@@ -25,7 +25,7 @@ NixOS platform
 * Security update for curl: 7.52.1 -> 7.56.0 (#27729).
 * Security update for libxml: 2.9.4 -> 2.9.6 (#28608).
 * Security update for libxslt: 1.1.29 -> 1.1.31 (#28609).
-
+* Security update for LibreOffice: 5.0.1.2 -> 5.2.6.2.
 
 
 Gentoo platform
