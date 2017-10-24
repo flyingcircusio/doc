@@ -22,10 +22,4 @@ Gentoo platform
   buffer tuning on network interface cards (#28563).
 
 
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
-
 .. vim: set spell spelllang=en:
