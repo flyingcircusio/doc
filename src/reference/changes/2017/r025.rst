@@ -27,6 +27,7 @@ NixOS platform
 * Security update for libxslt: 1.1.29 -> 1.1.31 (#28609).
 * Security update for LibreOffice: 5.0.1.2 -> 5.2.6.2.
 * vulnix: fix incorrect status reporting (#28741).
+* Enable automatic garbage collection on all VMs (#27553).
 
 
 .. vim: set spell spelllang=en:
