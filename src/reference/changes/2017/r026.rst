@@ -6,7 +6,8 @@ Release 2017_026 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] RabbitMQ instances will be restarted.
+* [NixOS] nginx will be restarted.
 
 
 NixOS platform
@@ -17,12 +18,22 @@ NixOS platform
 * Always restart Kibana after a crash (#28795).
 * Monitor %steal CPU value to ensure we do not miss completely overloaded hosts
   (#28296).
+* Basic role for RabbitMQ (#28707).
+* Security update for RabbitMQ (#28725).
+* Ignore freshclam's exit status so that the systemd check doesn't alert
+  (#28236).
+* The uptime check was never alerting. Fix it with hopefully reasonable settings
+  for automated alerting and human awareness (#28837).
+* Update wkhtmltopdf to 0.12.4 (#28838).
+* Update nginx to 0.10.3 (#28890).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve outside connectivity check (#28798).
+* Improve firewall rules (#28288).
+* Silence `runscript` warnings (#28401).
 
 
 Documentation
