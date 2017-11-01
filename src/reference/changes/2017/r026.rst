@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-11-02
 
-Release 2017_026 (unreleased)
+Release 2017_026 (2017-11-02)
 -----------------------------
 
 Impact
@@ -34,12 +34,6 @@ Gentoo platform
 * Improve outside connectivity check (#28798).
 * Improve firewall rules (#28288).
 * Silence `runscript` warnings (#28401).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
