@@ -26,6 +26,8 @@ NixOS platform
   for automated alerting and human awareness (#28837).
 * Update wkhtmltopdf to 0.12.4 (#28838).
 * Update nginx to 0.10.3 (#28890).
+* Allow users to run iotop via sudo.
+* haproxy: set startup retry interval to 5s (#28920).
 
 
 Gentoo platform
