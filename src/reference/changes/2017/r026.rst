@@ -13,7 +13,7 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Always restart Telegraf after a crash. This will result in less
-  noise in monitoring and alerting (#28876).
+  noise in monitoring and alerting (#28776).
 * Always restart Kibana after a crash (#28795).
 * Monitor %steal CPU value to ensure we do not miss completely overloaded hosts
   (#28296).
