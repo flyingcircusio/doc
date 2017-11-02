@@ -6,7 +6,6 @@ Release 2017_026 (2017-11-02)
 Impact
 ^^^^^^
 
-* [NixOS] RabbitMQ instances will be restarted.
 * [NixOS] nginx will be restarted.
 
 
@@ -19,7 +18,6 @@ NixOS platform
 * Monitor %steal CPU value to ensure we do not miss completely overloaded hosts
   (#28296).
 * Basic role for RabbitMQ (#28707).
-* Security update for RabbitMQ (#28725).
 * Ignore freshclam's exit status so that the systemd check doesn't alert
   (#28236).
 * The uptime check was never alerting. Fix it with hopefully reasonable settings
