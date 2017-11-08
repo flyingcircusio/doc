@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-11-09
 
-Release 2017_027 (unreleased)
+Release 2017_027 (2017-11-09)
 -----------------------------
 
 Impact
@@ -14,12 +14,6 @@ NixOS platform
 
 * Security update for git: 2.7.4 -> 2.14.2 (#28729).
 * Security update for sqlite:  3.8.11.1 -> 3.20.1 (#28728).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
