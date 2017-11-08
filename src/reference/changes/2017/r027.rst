@@ -6,7 +6,7 @@ Release 2017_027 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS] Various services will be restarted due to library updates.
+* [NixOS] Various services will be restarted due to library updates, e.g. NFS.
 
 
 NixOS platform
