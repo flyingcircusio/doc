@@ -359,7 +359,7 @@ classes
     Removing those classes is ignored.
 
 environment_class
-    *default*: ``Puppet``
+    *default*: ``'Puppet'``
 
     The ``environment_class`` is the general flavor of your VM. Possible values are:
 
@@ -367,9 +367,18 @@ environment_class
     * NixOS.
 
 environment
-    *default*: ``production``
+    *default:* ``'production'``
 
-    The environment
+    The environment is the rolling-release version of our platform and
+    management code.
+
+    The available environments depend on the environments class:
+
+    * Puppet: ``production``, ``staging``
+    * NixOS: ``fc-15.09-prod``, ``fc-15.09-stag``
+
+    .. NOTE:: For the ``environment_class`` NixOS, you *must* set the
+      environment explicitly.
 
 cores
     *default*: ``1``
@@ -407,16 +416,9 @@ disk
     Decreasing the amount of disk space will schedule a maintenance window
     to reboot the VM.
 
-environment
-    *readonly, default:*: ``'production'``
 
-    The environment is the rolling-release version of our platform and
-    management code. VMs created through the API will always be set
-    to `'production'`. In some cases we may adjust the environment for you
-    to provide you with early access to features or bugfixes or include
-    your staging environment into continuous pre-release testing.
 
-     'online': True,
+   'online': True,
 
 interfaces
     *readonly*

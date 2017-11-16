@@ -23,7 +23,7 @@ import datetime
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinxfeed']
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,7 +48,7 @@ copyright = u'%s, Flying Circus Internet Operations GmbH' % year
 #
 # The short X.Y version.
 hg = subprocess.Popen(['hg', 'identify'], stdout=subprocess.PIPE)
-version = hg.communicate()[0].strip()
+version = hg.communicate()[0].strip().decode('UTF-8')
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -132,10 +132,6 @@ html_static_path = ['_static']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%Y-%m-%d %H:%M'
-
-# If true, SmartyPants will be used to convert quotes and dashes to
-# typographically correct entities.
-html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}

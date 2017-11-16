@@ -29,3 +29,4 @@ parts/
 tags
 .todo
 pip-selfcheck.json
+pyvenv.cfg
