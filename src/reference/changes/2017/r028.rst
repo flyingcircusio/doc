@@ -6,7 +6,9 @@ Release 2017_028 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [Gentoo] Most services need to be restarted due to the glibc update.
+* [Gentoo] Python applications should be restarted to pick up updated Python
+  versions.
 
 
 NixOS platform
