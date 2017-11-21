@@ -15,6 +15,8 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Gather rabbitmq metrics via telegraf (#28950).
+* Provide docsplit 0.7.6 package.
+* Security update for Python 2.7: 2.7.11 -> 2.7.14 (#28607).
 
 
 Gentoo platform
@@ -26,6 +28,7 @@ Gentoo platform
 * Security update for http-parser (#25467).
 * Security update for Python: 2.7.14 and 3.5.2.
 * Patch Ceph to work around the snaptrim bug (#29034).
+* Provide Ceph RadosGW role (#28302).
 
 
 Documentation
