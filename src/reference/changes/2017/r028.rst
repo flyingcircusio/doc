@@ -31,4 +31,20 @@ Gentoo platform
 * Provide Ceph RadosGW role (#28302).
 
 
+Release notes
+^^^^^^^^^^^^^
+
+We've seen some old virtualenvs breaking after the Python update. If an Python
+application does not start anymore with an error message like::
+
+  NameError: name 'PROTOCOL_TLS' is not defined
+
+try recreating the virtualenv or contact our `support`_.
+
+Some applications might be affected by the glibc update on Gentoo. This may lead
+to strange encoding/locale/collation errors. Usually it is sufficient to restart
+the affected service.
+
+.. _support: support@flyingcircus.io
+
 .. vim: set spell spelllang=en:
