@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-11-23
 
-Release 2017_028 (unreleased)
+Release 2017_028 (2017-11-23)
 -----------------------------
 
 Impact
@@ -29,12 +29,6 @@ Gentoo platform
 * Security update for Python: 2.7.14 and 3.5.2.
 * Patch Ceph to work around the snaptrim bug (#29034).
 * Provide Ceph RadosGW role (#28302).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
