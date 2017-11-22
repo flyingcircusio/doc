@@ -14,9 +14,11 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Gather rabbitmq metrics via telegraf (#28950).
-* Provide docsplit 0.7.6 package.
 * Security update for Python 2.7: 2.7.11 -> 2.7.14 (#28607).
+* Provide docsplit 0.7.6 package.
+* Gather rabbitmq metrics via telegraf (#28950).
+* Limit fc-userscan's memory consumption to avoid out-of-memory conditions
+  (#28934).
 
 
 Gentoo platform
