@@ -28,7 +28,7 @@ Gentoo platform
 * Security update for PHP: 5.6.28 (#25095).
 * Security update for NodeJS: 0.12.17 (#25467).
 * Security update for http-parser (#25467).
-* Security update for Python: 2.7.14 and 3.5.2.
+* Security update for Python: 2.7.14 and 3.5.4.
 * Patch Ceph to work around the snaptrim bug (#29034).
 * Provide Ceph RadosGW role (#28302).
 
