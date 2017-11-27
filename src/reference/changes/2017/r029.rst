@@ -6,13 +6,15 @@ Release 2017_029 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] PostgreSQL servers will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for PostgreSQL: 9.6.6, 9.5.10, 9.4.15 (#29123).
+* Check for circular systemd service dependencies (#28203).
+* Fix sendmail setuid-wrapper permissions (#29181).
 
 
 Gentoo platform
