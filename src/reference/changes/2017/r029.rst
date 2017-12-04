@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-12-05
 
-Release 2017_029 (unreleased)
+Release 2017_029 (2017-12-05)
 -----------------------------
 
 Impact
@@ -27,12 +27,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Apache: Lift limits for apache mpm_event_module (#29201).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
