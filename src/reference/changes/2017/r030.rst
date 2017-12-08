@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update to Grafana 4.6.2 (statshost role). This version of Grafana includes
+  annotations, which nicely allow to note events in the dashboards (#29125).
 
 
 Gentoo platform
