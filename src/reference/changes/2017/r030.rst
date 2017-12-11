@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-12-12
 
-Release 2017_030 (unreleased)
+Release 2017_030 (2017-12-12)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -32,12 +26,6 @@ Gentoo platform
 
 * Disable watchdog device in virtual machines to avoid spurious reboots during
   high memory and IO pressure (#28777).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
