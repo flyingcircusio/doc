@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-12-14
 
-Release 2017_031 (unreleased)
+Release 2017_031 (2017-12-14)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -25,18 +19,6 @@ NixOS platform
   portal. A public IP address will be needed to access Graylog. Users will user
   their Flying Circus login to directly authenticate against Graylog.
 * Security patches for audiofile 0.3.6 (#26909).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
