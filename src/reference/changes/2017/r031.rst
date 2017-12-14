@@ -19,6 +19,9 @@ NixOS platform
   portal. A public IP address will be needed to access Graylog. Users will user
   their Flying Circus login to directly authenticate against Graylog.
 * Security patches for audiofile 0.3.6 (#26909).
+* Increase channel update interval to once every 2h for reduced storage load
+  during roll-outs (#29353).
+* Make `nix-env -i` work even when a VM runs on a developer checkout (#29193).
 
 
 .. vim: set spell spelllang=en:
