@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Firefox to 56.0.2.
+* Decrease Grafana's log-level to *info*.
 
 
 Gentoo platform
