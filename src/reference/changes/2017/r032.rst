@@ -14,6 +14,9 @@ NixOS platform
 
 * Update Firefox to 56.0.2.
 * Decrease Grafana's log-level to *info*.
+* Stathost: Allow job-specific relabel configuration.
+* `fc-manage --build` now preserves the old release if there is a scheduled
+  roll-out of a new release present (#29160).
 
 
 Gentoo platform
