@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-12-21
 
-Release 2017_032 (unreleased)
+Release 2017_032 (2017-12-21)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -28,12 +22,6 @@ Gentoo platform
 
 * Improved calculation and measurement for Qemu memory overhead. This is
   expected to reduce future VM host crashes significantly (#28840).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
