@@ -17,12 +17,17 @@ NixOS platform
 * Stathost: Allow job-specific relabel configuration.
 * `fc-manage --build` now preserves the old release if there is a scheduled
   roll-out of a new release present (#29160).
+* Graylog: Use a sensible HAProxy queue timeout (30s) for the Graylog UI and
+  API.
+* Increase channel update interval to once every 2h for reduced storage load
+  during roll-outs (#29353).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improved calculation and measurement for Qemu memory overhead. This is
+  expected to reduce future VM host crashes significantly (#28840).
 
 
 Documentation
