@@ -418,7 +418,13 @@ disk
 
 
 
-   'online': True,
+online
+    *default*: True
+
+    Indicates if the VM *should* be running (True) or not (False).
+
+    Setting ``online`` to ``False`` will properly shutdown the VM, if possible. If the shutdown fails, the VM will be killed.
+
 
 interfaces
     *readonly*
