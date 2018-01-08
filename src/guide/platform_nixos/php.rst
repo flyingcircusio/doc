@@ -69,7 +69,7 @@ Register the FPM with systemd, to get a running process. Since there are some va
     EOF
     ) > /etc/local/systemd/phpsite.service
 
-    sudo fc-manage --rebuild
+    sudo fc-manage --build
 
 
 Here is a snippet for configuring the phpfpm support into your nginx virtual host (see also the :revcF:ref:`nixos-nginx` role documentation)::
