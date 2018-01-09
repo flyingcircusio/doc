@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2017-01-10
 
-Release 2017_033 (unreleased)
+Release 2017_033 (2017-01-10)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -25,12 +19,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Add proxy_fcgi module to our Apache default configuration (#29515).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
