@@ -3,7 +3,7 @@
 PHP
 ===
 
-For operating PHP based application we chose to use `FPM <http://php.net/manual/en/intro.fpm.php>`_.
+For operating PHP based applications we chose to use `FPM <http://php.net/manual/en/intro.fpm.php>`_.
 
 We assume the service user is called ``s-phpsite``, and that the docroot is :file:`/srv/s-phpsite/docroot`. But of course you can use different service user names, and different docroots.
 
@@ -69,7 +69,7 @@ Register the FPM with systemd, to get a running process. Since there are some va
     EOF
     ) > /etc/local/systemd/phpsite.service
 
-    sudo fc-manage --rebuild
+    sudo fc-manage --build
 
 
 Here is a snippet for configuring the phpfpm support into your nginx virtual host (see also the :revcF:ref:`nixos-nginx` role documentation)::
