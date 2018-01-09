@@ -137,13 +137,13 @@ The structure of a service user record looks like this:
      'virtual_machines': []}
 
 uid
-    *read-only, primary key, filterable*
+    *needs to be set on create, read-only otherwise; primary key; filterable*
 
     The Linux name of this service user. Needs to start with ``s-`` and
     be unique within each project.
 
 resource_group
-    *read-only, primary key*
+    *needs to be set on create, read-only otherwise; primary key*
 
     The name of the resourcegroup this service user belongs to.
 
@@ -375,7 +375,7 @@ environment
     The available environments depend on the environments class:
 
     * Puppet: ``production``, ``staging``
-    * NixOS: ``fc-15.09-prod``, ``fc-15.09-stag``
+    * NixOS: ``fc-15.09-production``, ``fc-15.09-staging``
 
     .. NOTE:: For the ``environment_class`` NixOS, you *must* set the
       environment explicitly.
@@ -418,7 +418,13 @@ disk
 
 
 
-   'online': True,
+online
+    *default*: True
+
+    Indicates if the VM *should* be running (True) or not (False).
+
+    Setting ``online`` to ``False`` will properly shutdown the VM, if possible. If the shutdown fails, the VM will be killed.
+
 
 interfaces
     *readonly*
