@@ -3,6 +3,12 @@
 Release 2018_000 (2018-01-10)
 -----------------------------
 
+Impact
+^^^^^^
+
+* [NixOS] MongoDB servers will be restarted.
+
+
 NixOS platform
 ^^^^^^^^^^^^^^
 
@@ -19,6 +25,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Add proxy_fcgi module to our Apache default configuration (#29515).
+* Update Linux kernel on backup servers (#29436).
 
 
 .. vim: set spell spelllang=en:
