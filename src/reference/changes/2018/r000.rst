@@ -1,6 +1,6 @@
-:Publish Date: 2017-01-10
+:Publish Date: 2018-01-10
 
-Release 2017_033 (2017-01-10)
+Release 2018_000 (2018-01-10)
 -----------------------------
 
 NixOS platform
