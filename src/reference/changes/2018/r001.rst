@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Allow empty lines in /etc/local/firewall definitions.
+* Bugfix: Allow DNS traffic during firewall reconfiguration.
 
 
 Gentoo platform
