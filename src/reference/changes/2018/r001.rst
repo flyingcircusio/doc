@@ -14,12 +14,16 @@ NixOS platform
 
 * Allow empty lines in /etc/local/firewall definitions.
 * Bugfix: Allow DNS traffic during firewall reconfiguration.
+* Update Graylog to 2.4.0 (#29574).
+* Provide Slack/Mattermost output plugin for Graylog (#29574).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Prevent breakage of `/usr/bin/python` symlink during VM bootstrapping
+  (#29444).
+* Decrease Ceph journal sync interval for improved storage performance (#29275).
 
 
 Documentation
