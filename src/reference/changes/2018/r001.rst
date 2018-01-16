@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-01-17
 
-Release 2018_001 (unreleased)
+Release 2018_001 (2018-01-17)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -24,12 +18,6 @@ Gentoo platform
 * Prevent breakage of `/usr/bin/python` symlink during VM bootstrapping
   (#29444).
 * Decrease Ceph journal sync interval for improved storage performance (#29275).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
