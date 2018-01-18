@@ -1,31 +1,13 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-01-18
 
-Release 2018_002 (unreleased)
+Release 2018_002 (2018-01-18)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Fix bug where empty local firewall rules stopped `fc-manage` completely in
   some cases (#29642).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
