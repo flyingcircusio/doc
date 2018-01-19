@@ -416,6 +416,17 @@ disk
     Decreasing the amount of disk space will schedule a maintenance window
     to reboot the VM.
 
+rbd_pool
+  *default*: ``rbd.hdd``
+
+  Set the storage pool for the VM. Possible values are:
+
+  * ``rbd.hdd`` for HDD backed storage, and
+  * ``rbd.ssd`` for SSD backed storage.
+
+  .. note:: This value can only be set when the VM is created, and cannot be changed later.
+
+
 
 
 online
