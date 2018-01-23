@@ -12,13 +12,13 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Add Role for Kibana (#29588).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Remove broken check for /dev/watchdog (#29441).
 
 
 Documentation
