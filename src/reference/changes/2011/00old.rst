@@ -353,7 +353,7 @@ Configuration
 Documentation
 ^^^^^^^^^^^^^
 
-- Describe support process in :ref:`supporttickets`
+- Describe support process.
 
 
 Release 2011-02-22

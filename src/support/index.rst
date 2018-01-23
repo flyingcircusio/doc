@@ -10,16 +10,13 @@
 Support
 =======
 
-Our support is there to assist you with any issues you may experience running your application in the Flying Circus.
-
-Our policy gives an overview of how to get us and what to expect.
-
-The other documents are intended to assist you getting support.
+Our support is there to assist you with any issues you may experience running
+your application in the Flying Circus.
 
 .. toctree::
    :glob:
    :titlesonly:
    :maxdepth: 1
 
-   policy
+   overview
    screen-multiuser
