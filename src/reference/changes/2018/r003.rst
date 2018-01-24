@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-01-25
 
-Release 2018_003 (unreleased)
+Release 2018_003 (2018-01-25)
 -----------------------------
 
 Impact
@@ -21,12 +21,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Remove broken check for /dev/watchdog (#29441).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
