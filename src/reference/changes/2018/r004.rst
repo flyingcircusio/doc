@@ -12,13 +12,16 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide "anonymized" and "nonanonymized" log_formats for inclusion in custom
+  nginx.conf snippets (#15440)
+* Provide `jq` utility by default.
+* Update LibreOffice to 5.3.1.2.
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update consul to 1.0.3 and improve Consul/DNS integration (#27695).
 
 
 Documentation
