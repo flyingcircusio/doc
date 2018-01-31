@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-02-01
 
-Release 2018_004 (unreleased)
+Release 2018_004 (2018-02-01)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -31,12 +25,6 @@ Gentoo platform
 * Update Consul to 1.0.3 and improve Consul/DNS integration (#27695).
 * Allow multiple loghosts per resource group to improve migration scenario from
   ELK to Graylog.
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
