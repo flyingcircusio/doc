@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for Subversion: 1.8.15 -> 1.8.19 (#29025).
+* Security update for git: 2.14.2 -> 2.15 (#29024).
 
 
 Gentoo platform
