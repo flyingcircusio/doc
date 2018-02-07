@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-02-08
 
-Release 2018_005 (unreleased)
+Release 2018_005 (2018-02-08)
 -----------------------------
 
 Impact
@@ -25,12 +25,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Change resolv.conf to use new nameservers (#24583).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
