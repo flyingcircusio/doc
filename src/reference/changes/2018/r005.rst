@@ -25,6 +25,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Change resolv.conf to use new nameservers (#24583).
+* Tune Ceph configuration parameters to reduce slow requests.
 
 
 .. vim: set spell spelllang=en:
