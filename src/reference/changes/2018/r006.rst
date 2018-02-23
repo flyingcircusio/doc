@@ -12,13 +12,15 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Enable installation of strongSwan 5.6 IPSec server (assistance from support
+  needed) (#29822).
+* Fix Sensu API authentication.
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Use *copytruncate* for logrotate on MySQL (#29764).
 
 
 Documentation
