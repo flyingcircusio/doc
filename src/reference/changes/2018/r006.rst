@@ -6,13 +6,16 @@ Release 2018_006 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Various services that link against OpenSSL will be restarted.
+* OpenSSH servers will be restarted.
+* OpenSSH has widely updated their cryptographic policies and disabled various (very) outdated protocols like SSHv1. For details check https://www.openssh.com/releasenotes.html for incompatible changes between version 6.9 and 7.5.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update OpenSSL: -> 1.0.1g, -> 1.0.2n (#29247).
+* Update OpenSSH: 6.9 -> 7.5 (#29247).
 
 
 Gentoo platform
