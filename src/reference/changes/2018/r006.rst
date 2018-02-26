@@ -9,7 +9,7 @@ Impact
 * Various services that link against OpenSSL will be restarted.
 * OpenSSH servers will be restarted.
 * OpenSSH has widely updated their cryptographic policies and disabled various (very) outdated protocols like SSHv1. For details check https://www.openssh.com/releasenotes.html for incompatible changes between version 6.9 and 7.5.
-* A number of services depending on libarchive will be restarted.
+* InfluxDB services will be restarted.
 
 
 NixOS platform
@@ -20,9 +20,8 @@ NixOS platform
 * Fix Sensu API authentication.
 * Security update OpenSSL: -> 1.0.1g, -> 1.0.2n (#29247).
 * Update OpenSSH: 6.9 -> 7.5 (#29247).
-* Security update for libarchive 3.3.2 to a selectively patched version
-  (#28596).
 * Update for cmake due to NixOS 17.09 compatibility issues.
+* Configure InfluxDBs' systemd unit to automatically restart after crashes.
 
 
 Gentoo platform
