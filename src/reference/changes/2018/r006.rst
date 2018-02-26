@@ -6,10 +6,14 @@ Release 2018_006 (2018-02-27)
 Impact
 ^^^^^^
 
-* Various services that link against OpenSSL will be restarted.
-* OpenSSH servers will be restarted.
-* OpenSSH has widely updated their cryptographic policies and disabled various (very) outdated protocols like SSHv1. For details check https://www.openssh.com/releasenotes.html for incompatible changes between version 6.9 and 7.5.
-* InfluxDB services will be restarted.
+* [NixOS] Various services that link against OpenSSL will be restarted.
+* [NixOS] OpenSSH servers will be restarted.
+* [NixOS] OpenSSH has widely updated their cryptographic policies and disabled
+  various (very) outdated protocols like SSHv1. For details check
+  https://www.openssh.com/releasenotes.html for incompatible changes between
+  version 6.9 and 7.5.
+* [NixOS] InfluxDB services will be restarted.
+* [Gentoo] Apache services will be restarted.
 
 
 NixOS platform
