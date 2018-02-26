@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-02-27
 
-Release 2018_006 (unreleased)
+Release 2018_006 (2018-02-27)
 -----------------------------
 
 Impact
@@ -30,12 +30,6 @@ Gentoo platform
 * Use *copytruncate* for logrotate on MySQL (#29764).
 * Security update for Apache 2.4 (GLSA 201701-36; GLSA 201710-32; #25501;
   #28953)
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
