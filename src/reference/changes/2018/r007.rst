@@ -6,13 +6,14 @@ Release 2018_007 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Restarts all RabbitMQ servers and takes bit of time (~10-15s) to migrate the
+  on-disk databases (#28725).
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for RabbitMQ (#28725).
 
 
 Gentoo platform
