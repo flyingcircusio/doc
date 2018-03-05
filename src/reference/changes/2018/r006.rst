@@ -26,6 +26,7 @@ NixOS platform
 * Update OpenSSH: 6.9 -> 7.5 (#29247).
 * Update for cmake due to NixOS 17.09 compatibility issues.
 * Configure InfluxDBs' systemd unit to automatically restart after crashes.
+* Improve outside connectivity check to reduce false positives.
 
 
 Gentoo platform
