@@ -18,7 +18,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Linux kernel on to mitigate some Spectre-related problems (#29519).
 
 
 Documentation
