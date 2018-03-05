@@ -8,12 +8,15 @@ Impact
 
 * Restarts all RabbitMQ servers and takes bit of time (~10-15s) to migrate the
   on-disk databases (#28725).
+* Many services whose built depends on libarchive may be restarted (#28596).
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Security update for RabbitMQ (#28725).
+* Collect journal age metrics on Graylog servers (#100350).
+* Update libarchive with patches for CVEs as available (#28596).
 
 
 Gentoo platform
