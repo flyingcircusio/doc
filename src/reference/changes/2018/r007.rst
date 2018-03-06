@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-03-07
 
-Release 2018_007 (unreleased)
+Release 2018_007 (2018-03-07)
 -----------------------------
 
 Impact
@@ -33,12 +33,6 @@ Gentoo platform
   See
   https://blog.flyingcircus.io/2018/02/05/new-default-truncated-ip-addresses-in-nginx-access-logs/
   for details (#15440).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
