@@ -33,6 +33,7 @@ Gentoo platform
   See
   https://blog.flyingcircus.io/2018/02/05/new-default-truncated-ip-addresses-in-nginx-access-logs/
   for details (#15440).
+* Turn off awstats (#15440).
 
 
 .. vim: set spell spelllang=en:
