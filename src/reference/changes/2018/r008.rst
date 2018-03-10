@@ -6,19 +6,22 @@ Release 2018_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] ElasticSearch instances may be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix cluster detection for `elasticsearch2` and `elasticsearch5` roles
+  (#100251).
+* Add Python 3.5 to the default profile (#100534).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* memcached: Fix firewall to block 11211/udp access to avoid amplification
+  attacks (#100565).
 
 
 Documentation
