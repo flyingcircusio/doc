@@ -6,7 +6,7 @@ Connecting to VMs
 
 Generally you can connect to VMs on their "SRV" interface from the outside by calling::
 
-    $ ssh myvm00.gocept.net
+    $ ssh myvm00.fcio.net
     Last login: Wed Feb 19 14:54:07 CET 2014 from 89.204.138.251 on pts/0
     Welcome to the Flying Circus!
 
@@ -22,35 +22,35 @@ Getting an overview of your situation
 
 **VM has a public IPv4 address on SRV**::
 
-    $ ping myvm00.gocept.net
-    PING myvm00.gocept.net (212.122.41.186): 56 data bytes
+    $ ping myvm00.fcio.net
+    PING myvm00.fcio.net (212.122.41.186): 56 data bytes
     64 bytes from 212.122.41.186: icmp_seq=0 ttl=57 time=29.110 ms
     64 bytes from 212.122.41.186: icmp_seq=1 ttl=57 time=25.364 ms
     ^C
-    --- myvm00.gocept.net ping statistics ---
+    --- myvm00.fcio.net ping statistics ---
     2 packets transmitted, 2 packets received, 0.0% packet loss
     round-trip min/avg/max/stddev = 25.364/27.237/29.110/1.873 ms
 
 **VM has a private IPv4 address on SRV**::
 
-    $ ping myvm00.gocept.net
-    ping: cannot resolve myvm00.gocept.net: Unknown host
+    $ ping myvm00.fcio.net
+    ping: cannot resolve myvm00.fcio.net: Unknown host
 
 **VM is accessible through IPv6**::
 
-    $ ping6 myvm00.gocept.net
+    $ ping6 myvm00.fcio.net
     PING6(56=40+8+8 bytes) 2002:5e87:9a92:1:687c:1601:8692:c1e9 --> 2a02:238:f030:103::1d
     16 bytes from 2a02:238:f030:103::1d, icmp_seq=0 hlim=59 time=27.642 ms
     16 bytes from 2a02:238:f030:103::1d, icmp_seq=1 hlim=59 time=26.238 ms
     16 bytes from 2a02:238:f030:103::1d, icmp_seq=2 hlim=59 time=25.941 ms
     ^C
-    --- myvm00.gocept.net ping6 statistics ---
+    --- myvm00.fcio.net ping6 statistics ---
     3 packets transmitted, 3 packets received, 0.0% packet loss
     round-trip min/avg/max/std-dev = 25.941/26.607/27.642/0.742 ms
 
 **VM is not accessible through IPv6**::
 
-    $ ping6 myvm00.gocept.net
+    $ ping6 myvm00.fcio.net
     ping6: UDP connect: No route to host
 
 
@@ -93,8 +93,12 @@ hosts::
         User <USERNAME>
         ProxyCommand ssh flyingcircus-jump-host -W %h:%p
 
+    Host *.fcio.net
+        User <USERNAME>
+        ProxyCommand ssh flyingcircus-jump-host -W %h:%p
+
     Host flyingcircus-jump-host
-        HostName <VMNAME>.fe.rzob.ipv4.gocept.net
+        HostName <VMNAME>.fe.rzob.ipv4.fcio.net
         User <USERNAME>
         ProxyCommand none
 
