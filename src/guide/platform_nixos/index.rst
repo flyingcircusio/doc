@@ -38,6 +38,7 @@ Roles and packages
    mysql
    php
    postgresql
+   redis
    statshost
    webgateway
    webproxy

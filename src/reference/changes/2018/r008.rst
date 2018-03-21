@@ -27,7 +27,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Details on the role for :ref:`nixos-redis`.
 
 
 .. vim: set spell spelllang=en:
