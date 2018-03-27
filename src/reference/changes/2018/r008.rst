@@ -7,6 +7,7 @@ Impact
 ^^^^^^
 
 * [NixOS] ElasticSearch instances will be restarted.
+* [Gentoo] PostgreSQL 9.3 instances will be restarted.
 
 
 NixOS platform
@@ -14,14 +15,14 @@ NixOS platform
 
 * Fix cluster detection for `elasticsearch2` and `elasticsearch5` roles
   (#100251).
-* Add Python 3.5 to the default profile (#100534, #100644).
+* Provide Python 3.5 and 3.6 for manual installation via `nix-env` (#100534,
+  #100644, #100759).
 * Fix monitoring of ElasticSearch 5 (#100170).
 * ElasticSearch startup: improve behaviour when /srv/elasticsearch contains old
   files (#100722).
 * Fix occasional build error in firewall configuration (#100755).
 * Adjust our swap check: instead of relying on relative usage and "almost empy",
   we now consider more than 1G of usage to be "too much" (#100605).
-* Provide Python 3.6 for manual installation via `nix-env` (#100759).
 * Tune HAProxy timeout settings for Graylog (#100770).
 * Don't reboot VMs due to high load (#100612).
 
