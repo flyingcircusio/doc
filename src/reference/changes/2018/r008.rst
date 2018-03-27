@@ -6,7 +6,7 @@ Release 2018_008 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS] ElasticSearch instances may be restarted.
+* [NixOS] ElasticSearch instances will be restarted.
 
 
 NixOS platform
@@ -19,6 +19,11 @@ NixOS platform
 * ElasticSearch startup: improve behaviour when /srv/elasticsearch contains old
   files (#100722).
 * Fix occasional build error in firewall configuration (#100755).
+* Adjust our swap check: instead of relying on relative usage and "almost empy",
+  we now consider more than 1G of usage to be "too much" (#100605).
+* Provide Python 3.6 for manual installation via `nix-env` (#100759).
+* Tune HAProxy timeout settings for Graylog (#100770).
+* Don't reboot VMs due to high load (#100612).
 
 
 Gentoo platform
@@ -27,6 +32,7 @@ Gentoo platform
 * memcached: Fix firewall to block 11211/udp access to avoid amplification
   attacks (#100565).
 * Fix apache2 config file update (#100383).
+* Security update for PostgreSQL: 9.3.3 -> 9.3.14 (GLSA 201701-33; #25481).
 
 
 Documentation
