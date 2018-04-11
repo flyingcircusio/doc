@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-04-12
 
-Release 2018_010 (unreleased)
+Release 2018_010 (2018-04-12)
 -----------------------------
 
 Impact
@@ -33,12 +33,6 @@ Gentoo platform
   circumstances (#100897).
 * Firewall: filter unprotected ports on frontend networks to prevent
   amplification attacks (#100994).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
