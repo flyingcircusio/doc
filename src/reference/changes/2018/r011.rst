@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-04-18
 
-Release 2018_011 (unreleased)
+Release 2018_011 (2018-04-18)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -24,12 +18,6 @@ Gentoo platform
 * Security update for `rsync`: 3.1.3 (#100359).
 * Security update for `wget`: 1.19.1 (#29092).
 * Security update for `bzip2`: 1.0.6 (#28184).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
