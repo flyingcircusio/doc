@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Security update for MySQL: 5.5.57 (#101116).
+* Security update for MySQL: 5.5.59 (#101116).
 
 
 Gentoo platform
