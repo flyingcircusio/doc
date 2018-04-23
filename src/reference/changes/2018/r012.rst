@@ -13,6 +13,9 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Security update for MySQL: 5.5.59 (#101116).
+* Add hook to select the version of RabbitMQ to be run on a VM (#101162).
+* Bring back RabbitMQ 3.6.5 (#101162)
+* Fix RabbitMQ role in Vagrant VMs (#101170).
 
 
 Gentoo platform
