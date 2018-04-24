@@ -6,7 +6,7 @@ Release 2018_012 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] Apache instances will be restarted.
 
 
 NixOS platform
@@ -16,6 +16,12 @@ NixOS platform
 * Add hook to select the version of RabbitMQ to be run on a VM (#101162).
 * Bring back RabbitMQ 3.6.5 (#101162)
 * Fix RabbitMQ role in Vagrant VMs (#101170).
+* Update Apache to 2.4.33 (#101119).
+* Update PHP to: 5.6.34, 7.0.28, 7.1.15 (#101119).
+* Update Firefox to 59.0.2 (#101119).
+* Update qt4 to 4.8.7 (#101119).
+* Service users are now able to configure redis via
+  `/etc/local/redis/custom.conf` (#101242).
 
 
 Gentoo platform
