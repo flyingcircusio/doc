@@ -22,6 +22,7 @@ NixOS platform
 * Update qt4 to 4.8.7 (#101119).
 * Service users are now able to configure redis via
   `/etc/local/redis/custom.conf` (#101242).
+* Security update for libjpeg-turbo: 1.5.3 (CVE-2017-15232, #29166).
 
 
 Gentoo platform
