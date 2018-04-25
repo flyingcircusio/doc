@@ -19,7 +19,6 @@ NixOS platform
 * Update Apache to 2.4.33 (#101119).
 * Update PHP to: 5.6.34, 7.0.28, 7.1.15 (#101119).
 * Update Firefox to 59.0.2 (#101119).
-* Update qt4 to 4.8.7 (#101119).
 * Service users are now able to configure redis via
   `/etc/local/redis/custom.conf` (#101242).
 * Security update for libjpeg-turbo: 1.5.3 (CVE-2017-15232, #29166).
