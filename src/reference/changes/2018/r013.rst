@@ -13,6 +13,8 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Add a 2G swapfile for Vagrant boxes (#101293).
+* Fix bug in vulnix which caused an endless loop (#101294).
+* Abandon collectd, and collect metrics with `telegraf` only (#101262).
 
 
 Gentoo platform
