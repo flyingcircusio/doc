@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-05-07
 
-Release 2018_013 (unreleased)
+Release 2018_013 (2018-05-07)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -15,18 +9,6 @@ NixOS platform
 * Add a 2G swapfile for Vagrant boxes (#101293).
 * Fix bug in vulnix which caused an endless loop (#101294).
 * Abandon collectd, and collect metrics with `telegraf` only (#101262).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
