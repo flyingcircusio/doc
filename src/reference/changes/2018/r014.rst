@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018_014
 
-Release 2018_014 (unreleased)
+Release 2018_014 (2018_014)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -20,12 +14,6 @@ Gentoo platform
 
 * Greatly improve live migration stability and speed up VM host evacuation
   (#100562).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
