@@ -1,6 +1,6 @@
-:Publish Date: 2018_014
+:Publish Date: 2018-05-24
 
-Release 2018_014 (2018_014)
+Release 2018_014 (2018-05-24)
 -----------------------------
 
 NixOS platform
