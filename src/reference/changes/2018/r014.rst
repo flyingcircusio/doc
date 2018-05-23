@@ -12,13 +12,14 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Reduce VM crash probability on storage hangs (#101499).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Greatly improve live migration stability and speed up VM host evacuation
+  (#100562).
 
 
 Documentation
