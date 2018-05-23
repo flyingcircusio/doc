@@ -7,6 +7,9 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Reduce VM crash probability on storage hangs (#101499).
+* Revamp internal VM console logging to get more relevant data on VM crashes
+  (#101499).
+* Skip re-activating unchanged configurations in `fc-manage`.
 
 
 Gentoo platform
