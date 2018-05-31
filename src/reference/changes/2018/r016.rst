@@ -12,7 +12,10 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug in startup ordering of network services (external network routing vs.
+  firewall) (#101785).
+* Allow SSH only via VPN in a customer-specific situation (#101836).
+* Fix filtering of metrics for customer-specific statshosts (#101607).
 
 
 Gentoo platform
