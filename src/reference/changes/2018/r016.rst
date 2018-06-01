@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-06-04
 
-Release 2018_016 (unreleased)
+Release 2018_016 (2018-06-04)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -16,18 +10,6 @@ NixOS platform
   firewall) (#101785).
 * Allow SSH only via VPN in a customer-specific situation (#101836).
 * Fix filtering of metrics for customer-specific statshosts (#101607).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
