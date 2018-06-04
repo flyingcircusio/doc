@@ -16,6 +16,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Reflect changed router addresses in /etc/resolv.conf (#101944).
+* Fix bug in fc.qemu that caused failure while creating new VMs (#101987).
 
 
 .. vim: set spell spelllang=en:
