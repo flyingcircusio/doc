@@ -1,30 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-06-07
 
-Release 2018_017 (unreleased)
+Release 2018_017 (2018-06-07)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Fix bug in fc.qemu that caused failure while creating new VMs (#101987).
 
 
 .. vim: set spell spelllang=en:
