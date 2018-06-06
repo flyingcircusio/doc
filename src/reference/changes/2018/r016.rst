@@ -12,10 +12,5 @@ NixOS platform
 * Fix filtering of metrics for customer-specific statshosts (#101607).
 * Reflect changed router addresses in /etc/resolv.conf (#101944).
 
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* Reflect changed router addresses in /etc/resolv.conf (#101944).
-
 
 .. vim: set spell spelllang=en:
