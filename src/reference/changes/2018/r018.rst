@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Rework journal check to avoid flooding the monitoring system with bulky output (#101691, #101730).
 
 
 Gentoo platform
