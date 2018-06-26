@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-06-27
 
-Release 2018_018 (unreleased)
+Release 2018_018 (2018-06-27)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -24,12 +18,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Adjust logcheck rules (#103257, #103117).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
