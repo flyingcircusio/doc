@@ -12,13 +12,18 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Rework journal check to avoid flooding the monitoring system with bulky output (#101691, #101730).
+* Rework journal check to avoid flooding the monitoring system with bulky output
+  (#101691, #101730).
+* Change PHP option mechanics for `sendmail` and `timezone` so they can be
+  overwritten in local.nix (#103104).
+* Update Graylog 2.4.0 -> 2.4.5 (#103090).
+* Update loghosts to use to ElasticSearch 5 (#101899).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Adjust logcheck rules (#103257, #103117).
 
 
 Documentation
