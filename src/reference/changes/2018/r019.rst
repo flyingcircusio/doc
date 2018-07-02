@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Update Telegraf 15.3 -> 1.7.0 (#101970).
+* Update Telegraf 1.5.3 -> 1.7.0 (#101970).
 * Update HAProxy 1.5.14 -> 1.8.9 (#103210).
 * Update coturn to 4.5.0.7 (#103214).
 * Fix building of PHP 5.6 packages, like `xcache` (#103319).
