@@ -3,6 +3,21 @@
 Release 2018_018 (2018-06-27)
 -----------------------------
 
+Impact
+^^^^^^
+
+HAProxy instances may refuse to start after the update because of outdated
+config options.
+
+Specifically, replace lines like::
+
+  reqisetbe ^[^\ ]*\ /admin/stats stats
+
+with::
+
+  use_backend stats if { path_beg /admin/stats }
+
+
 NixOS platform
 ^^^^^^^^^^^^^^
 
@@ -12,6 +27,7 @@ NixOS platform
   overwritten in local.nix (#103104).
 * Update Graylog 2.4.0 -> 2.4.5 (#103090).
 * Update loghosts to use to ElasticSearch 5 (#101899).
+* Update HAProxy 1.5.14 -> 1.8.9 (#103210)
 
 
 Gentoo platform
