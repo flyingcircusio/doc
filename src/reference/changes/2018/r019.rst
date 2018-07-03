@@ -6,7 +6,16 @@ Release 2018_019 (2018-06-03)
 Impact
 ^^^^^^
 
-* [NixOS] HAProxy instances will be restarted.
+[NixOS] HAProxy instances will be restarted. In case of startup failures, check
+the configuration for outdated options.
+
+Specifically, configuring the stats backend has changed. Replace lines like::
+
+  reqisetbe ^[^\ ]*\ /admin/stats stats
+
+with::
+
+  use_backend stats if { path_beg /admin/stats }
 
 
 NixOS platform
