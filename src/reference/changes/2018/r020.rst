@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-07-09
 
-Release 2018_020 (unreleased)
+Release 2018_020 (2018-07-09)
 -----------------------------
 
 Impact
@@ -28,12 +28,6 @@ Gentoo platform
 * Security update for `file`: 5.33 (#103490).
 * Security update for cURL: 7.60 (#103491).
 * Security update for wget: 1.19.5 (#103492).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
