@@ -12,7 +12,10 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for libtiff (#101123).
+* Security update for git (#101837).
+* Security update for utillinux.
+* Security update for OpenSSL: 1.0.2o, 1.1.0h (#100885).
 
 
 Gentoo platform
