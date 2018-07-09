@@ -18,7 +18,9 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for `file`: 5.33 (#103490).
+* Security update for cURL: 7.60 (#103491).
+* Security update for wget: 1.19.5 (#103492).
 
 
 Documentation
