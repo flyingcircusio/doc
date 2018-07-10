@@ -21,6 +21,7 @@ Gentoo platform
 * Security update for `file`: 5.33 (#103490).
 * Security update for cURL: 7.60 (#103491).
 * Security update for wget: 1.19.5 (#103492).
+* Improve firewall to block SunRPC amplification attacks reliably (#103512).
 
 
 Documentation
