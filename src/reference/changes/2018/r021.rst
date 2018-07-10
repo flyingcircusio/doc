@@ -1,19 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-07-11
 
-Release 2018_021 (unreleased)
+Release 2018_021 (2018-07-11)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
@@ -22,12 +10,6 @@ Gentoo platform
 * Security update for cURL: 7.60 (#103491).
 * Security update for wget: 1.19.5 (#103492).
 * Improve firewall to block SunRPC amplification attacks reliably (#103512).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
