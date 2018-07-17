@@ -6,13 +6,21 @@ Release 2018_022 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] PostgreSQL servers and all services containing a PostgreSQL client
+  will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update PostgreSQL 9.6.8 -> 9.6.9 (#104680).
+* Update PostgreSQL 9.5.12 -> 9.5.13 (#104680).
+* Update PostgreSQL 9.4.17 -> 9.4.18 (#104680).
+* Update PostgreSQL 9.3.22 -> 9.3.23 (#104680).
+* Update PostgreSQL 9.2.15 -> 9.2.24 (#104680).
+* Update PostgreSQL 9.1.20 -> 9.1.24 (#104680).
+* Backport pipenv 10.1.0 from NixOS 18.03 (#101794).
+
 
 
 Gentoo platform
