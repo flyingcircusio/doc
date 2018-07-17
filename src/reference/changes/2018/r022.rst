@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for vim: 8.0.1451 (#101782).
+* Improve varnish restart in systemd unit (#103578).
 
 
 Gentoo platform
