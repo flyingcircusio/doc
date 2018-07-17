@@ -26,7 +26,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix startup bug on servers with many disk devices (#27654).
 
 
 Documentation
