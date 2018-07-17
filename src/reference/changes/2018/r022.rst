@@ -22,6 +22,8 @@ NixOS platform
 * Backport pipenv 10.1.0 from NixOS 18.03 (#101794).
 * Security update for vim: 8.0.1451 (#101782).
 * Improve varnish restart in systemd unit (#103578).
+* Add `fix-so-path` utility to fix RPATHs in shared objects shipped in binary
+  package formats like Python wheels (#103604).
 
 
 Gentoo platform
