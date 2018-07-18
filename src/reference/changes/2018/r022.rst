@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-07-19
 
-Release 2018_022 (unreleased)
+Release 2018_022 (2018-07-19)
 -----------------------------
 
 Impact
@@ -30,12 +30,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix startup bug on servers with many disk devices (#27654).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
