@@ -12,13 +12,15 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update `vulnix` to 1.7.
+* Allow services.graylog.extraConfig to be set from local.nix (#103344).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update pambase to 20150213-r1 (#103495).
+* Update shadow to 4.6 (#103495).
 
 
 Documentation
