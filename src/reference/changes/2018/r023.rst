@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-07-24
 
-Release 2018_023 (unreleased)
+Release 2018_023 (2018-07-24)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -21,12 +15,6 @@ Gentoo platform
 
 * Update pambase to 20150213-r1 (#103495).
 * Update shadow to 4.6 (#103495).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
