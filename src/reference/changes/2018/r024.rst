@@ -12,5 +12,12 @@ NixOS platform
 * Improve firewall activation: atomic failure mode, proper DNS lookups,
   monitoring (#103137, #101736, #100191, #104677)
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* Security update for CVS: 1.12.12 (#25639).
+* Security update for tcpdump: 4.9.2 (#25913).
+* Security update for libxslt: 1.1.32 (#101007).
+* Security update for ClamAV: 0.100.1 (#100362).
 
 .. vim: set spell spelllang=en:
