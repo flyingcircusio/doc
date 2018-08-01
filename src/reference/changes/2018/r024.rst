@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-08-02
 
-Release 2018_024 (unreleased)
+Release 2018_024 (2018-08-02)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -17,18 +11,6 @@ NixOS platform
   platform more closely (#104769).
 * Improve firewall activation: atomic failure mode, proper DNS lookups,
   monitoring (#103137, #101736, #100191, #104677)
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
