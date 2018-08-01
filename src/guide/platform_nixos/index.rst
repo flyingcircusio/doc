@@ -20,6 +20,7 @@ more memory for larger applications.
    cron
    logrotate
    firewall
+   user_profile
 
 
 Roles and packages
