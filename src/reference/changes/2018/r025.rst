@@ -1,30 +1,13 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-08-08
 
-Release 2018_025 (unreleased)
+Release 2018_025 (2018-08-08)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Configure statshost related firewall rules with IP addresses instead of host
+  names (#104851).
 
 
 .. vim: set spell spelllang=en:

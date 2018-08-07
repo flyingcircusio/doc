@@ -1,1 +1,1 @@
-src/reference/changes/2018/r025.rst
+src/reference/changes/2018/r026.rst
