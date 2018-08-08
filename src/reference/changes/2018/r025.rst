@@ -11,4 +11,9 @@ NixOS platform
 * Add role for Apache httpd (#104976).
 
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* Improve portage integrity check to get rid of false positives (#104787).
+
 .. vim: set spell spelllang=en:
