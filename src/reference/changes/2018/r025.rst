@@ -8,6 +8,7 @@ NixOS platform
 
 * Configure statshost related firewall rules with IP addresses instead of host
   names (#104851).
+* Add role for Apache httpd (#104976).
 
 
 .. vim: set spell spelllang=en:
