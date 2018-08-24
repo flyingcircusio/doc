@@ -7,11 +7,12 @@ Impact
 ^^^^^^
 
 * [NixOS] Apache servers will be restarted
-* [NixOS] PostgreSQL servers and all services containing a PostgreSQL
-  client will be restarted.
+* [NixOS] ClamAV servers will be restarted
+* [NixOS] MongoDB servers will be restarted
 * [NixOS] MySQL servers and all services containing a MySQL client will be restarted
 * [NixOS] OpenVPN servers will be restarted
-* [NixOS] ClamAV servers will be restarted
+* [NixOS] PostgreSQL servers and all services containing a PostgreSQL
+  client will be restarted.
 * [NixOS] Some of the PostgreSQL-indexes need to be recreated due to
   the update of rum and PostGis
 
