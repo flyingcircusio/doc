@@ -34,8 +34,8 @@ NixOS platform
 * Security update for PostgreSQL 9.4.18 -> 9.4.19 (#105031).
 * Security update for PostgreSQL 9.5.13 -> 9.5.14 (#105031).
 * Security update for PostgreSQL 9.6.9 -> 9.6.10 (#105031).
-* Update PostgreSQL/rum to 1.2.1.
-* Update PostgreSQL/PostGis to 2.4.0.
+* Update PostgreSQL/rum to 1.2.1 (#105078).
+* Update PostgreSQL/PostGis to 2.4.0 (#105078).
 * Security update for sharutils 4.11.2 -> 4.15.2 (#101089).
 
 
