@@ -20,8 +20,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* Add PHP 7.2 (7.2.7) (#105028).
-* Add PostgreSQL 10 (10.5) (#105078).
+* Add PHP 7.2 role (7.2.7) (#105028).
+* Add PostgreSQL 10 role (10.5) (#105078).
 * Extend Apache role to load mod_deflate, mod_filter and mod_proxy_fcgi
   by default (#105086, #105023).
 * Fix a bug while including custom vhost-config at Apache role (#105003).
@@ -37,7 +37,7 @@ NixOS platform
 * Update PostgreSQL/rum to 1.2.1 (#105078).
 * Update PostgreSQL/PostGis to 2.4.0 (#105078).
 * Security update for sharutils 4.11.2 -> 4.15.2 (#101089).
-
+* Improve robustness of `fc-manage` during Hydra failures (#105048).
 
 
 .. vim: set spell spelllang=en:
