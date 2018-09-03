@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Give Prometheus more time for shutting down (#105074).
 
 
 Gentoo platform
