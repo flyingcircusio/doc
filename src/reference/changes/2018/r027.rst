@@ -6,13 +6,14 @@ Release 2018_027 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Rebuild/restart of services linking against OpenLDAP.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Give Prometheus more time for shutting down (#105074).
+* Update OpenLDAP 2.4.42 -> 2.4.46 (#101152).
 
 
 Gentoo platform
