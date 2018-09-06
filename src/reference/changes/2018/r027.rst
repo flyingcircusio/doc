@@ -7,6 +7,7 @@ Impact
 ^^^^^^
 
 * Rebuild/restart of services linking against OpenLDAP.
+* Restart Apache instances.
 
 
 NixOS platform
@@ -14,6 +15,12 @@ NixOS platform
 
 * Give Prometheus more time for shutting down (#105074).
 * Update OpenLDAP 2.4.42 -> 2.4.46 (#101152).
+* Update Oracle Java 8 to Patch 181 (#105232).
+* Increase Apache startup timeout to prevent endless loop (#105206).
+* Update Apache to 2.4.33 (#105161, #105166).
+* Enlarge maximum network receive buffer size to reduce drop-outs under high
+  load (#105227).
+* Update bundix to 1.0.3 (#105196).
 
 
 Gentoo platform
