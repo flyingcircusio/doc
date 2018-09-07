@@ -1,13 +1,14 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-09-10
 
-Release 2018_027 (unreleased)
+Release 2018_027 (2018-09-10)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* Rebuild/restart of services linking against OpenLDAP.
-* Restart Apache instances.
+* [NixOS] Rebuild/restart of services linking against OpenLDAP.
+* [NixOS] Restart Apache instances.
+* [Gentoo] OpenSSH servers will stop to support some more outdated ciphers.
 
 
 NixOS platform
@@ -26,13 +27,7 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Update OpenSSH to 7.5_p1 (#29539).
 
 
 .. vim: set spell spelllang=en:
