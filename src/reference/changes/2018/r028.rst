@@ -12,13 +12,14 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Backport `filebeat6` from NixOS 18.03 (#105314).
+* Fix initial activation of Kibana role (#105376).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update curl to 7.61.1 (#106437).
 
 
 Documentation
