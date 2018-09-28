@@ -12,13 +12,15 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update InfluxDB to 1.6.3 (#106460).
+* Fix metric gaps on central statshost (#106553).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Work around performance bottleneck while removing deleted VMs on backup
+  servers (#106478).
 
 
 Documentation
