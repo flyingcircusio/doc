@@ -14,6 +14,8 @@ NixOS platform
 
 * Update InfluxDB to 1.6.3 (#106460).
 * Fix metric gaps on central statshost (#106553).
+* Backport Chromium 69.0.3497.81 and Chromedriver 2.41 from 18.09 (#106464,
+  #105369).
 
 
 Gentoo platform
