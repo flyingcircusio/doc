@@ -10,8 +10,8 @@ Verantwortliche Stelle und Personen
 -----------------------------------
 
 | Flying Circus Internet Operations GmbH
-| Forsterstraße 29
-| 06112 Halle (Saale)
+| Leipziger Str. 70/71
+| 06108 Halle (Saale)
 
 | Handelsregister: Amtsgericht Stendal
 | Handelsregisternummer: HRB 21169
