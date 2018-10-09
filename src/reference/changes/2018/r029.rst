@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-10-10
 
-Release 2018_029 (unreleased)
+Release 2018_029 (2018-10-10)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -23,12 +17,6 @@ Gentoo platform
 
 * Work around performance bottleneck while removing deleted VMs on backup
   servers (#106478).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
