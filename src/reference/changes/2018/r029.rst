@@ -17,6 +17,7 @@ Gentoo platform
 
 * Work around performance bottleneck while removing deleted VMs on backup
   servers (#106478).
+* Fix bug in VM root drive resizing (#105199)
 
 
 .. vim: set spell spelllang=en:
