@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Add NodeJS 10.9.0 (#106647).
 
 
 Gentoo platform
