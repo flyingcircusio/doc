@@ -13,12 +13,12 @@ NixOS platform
   (#105414).
 
 
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Improve block device and SSD trimming settings to reduce storage outages
   (#105227).
+* Fix rpc.mountd crash on RG NFS share servers (#106463).
 
 
 .. vim: set spell spelllang=en:
