@@ -13,12 +13,18 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Add NodeJS 10.9.0 (#106647).
+* Update Prometheus to 2.4.2. Prometheus 1.8 is kept running for about 3
+  months keep the metrics available -- there is no data migration (#105414).
+* Statshost uses InfluxDB for long term storage with downsampled metrics
+  (#105414).
+
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve block device and SSD trimming settings to reduce storage outages
+  (#105227).
 
 
 Documentation
