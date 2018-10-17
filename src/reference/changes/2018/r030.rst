@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-10-18
 
-Release 2018_030 (unreleased)
+Release 2018_030 (2018-10-18)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -25,12 +19,6 @@ Gentoo platform
 
 * Improve block device and SSD trimming settings to reduce storage outages
   (#105227).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
