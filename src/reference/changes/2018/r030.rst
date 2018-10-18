@@ -11,6 +11,8 @@ NixOS platform
   months keep the metrics available -- there is no data migration (#105414).
 * Statshost uses InfluxDB for long term storage with downsampled metrics
   (#105414).
+* Add support for ElasticSearch 6 ,remove support for ElasticSearch 2 (#106678).
+* Update Kibana to 6.3.2 (#106678)
 
 
 Gentoo platform
