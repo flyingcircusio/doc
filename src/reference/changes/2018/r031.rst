@@ -6,7 +6,7 @@ Release 2018_031 (2018-10-19)
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Hotfix: Imrove robustness and error handling of VM disk resize code (#106759).
+* Hotfix: Improve robustness and error handling of VM disk resize code (#106759).
 * Adjust I/O schedulers on Ceph servers to reduce number of slow requests.
 
 
