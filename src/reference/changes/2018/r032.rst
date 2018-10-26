@@ -12,7 +12,9 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix downsampling for newly set up stats hosts (#106805).
+* Fix InfluxDB startup on statst hosts (#106805).
+* `nginx`: Make sure the default docroot exists (#106854).
 
 
 Gentoo platform
