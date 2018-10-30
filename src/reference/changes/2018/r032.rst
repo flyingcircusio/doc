@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-11-01
 
-Release 2018_032 (unreleased)
+Release 2018_032 (2018-11-01)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -17,18 +11,6 @@ NixOS platform
 * `nginx`: Make sure the default docroot exists (#106854).
 * Allow users to configure Apache modules to be loaded in `/etc/local/apache`
   (#104977).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
