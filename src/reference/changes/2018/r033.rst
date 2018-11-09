@@ -1,31 +1,13 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-11-12
 
-Release 2018_033 (unreleased)
+Release 2018_033 (2018-11-12)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
 * Fix spurious firewall load failures that may occur when rules in
   /etc/local/firewall contain host names (105345).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
