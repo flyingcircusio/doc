@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix spurious firewall load failures that may occur when rules in
+  /etc/local/firewall contain host names (105345).
 
 
 Gentoo platform
