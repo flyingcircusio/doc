@@ -12,7 +12,8 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Add **ldap** role for running customer-specific OpenLDAP servers (#105204).
+* Update Grafana to 5.1.4 (#107170).
 
 
 Gentoo platform
