@@ -12,7 +12,9 @@
 # serve to show the default.
 
 import subprocess
-import datetime
+isodate = subprocess.Popen(
+    ['hg', 'log', '-l1', '-T{date|isodate}'], stdout=subprocess.PIPE).\
+  communicate()[0].decode('utf-8').strip()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -38,17 +40,16 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Flying Circus manual'
-year = datetime.date.today().year
-copyright = u'%s, Flying Circus Internet Operations GmbH' % year
+project = u'Flying Circus Platform'
+year = isodate[0:4]
+copyright = u'Flying Circus Internet Operations GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-hg = subprocess.Popen(['hg', 'identify'], stdout=subprocess.PIPE)
-version = hg.communicate()[0].strip().decode('UTF-8')
+version = isodate[0:10]
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -131,7 +132,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%Y-%m-%d %H:%M'
+html_last_updated_fmt = isodate
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
@@ -161,7 +162,7 @@ html_show_sourcelink = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'goceptnet'
+htmlhelp_basename = 'flyingcircus'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -175,7 +176,7 @@ latex_paper_size = 'a4'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'goceptnet.tex', u'Flying Circus documentation',
+  ('index', 'flyingcircus.tex', u'Flying Circus documentation',
    u'Flying Circus Internet Operations GmbH', 'manual'),
 ]
 
@@ -198,10 +199,9 @@ latex_documents = [
 
 # -- Options for extensions ----------------------------------------------------
 
-feed_base_url = 'http://flyingcircus.io/doc'
-feed_author = 'Flying Circus admins <support@flyingcircus.io>'
+feed_base_url = 'https://flyingcircus.io/doc'
+feed_author = 'Flying Circus Internet Operations GmbH <support@flyingcircus.io>'
 feed_description = 'Flying Circus manual'
-
 
 
 def setup(app):

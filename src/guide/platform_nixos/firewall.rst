@@ -11,7 +11,10 @@ will be accessible to the outside world. The server-to-server network is only
 accessible in a limited way from the outside and freely to the machines
 in the same project.
 
-To add custom rules, you can place configuration files in
+Adding custom configuration
+---------------------------
+
+To add firewall rules, you can place configuration files in
 :file:`/etc/local/firewall/*`. Upon the next config activation all files placed
 there will be concatenated and placed in a late stage of the firewall
 configuration.
@@ -38,3 +41,18 @@ Here's an example:
 
 After making changes to the firewall configuration, either wait for the
 agent to apply it or run ``sudo fc-manage --build``.
+
+How to verify
+-------------
+
+Service users may list currently active firewall rules with :command:`sudo
+iptables -L`, e.g.:
+
+.. code-block:: bash
+
+    iptables -L -nv    # show IPv4 firewall rules w/o DNS resolution
+    ip6tables -L -nv   # show IPv6 firewall rules w/o DNS resolution
+
+If the intended rules do not show up, check the system journal for possible
+syntax errors in :file:`/etc/local/firewall` and re-run
+:command:`fc-manage --build`.

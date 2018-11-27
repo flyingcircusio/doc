@@ -30,3 +30,4 @@ tags
 .todo
 pip-selfcheck.json
 pyvenv.cfg
+result/
