@@ -14,6 +14,10 @@ NixOS platform
 
 * Add **ldap** role for running customer-specific OpenLDAP servers (#105204).
 * Update Grafana to 5.1.4 (#107170).
+* Experimental Docker support can now be enabled in NixOS VMs upon request.
+  Service users are able to interact with the Docker daemon. Not intended for
+  production use at the moment.
+* Update mercurial to 4.7 (#107097).
 
 
 Gentoo platform
