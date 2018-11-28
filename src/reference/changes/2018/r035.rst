@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-11-29
 
-Release 2018_035 (unreleased)
+Release 2018_035 (2018-11-29)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -18,18 +12,6 @@ NixOS platform
   Service users are able to interact with the Docker daemon. Not intended for
   production use at the moment.
 * Update mercurial to 4.7 (#107097).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
