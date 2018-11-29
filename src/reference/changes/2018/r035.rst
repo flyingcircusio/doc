@@ -12,6 +12,8 @@ NixOS platform
   Service users are able to interact with the Docker daemon. Not intended for
   production use at the moment.
 * Update mercurial to 4.7 (#107097).
+* Change kernel swappiness default to *10* to maximize process usage of memory
+  (instead of swapping out) instead of filesystem caches.
 
 
 .. vim: set spell spelllang=en:
