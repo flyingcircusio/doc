@@ -15,5 +15,11 @@ NixOS platform
 * Change kernel swappiness default to *10* to maximize process usage of memory
   (instead of swapping out) instead of filesystem caches.
 
+Documentation
+^^^^^^^^^^^^^
+
+* Active firewall rules can now be :ref:`inspected <nixos-firewall>` by service
+  users (#29292).
+
 
 .. vim: set spell spelllang=en:
