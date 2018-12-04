@@ -12,13 +12,14 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug in graylog default password generation code (#107295).
+* Gather metrics from InfluxDB (#107171).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Performance improvements on backup servers.
 
 
 Documentation
