@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2018-12-06
 
-Release 2018_036 (unreleased)
+Release 2018_036 (2018-12-06)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -23,12 +17,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Performance improvements on backup servers (#102010).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
