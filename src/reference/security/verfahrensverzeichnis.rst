@@ -2,7 +2,7 @@
 ==================================
 
 
-Gemäß §4g BDSG stellt der Datenschutzbeauftragte die in §4e BDSG festgelegten
+Gemäß §4 BDSG stellt der Datenschutzbeauftragte die in §4e BDSG festgelegten
 Angaben jedermann zur Verfügung. Wir stellen diese Angaben hier öffentlich zur
 Verfügung.
 
@@ -19,7 +19,13 @@ Verantwortliche Stelle und Personen
 | Gesellschafter: Christian Theune, Christian Zagrodnick
 
 Datenschutzbeauftragter:
+| from 01.01.2019
+| Nick Lindovsky
+| DITAC GmbH
+| OT Weißlandt-Gölzau · Raffineriestr. 09 · 06369 Südliches Anhalt
+| https://ditac.de · datenschutz@flyingcircus.io
 
+| until 31.12.2018
 | Ralf Müller
 | Organisationsberatung Müller
 | Wiesenring 2 · 04159 Leipzig
@@ -105,7 +111,7 @@ Geplante Datenübermittlung in Drittstaaten
 Es ist keine Datenübermittlung in Drittstaaten geplant.
 
 
-Maßnahmen nach § 9 zur Gewährleistung der Sicherheit
-----------------------------------------------------
+Maßnahmen nach Arikel 32 DS-GVO zur Gewährleistung der Sicherheit
+---------------------------------------------------------------------
 
 Diese finden Sie im separaten Dokument :ref:`data-protection`.
