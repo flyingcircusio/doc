@@ -1,9 +1,7 @@
 Öffentliches Verfahrensverzeichnis
 ==================================
 
-
-Gemäß §4 BDSG stellt der Datenschutzbeauftragte die in §4e BDSG festgelegten
-Angaben jedermann zur Verfügung. Wir stellen diese Angaben hier öffentlich zur
+Wir stellen das Verzeichnis zur Verarbeitung hier öffentlich zur
 Verfügung.
 
 Verantwortliche Stelle und Personen
@@ -19,6 +17,7 @@ Verantwortliche Stelle und Personen
 | Gesellschafter: Christian Theune, Christian Zagrodnick
 
 Datenschutzbeauftragter:
+
 | from 01.01.2019
 | Nick Lindovsky
 | DITAC GmbH
