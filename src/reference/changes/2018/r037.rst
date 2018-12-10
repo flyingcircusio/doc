@@ -12,7 +12,7 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Increase scheduling priority for telegraf data collection daemons (#107353).
 
 
 Gentoo platform
