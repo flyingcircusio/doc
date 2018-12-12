@@ -29,15 +29,12 @@ Currently we allow public access for:
 * HTTP/HTTPS (80/443) - providing access to managed component features, like awstats
 * NTP (123) - to synchronize clocks with outside hosts
 
-We also accept multicast packets in the 224.0.0.0/16 and ff00::/8 ranges.
-
 Managed components that are installed on a machine may provide additional
 firewall exceptions (either for public or data center-internal traffic), for
 example:
 
-* pure-ftpd: ports 20, 21 to offer installation packages to all machines (used
-  internally only)
-* backupclient: ports 9101-9103 for backup operation
+* Grafana (statshost) opens ports 2003 and 2004.
+* VxLAN/OpenVPN servers open several ports depending on their configuration.
 
 
 .. _custom-firewall-rules:
@@ -49,8 +46,6 @@ How to add custom firewall rules depends on the platform of your VM:
 
 * :ref:`Gentoo <gentoo-firewall>`
 * :ref:`NixOS <nixos-firewall>`
-
-
 
 
 .. vim: set spell spelllang=en:
