@@ -24,7 +24,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Update :ref:`firewall` documentation (#29291).
 
 
 .. vim: set spell spelllang=en:
