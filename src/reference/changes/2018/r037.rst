@@ -13,6 +13,9 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Increase scheduling priority for telegraf data collection daemons (#107353).
+* Remove `idle_since` label from RabbitMQ metrics (#107461).
+* Limit the number of parallel downloads during NixOS updates to reduce I/O load
+  (#107440).
 
 
 Gentoo platform
