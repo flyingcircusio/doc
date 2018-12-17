@@ -94,12 +94,13 @@ Loss of storage servers exceeding redundancy
 
 Disaster prevention
     This is a multi-layered issue. In the case of loss of redundancy beyond
-    automatic repair abilities requires specific diagnostics and
+    automatic repair abilities requires manual specific diagnostics and
+    decision-making.
 
 Disaster recovery
     Restore virtual machines from backup.
 
-    RTO: 4 hours
+    RTO: 4 hours + 4 hours per TiB of VM storage
 
     RPO: 24 hours / 1 hour [#fn1]_
 
@@ -189,7 +190,7 @@ Disaster recovery
     Restore filesystem or missing files from backups, recreate backups in case
     of file system errors on backup systems.
 
-    RTO: 4 hours
+    RTO: 1 hour + 4 hours per TiB of VM storage
 
     RPO: 1 day/1 hour [#fn1]_
 
@@ -256,7 +257,8 @@ Disaster recovery
     RPO: 1 day/1 hour [#fn1]_
 
 .. [#fn1] RPO is 1 day for all virtual machines covered by the default backup
-   schedule.  Customers can opt for a more frequent backup schedule with hourly
+   schedule. Customers can opt for a more frequent backup schedule with hourly
    backups.
 .. [#fn2] Standard support reaction time is 4 hours during office hours.
    Customers may book SLAs with shorter guaranteed reaction times.
+   Restore RPOs require the basic RPO + 4 hours per TiB of VM storage.
