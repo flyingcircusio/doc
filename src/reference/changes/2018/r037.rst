@@ -1,6 +1,6 @@
-:Publish Date: 2018-12-18
+:Publish Date: 2018-12-19
 
-Release 2018_037 (2018-12-18)
+Release 2018_037 (2018-12-19)
 -----------------------------
 
 Impact
@@ -17,6 +17,8 @@ NixOS platform
 * Limit the number of parallel downloads during NixOS updates to reduce I/O load
   (#107440).
 * Ensure Grafana gets restarted after crashes (#107469).
+* Fix Graylog password generation (#107295).
+* Nginx: make `map_hash_bucket_size` accessible as Nix option (#107386).
 * Security updates for several packages (#107440):
 
 ========================== ============= =============
