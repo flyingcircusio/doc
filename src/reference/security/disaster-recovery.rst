@@ -100,7 +100,7 @@ Disaster prevention
 Disaster recovery
     Restore virtual machines from backup.
 
-    RTO: 4 hours + 4 hours per TiB of VM storage
+    RTO: 4 hours + 5 hours per TiB of VM storage
 
     RPO: 24 hours / 1 hour [#fn1]_
 
@@ -190,7 +190,7 @@ Disaster recovery
     Restore filesystem or missing files from backups, recreate backups in case
     of file system errors on backup systems.
 
-    RTO: 1 hour + 4 hours per TiB of VM storage
+    RTO: depends on SLA [#fn2]_
 
     RPO: 1 day/1 hour [#fn1]_
 
@@ -236,7 +236,7 @@ Disaster prevention
     Performing backups.
 
 Disaster recovery
-    Restore deleteed file from backup.
+    Restore deleted file from backup.
 
     RTO: depends on SLA [#fn2]_
 
@@ -261,4 +261,4 @@ Disaster recovery
    backups.
 .. [#fn2] Standard support reaction time is 4 hours during office hours.
    Customers may book SLAs with shorter guaranteed reaction times.
-   Restore RPOs require the basic RPO + 4 hours per TiB of VM storage.
+   Restore RTOs require the SLAs basic RTO + 5 hours per TiB of VM storage.
