@@ -53,6 +53,12 @@ virtualbox                 5.1.32        5.2.14
 ========================== ============= =============
 
 
+Gentoo
+^^^^^^^^^^^^^
+
+* Improve Ceph tooling for disk maintenance operations (#24636).
+
+
 Documentation
 ^^^^^^^^^^^^^
 
