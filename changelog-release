@@ -5,6 +5,7 @@ import datetime
 import collections
 import glob
 import os
+import os.path as p
 import re
 import subprocess
 
@@ -42,7 +43,7 @@ def last_release():
         last = candidates[-1]
     except IndexError:
         raise RuntimeError('cannot handle new year yet -- edit manually')
-    last = os.path.basename(last).split('.')[0].lstrip('r')
+    last = p.basename(last).split('.')[0].lstrip('r')
     last = int(last, 10)
     return Release(datetime.date.today().year, last)
 
@@ -70,24 +71,32 @@ def prepare_new_changelog(new_release):
     changes = changes.replace('YYYY_NNN', new_release.id)
     new_release.write_changelog(changes)
     subprocess.check_call(['hg', 'add', new_release.filename])
-
-    if os.path.lexists('CHANGES.rst'):
+    try:
         os.unlink('CHANGES.rst')
+    except FileNotFoundError:
+        pass
     os.symlink(new_release.filename, 'CHANGES.rst')
 
 
 def update_index(last, new):
-    new_line = ''
-    last_index = 'r{:03n}'.format(last.num)
     year = datetime.date.today().year
-    with open('src/reference/changes/{}/index.rst'.format(year)) as index:
-        for line in index.readlines():
-            if last_index in line:
-                new_line = line.replace(last_index, 'r{:03n}'.format(new.num))
-                break
-    with open('src/reference/changes/{}/index.rst'.format(year),
-              'a') as index:
-        index.write(''.join(new_line))
+    releases = [
+        e.name for e in os.scandir(p.join('src/reference/changes', str(year)))
+        if e.is_file() and re.match(r"^r\d+\.rst$", e.name)
+    ]
+    with open('src/reference/changes/{}/index.rst'.format(year), 'w') as index:
+        print("""\
+{year}
+====
+
+Releases performed in {year}.
+
+.. toctree::
+   :maxdepth: 1
+
+""".format(year=year), file=index)
+        for r in sorted(releases):
+            print('   ' + r.replace('.rst', ''), file=index)
 
 
 def main():
@@ -96,6 +105,8 @@ def main():
                    default=datetime.date.today().strftime('%Y-%m-%d'),
                    help='set planned roll-out date (default: %(default)s)')
     args = a.parse_args()
+    if not re.match(r'\d{4}-\d{2}-\d{2}$', args.release_date):
+        a.error("Release date must be formatted as YYYY-MM-DD")
     last = last_release()
     new = Release(datetime.date.today().year, last.num + 1)
     finalize_old_changelog(last, args.release_date)
@@ -105,6 +116,7 @@ def main():
     subprocess.check_call([
         'hg', 'commit', '-m', 'finalize changelog r{}, create r{}'.format(
             last.id, new.id)])
+
 
 if __name__ == '__main__':
     main()
