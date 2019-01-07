@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-01-08
 
-Release 2019_001 (unreleased)
+Release 2019_001 (2019-01-08)
 -----------------------------
 
 NixOS platform
@@ -10,10 +10,5 @@ NixOS platform
   (#107475).
 * Restart ElasticSearch automatically after crashes (#107568).
 
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 .. vim: set spell spelllang=en:
