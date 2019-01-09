@@ -1,30 +1,15 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-01-10
 
-Release 2019_002 (unreleased)
+Release 2019_002 (2019-01-10)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS platform
-^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Fix bug in VM orchestration which killed VMs in certain migration+powercycle
+  scenarios (#107800).
+* Further fine tuning of I/O scheduler settings on Ceph servers.
+* Install CPU power diagnostics on Ceph servers (#24636).
 
 
 .. vim: set spell spelllang=en:
