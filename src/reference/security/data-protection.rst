@@ -21,21 +21,11 @@ Data protection officer
 
 The appointed data protection officer is:
 
-from 01.01.2019
-
 | Nick Lindovsky
 | DITAC GmbH
 | OT Weißlandt-Gölzau · Raffineriestr. 09 · 06369 Südliches Anhalt
 | https://ditac.de · datenschutz@flyingcircus.io
 | `+49 34978 30186 <tel:+493497830186>`_
-
-until 31.12.2018
-
-| Ralf Müller
-| Organisationsberatung Müller
-| Wiesenring 2 · 04159 Leipzig
-| https://ob-m.de · datenschutz@flyingcircus.io
-| `+49 341 4622351 <tel:+493414622351>`_
 
 
 General
