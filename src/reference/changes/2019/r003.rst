@@ -6,13 +6,13 @@ Release 2019_003 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Fix block device/RAID controller auto-configuration after disk replacements (#107861).
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Restart Grafana automatically after crashes (#107469).
 
 
 Gentoo platform
