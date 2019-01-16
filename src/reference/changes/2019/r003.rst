@@ -1,12 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-01-17
 
-Release 2019_003 (unreleased)
+Release 2019_003 (2019-01-17)
 -----------------------------
-
-Impact
-^^^^^^
-
-* Fix block device/RAID controller auto-configuration after disk replacements (#107861).
 
 
 NixOS platform
@@ -19,13 +14,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Fix block device/RAID controller auto-configuration after disk replacements
+  (#107861).
 
 
 .. vim: set spell spelllang=en:
