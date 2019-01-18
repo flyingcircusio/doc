@@ -9,6 +9,7 @@ NixOS platform
 
 * Restart Grafana automatically after crashes (#107469).
 * Add separate role for mailout (#103083).
+* Fix `sudo` on newly provisioned VMs (#107816).
 
 
 Gentoo platform
