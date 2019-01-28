@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-01-29
 
-Release 2019_004 (unreleased)
+Release 2019_004 (2019-01-29)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -16,18 +10,6 @@ NixOS platform
   (#107948).
 * Fix relaying of outgoing mails via a `mailout` VM (#107962).
 * Remove (deprecated) Prometheus 1 from all `stathost` VMs (#106554).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
