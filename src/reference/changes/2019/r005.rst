@@ -12,13 +12,16 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Monitor syntax and plausibility of user-supplied Sensu checks in
+  `/etc/local/sensu-client` (#108125).
+* Improve handling of local nixpkgs checkouts for system development (#107949).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bug with broken Ceph locks observed during VM live migration (#107986).
+* Add *reduced retention* backup policy (#108112).
 
 
 Documentation
