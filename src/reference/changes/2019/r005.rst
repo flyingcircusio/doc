@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-02-05
 
-Release 2019_005 (unreleased)
+Release 2019_005 (2019-02-05)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -22,12 +16,6 @@ Gentoo platform
 
 * Fix bug with broken Ceph locks observed during VM live migration (#107986).
 * Add *reduced retention* backup policy (#108112).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
