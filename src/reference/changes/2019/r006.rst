@@ -6,19 +6,22 @@ Release 2019_006 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] NodeJS applications will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for `shadow`: 4.2.1 -> 4.6 (#101091).
+* Security update for `NodeJS`: 8.11.3 -> 8.12.0 (#101091).
+* Security update for `pipenv`: 10.1.0 -> 2018.10.13 (#101091).
+* Security update for `vim`: 8.0.1451 -> 8.1.0490 (#101091).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update `fc.qemu` to 1.0.4 (#108121).
 
 
 Documentation
