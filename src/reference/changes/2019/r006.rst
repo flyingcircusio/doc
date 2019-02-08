@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-02-11
 
-Release 2019_006 (unreleased)
+Release 2019_006 (2019-02-11)
 -----------------------------
 
 Impact
@@ -22,12 +22,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update `fc.qemu` to 1.0.4 (#108121).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
