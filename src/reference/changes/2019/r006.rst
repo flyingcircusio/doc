@@ -15,13 +15,15 @@ NixOS platform
 * Security update for `shadow`: 4.2.1 -> 4.6 (#101091).
 * Security update for `NodeJS`: 8.11.3 -> 8.12.0 (#101091).
 * Security update for `pipenv`: 10.1.0 -> 2018.10.13 (#101091).
-* Security update for `vim`: 8.0.1451 -> 8.1.0490 (#101091).
+* Security update for `vim`: 8.0.1451 -> 8.1.0490 (#101091, #108112).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update `fc.qemu` to 1.0.4 (#108121).
+* Hotfix: configure backy retentions on barbrady03 (#108238).
+* Clean up config file handling on backup servers (#108073).
 
 
 .. vim: set spell spelllang=en:
