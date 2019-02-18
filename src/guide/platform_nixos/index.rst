@@ -31,6 +31,7 @@ Roles and packages
 
    antivirus
    datadog
+   docker
    elasticsearch
    external_net
    java
