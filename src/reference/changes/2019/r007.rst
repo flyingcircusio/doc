@@ -6,13 +6,15 @@ Release 2019_007 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Graylog instances will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update for Graylog: 2.4.5 -> 2.4.6 (#108321).
+* Security update for CUPS: 2.0.4 -> 2.2.6 (#107622).
+* Update for GnuPG: 2.0 -> 2.2 (#107622).
 
 
 Gentoo platform
