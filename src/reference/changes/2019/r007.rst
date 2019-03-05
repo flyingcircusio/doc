@@ -6,7 +6,10 @@ Release 2019_007 (unreleased)
 Impact
 ^^^^^^
 
-* Graylog instances will be restarted.
+* [NixOS] ElasticSearch instances will be restarted.
+* [NixOS] Graylog instances will be restarted.
+* [NixOS] All applications linking to the CUPS libraries will be restarted.
+
 
 
 NixOS platform
@@ -14,13 +17,18 @@ NixOS platform
 
 * Security update for Graylog: 2.4.5 -> 2.4.6 (#108321).
 * Security update for CUPS: 2.0.4 -> 2.2.6 (#107622).
-* Update for GnuPG: 2.0 -> 2.2 (#107622).
+* Security update for GnuPG: 2.0 -> 2.2 (#107622).
+* Security update for ImageMagick: 6.9.9-19 -> 6.9.9-34
+* Security update for Python 3.6: 3.6.6 -> 3.6.8
+* Update ELK stack: 6.3.2 -> 6.5.1 (#107622).
+
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix DNS updates when no reverse Zone exists (#107874).
+* Fix disk resize for root partitions starting at sector 16384 (#108528).
 
 
 Documentation
