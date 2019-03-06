@@ -8,7 +8,7 @@ Impact
 
 * [NixOS] ElasticSearch instances will be restarted.
 * [NixOS] Graylog instances will be restarted.
-* [NixOS] All applications linking to the CUPS libraries will be restarted.
+* [NixOS] All system services linking to CUPS libraries will be restarted.
 
 
 
