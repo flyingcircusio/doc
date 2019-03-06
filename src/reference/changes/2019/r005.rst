@@ -15,7 +15,8 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix bug with broken Ceph locks observed during VM live migration (#107986).
-* Add *reduced retention* backup policy (#108112).
+* Backup: add `reduced-retention` policy for backups that do not need to be kept
+  as long as normally (#108112).
 
 
 .. vim: set spell spelllang=en:
