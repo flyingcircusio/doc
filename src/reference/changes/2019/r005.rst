@@ -18,7 +18,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Backup: add `reduced-retention` policy for backups that do not need to be kept
+  as long as normally (#108112).
 
 
 Documentation
