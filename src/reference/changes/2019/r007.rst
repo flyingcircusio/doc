@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-03-07
 
-Release 2019_007 (unreleased)
+Release 2019_007 (2019-03-07)
 -----------------------------
 
 Impact
@@ -29,12 +29,6 @@ Gentoo platform
 
 * Fix DNS updates when no reverse Zone exists (#107874).
 * Fix disk resize for root partitions starting at sector 16384 (#108528).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
