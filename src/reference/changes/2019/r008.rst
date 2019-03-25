@@ -18,7 +18,8 @@ NixOS platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve Ceph config to avoid performance drops during snap trimming tasks
+  (#108512).
 
 
 Documentation
