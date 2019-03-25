@@ -6,13 +6,13 @@ Release 2019_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS] PostgreSQL servers will be restarted.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide PostgreSQL extension `temporal_tables` (#108908).
 
 
 Gentoo platform
