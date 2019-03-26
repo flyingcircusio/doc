@@ -20,6 +20,9 @@ Gentoo platform
 
 * Improve Ceph config to avoid performance drops during snap trimming tasks
   (#108512).
+* fc.qemu: Fix bug while trying to create snapshots for a VM that is not running
+  (#108360).
+* fc.qemu: Fix problem with long process names [hotfix] (#108335).
 
 
 Documentation
