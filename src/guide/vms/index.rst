@@ -49,3 +49,46 @@ granted with sudo-srv permissions are able to reboot a VM by calling::
 
   sudo shutdown -r now
 
+Deletion
+--------
+
+VMs are deleted in a multi-stage process that takes around 38 days. You can
+schedule the deletion of a VM at earliest for the next day (midnight
+Europe/Berlin).
+
+The stages of deletion are:
+
+Prepare
+  (t-5 days)
+
+  Create a maintenance period to let technical contacts know that a VM
+  is due for deletion soon.
+
+  Also, add downtimes in our monitoring systems to stop any alerts related
+  to the VM starting from their deletion date.
+
+Soft
+  (at t=0)
+
+  Shutdown the VM but keep all existing records, IPs, disks, etc.
+
+  At this point you can still cancel the deletion and start up the VM as it was
+  including all persistent data.
+
+Hard
+  (t+3 days)
+
+  Delete the VMs hard disk from activate storage.
+
+  Also delete all records from our directory and allow the IPs to be reused.
+
+Purge
+  (t+8 days)
+
+  Delete the VMs backups.
+
+Recycle
+  (t+38 days)
+
+  Delete the VM deletion notice which will in turn allow the VMs name to
+  be used again.
