@@ -12,7 +12,11 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide `redis4` role in addition to the `redis` role. The former installs
+  version 4.x while the latter runs on the default version (currently 3.x)
+  (#108957).
+* Adapt Sensu server to accept check results from both 15.09 and 18.09 clients
+  (#25409).
 
 
 Gentoo platform
