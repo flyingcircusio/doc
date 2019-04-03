@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-04-04
 
-Release 2019_009 (unreleased)
+Release 2019_009 (2019-04-04)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -17,18 +11,6 @@ NixOS platform
   (#108957).
 * Adapt Sensu server to accept check results from both 15.09 and 18.09 clients
   (#25409).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
