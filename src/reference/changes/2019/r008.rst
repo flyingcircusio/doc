@@ -13,6 +13,8 @@ NixOS platform
 ^^^^^^^^^^^^^^
 
 * Provide PostgreSQL extension `temporal_tables` (#108908).
+* Use internal NTP servers for health checking to avoid false alerts when using
+  public infrastructure (#108793).
 
 
 Gentoo platform
