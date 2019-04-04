@@ -11,6 +11,8 @@ NixOS platform
   (#108957).
 * Adapt Sensu server to accept check results from both 15.09 and 18.09 clients
   (#25409).
+* Slow down release roll-out a bit to reduce infrastructure load during
+  roll-out.
 
 
 .. vim: set spell spelllang=en:
