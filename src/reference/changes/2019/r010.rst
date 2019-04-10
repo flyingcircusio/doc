@@ -1,30 +1,21 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-04-11
 
-Release 2019_010 (unreleased)
+Release 2019_010 (2019-04-11)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* nothing yet
+* Many services will be restarted due to the widespread dependency on
+  `gettext`.
 
 
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Fix Docker compatibility of our disk check. Running a container caused the
+  disk check to fail due to missing permissions (#107512).
+* Security update for `gettext` (#107624).
 
 
 .. vim: set spell spelllang=en:
