@@ -12,7 +12,9 @@ Impact
 NixOS platform
 ^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Sensu to 0.27.1. Sensu clients shouldn't hang anymore when DNS
+  resolution fails during service start.
+* Mention both $HOSTNAME.fcio.net and $HOSTNAME.gocept.net in `/etc/hosts`.
 
 
 Gentoo platform
