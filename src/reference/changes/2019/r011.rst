@@ -10,5 +10,10 @@ NixOS platform
   resolution fails during service start.
 * Mention both $HOSTNAME.fcio.net and $HOSTNAME.gocept.net in `/etc/hosts`.
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* Stop making backups for VMs in soft deletion stage (#22345).
+* Update `backy` to handle deleted VMs more gracefully (#27020).
 
 .. vim: set spell spelllang=en:
