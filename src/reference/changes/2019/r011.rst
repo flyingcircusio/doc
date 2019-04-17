@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-04-18
 
-Release 2019_011 (unreleased)
+Release 2019_011 (2019-04-18)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS platform
 ^^^^^^^^^^^^^^
@@ -15,18 +9,6 @@ NixOS platform
 * Update Sensu to 0.27.1. Sensu clients shouldn't hang anymore when DNS
   resolution fails during service start.
 * Mention both $HOSTNAME.fcio.net and $HOSTNAME.gocept.net in `/etc/hosts`.
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
