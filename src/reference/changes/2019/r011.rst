@@ -9,6 +9,8 @@ NixOS platform
 * Update Sensu to 0.27.1. Sensu clients shouldn't hang anymore when DNS
   resolution fails during service start.
 * Mention both $HOSTNAME.fcio.net and $HOSTNAME.gocept.net in `/etc/hosts`.
+* Fix service startup ordering problems for HAProxy, nginx, varnish and others
+  (#110288).
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
