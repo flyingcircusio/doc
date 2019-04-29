@@ -8,6 +8,8 @@ NixOS platform
 
 * Add administrator key for Tobias Stenzel.
 * Prepare upgrade of first VMs to NixOS 18.09 (#110152).
+* Fix atomic updates of statshost relay configs to stop Prometheus from
+  complaining when curl rewrites the file on the fly (#100108).
 
 
 .. vim: set spell spelllang=en:
