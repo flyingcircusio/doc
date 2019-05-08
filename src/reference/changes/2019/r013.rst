@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-05-08
 
-Release 2019_013 (unreleased)
+Release 2019_013 (2019-05-08)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -23,17 +17,5 @@ NixOS 18.09 platform
 * Port mailout and mailserver roles
 * Port MongoDB roles (versions 3.2, 3.4)
 * Port PostgreSQL roles (versions 9.5, 9.6, 10)
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
