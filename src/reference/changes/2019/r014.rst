@@ -12,8 +12,10 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Change update behaviour of production VMs in a customer-specific situation (#110579)
+* Fix routing setup during boot in a customer-specific situation (#110540)
+* Update network settings in customer-specific situation (#110577)
+* Fix enabling external_net role, when no reverse DNS entry is set (#100057)
 
 NixOS 18.09 platform
 ^^^^^^^^^^^^^^^^^^^^
