@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-05-22
 
-Release 2019_014 (unreleased)
+Release 2019_014 (2019-05-22)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -17,22 +11,10 @@ NixOS 15.09 platform
 * Update network settings in customer-specific situation (#110577)
 * Fix enabling external_net role, when no reverse DNS entry is set (#100057)
 
-NixOS 18.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix check_megaraid for multiple LDs. (#110947)
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
