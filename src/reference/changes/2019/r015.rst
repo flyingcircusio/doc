@@ -12,14 +12,15 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Provide OpenSSL and Nix tools to Sensu checks
+* Disable failing telegraf service in the boot image (#110845)
 
 NixOS 18.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Provide OpenSSL and Nix tools to Sensu checks
+* Disable failing Telegraf service in the boot image (#110845)
+* Port RabbitMQ roles (versions 3.6.5, 3.6.15), add role for version 3.7.15
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
