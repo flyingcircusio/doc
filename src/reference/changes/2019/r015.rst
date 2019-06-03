@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-06-03
 
-Release 2019_015 (unreleased)
+Release 2019_015 (2019-06-03)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -21,17 +15,5 @@ NixOS 18.09 platform
 * Provide OpenSSL and Nix tools to Sensu checks
 * Disable failing Telegraf service in the boot image (#110845)
 * Port RabbitMQ roles (versions 3.6.5, 3.6.15), add role for version 3.7.15
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
