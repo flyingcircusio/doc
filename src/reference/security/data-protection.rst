@@ -5,13 +5,14 @@
 Data protection measures
 ========================
 
-In addition to purely technical security measures we implement measures to
-comply with Germany's federal and EU data protection laws and help our
-customers comply with similar applicable laws.
+In addition to purely technical security measures we implement additional
+measures to provide a safe environment for your and your customers' data
+based on the following standards and regulations:
 
-The reference for this is the German federal regulation
-`Bundesdatenschutzgesetz (BDSG)
-<http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_.
+* ISMS based on the ISO 27000 family (in progress),
+* Germany's `federal data protection law (BDSG)
+<http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, and
+* the EU's `General Data Protection Regulation (GDPR) <https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung>`_.
 
 .. contents::
 
@@ -41,17 +42,17 @@ situation, we'd like to first outline the general situation that hosting in
 the Flying Circus puts you in:
 
 Commissioned data processing
-  does not apply as the Flying Circus does not enter a direct, contractual
-  relation with the owner of the data.
+  applies within the framework of the GDPR. We will implement a contract for
+  commissioned data protection suitable to the GDPR with you.
 
-Duty to give information:
+Duty to give information
   People who are affected by processing of data have right to request
   information about what data about them is being stored as well as about the
   processes how this data is being kept secure.
 
-Periodical check for compliance to the BSDG:
-  The client has the responsibility to routinely check that the regulations of
-  the BDSG are being conformed to by their contractor. Yearly checks appear to
+Periodical check for compliance to regulations:
+  The client has the responsibility to routinely check that applicable regulations
+  are being conformed to by their contractor. Yearly checks appear to
   be sufficient even for highly sensitive data (e.g. medical records). The
   result needs to be documented in written form. The audit usually needs to be
   performed by a third party.
@@ -112,7 +113,7 @@ Users with a Flying Circus account are required to manage their password securel
 unauthorized physical or logical access to objects that can potentially store
 passwords may not result in a compromised passwords. Examples are: Home
 directory on a laptop, keychain or password manager software, backups, USB
-sticks, smartphones.
+sticks, smartphones. Strongly encrypted storage of passwords is permissible.
 
 All machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
@@ -172,9 +173,7 @@ Group accounts are generally not allowed to perform privileged administrative
 operations to ensure traceability of actions.
 
 Passwords for physical machines granting access to root accounts and IPMI
-controllers are stored as hard copies in a double-signed envelope in a safe in
-the Flying Circus offices. This printout is updated regularly and old copies
-are shredded.
+controllers are stored as copies in a strongly encrypted password manager.
 
 
 Transfer control
@@ -221,16 +220,18 @@ deletion and removal are handled appropriately according to their applicable
 data protection laws.
 
 However, within the performance of maintenance work it may be necessary that
-administrators need to enter, change, or delete data records on a low
-technical level to ensure the continued operation of the overall system. This
-will only happen after having informed the affected customers and received
-explicit clearance using the request tracking system.
+administrators need to enter, change, or delete data records on a low technical
+level to ensure the continued operation of the overall system. This will only
+happen after having informed the affected customers and having documented this
+in our issue tracking system.
 
 Managed log files are rotated by the Flying Circus infrastructure automatically
 with sensible retention times.
 
-Changes in the Flying Circus user directory (e.g., SSH keys) must be documented
-beforehand and confirmed by the customer after the change has been performed.
+Changes in the Flying Circus user directory (e.g., SSH keys) can be performed by
+the customer themselves or through our support. If the change happens through
+our support hen it  must be documented beforehand and confirmed by the customer
+after the change has been performed.
 
 
 Order control
@@ -277,7 +278,7 @@ Separation
 **Measures for separation ensure that data that is collected for separate
 purposes must be processed separately.**
 
-To separate data from different customers the Flying Circus facilitates visualization:
+To separate data from different customers the Flying Circus facilitates virtualization:
 both virtual machines (to separate execution context) and SAN (to separate
 storage) ensure that customers can only access data belonging to them. Within a
 single machine access to different files and processes is available using
@@ -300,8 +301,7 @@ of user accounts and permissions.
 .. rubric:: Footnotes
 
 .. [#customer-owned] If a customer owns equipment managed within the Flying Circus we
-    recommend to directly contract with our data center suppliers obtaining a
-    separate rack with separate access control.
+    require that this customer uses a separate rack with separate access control.
 
 .. [#secure-logging] This requirement was added recently and has not been
     implemented yet.
@@ -311,7 +311,8 @@ of user accounts and permissions.
    key authentication. Password logins are always rejected. Potential attack
    vectors are thus limited to stolen or cracked private keys or vulnerabilities
    in the SSH server software. Cracked keys are practically impossible using
-   current technology. Stolen keys or errors in the server software will not be
+   current technology. Known broken key formats are revoked/rejected regularly.
+   Stolen keys or errors in the server software will not be
    traceable using unsuccessful login records either.  On the opposite: the
    amount of password login tries performed nowadays (due to bot nets etc.)
    would cause spamming of the logging infrastructure which in turn can be a
