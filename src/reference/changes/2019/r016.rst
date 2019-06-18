@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-06-18
 
-Release 2019_016 (unreleased)
+Release 2019_016 (2019-06-18)
 -----------------------------
 
 Impact
@@ -29,18 +29,6 @@ NixOS 18.09 platform
   (#29189)
 * Always update production VMs in maintenance windows (in the future).
   New configs will continue to be built immediately but activation will be scheduled as a maintenance. (#110759)
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
