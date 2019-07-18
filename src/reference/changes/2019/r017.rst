@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-07-18
 
-Release 2019_017 (unreleased)
+Release 2019_017 (2019-07-18)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -27,13 +21,8 @@ NixOS 18.09 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Use quad9 resolvers to avoid operational issues with 3rd party nameservers (#114689).
+* Enable milter for ClamAV.
 
 
 .. vim: set spell spelllang=en:
