@@ -31,7 +31,6 @@ Roles and packages
 
    external_net
    memcached
-   mysql
    postgresql
    redis
    statshost
