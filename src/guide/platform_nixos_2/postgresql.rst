@@ -1,4 +1,4 @@
-.. _nixos-postgresql-server:
+.. _nixos2-postgresql-server:
 
 PostgreSQL
 ==========

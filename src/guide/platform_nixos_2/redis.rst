@@ -1,4 +1,4 @@
-.. _nixos-redis:
+.. _nixos2-redis:
 
 Redis
 =====
