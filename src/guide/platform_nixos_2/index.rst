@@ -1,4 +1,4 @@
-.. _platform-nixos:
+.. _platform-nixos2:
 
 Platform: NixOS 19.03
 =====================
