@@ -15,8 +15,6 @@ The role includes of two software packages:
 * the `nginx <http://nginx.org/>`_ web server
 * the `HAProxy <http://www.haproxy.org/>`_ load balancer and proxy server
 
-Both packages get a basic configuration, which can be found `here for nginx <https://github.com/flyingcircusio/nixpkgs/blob/fc-15.09-dev/nixos/modules/flyingcircus/roles/nginx.nix>`_ and `here for HAProxy <https://github.com/flyingcircusio/nixpkgs/blob/fc-15.09-dev/nixos/modules/flyingcircus/roles/haproxy.nix>`_.
-
 In any way, you will have to add custom configuration to serve your site.
 
 .. note:: Although we install nginx and HAProxy, there is no need to use them
