@@ -1,4 +1,4 @@
-.. _nixos-logrotate:
+.. _nixos2-logrotate:
 
 Logrotate
 =========
