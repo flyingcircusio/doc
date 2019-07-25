@@ -30,7 +30,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Add documentation for the new NixOS 19.03 platform.
 
 
 .. vim: set spell spelllang=en:
