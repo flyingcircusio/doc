@@ -4,7 +4,7 @@ Base environment
 ================
 
 The base installation includes various tools that generally help with
-application deployment. They are available on every Flying Circus NixOS VM.
+application deployment. They are available on every Flying Circus NixOS 19.03 VM.
 The package's installation includes availability to run them manually and
 to compile your own software against them.
 
