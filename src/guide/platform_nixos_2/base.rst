@@ -17,36 +17,45 @@ need a managed component, those need to be activated explicitly.
 Packages
 --------
 
+* apacheHttpd
 * atop
+* automake
 * bc
-* bind
 * bundler
+* cmake
+* cups
 * curl
 * cyrus_sasl
 * db
+* dnsutils
 * dstat
-* fcmaintenance
+* file
+* fc.logcheckhelper
 * fio
 * gcc
-* gdbm
+* gdb
 * git
+* gnumake
 * gnupg
-* go
 * gptfdisk
 * graphviz
+* htop
 * imagemagick
-* inetutils
 * iotop
-* kerberos
-* libmemcached
+* jq
+* libjpeg
+* libtiff
+* libxml2
+* libxslt
 * links
 * lsof
 * lynx
+* mailx
 * mercurial
 * mmv
 * nano
-* nc6
 * ncdu
+* netcat
 * netcat
 * ngrep
 * nmap
@@ -54,26 +63,26 @@ Packages
 * openldap
 * openssl
 * php
-* postgresql
+* pkgconfig
 * protobuf
 * psmisc
-* pv
-* python27Full
+* pwgen
+* python2Full
 * python3
-* python34Packages.virtualenv
+* pythonPackages.virtualenv
+* ripgrep
 * screen
 * strace
-* subversion
 * sysstat
 * tcpdump
 * telnet
-* traceroute
 * tree
 * unzip
-* utillinux
 * vim
-* zlib
-
+* vulnix
+* wdiff
+* wget
+* xfsprogs
 
 Configuration
 -------------
