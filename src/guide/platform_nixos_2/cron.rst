@@ -25,11 +25,11 @@ something like:
 
 .. code-block:: sh
 
-   SHELL=/bin/sh
    HOME=/home/user
    LOGNAME=user
+   PATH=/run/wrappers/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/usr/bin:/bin
+   SHELL=/bin/sh
    USER=user
-   PATH=/var/setuid-wrappers:/nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:/run/current-system/sw/bin:/run/current-system/sw/sbin
 
 Often, this set of environment variables is not sufficient. To get a full
 environment similar to the one present in interactive sessions, prefix your
