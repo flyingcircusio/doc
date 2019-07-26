@@ -32,6 +32,7 @@ Roles and packages
    external_net
    memcached
    postgresql
+   rabbitmq
    redis
    statshost
    webgateway
