@@ -67,9 +67,10 @@ Interaction
 -----------
 
 A default client configuration file (`*.ovpn`) is provided on OpenVPN gateways
-in the directory :file:`/etc/local/openvpn`. Import this configuration file into
-your OpenVPN client of choice.
-
+in the directory :file:`/etc/local/openvpn`. 
+Import this configuration file into your OpenVPN client of choice.
+It will work with OpenVPN versions 2.4 and newer.
+Older clients (please upgrade!) must set the cipher option in the config file.
 
 Monitoring
 ----------
