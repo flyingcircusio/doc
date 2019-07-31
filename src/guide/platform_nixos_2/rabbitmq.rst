@@ -13,7 +13,7 @@ Configuration
 The server listens for AMQP connections on the first IP of the *srv* interface on port 5672.
 
 Additional configuration using the Erlang syntax can be placed in 
-:file:` etc/local/rabbitmq/rabbitmq.config`.
+:file:`/etc/local/rabbitmq/rabbitmq.config`.
 
 We remove the guest user for security reasons.
 
