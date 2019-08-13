@@ -12,14 +12,17 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Allow sensu checks to switch to a service user without password (#115283).
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Add PostgreSQL 11 role (#114598).
+* Allow sensu checks to switch to a service user without password (#115283).
+* Fix logcheck helper (#114832).
+* Nginx: Improve structured JSON config and reloading (#110209).
+* Port NFS client and server role.
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
