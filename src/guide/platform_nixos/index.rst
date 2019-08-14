@@ -24,8 +24,8 @@ more memory for larger applications.
    user_profile
 
 
-Roles and packages
-------------------
+Components/Roles
+----------------
 
 .. toctree::
    :titlesonly:

@@ -182,7 +182,12 @@ Managed Components
 ------------------
 
 You can use our managed components/roles to avoid having to install and maintain
-complex setups yourself.
+complex setups yourself. Some examples for components we provide:
+
+* postgresql
+* webgateway
+* mailout
+* redis
 
 The benefit of managed components are:
 
