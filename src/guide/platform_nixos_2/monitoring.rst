@@ -1,15 +1,13 @@
-.. _nixos2-statshost:
+.. _nixos2-monitoring:
 
 Monitoring
 ==========
 
 NixOS machines are monitored by `Sensu Core <https://sensu.io>`_ (1.x) with various plugins.
 We run checks regularly by default to ensure platform and service health.
+Check results are displayed on the status pages at `My Flying Circus <https://my.flyingcircus.io>`_.
 Refer to the role documentation pages for information about what is checked for a specific role.
 
-.. note::
-
-    We do not provide access to the Sensu data, yet.
 
 Custom Checks
 -------------
