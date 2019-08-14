@@ -21,6 +21,7 @@ more memory for larger applications.
    logrotate
    firewall
    user_profile
+   monitoring
 
 
 Roles and packages
