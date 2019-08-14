@@ -24,8 +24,8 @@ more memory for larger applications.
    monitoring
 
 
-Roles and packages
-------------------
+Components/Roles
+----------------
 
 .. toctree::
    :titlesonly:
