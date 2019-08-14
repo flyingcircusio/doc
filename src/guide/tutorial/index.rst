@@ -32,10 +32,10 @@ virtual machines will be called subsequently: `myapp01`, `myapp02`, and so on.
 At Flying Circus we use projects to describe that a set of resources (virtual machines) that belong together and have some common settings (like user permissions, firewalling, etc.).
 
 
-User accounts
+User Accounts
 -------------
 
-To access any virtual machine in the  Flying Circus, you need a personal user
+To access any virtual machine in the Flying Circus, you need a personal user
 account. This account will automatically synchronize over all your virtual
 machines. Accounts are free, so don't hesitate to create them as you need them!
 
@@ -46,12 +46,12 @@ verify your account. Please do so.
 Once the verification is done, we get notified about your account creation
 automatically and will get in touch with you.
 
-.. note:: The user account is for maintenance puprose only. Do not consider to
+.. note:: The user account is for maintenance purposes only. Do not consider to
    run your application in the user account context, since many fundamental
    features are not available. For information in how to deploy you application
    check the :ref:`application-deployment-intro` section in this tutorial.
 
-SSH login
+SSH Login
 ---------
 
 Virtual machines can be accessed by simply using SSH.
@@ -80,7 +80,7 @@ machine using SFTP::
 
 .. _application-deployment-intro:
 
-Application deployment
+Application Deployment
 ----------------------
 
 .. XXX link to appropriate section in reference that explains the service user
@@ -109,7 +109,7 @@ For a detailed application deployment walk-through, please ref to the
 :ref:`application-deployment` section.
 
 
-Anatomy of a virtual machine
+Anatomy of a Virtual Machine
 ----------------------------
 
 Network
@@ -178,48 +178,32 @@ vdb
     least 1GiB.
 
 
-Components
-----------
+Managed Components
+------------------
 
-Components are preconfigured software packages that we manage for you. Those
-components  provide libraries or services like `libxml2` or `PostgreSQL`. You
-can use our managed components to avoid having to install and maintain complex
-setups yourself.
+You can use our managed components/roles to avoid having to install and maintain
+complex setups yourself.
 
 The benefit of managed components are:
 
 * automated, repeatable installation and production-ready configuration
-* all maintenance include
+* all maintenance included
 * monitoring included
 * fast security updates
 * regular upgrades and configuration optimization
 
-For details, have a look at the complete :ref:`list of managed components
-<managed-components>`.
+For details on available software, have a look at 
+the :ref:`documentation for the NixOS 15.09 platform<platform-nixos>`  or
+the :ref:`documentation for the NixOS 19.03 platform<platform-nixos2>`.
 
-You can see which managed components have already been applied to your VMs by
-visiting the customer portal https://my.flyingcircus.io/ and selecting the
-respective VM. Applied components are listed in the box labeled with
-`Software`.
-
-If you want managed components to be applied to one of your VMs, simply write a
-short email to support@flyingcircus.io.
+You can see and change the managed components/roles for your VMs by visiting the 
+`My Flying Circus <https://my.flyingcircus.io>`_ and selecting
+the respective VM. Applied components are listed in the box labeled with
+`Configuration`.
 
 
-Access to statistics and tools
-------------------------------
+Access to Monitoring
+--------------------
 
-All virtual machines are monitored for correct operation and performance
-using `Nagios <http://www.nagios.org>`_ and may provide a set of additional
-utilities for you to interact with.
-
-You can access Nagios and all the utilities using the `My Flying Circus
-<https://my.flyingcircus.io>`_ interface. For every virtual machine there is a
-menu for tools to interact with:
-
-.. image:: tools-screenshot.png
-
-.. note::
-
-    VMs using our new NixOS-based platform are not monitored using Nagios,
-    but Sensu.
+Virtual machines are monitored by `Sensu <https://sensu.io>`_ for correct operation.
+Check results are displayed on the status pages at `My Flying Circus <https://my.flyingcircus.io>`_.
