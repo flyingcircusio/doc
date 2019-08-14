@@ -23,17 +23,18 @@ NixOS 19.03 platform
 * Fix logcheck helper (#114832).
 * Nginx: Improve structured JSON config and reloading (#110209).
 * Port NFS client and server role.
+* Provide images for 19.03 VMs.
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Fix dhcpd/radvd restart on primary routers (#115005).
 
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Add basic information about VM monitoring and custom service checks.
+* Replace Gentoo-specific parts in the tutorial + various improvements.
 
 
 .. vim: set spell spelllang=en:
