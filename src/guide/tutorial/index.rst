@@ -222,4 +222,4 @@ menu for tools to interact with:
 .. note::
 
     VMs using our new NixOS-based platform are not monitored using Nagios,
-    but Sensu. We do not provide access to the Sensu data, yet.
+    but Sensu.
