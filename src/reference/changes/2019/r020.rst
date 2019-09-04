@@ -6,8 +6,8 @@ Release 2019_020 (unreleased)
 Impact
 ^^^^^^
 
-* Postfix will be restarted
-* Dovecot will be restarted
+* [Gentoo] Postfix will be restarted
+* [Gentoo] Dovecot will be restarted
 
 
 NixOS 15.09 platform
@@ -25,7 +25,7 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Integrate new 'shutdown-all' command for faster KVM host shutdown.
+* Integrate new fc.qemu 'shutdown-all' command for faster KVM host shutdown.
 * Override smtpd_tls_security_level for Amavis port (#115092).  
 * Update dovecot to 2.2.36.4 (CVE-2019-11500, #115652).
 * Update fc.qemu with new CPU model support.
