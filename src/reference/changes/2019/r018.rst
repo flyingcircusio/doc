@@ -1,0 +1,18 @@
+:Publish Date: 2019-07-26
+
+Release 2019_018 (2019-07-26)
+-----------------------------
+
+NixOS 19.03 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* Upgrade NixOS base system from 18.09 to 19.03. 
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* Add documentation for the new NixOS 19.03 platform.
+
+
+.. vim: set spell spelllang=en:
