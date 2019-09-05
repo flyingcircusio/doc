@@ -1,4 +1,4 @@
-.. _nixos-systemd-units:
+.. _nixos2-systemd-units:
 
 SystemD units
 =============
@@ -15,7 +15,7 @@ A simple unit file to start a service may look like this:
     Description=My Application Service
 
     [Service]
-    Environment="PATH=/run/wrappers/bin:/nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:/run/current-system/sw/bin:/run/current-system/sw/sbin"
+    Environment="PATH=/var/setuid-wrappers:/nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:/run/current-system/sw/bin:/run/current-system/sw/sbin"
 
     User=s-myservice
     Group=service

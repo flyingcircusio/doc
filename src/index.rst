@@ -29,6 +29,7 @@ Guide
    guide/networking/index
    guide/infrastructure/index
    guide/platform_nixos/index
+   guide/platform_nixos_2/index
    guide/platform_gentoo/index
    guide/deployment/index
    guide/logging/index
