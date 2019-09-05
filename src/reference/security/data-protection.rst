@@ -10,8 +10,7 @@ measures to provide a safe environment for your and your customers' data
 based on the following standards and regulations:
 
 * ISMS based on the ISO 27000 family (in progress),
-* Germany's `federal data protection law (BDSG)
-<http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, and
+* Germany's `federal data protection law (BDSG) <http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, and
 * the EU's `General Data Protection Regulation (GDPR) <https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung>`_.
 
 .. contents::
