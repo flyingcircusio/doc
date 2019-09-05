@@ -1,7 +1,13 @@
 #!/bin/bash
 set -ex
 rm -rf bin lib include parts .Python
-python3.6 -m venv .
+for python in python3.7 python3.6; do
+	if which $python; then
+		$python -m venv .
+		break
+	fi
+done
+
 ./bin/pip install --upgrade pip setuptools
 bin/pip install zc.buildout
 bin/buildout
