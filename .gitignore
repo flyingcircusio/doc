@@ -1,0 +1,6 @@
+.installed.cfg
+_build
+bin
+eggs
+lib
+pyvenv.cfg
