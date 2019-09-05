@@ -12,9 +12,11 @@
 # serve to show the default.
 
 import subprocess
+
 isodate = subprocess.Popen(
-    ['hg', 'log', '-l1', '-T{date|isodate}'], stdout=subprocess.PIPE).\
-  communicate()[0].decode('utf-8').strip()
+    "git show --format=format:\%cI",
+    shell=True, stdout=subprocess.PIPE).\
+  communicate()[0].decode('utf-8').splitlines()[0].strip()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
