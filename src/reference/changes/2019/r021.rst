@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-09-19
 
-Release 2019_021 (unreleased)
+Release 2019_021 (2019-09-19)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [NixOS 19.03] Nginx will be reloaded.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
