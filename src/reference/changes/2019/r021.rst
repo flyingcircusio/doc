@@ -6,7 +6,7 @@ Release 2019_021 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Nginx will be reloaded.
 
 
 NixOS 15.09 platform
@@ -18,19 +18,22 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Nginx: bring back missing worker config.
+* Nginx: shut down connections that are still open 4 minutes after config reload (#117042).
+* Nginx: worker age Sensu check now ignores workers that are already shutting down (#117042).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Mark new dovecot config files as seen (#115884).
+* Rollback kernel for physical hosts to 4.9.95 (#117004).
 
 
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Add NFS client and share for NixOS platforms.
 
 
 .. vim: set spell spelllang=en:
