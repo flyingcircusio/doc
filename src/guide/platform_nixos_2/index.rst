@@ -32,6 +32,7 @@ Components/Roles
 
    external_net
    memcached
+   nfs
    postgresql
    rabbitmq
    redis

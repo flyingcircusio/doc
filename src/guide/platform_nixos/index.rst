@@ -39,6 +39,7 @@ Components/Roles
    loghost
    memcached
    mysql
+   nfs
    php
    postgresql
    redis
