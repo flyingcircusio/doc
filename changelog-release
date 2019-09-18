@@ -70,7 +70,7 @@ def prepare_new_changelog(new_release):
         changes = f.read()
     changes = changes.replace('YYYY_NNN', new_release.id)
     new_release.write_changelog(changes)
-    subprocess.check_call(['hg', 'add', new_release.filename])
+    subprocess.check_call(['git', 'add', new_release.filename])
     try:
         os.unlink('CHANGES.rst')
     except FileNotFoundError:
@@ -115,7 +115,7 @@ def main():
     update_index(last, new)
     print('Committing changes')
     subprocess.check_call([
-        'hg', 'commit', '-m', 'finalize changelog r{}, create r{}'.format(
+        'git', 'commit', '-am', 'finalize changelog r{}, create r{}'.format(
             last.id, new.id)])
 
 
