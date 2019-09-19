@@ -21,7 +21,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Mark new dovecot config files as seen (#115884).
-* Rollback kernel for physical hosts to 4.9.95 (#117004).
 
 
 Documentation
