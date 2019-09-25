@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-09-26
 
-Release 2019_022 (unreleased)
+Release 2019_022 (2019-09-26)
 -----------------------------
 
 Impact
@@ -35,12 +35,6 @@ Gentoo platform
 * Fix broken security monitoring for obsolete Gentoo platform.
 * Mark new config file for dovecot as seen.
 * Adds LLDP discovery and announcement on all physical servers (#115697).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
