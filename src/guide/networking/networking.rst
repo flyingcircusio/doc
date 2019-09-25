@@ -6,9 +6,11 @@ Overview
 Physical networks
 -----------------
 
-The physical network is implemented with Gigabit Ethernet switches. Prevalently
-they are HP ProCurve 2810, slowly being replaced by HP ProCurve 2530 in some
-cases.
+The physical network in our public datacenter is implemented with Extreme VDX
+switches in a leaf-spine architecture with a redundant (n=2) spine. We leverage
+1G/10G ports for VM connectivity, 10G ports for storage and redundant 2x40G
+connectivity in our backbone. The datacenter uplink from our routers uses 10G
+connectivity.
 
 For traffic separation we leverage VLANs and provide physical servers with a
 dedicated link for each VLAN that it needs access to.
