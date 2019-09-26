@@ -28,13 +28,4 @@ NixOS 19.03 platform
 * Fix automatic restart for Redis (#114925).
 * Link htpasswd file which has moved earlier back to original location in /etc/local/nginx and document change (#115470).
 
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* Fix broken image charging for base images after updating to Qemu 4.1 (#119236).
-* Fix broken security monitoring for obsolete Gentoo platform.
-* Mark new config file for dovecot as seen.
-* Adds LLDP discovery and announcement on all physical servers (#115697).
-
-
 .. vim: set spell spelllang=en:
