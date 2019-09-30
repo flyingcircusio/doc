@@ -24,8 +24,10 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Fix broken image charging for base images after updating to Qemu 4.1 (#119236).
+* Fix broken security monitoring for obsolete Gentoo platform.
+* Mark new config file for dovecot as seen (#115884).
+* Add LLDP discovery and announcement on all physical servers (#115697).
 
 Documentation
 ^^^^^^^^^^^^^
