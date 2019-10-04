@@ -1,25 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-10-07
 
-Release 2019_023 (unreleased)
+Release 2019_023 (2019-10-07)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
@@ -28,11 +10,5 @@ Gentoo platform
 * Fix broken security monitoring for obsolete Gentoo platform.
 * Mark new config file for dovecot as seen (#115884).
 * Add LLDP discovery and announcement on all physical servers (#115697).
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
