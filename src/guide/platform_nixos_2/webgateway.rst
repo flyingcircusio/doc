@@ -89,6 +89,8 @@ following is sufficient:
       ssl_certificate /etc/local/nginx/mydomain.crt;
       ssl_certificate_key /etc/local/nginx/mydomain.key;
 
+For a more detailed description refer to :file:`/etc/local/nginx/README.txt`.
+
 
 Debugging
 ---------
