@@ -6,7 +6,7 @@ Release 2019_024 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* All Gentoo-based machines will reboot to activate the new kernel (using maintenance windows)
 
 
 NixOS 15.09 platform
@@ -18,14 +18,16 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Port statshost-relay role (stats proxy for a resource group).
+* Port MySQL / Percona roles and packages (5.5, 5.6, 5.7, 8.0).
+* Remove unnecessary labels from Redis metrics (#119259).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Update Gentoo kernel to most recent LTS branch (4.19).
+* Automate certificate renewal for expired puppet client certificates.
 
 Documentation
 ^^^^^^^^^^^^^
