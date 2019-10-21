@@ -6,13 +6,16 @@ Release 2019_024 (unreleased)
 Impact
 ^^^^^^
 
-* All Gentoo-based machines will reboot to activate the new kernel (using maintenance windows)
+* [Gentoo] All machines will reboot to activate the new kernel (using maintenance windows)
+* [NixOS 15.09] RabbitMQ will be restarted.
+* [NixOS 15.09] Kibana will be restarted.
 
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Always restart RabbitMQ (#119477).
+* Always restart kibana (#111013).
 
 
 NixOS 19.03 platform
