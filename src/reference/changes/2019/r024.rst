@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-10-23
 
-Release 2019_024 (unreleased)
+Release 2019_024 (2019-10-23)
 -----------------------------
 
 Impact
@@ -34,11 +34,5 @@ Gentoo platform
 * Update Gentoo kernel to most recent LTS branch (4.19).
 * Automate certificate renewal for expired puppet client certificates.
 * Remove outdated sys-kernel/gentoo-sources ebuild that fails parsing (#119983).
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
