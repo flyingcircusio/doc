@@ -23,6 +23,8 @@ NixOS 19.03 platform
 
 * Port statshost-relay role (stats proxy for a resource group).
 * Port MySQL / Percona roles and packages (5.5, 5.6, 5.7, 8.0).
+* Port antivirus (clamav) role. Clamd listens on srv interfaces. (#119631, #115501).
+* Port docker role.
 * Remove unnecessary labels from Redis metrics (#119259).
 
 
@@ -31,6 +33,7 @@ Gentoo platform
 
 * Update Gentoo kernel to most recent LTS branch (4.19).
 * Automate certificate renewal for expired puppet client certificates.
+* Remove outdated sys-kernel/gentoo-sources ebuild that fails parsing (#119983).
 
 Documentation
 ^^^^^^^^^^^^^
