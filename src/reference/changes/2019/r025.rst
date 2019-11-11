@@ -18,7 +18,7 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Correct sudo rules ordering; fixes passwordless sudo access for users with sudo-srv + wheel group (#120150).
 
 
 Gentoo platform
