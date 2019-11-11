@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-11-13
 
-Release 2019_025 (unreleased)
+Release 2019_025 (2019-11-13)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -20,18 +14,6 @@ NixOS 19.03 platform
 
 * Correct sudo rules ordering; fixes passwordless sudo access for users with sudo-srv + wheel group (#120150).
 * Update administrator key for Christian Theune.
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
