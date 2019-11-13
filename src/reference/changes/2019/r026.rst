@@ -24,7 +24,9 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Gentoo kernel to most recent LTS branch (4.19) (#120249).
+* Automate certificate renewal for expired puppet client certificates.
+* Remove outdated *sys-kernel/gentoo-sources* ebuild that fails parsing (#119983).
 
 
 Documentation

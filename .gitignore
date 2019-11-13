@@ -4,3 +4,4 @@ bin
 eggs
 lib
 pyvenv.cfg
+.*.sw?
