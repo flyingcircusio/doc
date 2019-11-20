@@ -1,14 +1,7 @@
-:Publish Date: 2019-11-18
+:Publish Date: 2019-11-20
 
-Release 2019_026 (2019-11-18)
+Release 2019_026 (2019-11-20)
 -----------------------------
-
-Impact
-^^^^^^
-
-* [Gentoo] Kernel compilation placed a bit of load on the infrastructure. Expect
-  somewhat slower response time during roll-out. Reboots will be scheduled
-  during regular maintenance windows.
 
 
 NixOS 19.03 platform
@@ -20,12 +13,6 @@ NixOS 19.03 platform
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
-
-* Update Gentoo kernel to most recent LTS branch (4.19) (#120249).
-* Automate certificate renewal for expired puppet client certificates.
-* Remove outdated *sys-kernel/gentoo-sources* ebuild that fails parsing (#119983).
-* Remove very special restricted mode from our Gentoo platform as it is unused,
-  unsupported, and has started to break (#120018).
 
 
 .. vim: set spell spelllang=en:
