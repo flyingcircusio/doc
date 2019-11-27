@@ -1,11 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-11-28
 
-Release 2019_027 (unreleased)
+Release 2019_027 (2019-11-28)
 -----------------------------
-
-Impact
-^^^^^^
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -20,17 +16,6 @@ NixOS 19.03 platform
 
 * Update grub to 2.04 for improved support of the modern XFS on-disk format and thus reducing reboot times.
 * Update vulnix to 1.9.3 (#120669).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
