@@ -6,32 +6,26 @@ Release 2019_027 (unreleased)
 Impact
 ^^^^^^
 
-* [Gentoo] Kernel compilation placed a bit of load on the infrastructure. Expect
-  somewhat slower response time during roll-out. Reboots will be scheduled
-  during regular maintenance windows.
-
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update grub to 2.04 for improved support of the modern XFS on-disk format and thus reducing reboot times.
+* Remove vulnix as it is broken and outdated on 15.09. To improve overall security, we focus on the current 19.03 platform. 
+  We still provide critical security fixes but 15.09 VMs should be migrated to 19.03 for best security monitoring and updates. 
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update grub to 2.04 for improved support of the modern XFS on-disk format and thus reducing reboot times.
+* Update vulnix to 1.9.3 (#120669).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Update Gentoo kernel to most recent LTS branch (4.19) (#120249).
-* Automate certificate renewal for expired puppet client certificates.
-* Remove outdated *sys-kernel/gentoo-sources* ebuild that fails parsing (#119983).
-* Remove very special restricted mode from our Gentoo platform as it is unused,
-  unsupported, and has started to break (#120018).
-
+* nothing yet
 
 Documentation
 ^^^^^^^^^^^^^
