@@ -32,6 +32,7 @@ The structure of a project record looks like this:
 
   {'__type__': 'resourcegroup',
    'customer_no': '',
+   'in_maintenance': False,
    'maintenance_end': 5,
    'maintenance_start': 22,
    'name': 'services',
@@ -51,6 +52,11 @@ customer_no
 
     The customer number of the customer who is charged for resources
     that belong to this project.
+
+in_maintenance
+    *bool, default:* ``False``
+
+    True, if the project is in maintenance mode. This prevents alerting FC staff.
 
 maintenance_start
     *filterable, default:* ``22``
