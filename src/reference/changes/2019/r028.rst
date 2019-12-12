@@ -9,12 +9,13 @@ Impact
 * [Gentoo] Kernel compilation placed a bit of load on the infrastructure. Expect
   somewhat slower response time during roll-out. Reboots will be scheduled
   during regular maintenance windows.
+* [NixOS 15.09] Restarts graylog.
 
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update graylog to 2.5.2. Non-GET API requests need a :code:`X-Requested-By` header now: https://docs.graylog.org/en/3.0/pages/upgrade/graylog-2.5.html
 
 
 NixOS 19.03 platform
