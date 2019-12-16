@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2019-12-16
 
-Release 2019_028 (unreleased)
+Release 2019_028 (2019-12-16)
 -----------------------------
 
 Impact
@@ -18,12 +18,6 @@ NixOS 15.09 platform
 * Update graylog to 2.5.2. Non-GET API requests need a :code:`X-Requested-By` header now: https://docs.graylog.org/en/3.0/pages/upgrade/graylog-2.5.html
 
 
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
@@ -33,11 +27,5 @@ Gentoo platform
 * Remove very special restricted mode from our Gentoo platform as it is unused,
   unsupported, and has started to break (#120018).
 * Fix qemu dependency on pixman (#120445).
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
