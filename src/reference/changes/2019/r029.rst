@@ -6,7 +6,7 @@ Release 2019_029 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] ClamD instances will be restarted.
 
 
 NixOS 15.09 platform
@@ -18,7 +18,9 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Generally increase ClamD logging to assist in debugging (#120637).
+* Improve memcached check so that locally configured listen addresses will be honoured (#122074).
+
 
 
 Gentoo platform
