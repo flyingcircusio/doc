@@ -14,6 +14,7 @@ NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Fix telegraf metrics collection for graylog (#122408).
+* Grafana: pull in security updates, fix default password [hotfix] (#122385).
 
 
 NixOS 19.03 platform
@@ -34,7 +35,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Directory API: document project maintenance mode.
 
 
 .. vim: set spell spelllang=en:
