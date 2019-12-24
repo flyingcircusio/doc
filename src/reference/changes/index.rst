@@ -21,3 +21,4 @@ You can subscribe to our `RSS feed of changes <../../rss.xml>`_.
    2017/index
    2018/index
    2019/index
+   2020/index
