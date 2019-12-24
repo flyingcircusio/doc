@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-01-02
 
-Release 2020_001 (unreleased)
+Release 2020_001 (2020-01-02)
 -----------------------------
 
 Impact
@@ -24,12 +24,6 @@ NixOS 19.03 platform
 * Improve memcached check so that locally configured listen addresses will be honoured (#122074).
 * Fix MySQL, RabbitMQ and OpenVPN roles on Vagrant (#122228).
 
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
