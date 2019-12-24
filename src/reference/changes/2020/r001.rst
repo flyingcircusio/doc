@@ -25,6 +25,13 @@ NixOS 19.03 platform
 * Fix MySQL, RabbitMQ and OpenVPN roles on Vagrant (#122228).
 
 
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* Move resolver from Quad9:10 to Quad9:11.
+  This means we're now using blacklists, DNSSEC, and EDNS Client-Subnet,
+  which will filter some IPs that are considered malicious and allow better geo-located results from CDN services like Github and friends.
+
 
 Documentation
 ^^^^^^^^^^^^^
