@@ -18,7 +18,8 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add loghost, graylog (3.x) and elasticsearch (5.x, 6.x) roles (#119556).
+* Logging from 19.03 hosts to Graylog works now (#120805).
 
 
 Gentoo platform
