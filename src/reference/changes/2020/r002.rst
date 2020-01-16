@@ -20,6 +20,8 @@ NixOS 19.03 platform
 
 * Add loghost, graylog (3.x) and elasticsearch (5.x, 6.x) roles (#119556).
 * Logging from 19.03 hosts to Graylog works now (#120805).
+* Use BFQ for I/O scheduling to reduce system load during OS garbage collection
+  (#119463, #115735).
 
 
 Gentoo platform
