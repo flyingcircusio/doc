@@ -6,7 +6,7 @@ Release 2020_002 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] VMs will be rebooted.
 
 
 NixOS 15.09 platform
@@ -22,6 +22,7 @@ NixOS 19.03 platform
 * Logging from 19.03 hosts to Graylog works now (#120805).
 * Use BFQ for I/O scheduling to reduce system load during OS garbage collection
   (#119463, #115735).
+* Update kernel to 4.19.94 (#122779).
 
 
 Gentoo platform
