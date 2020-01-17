@@ -29,7 +29,8 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Increase warning/critical limits for dovecot [hotfix] (#122785).
+* Fix error on puppet certificate renewal (#122712).
 
 
 Documentation
