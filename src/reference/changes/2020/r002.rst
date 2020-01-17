@@ -6,7 +6,7 @@ Release 2020_002 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 19.03] VMs will be rebooted.
+* [NixOS 19.03] VMs will be rebooted during individual maintenance windows.
 
 
 NixOS 15.09 platform
