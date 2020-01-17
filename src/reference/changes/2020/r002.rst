@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-01-21
 
-Release 2020_002 (unreleased)
+Release 2020_002 (2020-01-21)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [NixOS 19.03] VMs will be rebooted during individual maintenance windows.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -31,12 +25,6 @@ Gentoo platform
 
 * Increase warning/critical limits for dovecot [hotfix] (#122785).
 * Fix error on puppet certificate renewal (#122712).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
