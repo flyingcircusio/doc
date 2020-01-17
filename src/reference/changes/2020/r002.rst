@@ -23,6 +23,7 @@ NixOS 19.03 platform
 * Use BFQ for I/O scheduling to reduce system load during OS garbage collection
   (#119463, #115735).
 * Update kernel to 4.19.94 (#122779).
+* Prometheus/statshost: fix missing data after upgrade from 15.09 (#115483).
 
 
 Gentoo platform
