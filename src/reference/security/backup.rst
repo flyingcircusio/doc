@@ -5,7 +5,7 @@ Backup
 
 All persistent data of a virtual machine is stored on a central storage
 cluster. The storage cluster is independent of the host that runs the virtual
-machine. The storage cluster keeps the virtual disk in Ceph RADOS Block Device.
+machine. The storage cluster keeps the virtual disk in Ceph RADOS Block Devices.
 
 We perform backups at the "block layer": the virtual disk is copied as a
 full image into our backup system, where either the filesystem can be mounted
