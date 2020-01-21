@@ -20,7 +20,10 @@ NixOS 19.03 platform
 
 * Don't trigger logrotate on fc-manage runs. This avoids maintenance errors that 
   are not really related to it. Also, make nginx log rotation more robust (#119218).
-
+* Provide the magic wormhole utility as a potential replacement for our NFS box
+  feature by default. No customization or deeper integration has happened yet,
+  but this automates installation of the CLI utility and stops customers from
+  having to install it manually all the time.
 
 
 Gentoo platform
