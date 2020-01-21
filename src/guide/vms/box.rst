@@ -12,6 +12,12 @@ and to move data between VMs and projects securely and conveniently.
     :local:
     :depth: 2
 
+.. warning:: The box is based on NFS and automounts which at times can be
+  unreliable. Starting in our NixOS 19.03-based platform we provide the `magic
+  wormhole <https://magic-wormhole.readthedocs.io>`_ CLI utility and will be
+  phasing out the NFS-based box in the future.
+
+
 Meet your box
 =============
 
