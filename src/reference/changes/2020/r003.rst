@@ -6,7 +6,7 @@ Release 2020_003 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Prometheus will be restarted.
 
 
 NixOS 15.09 platform
@@ -25,6 +25,7 @@ NixOS 19.03 platform
   but this automates installation of the CLI utility and stops customers from
   having to install it manually all the time.
 * Grant journal access to wheel, sudo-srv, admins and service groups (#106521).
+* Fix statshost metric relabeling config (#122902).
 
 
 Gentoo platform
