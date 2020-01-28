@@ -27,6 +27,7 @@ NixOS 19.03 platform
 * Grant journal access to wheel, sudo-srv, admins and service groups (#106521).
 * Fix statshost metric relabeling config (#122902).
 * Statshost: remove unneeded PostgreSQL and InfluxDB labels (#121869).
+* Fix xtrabackup source URL (#122945).
 
 
 Gentoo platform
