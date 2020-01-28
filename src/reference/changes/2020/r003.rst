@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-01-29
 
-Release 2020_003 (unreleased)
+Release 2020_003 (2020-01-29)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [NixOS 19.03] Prometheus will be restarted.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -28,18 +22,6 @@ NixOS 19.03 platform
 * Fix statshost metric relabeling config (#122902).
 * Statshost: remove unneeded PostgreSQL and InfluxDB labels (#121869).
 * Fix xtrabackup source URL (#122945).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
