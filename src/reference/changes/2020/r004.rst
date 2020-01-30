@@ -20,6 +20,7 @@ NixOS 19.03 platform
 
 * Remove `qpress` archive tool (#123003).
 * Fix RabbitMQ settings timer execution and warning (#123236).
+* Update vulnix: 1.9.3 -> 1.9.4
 
 
 Gentoo platform
