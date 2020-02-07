@@ -9,7 +9,12 @@ In addition to purely technical security measures we implement additional
 measures to provide a safe environment for your and your customers' data
 based on the following standards and regulations:
 
-* ISMS based on the ISO 27000 family (in progress),
+.. image:: Zertlogo_Flying_Circus_bunt.png
+  :align: right
+  :width: 25%
+
+
+* `Certified <https://flyingcircus.io/iso-27001-en.pdf>`_ Information Security Management System (ISMS) based on ISO/IEC 27001,
 * Germany's `federal data protection law (BDSG) <http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, and
 * the EU's `General Data Protection Regulation (GDPR) <https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung>`_.
 
