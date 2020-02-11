@@ -19,6 +19,7 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Remove `qpress` archive tool (#123003).
+* Fix RabbitMQ settings timer execution and warning (#123236).
 
 
 Gentoo platform
