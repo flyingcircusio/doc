@@ -6,7 +6,7 @@ Release 2020_004 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [Gentoo] Amavis will be restarted.
 
 
 NixOS 15.09 platform
@@ -26,7 +26,7 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Amavis: whitelist mis-judged MS Office documents (#123159).
 
 
 Documentation
