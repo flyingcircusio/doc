@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-02-13
 
-Release 2020_004 (unreleased)
+Release 2020_004 (2020-02-13)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [Gentoo] Amavis will be restarted.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -28,12 +22,7 @@ Gentoo platform
 
 * Amavis: whitelist mis-judged MS Office documents (#123159).
 * Improve logging output of our BGP routers to help debug (#122179).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* Include collectd into RadosGW telemetry, increase RadosGW logging [hotfix] (#123169). 
 
 
 .. vim: set spell spelllang=en:
