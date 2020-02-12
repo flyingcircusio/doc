@@ -27,6 +27,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Amavis: whitelist mis-judged MS Office documents (#123159).
+* Improve logging output of our BGP routers to help debug (#122179).
 
 
 Documentation
