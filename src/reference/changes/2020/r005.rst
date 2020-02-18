@@ -6,7 +6,7 @@ Release 2020_005 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] MySQL servers will be restarted.
 
 
 NixOS 15.09 platform
@@ -20,6 +20,9 @@ NixOS 19.03 platform
 
 * Randomize execution times of Graylog, Grafana, and Prometheus system jobs
   (#123321).
+* MySQL: set root password on every service startup. The root password can be
+  changed now by editing the password file in /etc/local and restarting mysql.
+  It's also possible to set a password before enabling a MySQL role (#123366).
 
 
 Gentoo platform
