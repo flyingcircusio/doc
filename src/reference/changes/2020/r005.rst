@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-02-20
 
-Release 2020_005 (unreleased)
+Release 2020_005 (2020-02-20)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [NixOS 19.03] MySQL servers will be restarted.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -24,17 +18,5 @@ NixOS 19.03 platform
   changed now by editing the password file in /etc/local and restarting mysql.
   It's also possible to set a password before enabling a MySQL role (#123366).
 * Vagrant: add missing groups to fix journal permission script (#123299).
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
