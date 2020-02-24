@@ -109,6 +109,7 @@ Create a file like :file:`userenv.nix` which bundles required packages::
      name = "myproject-env";
      paths = with pkgs; [
        libjpeg
+       zlib
        ffmpeg
        nodejs-10_x
        electron
@@ -116,7 +117,7 @@ Create a file like :file:`userenv.nix` which bundles required packages::
      extraOutputsToInstall = [ "dev" ];
    }
 
-The code shown above defines an user env with 4 packages installed from a specific
+The code shown above defines an user env with 5 packages installed from a specific
 build of NixOS 19.09. The pinned NixOS version can be newer or older than the
 installed system version.
 
@@ -141,6 +142,29 @@ To update an user env, install it again with the same command.
 This picks up changes in :file:`userenv.nix` and package updates
 (if the imports are not pinned to a specific version).
 
+Collisions With Existing Packages
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Packages included in an user environment can collide with separately installed packages.
+
+You may encounter an error like this::
+
+  $ nix-env -if userenv.nix
+  installing 'myproject-env'
+  building '/nix/store/c3qwfxvdhjgirvzxdhc2h0wpa59fplvk-user-environment.drv'...
+  error: packages '/nix/store/s1vqsx5jd7xxq3ihwxz4sc6h1fwnh3v1-myproject-env/lib/libz.so' and '/nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib/libz.so' have the same priority 5; use 'nix-env --set-flag priority NUMBER INSTALLED_PKGNAME' to change the priority of one of the conflicting packages (0 being the highest priority)
+  builder for '/nix/store/c3qwfxvdhjgirvzxdhc2h0wpa59fplvk-user-environment.drv' failed with exit code 1
+  error: build of '/nix/store/c3qwfxvdhjgirvzxdhc2h0wpa59fplvk-user-environment.drv' failed
+
+You can check for potential collisions by viewing the list of packages in the user profile::
+
+  nix-env -q --installed
+
+To avoid/resolve conflicts, remove the package and install the user env afterwards::
+
+  nix-env -e zlib-1.2.11
+  nix-env -if userenv.nix
+
 Multiple Package Outputs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -157,7 +181,7 @@ the inspected NixOS version, which can be an URL like in :file:`userenv.nix`.
 Assume we have an user env with just `zlib`. If `extraOutputsToInstall`
 is empty, these files would be installed::
 
-  > nix-build userenv.nix && tree -l result
+  $ nix-build userenv.nix && tree -l result
   /nix/store/s1vqsx5jd7xxq3ihwxz4sc6h1fwnh3v1-myproject-env
   result
   ├── lib -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib
@@ -173,7 +197,7 @@ is empty, these files would be installed::
 If you add `dev` to `extraOutputsToInstall`, `include` and `lib/pkgconfig`
 would be installed, too::
 
-  > nix-build userenv.nix && tree -l result
+  $ nix-build userenv.nix && tree -l result
   /nix/store/a078dzvn7w7pp3mn0gxig8mpc14p2g4s-myproject-env
   result
   ├── include -> /nix/store/ww7601vx7qrcwwfnwzs1cwwx6zcqdjz3-zlib-1.2.11-dev/include
