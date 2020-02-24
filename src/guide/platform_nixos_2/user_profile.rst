@@ -7,19 +7,35 @@ Each home directory has a so-called **user profile**, which allows to have
 separate packages and versions compared to the OS. User profiles are thus a
 powerful mechanism to tailor an application's runtime environment to the exact
 needs of the deployment.
+You can also install the tools you like in your personal user environment.
 
-A user profile consists of a directory tree in :file:`~/.nix-profile`,
+An user profile consists of a directory tree in :file:`~/.nix-profile`,
 consisting of the usual subdirectories like *bin*, *include*, *lib*, etc.
+
+The user profile can be changed by using the :command:`nix-env` command.
+
 
 Installing Packages
 -------------------
 
 Packages which are present in the standard nixpkgs distribution but are not
-installed system-wide can be installed in the user profile with
-:command:`nix-env`. It's also possible to install package versions that differ 
-from the versions installed system-wide.
-See https://nixos.org/nixos/packages.html for a list of available packages.
+installed system-wide can be installed directly in the user profile with
+`nix-env -iA nixos.<package attribute name>`.
 
+See https://nixos.org/nixos/packages.html for a list of packages.
+Use the "attribute name" from the list. They can differ from the package name.
+For some packages, multiple versions are available.
+
+Installing packages that are already present in the system environment is safe.
+This doesn't use additional space if it's the same version.
+
+.. warning:: Installing libraries with this approach is not recommended because
+    headers and other files needed for building software may be missing.
+
+For some packages, only files needed for running the executables in the package
+are installed by default.
+Use :ref:`user_env` instead. They provide more flexibility and are useful to
+bundle your application's dependencies.
 
 Example Executable: hello
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -57,23 +73,26 @@ See :manpage:`nix-env(1)` for further options.
 
 
 Updating packages
------------------
+^^^^^^^^^^^^^^^^^
 
 All packages installed using this approach above can be updated with :command:`nix-env -u`.
 See :ref:`changelog` for security updates provided by the Flying Circus support team.
 
 
-Custom user environments
+.. _user_env:
+
+Custom User Environments
 ------------------------
 
-If more control needs to be excercised on a user profile, we recommend building
-a custom environment with `userEnv`. This means that packages from arbitrary
-sources can be mixed and pinned to specific versions. In addition, own Nix
-expressions can be included. This approach should be used if you want to install
-libraries in the user profile.
+This approach should be used if you want to install libraries in the user profile.
 
-Basic userEnv
-^^^^^^^^^^^^^
+If more control needs to be exercised on an user profile, we recommend building
+a custom environment with `buildEnv` that can be installed with :command:`nix-env`.
+This means that packages from arbitrary sources can be mixed and pinned to
+specific versions. In addition, own Nix expressions can be included.
+
+User Environment Basics
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. highlight:: default
    :linenothreshold: 3
@@ -81,24 +100,28 @@ Basic userEnv
 Create a file like :file:`userenv.nix` which bundles required packages::
 
    let
-     # pinned import, see https://nixos.org/channels
-     nixos_18_03 = fetchTarball https://releases.nixos.org/nixos/18.03/nixos-18.03.132915.d6c6c7fcec6/nixexprs.tar.xz;
-     pkgs = import nixos_18_03 {};
+     # pinned NixOS version, see https://nixos.org/channels
+     pkgs = import (fetchTarball https://releases.nixos.org/nixos/19.09/nixos-19.09.2149.58a9acf75a3/nixexprs.tar.xz) {};
+     # or just use the current NixOS version of the platform, currently 19.03
+     # pkgs = import <nixpkgs> {};
    in
    pkgs.buildEnv {
      name = "myproject-env";
      paths = with pkgs; [
        libjpeg
        ffmpeg
-       nodejs-8_x
+       nodejs-10_x
        electron
      ];
-     extraOutputsToInstall = [ "out" "dev" "bin" "man" ];
+     extraOutputsToInstall = [ "dev" ];
    }
 
-The code shown above defines a userEnv with 3 packages installed from a specific
-build of NixOS 18.03. The pinned NixOS version can be newer or older than the 
+The code shown above defines an user env with 4 packages installed from a specific
+build of NixOS 19.09. The pinned NixOS version can be newer or older than the
 installed system version.
+
+See https://nixos.org/nixos/packages.html for a list of packages.
+Look for the "attribute name" of the package and include it in `paths`.
 
 Dry-run this expression with::
 
@@ -111,20 +134,84 @@ Run ::
 
    nix-env -i -f userenv.nix
 
-to install this userEnv in your profile. Now its binaries are available in PATH
+to install the env in your profile. Now its binaries are available in PATH
 and libraries/include files should get found by the compiler.
 
-XXX list env vars
+To update an user env, install it again with the same command.
+This picks up changes in :file:`userenv.nix` and package updates
+(if the imports are not pinned to a specific version).
 
-To update a userEnv, simply update the source and install it again via
-`nix-env`.
+Multiple Package Outputs
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mixing packages from different sources
+Packages can have multiple "outputs" which means that not all files are
+installed by default. If you want to install libraries to build against,
+including `dev` in `extraOutputsToInstall` should be sufficient.
+You can check which outputs are available with the following command::
+
+   nix show-derivation -f '<nixpkgs>' zlib | jq '.[].env.outputs'
+
+This shows the outputs for `zlib`: `out`, `dev` and `static`. `-f` sets
+the inspected NixOS version, which can be an URL like in :file:`userenv.nix`.
+
+Assume we have an user env with just `zlib`. If `extraOutputsToInstall`
+is empty, these files would be installed::
+
+  > nix-build userenv.nix && tree -l result
+  /nix/store/s1vqsx5jd7xxq3ihwxz4sc6h1fwnh3v1-myproject-env
+  result
+  ├── lib -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib
+  │   ├── libz.so -> libz.so.1.2.11
+  │   ├── libz.so.1 -> libz.so.1.2.11
+  │   └── libz.so.1.2.11
+  └── share -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/share
+      └── man
+          └── man3
+              └── zlib.3.gz
+
+
+If you add `dev` to `extraOutputsToInstall`, `include` and `lib/pkgconfig`
+would be installed, too::
+
+  > nix-build userenv.nix && tree -l result
+  /nix/store/a078dzvn7w7pp3mn0gxig8mpc14p2g4s-myproject-env
+  result
+  ├── include -> /nix/store/ww7601vx7qrcwwfnwzs1cwwx6zcqdjz3-zlib-1.2.11-dev/include
+  │   ├── zconf.h
+  │   └── zlib.h
+  ├── lib
+  │   ├── libz.so -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib/libz.so
+  │   ├── libz.so.1 -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib/libz.so.1
+  │   ├── libz.so.1.2.11 -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/lib/libz.so.1.2.11
+  │   └── pkgconfig -> /nix/store/ww7601vx7qrcwwfnwzs1cwwx6zcqdjz3-zlib-1.2.11-dev/lib/pkgconfig
+  │       └── zlib.pc
+  └── share -> /nix/store/iiymx8j7nlar3gc23lfkcscvr61fng8s-zlib-1.2.11/share
+      └── man
+          └── man3
+              └── zlib.3.gz
+
+
+Mixing Packages From Different Sources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Custom shell initializaton
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+You can import packages from different NixOS versions or other sources::
+
+   let
+     pkgs = import <nixpkgs> {};
+     pkgs_19_09 = import (fetchTarball https://releases.nixos.org/nixos/19.09/nixos-19.09.2149.58a9acf75a3/nixexprs.tar.xz) {};
+   in
+   pkgs.buildEnv {
+     name = "myproject-env";
+     paths = with pkgs; [
+       pkgs_19_09.libjpeg
+       zlib
+     ];
+     extraOutputsToInstall = [ "dev" ];
+   }
+
+This installs the `zlib` from the platform NixOS version but `libjpeg` from NixOS 19.09.
 
 
-Fitting the RPATH of 3rd-party binary objects
----------------------------------------------
+.. XXX list env vars
+.. XXX Custom shell initializaton
+.. XXX Fitting the RPATH of 3rd-party binary objects
