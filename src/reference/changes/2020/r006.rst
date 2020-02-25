@@ -21,6 +21,8 @@ NixOS 19.03 platform
 
 * Exclude Unix sockets (ending with .sock) from fc-userscan and NixOS garbage
   collection (#122944).
+* Add `check_haproxy` to the pre-installed Sensu plugins if the *haproxy* role
+  is enabled (#123360).
 
 
 Gentoo platform
