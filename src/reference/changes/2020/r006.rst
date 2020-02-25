@@ -12,13 +12,15 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Exclude Unix sockets (ending with .sock) from fc-userscan and NixOS garbage
+  collection (#122944).
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Exclude Unix sockets (ending with .sock) from fc-userscan and NixOS garbage
+  collection (#122944).
 
 
 Gentoo platform
