@@ -23,6 +23,7 @@ NixOS 19.03 platform
   collection (#122944).
 * Add `check_haproxy` to the pre-installed Sensu plugins if the *haproxy* role
   is enabled (#123360).
+* Loghost: Remove *geolite* DB file and updater for Graylog (#123490).
 
 
 Gentoo platform
