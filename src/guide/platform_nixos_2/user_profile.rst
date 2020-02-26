@@ -12,8 +12,6 @@ You can also install the tools you like in your personal user environment.
 An user profile consists of a directory tree in :file:`~/.nix-profile`,
 consisting of the usual subdirectories like *bin*, *include*, *lib*, etc.
 
-The user profile can be changed by using the :command:`nix-env` command.
-
 
 Installing Packages
 -------------------
