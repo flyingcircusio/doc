@@ -5,7 +5,7 @@ User Package Management
 
 NixOS allows users to manage packages independently from the base system.
 Service and normal users can install packages from nixpkgs or other sources
-in their *user profile*. This is powerful mechanism to tailor an application's
+in their *user profile*. This is a powerful mechanism to tailor an application's
 runtime environment to the exact needs of the deployment.
 You can also use this approach to install tools that you want to use
 interactively.
@@ -86,7 +86,7 @@ Collisions With Existing Packages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Packages included in an environment can collide with packages from other environments
-or with separately installed package (we recommend not to do this).
+or with separately installed packages (we recommend not to do this).
 
 You may encounter an error like this::
 
