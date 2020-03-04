@@ -4,9 +4,8 @@ Release 2020_007 (unreleased)
 -----------------------------
 
 Our new NixOS 19.03 platform is ready for production.
-Effective March 6, VMs created via customer self-service will use the 19.03 platform. See the blog post for more details:
-
-https://blog.flyingcircus.io/2020/02/28/our-new-nixos-19-03-platform-is-ready-for-production/
+Effective March 6, VMs created via customer self-service will use the 19.03 platform.
+See the `blog post <https://blog.flyingcircus.io/2020/02/28/our-new-nixos-19-03-platform-is-ready-for-production/>`_ for more details.
 
 
 Impact
@@ -36,7 +35,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* :ref:`nixos2-user-package-management`: `buildEnv` is the only documented way to install custom packages into the user profile now.
 
 
 .. vim: set spell spelllang=en:
