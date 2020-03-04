@@ -12,7 +12,7 @@ https://blog.flyingcircus.io/2020/02/28/our-new-nixos-19-03-platform-is-ready-fo
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Statshost: Prometheus will be restarted.
 
 
 NixOS 15.09 platform
@@ -24,7 +24,7 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Statshost: fix TCP connection metric (#123713).
 
 
 Gentoo platform
