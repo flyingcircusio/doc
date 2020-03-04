@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-03-05
 
-Release 2020_007 (unreleased)
+Release 2020_007 (2020-03-05)
 -----------------------------
 
 Our new NixOS 19.03 platform is ready for production.
@@ -14,22 +14,10 @@ Impact
 * [NixOS 19.03] Statshost: Prometheus will be restarted.
 
 
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Statshost: fix TCP connection metric (#123713).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation

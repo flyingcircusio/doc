@@ -14,3 +14,4 @@ Releases performed in 2020.
    r005
    r006
    r007
+   r008
