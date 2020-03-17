@@ -19,6 +19,8 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Port customer-specific role (#123725).
+* Increase garbage collection limit increase disk space reclamation after larger
+  system updates (#123868)
 
 
 Gentoo platform
