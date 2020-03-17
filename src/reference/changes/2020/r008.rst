@@ -26,7 +26,8 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix bootstrapping Gentoo VMs which broke due to a Gentoo Python wrapper race condition (#123762).
+* Whitelist log messages of KVM if the name of the machine contains 'fail' (#123742).
 
 
 Documentation
