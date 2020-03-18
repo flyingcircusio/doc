@@ -21,6 +21,8 @@ NixOS 19.03 platform
 * Port customer-specific role (#123725).
 * Increase garbage collection limit increase disk space reclamation after larger
   system updates (#123868)
+* Provide `/etc/local/nixos` directory where service users can add custom NixOS
+  configurations (#123888).
 
 
 Gentoo platform
