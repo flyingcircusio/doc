@@ -6,7 +6,7 @@ Release 2020_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Elasticsearch 6 will be restarted.
 
 
 NixOS 15.09 platform
@@ -23,6 +23,8 @@ NixOS 19.03 platform
   system updates (#123868)
 * Provide `/etc/local/nixos` directory where service users can add custom NixOS
   configurations (#123888).
+* Fix Elasticsearch 6 role and avoid deprecation warning by using the new publish address format from ES7 (#123942).
+* Port Kibana role (#124025).
 
 
 Gentoo platform
