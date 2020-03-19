@@ -12,7 +12,7 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Remove fc_collect_garbage metric (#123906).
 
 
 NixOS 19.03 platform
