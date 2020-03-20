@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-03-23
 
-Release 2020_008 (unreleased)
+Release 2020_008 (2020-03-23)
 -----------------------------
 
 Impact
@@ -21,7 +21,7 @@ NixOS 19.03 platform
 
 * Port customer-specific role (#123725).
 * Increase garbage collection limit increase disk space reclamation after larger
-  system updates (#123868)
+  system updates (#123868).
 * Provide `/etc/local/nixos` directory where service users can add custom NixOS
   configurations (#123888).
 * Fix Elasticsearch 6 role and avoid deprecation warning by using the new publish address format from ES7 (#123942).
@@ -33,12 +33,6 @@ Gentoo platform
 
 * Fix bootstrapping Gentoo VMs which broke due to a Gentoo Python wrapper race condition (#123762).
 * Whitelist log messages of KVM if the name of the machine contains 'fail' (#123742).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
