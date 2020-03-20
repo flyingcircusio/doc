@@ -1,7 +1,7 @@
 .. _nixos2-webgateway:
 
-Webgateway
-==========
+Webgateway (NGINX, HAProxy)
+===========================
 
 This role provides a stack of components that enables you to serve a web
 application via HTTP. In addition, you can do load balancing and configure
