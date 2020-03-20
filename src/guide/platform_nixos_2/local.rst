@@ -1,14 +1,15 @@
 .. _nixos2-local:
 
-Local configuration
+Local Configuration
 ===================
 
 You can customize the system's configuration for managed components with
-config files that are located in  :file:`/etc/local/*`.
+config files that are located in :file:`/etc/local/*`.
 
 Every component that supports customizing its configuration creates a directory
-such as :file:`/etc/local/firewall`. The specific format and allowed filenames
-depend on the specifics of each component and are documented separately.
+writable by service users, such as :file:`/etc/local/firewall`.
+The specific format and allowed filenames depend on the specifics of each
+component and are documented separately.
 
 Changes to the files in the local configuration directory are picked up
 automatically upon the next run of our configuration agent (generally every
@@ -28,3 +29,24 @@ To inspect the result of this call, you can check the journal:
 .. code-block:: console
 
   $ journalctl --since -1h --unit fc-manage
+
+Custom NixOS Configuration
+--------------------------
+
+You can put custom NixOS modules in :file:`/etc/local/nixos` that are
+included in the system's configuration. See :file:`custom.nix.example`
+for the basic structure of a NixOS module.
+All options offered by NixOS and our platform code can be set there.
+
+.. warning::
+
+  Care must be taken to avoid breaking the system.
+  Overriding options set by platform can be dangerous.
+  Use component-specific local config dirs if possible.
+
+For more information about writing NixOS modules, refer to the
+`NixOS manual <https://nixos.org/nixos/manual/index.html#sec-writing-modules>`_
+
+NixOS options can be looked up here (may not be accurate due to version differences):
+
+`<https://nixos.org/nixos/options.html>`_
