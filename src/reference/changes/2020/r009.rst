@@ -18,7 +18,7 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix warning for ignored setting in fc-prometheus-update-relayed-nodes timer (#124132).
 
 
 Gentoo platform
