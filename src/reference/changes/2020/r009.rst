@@ -6,7 +6,7 @@ Release 2020_009 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Varnish will be restarted.
 
 
 NixOS 15.09 platform
@@ -19,12 +19,13 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Fix warning for ignored setting in fc-prometheus-update-relayed-nodes timer (#124132).
+* Reload varnish on config changes instead of restarting (#124192).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix puppet client certificate fixing code (#123925).
 
 
 Documentation
