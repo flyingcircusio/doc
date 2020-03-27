@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-03-30
 
-Release 2020_009 (unreleased)
+Release 2020_009 (2020-03-30)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [NixOS 19.03] Varnish will be restarted.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -26,12 +20,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Fix puppet client certificate fixing code (#123925).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
