@@ -18,7 +18,7 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add experimental support for multi-node Kubernetes (#122936).
 
 
 Gentoo platform
