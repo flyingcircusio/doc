@@ -1,36 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-04-06
 
-Release 2020_010 (unreleased)
+Release 2020_010 (2020-04-06)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Add experimental support for multi-node Kubernetes (#122936).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
