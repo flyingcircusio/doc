@@ -29,6 +29,7 @@ Components/Roles
    :titlesonly:
 
    external_net
+   kubernetes
    memcached
    nfs
    postgresql
