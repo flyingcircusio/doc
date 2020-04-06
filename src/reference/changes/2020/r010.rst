@@ -6,13 +6,14 @@ Release 2020_010 (2020-04-06)
 Impact
 ^^^^^^
 
-Nagios restart in all locations.
+* Nagios restart in all locations.
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* Increase notification timeout in Nagios to avoid missing some notifications when handling a complex notification scenario during outages (122965).
+* Increase notification timeout in Nagios to avoid missing some notifications
+  when handling a complex notification scenario during outages (#122965).
 
 
 NixOS 19.03 platform
