@@ -45,19 +45,38 @@ but `taints <https://v1-15.docs.kubernetes.io/docs/concepts/configuration/taint-
 must be disabled manually to run pods on it.
 
 
-Basic Cluster management
-------------------------
+Cluster Management
+------------------
 
-**sudo-srv** users can run :command:`kubectl` on the master node:
+**sudo-srv** users can run :command:`kubectl` on the master node to manage the
+cluster. You can also use the dashboard or :command:`kubectl` on your local
+machine as described in :ref:`nixos2-dashboard-and-external-api`.
+
+Basic Health Checks
+^^^^^^^^^^^^^^^^^^^
+
+Check that the master/API is working:
 
 .. code-block:: console
 
     $ kubectl cluster-info
 
+Check that the nodes are working:
 
-You can also use :command:`kubectl` on your local machine to manage the cluster
-as described in the next section.
+.. code-block:: console
 
+    $ kubectl get nodes
+
+Check that Cluster DNS and dashboard pods are running:
+
+.. code-block:: console
+
+    $ kubectl get pods -n kube-system
+
+This should show that 2 coredns pods and a dashboard pod are running.
+
+
+.. _nixos2-dashboard-and-external-api:
 
 Dashboard and External API Access
 ---------------------------------
