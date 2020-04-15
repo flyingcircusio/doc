@@ -1,19 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-04-16
 
-Release 2020_011 (unreleased)
+Release 2020_011 (2020-04-16)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -29,12 +17,6 @@ Gentoo platform
   routing for fc.qemu (#122277).
 * Migrate legacy platform management code from Bitbucket to
   https://gitlab.flyingcircus.io/flyingcircus/fc.platform (#119242).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
