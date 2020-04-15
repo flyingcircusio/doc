@@ -27,6 +27,8 @@ Gentoo platform
 
 * Improve KVM server startup performance by optimizing the CPU flag detection
   routing for fc.qemu (#122277).
+* Migrate legacy platform management code from Bitbucket to
+  https://gitlab.flyingcircus.io/flyingcircus/fc.platform (#119242).
 
 
 Documentation
