@@ -18,13 +18,15 @@ NixOS 15.09 platform
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Exclude NixOS sources from garbage collection to reduce I/O impact [hotfix] (#124263).
+* Exclude NixOS sources from garbage collection to reduce I/O impact [Hotfix]
+  (#124263).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Improve KVM server startup performance by optimizing the CPU flag detection
+  routing for fc.qemu (#122277).
 
 
 Documentation
