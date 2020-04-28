@@ -20,6 +20,7 @@ NixOS 19.03 platform
 
 * Add tar and compression tools to `fc-agent`. Using `fetchTarball` in local
   NixOS config doesn't break automatic configuration anymore (#124799).
+* Fix Kubernetes certificate renewal, update certmgr to 3.0 (#124787).
 
 
 Gentoo platform
