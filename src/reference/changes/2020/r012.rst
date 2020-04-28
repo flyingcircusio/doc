@@ -26,7 +26,8 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Routers: Check/reset Intel X710 network interfaces after port flapping
+  (#124763).
 
 
 Documentation
