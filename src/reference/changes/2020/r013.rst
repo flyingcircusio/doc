@@ -24,7 +24,8 @@ NixOS 19.03 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* [Hotfix] Remove outdated CRLs on Puppet clients and replace them with fresh
+  copies from the Puppet master (#124831).
 
 
 Documentation
