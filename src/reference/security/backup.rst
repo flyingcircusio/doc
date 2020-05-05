@@ -20,7 +20,7 @@ Schedule
 
 Backups are run daily or hourly, depending on the chosen backup level.
 
-The default *daily* backup schedule retains the following backups:
+The *default* (daily) backup schedule retains the following backups:
 
 * Daily backups for the past 10 days.
 * Weekly backups for the past 5 weeks.
