@@ -35,6 +35,7 @@ Components/Roles
    postgresql
    rabbitmq
    redis
+   loghost
    statshost
    webgateway
    webproxy
