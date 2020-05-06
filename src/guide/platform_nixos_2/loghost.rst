@@ -12,7 +12,7 @@ Components
   :class: logo
   :width: 250px
 
-Nginx:web
+Nginx
 ~~~~~
 
 One instance (:ref:`srv interface <logical_networks>`, port TCP 9000) passes logins via `My Flying Circus <https://my.flyingcircus.io>`_ to the web interface of Graylog.
