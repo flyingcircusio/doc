@@ -1,3 +1,5 @@
+.. reviewed 2020-05-06
+
 Security
 ========
 
@@ -12,11 +14,10 @@ policies to issues.
 .. toctree::
    :maxdepth: 1
 
-   process
+   policy
    data-protection
    disaster-recovery
    backup
    software-vulnerabilities
    network
    administrators
-   verfahrensverzeichnis

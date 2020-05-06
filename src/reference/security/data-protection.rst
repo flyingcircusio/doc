@@ -1,3 +1,4 @@
+.. last review: 2020-05-06
 .. Customers need to be notified when substantial changes occur in this document!
 
 .. _data-protection:
@@ -12,6 +13,7 @@ based on the following standards and regulations:
 .. image:: Zertlogo_Flying_Circus_bunt.png
   :align: right
   :width: 25%
+  :target: https://flyingcircus.io/iso-27001-en.pdf
 
 
 * `Certified <https://flyingcircus.io/iso-27001-en.pdf>`_ Information Security Management System (ISMS) based on ISO/IEC 27001,
@@ -45,9 +47,9 @@ As some of the requirements of the law depend on the specific (contractual)
 situation, we'd like to first outline the general situation that hosting in
 the Flying Circus puts you in:
 
-Commissioned data processing
+Order data processing
   applies within the framework of the GDPR. We will implement a contract for
-  commissioned data protection suitable to the GDPR with you.
+  data processing suitable to the GDPR with you.
 
 Duty to give information
   People who are affected by processing of data have right to request
@@ -86,9 +88,19 @@ For each data center used by us we require the following measures:
 
 We maintain a separate :ref:`data-centers`.
 
-Physical access to data processing equipment may be performed only by the
-Flying Circus' :ref:`administrators <administrators>`. Administrators may
-delegate physical access to other persons (e.g., data center staff).
+Physical access to data processing equipment may be performed only by the Flying Circus' :ref:`administrators <administrators>`. Administrators may delegate physical access to other persons (e.g., data center staff).
+
+
+Low-security locations
+++++++++++++++++++++++
+
+The Flying Circus operates two low-security zones called `development` (used
+for the development of the Flying Circus infrastructure) and `WHQ` (used to as staging environment for platform changes, and to operate non critical internal applications).
+
+Those locations are currently not allowed to be used for customer data storage
+as they not sufficiently protected.
+
+Due to this limitations, the services in high-security locations are not allowed to depend on services provided in low-security locations.
 
 
 .. _entry-control:
@@ -101,7 +113,7 @@ of the data processing systems.**
 
 Machines managed within the Flying Circus can be accessed by a variety of ways for
 management purposes: SSH, web interfaces, and others. For those we employ
-a homogenous scheme to identify and authorize users within the Flying Circus.
+a homogeneous scheme to identify and authorize users within the Flying Circus.
 Management access to systems must use encrypted communication channels.
 
 Identification and authorization of customer applications not managed by the Flying Circus infrastructure are not covered by our security responsibility. Our
@@ -117,15 +129,15 @@ Users with a Flying Circus account are required to manage their password securel
 unauthorized physical or logical access to objects that can potentially store
 passwords may not result in a compromised passwords. Examples are: Home
 directory on a laptop, keychain or password manager software, backups, USB
-sticks, smartphones. Strongly encrypted storage of passwords is permissible.
+sticks, smartphones. Strongly encrypted storage of passwords is permissible. For Flying Circus Staff there is a separate *guideline for handling secret authentication information*.
 
-All machines have emergency root logins which may only be used by
+All hardware machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
 authentication is not working correctly. Such uses must be documented.
 
-All privileged actions need to be securely logged. [#secure-logging]_ SSH logins
-must be performed using SSH keys.  Successful SSH logins to machines are
-logged---unsuccessful SSH login attempts are not. [#log-unsuccessful-attempts]_
+All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, the is achieved via a local logging journal, which cannot be tampered with by normal users.
+
+SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not[#log-unsuccessful-attempts]_.
 
 
 .. _access-control:
@@ -166,12 +178,12 @@ Authorized and unauthorized access to privileged operations is logged.
 Flying Circus maintains a set of permissions which enable users to perform
 application maintenance and other semi-privileged tasks, e.g. access to
 service user accounts or database administration rights. Permissions are granted
-to individual users upon customer request.
+to individual users by the customer or upon customer request.
 
 All permission assignments are traceable and explicitly documented: their
 effects are documented in the configuration code and their assignments
 are documented in the configuration database. A comprehensive list of users and
-their permissions may be produced automatically on request. [#admin-revocation]_
+their permissions may be produced automatically on request.
 
 Group accounts are generally not allowed to perform privileged administrative
 operations to ensure traceability of actions.
@@ -193,23 +205,22 @@ authenticated and encrypted communication channel (exceptions see below).
 Data paths where sensitive information may be transferred include:
 
 * Application data (e.g., database contents) is transferred from or to the
-  customer using the standard SCP/SFTP protocol.
+  customer using the standardised encrypted protocls, e.g., SCP/SFTP, https.
 
 * Persistent data is saved on storage servers. Storage traffic is not encrypted
-  due to performance reasons, but storage servers are connected to application
+  due to performance reasons. Storage servers are connected to application
   servers using a private network. Machines on which administrative privileges
   are granted to customers are not allowed to connect directly to the storage
   network (see also :ref:`network-security`).
 
-* Backups are transferred to backup servers at the same site using an encrypted
+* Backups are transferred to backup servers at the same site using either an encrypted
   communication channel or the private storage network. Backup data may also be
   transferred to off-site backup servers to improve disaster recovery abilities.
 
 * In addition to application data, a system can generate data at runtime that
   contains sensitive information, for example log files. Log files usually do
-  not leave the machine on which they were generated, but may be transferred to
-  a central log server via an encrypted channel. Only Flying Circus
-  administrators have access to the central log server.
+  not leave the machine on which they were generated, unless the customer operates a logging server. Log data may also be transferred to a central log server operated by Flying Circus via an encrypted channel.Only Flying Circus
+  administrators may have access to the central log server.
 
 
 Input control
@@ -248,8 +259,8 @@ The Flying Circus ensures that all actions taken by system administrators are
 covered by a contract or order with the customers affected by the action. This
 can be due to broad maintenance contracts or due to specific support requests.
 
-Individual change requests must have an associated ticket in the Flying Circus
-request tracking system.
+Individual change requests should have an associated ticket in the Flying Circus
+request tracking system. Other means of documentation to control changes are possible, e.g., explanatory commit messages in a version control system.
 
 Specific actions performed will be reported to the customer if required.
 
@@ -307,9 +318,6 @@ of user accounts and permissions.
 .. [#customer-owned] If a customer owns equipment managed within the Flying Circus we
     require that this customer uses a separate rack with separate access control.
 
-.. [#secure-logging] This requirement was added recently and has not been
-    implemented yet.
-
 .. [#log-unsuccessful-attempts] We consider not logging unsuccessful logins
    acceptable, as SSH logins are only valid using cryptographic private/public
    key authentication. Password logins are always rejected. Potential attack
@@ -321,10 +329,6 @@ of user accounts and permissions.
    amount of password login tries performed nowadays (due to bot nets etc.)
    would cause spamming of the logging infrastructure which in turn can be a
    vector for DOS attacks.
-
-.. [#admin-revocation] Revoking administrator privileges is currently not a
-    standardized process but will be added to the list of business processes
-    soon.
 
 .. [#trace-tty] Individual actions performed with administrative privileges are
    only partially logged.
