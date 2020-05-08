@@ -98,7 +98,7 @@ The Flying Circus operates two low-security zones called `development` (used
 for the development of the Flying Circus infrastructure) and `WHQ` (used to as staging environment for platform changes, and to operate non critical internal applications).
 
 Those locations are currently not allowed to be used for customer data storage
-as they not sufficiently protected.
+as they are not sufficiently protected.
 
 Due to this limitations, the services in high-security locations are not allowed to depend on services provided in low-security locations.
 
@@ -135,7 +135,7 @@ All hardware machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
 authentication is not working correctly. Such uses must be documented.
 
-All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, the is achieved via a local logging journal, which cannot be tampered with by normal users.
+All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users.
 
 SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not[#log-unsuccessful-attempts]_.
 
@@ -205,7 +205,7 @@ authenticated and encrypted communication channel (exceptions see below).
 Data paths where sensitive information may be transferred include:
 
 * Application data (e.g., database contents) is transferred from or to the
-  customer using the standardised encrypted protocls, e.g., SCP/SFTP, https.
+  customer using the standardised encrypted protocols, e.g., SCP/SFTP, https.
 
 * Persistent data is saved on storage servers. Storage traffic is not encrypted
   due to performance reasons. Storage servers are connected to application
