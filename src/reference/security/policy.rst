@@ -1,9 +1,8 @@
-.. Copy of ISMS Policy, released 2020-05-XX
-
 Policy
 ======
 
-.. note:: This documents the ISMS policy, as released on 2020-05-XX
+.. note:: This documents the ISMS Policy, as released on 2020-05-08
+.. https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=4604
 
 Maintaining the security of IT systems is an ongoing effort. We strive to
 improve our understanding and measures for security continuously. For this we
@@ -22,7 +21,7 @@ We mainly operate in the area of the managed hosting of critical business applic
 Information security is crucial for our economic viability. The ISMS
 
 * ensures information is secured in relation to the required protection level
-* prevents us from violating information security,
+* helps us to avoid violating information security,
 * and thus protect our customers and ourselves from economical damage.
 
 The targeted security level represents the baseline for a risk-oriented and economically appropriate procedure. Internal requirements (company rules or standards) and external requirements (customer, legal, or regulatory obligations) are duly considered.
