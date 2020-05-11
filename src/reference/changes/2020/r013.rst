@@ -12,7 +12,8 @@ Impact
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add Python 3.6 systemwide and by default.
+  Not overriding Python 3.4 as the platform's default python3 executable, though (#126100).
 
 
 NixOS 19.03 platform
