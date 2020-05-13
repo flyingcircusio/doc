@@ -20,6 +20,7 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Upgrade central statshost to NixOS 19.03 (#123876).
+* Automatically recover from stuck "VM in maintenance" directory flags (#119218).
 
 
 Gentoo platform
