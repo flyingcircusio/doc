@@ -21,6 +21,9 @@ NixOS 19.03 platform
 
 * Upgrade central statshost to NixOS 19.03 (#123876).
 * Automatically recover from stuck "VM in maintenance" directory flags (#119218).
+* Add role `mailserver` for managed mail servers.
+  `mailstub` starts a local Postfix server which must be configured locally.
+  `mailout` is deprecated. (#115698).
 
 
 Gentoo platform
