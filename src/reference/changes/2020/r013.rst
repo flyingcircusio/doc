@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-05-18
 
-Release 2020_013 (unreleased)
+Release 2020_013 (2020-05-18)
 -----------------------------
 
 Impact
@@ -36,12 +36,6 @@ Gentoo platform
 
 * [Hotfix] Remove outdated CRLs on Puppet clients and replace them with fresh
   copies from the Puppet master (#124831).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
