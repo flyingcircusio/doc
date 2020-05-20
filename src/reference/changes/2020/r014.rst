@@ -1,18 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-05-25
 
-Release 2020_014 (unreleased)
+Release 2020_014 (2020-05-25)
 -----------------------------
 
 Impact
 ^^^^^^
 
 * [Gentoo] sshd will be restarted.
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 NixOS 19.03 platform
@@ -37,12 +31,6 @@ Gentoo platform
 * Remove GLSA monitoring on Gentoo as the update process is End Of Life and now
   only performed with a schedule-based review of existing high priority GLSAs
   but not per system (#126186).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
