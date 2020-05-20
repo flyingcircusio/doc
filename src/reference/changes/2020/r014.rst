@@ -32,6 +32,11 @@ Gentoo platform
   for active routers to be able to speak IPv6 to the world in specific data
   center situations (#120274).
 * Security updates for: sudo, openssh, openssl, git, tar, curl (#123291).
+* Enable driver support for Mellanox Gen 5 cards to supplement our routers with
+  another vendor (#126290).
+* Remove GLSA monitoring on Gentoo as the update process is End Of Life and now
+  only performed with a schedule-based review of existing high priority GLSAs
+  but not per system (#126186).
 
 
 Documentation
