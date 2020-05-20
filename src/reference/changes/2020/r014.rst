@@ -6,6 +6,7 @@ Release 2020_014 (2020-05-25)
 Impact
 ^^^^^^
 
+* [NixOS 19.03] Almost all services will be restarted (caused by the openssl update).
 * [Gentoo] sshd will be restarted.
 
 
