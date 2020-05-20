@@ -21,6 +21,8 @@ NixOS 19.03 platform
 * Generate all locales instead of just en_US.utf8 (#126182).
 * Pick up latest upstream security fixes for 19.03.
   Affected packages: openssl, pyopenssl, aspell, fribidi.
+* Retry system update on failure if update in maintenance is enabled.
+  This is expected to avoid failed maintenance jobs (#126172).
 
 
 Gentoo platform
