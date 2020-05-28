@@ -6,13 +6,19 @@ Release 2020_015 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Statshost: Prometheus will be restarted.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Replace 19.09 channel with 20.03. Lowers RAM consumption of our periodic
+  management task which should reduce swapping on VMs with only 1GB RAM. Updates
+  Kubernetes to 1.17 (#124530).
+* Statshost: Update Prometheus to 2.15.2, Grafana to 6.7, fix problems with too
+  many open connections and correct wrong label dropping rules. The new
+  Prometheus version uses significantly less RAM on our central statshost
+  (#126199).
 
 
 NixOS 15.09 platform
