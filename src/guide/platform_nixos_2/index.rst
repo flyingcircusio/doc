@@ -30,6 +30,7 @@ Components/Roles
 
    external_net
    kubernetes
+   loghost
    memcached
    nfs
    postgresql
