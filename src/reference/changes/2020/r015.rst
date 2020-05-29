@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-06-02
 
-Release 2020_015 (unreleased)
+Release 2020_015 (2020-06-02)
 -----------------------------
 
 Impact
@@ -21,22 +21,10 @@ NixOS 19.03 platform
   (#126199).
 
 
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update bind to fix nxnsattack (#126345).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
