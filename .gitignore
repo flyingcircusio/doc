@@ -5,3 +5,5 @@ eggs
 lib
 pyvenv.cfg
 .*.sw?
+/lib64
+/share/
