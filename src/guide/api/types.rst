@@ -365,15 +365,17 @@ classes
     Removing those classes is ignored.
 
 environment_class
-    *default*: ``'Puppet'``
 
     The ``environment_class`` is the general flavor of your VM. Possible values are:
 
-    * Puppet
-    * NixOS.
+    * ``Puppet``
+    * ``NixOS``.
+
+    .. NOTE:: The ``environment_class`` must be set coherently with the ``environment``.
+       The ``environment_class`` can not be changed without deleting the VM (and
+       going through the recycling period) first.
 
 environment
-    *default:* ``'production'``
 
     The environment is the rolling-release version of our platform and
     management code.
@@ -381,10 +383,7 @@ environment
     The available environments depend on the environments class:
 
     * Puppet: ``production``, ``staging``
-    * NixOS: ``fc-15.09-production``, ``fc-15.09-staging``
-
-    .. NOTE:: For the ``environment_class`` NixOS, you *must* set the
-      environment explicitly.
+    * NixOS: ``fc-19.03-production``, ``fc-19.03-staging``, ``fc-15.09-production``, ``fc-15.09-staging``
 
 cores
     *default*: ``1``
