@@ -365,7 +365,6 @@ classes
     Removing those classes is ignored.
 
 environment_class
-
     The ``environment_class`` is the general flavor of your VM. Possible values are:
 
     * ``Puppet``
@@ -376,7 +375,6 @@ environment_class
        going through the recycling period) first.
 
 environment
-
     The environment is the rolling-release version of our platform and
     management code.
 
