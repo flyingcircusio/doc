@@ -65,7 +65,7 @@ Mail domain
 Nix options
 ~~~~~~~~~~~
 
-Options can be set in either :file`/etc/nixos/local.nix` or
+Options can be set in either :file:`/etc/nixos/local.nix` or
 :file:`/etc/local/nixos/`.
 
 Frequently used options:
