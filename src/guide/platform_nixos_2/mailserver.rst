@@ -103,6 +103,17 @@ passwdFile
   application generates this file automatically and puts it into an
   application-specific location.
 
+.. admonition:: Example: :file:`/etc/local/nixos/mail.nix`
+
+  ::
+
+    flyingcircus.roles.mailserver = {
+      enable = true;
+      mailHost = "mail.test.fcio.net";
+      webmailHost = "webmail.test.fcio.net";
+      domains = ["test.fcio.net", "anothertest.fcio.net"];
+    };
+
 
 Integration points
 ~~~~~~~~~~~~~~~~~~
