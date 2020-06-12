@@ -6,7 +6,7 @@ Release 2020_016 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Nginx, Kibana and possibly other services that depend on OpenSSL 1.1 will be restarted.
 
 
 NixOS 19.03 platform
