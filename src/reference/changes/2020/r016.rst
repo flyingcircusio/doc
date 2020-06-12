@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-06-15
 
-Release 2020_016 (unreleased)
+Release 2020_016 (2020-06-15)
 -----------------------------
 
 Impact
@@ -25,18 +25,6 @@ NixOS 15.09 platform
 
 * Add tar and compression tools to fc-manage. Using fetchTarball in local NixOS
   config doesn’t break automatic configuration anymore (#124799).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
