@@ -12,7 +12,8 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Varnish: reopen log file after rotation to use the new log file (#126757).
+* Allow vagrant user to interact with the docker daemon (#126517).
 
 
 NixOS 15.09 platform
