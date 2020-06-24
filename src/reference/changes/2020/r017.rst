@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-06-25
 
-Release 2020_017 (unreleased)
+Release 2020_017 (2020-06-25)
 -----------------------------
 
 Impact
@@ -19,22 +19,10 @@ NixOS 19.03 platform
 * Statshost: increase influxdb startup timeout (#126604).
 
 
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update fc.agent to version 1.10.12 (#126545).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
