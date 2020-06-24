@@ -6,7 +6,7 @@ Release 2020_017 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Varnish logging daemon and influxdb will be restarted.
 
 
 NixOS 19.03 platform
