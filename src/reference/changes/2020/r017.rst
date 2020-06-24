@@ -15,6 +15,8 @@ NixOS 19.03 platform
 * Varnish: reopen log file after rotation to use the new log file (#126757).
 * Allow vagrant user to interact with the docker daemon (#126517).
 * Provide tmux on all VMs by default (#126628).
+* Rotate all logs in /var/log/nginx periodically (#126707).
+* Statshost: increase influxdb startup timeout (#126604).
 
 
 NixOS 15.09 platform
