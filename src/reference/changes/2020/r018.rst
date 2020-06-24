@@ -12,8 +12,11 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Revert our atomic firewall to the fine-grained reload/reconfiguration mechanism in baseline NixOS.
+  This helps compatibility with dynamic rule systems like Docker, Kubernetes, etc.
+  We also now filter custom rules in /etc/local/firewall to only interact with custom chains and prohibit interaction with the default chains.
+  Existing configurations may become invalid but will not silently break as NixOS catches those errors without breaking the running configuration.
+  We'll clean up customer installations that are affected by this (#124117).
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
