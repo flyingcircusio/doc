@@ -10,8 +10,8 @@ Kubernetes Cluster
 Kubernetes Version and Documentation
 ------------------------------------
 
-The current version is Kubernetes 1.15. Refer to the
-`Kubernetes manual <https://v1-15.docs.kubernetes.io/docs/home/>`_.
+The current version is Kubernetes 1.17. Refer to the
+`Kubernetes manual <https://v1-17.docs.kubernetes.io/docs/home/>`_.
 
 Roles
 -----
