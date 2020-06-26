@@ -17,6 +17,8 @@ NixOS 19.03 platform
   We also now filter custom rules in /etc/local/firewall to only interact with custom chains and prohibit interaction with the default chains.
   Existing configurations may become invalid but will not silently break as NixOS catches those errors without breaking the running configuration.
   We'll clean up customer installations that are affected by this (#124117).
+*  Update PHP to latest point releases: 7.3.19, 7.2.31. These includes several security fixes (#126583).
+*  Silence misleading journal messages from postfix-queue-perms.service (#126796).
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
