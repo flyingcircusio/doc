@@ -1,26 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-07-02
 
-Release 2020_018 (unreleased)
+Release 2020_018 (2020-07-02)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-*Changes for the 19.03 platform are already in staging but will be moved to release 2020_019*
-
-* Revert our atomic firewall to the fine-grained reload/reconfiguration mechanism in baseline NixOS.
-  This helps compatibility with dynamic rule systems like Docker, Kubernetes, etc.
-  We also now filter custom rules in /etc/local/firewall to only interact with custom chains and prohibit interaction with the default chains.
-  Existing configurations may become invalid but will not silently break as NixOS catches those errors without breaking the running configuration.
-  We'll clean up customer installations that are affected by this (#124117).
-*  Update PHP to latest point releases: 7.3.19, 7.2.31. These includes several security fixes (#126583).
-*  Silence misleading journal messages from postfix-queue-perms.service (#126796).
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -33,12 +14,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update hardware identifiers registry to improve handling of recent hardware (#126755).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
