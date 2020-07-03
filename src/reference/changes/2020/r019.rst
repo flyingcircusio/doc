@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-07-06
 
-Release 2020_019 (unreleased)
+Release 2020_019 (2020-07-06)
 -----------------------------
 
 Impact
@@ -21,24 +21,6 @@ NixOS 19.03 platform
 * Silence misleading journal messages from postfix-queue-perms.service (#126796).
 * FC Vagrant box: provide common directories under /etc/local by default.
 * Security updates: iproute (5.5.0), gnupg (2.2.19), gnutls (3.6.14) and git (2.25.4).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
