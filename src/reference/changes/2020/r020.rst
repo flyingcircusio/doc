@@ -18,7 +18,8 @@ NixOS 19.03 platform
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Retry system update on failure if update in maintenance is enabled.
+  This is expected to avoid failed maintenance jobs, for example when running planned upgrades to 19.03 (#127000).
 
 
 Gentoo platform
