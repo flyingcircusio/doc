@@ -137,7 +137,7 @@ authentication is not working correctly. Such uses must be documented.
 
 All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users.
 
-SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not[#log-unsuccessful-attempts]_.
+SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [#log-unsuccessful-attempts]_.
 
 
 .. _access-control:
@@ -332,7 +332,3 @@ of user accounts and permissions.
 
 .. [#trace-tty] Individual actions performed with administrative privileges are
    only partially logged.
-
-.. [#restricted-exception] An exception to this rule are restricted machines,
-   which are used in exceptional cases only and operate in a separated network
-   evironment.
