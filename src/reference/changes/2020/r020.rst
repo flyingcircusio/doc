@@ -12,7 +12,12 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* mailstub: fix handling of system mails emitted on other nodes of the same resource group (e.g., cron job output) (#123375).
+* mailstub: fix handling of system mails emitted on other nodes of the same
+  resource group (e.g., cron job output) (#123375).
+
+* Statshost: update Prometheus to 2.19.2, InfluxDB to 1.8.0 and Grafana to 7.0.4 (#126856, #126663).
+
+* Update Kubernetes to 1.18.5 (#126856).
 
 
 NixOS 15.09 platform
