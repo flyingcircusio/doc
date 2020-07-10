@@ -1,22 +1,15 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-07-13
 
-Release 2020_020 (unreleased)
+Release 2020_020 (2020-07-13)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * mailstub: fix handling of system mails emitted on other nodes of the same
   resource group (e.g., cron job output) (#123375).
-
-* Statshost: update Prometheus to 2.19.2, InfluxDB to 1.8.0 and Grafana to 7.0.4 (#126856, #126663).
-
+* Statshost: update Prometheus to 2.19.2, InfluxDB to 1.8.0 and
+  Grafana to 7.0.4 (#126856, #126663).
 * Update Kubernetes to 1.18.5 (#126856).
 
 
@@ -24,19 +17,8 @@ NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Retry system update on failure if update in maintenance is enabled.
-  This is expected to avoid failed maintenance jobs, for example when running planned upgrades to 19.03 (#127000).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+  This is expected to avoid failed maintenance jobs, for example when
+  running planned upgrades to 19.03 (#127000).
 
 
 .. vim: set spell spelllang=en:
