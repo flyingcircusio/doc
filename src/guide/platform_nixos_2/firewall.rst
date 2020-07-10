@@ -25,22 +25,91 @@ that all lines are either:
 * comments (starting with #)
 * invocations of an iptables command (iptables, ip6tables, ip46tables)
 
-Here's an example:
+After making changes to the firewall configuration, either wait for the
+agent to apply it or run ``sudo fc-manage -b``.
+
+.. note::
+
+    Use IP addresses in firewall rules. Using host names is not reliable and
+    unsupported.
+
+
+Firewall chains
+---------------
+
+Use only the firewall chains mentioned below for custom rules. The built-in
+chains like `INPUT` are reserved for system use.
+
+Matching rules
+^^^^^^^^^^^^^^
+
+nixos-fw
+    Standard firewall chain for subnet and port blocks.
+nixos-nat-pre
+    Chain for pre-routing actions like port redirects.
+nixos-nat-post
+    Chain for post-routing actions like masquerading.
+
+Jump targets
+^^^^^^^^^^^^
+
+nixos-fw-accept
+    Accept traffic destined to local host.
+
+nixos-fw-refuse
+    Deny traffic by replying with a ICMP unreachable message.
+
+nixos-fw-log-refuse
+    Deny traffic by replying with a ICMP unreachable message and log denied
+    packets to the journal. Log rate limits apply.
+
+nixos-fw-drop
+    Throw away traffic without notifying the sender. Not recommended since this
+    is hard to debug.
+
+
+Examples
+--------
+
+Accept TCP traffic on ethfe to port 32542:
 
 .. code-block:: bash
 
-    # Enable port 1234 to be accessed on the frontend network via
-    # IPv4 and IPv6
-    ip46tables -A nixos-fw -i ethfe -p tcp --dport 1234 -j nixos-fw-accept
+    ip46tables -A nixos-fw -p tcp -i ethfe --dport 32542 -j nixos-fw-accept
 
+Refuse UDP traffic on ethsrv to port 2222:
 
-.. note:: NixOS has a few special firewall chains that support good re-use
-    of reject/logging and others. You should definitely use the ``nixos-fw``
-    chain instead of the regular ``INPUT`` chain to avoid unpredictable
-    behaviour.
+.. code-block:: bash
 
-After making changes to the firewall configuration, either wait for the
-agent to apply it or run ``sudo fc-manage --build``.
+    ip46tables -A nixos-fw -p udp -i ethsrv --dport 2222 -j nixos-fw-refuse
+
+Refuse traffic from specific subnet (with logging):
+
+.. code-block:: bash
+
+    ip6tables -A nixos-fw -s 2001:db8:33::/48 -j nixos-fw-log-refuse
+
+Blackhole traffic from certain networks using a separate chain:
+
+.. code-block:: bash
+
+    ip46tables -N blackhole || ip46tables -F blackhole
+    iptables -A blackhole -s 192.0.2.0/24 -j nixos-fw-drop
+    ip6tables -A blackhole -s 2001:db8::/32 -j nixos-fw-drop
+    ip46tables -A nixos-fw -j blackhole
+
+Masquerade outgoing traffic on ethsrv:
+
+.. code-block:: bash
+
+    iptables -t nat -A nixos-nat-post -o ethsrv -j MASQUERADE
+
+Divert incoming traffic on ethfe port 22 to a different port:
+
+.. code-block:: bash
+
+    ip46tables -t nat -A nixos-nat-post -i ethfe -p tcp --dport 22 -j REDIRECT --to-ports 2222
+
 
 How to verify
 -------------
@@ -54,5 +123,4 @@ iptables -L`, e.g.:
     ip6tables -L -nv   # show IPv6 firewall rules w/o DNS resolution
 
 If the intended rules do not show up, check the system journal for possible
-syntax errors in :file:`/etc/local/firewall` and re-run
-:command:`fc-manage --build`.
+syntax errors in :file:`/etc/local/firewall` and re-run :command:`fc-manage -b`.

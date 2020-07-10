@@ -25,22 +25,13 @@ that all lines are either:
 * comments (starting with #)
 * invocations of an iptables command (iptables, ip6tables, ip46tables)
 
-Here's an example:
-
-.. code-block:: bash
-
-    # Enable port 1234 to be accessed on the frontend network via
-    # IPv4 and IPv6
-    ip46tables -A nixos-fw -i ethfe -p tcp --dport 1234 -j nixos-fw-accept
-
-
-.. note:: NixOS has a few special firewall chains that support good re-use
-    of reject/logging and others. You should definitely use the ``nixos-fw``
-    chain instead of the regular ``INPUT`` chain to avoid unpredictable
-    behaviour.
-
 After making changes to the firewall configuration, either wait for the
-agent to apply it or run ``sudo fc-manage --build``.
+agent to apply it or run ``sudo fc-manage -b``.
+
+.. note::
+
+    You should definitely use the ``nixos-fw`` chain instead of the regular
+    ``INPUT`` chain to avoid unpredictable behaviour.
 
 How to verify
 -------------

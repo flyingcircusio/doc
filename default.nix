@@ -6,7 +6,7 @@ let
 in pkgs.stdenv.mkDerivation {
   name = "flyingcircus-docs";
   configurePhase = ":";
-  buildInputs = [ buildEnv ] ++ (with pkgs; [ python2 mercurial ]);
+  buildInputs = [ buildEnv ] ++ (with pkgs; [ python2 git ]);
   doCheck = false;
   buildPhase = "sphinx-build -j 10 -a -b html $src/src $out";
   installPhase = ":";

@@ -44,8 +44,8 @@ Adding custom firewall rules
 
 How to add custom firewall rules depends on the platform of your VM:
 
+* :ref:`NixOS <nixos2-firewall>`
 * :ref:`Gentoo <gentoo-firewall>`
-* :ref:`NixOS <nixos-firewall>`
 
 
 .. vim: set spell spelllang=en:
