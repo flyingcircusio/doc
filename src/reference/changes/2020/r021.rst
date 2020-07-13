@@ -12,9 +12,18 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-*  Firewall: Allow specification of prerouting and postrouting rules in
-   nixos-nat-pre and nixos-nat-post chains (#126879, #126936, #127007).
+* Firewall: Allow specification of prerouting and postrouting rules in
+  nixos-nat-pre and nixos-nat-post chains (#126879, #126936, #127007).
 
+* Provide roles for Elasticsearch and Kibana 7, currently version 7.8.0.
+  Machines using ES5 at the moment must first reindex with ES6 before upgrading
+  to ES7 (#126877).
+
+* Update Kubernetes dashboard to 2.0.3 which fixes problems with the current
+  Kubernetes version.
+
+* Use kubernetes.<project-name>.fcio.net as primary address for Kubernetes
+  Dashboard and API (#126858).
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
