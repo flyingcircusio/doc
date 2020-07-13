@@ -12,7 +12,8 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+*  Firewall: Allow specification of prerouting and postrouting rules in
+   nixos-nat-pre and nixos-nat-post chains (#126879, #126936, #127007).
 
 
 NixOS 15.09 platform
@@ -30,7 +31,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Update custom firewall rule documentation for NixOS.
 
 
 .. vim: set spell spelllang=en:
