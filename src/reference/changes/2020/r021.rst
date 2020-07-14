@@ -25,6 +25,9 @@ NixOS 19.03 platform
 * Use kubernetes.<project-name>.fcio.net as primary address for Kubernetes
   Dashboard and API (#126858).
 
+* Provide coturn (STUN/TURN server) role (#126406).
+
+
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
