@@ -89,15 +89,6 @@ Refuse traffic from specific subnet (with logging):
 
     ip6tables -A nixos-fw -s 2001:db8:33::/48 -j nixos-fw-log-refuse
 
-Blackhole traffic from certain networks using a separate chain:
-
-.. code-block:: bash
-
-    ip46tables -N blackhole || ip46tables -F blackhole
-    iptables -A blackhole -s 192.0.2.0/24 -j nixos-fw-drop
-    ip6tables -A blackhole -s 2001:db8::/32 -j nixos-fw-drop
-    ip46tables -A nixos-fw -j blackhole
-
 Masquerade outgoing traffic on ethsrv:
 
 .. code-block:: bash
