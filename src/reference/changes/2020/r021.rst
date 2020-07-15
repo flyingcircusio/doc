@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-07-16
 
-Release 2020_021 (unreleased)
+Release 2020_021 (2020-07-16)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -29,18 +23,6 @@ NixOS 19.03 platform
 
 * Vagrant box: Enable logrotate and add local config dir for vagrant user
   (#123879, #127092)
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
