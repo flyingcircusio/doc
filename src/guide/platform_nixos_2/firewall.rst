@@ -99,7 +99,7 @@ Divert incoming traffic on ethfe port 22 to a different port:
 
 .. code-block:: bash
 
-    ip46tables -t nat -A nixos-nat-post -i ethfe -p tcp --dport 22 -j REDIRECT --to-ports 2222
+    ip46tables -t nat -A nixos-nat-pre -i ethfe -p tcp --dport 22 -j REDIRECT --to-ports 2222
 
 
 How to verify
