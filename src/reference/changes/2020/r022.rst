@@ -12,7 +12,8 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix problems with future platform release updates if the last update has failed (#110203).
+* Security updates: adns 1.5.1 -> 1.5.2 and pcre 8.42 -> 8.44.
 
 
 NixOS 15.09 platform
@@ -30,7 +31,8 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Update Kubernetes for version 1.18.
+* Add docker role documentation for NixOS 19.03.
 
 
 .. vim: set spell spelllang=en:
