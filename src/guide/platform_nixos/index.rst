@@ -19,10 +19,13 @@ more memory for larger applications.
    local
    systemd
    cron
+   logging
    logrotate
    firewall
    user_profile
 
+
+.. _nixos-components:
 
 Components/Roles
 ----------------

@@ -17,10 +17,12 @@ more memory for larger applications.
    local
    systemd
    cron
+   logging
    logrotate
    firewall
    monitoring
 
+.. _nixos2-components:
 
 Components/Roles
 ----------------

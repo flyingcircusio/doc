@@ -1,12 +1,11 @@
+.. _logging:
+
+Logging
+=======
+
 .. image:: ../../images/logging250.png
    :class: logo
    :width: 250px
-
-.. _logging:
-
-*******
-Logging
-*******
 
 Creating, storing, and analysing logs from components and your application is
 an important part of keeping your service healthy and developing it further.

@@ -14,9 +14,11 @@ It is maintained but not developed much further.
 
 .. toctree::
    :titlesonly:
+   :maxdepth: 1
 
    base
    firewall
+   logging
 
 Roles and packages
 ------------------

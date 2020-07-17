@@ -1,7 +1,7 @@
 .. _configuring_logging_components:
 
 Configuring the log host components
-===================================
+-----------------------------------
 
 There are two parts of the logging infrastructure that are important for you to
 configure: the logstash-forwarder and the logstash server.

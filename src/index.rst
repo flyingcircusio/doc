@@ -32,7 +32,6 @@ Guide
    guide/platform_nixos/index
    guide/platform_gentoo/index
    guide/deployment/index
-   guide/logging/index
    guide/api/index
 
 
