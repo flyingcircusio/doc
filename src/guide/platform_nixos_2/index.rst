@@ -28,6 +28,7 @@ Components/Roles
 .. toctree::
    :titlesonly:
 
+   docker
    external_net
    kubernetes
    loghost
