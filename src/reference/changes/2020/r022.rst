@@ -31,6 +31,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
+* Separate logging documentation per platform.
 * Update Kubernetes for version 1.18.
 * Add docker, elasticsearch and kibana role documentation for NixOS 19.03.
 
