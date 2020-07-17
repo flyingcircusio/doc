@@ -3,15 +3,18 @@
 Kubernetes Cluster
 ==================
 
-.. warning::
+.. note::
 
-  Kubernetes Cluster support is still experimental.
+    Kubernetes support is – at the moment – still experimental. Feel free
+    to use it but we suggest contacting our support before putting anything into
+    production.
+
 
 Kubernetes Version and Documentation
 ------------------------------------
 
-The current version is Kubernetes 1.17. Refer to the
-`Kubernetes manual <https://v1-17.docs.kubernetes.io/docs/home/>`_.
+The current version is Kubernetes 1.18. Refer to the
+`Kubernetes manual <https://v1-18.docs.kubernetes.io/docs/home/>`_.
 
 Roles
 -----
@@ -41,7 +44,7 @@ The roles can be combined on a machine.
    Changing the master VM is not supported and requires substantial manual intervention.
 
 Activating the node role on an existing master-only VM works,
-but `taints <https://v1-15.docs.kubernetes.io/docs/concepts/configuration/taint-and-toleration>`_
+but `taints <https://v1-18.docs.kubernetes.io/docs/concepts/configuration/taint-and-toleration>`_
 must be disabled manually to run pods on it.
 
 
@@ -169,7 +172,7 @@ The easiest way to use a Kubernetes application as backend/upstream is to a
 assign a fixed IP to the service and point to it in the Webgateway config.
 
 For more information about Kubernetes services, refer to the
-`Service chapter in the Kubernetes manual <https://v1-15.docs.kubernetes.io/docs/concepts/services-networking/>`_.
+`Service chapter in the Kubernetes manual <https://v1-18.docs.kubernetes.io/docs/concepts/services-networking/>`_.
 
 
 .. _nixos2-changing-kubernetes-networks:
