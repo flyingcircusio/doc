@@ -32,7 +32,7 @@ Documentation
 ^^^^^^^^^^^^^
 
 * Update Kubernetes for version 1.18.
-* Add docker role documentation for NixOS 19.03.
+* Add docker, elasticsearch and kibana role documentation for NixOS 19.03.
 
 
 .. vim: set spell spelllang=en:

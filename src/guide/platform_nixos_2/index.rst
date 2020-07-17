@@ -29,7 +29,9 @@ Components/Roles
    :titlesonly:
 
    docker
+   elasticsearch
    external_net
+   kibana
    kubernetes
    loghost
    mailserver
