@@ -133,6 +133,25 @@ Integration points
 
   All domain parts (key and aliases) must be listed in the *domains* option.
 
+.. admonition:: Example: :file:`/etc/local/mail/users.json`
+
+  Mail users JSON file with two accounts. The first has a static password while
+  the second uses dynamic passwords from :file:`/var/lib/dovecot/passwd` (see
+  :ref:`mail_dynamic_accounts` below)::
+
+    {
+      "user1@test.fcio.net": {
+        "aliases": [ "info@fivechatstag.fcio.net" ],
+        "catchAll": [ "ticketsystem@test.fcio.net" ],
+        "hashedPassword": "$5$1nTsRxif5v.$hg2BUOb9113AyxdqV4qsVZ9ngoReScJnItO/jQ0Ye82",
+        "sieveScript": "discard;"
+      },
+      "user2@test.fcio.net": {
+        "hashedPassword": "",
+        "quota": "4G"
+      }
+    }
+
 /etc/local/mail/local_valiases.json
   Additional aliases which are not mentioned in users.json. Expected to be a
   dict with the alias as key and the receiving address as value.
@@ -158,6 +177,8 @@ Open ports
 * 587: Postfix SMTP submission. STARTTLS and authentication required.
 * 993: Dovecot IMAPS. Authentication required.
 * 4190: Dovecot managesieve
+
+.. _mail_dynamic_accounts:
 
 Dynamic account creation
 ~~~~~~~~~~~~~~~~~~~~~~~~

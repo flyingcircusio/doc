@@ -35,6 +35,7 @@ Documentation
 * Separate logging documentation per platform.
 * Update Kubernetes for version 1.18.
 * Add docker, elasticsearch and kibana role documentation for NixOS 19.03.
+* :ref:`nixos2-mailserver`: Example for users.json
 
 
 .. vim: set spell spelllang=en:
