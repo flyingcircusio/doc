@@ -12,8 +12,9 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Fix problems with future platform release updates if the last update has failed (#110203).
 * Security updates: adns 1.5.1 -> 1.5.2 and pcre 8.42 -> 8.44.
+* Fix problems with future platform release updates (stuck 'next' channel) if
+  the last update has failed (#110203).
 
 
 NixOS 15.09 platform
