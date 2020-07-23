@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-07-27
 
-Release 2020_022 (unreleased)
+Release 2020_022 (2020-07-27)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -31,18 +25,6 @@ NixOS 19.03 platform
   Also includes support for the Tideways APM service, only the API key needs to be added (#126611).
 
 
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
