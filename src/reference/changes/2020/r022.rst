@@ -3,6 +3,12 @@
 Release 2020_022 (2020-07-27)
 -----------------------------
 
+Impact
+^^^^^^
+
+* [NixOS 19.03] Almost all services will be restarted due to the pcre security update.
+
+
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
