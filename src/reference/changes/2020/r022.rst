@@ -19,6 +19,11 @@ NixOS 19.03 platform
 * Provide PostgreSQL 12 role, remove unused 9.5 role. The new role for 12 uses
   :file:`/run/postgresql` as socket dir and replaces the deprecated
   **temporal_tables** extension with the **periods** extension (#126897).
+* Reduce swappiness to 1. Our overall experience shows that applications in our environment
+really want to stay in RAM. The perfomance penalty of swapping applications also seems worse
+than thrashing VFS caches (under pressure). We now much more strongly recommend adding
+memory when applications start getting swapped as the performance penalties can become
+critical in undue situations (#127498).
 
 
 NixOS 15.09 platform
