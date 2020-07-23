@@ -16,6 +16,9 @@ NixOS 19.03 platform
   the last update has failed (#110203).
 * Security updates: adns 1.5.1 -> 1.5.2 and pcre 8.42 -> 8.44.
 * Security updates: sysstat 12.1.2 -> 12.2.0 and tcpdump: 4.9.2 -> 4.9.3.
+* Provide PostgreSQL 12 role, remove unused 9.5 role. The new role for 12 uses
+  :file:`/run/postgresql` as socket dir and replaces the deprecated
+  **temporal_tables** extension with the **periods** extension (#126897).
 
 
 NixOS 15.09 platform
