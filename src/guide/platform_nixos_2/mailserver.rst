@@ -66,7 +66,7 @@ Nix options
 ~~~~~~~~~~~
 
 Options can be set in either :file:`/etc/nixos/local.nix` or
-:file:`/etc/local/nixos/`.
+:file:`/etc/local/nixos/`. All options live in `flyingcircus.roles.mailserver`.
 
 Frequently used options:
 
