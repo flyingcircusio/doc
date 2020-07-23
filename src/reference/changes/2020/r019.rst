@@ -6,7 +6,7 @@ Release 2020_019 (2020-07-06)
 Impact
 ^^^^^^
 
-* [NixOS 19.03] Multiple services will be restarted, including haproxy, nginx, varnish, openvpn, sshd, postgresql, prometheus, rabbitmq, redis and possibly more.
+* [NixOS 19.03] Almost all services will be restarted due to the pcre security update.
 
 
 NixOS 19.03 platform
