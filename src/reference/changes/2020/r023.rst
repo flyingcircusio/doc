@@ -12,7 +12,8 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Telegraf metrics: increase read timeouts for rabbitmq and influxdb, fix for
+  PostgreSQL 12 (#127644).
 
 
 NixOS 15.09 platform
