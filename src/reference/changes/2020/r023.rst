@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-08-03
 
-Release 2020_023 (unreleased)
+Release 2020_023 (2020-08-03)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -22,18 +16,6 @@ NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Always use SNI in :command:`check_http` for directory-based service checks (#127689).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
