@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-08-10
 
-Release 2020_024 (unreleased)
+Release 2020_024 (2020-08-10)
 -----------------------------
 
 Impact
@@ -18,24 +18,6 @@ NixOS 19.03 platform
   run as a separate user (instead of nobody) (#126611).
 * Ensure we build sufficient sensu packages centrally on our Hydra to avoid
   building them on every machine locally (#127681).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
