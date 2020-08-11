@@ -35,6 +35,7 @@ Components/Roles
    external_net
    kibana
    kubernetes
+   lamp
    loghost
    mailserver
    memcached
