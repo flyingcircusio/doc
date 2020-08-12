@@ -20,6 +20,8 @@ NixOS 15.09 platform
 
 * Add logging syslog and journal to centralized loghosts for improved
   platform-wide analysis and security (#126523).
+* Prebuild `wkhtmltopdf` on Hydra to avoid expensive local compilation
+  (#127964).
 
 
 Gentoo platform
