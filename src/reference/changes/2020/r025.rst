@@ -12,7 +12,17 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Prebuild wkhtmltopdf on Hydra to avoid expensive local compilation (#127964).
+
+* Improve robustness of fc-userscan, the garbage collection scanner. It doesn't
+  stop on unreadable files now. Also fix setuid-root invocation: GC roots and
+  cache files are opened with dropped privileges (#124165).
+
+* Security updates for Python 2.7 (patch against CVE-2019-20907), Ruby (2.5.7 ->
+  2.5.8, 2.6.5 -> 2.6.6), libarchive (3.3.3 -> 3.4.2), pcre2 (10.32 -> 10.34),
+  screen (4.6.2 -> 4.8.0).
+
+* Fix Python package overrides in our overlay.
 
 
 NixOS 15.09 platform
