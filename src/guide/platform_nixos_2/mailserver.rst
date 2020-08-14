@@ -14,25 +14,146 @@ spam control.
 User accounts can be created/modified dynamically. There is, however, no default
 mechanism for user management besides text files.
 
-Components
-----------
 
-* `Postfix <http://www.postfix.org/>`_
-* `Dovecot <https://dovecot.org/>`_
-* `Roundcube <https://roundcube.net/>`_
-* `rspamd <https://rspamd.com/>`_
-* `OpenDKIM <http://www.opendkim.org/>`_
-* `SPF/PostSRSd <https://github.com/roehling/postsrsd>`_
-* Mail client `autoconfiguration
-  <https://wiki.mozilla.org/Thunderbird:Autoconfiguration>`_
-* `Knot DNS <https://www.knot-dns.cz/>`_ as local cache
+.. contents::
+
+Which components are included?
+------------------------------
+
+The main ingredients of this role are Postfix_ for mail delivery, Dovecot_ as
+IMAP access server, and Roundcube_ as web frontend. We rely mainly on rspamd_
+for spam protection. To get outgoing mails delivered, they are signed with
+OpenDKIM_ and a basic SPF_ and SRS_ setup is included. Additionally, a
+Thunderbird-compatible client autoconfiguration_ XML file is provided which
+helps many clients to configure themselves properly.
+
+.. _Postfix: http://www.postfix.org/
+.. _Dovecot: https://dovecot.org/
+.. _Roundcube: https://roundcube.net/
+.. _rspamd: https://rspamd.com/
+.. _OpenDKIM: http://www.opendkim.org/
+.. _SPF: https://en.wikipedia.org/wiki/Sender_Policy_Framework
+.. _SRS: https://github.com/roehling/postsrsd
+.. _autoconfiguration: https://wiki.mozilla.org/Thunderbird:Autoconfiguration
 
 
-Configuration
--------------
+How do I perform a basic setup?
+-------------------------------
 
-General
-~~~~~~~
+First, you need public IPv4 and IPv6 addresses for your mail server's frontend
+interface. Contact :ref:`support` if you don't have. Then, pick a mail host name
+which will be advertised as MX name on your mail domain. This host name (called
+**mailHost** from here on) must resolve to the FE addresses with both forward
+and reverse lookups.
+
+.. warning::
+
+  Incorrect DNS setup is the most frequent source of delivery problems. Let our
+  :ref:`support` check your setup if in doubt.
+
+Create a configuration file :file:`/etc/local/mail/config.json` which contains
+all the basic pieces. In the following example, the server's mailHost is
+*mail.test.fcio.net* and it serves as MX for the mail domains *test.fcio.net*
+and *test2.fcio.net*::
+
+  {
+    "mailHost": "mail.test.fcio.net",
+    "webmailHost": "webmail.test.fcio.net",
+    "domains": [
+      "test.fcio.net",
+      "test2.fcio.net"
+    ]
+  }
+
+Run :command:`sudo fc-manage -b` to have everything configured on the system.
+
+Afterwards, a generated file :file:`/etc/local/mail/dns.zone` contains all
+necessary DNS settings for your mail server. Insert the records found in this
+file into the appropriate DNS zones and don't forget to check reverses.
+
+
+How do I create users?
+----------------------
+
+Edit :file:`/etc/local/mail/users.json` to add user accounts. Example::
+
+  {
+    "user1@test.fcio.net": {
+      "aliases": ["first.last@test.fcio.net"],
+      "hashedPassword": "$5$NTTg86onSoM1MK$Xir/pTc9G/TLM1LResKlyAip1oO9XcsmUKXaf7ALIS2"
+      "quota": "4G",
+      "sieveScript": null
+    }
+  }
+
+This file contains of key/value pairs where the key is the main email address
+and the value is a attribute set of configuration options. Domain
+parts of all e-mail addresses must be listed in the `domains` option in
+:file:`/etc/local/mail/config.json`.
+
+The password must be hashed with :command:`mkpasswd -m sha-256 {PASSWORD}`.
+
+
+How do mail users log into the mail server?
+-------------------------------------------
+
+* Username: full e-mail address
+* Incoming: IMAP with STARTTLS, mailHost port 143
+* Outgoing: SMTP with STARTTLS, mailHost port 587.
+
+If the *webmailHost* option is defined, users can log into the web frontend with
+their full e-mail address and password.
+
+
+How to change passwords
+-----------------------
+
+We support two scenarios: static passwords and dynamic passwords.
+
+Static passwords
+~~~~~~~~~~~~~~~~
+
+Passwords are set by the administrator and put into users.json. They cannot be
+changed by users.
+
+Dynamic passwords
+~~~~~~~~~~~~~~~~~
+
+To enable users to change their password themselves, leave the
+**hashedPassword** option in :file:`/etc/local/mail/users.json` empty and set
+the initial password in :file:`/var/lib/dovecot/passwd` instead. This file
+consists of a e-mail address/password pair per user. Example::
+
+  user1@test.fcio.net:$5$NwBmrzj2vPlIdoa0$Go0zrVY5ZQncFXlCAxA.Gqj.e4Ym6Ic242O6Mj3BK1
+
+The initial password hash can be created with :command:`mkpasswd -m sha-256
+{PASSWORD}` as shown above. Afterwards, user can log into the Roundcube web mail
+frontend and change their password in the settings menu.
+
+
+The spam filter misclassifies mails. What to do?
+------------------------------------------------
+
+rspamd has a good set of defaults but is not perfect. To get be results, it must
+receive training.
+
+False positive (ham classified as spam)
+  Move that e-mail message from the `Junk` folder back into the `INBOX` folder.
+
+False negative (spam classified as ham)
+  Move that e-mail message from the `INBOX` folder into the `Junk` folder.
+
+In both cases, the spam filter's statistics module will be automatically
+trained. Note that the spam filter needs a certain amount of training material
+to become effective. This means that training effects will show up after time
+and not immediately.
+
+
+Reference
+---------
+
+Glossary
+~~~~~~~~
 
 Mail servers need proper DNS configuration. DNS configuration errors will likely
 result in mail being rejected by remote mail servers. Some important
@@ -62,11 +183,10 @@ Mail domain
   Example: test.fcio.net, test2.fcio.net
 
 
-Nix options
-~~~~~~~~~~~
+Role options
+~~~~~~~~~~~~
 
-Options can be set in either :file:`/etc/nixos/local.nix` or
-:file:`/etc/local/nixos/`. All options live in `flyingcircus.roles.mailserver`.
+All options can be set in :file:`/etc/local/mail/config.json`.
 
 Frequently used options:
 
@@ -103,54 +223,36 @@ passwdFile
   application generates this file automatically and puts it into an
   application-specific location.
 
-.. admonition:: Example: :file:`/etc/local/nixos/mail.nix`
 
-  ::
+User options
+~~~~~~~~~~~~
 
-    flyingcircus.roles.mailserver = {
-      enable = true;
-      mailHost = "mail.test.fcio.net";
-      webmailHost = "webmail.test.fcio.net";
-      domains = ["test.fcio.net", "anothertest.fcio.net"];
-    };
+aliases
+  List of alternative e-mail addresses that will be delivered into this
+  mailbox. Note that domain parts of all aliases must be listed in the *domains*
+  option.
+
+catchAll
+  List of subdomains for which all incoming mails, regardless of their local
+  parts, will be delivered into this mailbox. All subdomains must be listed in
+  the *domains* option.
+
+hashedPassword
+  Either a salted SHA-256 password hash (for static passwords) or empty string.
+  In the latter case, the password is read from :file:`/var/lib/dovecot/passwd`.
+
+quota
+  Mailbox space limit like "512M" or "2G".
+
+sieveScript
+  Mail processing rules in the Sieve_ language. Users can set dynamic sieve
+  scripts from the Roundcube web UI if left empty.
+
+.. _Sieve: https://en.wikipedia.org/wiki/Sieve_(mail_filtering_language)
 
 
-Integration points
-~~~~~~~~~~~~~~~~~~
-
-/etc/local/mail/users.json
-  Statically configured virtual mail users. Must contain a dict keyed by virtual
-  mail address and may have the following fields:
-
-  * hashedPassword: SHA-256 hash of the mail user's SMTP and IMAP password. Use
-    :command:`mkpasswd -m sha-256` to create a suitable hash.
-  * aliases: list of additional e-mail addresses for this user.
-  * catchAll: list of additional subdomain for which this user received all
-    mails regardless of the local part.
-  * quota: byte size like "4G".
-  * sieveScript: string which includes a statically configured sieve script or
-    *null* to allow dynamic sieve scripts via managesieve.
-
-  All domain parts (key and aliases) must be listed in the *domains* option.
-
-.. admonition:: Example: :file:`/etc/local/mail/users.json`
-
-  Mail users JSON file with two accounts. The first has a static password while
-  the second uses dynamic passwords from :file:`/var/lib/dovecot/passwd` (see
-  :ref:`mail_dynamic_accounts` below)::
-
-    {
-      "user1@test.fcio.net": {
-        "aliases": [ "info@fivechatstag.fcio.net" ],
-        "catchAll": [ "ticketsystem@test.fcio.net" ],
-        "hashedPassword": "$5$1nTsRxif5v.$hg2BUOb9113AyxdqV4qsVZ9ngoReScJnItO/jQ0Ye82",
-        "sieveScript": "discard;"
-      },
-      "user2@test.fcio.net": {
-        "hashedPassword": "",
-        "quota": "4G"
-      }
-    }
+Further configuration files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /etc/local/mail/local_valiases.json
   Additional aliases which are not mentioned in users.json. Expected to be a
@@ -163,51 +265,8 @@ Integration points
   Copy-and-paste DNS records for inclusion in zone files. Adapt if necessary.
 
 
-Interaction
------------
-
-Open ports
-~~~~~~~~~~
-
-* 25: Postfix SMTP incoming. Public access, anti-spam measures apply.
-* 80: `http://autoconfig.${domain}` - mail client settings autoconfiguration.
-  Everything else will be directed to HTTPS.
-* 143: Dovecot IMAP. STARTTLS and authentication required.
-* 443: Roundcube web mail.
-* 587: Postfix SMTP submission. STARTTLS and authentication required.
-* 993: Dovecot IMAPS. Authentication required.
-* 4190: Dovecot managesieve
-
-.. _mail_dynamic_accounts:
-
-Dynamic account creation
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Applications may modify the file specified in the *passwdFile* option (default:
-:file:`/var/lib/dovecot/passwd`) to create mail accounts dynamically. Note that
-this file must comply to the :manpage:`passwd(5)` file format. This means that
-all 7 fields must be present, although only the first two (username=mail address
-and SHA-256 crypted password) are actually used.
-
-Dynamic accounts exist in addition to statically created accounts from
-:file:`users.json`.
-
-If there is both a statically configured password and an appropriate entry in
-the passwrd file, a user may authenticate successfully with either one. So make
-sure that the `hashedPassword` entry is empty if users are expected to change
-their password dynamically.
-
-
-Roundcube password change and vacation message
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Roundcube web UI allows to change the password and to install a vacation
-message via a preconfigured sieve script. Both functions can be accessed via the
-"Options" menu.
-
-
 Monitoring
-----------
+~~~~~~~~~~
 
 Monitoring checks/metrics created by this role:
 
