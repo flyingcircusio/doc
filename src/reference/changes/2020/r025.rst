@@ -1,16 +1,24 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-08-15
 
-Release 2020_025 (unreleased)
+Release 2020_025 (2020-08-15)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* nothing yet
+* Multiple service restarts are expected due to changed deep link dependencies
+  caused by security updates.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
+
+* Add logging syslog and journal to centralized loghosts for improved
+  platform-wide analysis and security (#126523).
+
+* Improve map file configuration mechanism for Postfix to more flexibly support 
+  different requirements to provide dynamic map data from configs and
+  applications. (#126884)
 
 * Prebuild wkhtmltopdf on Hydra to avoid expensive local compilation (#127964).
 
@@ -18,11 +26,20 @@ NixOS 19.03 platform
   stop on unreadable files now. Also fix setuid-root invocation: GC roots and
   cache files are opened with dropped privileges (#124165).
 
-* Security updates for Python 2.7 (patch against CVE-2019-20907), Ruby (2.5.7 ->
-  2.5.8, 2.6.5 -> 2.6.6), libarchive (3.3.3 -> 3.4.2), pcre2 (10.32 -> 10.34),
-  screen (4.6.2 -> 4.8.0).
+* Security updates for 
+
+	* Python 2.7 (patch against CVE-2019-20907),
+	* Ruby (2.5.7 -> 2.5.8, 2.6.5 -> 2.6.6),
+	* libarchive (3.3.3 -> 3.4.2),
+	* pcre2 (10.32 -> 10.34),
+	* screen (4.6.2 -> 4.8.0).
 
 * Fix Python package overrides in our overlay.
+
+* Fix mailstub usage in Vagrant. (#127577)
+
+* Disable automatic version checks for Graylog to avoid superfluous
+  alerts.
 
 
 NixOS 15.09 platform
@@ -30,21 +47,17 @@ NixOS 15.09 platform
 
 * Add logging syslog and journal to centralized loghosts for improved
   platform-wide analysis and security (#126523).
-* Prebuild `wkhtmltopdf` on Hydra to avoid expensive local compilation
-  (#127964).
 
 
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
+* Make firewalls more specific to limit NRPE outside access to 
+  cross location checks from known addresses. (#124651)
+
 * Add logging syslog and journal to centralized loghosts for improved
   platform-wide analysis and security (#126523).
 
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
