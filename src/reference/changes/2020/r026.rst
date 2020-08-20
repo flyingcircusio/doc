@@ -6,13 +6,14 @@ Release 2020_026 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Apache (in LAMP roles) will be reloaded/restarted.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Polish our new LAMP role: add logrotation, detailed Sensu monitoring, metrics integration
+  and grant access to service users to read the apache logs (#126611).
 
 
 NixOS 15.09 platform
@@ -24,13 +25,13 @@ NixOS 15.09 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security update rsync: 3.1 -> 3.2.3 (#127447).
 
 
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Update mail server role.
 
 
 .. vim: set spell spelllang=en:
