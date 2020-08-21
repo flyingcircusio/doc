@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-08-24
 
-Release 2020_026 (unreleased)
+Release 2020_026 (2020-08-24)
 -----------------------------
 
 Impact
@@ -14,12 +14,6 @@ NixOS 19.03 platform
 
 * Polish our new LAMP role: add logrotation, detailed Sensu monitoring, metrics integration
   and grant access to service users to read the apache logs (#126611).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Gentoo platform
