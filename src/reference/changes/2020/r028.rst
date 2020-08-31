@@ -6,13 +6,16 @@ Release 2020_028 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] All 19.03 machines will schedule a reboot.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Linux-Kernel to newest LTS (5.4) branch.
+  We have seen a number of VFS caching bugs with suspected memory leaks on a
+  number of machines for which no direct bugfix seems available.
+  Tests showed better behaviour on the newest LTS branch, though (#127876).
 
 
 NixOS 15.09 platform
