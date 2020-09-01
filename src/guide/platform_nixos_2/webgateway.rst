@@ -92,14 +92,21 @@ following is sufficient:
 For a more detailed description refer to :file:`/etc/local/nginx/README.txt`.
 
 
+Logging
+-------
+
+nginx' access logs are stored by default in :file:`/var/log/nginx/access.log`.
+Individual log files for virtual hosts can be defined in the corresponding
+configuration sections. Please use the *anonymized* log format for GRDP
+conformance.
+
+Example nginx.conf snippet::
+
+  access_log /var/log/nginx/myapp.log anonymized;
+
+
 Debugging
 ---------
-
-nginx' access logs are stored in:
-
-.. code-block:: console
-
-   $ ls /var/log/nginx/*.log
 
 nginx' error logs go to systemd's journal by default. To view them, use
 :manpage:`journalctl(1)` as usual, e.g.:
