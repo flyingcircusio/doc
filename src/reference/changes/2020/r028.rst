@@ -7,7 +7,7 @@ Impact
 ^^^^^^
 
 * [NixOS 19.03] All 19.03 machines will schedule a reboot.
-
+* [NixOS 19.03] Nginx will be restarted.
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -16,6 +16,15 @@ NixOS 19.03 platform
   We have seen a number of VFS caching bugs with suspected memory leaks on a
   number of machines for which no direct bugfix seems available.
   Tests showed better behaviour on the newest LTS branch, though (#127876).
+* Nginx (#127883)
+
+  * Update default package to latest stable version 1.18.0, add mainline version 1.19.0
+  * Structured JSON config: use frontend IPs instead of all interfaces when listenAddress is not given.
+  * Reload master process when Nginx package changes. This avoids restarts for updates in the future.
+  * Add modsecurity module.
+  * Don't listen on 0.0.0.0 port 80 by default.
+
+* Lower default retention period for nginx logs to 7 days (#127632).
 
 
 NixOS 15.09 platform
