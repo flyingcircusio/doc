@@ -25,6 +25,7 @@ NixOS 19.03 platform
   * Don't listen on 0.0.0.0 port 80 by default.
 
 * Lower default retention period for nginx logs to 7 days (#127632).
+* Add Gitlab role with docker registry integration (#124013).
 
 
 NixOS 15.09 platform
