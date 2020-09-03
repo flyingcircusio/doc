@@ -30,7 +30,7 @@ The appointed data protection officer is:
 
 | Nick Lindovsky
 | DITAC GmbH
-| OT Weißlandt-Gölzau · Raffineriestr. 09 · 06369 Südliches Anhalt
+| OT Weißandt-Gölzau · Raffineriestr. 09 · 06369 Südliches Anhalt
 | https://ditac.de · datenschutz@flyingcircus.io
 | `+49 34978 30186 <tel:+493497830186>`_
 
