@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-09-07
 
-Release 2020_028 (unreleased)
+Release 2020_028 (2020-09-07)
 -----------------------------
 
 Impact
@@ -26,24 +26,6 @@ NixOS 19.03 platform
 
 * Lower default retention period for nginx logs to 7 days (#127632).
 * Add Gitlab role with docker registry integration (#124013).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
