@@ -12,7 +12,7 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Pick up changed Postfix map files (like transport etc.) on systemctl reload postfix (#127993).
 
 
 NixOS 15.09 platform
