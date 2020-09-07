@@ -148,16 +148,56 @@ trained. Note that the spam filter needs a certain amount of training material
 to become effective. This means that training effects will show up after time
 and not immediately.
 
+.. _mail-into-backends:
+
+
+How do I feed mails into an application?
+----------------------------------------
+
+Feeding mails destined to special accounts into backend application servers can
+be done with a transport_ map. Transport and other Postfix lookup tables are
+declared inside a `dynamicMaps` key in config.json. The application should open a
+port capable of speaking SMTP on its srv interface. Example::
+
+  "dynamicMaps": {
+    "transport_maps": [ "/etc/local/mail/transport" ]
+  }
+
+Example transport file contents::
+
+  specialaddress@test.fcio.net relay:172.30.40.50:8025
+
+In case a whole subdomain should be piped into an application server, we need
+both a transport and a relay_domains_ map. Both map declarations may point to
+the same source as *relay_domains* uses only the first field of each line.
+
+Example `config.json` snippet::
+
+  dynamicMaps": {
+    "transport_maps": [ "/etc/local/mail/transport" ],
+    "relay_domains": [ "/etc/local/mail/transport" ]
+  }
+
+Example transport file contents::
+
+  subdomain.test.fcio.net relay:172.30.40.50:8025
+
+An DNS MX record for that subdomain must be present as well.
+
+Invoke :command:`sudo systemctl reload postfix` to recompile maps after map
+contents has been changed. Invoke :command:`sudo fc-manage --build` as usual if
+the contents of `config.json` has been changed.
+
+.. _relay_domains: http://www.postfix.org/postconf.5.html#relay_domains
+
 
 Reference
 ---------
 
-Glossary
-~~~~~~~~
+DNS Glossary
+~~~~~~~~~~~~
 
-Mail servers need proper DNS configuration. DNS configuration errors will likely
-result in mail being rejected by remote mail servers. Some important
-terminology:
+Some important terminology for understanding DNS issues:
 
 HELO name
   The canonical name of the mail server. The HELO name is the same as the value
@@ -204,6 +244,12 @@ webmailHost
 rootAlias
   E-mail address to receive all mails to the local root account.
 
+dynamicMaps
+  Hash map of Postfix maps (like transport_) and one or more file paths
+  containing map records. See section :ref:`mail-into-backends` for details.
+
+.. _transport: http://www.postfix.org/transport.5.html
+
 Specialist options:
 
 redisDatabase
@@ -226,6 +272,8 @@ passwdFile
 
 User options
 ~~~~~~~~~~~~
+
+Keys that can be set per user in :file:`/etc/local/mail/users.json`.
 
 aliases
   List of alternative e-mail addresses that will be delivered into this
