@@ -1,0 +1,36 @@
+.. XXX update on release :Publish Date: YYYY-MM-DD
+
+Release 2020_030 (unreleased)
+-----------------------------
+
+Impact
+^^^^^^
+
+* nothing yet
+
+
+NixOS 19.03 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* nothing yet
+
+
+NixOS 15.09 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* nothing yet
+
+
+Gentoo platform
+^^^^^^^^^^^^^^^
+
+* nothing yet
+
+
+Documentation
+^^^^^^^^^^^^^
+
+* nothing yet
+
+
+.. vim: set spell spelllang=en:

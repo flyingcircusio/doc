@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-09-14
 
-Release 2020_029 (unreleased)
+Release 2020_029 (2020-09-14)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -15,23 +9,5 @@ NixOS 19.03 platform
 * Pick up changed Postfix map files (like transport etc.) on systemctl reload postfix (#127993).
 * Add Jitsi Meet role (#127649).
 * Automatically remove left over /result symlinks to free disk space (#128533).
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 .. vim: set spell spelllang=en:
