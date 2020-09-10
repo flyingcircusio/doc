@@ -13,7 +13,8 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Pick up changed Postfix map files (like transport etc.) on systemctl reload postfix (#127993).
-
+* Add Jitsi Meet role (#127649).
+* Automatically remove left over /result symlinks to free disk space (#128533).
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
