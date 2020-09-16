@@ -97,7 +97,7 @@ Logging
 
 nginx' access logs are stored by default in :file:`/var/log/nginx/access.log`.
 Individual log files for virtual hosts can be defined in the corresponding
-configuration sections. Please use the *anonymized* log format for GRDP
+configuration sections. Please use the *anonymized* log format for GDPR
 conformance.
 
 Example nginx.conf snippet::
