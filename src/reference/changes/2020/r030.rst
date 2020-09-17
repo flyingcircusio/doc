@@ -1,36 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-09-21
 
-Release 2020_030 (unreleased)
+Release 2020_030 (2020-09-21)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Update Jitsi videobridge to fix an error that closed all client connections (#128579).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
