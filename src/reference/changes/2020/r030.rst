@@ -12,7 +12,7 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update Jitsi videobridge to fix an error that closed all client connections (#128579).
 
 
 NixOS 15.09 platform
