@@ -54,7 +54,7 @@ First the VM's filesystem is being frozen to ensure consistency of the backup.
 Then a snapshot of the volume is made. The snapshot is then retrieved by the
 backup server as a difference to the previous backup. After the backup is finished a random sample is verified against the snapshot, to further ensure consistency.
 
-The backup procedure is logged to the filessystem of the backup server. We automatically monitor that all backups are taken within the agreed schedule.
+The backup procedure is logged to the filesystem of the backup server. We automatically monitor that all backups are taken within the agreed schedule.
 
 Restore
 -------
