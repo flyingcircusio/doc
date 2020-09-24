@@ -6,7 +6,8 @@ Release 2020_031 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 19.03] Multiple services will be restarted, including elasticsearch, mongodb, mysql, postgresql, redis, rabbitmq and sshd.
+* [NixOS 19.03] Multiple services will be restarted, including elasticsearch,
+  httpd, mongodb, mysql, openvpn, postgresql, redis, rabbitmq and sshd.
 
 
 NixOS 19.03 platform
