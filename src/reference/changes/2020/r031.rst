@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-09-28
 
-Release 2020_031 (unreleased)
+Release 2020_031 (2020-09-28)
 -----------------------------
 
 Impact
@@ -24,24 +24,6 @@ NixOS 19.03 platform
 * Journal, logging: make unit script names more readable, for example
   ``postgresql-start`` instead of ``<hash>-unit-script-postgresql-start`` (#126523).
 
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
