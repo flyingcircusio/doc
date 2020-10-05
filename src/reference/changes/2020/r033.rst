@@ -6,13 +6,14 @@ Release 2020_033 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03]: Jitsi will be restarted, interrupts running conferences for a short time
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Jitsi: update all components to the newest stable release (#128836).
+* Docker role: add docker-compose (#128931).
 
 
 NixOS 15.09 platform
