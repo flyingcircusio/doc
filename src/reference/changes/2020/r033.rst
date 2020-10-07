@@ -14,6 +14,8 @@ NixOS 19.03 platform
 
 * Jitsi: update all components to the newest stable release (#128836).
 * Docker role: add docker-compose (#128931).
+* Agent: Spread build start time for updates on production VMs over a longer time period.
+  This should decrease load on our systems and improve availability during release rollouts (#127919).
 
 
 NixOS 15.09 platform
