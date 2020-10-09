@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-10-12
 
-Release 2020_033 (unreleased)
+Release 2020_033 (2020-10-12)
 -----------------------------
 
 Impact
@@ -16,24 +16,6 @@ NixOS 19.03 platform
 * Docker role: add docker-compose (#128931).
 * Agent: Spread build start time for updates on production VMs over a longer time period.
   This should decrease load on our systems and improve availability during release rollouts (#127919).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
