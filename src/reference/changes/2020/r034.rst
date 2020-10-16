@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-10-19
 
-Release 2020_034 (unreleased)
+Release 2020_034 (2020-10-19)
 -----------------------------
 
 Impact
@@ -19,24 +19,6 @@ NixOS 19.03 platform
 
 * LAMP role: Allow defining multiple virtual hosts with port/docroot pairs in
   JSON files in `/etc/local/lamp/*.vhost.json` (#128815).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
