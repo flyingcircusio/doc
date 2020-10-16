@@ -6,13 +6,19 @@ Release 2020_034 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Apache on LAMP servers will get restarted.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Security updates: ClamAV 0.101.2 -> 0.102.4; Asterisk 15.3.0 -> 16.1.1.
+
+* Docker: Disable policy routing on VM running Docker to fix problems with
+  container networking (#128979).
+
+* LAMP role: Allow defining multiple virtual hosts with port/docroot pairs in
+  JSON files in `/etc/local/lamp/*.vhost.json` (#128815).
 
 
 NixOS 15.09 platform
