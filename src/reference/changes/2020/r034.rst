@@ -6,7 +6,7 @@ Release 2020_034 (2020-10-20)
 Impact
 ^^^^^^
 
-* Apache on LAMP servers will get restarted.
+* [NixOS 19.03] Apache on LAMP servers will get restarted.
 
 
 NixOS 19.03 platform
