@@ -81,11 +81,11 @@ This should show that 2 coredns pods and a dashboard pod are running.
 
 .. _nixos2-dashboard-and-external-api:
 
-Dashboard and External API Access
----------------------------------
+External API Access
+-------------------
 
 **sudo-srv** users can generate a kubeconfig usable for :command:`kubectl`
-and the Kubernetes dashboard by running :command:`kubernetes-make-kubeconfig`
+by running :command:`kubernetes-make-kubeconfig`
 on the VM with the master role. This kubeconfig contains all information needed
 for access and can be copied to any machine.
 
@@ -104,11 +104,7 @@ The kubeconfig contains the client certificate for the user and a
 token to access a service account associated with the user.
 Running the script for the first time sets up the service account.
 Certificate and token provide **cluster-admin** privileges.
-For authentication, Kubectl uses the SSL client certificate whereas the
-dashboard uses the token.
-
-API
-^^^
+For authentication, Kubectl uses the SSL client certificate.
 
 The API can be accessed from any machine using the kubeconfig:
 
@@ -121,12 +117,15 @@ You can also move the kubeconfig to :file:`~/.kube/config` to use it as the
 default config.
 
 Dashboard
-^^^^^^^^^
+---------
 
 The Kubernetes dashboard can be accessed via `https://kubernetes.<project-name>.fcio.net`,
 for example `https://kubernetes.myproject.fcio.net`.
 
-Select your kubeconfig file on the login screen:
+The Kubernetes dashboard has full cluster admin privileges.
+Only users in the **login** group are allowed to log in.
+
+Log in with your FCIO credentials:
 
 .. image:: ../../images/kubernetes_dashboard_login.png
    :width: 500px

@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-10-26
 
-Release 2020_035 (unreleased)
+Release 2020_035 (2020-10-26)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -15,24 +9,6 @@ NixOS 19.03 platform
 * Kubernetes: run CoreDNS and Dashboard as SystemD services on the master;
   Dashboard now uses HTTP Basic Auth instead of kubeconfig files for authentication (#128939).
 * Vagrant: ``/etc/local/nginx/htpasswd_fcio_users`` now includes the vagrant user (#129041).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
