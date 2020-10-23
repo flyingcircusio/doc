@@ -12,7 +12,9 @@ Impact
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Kubernetes: run CoreDNS and Dashboard as SystemD services on the master;
+  Dashboard now uses HTTP Basic Auth instead of kubeconfig files for authentication (#128939).
+* Vagrant: ``/etc/local/nginx/htpasswd_fcio_users`` now includes the vagrant user (#129041).
 
 
 NixOS 15.09 platform
