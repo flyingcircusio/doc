@@ -17,8 +17,7 @@ NixOS 19.03 platform
 * Docker: Disable policy routing on VM running Docker to fix problems with
   container networking (#128979).
 
-* LAMP role: Allow defining multiple virtual hosts with port/docroot pairs in
-  JSON files in `/etc/local/lamp/*.vhost.json` (#128815).
+* LAMP role: Allow defining multiple virtual hosts with port/docroot pairs (#128815).
 
 
 .. vim: set spell spelllang=en:
