@@ -122,15 +122,11 @@ Dashboard
 The Kubernetes dashboard can be accessed via `https://kubernetes.<project-name>.fcio.net`,
 for example `https://kubernetes.myproject.fcio.net`.
 
-The Kubernetes dashboard has full cluster admin privileges.
+The Kubernetes dashboard has full cluster admin privileges and is protected by HTTP basic auth.
 Only users in the **login** group are allowed to log in.
 
-Log in with your FCIO credentials:
-
-.. image:: ../../images/kubernetes_dashboard_login.png
-   :width: 500px
-
-After signing in, a dashboard for a healthy cluster should look like this:
+After signing in with your FCIO credentials, a dashboard for a healthy cluster
+should look like this:
 
 .. image:: ../../images/kubernetes_dashboard_healthy.png
    :width: 500px
