@@ -7,12 +7,14 @@ Impact
 ^^^^^^
 
 * [NixOS 19.03] Jitsi conferences may be interrupted for a short time period.
+* [NixOS 19.03] MongoDB will be restarted on loghost/graylog VMs.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Jitsi: fix some TURN problems which are relevant when UDP access to videobridge is disabled or blocked (#128990).
+* Loghost/graylog: upgrade MongoDB to 3.6 (#129344).
 
 
 NixOS 15.09 platform
