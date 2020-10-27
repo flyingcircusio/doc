@@ -6,13 +6,13 @@ Release 2020_036 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Jitsi conferences may be interrupted for a short time period.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Jitsi: fix some TURN problems which are relevant when UDP access to videobridge is disabled or blocked (#128990).
 
 
 NixOS 15.09 platform
