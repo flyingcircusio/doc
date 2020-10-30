@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-11-02
 
-Release 2020_036 (unreleased)
+Release 2020_036 (2020-11-02)
 -----------------------------
 
 Impact
@@ -15,24 +15,6 @@ NixOS 19.03 platform
 
 * Jitsi: fix some TURN problems which are relevant when UDP access to videobridge is disabled or blocked (#128990).
 * Loghost/graylog: upgrade MongoDB to 3.6 (#129344).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
