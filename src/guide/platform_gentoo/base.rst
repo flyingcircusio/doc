@@ -158,8 +158,6 @@ Packages
 
 |
 
-* `net-fs/box <http://packages.gentoo.org/package/net-fs/box>`_ (Utility to manage access to users' NFS box directories)
-
 * `net-fs/nfs-utils <http://packages.gentoo.org/package/net-fs/nfs-utils>`_ (NFS client and server daemons)
 
 |

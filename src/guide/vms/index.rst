@@ -8,12 +8,6 @@
 Virtual machines
 ****************
 
-
-.. toctree::
-    :hidden:
-
-    box
-
 * VMs are run on the Linux Qemu/KVM hypervisor.
 * Virtual disks are stored in CEPH RBD volumes.
 
