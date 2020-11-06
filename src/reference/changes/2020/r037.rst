@@ -15,6 +15,7 @@ NixOS 19.03 platform
 * Remove outdated NFS box. It is going to be replaced with *wormhole* (#120545).
 * Jitsi: update packages, should fix a memory leak in the videobridge with some
   newer Chrome versions (#129464).
+* Webgateway: fix ``X-Forwarded-Server`` to use ``$server_name`` instead of ``$host`` (#3-129399).
 
 
 NixOS 15.09 platform
