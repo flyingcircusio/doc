@@ -26,7 +26,7 @@ NixOS 15.09 platform
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
-* nothing yet
+* Update fc.qemu to get explicit AMD cpu model support (3-126540).
 
 
 Documentation
