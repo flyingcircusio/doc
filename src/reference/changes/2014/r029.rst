@@ -6,7 +6,7 @@ Release 2014_029 (2014-06-12)
 Configuration
 ^^^^^^^^^^^^^
 
-* Make :ref:`box <box>` related configuration code resilient against NFS server
+* Make `box` related configuration code resilient against NFS server
   failures (RT 95753).
 * Rule out scheduling bug that causes some jobs to never run (RT 95823).
 * Reduce number of open files for Ceph to avoid file descriptor table overflows

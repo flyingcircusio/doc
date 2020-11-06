@@ -21,7 +21,7 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Security update for GLSA 201606-18: icedtea-bin, glibc (#22453).
-* Fix :ref:`box` bug where box directories could not be mounted (#22514).
+* Fix `box` bug where box directories could not be mounted (#22514).
 
 
 .. vim: set spell spelllang=en:

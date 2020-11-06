@@ -19,7 +19,7 @@ Packages
 Configuration
 ^^^^^^^^^^^^^
 
-* Change :ref:`box` directories from direct mountpoints to symbolic links
+* Change `box` directories from direct mountpoints to symbolic links
   and autofs. This improves VM startup reliability (#19668).
 * Improve reliability of the VM bootstrap process.
 
