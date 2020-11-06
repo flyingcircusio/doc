@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-11-09
 
-Release 2020_037 (unreleased)
+Release 2020_037 (2020-11-09)
 -----------------------------
 
 Impact
@@ -27,12 +27,6 @@ Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * Update fc.qemu to get explicit AMD cpu model support (3-126540).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
