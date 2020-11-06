@@ -6,19 +6,21 @@ Release 2020_037 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 19.03] Jitsi conferences will be interrupted for a short time.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-*  Remove outdated NFS box. It is going to be replaced with *wormhole* (#120545).
+* Remove outdated NFS box. It is going to be replaced with *wormhole* (#120545).
+* Jitsi: update packages, should fix a memory leak in the videobridge with some
+  newer Chrome versions (#129464).
 
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-*  Remove outdated NFS box. It is going to be replaced with *wormhole* (#120545).
+* Remove outdated NFS box. It is going to be replaced with *wormhole* (#120545).
 
 
 Gentoo platform
