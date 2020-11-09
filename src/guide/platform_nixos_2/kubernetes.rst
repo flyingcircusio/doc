@@ -51,7 +51,7 @@ must be disabled manually to run pods on it.
 Cluster Management
 ------------------
 
-**sudo-srv** users can run :command:`kubectl` on the master node to manage the
+**sudo-srv** users can run :command:`kubectl` on the master VM to manage the
 cluster. You can also use the dashboard or :command:`kubectl` on your local
 machine as described in :ref:`nixos2-dashboard-and-external-api`.
 
