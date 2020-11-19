@@ -125,11 +125,7 @@ credentials with another person is prohibited.  Credentials can be either a
 username and a cryptographic measure (e.g. a private/public key scheme) or a
 password, depending on the applicability.
 
-Users with a Flying Circus account are required to manage their password securely:
-unauthorized physical or logical access to objects that can potentially store
-passwords may not result in a compromised passwords. Examples are: Home
-directory on a laptop, keychain or password manager software, backups, USB
-sticks, smartphones. Strongly encrypted storage of passwords is permissible. For Flying Circus Staff there is a separate *guideline for handling secret authentication information*.
+Users with a Flying Circus account are required to manage their password securely: Passwords must not be compromised if a device is being accessed unauthorizedly (logically or physically). Things to consider are for example: Home directory on a notebook, keychain or password manager software, backups, USB sticks, smartphones. Strongly encrypted storage of passwords is permitted and even advised. For Flying Circus staff there is a separate *guideline for handling secret authentication information*.
 
 All hardware machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
