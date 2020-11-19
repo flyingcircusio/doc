@@ -48,10 +48,9 @@ Reboot
 ------
 
 Automated reboots are announced according to the maintenance schedule. Users
-granted the `sudo-srv` permission are able to reboot a VM immediately by
-calling::
+granted the `sudo-srv` permission are able to reboot a VM immediately via the customer portal at https://my.flyingcircus.io.
 
-  sudo shutdown -r now
+Machines should *not* be rebooted manually on the command line (e.g. `sudo systemctl reboot`). Monitoring systems will consider this *unplanned*, likely causing an alarm.
 
 Deletion
 --------
