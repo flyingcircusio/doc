@@ -4,7 +4,7 @@ Memcached
 =========
 
 This role installs the `Memcached <https://memcached.org>`_ memory object caching
-system in the latest version provided by NixOS 19.03.
+system in the latest version provided by NixOS.
 
 Configuration
 -------------
