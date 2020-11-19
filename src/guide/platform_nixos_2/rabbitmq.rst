@@ -5,7 +5,7 @@ RabbitMQ
 
 This role provides a managed instance of the `RabbitMQ <http://rabbitmq.com>`_ message broker.
 
-We provide RabbitMQ versions 3.6.5, 3.6.15 and the latest 3.7.x supported by NixOS 19.03.
+We provide RabbitMQ versions 3.6.5, 3.6.15 and the latest 3.7.x supported by NixOS.
 
 Configuration
 -------------
