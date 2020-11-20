@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-11-23
 
-Release 2020_038 (unreleased)
+Release 2020_038 (2020-11-23)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -24,24 +18,6 @@ NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * antivirus: fix monitoring check that virus database is up-to-date (#PL-129234).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
