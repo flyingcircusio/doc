@@ -145,8 +145,12 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 Access control
 --------------
 
+.. ISMSControl: A.9.1.1
+
 **Measures for access control protect against access by unauthorized
 personnel.**
+
+Customer-owned virtual machines may be accessed by all Flying Circus :ref:`administrators <administrators>` implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
 Flying Circus implements a permission-based concept to separate application
 maintenance tasks from privileged administrative tasks: for example, customer
