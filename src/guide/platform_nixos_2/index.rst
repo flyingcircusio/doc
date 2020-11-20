@@ -3,8 +3,8 @@
 Platform: NixOS 19.03/20.09
 ===========================
 
-Our third-generation platform is based upon `NixOS 19.03 <http://nixos.org/>`_
-and NixOS 20.09.
+Our third-generation platform is based upon `NixOS <http://nixos.org/>`_
+19.03 and 20.09.
 
 NixOS provides `novel approaches <https://nixos.org/features.html>`_ for
 installing and managing software.
