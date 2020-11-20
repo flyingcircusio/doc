@@ -111,6 +111,8 @@ Entry control
 **Measures for entry control ensure that unauthorized third parties can not make use
 of the data processing systems.**
 
+.. ISMSControl: A.9.4.2
+
 Machines managed within the Flying Circus can be accessed by a variety of ways for
 management purposes: SSH, web interfaces, and others. For those we employ
 a homogeneous scheme to identify and authorize users within the Flying Circus.
@@ -141,8 +143,18 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 Access control
 --------------
 
+.. ISMSControl: A.9.1.1
+
 **Measures for access control protect against access by unauthorized
 personnel.**
+
+Customer-owned virtual machines may be accessed by all Flying Circus :ref:`administrators <administrators>` implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
+
+.. ISMSControl: A.9.2.1
+.. ISMSControl: A.9.2.2
+.. ISMSControl: A.9.2.6
+
+Users are centrally managed using https://my.flyingcircus.io. Users are automatically provisioned to all relevant systems, including proper removal of access rights.
 
 Flying Circus implements a permission-based concept to separate application
 maintenance tasks from privileged administrative tasks: for example, customer
@@ -190,6 +202,8 @@ controllers are stored as copies in a strongly encrypted password manager.
 
 Transfer control
 ----------------
+
+.. ISMSControl: A.14.1.2
 
 **Measures for transfer control ensure that data that is being saved or
 transferred is protected against unauthorized reading, copying, modification, or
@@ -241,7 +255,7 @@ with sensible retention times.
 
 Changes in the Flying Circus user directory (e.g., SSH keys) can be performed by
 the customer themselves or through our support. If the change happens through
-our support hen it  must be documented beforehand and confirmed by the customer
+our support then it must be documented beforehand and confirmed by the customer
 after the change has been performed.
 
 
