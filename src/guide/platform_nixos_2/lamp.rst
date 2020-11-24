@@ -3,8 +3,8 @@
 LAMP (Apache/mod_php)
 =====================
 
-The LAMP role starts a managed instance of Apache with ``mod_php`` that can be used
-to easily run a production-ready PHP application server.
+The LAMP role starts a managed instance of Apache with ``mod_php`` that can be
+used to easily run a production-ready PHP application server.
 
 .. note::
 
@@ -13,47 +13,102 @@ to easily run a production-ready PHP application server.
 	directly to consumers but should be placed behind a :ref:`webgateway
 	<nixos2-webgateway>`.
 
-.. note::
-
-	An alternative route for running PHP applications that we support is the
-	use of nginx with PHP-FPM. However, those setups are a bit more elaborate
-	and less widely used in the PHP community. They also do not support
-	``.htaccess`` files.
-
 Configuration
 -------------
 
-docroot (required)
-~~~~~~~~~~~~~~~~~~
+This role is configured exclusively using NixOS configuration options. It can
+provide multiple applications by setting up multiple vhosts and you can put the
+configuration in a single file or distribute it over multiple files depending on
+your use case.
 
-The Apache server is fully pre-configured to serve your application to the 
-load balancer and you only need to point it to the docroot of your application.
+As a service user, place a file in :file:`/etc/local/nixos/{myservice}.nix`:
 
-Apache looks for the docroot in :file:`/etc/local/lamp/docroot` which is expected to be a symlink to the actual location where you placed you PHP code, typically in the home directory of a service user.
+A complete configuration might looks something like this:
 
-Assuming that you are placing your PHP code to :file:`/srv/s-myservice/code/docroot/` then you configure the PHP root by running:
+.. code-block:: Nix
 
-.. code-block:: console
+	{ ... }:
 
-	$ sudo -i -u s-myservice
-	$ cd /etc/local/lamp
-	$ ln -s /srv/s-myservice/code/docroot docroot
-	$ sudo fc-manage -b
+	{
 
-apache.conf
-~~~~~~~~~~~
+	  flyingcircus.roles.lamp = {
 
-No Apache configuration is required by default. However, you can put a file with Apache configuration in :file:`/etc/local/lamp/apache.conf` and it will be appended to the platform-generated Apache config.
+	    vhosts = [
+	      { port = 8000;
+	        docroot = "/srv/s-myserviceuser/application.git/docroot";
+	      }
+	    ];
 
-php.ini
-~~~~~~~
+	    apache_conf = ''
+	      MaxRequestWorkers 5
+	    '';
 
-We deliver a production-tested PHP configuration that you can extend by placing additional configuration instructions in :file:`/etc/local/lamp/php.ini`.
+	    php_ini = ''
+	      ; max filesize
+	      upload_max_filesize = 200M
+	      post_max_size = 200M
+
+
+	      date.timezone = Europe/Berlin
+
+	      session.save_handler = redis
+	      session.save_path = "tcp://myservice01:6379?auth=<secret>"
+	    '';
+
+	  };
+	}
+
+
+``flyingcircus.roles.lamp.vhost`` (required)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The vhost configuration allows you to configure multiple applications per VM
+each running on a separate port. The two options for every vhost thus are:
+
+``port``
+	The port number that Apache should listen on for this application.
+	We recommend starting with 8000 and counting up from there.
+
+``docroot``
+	The absolute path to the docroot of your application.
+
+``flyingcircus.roles.lamp.apache_conf`` (optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Any text written here will be included in the global Apache configuration. Use
+this to adjust global settings like workers:
+
+
+.. code-block:: ApacheConf
+
+	MaxRequestWorkers 5
+
+Note that if you distribute your configuration over multiple files then you
+can repeat this option and the values will be concatenated to a single big
+Apache config file. They will also always apply to all vhosts.
+
+``flyingcircus.roles.lamp.php_ini`` (optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We deliver a production-tested PHP configuration that you can extend by placing
+additional configuration instructions in this option:
+
+.. code-block:: INI
+
+	; max filesize
+	upload_max_filesize = 200M
+	post_max_size = 200M
+
+Similar to the ``flyingcircus.roles.lamp.apache_conf`` option this will 
+be concatenated with from all Nix configuration files with our global platform
+settings and will be applied to all vhosts.
 
 PHP version and modules
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-We currently provide a single pre-selected version of PHP (7.3) with a fixed set of modules. Please contact our support if you need a different version of PHP and/or further modules.
+We currently provide a single pre-selected version of PHP (7.3) with a fixed set
+of modules. Please contact our support if you need a different version of PHP
+and/or further modules. 
 
 Interaction
 -----------
@@ -76,8 +131,8 @@ Security
 * Apache runs in a separate user who is a member of the ``service`` group and 
   thus can (by default) access files owned by service users.
 
-* Access is read-only for apache by default, but you can grant write access
-  for directories by running :command:``chmod g+rwsx`` on the directory.
+* Access is read-only for Apache by default, but you can grant write access for
+  directories by running :command:``chmod g+rwsx`` on the directory.
 
 Debugging
 ---------
