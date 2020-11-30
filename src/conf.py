@@ -207,4 +207,4 @@ feed_description = 'Flying Circus manual'
 
 
 def setup(app):
-    app.add_stylesheet('flyingcircus.css')
+    app.add_css_file('flyingcircus.css')
