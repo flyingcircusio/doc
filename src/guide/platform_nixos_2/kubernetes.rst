@@ -7,7 +7,7 @@ Kubernetes Cluster
 
     Kubernetes support is – at the moment – still experimental. Feel free
     to use it but we suggest contacting our support before putting anything into
-    production.
+    production. We only support the Kubernetes roles on our NixOS 20.09 platform.
 
 
 Kubernetes Version and Documentation

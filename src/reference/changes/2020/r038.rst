@@ -1,36 +1,23 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-11-23
 
-Release 2020_038 (unreleased)
+Release 2020_038 (2020-11-23)
 -----------------------------
 
-Impact
-^^^^^^
+NixOS 20.09 platform
+^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+First release of our platform based on NixOS 20.09.
+Documentation is still the same for 19.03 and 20.09. They will be separated later.
+
+We will follow the semi-annual release schedule of NixOS closely starting with this release.
+This means faster security updates, more up-to-date software versions,
+smoother platform upgrades and a better integration with the NixOS community.
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
+* antivirus: fix monitoring check that virus database is up-to-date (#PL-129234).
 
 
 .. vim: set spell spelllang=en:

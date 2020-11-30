@@ -4,7 +4,7 @@ Redis
 =====
 
 This role installs the `Redis <https://redis.io>`_ in-memory data structure store
-in the latest version provided by NixOS 19.03.
+in the latest version provided by NixOS.
 
 Components
 ----------

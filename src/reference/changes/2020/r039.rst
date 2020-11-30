@@ -1,6 +1,6 @@
 .. XXX update on release :Publish Date: YYYY-MM-DD
 
-Release YYYY_NNN (unreleased)
+Release 2020_039 (unreleased)
 -----------------------------
 
 Impact
@@ -12,7 +12,8 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Kubernetes: flannel update and other improvements to fix slow restart times
+  and missing network connectivity after node reboots (PL-129513).
 
 
 NixOS 19.03 platform

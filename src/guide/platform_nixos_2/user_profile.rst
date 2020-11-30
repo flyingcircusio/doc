@@ -35,9 +35,9 @@ Create a file like :file:`myproject_env.nix` which specifies the packages to be 
    let
      # Imports. Which package sources should be used?
      # Use a pinned NixOS version, see https://nixos.org/channels
-     pkgs = import (fetchTarball https://releases.nixos.org/nixos/19.09/nixos-19.09.2149.58a9acf75a3/nixexprs.tar.xz) {};
-     # ...or just use the current NixOS version of the platform, currently 19.03
-     # pkgs = import <nixpkgs> {};
+     # pkgs = import (fetchTarball https://releases.nixos.org/nixos/19.09/nixos-19.09.2149.58a9acf75a3/nixexprs.tar.xz) {};
+     # ...or just use the current NixOS version of the platform
+     pkgs = import <nixpkgs> {};
    in
    pkgs.buildEnv {
      name = "myproject-env";
