@@ -14,12 +14,16 @@ NixOS 20.09 platform
 
 * Kubernetes: flannel update and other improvements to fix slow restart times
   and missing network connectivity after node reboots (PL-129513).
+* Kubernetes: add kubernetes-frontend role that provides a pre-configured HAProxy
+  to load-balance external traffic to nodes.
+  VMs without any kubernetes role don't have access to the cluster network anymore (#PL-129522).
+* Nginx: cover usage of mod_security in our nginx platform tests to ensure that it works (PL-129514).
 
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide zip in our default installation (PL-129517).
 
 
 NixOS 15.09 platform
