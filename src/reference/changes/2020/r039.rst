@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-12-07
 
-Release 2020_039 (unreleased)
+Release 2020_039 (2020-12-07)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -33,24 +27,6 @@ NixOS 19.03 platform
 
 * Provide zip in our default installation (PL-129517).
 * Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the rotation count for logrotate (PL-129495).
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 .. vim: set spell spelllang=en:
