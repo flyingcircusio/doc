@@ -23,6 +23,9 @@ NixOS 20.09 platform
 * LAMP role: remove deprecated configuration and standardize on pure NixOS-based configuration options (PL-128815).
 * Review and streamline our wkhtmltopdf builds (0.12.4, 0.12.5, 0.12.6) to reflect build options as used by upstream.
   Added test coverage to validate proper usage of fonts in CSS (#129939).
+* PostgreSQL: install globally available commands (like psql) with the same version as the active role;
+  link socket which is now in /run/postgresql for all versions to old location in /tmp (PL-129526).
+* Varnish: fix error on reload when deleting the old config (PL-129524).
 
 
 NixOS 19.03 platform
