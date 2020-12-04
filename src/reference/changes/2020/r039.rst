@@ -20,6 +20,7 @@ NixOS 20.09 platform
 * Nginx: cover usage of mod_security in our nginx platform tests to ensure that it works (PL-129514).
 * Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the rotation count for logrotate (PL-129495).
 * Provide zip in our default installation (PL-129517).
+* LAMP role: remove deprecated configuration and standardize on pure NixOS-based configuration options (PL-128815).
 * Review and streamline our wkhtmltopdf builds (0.12.4, 0.12.5, 0.12.6) to reflect build options as used by upstream.
   Added test coverage to validate proper usage of fonts in CSS (#129939).
 
