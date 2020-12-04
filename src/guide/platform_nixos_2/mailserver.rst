@@ -80,7 +80,7 @@ Edit :file:`/etc/local/mail/users.json` to add user accounts. Example::
   {
     "user1@test.fcio.net": {
       "aliases": ["first.last@test.fcio.net"],
-      "hashedPassword": "$5$NTTg86onSoM1MK$Xir/pTc9G/TLM1LResKlyAip1oO9XcsmUKXaf7ALIS2"
+      "hashedPassword": "$5$NTTg86onSoM1MK$Xir/pTc9G/TLM1LResKlyAip1oO9XcsmUKXaf7ALIS2",
       "quota": "4G",
       "sieveScript": null
     }
