@@ -158,7 +158,7 @@ Declare a `virtual alias`_ map and create remote aliases there. Add the
 following snippet to config.json::
 
   "dynamicMaps": {
-    "virtual_alias_maps": "/etc/local/mail/virtual_aliases"
+    "virtual_alias_maps": ["/etc/local/mail/virtual_aliases"]
   }
 
 Create :file:`/etc/local/mail/virtual_aliases`. Example contents::
