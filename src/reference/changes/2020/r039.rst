@@ -29,4 +29,11 @@ NixOS 19.03 platform
 * Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the rotation count for logrotate (PL-129495).
 
 
+Detailed changes
+^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09>`_, `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f>`_
+* NixOS 19.03: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2020_038...fc/r2020_039/19.03>`_
+
+
 .. vim: set spell spelllang=en:
