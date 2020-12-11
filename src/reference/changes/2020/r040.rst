@@ -12,7 +12,10 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Letsencrypt SSL certificates: automatic certificate renewal now only runs
+  once a day and is retried if it fails (#PL-129535).
+* Nginx: make sure that temporary directories have correct permissions and
+  clean up leftover files after 10 days (#PL-129529).
 
 
 NixOS 19.03 platform
