@@ -1,13 +1,12 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2020-12-14
 
-Release 2020_040 (unreleased)
+Release 2020_040 (2020-12-14)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* nothing yet
-
+* [NixOS 20.09] VMs will be rebooted to activate a new kernel.
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -16,30 +15,17 @@ NixOS 20.09 platform
   once a day and is retried if it fails (#PL-129535).
 * Nginx: make sure that temporary directories have correct permissions and
   clean up leftover files after 10 days (#PL-129529).
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
+* Merge upstream NixOS changes, including a new kernel version.
 
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Kubernetes: general update, explain haproxy load-balancing.
 
+Detailed changes
+^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2020_039/20.09...434bc8e77fa5fa8aaed8e544c13bcf7c31424bd2>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/ddf1ef86071abd6270dc9a48da38bfe6ba34427f...71c5ae6ce4e1026f7da31cb6074dbb1fc773725c>`_
 
 .. vim: set spell spelllang=en:
