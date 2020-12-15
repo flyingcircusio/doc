@@ -21,10 +21,10 @@ in {
       PATH = with pkgs; lib.makeBinPath [ coreutils gnutar gzip ];
       args = [ "-ec" ''
         mkdir -p $out/nix-support
-        tar czf $out/platform-doc.tar.gz -C $src .
+        tar czf $out/platform-doc.tar.gz --mode +w -C $src .
         echo "file tarball $out/platform-doc.tar.gz" >> $out/nix-support/hydra-build-products
         cp $src/objects.inv $out
-        echo "file objects $out/objects.inv" >> $out/nix-support/hydra-build-products
+        echo "file inventory $out/objects.inv" >> $out/nix-support/hydra-build-products
       ''];
     }
   );
