@@ -1,5 +1,5 @@
 { pkgs ? import <nixpkgs> {}
-, doc ? {
+, src ? {
     outPath = ./.;
     revCount = 0;
     shortRev = "0000000";
@@ -13,9 +13,9 @@ in {
   platformDoc = lib.hydraJob (
     pkgs.stdenv.mkDerivation {
       name = "platform-doc";
-      src = (import ./. {
+      src = (import src.outPath {
         inherit pkgs;
-        inherit (doc) revCount shortRev gitTag;
+        inherit (src) revCount shortRev gitTag;
       });
       builder = pkgs.stdenv.shell;
       PATH = with pkgs; lib.makeBinPath [ coreutils gnutar gzip ];
