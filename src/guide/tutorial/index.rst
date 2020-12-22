@@ -197,11 +197,10 @@ The benefit of managed components are:
 * fast security updates
 * regular upgrades and configuration optimization
 
-For details on available software, have a look at 
-the :ref:`documentation for the NixOS 15.09 platform<platform-nixos>`  or
-the :ref:`documentation for the NixOS 19.03 platform<platform-nixos2>`.
+For details on available software, have a look at
+the `current NixOS platform documentation </roles/current>`_.
 
-You can see and change the managed components/roles for your VMs by visiting the 
+You can see and change the managed components/roles for your VMs by visiting the
 `My Flying Circus <https://my.flyingcircus.io>`_ and selecting
 the respective VM. Applied components are listed in the box labeled with
 `Configuration`.

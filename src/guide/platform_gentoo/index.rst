@@ -6,8 +6,8 @@
 .. _managed-components:
 .. _platform-gentoo:
 
-Platform: Gentoo (outdated)
-===========================
+Gentoo (obsolete)
+=================
 
 Our traditional platform is based upon `Gentoo Linux <http://gentoo.org/>`_.
 It is outdated and only receives very specific security updates.

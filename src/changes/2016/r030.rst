@@ -1,0 +1,17 @@
+:Publish Date: 2016-09-15
+
+Release 2016_030 (2016-09-15)
+-----------------------------
+
+NixOS platform
+^^^^^^^^^^^^^^
+
+* Security: disable TCP challenge ACK limit (CVE-2016-5696, #23260)
+* Fix RabbitMQ permission handling so that new nodes appear in monitoring.
+* Improve Postfix monitoring: mailq check, port check (#23353)
+* Make delayed message exchange plugin for RabbitMQ optionally availabe (#23617)
+* Enable `sudo fc-manage --build` for service users as a way to trigger system
+  rebuilds (#23731)
+
+
+.. vim: set spell spelllang=en:

@@ -1,0 +1,39 @@
+:Publish Date: 2020-12-07
+
+Release 2020_039 (2020-12-07)
+-----------------------------
+
+NixOS 20.09 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* Kubernetes: flannel update and other improvements to fix slow restart times
+  and missing network connectivity after node reboots (PL-129513).
+* Kubernetes: add kubernetes-frontend role that provides a pre-configured HAProxy
+  to load-balance external traffic to nodes.
+  VMs without any kubernetes role don't have access to the cluster network anymore (#PL-129522).
+* Nginx: cover usage of mod_security in our nginx platform tests to ensure that it works (PL-129514).
+* Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the rotation count for logrotate (PL-129495).
+* Provide zip in our default installation (PL-129517).
+* LAMP role: remove deprecated configuration and standardize on pure NixOS-based configuration options (PL-128815).
+* Review and streamline our wkhtmltopdf builds (0.12.4, 0.12.5, 0.12.6) to reflect build options as used by upstream.
+  Added test coverage to validate proper usage of fonts in CSS (#129939).
+* PostgreSQL: install globally available commands (like psql) with the same version as the active role;
+  link socket which is now in /run/postgresql for all versions to old location in /tmp (PL-129526).
+* Varnish: fix error on reload when deleting the old config (PL-129524).
+
+
+NixOS 19.03 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* Provide zip in our default installation (PL-129517).
+* Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the rotation count for logrotate (PL-129495).
+
+
+Detailed changes
+^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform 20.09 <https://github.com/flyingcircusio/fc-nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09>`_, `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f>`_
+* NixOS 19.03: `platform 19.03 <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2020_038...fc/r2020_039/19.03>`_
+
+
+.. vim: set spell spelllang=en:

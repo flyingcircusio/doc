@@ -8,10 +8,9 @@ Reference
 
 
 .. toctree::
-   :glob:
-   :maxdepth: 1
+   :maxdepth: 2
 
    about
    security/index
+   users/index
    hardware/index
-   changes/index
