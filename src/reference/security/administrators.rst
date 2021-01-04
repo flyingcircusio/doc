@@ -5,7 +5,6 @@ List of administrators
 
 The following people are administrators for the Flying Circus:
 
-* Christian Kauhaus
 * Christian Schmidt
 * Christian Theune
 * Christian Zagrodnick
