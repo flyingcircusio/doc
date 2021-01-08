@@ -39,7 +39,8 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Documentation is now available for all branches of the NixOS 19.03 and 20.09 platforms:
+  `Platform Overview <https://doc.flyingcircus.io/platform/>`_
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
