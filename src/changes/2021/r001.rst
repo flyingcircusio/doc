@@ -6,7 +6,7 @@ Release 2021_001 (2021-01-11)
 Impact
 ^^^^^^
 
-* [NixOS 20.09] Machines will be rebooted for a kernel update.
+* [NixOS 20.09] Most services will be restarted and machines will be rebooted for a kernel update.
 
 
 NixOS 20.09 platform
@@ -26,5 +26,9 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2020_040/20.09...d8301f87664c2f353d2fb8327852729eb14ff0e1>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/71c5ae6ce4e1026f7da31cb6074dbb1fc773725c...7179961331b1e98dd28f07dbcb46ed700ad6a52b>`_
+
 
 .. vim: set spell spelllang=en:
