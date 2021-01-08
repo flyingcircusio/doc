@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-01-11
 
-Release 2021_001 (unreleased)
+Release 2021_001 (2021-01-11)
 -----------------------------
 
 Impact
@@ -16,24 +16,6 @@ NixOS 20.09 platform
 * fc-userscan: fix permission bug.
 * Update Gitlab to 13.6.4 (#PL-129575).
 * Jitsi: Update packages, improve video and screenshare quality, save bandwith (#PL-129527).
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation

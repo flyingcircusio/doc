@@ -1,6 +1,6 @@
 .. XXX update on release :Publish Date: YYYY-MM-DD
 
-Release YYYY_NNN (unreleased)
+Release 2021_002 (unreleased)
 -----------------------------
 
 Impact
