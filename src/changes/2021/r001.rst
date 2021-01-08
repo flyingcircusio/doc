@@ -1,6 +1,6 @@
 .. XXX update on release :Publish Date: YYYY-MM-DD
 
-Release 2020_041 (unreleased)
+Release 2021_001 (unreleased)
 -----------------------------
 
 Impact
@@ -38,5 +38,7 @@ Documentation
 
 * nothing yet
 
+Detailed Changes
+^^^^^^^^^^^^^^^^
 
 .. vim: set spell spelllang=en:
