@@ -6,13 +6,16 @@ Release 2021_001 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Machines will be rebooted for a kernel update.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Catch up with latest upstream nixpkgs changes, including updates for Grafana, Prometheus and Kubernetes.
+* fc-userscan: fix permission bug.
+* Update Gitlab to 13.6.4 (#PL-129575).
+* Jitsi: Update packages, improve video and screenshare quality, save bandwith (#PL-129527).
 
 
 NixOS 19.03 platform
