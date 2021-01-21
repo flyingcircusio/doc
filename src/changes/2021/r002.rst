@@ -25,6 +25,11 @@ NixOS 20.09 platform
   prepared system update and delete it after a successful maintenance run (#PL-129591).
 * Kubernetes: add FC nameservers to :file:`resolv.conf` on VMs with a Kubernetes
   role as fallback when CoreDNS is down (#PL-129590).
+* Nginx: set reuseport for default vhosts in structured vhost config and recommend
+  to use it in plain config files. Avoids failures on config reload when listen
+  statements are incompatible with the previous config.
+  This caused situations where Nginx had to be fully restarted to activate new
+  config which means that connections are dropped (#PL-129589).
 
 
 NixOS 19.03 platform
