@@ -6,13 +6,25 @@ Release 2021_002 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09]: PostgreSQL will be restarted.
+* [NixOS 20.09]: Gitlab and associated services will be restarted.
+  Git and frontend access will be unavailable for some minutes.
+* [NixOS 20.09]: VMs will be rebooted for a kernel update.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* PostgreSQL: Use Postgis 2.5 for versions before 12 to make upgrades from 19.03 easier.
+  Postgres 12 is unaffected because it already used Postgis 3.0 on 19.03 (#PL-129602).
+* Nginx: switch mod_security to newest stable branch using a new nginx module
+  that should also be more stable (#PL-129571).
+* Update Gitlab to 13.6.5 (#PL-129597).
+* Merge upstream NixOS updates, including: Grafana 7.3.7, Linux 5.4.89.
+* Use :file:`/run/next-system/result` instead of :file:`/result` for the link to the
+  prepared system update and delete it after a successful maintenance run (#PL-129591).
+* Kubernetes: add FC nameservers to :file:`resolv.conf` on VMs with a Kubernetes
+  role as fallback when CoreDNS is down (#PL-129590).
 
 
 NixOS 19.03 platform
