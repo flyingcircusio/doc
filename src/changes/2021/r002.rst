@@ -39,10 +39,17 @@ NixOS 20.09 platform
 * RabbitMQ now notifies SystemD on startup when it's ready (#PL-129505).
 
 
+Documentation
+^^^^^^^^^^^^^
+
+* Document how to write `custom SystemD units <https://doc.flyingcircus.io/roles/fc-20.09-production/systemd.html>`_
+  as a NixOS module in :file:`/etc/local/nixos`, deprecate :file:`/etc/local/systemd` on NixOS 19.03/20.09.
+
+
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
 * NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_001/20.09...1761c6b2e07cd1c5403044825e2dcd1dec1ee29b>`_,
-  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/7179961331b1e98dd28f07dbcb46ed700ad6a52b..984c872d5ca6e521803a4cd9ba72d45c4c3640a6>`_
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/7179961331b1e98dd28f07dbcb46ed700ad6a52b...984c872d5ca6e521803a4cd9ba72d45c4c3640a6>`_
 
 .. vim: set spell spelllang=en:
