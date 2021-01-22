@@ -30,6 +30,9 @@ NixOS 20.09 platform
   statements are incompatible with the previous config.
   This caused situations where Nginx had to be fully restarted to activate new
   config which means that connections are dropped (#PL-129589).
+* Port sensuserver role, update sensu-core and uchiwa to latest versions
+  (internal VM monitoring) (#PL-129505).
+* RabbitMQ now notifies SystemD on startup when it's ready (#PL-129505).
 
 
 NixOS 19.03 platform
