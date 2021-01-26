@@ -6,13 +6,17 @@ Release 2021_003 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Graylog will be restarted and be unavailable for some minutes.
+  Changing the log shipping method may drop some messages.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Logging: ship structured log data from the journal to loghost/graylog instead
+  of using the limited Syslog format. It provides more metadata about log events
+  and preserves multiline messages from the journal. Syslog via UDP 514 is now
+  forwarded to the journal. /var/log/messages is no longer used. (#PL-128336).
 
 
 NixOS 19.03 platform
