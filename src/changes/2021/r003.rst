@@ -16,7 +16,7 @@ NixOS 20.09 platform
 * Logging: ship structured log data from the journal to loghost/graylog instead
   of using the limited Syslog format. It provides more metadata about log events
   and preserves multiline messages from the journal. Syslog via UDP 514 is now
-  forwarded to the journal. /var/log/messages is no longer used. (#PL-128336).
+  forwarded to the journal. :file:`/var/log/messages` is no longer used. (#PL-128336).
 * Graylog: make telegraf metrics collection work for all nodes in a cluster (#PL-129455).
 * Webgateway/Nginx: do not remove Accept-Encoding header in recommended proxy
   settings which are enabled by default.
@@ -28,7 +28,7 @@ NixOS 20.09 platform
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_002/20.09...9eb9d3b6cc8c100fd6cb86f011b82d3835cb3b0d>`_,
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_002/20.09...9eb9d3b6cc8c100fd6cb86f011b82d3835cb3b0d>`_
 
 
 .. vim: set spell spelllang=en:
