@@ -23,6 +23,7 @@ NixOS 20.09 platform
 * Nginx: fix log retention time (for non-standard cases). Log files were always
   deleted after 10 days even if the rotateLogs setting (default 7 days) was set
   to a higher value (#PL-129618).
+* Statshost: use TLS for fetching metrics via location proxies (#PL-129612).
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
