@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-02-08
 
-Release 2021_004 (unreleased)
+Release 2021_004 (2021-02-08)
 -----------------------------
 
 Impact
@@ -24,29 +24,6 @@ NixOS 20.09 platform
   deleted after 10 days even if the rotateLogs setting (default 7 days) was set
   to a higher value (#PL-129618).
 * Statshost: use TLS for fetching metrics via location proxies (#PL-129612).
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
