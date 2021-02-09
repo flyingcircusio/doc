@@ -12,7 +12,9 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Include symlinked files in local config directories for Nginx, HAproy and
+  SystemD units. They were silently ignored before (#PL-129628).
+* Add Python3 to Sensu check environment (#PL-129656).
 
 
 NixOS 19.03 platform
