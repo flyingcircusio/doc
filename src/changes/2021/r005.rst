@@ -16,7 +16,7 @@ NixOS 20.09 platform
   intervention. The "stats socket" line from the old example config is now obsolete
   and disabled if it still appears in user config. It can be removed after the
   upgrade. (#PL-129632).
-* Include symlinked files in local config directories for Nginx, HAproy and
+* Include symlinked files in local config directories for Nginx, HAproxy and
   SystemD units. They were silently ignored before (#PL-129628).
 * Add Python3 to Sensu check environment (#PL-129656).
 
