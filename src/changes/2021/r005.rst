@@ -13,9 +13,9 @@ NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * HAProxy: fix problems when upgrading from the 19.03 platform that needed manual
-  intervention. The "stats socket" line from the old example config is now obsolete
-  and disabled if it still appears in user config. It can be removed after the
-  upgrade. (#PL-129632).
+  intervention. The :code:`stats socket` line from the old example config is now
+  obsolete and disabled if it still appears in user config.
+  It can be removed after the upgrade. (#PL-129632).
 * Make our release channel usable for importing from a pinned version.
   This is recommended in our docs but only worked for upstream NixOS channels before.
   Now, packages from our overlay can be installed in custom user environments in
@@ -51,5 +51,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_004/20.09...5d799e2e3bc56457d987373645ccff1c8c94321a>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/f0abbebcba43f4806c63385c98a09afb4a3dc64f...440179063438596f09cabf5d4c78265ab143391a>`_
 
 .. vim: set spell spelllang=en:
