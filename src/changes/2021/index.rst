@@ -12,3 +12,4 @@ Releases performed in 2021.
    r003
    r004
    r005
+   r006

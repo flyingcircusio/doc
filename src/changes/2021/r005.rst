@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-02-15
 
-Release 2021_005 (unreleased)
+Release 2021_005 (2021-02-15)
 -----------------------------
 
 Impact
@@ -25,29 +25,6 @@ NixOS 20.09 platform
 * Add Python3 to Sensu check environment (#PL-129656).
 * Gitlab: update to 13.6.6 security release (#PL-129665).
 
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
