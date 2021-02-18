@@ -6,13 +6,23 @@ Release 2021_006 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Most services will be restarted due to a glibc update.
+* [NixOS 20.09] Gitlab will be restarted and unavailable for some minutes.
+* [NixOS 20.09] VMs will schedule a reboot to activate the changed kernel.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes. Includes security fixes for PHP 7.3 and 7.4,
+  openjpeg (CVE-2020-15389, CVE-2020-27841, CVE-2020-27842, CVE-2020-27843,
+  CVE-2020-27844, and CVE-2020-27845), varnish (CVE-2020-11653),
+  graphicsmagick (CVE-2020-12672), cifs-utils (CVE-2020-14342) and
+  glibc (CVE-2019-25013). (#PL-129680).
+* Gitlab: update to 13.6.7 security release (#PL-129680).
+* Mailserver: fix sending mails from Roundcube web interface (#PL-129588).
+* Fix user package installation (:code:`nix-env -iA nixos.package`) on VMs that
+  were upgraded from an older platform version (#PL-129677).
 
 
 NixOS 19.03 platform
