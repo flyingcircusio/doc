@@ -26,6 +26,8 @@ NixOS 20.09 platform
 * Statshost roles now use the frontend FQDN as default host name and can now be
   enabled without local config. Roles shouldn't break without custom config
   in general (#PL-129540).
+* Production channel URL for this release:
+  https://hydra.flyingcircus.io/build/81780/download/1/nixexprs.tar.xz
 
 
 NixOS 19.03 platform
@@ -53,5 +55,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_005/20.09...3f83c7ea58f9925f39a247fb2fcdcb1d198e5a50>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/440179063438596f09cabf5d4c78265ab143391a...3c5ae423d8afcb608da3bb009b51633a6928e066>`_
 
 .. vim: set spell spelllang=en:
