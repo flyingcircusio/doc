@@ -30,6 +30,13 @@ NixOS 20.09 platform
   https://hydra.flyingcircus.io/build/81780/download/1/nixexprs.tar.xz
 
 
+Documentation
+^^^^^^^^^^^^^
+
+* `User package management <https://doc.flyingcircus.io/roles/fc-20.09-production/user_profile.html>`_
+  on 20.09: recommend using our production channel URL for nixpkgs version pinning.
+
+
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
