@@ -27,6 +27,9 @@ Currently we allow public access for:
 
 * SSH (22) - to provide login access to VMs
 * NTP (123) - to synchronize clocks with outside hosts
+* BGP (179, INPUT routers) to peer with uplink providers
+* Domain (53, INPUT on routers) to provide access to selected authoritative zones
+* RSYNC (873) - to allow binhosts to provide data to other locations
 
 Managed components that are installed on a machine may provide additional
 firewall exceptions (either for public or data center-internal traffic), for
