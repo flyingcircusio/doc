@@ -6,13 +6,19 @@ Release 2021_007 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Many services will be restarted due to a systemd-related change.
+* [NixOS 20.09] VM will schedule a reboot to activate the kernel update.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes. Includes security fixes for
+  imagemagick (CVE-2021-20176), nodejs (CVE-2021-22883, CVE-2021-22884, CVE-2021-23840),
+  postgresql (CVE-2021-3393) and screen (CVE-2021-26937) and a kernel update.
+  (#PL-129712).
+* LAMP: don't listen on port 80 by default because it conflicts with the
+  webgateway role (#PL-129672).
 
 
 NixOS 19.03 platform
