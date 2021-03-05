@@ -17,8 +17,14 @@ NixOS 20.09 platform
   imagemagick (CVE-2021-20176), nodejs (CVE-2021-22883, CVE-2021-22884, CVE-2021-23840),
   postgresql (CVE-2021-3393) and screen (CVE-2021-26937) and a kernel update.
   (#PL-129712).
+* Update Elasticsearch and Kibana to 7.10.2 (#PL-129713).
+* Kibana 7: disable broken reporting extension (#PL-127508).
 * LAMP: don't listen on port 80 by default because it conflicts with the
   webgateway role (#PL-129672).
+* Add a sensu check for each certificate managed by NixOS letsencrypt automation.
+  It checks the validity and warns before certs expire (#PL-127856).
+* Mailserver: update /etc/local/mailserver/README for the new configuration system
+  (#PL-129587).
 
 
 NixOS 19.03 platform
