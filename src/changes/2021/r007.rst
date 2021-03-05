@@ -48,7 +48,8 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Improve documentation about using `fc-manage <https://doc.flyingcircus.io/roles/fc-20.09-production/local.html>`_
+  to pick up local changes, CMDB or OS updates.
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
