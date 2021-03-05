@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-03-08
 
-Release 2021_007 (unreleased)
+Release 2021_007 (2021-03-08)
 -----------------------------
 
 Impact
@@ -25,24 +25,6 @@ NixOS 20.09 platform
   It checks the validity and warns before certs expire (#PL-127856).
 * Mailserver: update /etc/local/mailserver/README for the new configuration system
   (#PL-129587).
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
