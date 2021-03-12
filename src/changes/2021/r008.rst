@@ -8,7 +8,7 @@ Impact
 
 * [NixOS 20.09] Various restarts may be required due to changed kernel options
   and service dependencies.
-* [NixOS 20.09]: Jitsi will be restarted and conferences will not be available
+* [NixOS 20.09] Jitsi will be restarted and conferences will not be available
   for some seconds.
 
 
