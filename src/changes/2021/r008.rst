@@ -6,14 +6,18 @@ Release 2021_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Various restarts may be required due to changed kernel options
+  and service dependencies.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Remove docsplit package which was already disabled on 20.09.
+* Jitsi: improve startup reliability. The videobridge sometimes didn't register
+  correctly which required a manual restart (#PL-129725).
+* Port our NixOS platform for running our physical infrastructure, starting
+  with the backup servers. This also includes minor improvements for VMs (#PL-127635).
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
