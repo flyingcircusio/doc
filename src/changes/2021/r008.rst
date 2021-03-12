@@ -8,6 +8,8 @@ Impact
 
 * [NixOS 20.09] Various restarts may be required due to changed kernel options
   and service dependencies.
+* [NixOS 20.09]: Jitsi will be restarted and conferences will not be available
+  for some seconds.
 
 
 NixOS 20.09 platform
@@ -44,5 +46,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_007/20.09...122e511ce5bf0597e0b02d1cffa45623c827a16e>`_
 
 .. vim: set spell spelllang=en:
