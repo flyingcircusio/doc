@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-03-21
 
-Release 2021_009 (unreleased)
+Release 2021_009 (2021-03-21)
 -----------------------------
 
 Impact
@@ -33,29 +33,6 @@ NixOS 20.09 platform
     * python39: 3.9.1 -> 3.9.2
     * pythonPackages.pyyaml: fix CVE-2020-1434
     * re2c: fix CVE-2018-21232
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
