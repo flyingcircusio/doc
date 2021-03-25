@@ -12,7 +12,7 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
 
 
 NixOS 19.03 platform
