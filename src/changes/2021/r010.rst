@@ -17,6 +17,8 @@ NixOS 20.09 platform
   last build. We already used that behaviour on the 15.09 platform.
   This saves some CPU time and avoids frequent ACME certificate renewal checks
   which also trigger unneccessary Nginx reloads (#PL-129745).
+* Fix ACME certificate validity check for multiple virtual hosts SNI was not
+  used so only the certificate for the default vhost was monitored (#PL-129749).
 * LAMP: fix logrotate config (#PL-129740).
 * Coturn: fix ACME certificate renewal (#PL-129729).
 * Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
@@ -48,6 +50,6 @@ Documentation
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_009/20.09...d22d181aa7a2b7b13546c46b78227f4a7659971e>`_
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_009/20.09...67782fa8ba7ca1126c39e921c903e0108ef4fa21>`_
 
 .. vim: set spell spelllang=en:
