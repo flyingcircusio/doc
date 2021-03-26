@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-03-29
 
-Release 2021_010 (unreleased)
+Release 2021_010 (2021-03-29)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -22,24 +16,6 @@ NixOS 20.09 platform
 * LAMP: fix logrotate config (#PL-129740).
 * Coturn: fix ACME certificate renewal (#PL-129729).
 * Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
