@@ -17,6 +17,7 @@ NixOS 20.09 platform
   last build. We already used that behaviour on the 15.09 platform.
   This saves some CPU time and avoids frequent ACME certificate renewal checks
   which also trigger unneccessary Nginx reloads (#PL-129745).
+* LAMP: fix logrotate config (#PL-129740).
 * Coturn: fix ACME certificate renewal (#PL-129729).
 * Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
 
