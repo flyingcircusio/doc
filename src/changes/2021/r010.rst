@@ -12,6 +12,12 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* fc-agent: the automatic management task that runs every ten minutes now only
+  switches to the new system configuration if it actually has changed with the
+  last build. We already used that behaviour on the 15.09 platform.
+  This saves some CPU time and avoids frequent ACME certificate renewal checks
+  which also trigger unneccessary Nginx reloads (#PL-129745).
+* Coturn: fix ACME certificate renewal (#PL-129729).
 * Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
 
 
