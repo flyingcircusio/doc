@@ -16,6 +16,10 @@ NixOS 20.09 platform
 * LAMP: fix logrotate config (#PL-129740).
 * Coturn: fix ACME certificate renewal (#PL-129729).
 * Fix link in :file:`/etc/local/firewall/README` (#PL-129735).
+* Improve our backup using multiple queues and more workers to balance fast and
+  slow backups and reduce head of line blocking issues that cause unnecessary
+  delays under stress (PL-128789).
+
 
 
 Documentation
