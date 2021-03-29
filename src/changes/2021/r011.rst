@@ -6,13 +6,15 @@ Release 2021_011 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] MongoDB servers will be restarted due to changed unit
+  configuration.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Reconfigure MongoDB server units to ensure restarts are performed on crashes
+  (#PL-108116).
 
 
 NixOS 19.03 platform
