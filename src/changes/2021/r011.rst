@@ -6,15 +6,32 @@ Release 2021_011 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 20.09] MongoDB servers will be restarted due to changed unit
-  configuration.
+* [NixOS 20.09] Many services will be restarted due to a openssl update.
+  VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* PostgreSQL role docs: document how to add custom settings via a NixOS module.
+  We found out that putting plain config in :file:`/etc/local/postgresql`
+  doesn't work properly on 20.09 in some cases.
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129756):
+
+  * go_1_15: 1.15.8 -> 1.15.10 (CVE-2021-27918, CVE-2021-27919)
+  * grafana: 7.4.3 -> 7.4.5 (CVE-2021-27962, CVE-2021-28146, CVE-2021-28147, CVE-2021-28148)
+  * imagemagick6: 6.9.11-60 -> 6.9.12-3
+  * imagemagick: 7.0.10-61 -> 7.0.11-4
+  * libtiff: CVE-2020-35523, CVE-2020-35524
+  * linux: 5.4.104 -> 5.4.108
+  * openssh: 8.4p1 -> 8.5p1
+  * openssl: 1.1.1j -> 1.1.1k
+  * php74: 7.4.15 -> 7.4.16
+  * python3Packages.aiohttp: patch CVE-2021-21330
+
 * Reconfigure MongoDB server units to ensure restarts are performed on crashes
   (#PL-108116).
+* Fix network boot image creation for physical machine bootstraps (#PL-129676).
 
 
 NixOS 19.03 platform
