@@ -28,6 +28,6 @@ Gentoo platform
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_011/20.09...0caf8ae4d3c4ae4ff34fb8b1359903cf0cbeed4b>`_,
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_011/20.09...0caf8ae4d3c4ae4ff34fb8b1359903cf0cbeed4b>`_
 
 .. vim: set spell spelllang=en:
