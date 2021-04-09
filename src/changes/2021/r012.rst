@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-04-12
 
-Release 2021_012 (unreleased)
+Release 2021_012 (2021-04-12)
 -----------------------------
 
 Impact
@@ -13,21 +13,9 @@ NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Gitlab: update to 13.8.7 security release (#PL-129770).
-* Fix nix-env -qa which lists all available packages (#PL-129750).
+* Fix :command:`nix-env -qa` which lists all available packages (#PL-129750).
 * Remove test runner for NixOS tests written in Perl.
   All tests have been converted to Python (#PL-129739).
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Gentoo platform
@@ -37,12 +25,9 @@ Gentoo platform
   and avoid illegal live migration and KVM host selection scenarios
   that result in immediate VM crashes (PL-129769).
 
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_011/20.09...0caf8ae4d3c4ae4ff34fb8b1359903cf0cbeed4b>`_,
 
 .. vim: set spell spelllang=en:
