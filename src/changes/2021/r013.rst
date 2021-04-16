@@ -6,14 +6,23 @@ Release 2021_013 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129787):
 
+    * imagemagick7: 7.0.11-4 -> 7.0.11-6
+    * linux: 5.4.108 -> 5.4.109
+    * curl: add patches for CVE-2021-22876, CVE-2021-22890
+    * grafana: 7.4.5 -> 7.5.2
+    * python3Packages.pillow: add patches for CVE-2021-25287, CVE-2021-25288,
+      CVE-2021-25289, CVE-2021-25290, CVE-2021-25291, CVE-2021-25292,
+      CVE-2021-25293, CVE-2021-27921, CVE-2021-27922, CVE-2021-27923
+    * pythonPackages.lxml: 4.6.2 -> 4.6.3
+    * python3Packages.pygments: add patch for CVE-2021-27291
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
