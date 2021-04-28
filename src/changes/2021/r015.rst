@@ -6,13 +6,21 @@ Release 2021_015 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Postfix (mailserver, mailstub) and clamav (antivirus) will be restarted.
+* [NixOS 20.09] VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129805):
+
+    * clamav: add patch for CVE-2021-1405
+    * imagemagick6: 6.9.12-3 -> 6.9.12-8
+    * imagemagick: 7.0.11-6 -> 7.0.11-8
+    * linux: 5.4.109 -> 5.4.111
+    * phpPackages.composer2: 2.0.0 -> 2.0.12
+    * postfix: 3.5.6 -> 3.5.10
 
 
 NixOS 19.03 platform
