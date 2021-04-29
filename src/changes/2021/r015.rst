@@ -55,4 +55,7 @@ Documentation
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_014/20.09...e9377204d9dbea57000e6447c35a4b928b5e2e46>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/753913a8cb8310f4631860b7f77af13bd00eb031...be3024f017f3c5cbf554516c28c4d0dae97d300d>`_
+
 .. vim: set spell spelllang=en:
