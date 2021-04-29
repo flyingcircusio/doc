@@ -13,6 +13,12 @@ Impact
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* Machines with database roles (percona, mongodb, mysql and postgresql) now
+  disable I/O scheduling when running on SSDs for better performance (#PL-129792).
+* Upgrade our backup software (backy) with a variety of improvements.
+  Most notably we implemented a hot reload feature so that backup schedules will
+  be more consistent when many config changes are processed, which previously
+  led to frequent restarts and aborted backups that had to be retried later on (#PL-129718).
 * Merge upstream NixOS changes that include security fixes and other updates (#PL-129805):
 
     * clamav: add patch for CVE-2021-1405
