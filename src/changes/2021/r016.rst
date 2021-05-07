@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-05-10
 
-Release 2021_016 (unreleased)
+Release 2021_016 (2021-05-10)
 -----------------------------
 
 Impact
@@ -19,32 +19,9 @@ NixOS 20.09 platform
   instead of retrying them (#PL-129568).
 
 
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_015/20.09...62d2b281e21f9e3f87938fc9ab98660940493c48>`_,
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_015/20.09...62d2b281e21f9e3f87938fc9ab98660940493c48>`_
 
 .. vim: set spell spelllang=en:
