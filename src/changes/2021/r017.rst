@@ -6,8 +6,7 @@ Release 2021_017 (2021-05-17)
 Impact
 ^^^^^^
 
-* [NixOS 20.09] Grafana will be restarted.
-* VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] Grafana and InfluxDB will be restarted. VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
