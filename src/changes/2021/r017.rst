@@ -6,13 +6,23 @@ Release 2021_017 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Grafana will be restarted.
+* InfluxDB will be restarted and VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Grafana: 7.5.2 -> 7.5.5. This update fixes a problem with frequent logouts (#PL-129789).
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129839):
+
+    * cifs-utils: fix CVE-2021-20208
+    * imagemagick: 7.0.11-8 -> 7.0.11-9
+    * perlPackages.ImageExifTool: apply fix for CVE-2021-22204
+    * linux: 5.4.111 -> 5.4.114
+    * phpPackages.composer: 1.10.8 -> 1.10.22 (CVE-2021-29472)
+    * phpPackages.composer2: 2.0.12 -> 2.0.13 (CVE-2021-29472)
+    * dnsmasq: 2.84 -> 2.85
 
 
 NixOS 19.03 platform
