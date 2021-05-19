@@ -6,13 +6,15 @@ Release 2021_018 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Grafana will be restarted.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Grafana: update to 7.5.6 (#PL-129853).
+* Infrastructure: nilence RAID controller cache/BBU monitoring for machines that
+  do not have a BBU. (#PL-126095)
 
 
 NixOS 19.03 platform
