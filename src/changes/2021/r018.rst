@@ -13,8 +13,12 @@ NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Grafana: update to 7.5.6 (#PL-129853).
-* Infrastructure: nilence RAID controller cache/BBU monitoring for machines that
-  do not have a BBU. (#PL-126095)
+* Infrastructure: silence RAID controller cache/BBU monitoring for machines that
+  do not have a BBU (#PL-126095).
+* Nginx: generate dhparams at /var/lib/dhparams/nginx.pem.
+  Note they are not used by default and must be added to the config manually or
+  by setting ``services.nginx.sslDhparam = config.security.dhparams.params.nginx.path;``
+  (#-PL-129859).
 
 
 NixOS 19.03 platform
