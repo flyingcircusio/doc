@@ -19,6 +19,7 @@ NixOS 20.09 platform
   Note they are not used by default and must be added to the config manually or
   by setting ``services.nginx.sslDhparam = config.security.dhparams.params.nginx.path;``
   (#-PL-129859).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/90348/download/1/nixexprs.tar.xz
 
 
 Detailed Changes
