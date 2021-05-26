@@ -9,6 +9,12 @@ Impact
 * [NixOS 20.09] Many services will be restarted due to core dependency updates.
   VMs will schedule a reboot to activate the new kernel version.
 
+NixOS 21.05 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* The new platform version 21.05 is ready for dev/staging.
+  First production release is planned for 2021_020.
+
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
