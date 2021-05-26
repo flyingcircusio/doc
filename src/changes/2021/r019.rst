@@ -6,13 +6,22 @@ Release 2021_019 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Many services will be restarted due to core dependency updates.
+  VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129839):
+
+    * redis: 6.0.11 -> 6.0.13
+    * imagemagick: 7.0.11-12 -> 7.0.11-13
+    * imagemagick6: 6.9.12.8 -> 6.9.12-12
+    * grafana: 7.5.6 -> 7.5.7
+    * xorg.libX11: patch CVE-2021-31535
+    * prometheus: fix open redirect vulnerability on /new endpoint (CVE-2021-29622)
+    * linux: 5.4.114 -> 5.4.119
 
 
 NixOS 19.03 platform
