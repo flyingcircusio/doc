@@ -6,8 +6,7 @@ Release 2021_019 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 20.09] Many services will be restarted due to core dependency updates.
-  VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] VMs will schedule a reboot to activate the new kernel version.
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -57,5 +56,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_018/20.09...7822e5e21b712f8a5e8b1671895b9265adfec458>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/e9de7f2ce45c58127fe27db9617d4de96e7d49b5...d31f3c6c5154f5574979e3e1d6230ebd50733761>`_
 
 .. vim: set spell spelllang=en:
