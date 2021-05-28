@@ -12,7 +12,8 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* This will be the first production release of the 21.05 platform.
+  Main development will be done on this version from now on.
 
 
 NixOS 20.09 platform
