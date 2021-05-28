@@ -28,6 +28,8 @@ NixOS 20.09 platform
     * xorg.libX11: patch CVE-2021-31535
     * prometheus: fix open redirect vulnerability on /new endpoint (CVE-2021-29622)
     * linux: 5.4.114 -> 5.4.119
+* Jitsi: update components including a new UI, enable WebAssembly optimizations which reduce
+  client load significantly, add recording and live streaming support via Jibri (#PL-129794).
 
 
 NixOS 19.03 platform
