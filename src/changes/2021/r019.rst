@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-05-31
 
-Release 2021_019 (unreleased)
+Release 2021_019 (2021-05-31)
 -----------------------------
 
 Impact
@@ -29,30 +29,8 @@ NixOS 20.09 platform
     * linux: 5.4.114 -> 5.4.119
 * Jitsi: update components including a new UI, enable WebAssembly optimizations which reduce
   client load significantly, add recording and live streaming support via Jibri (#PL-129794).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/91207/download/1/nixexprs.tar.xz
 
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
