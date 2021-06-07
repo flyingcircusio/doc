@@ -22,6 +22,7 @@ NixOS 21.05 platform
   20.09 can be used in user environments to get the package, if needed (#PL-129900).
 * Sensu: suppress deprecation warnings in journal, update to 1.9 (#PL-129897).
 * Fix Ceph build (#PL-129881).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/92201/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -29,6 +30,7 @@ NixOS 20.09 platform
 
 * Switch LDAP connection settings for all Grafana and Graylog instances to
   properly use LDAPS and use the new canonical address ``ldap.fcio.net`` (#PL-24593).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/92325/download/1/nixexprs.tar.xz
 
 
 NixOS 19.03 platform
@@ -56,5 +58,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_019/20.09...40f73d7fb7033357624ed9da7b3230403c0e9da1>`_
 
 .. vim: set spell spelllang=en:
