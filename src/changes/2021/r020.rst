@@ -6,7 +6,7 @@ Release 2021_020 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 20.09] Grafana will be restarted.
 
 
 NixOS 21.05 platform
@@ -14,12 +14,21 @@ NixOS 21.05 platform
 
 * This will be the first production release of the 21.05 platform.
   Main development will be done on this version from now on.
+  Default version for new production VMs is still 20.09.
+  Staging VMs will be upgraded from 20.09 to 21.05 in the coming weeks.
+* Switch LDAP connection settings for all Grafana and Graylog instances to
+  properly use LDAPS and use the new canonical address ``ldap.fcio.net`` (#PL-24593).
+* Remove wkhtmltopdf version 0.12.4. We still support versions 0.12.5 and 0.12.6.
+  20.09 can be used in user environments to get the package, if needed (#PL-129900).
+* Sensu: suppress deprecation warnings in journal, update to 1.9 (#PL-129897).
+* Fix Ceph build (#PL-129881).
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Switch LDAP connection settings for all Grafana and Graylog instances to
+  properly use LDAPS and use the new canonical address ``ldap.fcio.net`` (#PL-24593).
 
 
 NixOS 19.03 platform
