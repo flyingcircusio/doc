@@ -12,13 +12,38 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Removed RabbitMQ 3.6.x roles and packages. Upgrade to RabbitMQ 3.8 before upgrading
+  to NixOS 21.05 (#PL-129907).
+* Provide optional PHP 8.0 for LAMP role (#PL-129902).
+* Update tideways daemon and PHP modules to support PHP 8.0.
+* Fix warning about duplicate :file:`/var/log` line when rebuilding the
+  system with fc-manage (#PL-129854).
+* Redis: add options :code:`flyingcircus.services.redis.maxmemory` and
+  :code:`flyingcircus.services.maxmemory-policy`. Memory used by Redis is limited
+  to 80% by default (#PL-115928).
+* Telegraf: restart service after :command:`fc-manage` when config in
+  :file:`/etc/local/telegraf` changes. Before, telegraf had to be restarted
+  separately (#PL-129831).
+
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129901):
+
+    * cacert: 3.57 -> 3.66
+    * imagemagick: 7.0.11-12 -> 7.0.11.13
+    * lz4: patch CVE-2021-3520 and null pointer dereference
+    * nginx: Fix off-by-one in DNS resolver heap write (CVE-2021-23017)
+    * nss_latest: 3.63 -> 3.64
+    * openvpn: 2.4.9 -> 2.4.11 (CVE-2020-15078)
+    * php74.extensions.iconv: fix error signalling
+    * polkit: Fix local privilege escalation vulnerability (CVE-2021-3560)
+    * python3Packages.websockets: add patch for CVE-2018-1000518-redux
+    * redis: 6.0.11 -> 6.0.13 (CVE-2021-29477, CVE-2021-29478)
+    * samba: 4.12.14 -> 4.12.15 (CVE-2021-20254)
+
 
 
 NixOS 19.03 platform
