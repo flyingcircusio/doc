@@ -36,6 +36,8 @@ NixOS 21.05 platform
     * phpPackages.composer: 2.1.0 -> 2.1.1
     * polkit: Fix authentication bypass vulnerability (CVE-2021-3560)
 
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/93226/download/1/nixexprs.tar.xz
+
 
 
 
@@ -55,6 +57,8 @@ NixOS 20.09 platform
     * python3Packages.websockets: add patch for CVE-2018-1000518-redux
     * redis: 6.0.11 -> 6.0.13 (CVE-2021-29477, CVE-2021-29478)
     * samba: 4.12.14 -> 4.12.15 (CVE-2021-20254)
+
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/93404/download/1/nixexprs.tar.xz
 
 
 
@@ -83,5 +87,10 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_020/21.05...a9cc58d57e5f54717c100f020e75cdd7a600c8a4>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/3a2e0c36e79cecaf196cbea23e75e74710140ea4...5de44c15758465f8ddf84d541ba300b48e56eda4>`_
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_020/20.09...c1ac505f24516aa8a49df66c913c5153940b52a2>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/d31f3c6c5154f5574979e3e1d6230ebd50733761...d95ebbf43015df5cb9acfd8ac484a4447ab29bfd>`_
 
 .. vim: set spell spelllang=en:
