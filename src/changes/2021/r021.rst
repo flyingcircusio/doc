@@ -3,6 +3,14 @@
 Release 2021_021 (2021-06-14)
 -----------------------------
 
+Impact
+^^^^^^
+
+* [NixOS 21.05] Most services will be restarted due to a core dependency change.
+  VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] Most services will be restarted due to a core dependency change.
+
+
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
