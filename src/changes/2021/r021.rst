@@ -21,7 +21,7 @@ NixOS 21.05 platform
 * Fix warning about duplicate :file:`/var/log` line when rebuilding the
   system with fc-manage (#PL-129854).
 * Redis: add options :code:`flyingcircus.services.redis.maxmemory` and
-  :code:`flyingcircus.services.maxmemory-policy`. Memory used by Redis is limited
+  :code:`flyingcircus.services.redis.maxmemory-policy`. Memory used by Redis is limited
   to 80% by default (#PL-115928).
 * Telegraf: restart service after :command:`fc-manage` when config in
   :file:`/etc/local/telegraf` changes. Before, telegraf had to be restarted
