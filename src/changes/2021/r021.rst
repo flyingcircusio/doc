@@ -24,6 +24,18 @@ NixOS 21.05 platform
 * Telegraf: restart service after :command:`fc-manage` when config in
   :file:`/etc/local/telegraf` changes. Before, telegraf had to be restarted
   separately (#PL-129831).
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129908):
+
+    * gitlab: 13.12.0 -> 13.12.2
+    * linux: 5.10.37 -> 5.10.40
+    * lz4: patch CVE-2021-3520 and null pointer dereference
+    * matrix-synapse: 1.34.0 -> 1.35.1
+    * nix: 2.3.11 -> 2.3.12
+    * php74: 7.4.18 -> 7.4.20
+    * php80: 8.0.5 -> 8.0.7
+    * phpPackages.composer: 2.1.0 -> 2.1.1
+    * polkit: Fix authentication bypass vulnerability (CVE-2021-3560)
+
 
 
 
