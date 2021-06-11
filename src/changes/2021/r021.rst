@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-06-14
 
-Release 2021_021 (unreleased)
+Release 2021_021 (2021-06-14)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -60,24 +54,6 @@ NixOS 20.09 platform
 
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/93404/download/1/nixexprs.tar.xz
 
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Documentation
