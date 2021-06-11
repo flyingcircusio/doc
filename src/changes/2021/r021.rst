@@ -63,12 +63,6 @@ NixOS 20.09 platform
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/93404/download/1/nixexprs.tar.xz
 
 
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
