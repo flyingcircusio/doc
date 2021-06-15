@@ -16,7 +16,9 @@ NixOS 20.09 platform
 * Logging: ship structured log data from the journal to loghost/graylog instead
   of using the limited Syslog format. It provides more metadata about log events
   and preserves multiline messages from the journal. Syslog via UDP 514 is now
-  forwarded to the journal. :file:`/var/log/messages` is no longer used. (#PL-128336).
+  forwarded to the journal except for HAProxy. HAProxy isn't forwarded to Graylog
+  anymore and only logs to :file:`/var/log/haproxy.log`.
+  :file:`/var/log/messages` is no longer used. (#PL-128336).
 * Graylog: make telegraf metrics collection work for all nodes in a cluster (#PL-129455).
 * Webgateway/Nginx: do not remove Accept-Encoding header in recommended proxy
   settings which are enabled by default.
