@@ -12,7 +12,10 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Provide postgresql13 role (#PL-129912).
+* Port openvpn to 21.05. Compression is disabled now as recommended by OpenVPN (#PL-129855).
+* Fix warnings for deprecated SystemD unit settings by changing
+  StartLimitInterval to StartLimitIntervalSec (#PL-129909).
 
 
 NixOS 20.09 platform
