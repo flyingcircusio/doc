@@ -21,7 +21,14 @@ NixOS 21.05 platform
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129933):
+
+  * curl: add patch for CVE-2021-22898
+  * imagemagick6: 6.9.12-12 -> 6.9.12-15
+  * imagemagick: 7.0.11-13 -> 7.1.0-0
+  * libxml2: fix CVE-2021-3516, CVE-2021-3517, CVE-2021-3518, CVE-2021-3537, CVE-2021-3541
+  * linux: 5.4.120 -> 5.4.122
+  * phpPackages.composer2: 2.0.13 -> 2.0.14
 
 
 NixOS 19.03 platform
