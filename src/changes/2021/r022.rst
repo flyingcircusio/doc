@@ -16,6 +16,26 @@ NixOS 21.05 platform
 * Port openvpn to 21.05. Compression is disabled now as recommended by OpenVPN (#PL-129855).
 * Fix warnings for deprecated SystemD unit settings by changing
   StartLimitInterval to StartLimitIntervalSec (#PL-129909).
+* Nginx: add ``services.nginx.legacyTlsSettings`` which should be used instead of
+  ``recommendedTlsSettings`` when weaker ciphers are used for legacy clients (#PL-129818).
+* Mailserver: allow service/sudo-srv users to run sudo postsuper without password (#PL-129874).
+* Version updates in role documentation.
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129930):
+
+  * apacheHttpd: 2.4.47 -> 2.4.48
+  * curl: add patches for CVE-2021-22897, CVE-2021-22898 & CVE-2021-22901
+  * discourse: 2.7.0 -> 2.7.4
+  * gitlab: 13.12.2 -> 13.12.4
+  * imagemagick6: 6.9.12-12 -> 6.9.12-15
+  * linux: 5.10.40 -> 5.10.44
+  * matrix-synapse: 1.35.1 -> 1.36.0
+  * phpPackages.composer: 2.1.1 -> 2.1.3
+  * postgresql_10: 10.16 -> 10.17 (CVE-2021-32027, CVE-2021-32028)
+  * postgresql_11: 11.11 -> 11.12 (CVE-2021-32027, CVE-2021-32028, CVE-2021-32029)
+  * postgresql_12: 12.6 -> 12.7 (CVE-2021-32027, CVE-2021-32028, CVE-2021-32029)
+  * postgresql_13: 13.2 -> 13.3 (CVE-2021-32027, CVE-2021-32028, CVE-2021-32029)
+  * postgresql_9_6: 9.6.21 -> 9.6.22 (CVE-2021-32027, CVE-2021-32028)
+
 
 
 NixOS 20.09 platform
@@ -52,7 +72,7 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Add documentation for NixOS 21.05 platform.
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
