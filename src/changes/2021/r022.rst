@@ -1,12 +1,15 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-06-28
 
-Release 2021_022 (unreleased)
+Release 2021_022 (2021-06-28)
 -----------------------------
 
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Most services will be restarted due to a core dependency change.
+  VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] Most services will be restarted due to a core dependency change.
+  VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
@@ -36,6 +39,7 @@ NixOS 21.05 platform
   * postgresql_13: 13.2 -> 13.3 (CVE-2021-32027, CVE-2021-32028, CVE-2021-32029)
   * postgresql_9_6: 9.6.21 -> 9.6.22 (CVE-2021-32027, CVE-2021-32028)
 
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/95105/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -50,24 +54,7 @@ NixOS 20.09 platform
   * linux: 5.4.120 -> 5.4.122
   * phpPackages.composer2: 2.0.13 -> 2.0.14
 
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/95206/download/1/nixexprs.tar.xz
 
 Documentation
 ^^^^^^^^^^^^^
@@ -76,5 +63,10 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_021/21.05...de2867127a884251d077159e1a808ebc504753cd>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/5de44c15758465f8ddf84d541ba300b48e56eda4...6613a30c5e3ee59753181512b4bedd4121569925>`_
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_021/20.09...d497eecdd4519e1ab8df095a8f2871b1db42ec7c>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/d95ebbf43015df5cb9acfd8ac484a4447ab29bfd...9be5f52846fad0e4c10ed86697a1425b6c095538>`_
 
 .. vim: set spell spelllang=en:
