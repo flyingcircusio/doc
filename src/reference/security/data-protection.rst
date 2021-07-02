@@ -28,11 +28,11 @@ Data protection officer
 
 The appointed data protection officer is:
 
-| Nick Lindovsky
-| DITAC GmbH
-| OT Weißandt-Gölzau · Raffineriestr. 09 · 06369 Südliches Anhalt
-| https://ditac.de · datenschutz@flyingcircus.io
-| `+49 34978 30186 <tel:+493497830186>`_
+| Prof. Dr. Andre Döring
+| Robin Data GmbH
+| Fritz-Haber-Straße 9 · 06217 Merseburg
+| https://www.robin-data.io · datenschutz@robin-data.io
+| `+49 3461 4798960 <tel:+4934614798960>`_
 
 
 General
