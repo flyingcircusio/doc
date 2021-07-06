@@ -6,13 +6,18 @@ Release 2021_023 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] A number of services may be restarted to apply the new network configuration.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Refactoring of our network configuration to remove dependency on policy routing and simplify the setup.
+* Improve secrecy of fc.agent directory access by avoiding the password to be shown in exceptions.
+* Stabilize Ceph (Monitors and OSDs).
+* Include machine "profile" as label in prometheus.
+* Do not check for `steal` on physical machines.
+* Improve our installer for NixOS on physical machines.
 
 
 NixOS 20.09 platform
