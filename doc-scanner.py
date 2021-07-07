@@ -1,5 +1,6 @@
 import datetime
 import os
+from humanfriendly import parse_timespan
 
 
 class Documentation():
@@ -15,7 +16,8 @@ class Documentation():
 
     def document_scanner():
         for documentation in self.list_of_documations:
-            documentation.scan()
+            document = Document(documentation)
+            document.scan()
 
 
 
@@ -34,5 +36,7 @@ class Document():
                 _, last_review = line.split(":")
             if "review schedule" in line
                 _, line = line.split(":")
-
+                review_time = parse_timespan(line)
+            if last_review + review_time < datetime.datetime.today()
                 self.do_review = True
+
