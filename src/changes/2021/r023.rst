@@ -35,7 +35,15 @@ NixOS 21.05 platform
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-129963):
+
+	* apacheHttpd: 2.4.46 -> 2.4.48
+	* dovecot: add patches for CVE-2021-29157 & CVE-2021-33515
+	* go_1_15: 1.15.10 -> 1.15.13
+	* go_1_16: 1.16.2 -> 1.16.3
+	* imagemagick6: 6.9.12-15 -> 6.9.12-17
+	* imagemagick7: 7.1.0-0 -> 7.1.0-2
+	* lldpd: add patch for CVE-2020-27827
 
 
 NixOS 19.03 platform
