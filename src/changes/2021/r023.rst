@@ -6,12 +6,20 @@ Release 2021_023 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 21.05] A number of services may be restarted to apply the new network configuration.
+* [NixOS 21.05] Most services will be restarted. VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] Most services will be restarted. VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* Gitlab: 13.12.4 -> 13.12.7 (#PL-129936).
+* Refactoring of our network configuration to remove dependency on policy routing and simplify the setup.
+* Improve secrecy of fc.agent directory access by avoiding the password to be shown in exceptions.
+* Stabilize Ceph (Monitors and OSDs).
+* Include machine "profile" as label in prometheus.
+* Do not check for `steal` on physical machines.
+* Improve our installer for NixOS on physical machines.
 * Merge upstream NixOS changes that include security fixes and other updates (#PL-129959):
 
 	* consul: 1.9.5 -> 1.9.7
@@ -23,13 +31,7 @@ NixOS 21.05 platform
 	* linux: 5.10.44 -> 5.10.45
 	* matrix-synapse: 1.36.0 -> 1.37.1
 
-* Gitlab: 13.12.4 -> 13.12.7 (#PL-129936).
-* Refactoring of our network configuration to remove dependency on policy routing and simplify the setup.
-* Improve secrecy of fc.agent directory access by avoiding the password to be shown in exceptions.
-* Stabilize Ceph (Monitors and OSDs).
-* Include machine "profile" as label in prometheus.
-* Do not check for `steal` on physical machines.
-* Improve our installer for NixOS on physical machines.
+* Production channel URL for this release:	https://hydra.flyingcircus.io/build/96633/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -43,7 +45,10 @@ NixOS 20.09 platform
 	* go_1_16: 1.16.2 -> 1.16.3
 	* imagemagick6: 6.9.12-15 -> 6.9.12-17
 	* imagemagick7: 7.1.0-0 -> 7.1.0-2
+	* linux: 5.4.119 -> 5.4.122
 	* lldpd: add patch for CVE-2020-27827
+
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/96512/download/1/nixexprs.tar.xz
 
 
 NixOS 19.03 platform
@@ -71,5 +76,10 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_022/21.05...6b5e7048977a4f04773887a1b983fde0e48e451f>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/6613a30c5e3ee59753181512b4bedd4121569925...21b696caf392ad6fa513caf3327d0aa0430ffb72>`_
+* NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_022/20.09...d32cf7e4e0c4ee5f61bc9165e98b50185f1b29ef>`_,
+  `nixpkgs/upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/9be5f52846fad0e4c10ed86697a1425b6c095538...fdfe2bd57c190971bee9094a5464c93395d300ae>`_
 
 .. vim: set spell spelllang=en:
