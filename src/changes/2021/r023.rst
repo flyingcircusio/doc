@@ -7,7 +7,7 @@ Impact
 ^^^^^^
 
 * [NixOS 21.05] Most services will be restarted. VMs will schedule a reboot to activate the new kernel version.
-* [NixOS 20.09] Most services will be restarted. VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 20.09] Most services will be restarted.
 
 
 NixOS 21.05 platform
@@ -45,7 +45,6 @@ NixOS 20.09 platform
 	* go_1_16: 1.16.2 -> 1.16.3
 	* imagemagick6: 6.9.12-15 -> 6.9.12-17
 	* imagemagick7: 7.1.0-0 -> 7.1.0-2
-	* linux: 5.4.119 -> 5.4.122
 	* lldpd: add patch for CVE-2020-27827
 
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/96512/download/1/nixexprs.tar.xz
