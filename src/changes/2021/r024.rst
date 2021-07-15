@@ -17,12 +17,13 @@ NixOS 21.05 platform
   This feature is experimental and must be activated explicitly.
   Plain custom HAProxy configs in :file:`/etc/local/haproxy` are still supported
   but may be deprecated in future platform versions.
-  See `nixos/services/haproxy/README.md <https://github.com/flyingcircusio/fc-nixos/blob/fc-21.05-staging/nixos/services/haproxy/README.md`>_
+  See `nixos/services/haproxy/README.md <https://github.com/flyingcircusio/fc-nixos/blob/fc-21.05-staging/nixos/services/haproxy/README.md>`_
   for details (#PL-129868).
 * Nginx: update from our 1.18 fork to the 1.20 upstream version which fixes a
   frequent error message regarding gzip. IPv6 addresses are now anonymized to
   /48 instead of /64. The `nginxMainline` package now has our anonymization
   patch, too (#PL-129922).
+* Fix monitoring for daily ClamAV updates (#PL-129991).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
