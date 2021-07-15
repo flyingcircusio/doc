@@ -18,10 +18,9 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     entry_points={
-        'console_scripts': ['disktracker=fc.disktracker.command_line:main'],
+        'console_scripts': ['doc_scanner=doc_scanner.command_line:main'],
     },
-    packages=setuptools.find_namespace_packages(where="src", include=["fc.*"]),
-    package_dir={"": "src"},
-    install_requires=["requests", "click", ],
-    extras_require={"test": ["pytest", "pytest-cov", "pyfakefs"] }
+    packages=setuptools.find_namespace_packages(where=".", include=["fc.*"]),
+    package_dir={"": "."},
+    extras_require={humanfriendly; "test": ["pytest", "pytest-cov", "pyfakefs"] }
 )
