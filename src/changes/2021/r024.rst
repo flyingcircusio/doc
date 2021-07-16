@@ -24,6 +24,8 @@ NixOS 21.05 platform
   /48 instead of /64. The `nginxMainline` package now has our anonymization
   patch, too (#PL-129922).
 * Fix monitoring for daily ClamAV updates (#PL-129991).
+* Statshost: fix Grafana dashboard git pull warning (#PL-129655).
+
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
