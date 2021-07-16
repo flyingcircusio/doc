@@ -21,18 +21,6 @@ NixOS 21.05 platform
 * Statshost: fix Grafana dashboard git pull warning (#PL-129655).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz
 
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
