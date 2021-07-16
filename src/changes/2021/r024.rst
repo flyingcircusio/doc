@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-07-19
 
-Release 2021_024 (unreleased)
+Release 2021_024 (2021-07-19)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -26,24 +20,6 @@ NixOS 21.05 platform
 * Fix monitoring for daily ClamAV updates (#PL-129991).
 * Statshost: fix Grafana dashboard git pull warning (#PL-129655).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz
-
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Gentoo platform
