@@ -25,6 +25,7 @@ NixOS 21.05 platform
   patch, too (#PL-129922).
 * Fix monitoring for daily ClamAV updates (#PL-129991).
 * Statshost: fix Grafana dashboard git pull warning (#PL-129655).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -58,5 +59,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_023/21.05...902437857e1666b6d5459aaae138f6987d1d4374>`_
 
 .. vim: set spell spelllang=en:
