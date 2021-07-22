@@ -32,11 +32,11 @@ To run the tests, invoke:
 ## Documentation
 
 
-To run the discktracker, invoke:
+To run the docscanner, invoke:
 
     "bin/doc_scanner"
 
 
 ## config-file
 
-typo: disktracker
+typo: docscanner

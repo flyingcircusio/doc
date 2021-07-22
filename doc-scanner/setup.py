@@ -22,5 +22,6 @@ setuptools.setup(
     },
     packages=setuptools.find_namespace_packages(where=".", include=["fc.*"]),
     package_dir={"": "."},
-    extras_require={humanfriendly; "test": ["pytest", "pytest-cov", "pyfakefs"] }
+    extras_require={"test": ["pytest", "pytest-cov", "pyfakefs"] },
+    install_requires=["humanfriendly"]
 )
