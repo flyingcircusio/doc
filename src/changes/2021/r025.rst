@@ -12,13 +12,19 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix :command:`nix-env -qa` (#PL-129888).
+* Mailserver: make autoconfig virtual hosts in Nginx listen only on ethfe
+  instead of all interfaces (#PL-129209).
+* Add a new infrastructure module to support running development containers
+  using the Flying Circus platform.
+
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add a new infrastructure module to support running development containers
+  using the Flying Circus platform.
 
 
 NixOS 19.03 platform
