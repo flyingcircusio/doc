@@ -11,7 +11,7 @@
 To install this package a dirctory, invoke:
 
 
-    python3.6 -m venv .
+    python3 -m venv .
     bin/pip install -e .
 
 
