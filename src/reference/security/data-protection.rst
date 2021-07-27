@@ -22,11 +22,16 @@ based on the following standards and regulations:
 
 .. contents::
 
+Responsible bodies
+------------------
 
-Data protection officer
------------------------
+**Information Security officer:**
 
-The appointed data protection officer is:
+| Christian Zagrodnick
+| cz@flyingcircus.io
+
+
+**Data protection officer:**
 
 | Prof. Dr. Andre Döring
 | Robin Data GmbH
@@ -38,10 +43,7 @@ The appointed data protection officer is:
 General
 -------
 
-This document is structured based on the BDSG's first appendix which summarizes
-the law's requirements as a few “golden rules”. For the translation of German
-official terms to English we made use of the EU's `InterActive Terminology for
-Europe <http://iate.europa.eu>`_.
+This document describes the security measures required by GDPR Art. 32 (1). Based on our ISO 27001 certification we operate a risk-based ISMS leading to extensive security measures and documentation. We don't replicate the entire documentation here but only the gist.
 
 As some of the requirements of the law depend on the specific (contractual)
 situation, we'd like to first outline the general situation that hosting in
@@ -64,8 +66,12 @@ Periodical check for compliance to regulations:
   performed by a third party.
 
 
+Confidentiality
+---------------
+
+
 Admission control
------------------
+~~~~~~~~~~~~~~~~~
 
 **Measures for admission control ensure that unauthorized persons cannot
 physically access the data processing equipment.**
@@ -106,7 +112,7 @@ Due to this limitations, the services in high-security locations are not allowed
 .. _entry-control:
 
 Entry control
--------------
+~~~~~~~~~~~~~
 
 **Measures for entry control ensure that unauthorized third parties can not make use
 of the data processing systems.**
@@ -118,7 +124,7 @@ management purposes: SSH, web interfaces, and others. For those we employ
 a homogeneous scheme to identify and authorize users within the Flying Circus.
 Management access to systems must use encrypted communication channels.
 
-Identification and authorization of customer applications not managed by the Flying Circus infrastructure are not covered by our security responsibility. Our
+Identification and authorization of customer applications, not managed by the Flying Circus infrastructure, are not covered by our security responsibility. Our
 customers are required to ensure the security of their applications themselves.
 
 User identification must be performed using *personal* credentials, so that
@@ -133,7 +139,7 @@ All hardware machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
 authentication is not working correctly. Such uses must be documented.
 
-All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users.
+All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users. Additionally systems logs are shipped to a central log server within the same site where the logs are analysed and monitored.
 
 SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [#log-unsuccessful-attempts]_.
 
@@ -141,7 +147,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 .. _access-control:
 
 Access control
---------------
+~~~~~~~~~~~~~~
 
 .. ISMSControl: A.9.1.1
 
@@ -180,7 +186,7 @@ administrative operations:
 
 #. Emergency root logins (see above in :ref:`entry-control`).
 
-Authorized and unauthorized access to privileged operations is logged.
+Authorized and unauthorized access to privileged operations is logged and analysed on a central loghost within the same site.
 [#trace-tty]_
 
 Flying Circus maintains a set of permissions which enable users to perform
@@ -200,8 +206,47 @@ Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
 
+Separation
+~~~~~~~~~~
+
+**Measures for separation ensure that data that is collected for separate
+purposes must be processed separately.**
+
+To separate data from different customers the Flying Circus facilitates virtualization:
+both virtual machines (to separate execution context) and SAN (to separate
+storage) ensure that customers can only access data belonging to them. Within a
+single machine access to different files and processes is available using
+standard UNIX permissions.
+
+Machines (both virtual and physical) live in a specific *access ring* (short:
+ring):
+
+* *Ring 0* machines perform infrastructure tasks. Thus, they need to process
+  data belonging to several customers.  Only administrator access is allowed on
+  such machines.  Examples include VM hosts and storage servers.
+* *Ring 1* machines process data for a specific customer and are accessible to
+  users associated to that customer. Examples include customer VMs.
+
+All resources that belong logically together (e.g., VMs, storage
+volumes) are bundled into *projects*. projects share that same set
+of user accounts and permissions.
+
+
+Pseudonymisation
+~~~~~~~~~~~~~~~~
+
+**Measures to ensure that personal data can no longer be attributed to a specific person without the use of additional information.**
+
+* We delete data after the retention times required by tax or commercial law.
+* Access log files are being anonymised.
+* We delete customer data upon customer's request.
+
+
+Integrity and Authenticity
+--------------------------
+
 Transfer control
-----------------
+~~~~~~~~~~~~~~~~
 
 .. ISMSControl: A.14.1.2
 
@@ -229,12 +274,12 @@ Data paths where sensitive information may be transferred include:
 
 * In addition to application data, a system can generate data at runtime that
   contains sensitive information, for example log files. Log files usually do
-  not leave the machine on which they were generated, unless the customer operates a logging server. Log data may also be transferred to a central log server operated by Flying Circus via an encrypted channel.Only Flying Circus
+  not leave the machine on which they were generated, unless the customer operates a logging server. Log data may also be transferred to a log server on the same site operated by Flying Circus via an encrypted channel. Only Flying Circus
   administrators may have access to the central log server.
 
 
 Input control
--------------
+~~~~~~~~~~~~~
 
 **Measures for input control ensure that input, change, and deletion of data are
 documented showing at least who worked when on what data.**
@@ -244,7 +289,7 @@ customer's application. Customers must ensure that data entry,
 deletion and removal are handled appropriately according to their applicable
 data protection laws.
 
-However, within the performance of maintenance work it may be necessary that
+However, during maintenance work it may be necessary that
 administrators need to enter, change, or delete data records on a low technical
 level to ensure the continued operation of the overall system. This will only
 happen after having informed the affected customers and having documented this
@@ -260,7 +305,7 @@ after the change has been performed.
 
 
 Order control
--------------
+~~~~~~~~~~~~~
 
 **Measures for order control ensure that data is only processed according to the
 orders of the client.**
@@ -297,30 +342,12 @@ by administrators on request. Additionally, a
 our preventative and recovery measures.
 
 
-Separation
-----------
 
-**Measures for separation ensure that data that is collected for separate
-purposes must be processed separately.**
+Other measures
+--------------
 
-To separate data from different customers the Flying Circus facilitates virtualization:
-both virtual machines (to separate execution context) and SAN (to separate
-storage) ensure that customers can only access data belonging to them. Within a
-single machine access to different files and processes is available using
-standard UNIX permissions.
-
-Machines (both virtual and physical) live in a specific *access ring* (short:
-ring):
-
-* *Ring 0* machines perform infrastructure tasks. Thus, they need to process
-  data belonging to several customers.  Only administrator access is allowed on
-  such machines.  Examples include VM hosts and storage servers.
-* *Ring 1* machines process data for a specific customer and are accessible to
-  users associated to that customer. Examples include customer VMs.
-
-All resources that belong logically together (e.g., VMs, storage
-volumes) are bundled into *projects*. projects share that same set
-of user accounts and permissions.
+* Our support process and incident response measures are documented at :ref:`the support overview <support-details>`.
+* We have a process for emergency and crisis management including contingency plans for critical business processes (business continuity). See also :ref:`disaster-recovery`.
 
 
 .. rubric:: Footnotes
