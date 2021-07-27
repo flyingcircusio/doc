@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r039.rst:4
+msgid "Release 2014_039 (2014-08-07)"
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:9
+msgid "Prepare KVM init scripts for improved live migration (#13229)."
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:10
+msgid "Make backup scheduling more resilient against unresponsive VMs (RT 96877)."
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:11
+msgid ""
+"Improve Ceph OSD restart to avoid blocked requests and fix a live-lock "
+"condition (RT 96886)."
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:16
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r039.rst:18
+msgid "Monitor Ceph storage cluster more closely for blocked requests (#12589)."
+msgstr ""
+

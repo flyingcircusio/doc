@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r031.rst:4
+msgid "Release 2015_031 (2015-06-22)"
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:9
+msgid "Patch logstash ebuild and fix bug in email output (#16149)."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:15
+msgid "Let service users whitelist recipients from greylisting (#16223)."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:16
+msgid "Allow service users to restart postfix (#16219)."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:17
+msgid ""
+"Relocate the Kibana UI from `/kibana` to `/tools/<hostname>/kibana` to "
+"support the tool proxy."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:19
+msgid "Fix logstash grokparsefailure for nginx logs (#16117)."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:23
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:25
+msgid ""
+"Updated :ref:`firststeps`, :ref:`webgateway` and :ref:`gentoo-loghost` "
+"documentation to reference the tool menu in https://my.flyingcircus.io."
+msgstr ""
+
+#: ../../src/changes/2015/r031.rst:27
+msgid "Advertise Grok Constructor in :ref:`gentoo-loghost` documentation."
+msgstr ""
+

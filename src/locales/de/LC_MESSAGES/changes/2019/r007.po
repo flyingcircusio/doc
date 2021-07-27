@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2019/r007.rst:4
+msgid "Release 2019_007 (2019-03-07)"
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:9
+msgid "[NixOS] ElasticSearch instances will be restarted."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:10
+msgid "[NixOS] Graylog instances will be restarted."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:11
+msgid ""
+"[NixOS] All system services linking to CUPS or ImageMagick libraries will"
+" be restarted (e.g., PHP)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:17
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:19
+msgid "Security update for Graylog: 2.4.5 -> 2.4.6 (#108321)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:20
+msgid "Security update for CUPS: 2.0.4 -> 2.2.6 (#107622)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:21
+msgid "Security update for GnuPG: 2.0 -> 2.2 (#107622)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:22
+msgid "Security update for ImageMagick: 6.9.9-19 -> 6.9.9-34 (#107622)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:23
+msgid "Security update for Python 3.6: 3.6.6 -> 3.6.8 (#107622)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:24
+msgid "Update ELK stack: 6.3.2 -> 6.5.1 (#107622)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:29
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:31
+msgid "Fix DNS updates when no reverse Zone exists (#107874)."
+msgstr ""
+
+#: ../../src/changes/2019/r007.rst:32
+msgid "Fix disk resize for root partitions starting at sector 16384 (#108528)."
+msgstr ""
+

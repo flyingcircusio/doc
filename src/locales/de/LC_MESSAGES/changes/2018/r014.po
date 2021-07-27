@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r014.rst:4
+msgid "Release 2018_014 (2018-05-24)"
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:9
+msgid ""
+"[NixOS] Service restarts: PostgreSQL, haproxy, ClamAV, Kibana, Telegraf "
+"and possibly others."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:14
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:16
+msgid "Reduce VM crash probability on storage hangs (#101499)."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:17
+msgid ""
+"Revamp internal VM console logging to get more relevant data on VM "
+"crashes (#101499)."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:19
+msgid "Skip re-activating unchanged configurations in `fc-manage`."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:20
+msgid ""
+"Improve network dependencies and ordering during boot phase: more robust "
+"firewall setup with respect to DNS usage and delayed startup of network-"
+"based services."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:23
+msgid ""
+"Correctly restart PostgreSQL if the ethsrv interfaces are reconfigured to"
+" ensure PostgreSQL reopens any lost listening sockets."
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:28
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r014.rst:30
+msgid ""
+"Greatly improve live migration stability and speed up VM host evacuation "
+"(#100562)."
+msgstr ""
+

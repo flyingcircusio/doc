@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/deployment/process-management.rst:4
+msgid "Process management"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:7
+msgid "Supervisord"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:9
+msgid ""
+"We recommend the use of `supervisord`_ to monitor your application and "
+"restart the process in case of problems."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:12
+msgid ""
+"To install supervisord into your virtualenv add a supervisor section to "
+"your :file:`buildout.cfg`::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:24
+msgid "Run buildout again to install supervisord::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:28
+msgid "Start the supervisord.::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:32
+msgid "You can now manage your Django instance with supervisord::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:39
+msgid "Init scripts"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:41
+msgid ""
+"Service users may have their own init scripts to start and stop services "
+"on machine startup/shutdown. The system invokes user-specific init "
+"scripts in the user's context."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:46
+msgid "Init script location"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:48
+msgid ""
+"Init scripts are automatically picked up by the system if they are placed"
+" in the directory :file:`/var/spool/init.d/{USERNAME}`.::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:59
+msgid ""
+"All directories beneath :file:`/var/spool/init.d` must have the same name"
+" as the service user that owns them. Otherwise the scripts in the "
+"directory will not be run by the system."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:63
+msgid ""
+"On system start, init scripts are run as user `srvuser` in the following "
+"order::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:69
+msgid ""
+"On system shutdown, init scripts are run as user `srvuser` in the "
+"following order::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:76
+msgid ""
+"The system runs all executable scripts which have file names that conform"
+" to the :command:`run-parts --lsbsysinit` namespaces. It is recommended "
+"to use only alphanumerical characters. For details, see the :manpage"
+":`run-parts(1)` manual page."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:81
+msgid ""
+"If init scripts do not terminate (e.g. start services in the foreground),"
+" they will be killed after 5 minutes. So be sure that your init scripts "
+"start services in the background."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:86
+msgid "supervisord"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:88
+msgid ""
+"Unfortunately, the `supervisord` provides no single command that accepts "
+":command:`start` and :command:`stop` arguments in a way that is "
+"compatible to the user init scheme."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:92
+msgid ""
+"To work around this limitation, write a shell script which starts and "
+"stops `supervisord` accordingly and place/symlink it into the "
+":file:`/var/spool/init.d/{USERNAME}` directory::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:134
+msgid ""
+"Note that the `set -e` line causes the shell to exit the whole script "
+"unsuccessfully if one of the invoked commands exits unsuccessfully."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:141
+msgid "Testing"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:143
+msgid ""
+"To test the setup, you can invoke the user-specific init scripts manually"
+" when logged in as service user::"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:152
+msgid ""
+"If these tests succeed, the services will very likely start at system "
+"boot time."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:156
+msgid "Error handling"
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:158
+msgid ""
+"Userinit tries to proceed if one of the configured services fail to start"
+" or stop. All errors and other messages are logged to syslog. We assume "
+"that there are monitoring checks that fire off if required processes are "
+"not running."
+msgstr ""
+
+#: ../../src/guide/deployment/process-management.rst:163
+msgid ""
+"To determine what happened during actual startup or shutdown of the "
+"machine, you can consult :file:`/var/log/rc.log`."
+msgstr ""
+

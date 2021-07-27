@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r025.rst:4
+msgid "Release 2016_025 (2016-07-27)"
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:9
+msgid "Gentoo VMs will get varnishd restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:15
+msgid "Provide MongoDB 3.2.1 package on request (#22683)"
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:16
+msgid ""
+"Improve journal check so that it reports suspicious log lines directly to"
+" the support (#22217)."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:18
+msgid "Add `file` utility to the standard shell environment."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:19
+msgid ""
+"Fix a network problem which stopped clients behind a VPN from connecting "
+"to some VMs (#22733)."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:21
+msgid ""
+"Improve network debugging capabilities by enabling rpfilter logging "
+"(#22733)."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:22
+msgid "Make systemd journal world-readable (#22577)."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:26
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:28
+msgid "Security update for GLSA 201607-10: varnish (#22647, #22761, #22773)."
+msgstr ""
+
+#: ../../src/changes/2016/r025.rst:29
+msgid "Update Python2.7 to 2.7.12 for improved SSL support (#21938)."
+msgstr ""
+

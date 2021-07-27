@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r013.rst:4
+msgid "Release 2014_013 (2013-03-04)"
+msgstr ""
+
+#: ../../src/changes/2014/r013.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r013.rst:9
+msgid ""
+"Security update for `GLSA 201402-28 / chrony "
+"<http://www.gentoo.org/security/en/glsa/glsa-201402-28.xml>`_ (#13254)."
+msgstr ""
+
+#: ../../src/changes/2014/r013.rst:11
+msgid ""
+"Install :command:`latencytop` on all physical hosts to make performance "
+"debugging easier (#9956)."
+msgstr ""
+
+#: ../../src/changes/2014/r013.rst:16
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r013.rst:18
+msgid ""
+"Improve RAID adapter check so that we get instantly alarmed in case of "
+"BBU battery failures (#13149)."
+msgstr ""
+

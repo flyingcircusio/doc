@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/api/examples.rst:2
+msgid "Examples"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:4
+msgid ""
+"Here is a sample walkthrough how to use the API with the default Python "
+"``xmlrpclib`` client to create a new project, a VM, a service user, and "
+"grant permissions to a human user. The walk through can be recreated "
+"using the same credentials with our Vagrant-based test environment:"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:20
+msgid "We start out with a master project that the API key is granted to:"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:36
+msgid ""
+"We create a new project with only minimal details and get the full record"
+" back:"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:53
+msgid "Now we can create a VM in this project:"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:90
+msgid ""
+"The location identifies the datacenter you want to place the virtual "
+"machine in and is required. It cannot be changed unless you delete the VM"
+" first. The test environment has a location named ``'vgr'`` available. "
+"Our production data center is called ``'rzob'``."
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:95
+msgid "To let the VM do something useful, we can select classes::"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:106
+msgid "Now, lets create a service user for this project:"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:125
+msgid ""
+"And now lets make the \"Admin\" user part of this project with the right "
+"to log in and change into the service user::"
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:145
+msgid ""
+"Note that we used the batch-version of ``apply()`` to create two records "
+"at once. We also get both records back."
+msgstr ""
+
+#: ../../src/guide/api/examples.rst:148
+msgid ""
+"Additionally, you can just run all of those commands in a single big "
+"transaction and have either all of them executed, or none of them. "
+"However: you need to specify them in the order as if you executed them "
+"step by step  to avoid internal dependency issues."
+msgstr ""
+

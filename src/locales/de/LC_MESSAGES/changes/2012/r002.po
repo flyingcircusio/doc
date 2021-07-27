@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r002.rst:4
+msgid "Release 2012-02-03"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:9
+msgid ""
+"Provide :command:`ncdu` utility on all machines to display a graphical "
+"break-down of disk usage (#9758)."
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:16
+msgid "Improve default OpenLDAP configuration: indexes, overlays (#10170)."
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:18
+msgid ""
+"Improve management of tomcat servers (RT 81108). Especially, service "
+"users can now:"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:21
+msgid "Restart tomcat servers"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:22
+msgid "Read configuration in `/etc/tomcat-6`"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:23
+msgid ""
+"Add (and edit) web-app context configuration in "
+"`/etc/tomcat-6/Catalina/localhost`."
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:28
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:30
+msgid ":ref:`ldapserver` role"
+msgstr ""
+
+#: ../../src/changes/2012/r002.rst:31
+msgid ":ref:`tomcatserver` role"
+msgstr ""
+

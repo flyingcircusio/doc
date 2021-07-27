@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r025.rst:4
+msgid "Release 2017_025 (2017-10-26)"
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:9
+msgid ""
+"[NixOS] Most services will be restarted due to a multitude of security "
+"updates."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:11
+msgid ""
+"[NixOS] All virtual machines will be rebooted during announced "
+"maintenance windows."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:16
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:18
+msgid "Update Linux kernel from 4.4.59 -> 4.4.91 (#28503)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:19
+msgid "Update PHP 5.5, 5.6 and 7.0 to most recent bugfix releases (#28594)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:20
+msgid "Security update for ImageMagick: 6.9.9-4 -> 6.9.9-19 (#28605)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:21
+msgid ""
+"Statshost: Use nginx as proxy when using Prometheus to gather metrics in "
+"multiple projects -- instead of using federation (#28647)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:23
+msgid "Security update for pcre: 8.40 -> 8.41 (#27731)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:24
+msgid "Security update for varnish: 4.0.3 -> 4.0.5 (#28593)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:25
+msgid "Security update for curl: 7.52.1 -> 7.56.0 (#27729)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:26
+msgid "Security update for libxml: 2.9.4 -> 2.9.6 (#28608)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:27
+msgid "Security update for libxslt: 1.1.29 -> 1.1.31 (#28609)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:28
+msgid "Security update for LibreOffice: 5.0.1.2 -> 5.2.6.2."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:29
+msgid "vulnix: fix incorrect status reporting (#28741)."
+msgstr ""
+
+#: ../../src/changes/2017/r025.rst:30
+msgid "Enable automatic garbage collection on all VMs (#27553)."
+msgstr ""
+

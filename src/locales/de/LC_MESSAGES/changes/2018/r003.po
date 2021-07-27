@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r003.rst:4
+msgid "Release 2018_003 (2018-01-25)"
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:9
+msgid "ElasticSearch instances will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:15
+msgid "Add Role for Kibana (#29588)."
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:16
+msgid "Update ElasticSearch to 2.4.4 (via role elasticsearch2)."
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:17
+msgid "Add ElasticSearch 5.6.0 (via role elasticsearch5)."
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:21
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r003.rst:23
+msgid "Remove broken check for /dev/watchdog (#29441)."
+msgstr ""
+

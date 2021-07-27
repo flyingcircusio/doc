@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r008.rst:4
+msgid "Release 2016_008 (2016-03-03)"
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:9
+msgid "No outages expected."
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:12
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:14
+msgid ""
+"Update fc.agent to allow for more fine-grained control over Nagios mails "
+"(#20326)."
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:19
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:21
+msgid "Process detailed performance metrics from all machines (#20262)."
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:22
+msgid ""
+"Scatter run of hourly, weekly and monthly maintenance tasks over the "
+"respective period, to avoid excessive load on the storage cluster "
+"(#20363)."
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:27
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:29
+msgid ""
+"Don't notify customers/users about monitoring events which are both not "
+"relevant for their application and where they cannot do anything about "
+"(#20445)."
+msgstr ""
+
+#: ../../src/changes/2016/r008.rst:32
+msgid "Reduce Nagios warnings for collectd problems (#20385)."
+msgstr ""
+

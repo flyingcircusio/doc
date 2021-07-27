@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_034.rst:4
+msgid "Release 2013_034 (2013-11-07)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:9
+msgid ""
+"Security update for `GLSA 201311-04 / vixie-cron "
+"<http://www.gentoo.org/security/en/glsa/glsa-201311-04.xml>`_ (#12985)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:11
+msgid ""
+"Security update for `GLSA 201311-02 / phpmyadmin "
+"<http://www.gentoo.org/security/en/glsa/glsa-201311-02.xml>`_ (#12981)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:13
+msgid "Install GPG as part of the *customerproject* role (RT 91583)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:17
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:19
+msgid "Prepare creating new VMs on Ceph volumes."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:20
+msgid "Use UUIDs to identify maintenance requests (#9534)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:24
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_034.rst:26
+msgid ""
+"Nagios notifications for full disks go directly to the resource group "
+"contacts again."
+msgstr ""
+

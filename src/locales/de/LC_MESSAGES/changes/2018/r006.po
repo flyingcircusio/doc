@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r006.rst:4
+msgid "Release 2018_006 (2018-02-27)"
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:9
+msgid "[NixOS] Various services that link against OpenSSL will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:10
+msgid "[NixOS] OpenSSH servers will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:11
+msgid ""
+"[NixOS] OpenSSH has widely updated their cryptographic policies and "
+"disabled various (very) outdated protocols like SSHv1. For details check "
+"https://www.openssh.com/releasenotes.html for incompatible changes "
+"between version 6.9 and 7.5."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:15
+msgid "[NixOS] InfluxDB services will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:16
+msgid "[Gentoo] Apache services will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:20
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:22
+msgid ""
+"Enable installation of strongSwan 5.6 IPSec server (assistance from "
+"support needed) (#29822)."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:24
+msgid "Fix Sensu API authentication."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:25
+msgid "Security update OpenSSL: -> 1.0.1g, -> 1.0.2n (#29247)."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:26
+msgid "Update OpenSSH: 6.9 -> 7.5 (#29247)."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:27
+msgid "Update for cmake due to NixOS 17.09 compatibility issues."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:28
+msgid "Configure InfluxDBs' systemd unit to automatically restart after crashes."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:29
+msgid "Improve outside connectivity check to reduce false positives."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:33
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:35
+msgid "Use *copytruncate* for logrotate on MySQL (#29764)."
+msgstr ""
+
+#: ../../src/changes/2018/r006.rst:36
+msgid ""
+"Security update for Apache 2.4 (GLSA 201701-36; GLSA 201710-32; #25501; "
+"#28953)"
+msgstr ""
+

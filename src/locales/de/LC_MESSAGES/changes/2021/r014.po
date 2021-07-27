@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r014.rst:4
+msgid "Release 2021_014 (2021-04-26)"
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:9
+msgid "[NixOS 20.09] LAMP-based services will be restarted."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:10
+msgid ""
+"[NixOS 20.09] Gitlab will be restarted and be unavailable for some "
+"minutes."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:14
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:16
+msgid ""
+"fc-agent: pre-build updates which are scheduled to run in a maintenance "
+"window. Stopped/started/restarted/reloaded services are now reported "
+"correctly in maintenance mails and the UI. This also helps to find build "
+"errors earlier (#PL-120275)."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:19
+msgid ""
+"fc-agent: add a notice to the maintenance annoncement when kernel updates"
+" will schedule a VM reboot. Estimated time for an update is increased to "
+"10 minutes because some services may take minutes to restart "
+"(#PL-129798)."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:21
+msgid ""
+"Vagrant: Set mode for service user dirs (:file:`/srv/s-*`) to 755 like on"
+" a regular VM (#PL-129791)."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:22
+msgid "Gitlab: update to 13.8.8 security release (#PL-129795)."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:23
+msgid "Major improvements of our LAMP role (#PL-129755)."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:25
+msgid "We now provide PHP 5.6 (legacy), 7.3 (default) and PHP 7.4 (optional)"
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:26
+msgid ""
+"Tideways integration is automatically enabled/disabled if an API key is "
+"provided."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:27
+msgid ""
+"We are switching from mpm_event to mpm_prefork as we have seen too many "
+"issues with threading and rather prefer a stable service."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:28
+msgid "We added more test coverage to ensure future stability."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:29
+msgid "Added BCMath as a default extension."
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:33
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r014.rst:35
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_013/20.09...38b5fd9de9416572d0c89e2d06b4aeb6854c77ea>`_,"
+" `nixpkgs/upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/753913a8cb8310f4631860b7f77af13bd00eb031...fcb7dc1b392549533e00f75d3d7409cf743a5cf0>`_"
+msgstr ""
+

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r039.rst:4
+msgid "Release 2020_039 (2020-12-07)"
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:7
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:9
+msgid ""
+"Kubernetes: flannel update and other improvements to fix slow restart "
+"times and missing network connectivity after node reboots (PL-129513)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:11
+msgid ""
+"Kubernetes: add kubernetes-frontend role that provides a pre-configured "
+"HAProxy to load-balance external traffic to nodes. VMs without any "
+"kubernetes role don't have access to the cluster network anymore "
+"(#PL-129522)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:14
+msgid ""
+"Nginx: cover usage of mod_security in our nginx platform tests to ensure "
+"that it works (PL-129514)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:15 ../../src/changes/2020/r039.rst:29
+msgid ""
+"Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the "
+"rotation count for logrotate (PL-129495)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:16 ../../src/changes/2020/r039.rst:28
+msgid "Provide zip in our default installation (PL-129517)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:17
+msgid ""
+"LAMP role: remove deprecated configuration and standardize on pure NixOS-"
+"based configuration options (PL-128815)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:18
+msgid ""
+"Review and streamline our wkhtmltopdf builds (0.12.4, 0.12.5, 0.12.6) to "
+"reflect build options as used by upstream. Added test coverage to "
+"validate proper usage of fonts in CSS (#129939)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:20
+msgid ""
+"PostgreSQL: install globally available commands (like psql) with the same"
+" version as the active role; link socket which is now in /run/postgresql "
+"for all versions to old location in /tmp (PL-129526)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:22
+msgid "Varnish: fix error on reload when deleting the old config (PL-129524)."
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:26
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:33
+msgid "Detailed changes"
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:35
+msgid ""
+"NixOS 20.09: `platform 20.09 <https://github.com/flyingcircusio/fc-"
+"nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09>`_,"
+" `upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f>`_"
+msgstr ""
+
+#: ../../src/changes/2020/r039.rst:36
+msgid ""
+"NixOS 19.03: `platform 19.03 <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2020_038...fc/r2020_039/19.03>`_"
+msgstr ""
+

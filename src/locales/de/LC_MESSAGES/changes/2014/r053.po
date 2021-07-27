@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r053.rst:4
+msgid "Release 2014_053 (2014-11-14)"
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:9
+msgid ""
+"Fix occasional hangs in random number generation on virtual machines "
+"(#13751)."
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:10
+msgid "Explicitly unmanage unused `webapp-config` files (#13758)."
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:14
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:16
+msgid ""
+"Provide comprehensive package list in documentation for "
+":ref:`customerproject`."
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:18
+msgid "Reflect changes introduced by OS update (2014_050) in documentation:"
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:20
+msgid "Add documentation for :ref:`apparmor`."
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:21
+msgid "Add `libmemcached` to documentation for :ref:`appserver`."
+msgstr ""
+
+#: ../../src/changes/2014/r053.rst:22
+msgid "Refactor the :ref:`firststeps`."
+msgstr ""
+

@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r016.rst:4
+msgid "Release 2020_016 (2020-06-15)"
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:9
+msgid ""
+"[NixOS 19.03] Nginx, Kibana and possibly other services that depend on "
+"OpenSSL 1.1 will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:15
+msgid "Add RabbitMQ 3.8 role (#126083)."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:16
+msgid ""
+"Fix port conflict on 443 when Letsencrypt is used. This makes it possible"
+" to run a TURN server on 443 with automated letsencrypt certs, for "
+"example (#126629)."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:18
+msgid "Security: Update Qemu to 4.2.0 (#126583)."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:19
+msgid "Security: Update for OpenSSL 1.1.1 (#126583)."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:20
+msgid ""
+"Fix Postfix permissions problem which lead to incomplete Telegraf metrics"
+" for low-volume mail servers (#126332)."
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:24
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r016.rst:26
+msgid ""
+"Add tar and compression tools to fc-manage. Using fetchTarball in local "
+"NixOS config doesn’t break automatic configuration anymore (#124799)."
+msgstr ""
+

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/infrastructure/networking/connecting.rst:4
+msgid "Connecting to VMs"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:7
+msgid ""
+"Generally you can connect to VMs on their \"SRV\" interface from the "
+"outside by calling::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:13
+msgid ""
+"However, due to a shortage of IPv4 addresses and an unpredictable status "
+"of IPv6 deployments, this might not work out of the box. Let's go through"
+" a couple of options you have, if the example above does not work out of "
+"the box."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:21
+msgid "Getting an overview of your situation"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:23
+msgid "**VM has a public IPv4 address on SRV**::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:34
+msgid "**VM has a private IPv4 address on SRV**::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:39
+msgid "**VM is accessible through IPv6**::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:51
+msgid "**VM is not accessible through IPv6**::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:57
+msgid ""
+"If you get a result that isn't shown here, please contact our support and"
+" we'll amend this list."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:60
+msgid "VM has a public IPv4 address"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:62
+msgid ""
+"Everything should be fine: independently of whether your ISP provides you"
+" with IPv4 and/or IPv6  you should be able to connect. If not: please "
+"contact our support."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:67
+msgid "VM has a private IPV4 address but you have native IPv6 from your ISP"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:69
+msgid ""
+"Excellent! You should be able to connect as IPv6 will automatically pick "
+"up where IPv4 dropped the ball. If you can not connect in this scenario: "
+"please contact our support."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:74
+msgid "VM has a private IPv4 and you do not have native IPv6"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:76
+msgid ""
+"This is the tricky part: the VM is only accessible via IPv6 directly from"
+" the outside but you don't have it yet."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:82
+msgid "Using an IPv4 SSH jump host"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:84
+msgid ""
+"SSH can perform complex connection setups including proxying through "
+"other machines. Fortunately there will always be at least one public IPv4"
+" address that is accessible to you and you can use this to connect to the"
+" machine you actually want to go to."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:89
+msgid ""
+"Put the following in your :file:`~/.ssh/config` to enable transparent SSH"
+" jump hosts::"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:106
+msgid ""
+"Remember to replace <VMNAME> with the name of a VM that has a public "
+"frontend IPv4 address configured. It doesn't matter which other VM you "
+"connect to. Also, replace <USERNAME> with the unix username that you are "
+"using in the Flying Circus."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:112
+msgid "Using a private OpenVPN server"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:114
+msgid ""
+"If a project has an OpenVPN server available (`external_net` role), "
+"tunneling through a VPN connection may be a convenient alternative."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:119
+msgid "Using IPv6 rapid deployment options"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:121
+msgid ""
+"Even if your provider does not provide you with IPv6 there is a good "
+"chance you can easily get IPv6 with one of the following \"rapid "
+"deployment\" options."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:124
+msgid "The technologies we recommend are:"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:126
+msgid ""
+"`6to4 <https://en.wikipedia.org/wiki/6to4>`_ which works in many cases "
+"and is supported by Linux, Windows, Mac OS X and many routers. You can "
+"often turn this on for your whole office network by simply setting an "
+"\"Enable 6to4\" option in your router."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:130
+msgid ""
+"`Teredo tunneling <https://en.wikipedia.org/wiki/Teredo_tunneling>`_ may "
+"be a last-resort option that can be configured on individual machines and"
+" is supported on Windows and Linux."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:132
+msgid ""
+"Traditional IP tunnels, like provided by `Tunnelbroker "
+"<https://tunnelbroker.net/>`_ are also an option, although their "
+"performance and reliability varies."
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:137
+msgid "Further support"
+msgstr ""
+
+#: ../../src/infrastructure/networking/connecting.rst:139
+msgid ""
+"IPv6 deployment is gaining traction but the rapid deployment options are "
+"unreliable at times. Check above options or let us know if you found a "
+"solution that worked better for you. If you struggle, please contact our "
+"support: we're here to help you through the hard times of IPv4 "
+"exhaustion!"
+msgstr ""
+

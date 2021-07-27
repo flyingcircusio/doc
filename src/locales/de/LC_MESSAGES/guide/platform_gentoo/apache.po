@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_gentoo/apache.rst:4
+#: ../../src/guide/platform_gentoo/apache.rst:14
+#: ../../src/guide/platform_gentoo/apache.rst:24
+msgid "Apache"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:7
+msgid "Description"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:9
+msgid "Installs the Apache webserver"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:12
+msgid "Components"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:16
+msgid "mod_cgi"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:17
+msgid "mod_dav"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:18
+msgid "mod_php"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:19
+msgid "mod_proxy"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:20
+msgid "mod_rewrite"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:21
+msgid "..."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:26
+msgid ""
+"The Apache web server is set up to listen on loopback and SRV interfaces "
+"only and is not designed to run as the frontend webserver. You will need "
+"to setup :ref:`webgateway` to make the LAMP stack public available."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:31
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:33
+msgid ""
+"We provide a basic Apache configuration including a setup for AWstats, "
+"but do not define any virtual hosts. Service users may create individual "
+"config files in :file:`/etc/apache2/local` that will be included in "
+"Apache's global config context."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:39
+msgid "Interaction"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:41
+msgid ""
+"To activate updated Apache configurations *without downtime* service "
+"users may restart apache2 *gracefully*. There is one caveat though. If "
+"the config file is incorrect apache2 may stop silently, which is why you "
+"should check the correctness before."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:53
+msgid "If you don't mind the downtime, service users may invoke"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:60
+msgid "Logging"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:62
+msgid ""
+"If not re-defined in a custom configuration log files can be found in "
+":file:`/var/log/apache2`. The log files are readable by the service users"
+" as well as by human users."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:67
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:69
+msgid "By default, the presence of Apache processes is checked."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/apache.rst:70
+msgid ""
+"To get checks for individual web pages (presence, specific content, "
+"response time), please notify the support."
+msgstr ""
+

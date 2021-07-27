@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2019/r005.rst:4
+msgid "Release 2019_005 (2019-02-05)"
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:9
+msgid ""
+"Monitor syntax and plausibility of user-supplied Sensu checks in "
+"`/etc/local/sensu-client` (#108125)."
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:11
+msgid ""
+"Improve handling of local nixpkgs checkouts for system development "
+"(#107949)."
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:15
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:17
+msgid ""
+"Fix bug with broken Ceph locks observed during VM live migration "
+"(#107986)."
+msgstr ""
+
+#: ../../src/changes/2019/r005.rst:18
+msgid ""
+"Backup: add `reduced-retention` policy for backups that do not need to be"
+" kept as long as normally (#108112)."
+msgstr ""
+

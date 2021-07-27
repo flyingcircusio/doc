@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/antivirus.rst:4
+msgid "Antivirus"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:6
+msgid ""
+"Installs the `ClamAV`_ virus checker and infrastructure to update virus "
+"signatures regularly."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:12
+msgid "Components"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:14
+msgid "clamd - antivirus daemon"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:15
+msgid "clam(d)scan - command line virus checker"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:16
+msgid "freshclam - signature update service"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:19
+msgid "Interaction"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/antivirus.rst:21
+msgid ""
+"Use :command:`clamdscan` to pass files to the scanning daemon or talk "
+"directly to it via `libclamav`."
+msgstr ""
+

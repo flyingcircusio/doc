@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r010.rst:4
+msgid "Release 2016_010 (2016-03-17)"
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:9
+msgid ""
+"To update Qeumu, all virtual machines will be restarted. Individual "
+"maintenance windows will be scheduled and announced."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:14
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:16
+msgid ""
+"Update FUSE to 2.9.4 for `GLSA 201603-04 "
+"<https://glsa.gentoo.org/glsa/201603-04>`_ (#20538)."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:18
+msgid "Update ModSecurity for nginx to 2.9.1 (#19990)."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:19
+msgid ""
+"Update Qemu to 2.5.0 for `GLSA 201602-01 "
+"<https://glsa.gentoo.org/glsa/201602-01>`_ (#20019)."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:21
+msgid "Update `nagiosplugin` to 1.2.4 (#19079)."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:25
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:27
+msgid ""
+"Reduce OSD journal size and make more frequent flushes. This should "
+"further reduce IO spikes on the magnetic disks."
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:32
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2016/r010.rst:34
+msgid ""
+"For all machines, mark maintenance start and end in the configuration "
+"database. This helps to automatically silence monitoring during that time"
+" which in turn gives a better view over real problems. (#20238)"
+msgstr ""
+

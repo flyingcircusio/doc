@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r037.rst:4
+msgid "Release 2016_037 (2016-12-15)"
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:7
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:9
+msgid "Security update for GNU patch (GLSA 201612-12, #25146)."
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:10
+msgid "Fix bug in VM charging code to improve VM bootstrapping (#25145)."
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:14
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:16
+msgid ""
+"Refactor integration of our own addition with upstream packages to ease "
+"future security and feature updates (#22964)"
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:18
+msgid "Security update for dnsmasq (CVE-2015-8899, #23865)."
+msgstr ""
+
+#: ../../src/changes/2016/r037.rst:19
+msgid "Fix GID allocation for permission groups (sudo-srv, ...) (#21537)."
+msgstr ""
+

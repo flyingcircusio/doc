@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/security/administrators.rst:4
+msgid "List of administrators"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:6
+msgid "The following people are administrators for the Flying Circus:"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:8
+#: ../../src/reference/security/administrators.rst:20
+msgid "Christian Schmidt"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:9
+#: ../../src/reference/security/administrators.rst:21
+msgid "Christian Theune"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:10
+#: ../../src/reference/security/administrators.rst:22
+msgid "Christian Zagrodnick"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:11
+#: ../../src/reference/security/administrators.rst:23
+msgid "Frank Lanitz"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:12
+#: ../../src/reference/security/administrators.rst:24
+msgid "Tobias Stenzel"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:16
+msgid "List of stand-by supporters"
+msgstr ""
+
+#: ../../src/reference/security/administrators.rst:18
+msgid "The following people perform standby support duties:"
+msgstr ""
+

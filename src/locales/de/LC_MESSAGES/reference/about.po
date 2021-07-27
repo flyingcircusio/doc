@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/about.rst:2
+msgid "Philosophy"
+msgstr ""
+
+#: ../../src/reference/about.rst:4
+msgid ""
+"The Flying Circus is a managed, agile platform for hosting Python web "
+"applications."
+msgstr ""
+
+#: ../../src/reference/about.rst:7
+msgid ""
+"We provide virtual Linux machines enabling developers to use any software"
+" they like in an environment they know but without having to administer "
+"an operating system."
+msgstr ""
+
+#: ../../src/reference/about.rst:11
+msgid ""
+"We provide widely-used open-source web application components like nginx,"
+" haproxy, varnish, PostgreSQL, and more. All of them are managed with a "
+"production-proven configuration but you also have the freedom to adjust "
+"their configuration to your needs."
+msgstr ""
+
+#: ../../src/reference/about.rst:16
+msgid ""
+"All of the Flying Circus is managed: we take care of all the operational "
+"issues like monitoring, installing updates and patches, backup, user "
+"management, etc. so that you can focus on building your application and "
+"take care of your customers."
+msgstr ""
+
+#: ../../src/reference/about.rst:21
+msgid ""
+"Also, we love every single VM and make sure it is healthy and is "
+"performing well at any time."
+msgstr ""
+
+#: ../../src/reference/about.rst:26
+msgid "Our approach"
+msgstr ""
+
+#: ../../src/reference/about.rst:28
+msgid ""
+"Our approach to the Flying Circus is based on a set of principles, "
+"methods, and practices sometimes referred to as `DevOps "
+"<https://secure.wikimedia.org/wikipedia/en/wiki/DevOps>`_."
+msgstr ""
+
+#: ../../src/reference/about.rst:32
+msgid "To us, the most important aspects are:"
+msgstr ""
+
+#: ../../src/reference/about.rst:47
+msgid "Automation"
+msgstr ""
+
+#: ../../src/reference/about.rst:35
+msgid ""
+"We automate almost everything: from provisioning physical or virtual "
+"machines, to installing packages together with their monitoring "
+"configuration, to complete operating system updates."
+msgstr ""
+
+#: ../../src/reference/about.rst:39
+msgid ""
+"This speeds up the initial configuration and helps keeping your "
+"configuration up-to-date even if your application has been running for "
+"months or years."
+msgstr ""
+
+#: ../../src/reference/about.rst:43
+msgid ""
+"It also ensures that you profit from new features and bug fixes without "
+"having to buy new stuff or hiring us to configure it."
+msgstr ""
+
+#: ../../src/reference/about.rst:46
+msgid ""
+"However, if you need something quick, we'll make sure that the automation"
+" does not get in your way and will figure something out for you."
+msgstr ""
+
+#: ../../src/reference/about.rst:67
+msgid "Virtualisation"
+msgstr ""
+
+#: ../../src/reference/about.rst:50
+msgid ""
+"Hardware is expensive, dirty, unreliable, and inflexible. That is why we "
+"provide you with virtual machines instead: many things become cheap, "
+"clean, reliable and flexible."
+msgstr ""
+
+#: ../../src/reference/about.rst:54
+msgid ""
+"We take care of all the complicated things related to hardware and in "
+"return you get all the good things from virtualised environments:"
+msgstr ""
+
+#: ../../src/reference/about.rst:57
+msgid ""
+"allocating the resources (CPU power, disk, memory) that you actually need"
+" and only paying for what you use"
+msgstr ""
+
+#: ../../src/reference/about.rst:60
+msgid ""
+"adjusting the allocated resources in a timely manner usually in a few "
+"minutes or hours"
+msgstr ""
+
+#: ../../src/reference/about.rst:63
+msgid ""
+"isolating services in  separate machines increases reliability, "
+"cleanliness, and flexibility"
+msgstr ""
+
+#: ../../src/reference/about.rst:66
+msgid ""
+"hardware failures become irrelevant, hardware improvements become "
+"available without reinstalling the system"
+msgstr ""
+
+#: ../../src/reference/about.rst:91
+msgid "Continuous improvements"
+msgstr ""
+
+#: ../../src/reference/about.rst:70
+msgid ""
+"When operating a web application today, chances are that you are already "
+"continuously improving it."
+msgstr ""
+
+#: ../../src/reference/about.rst:73
+msgid ""
+"However, if a server is set up once it will get old and the time will "
+"come when your application can not evolve any longer in that crufty, old "
+"setup."
+msgstr ""
+
+#: ../../src/reference/about.rst:76
+msgid ""
+"We continuously keep both your virtual machines and our configurations up"
+" to date and introduce new features and technology so that your "
+"application will always find a modern, secure environment to work in."
+msgstr ""
+
+#: ../../src/reference/about.rst:80
+msgid ""
+"In our heavily automated environment we express almost all of our "
+"infrastructure as programming code and thus can leverage similar tools "
+"that you know from developing your application:"
+msgstr ""
+
+#: ../../src/reference/about.rst:84
+msgid "checking everything into revision control"
+msgstr ""
+
+#: ../../src/reference/about.rst:85
+msgid ""
+"making heavy use of testing and quality assurance before rolling anything"
+" out into production"
+msgstr ""
+
+#: ../../src/reference/about.rst:87
+msgid "being able to revert back to or take a look at previous releases"
+msgstr ""
+
+#: ../../src/reference/about.rst:88
+msgid "providing change logs"
+msgstr ""
+
+#: ../../src/reference/about.rst:90
+msgid ""
+"Also, we'd like to hear from you about what you are missing or what you "
+"dream of - there is a good chance that we can help building that."
+msgstr ""
+
+#: ../../src/reference/about.rst:107
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/reference/about.rst:94
+msgid "Something that works today may not work tomorrow."
+msgstr ""
+
+#: ../../src/reference/about.rst:96
+msgid ""
+"As any application today consists of many parts working together "
+"seamlessly nobody can personally keep track of the status of the overall "
+"system."
+msgstr ""
+
+#: ../../src/reference/about.rst:100
+msgid ""
+"We therefore monitor many parameters of all systems and applications and "
+"keep you informed of their current status as well as giving you accesss "
+"to the historic data about their availability and their performance."
+msgstr ""
+
+#: ../../src/reference/about.rst:104
+msgid ""
+"In addition to the automatically deployed system checks your application "
+"can be monitored closely given that you provide the necessary information"
+" to us."
+msgstr ""
+
+#: ../../src/reference/about.rst:123
+msgid "Security"
+msgstr ""
+
+#: ../../src/reference/about.rst:110
+msgid ""
+"Running your application with a service provider implies that your data "
+"(and the data of your customers) is stored at a location that you do not "
+"have direct access to."
+msgstr ""
+
+#: ../../src/reference/about.rst:114
+msgid ""
+"To keep your data secure we adhere to industry standard practices as well"
+" as Germany's laws about privacy and data protection (one of the most "
+"strict laws on this issue in the world)."
+msgstr ""
+
+#: ../../src/reference/about.rst:118
+msgid "Specifically this means:"
+msgstr ""
+
+#: ../../src/reference/about.rst:120
+msgid "employing both technical and organisational measures"
+msgstr ""
+
+#: ../../src/reference/about.rst:121
+msgid "applying security patches timely"
+msgstr ""
+
+#: ../../src/reference/about.rst:122
+msgid "selecting appropriate data centers"
+msgstr ""
+
+#: ../../src/reference/about.rst:123
+msgid ":doc:`documenting our approach closely </reference/security/index>`"
+msgstr ""
+
+#: ../../src/reference/about.rst:139
+msgid "Our tools"
+msgstr ""
+
+#: ../../src/reference/about.rst:141
+msgid ""
+"Our platform runs on top of Linux with `KVM <http://www.linux-kvm.org>`_ "
+"virtual machines and uses a structured approach to automated systems "
+"management and operation with `Puppet <http://www.puppetlabs.com>`_."
+msgstr ""
+
+#: ../../src/reference/about.rst:145
+msgid "A detailed list of used hardware and software can be provided on request."
+msgstr ""
+
+#: ../../src/reference/about.rst:162
+msgid "Our offers"
+msgstr ""
+
+#: ../../src/reference/about.rst:164
+msgid ""
+"For details about our commercial offerings based on the Flying Circus "
+"hosting infrastructure, please visit our `homepage "
+"<http://flyingcircus.io>`_."
+msgstr ""
+

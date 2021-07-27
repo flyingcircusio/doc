@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r012.rst:4
+msgid "Release 2017_012 (2017-06-13)"
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:9
+msgid "PostgreSQL servers will be restarted to add the PostGIS extension."
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:12
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:14
+msgid ""
+"External network gateways: Separate resolver and authoritative nameserver"
+" functionalities of dnsmasq to prevent DNS amplification attacks "
+"(#27339)."
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:17
+msgid "Update PostGIS to 2.3.1 (#27361)."
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:19
+msgid ""
+"Activate the PostGIS extension automatically for all PostgreSQL servers "
+"(#27361)."
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:24
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r012.rst:26
+msgid "Improve reliability of storage servers during reboots (#27366)."
+msgstr ""
+

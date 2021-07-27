@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r001.rst:4
+msgid "Release 2013-02-04"
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:9
+msgid ""
+"Major updates to the filesystem migration and consistency check code. We "
+"must run a filesystem check on all machines to ensure that there are no "
+"hidden filesystem inconsistencies prior to the upcoming OS update. See "
+"<http://gocepthosting.blogspot.com/2013/01/filesystem-integrity-"
+"checks.html> for explanation."
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:14
+msgid ""
+"Fix bug in VM init scripts that caused delays in VM startup after VM host"
+" reboots."
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:16
+msgid ""
+"Make Postfix service deployments more flexible by allowing to add custom "
+"postfix main.cf parameters in :file:`/etc/postfix/main.d` (#11904)."
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:21
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:23
+msgid "Graph varnish cache request rate and hit rate per default."
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:27
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2013/r001.rst:29
+msgid ":ref:`mailserver` role documentation update."
+msgstr ""
+

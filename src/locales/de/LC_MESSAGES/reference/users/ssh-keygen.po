@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/users/ssh-keygen.rst:4
+msgid "Generating SSH keys"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:6
+msgid ""
+"Flying Circus machines can be accessed via SSH using your Flying Circus "
+"account."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:9
+msgid ""
+"According to our :ref:`data protection policy<entry-control>`, we require"
+" using a cryptographic authentication instead of a password. For this "
+"authentication method you need to generate an SSH key pair."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:13
+msgid ""
+"SSH key pairs consist of two individual parts: a private and a public "
+"key. The private key *must always* be kept secret, much like a password. "
+"The public part, however, may be transported (as the name says) publicly "
+"and will be deposited on our servers. Your private key will then be used "
+"to verify your access."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:19
+msgid ""
+"The following steps will show you how to generate this key pair and how "
+"to set up your account to use it."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:26
+msgid "Generating a key pair on Linux"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:28
+msgid ""
+"On Linux systems, the tool :program:`ssh-keygen` can be used to generate "
+"a SSH key pair. In general, all common Linux distributions ship with this"
+" tool. For further details about its usage, please refer to the :manpage"
+":`ssh-keygen(1)` manual page."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:33
+msgid ""
+"If no parameter is specified on execution, :program:`ssh-keygen` will "
+"create an RSA key that can be used for SSH 2 connections. This is "
+"sufficient for Flying Circus accounts. It is advisable to protect your "
+"private key file with a passphrase. This minimizes the risk of your key "
+"pair being compromised, especially when storing your private key on "
+"remote machines."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:39
+msgid "A more secure ED25519 key (recommended) can be generated using::"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:43
+msgid ""
+"It has to be ensured that ssh-keygen is run as the user that is intended "
+"to connect to the respective Flying Circus account. Alternatively, the "
+"keypair has to be transferred to the designated user's SSH directory."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:47
+msgid ""
+"If not specified differently, The keypair will be written to "
+":command:`$HOME/.ssh/`. It consists of two files: the private key file "
+"and the public key-file::"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:54
+msgid ""
+"Please don't use DSA as these keys are no longer supported and considered"
+" secure."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:57
+msgid ""
+"To complete the process, upload the new public key to your account at "
+"`my.flyingcircus.io <https://my.flyingcircus.io>`_ so you can use it for "
+"logging into your VM"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:65
+msgid "Generating a key pair on Windows"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:67
+msgid ""
+"On Windows, the program :program:`PuTTYgen` can be used to generate a SSH"
+" keypair. It is part of the program suite :program:`PuTTY` and can be "
+"retrieved from the `vendor's website "
+"<http://www.putty.nl/download.html>`_. It can etiher be download "
+"separately or as part of the complete program suite which is provided as "
+"a setup program."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:73
+msgid "After launching the program, the following window shows up:"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:77
+msgid ""
+"To start generating your SSH key pair, just make sure that a ECDSA or "
+"ED25519 key is selected in the Parameters section."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:80
+msgid ""
+"After clicking on Generate, :program:`PuTTYgen` might requests you to "
+"move the mouse around in order to generate a sufficient amount of "
+"randomness. This contributes to the uniqueness and the security of your "
+"SSH key pair. A progress bar indicates the progress of the key pair "
+"generation. Depending on chosen parameters and used hardware this can "
+"take a few moments."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:86
+msgid "Once the process is finished, the following window shows up:"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:90
+msgid ""
+"In this window you can apply additional settings to your key pair. You "
+"may for instance enter a comment that makes it easier to identify your "
+"public key by for example entering a purpose or your name. Further, it is"
+" advisable to protect your private key by entering a passphrase."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:95
+msgid ""
+"To complete the generation process, save your public key and your private"
+" key to your hard drive. Finally put your fresh created public key to "
+"your account at `my.flyingcircus.io <https://my.flyingcircus.io>`_. You "
+"will find the compatible public key snippet inside the field at the top "
+"of the window."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:104
+msgid "Generating a key pair on Mac OS X"
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:106
+msgid ""
+"The key pair generation process on Mac OS X is almost the same as on "
+"Linux systems because Mac OS X is running on a UNIX-compatible "
+"architecture."
+msgstr ""
+
+#: ../../src/reference/users/ssh-keygen.rst:109
+msgid ""
+"To generate your key pair, simply open a terminal and follow the "
+"instructions given for :ref:`generating a key pair on Linux <ssh-keygen-"
+"linux>`. For more detailed instructions for Mac OS X have a look at this "
+"`tutorial <https://drupal.org/node/1070130>`_."
+msgstr ""
+

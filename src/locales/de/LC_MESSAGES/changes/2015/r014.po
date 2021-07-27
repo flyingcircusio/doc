@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r014.rst:4
+msgid "Release 2015_014 (2015-03-13)"
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:9
+msgid "Fix stage4 build ordering problems (#14867)."
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:15
+msgid ""
+"Increase varnish \"nuke_limit\" to avoid accidental 503 errors on "
+"saturated caches with highly diverse object sizes (#14903)."
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:17
+msgid "Update partitioning scheme on physical hosts (#13358)."
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:18
+msgid ""
+"Remove race condition while trying to delete volumes of abandoned VMs "
+"(#14807)."
+msgstr ""
+
+#: ../../src/changes/2015/r014.rst:20
+msgid ""
+"Perform automatic, trusted ca certificate roll-over when renewing the "
+"puppet master ca certificate. (#14852)"
+msgstr ""
+

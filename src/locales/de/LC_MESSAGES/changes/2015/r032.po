@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r032.rst:4
+msgid "Release 2015_032 (2015-06-26)"
+msgstr ""
+
+#: ../../src/changes/2015/r032.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r032.rst:9
+msgid ""
+"Security update for `GLSA 201506-03 / GnuTLS "
+"<https://security.gentoo.org/glsa/201506-03>`_ (#16320)."
+msgstr ""
+
+#: ../../src/changes/2015/r032.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r032.rst:16
+msgid "Improve Puppet master request handling for better performance (#16284)."
+msgstr ""
+
+#: ../../src/changes/2015/r032.rst:17
+msgid "Fix bug in scheduled maintenance processing after reboots (#16307)."
+msgstr ""
+

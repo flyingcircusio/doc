@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r016.rst:4
+msgid "Release 2021_016 (2021-05-10)"
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:9
+msgid "[NixOS 20.09] LAMP servers using PHP 5.6 will be restarted."
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:13
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:15
+msgid ""
+"Fix usage of ``locale-archive`` for ported PHP 5.6 binaries by using the "
+"correct glibc-compatible archive (PL-129824)."
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:17
+msgid "Add docsplit package (#PL-129829)."
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:18
+msgid ""
+"Mailserver: fix a problem that caused graylisted mails to be rejected "
+"instead of retrying them (#PL-129568)."
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:23
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r016.rst:25
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_015/20.09...62d2b281e21f9e3f87938fc9ab98660940493c48>`_"
+msgstr ""
+

@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r003.rst:4
+msgid "Release 2016_003 (2016-01-26)"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:9
+msgid "Update pmacctd to 1.5.2 (#17260)"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:12
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:14
+msgid "Managed traffic accounting setup on routers (#17260)"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:15
+msgid ""
+"Improve Ceph OSD start procedure by locking the object map database "
+"(omap) into memory (#18860)."
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:20
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2016/r003.rst:22
+msgid "Don't monitor RAID controllers on machines which don't have one (#19805)"
+msgstr ""
+

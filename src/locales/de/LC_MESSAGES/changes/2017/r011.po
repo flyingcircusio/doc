@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r011.rst:4
+msgid "Release 2017_011 (2017-06-06)"
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:9
+msgid ""
+"[NixOS] PostgreSQL 9.4, 9.5, and 9.6 servers need to be restarted. "
+"Corrupt indexes might need to be `rebuilt "
+"<https://www.postgresql.org/docs/9.5/static/release-9-5-6.html>`_."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:15
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:17
+msgid "Security update: PostgreSQL 9.6.3 (#27186)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:18
+msgid "Security update: PostgreSQL 9.5.6 (#27035)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:19
+msgid "Security update: PostgreSQL 9.4.12 (#27058)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:20
+msgid "Add NodeJS 7 package (#27160)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:21
+msgid "Add Electron 1.6.8 package (#27161)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:22 ../../src/changes/2017/r011.rst:30
+msgid ""
+"More informative bash shell prompts: indicate if this is a test or "
+"production system (#27045)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:24
+msgid "Add `antivirus` role which runs ClamAV on a machine (#27162)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:28
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:32
+msgid ""
+"Fix Java/TLS/ECKeys/NSS bug that caused Java VMs to crash while "
+"performing communication via SSL (#27109)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:34
+msgid "Security: update `nss` to 3.29.5 (#26889)."
+msgstr ""
+
+#: ../../src/changes/2017/r011.rst:35
+msgid "Security: update `sudo` to 1.8.20_p1 (#27165)."
+msgstr ""
+

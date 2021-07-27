@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_031.rst:4
+msgid "Release 2013_031 (2013-10-11)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_031.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_031.rst:9
+msgid ""
+"Upgrade luatex since the old version broke after applying the poppler "
+"update (#12887)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_031.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_031.rst:16
+msgid ""
+"Enforce SSL on all connections from various management utilities to the "
+"directory (#5684)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_031.rst:18
+msgid ""
+"Fix rsyslog configuration so that remote logging does not cross locations"
+" anymore."
+msgstr ""
+

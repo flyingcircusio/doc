@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/security/software-vulnerabilities.rst:2
+msgid "Software vulnerabilities"
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:4
+msgid ""
+"Security issues with software installed on machines are monitored using a"
+" platform-specific process. Our processes (and specifically timelines) to"
+" mitigate vulnerabilities depend on the support status of the respective "
+"platform."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:7
+msgid ""
+"When mitigating a vulnerability we may choose different strategies "
+"depending on the situation:"
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:10
+msgid ""
+"Ideally we will update the package to an unaffected version that stays "
+"API compatible."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:13
+msgid ""
+"We may update to a package with API incompatibility but will help our "
+"customers to fix breakage."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:16
+msgid ""
+"We may stay on the existing version and include a patch provided by the "
+"vendor, security researchers, other distributions or other sources we "
+"deem trustworthy after a review."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:20
+msgid ""
+"We may contain the effect of the vulnerability by disabling features, "
+"adjusting configuration, firewalling or other measures."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:23
+msgid ""
+"We may choose to ignore the security vulnerability if the impact or "
+"attack vectors are not relevant on our platform."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:26
+msgid "We might take other actions not listed here, depending on the situation."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:30
+msgid "NixOS 19.03"
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:32
+msgid ""
+"We actively monitor our code base and the packages that are actually "
+"installed on customer systems (excluding user environments) for matches "
+"against public vulnerability databases (i.e. NIST CVE)."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:36
+msgid ""
+"We perform a scan for new vulnerabilities once a week and create work "
+"tickets with different priorities based on multiple criteria of the "
+"vulnerability."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:39
+msgid ""
+"As we included some packages from the upstream NixOS unstable branch we "
+"regularly keep this branch updated and thus include security fixed "
+"provided by the NixOS community in a timely manner."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:45
+msgid "NixOS 15.09 (outdated)"
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:47
+msgid ""
+"No security updates are provided. Customers in need of guaranteed "
+"security updates are advised to update to NixOS 19.03."
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:51
+msgid "Gentoo (outdated)"
+msgstr ""
+
+#: ../../src/reference/security/software-vulnerabilities.rst:53
+msgid ""
+"We provide selective security updates by reviewing the published list of "
+"Gentoo Linux Security Advisories (GLSA) every 2 months and selecting "
+"critical security updates where necessary."
+msgstr ""
+

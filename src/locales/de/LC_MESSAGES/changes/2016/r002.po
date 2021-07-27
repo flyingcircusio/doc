@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r002.rst:4
+msgid "Release 2016_002 (2016-01-22)"
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:9
+msgid ""
+"Security update for OpenSSH `GLSA 201601-01 "
+"<https://security.gentoo.org/glsa/201601-01>`_ (#19787)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:11
+msgid "Update fc.agent to 1.8.1 (#17873)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:12
+msgid "Update fc.qemu to 0.7.14 (#17873)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:15
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:17
+msgid "Start managing cloneable NixOS base images on Ceph servers (#17873)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:18
+msgid ""
+"Start migrating filesystems to XFS by switching /tmp on the next reboot "
+"(#17873)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:20
+msgid "Fix firewall rules for infrastructure machines (#19771)."
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:21
+msgid "Fix MySQL network dependency (#19766)"
+msgstr ""
+
+#: ../../src/changes/2016/r002.rst:22
+msgid ""
+"Improve I/O scheduler settings to reduce write request starvation "
+"(#19785)."
+msgstr ""
+

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r029.rst:4
+msgid "Release 2012-09-26"
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:9
+msgid ""
+"Security update for `GLSA 201209-07 / icu "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-07.xml>`_ (#11452)."
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:11
+msgid ""
+"Security update for `GLSA 201209-06 / expat "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-06.xml>`_ (#11453)."
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:13
+msgid ""
+"Security update for `GLSA 201209-12 / libtasn1 "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-12.xml>`_ (#11458). "
+"This update make a PostgreSQL restart necessary on all affected machines."
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:19
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r029.rst:21
+msgid ""
+"Also build managed python3-compatible python libs for python3.2, not only"
+" python3.1."
+msgstr ""
+

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r016.rst:4
+msgid "Release 2014_016 (2014-03-26)"
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:9
+msgid "Update nagiosplugin Python library to 1.2.1."
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:15
+msgid ""
+"Fix bug in VM restore script that lead to an incorrect logging "
+"configuration (and some monitoring blindness) in restored VMs. (RT 94185)"
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:20
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r016.rst:22
+msgid ""
+"Improve backup monitoring to report explicitly if the last full backup is"
+" more than one month old."
+msgstr ""
+

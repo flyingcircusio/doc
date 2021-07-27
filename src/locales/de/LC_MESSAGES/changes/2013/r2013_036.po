@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_036.rst:4
+msgid "Release 2013_036 (2013-11-20)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:9
+msgid ""
+"Security update for `GLSA 201311-10 / graphicsmagick "
+"<http://www.gentoo.org/security/en/glsa/glsa-201311-10.xml>`_ (#13036)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:16
+msgid ""
+"Start to deploy the Ceph storage system in production. We will move VMs "
+"one after another. The individual technical contacts will be provided "
+"with details (#12942)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:19
+msgid "Ceph/backup integration (#12789)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:20
+msgid "Improved robustness of VM startup/shutdown in case of locking conflicts."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_036.rst:21
+msgid "Harden Apache default configuration agains SSL CRIME attacks (#12935)."
+msgstr ""
+

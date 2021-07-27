@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r002.rst:4
+msgid "Release 2021_002 (2021-01-25)"
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:6
+msgid ""
+"20.09 is our default platform version starting with this release. New VMs"
+" will be created with 20.09. We are aiming to upgrade all non-production "
+"VMs currently on 19.03 in the next weeks."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:11
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:13
+msgid "[NixOS 20.09]: PostgreSQL and RabbitMQ will be restarted."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:14
+msgid ""
+"[NixOS 20.09]: Gitlab and associated services will be restarted. Git and "
+"frontend access will be unavailable for some minutes."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:16
+msgid "[NixOS 20.09]: VMs will be rebooted for a kernel update."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:20
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:22
+msgid ""
+"PostgreSQL: Use Postgis 2.5 for versions before 12 to make upgrades from "
+"19.03 easier. Postgres 12 is unaffected because it already used Postgis "
+"3.0 on 19.03 (#PL-129602)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:24
+msgid ""
+"Nginx: switch mod_security to newest stable branch using a new nginx "
+"module that should also be more stable (#PL-129571)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:26
+msgid "Update Gitlab to 13.6.5 (#PL-129597)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:27
+msgid "Merge upstream NixOS updates, including: Grafana 7.3.7, Linux 5.4.89."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:28
+msgid ""
+"Use :file:`/run/next-system/result` instead of :file:`/result` for the "
+"link to the prepared system update and delete it after a successful "
+"maintenance run (#PL-129591)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:30
+msgid ""
+"Kubernetes: add FC nameservers to :file:`resolv.conf` on VMs with a "
+"Kubernetes role as fallback when CoreDNS is down (#PL-129590)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:32
+msgid ""
+"Nginx: set reuseport for default vhosts in structured vhost config and "
+"recommend to use it in plain config files. Avoids failures on config "
+"reload when listen statements are incompatible with the previous config. "
+"This caused situations where Nginx had to be fully restarted to activate "
+"new config which means that connections are dropped (#PL-129589)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:37
+msgid ""
+"Port sensuserver role, update sensu-core and uchiwa to latest versions "
+"(internal VM monitoring) (#PL-129505)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:39
+msgid "RabbitMQ now notifies SystemD on startup when it's ready (#PL-129505)."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:43
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:45
+msgid ""
+"Document how to write `custom SystemD units "
+"<https://doc.flyingcircus.io/roles/fc-20.09-production/systemd.html>`_ as"
+" a NixOS module in :file:`/etc/local/nixos`, deprecate "
+":file:`/etc/local/systemd` on NixOS 19.03/20.09."
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:50
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r002.rst:52
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_001/20.09...1761c6b2e07cd1c5403044825e2dcd1dec1ee29b>`_,"
+" `upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/7179961331b1e98dd28f07dbcb46ed700ad6a52b...984c872d5ca6e521803a4cd9ba72d45c4c3640a6>`_"
+msgstr ""
+

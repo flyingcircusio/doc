@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r057.rst:4
+msgid "Release 2014_057 (2014-12-15)"
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:9
+msgid ""
+"Security update for `GLSA 201412-03 / dovecot "
+"<http://www.gentoo.org/security/en/glsa/glsa-201412-03.xml>`_ (#13977)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:11
+msgid ""
+"Security update for `GLSA 201412-05 / clamav "
+"<http://www.gentoo.org/security/en/glsa/glsa-201412-05.xml>`_ (#13995)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:13
+msgid ""
+"Security update for `GLSA 201412-06 / libxml2 "
+"<http://www.gentoo.org/security/en/glsa/glsa-201412-06.xml>`_ (#13996). "
+"May require restart of PostgreSQL instances."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:16
+msgid ""
+"Upgrade nginx to 1.7.6, including improved SSL handling and mod_security "
+"2.8 (#13419)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:23
+msgid "Lower retention period for web server logs to 3 months (#13965)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:24
+msgid ""
+"Fix bug in disk resize code which increased grow times unnecessarily "
+"(#13930)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:25
+msgid "iptables are now reloaded regularly (#13879)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:29
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:31
+msgid "Reduce level of Nagios noise from unavailable Puppet servers (#13965)."
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:35
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2014/r057.rst:37
+msgid ":ref:`modsecurity` (#13419)."
+msgstr ""
+

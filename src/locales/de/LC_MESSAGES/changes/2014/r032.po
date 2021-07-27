@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r032.rst:4
+msgid "Release 2014_032 (2014-06-23)"
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:9
+msgid ""
+"Security update for `GLSA 201406-21 / curl "
+"<http://www.gentoo.org/security/en/glsa/glsa-201406-21.xml>`_ (#13487)."
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:11
+msgid ""
+"Security update for `GLSA 201406-19 / nss "
+"<http://www.gentoo.org/security/en/glsa/glsa-201406-19.xml>`_ (#13489)."
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:18
+msgid "Create proper ebuild from gocept.net platform management code (RT 95695)."
+msgstr ""
+
+#: ../../src/changes/2014/r032.rst:19
+msgid "Automate VM host selection to obtain a better VM distribution (#13236)."
+msgstr ""
+

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_gentoo/php.rst:5
+#: ../../src/guide/platform_gentoo/php.rst:26
+msgid "PHP"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:10
+msgid "Installs a PHP interpreter"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:12
+msgid "There are three possibilities to setup PHP:"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:14
+msgid "Apache's mod_php"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:15
+#: ../../src/guide/platform_gentoo/php.rst:29
+#: ../../src/guide/platform_gentoo/php.rst:60
+msgid "FPM"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:16
+msgid "cgi/fcgi"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:18
+msgid ""
+"While Apache's mod_php is an easy and fast forward solution to set up PHP"
+" on a single VM, we recommend the use of FPM for more complex setups. FPM"
+" offers a clean separation of webserver and PHP processes while keeping a"
+" wide range of configuration options regarding the PHP interpreter."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:24
+msgid "Components"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:28
+msgid "Apache mod_php"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:30
+msgid "cgi"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:34
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:37
+msgid "Apache + mod_php"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:39
+msgid ""
+"The mod_php extension is already enabled for Apache. You just have to "
+"create a virtual host configuration "
+":file:`/etc/apache/local/{PROJECT}.conf` that points to your PHP "
+"project::"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:54
+msgid ""
+"Be aware of the user who is running the PHP process. Using Apache's "
+"mod_php all PHP processes are spawned as subprocesses of the Apache "
+"webserver. In consequence they are executed in the context of the user "
+"\"apache\". Files created or stored by PHP are owned by \"apache\" and "
+"not by the service user."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:62
+msgid ""
+"To use PHP's FastCGI Process Manager (FPM) you have to create a config in"
+" your service user directory, for example "
+":file:`/PATH/TO/SERVICE_USER/etc/fpm.conf`::"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:79
+msgid "Start a FPM process using your configuration::"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:83
+msgid ""
+"For a reliable service setup you should install a dedicated process "
+"manager like `supervisord`_ to start and monitor your FPM processes. An "
+"example setup to start with can be found in the section :ref:`process-"
+"management`"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:88
+msgid ""
+"FPM provides a FastCGI server you can connect to using any FastCGI "
+"capable webserver, for example nginx "
+":file:`/etc/nginx/local/{PROJECT}.conf`::"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/php.rst:110
+msgid "We do not recommend to use Apache as a FastCGI frontend server."
+msgstr ""
+

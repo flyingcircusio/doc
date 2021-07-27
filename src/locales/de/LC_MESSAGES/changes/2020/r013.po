@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r013.rst:4
+msgid "Release 2020_013 (2020-05-18)"
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:9
+msgid "[NixOS 19.03] Prometheus will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:13
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:15
+msgid ""
+"Add Python 3.6 system wide. Not overriding Python 3.4 as the platform's "
+"default `python3` executable, though (#126100)."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:17
+msgid ""
+"Introduce *mailstub* as alias for *mailout* to reach role name parity "
+"(#115698)."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:22
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:24
+msgid "Upgrade central statshost to NixOS 19.03 (#123876)."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:25
+msgid ""
+"Automatically recover from stuck \"VM in maintenance\" directory flags "
+"(#119218)."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:26
+msgid ""
+"Managed *mailserver* role. This role configures a full-fledged mail "
+"server with Postfix, Dovecot, rspamd, Roundcube, DNS template, DKIM, and "
+"related tools. Additionally, provide a *mailstub* role which provides "
+"just a simple Postfix server which must be manually configured. If a "
+"resource group contains a node with either *mailserver* or *mailstub*, "
+"all nodes in this RG relay outgoing mails via this node (#115698)."
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:35
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2020/r013.rst:37
+msgid ""
+"[Hotfix] Remove outdated CRLs on Puppet clients and replace them with "
+"fresh copies from the Puppet master (#124831)."
+msgstr ""
+

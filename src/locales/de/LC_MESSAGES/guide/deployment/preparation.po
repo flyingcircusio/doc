@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/deployment/preparation.rst:4
+msgid "Preparation"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:7
+msgid "Apply appropriate roles"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:9
+msgid ""
+"To roll out managed platform components needed to run your application "
+"ask the support to assign the appropriate roles to your VM. For a Django "
+"hosting we will need the following roles:"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:15
+msgid "webgateway"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:14
+msgid ""
+"The webgateway role provides a nginx front-end webserver and *awstats* "
+"statistics."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:19
+msgid "webproxy"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:18
+msgid ""
+"The webproxy role provides a *varnish* proxy to cache static content and "
+"a *haproxy* load balancer, if you project to run multiple application "
+"backends."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:23
+msgid "appserver"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:22
+msgid ""
+"The appserver role provides all software you need to deploy a web "
+"application, like *node.js*, *zope* or various version management tools."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:27
+msgid "postgresql90"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:26
+msgid ""
+"You mostly need to install a database server. For the Django hosting, we "
+"will rely on *PostgreSQL*"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:29
+msgid ""
+"If you are going to host your application on multiple VMs, the roles can "
+"also be spread across various VMs."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:32
+msgid ""
+"We ask you to introduce your application when joining the Flying Circus. "
+"The support team is going to roll out appropriate roles for your special "
+"use case."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:39
+msgid "Gather facts"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:41
+msgid ""
+"To setup your application you will need to gather the following "
+"informations:"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:44
+msgid "IP addresses"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:46
+msgid ""
+"Public available services should run on FE addresses. Internal network "
+"communication, like database access or backend application servers should"
+" run on SRV addresses.::"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:53
+msgid ""
+"The Flying Circus ships with a dual stack containing full IPv6 support. "
+"Be aware not to forget to setup IPv6 for public available services. This "
+"is especially important for any mail server setups."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:58
+msgid "Service User"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:60
+msgid ""
+"The service user for your application is most likely identical to the "
+"name of the project of your project."
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:64
+msgid "Running services"
+msgstr ""
+
+#: ../../src/guide/deployment/preparation.rst:66
+msgid ""
+"Since you will have to setup your application to listen on a specific "
+"port, you should figure out which ports are used by other services.::"
+msgstr ""
+

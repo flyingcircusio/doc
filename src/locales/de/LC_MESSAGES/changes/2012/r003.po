@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r003.rst:4
+msgid "Release 2012-02-17"
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:9
+msgid "Add aspell to the document conversion (pspdf) role by default (#8978)."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:10
+msgid "Provide zsh on all machines (previously limited to customer machines)."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:11
+msgid ""
+"Provide debugging/analysis tools on all machines instead of just physical"
+" machines (strace, tcpdump, traceroute, dstat, acct, atop, lsof)."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:18
+msgid ""
+"Improve firewall configuration to separate different resource groups on "
+"the *srv* network (#8846). Requires machine reboot because we updated the"
+" kernel configuration."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:21
+msgid "Improve PostgreSQL configuration. Involves PostgreSQL restart."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:22
+msgid "Provide managed `Redis`_ role (#10406)."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:28
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:30
+msgid "Provide basic package overview for :ref:`pspdf`."
+msgstr ""
+
+#: ../../src/changes/2012/r003.rst:31
+msgid ":ref:`redis-server` role documentation."
+msgstr ""
+

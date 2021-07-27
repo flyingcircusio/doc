@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r044.rst:4
+msgid "Release 2015_044 (2015-09-28)"
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:9
+msgid ""
+"Security update for `GLSA 201509-06 / git "
+"<https://security.gentoo.org/glsa/201509-06>`_ (#17728)."
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:11
+msgid ""
+"Security update for `GLSA 201509-02 / cURL "
+"<https://security.gentoo.org/glsa/201509-02>`_ (#17729)."
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:18
+msgid ""
+"Provide managed installation of our new backup server software (backy) "
+"(#13456)."
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:23
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r044.rst:25
+msgid ""
+"Improve switch status monitoring; include new 10GbE switches (#17290, "
+"#17660)."
+msgstr ""
+

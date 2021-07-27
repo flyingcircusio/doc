@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r009.rst:4
+msgid "Release 2012-04-16"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:9
+msgid "Provide CLI version of PHP on LAMP machines (#10390)."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:15
+msgid "Add FastCGI support to various components (e.g., PHP, Rails) (#10390)"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:16
+msgid ""
+"Refine automatically generated firewall rules to allow for role-specific "
+"exceptions (#8846)."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:18
+msgid ""
+"Increase default read-ahead values to improve database performance. "
+"Requires PostgreSQL restart (#10623)."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:20
+msgid "Log PostgreSQL connections to help finding poor connection pooling."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:21
+msgid ""
+"Improve configuration code to avoid PostgreSQL restarts during minor "
+"configuration changes."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:26
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:28
+msgid ""
+"Add haproxy performance check (request latencies and frequencies) by "
+"default to all managed haproxy instances (#9971)."
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:33
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r009.rst:35
+msgid "Describe :ref:`firewall` policy."
+msgstr ""
+

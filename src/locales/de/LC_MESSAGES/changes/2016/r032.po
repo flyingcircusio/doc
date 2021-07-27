@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r032.rst:4
+msgid "Release 2016_032 (2016-10-18)"
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:9
+msgid ""
+"VMs now have a limited number of IOPS for their disk operations to ensure"
+" uniform performance during times of high load. See our blog post "
+"`\"Introducing IO limits to achieve more uniform virtual disk "
+"performance\" <https://blog.flyingcircus.io/2016/10/13/introducing-io-"
+"limits-to-achieve-more- uniform-virtual-disk-performance/>`_ for details."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:14
+msgid "All services using OpenSSL need to be restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:18
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:20
+msgid "Security update for OpenSSL (CVE-2016-2107; #24174)."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:21
+msgid "Cap IOPS rate for individual VMs according to policy (see above; #22936)."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:22
+msgid "Fix race conditions in VM migration orchestration (#23729)."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:23
+msgid "Improve backy monitoring (#23738)."
+msgstr ""
+
+#: ../../src/changes/2016/r032.rst:24
+msgid "Fix VM restore bug on backy servers (#23311)."
+msgstr ""
+

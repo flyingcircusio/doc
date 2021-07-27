@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:4
+msgid "Integrating your application"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:6
+msgid ""
+"A lot of logging frameworks already provide handlers for logging to "
+"logstash. Just look around, maybe there already is one out there for your"
+" framework/language. Here are some examples of handlers for different "
+"languages:"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:10
+msgid "Python: `python-logstash <https://pypi.python.org/pypi/python-logstash>`_"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:11
+msgid ""
+"PHP: `monolog <https://github.com/Seldaek/monolog/>`_ already comes with "
+"`a formatter "
+"<https://github.com/Seldaek/monolog/blob/master/src/Monolog/Formatter/LogstashFormatter.php>`_"
+" for Logstash. For example usage, `see here "
+"<http://engineering.blopboard.com/centralized-logging-with-monolog-"
+"logstash-and-elasticsearch>`_"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:16
+msgid ""
+"Java: using log4j with via `SocketAppender "
+"<https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/net/SocketAppender.html>`_."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:18
+msgid "Ruby: `logstash-logger <http://www.rubydoc.info/gems/logstash-logger/>`_"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:20
+msgid ""
+"When configuring your handler, use the canonical FQDN of your "
+":ref:`loghost <gentoo-loghost>` as the logstash host, e.g. "
+"*myapp00.gocept.net*."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:25
+msgid ""
+"You will most likely have to configure some kind of listener on the "
+"logstash side. See the :ref:`configure_logstash` section for how to add "
+"your configuration to logstash."
+msgstr ""
+

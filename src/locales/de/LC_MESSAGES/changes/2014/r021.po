@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r021.rst:4
+msgid "Release 2014_021 (2014-04-15)"
+msgstr ""
+
+#: ../../src/changes/2014/r021.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r021.rst:10
+msgid ""
+"Add mechanics to make supported Ruby versions configurable on platform "
+"level. Keep Ruby 1.8.7 as default (#13361)."
+msgstr ""
+
+#: ../../src/changes/2014/r021.rst:12
+msgid "Infrastructure binpkg FTP servers listen now on both IPv6 and IPv4."
+msgstr ""
+
+#: ../../src/changes/2014/r021.rst:13
+msgid "Update Bitbucket fingerprint after Heartbleed."
+msgstr ""
+
+#: ../../src/changes/2014/r021.rst:14
+msgid "Reduce Bacula timeouts to stop dead VMs from delaying the backup schedule."
+msgstr ""
+

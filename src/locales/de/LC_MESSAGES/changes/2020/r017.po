@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r017.rst:4
+msgid "Release 2020_017 (2020-06-25)"
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:9
+msgid "[NixOS 19.03] Varnish logging daemon and influxdb will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:15
+msgid "Varnish: reopen log file after rotation to use the new log file (#126757)."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:16
+msgid "Allow vagrant user to interact with the docker daemon (#126517)."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:17
+msgid "Provide tmux on all VMs by default (#126628)."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:18
+msgid "Rotate all logs in /var/log/nginx periodically (#126707)."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:19
+msgid "Statshost: increase influxdb startup timeout (#126604)."
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:23
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2020/r017.rst:25
+msgid "Update fc.agent to version 1.10.12 (#126545)."
+msgstr ""
+

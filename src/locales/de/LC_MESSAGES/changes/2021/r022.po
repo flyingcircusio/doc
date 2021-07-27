@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r022.rst:4
+msgid "Release 2021_022 (2021-06-28)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:9
+msgid ""
+"[NixOS 21.05] Most services will be restarted due to a core dependency "
+"change. VMs will schedule a reboot to activate the new kernel version."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:11
+msgid ""
+"[NixOS 20.09] Most services will be restarted due to a core dependency "
+"change. VMs will schedule a reboot to activate the new kernel version."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:16
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:18
+msgid "Provide postgresql13 role (#PL-129912)."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:19
+msgid ""
+"Port openvpn to 21.05. Compression is disabled now as recommended by "
+"OpenVPN (#PL-129855)."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:20
+msgid ""
+"Fix warnings for deprecated SystemD unit settings by changing "
+"StartLimitInterval to StartLimitIntervalSec (#PL-129909)."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:22
+msgid ""
+"Nginx: add ``services.nginx.legacyTlsSettings`` which should be used "
+"instead of ``recommendedTlsSettings`` when weaker ciphers are used for "
+"legacy clients (#PL-129818)."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:24
+msgid ""
+"Mailserver: allow service/sudo-srv users to run sudo postsuper without "
+"password (#PL-129874)."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:25
+msgid "Version updates in role documentation."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:26
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-129930):"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:28
+msgid "apacheHttpd: 2.4.47 -> 2.4.48"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:29
+msgid "curl: add patches for CVE-2021-22897, CVE-2021-22898 & CVE-2021-22901"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:30
+msgid "discourse: 2.7.0 -> 2.7.4"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:31
+msgid "gitlab: 13.12.2 -> 13.12.4"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:32 ../../src/changes/2021/r022.rst:51
+msgid "imagemagick6: 6.9.12-12 -> 6.9.12-15"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:33
+msgid "linux: 5.10.40 -> 5.10.44"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:34
+msgid "matrix-synapse: 1.35.1 -> 1.36.0"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:35
+msgid "phpPackages.composer: 2.1.1 -> 2.1.3"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:36
+msgid "postgresql_10: 10.16 -> 10.17 (CVE-2021-32027, CVE-2021-32028)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:37
+msgid ""
+"postgresql_11: 11.11 -> 11.12 (CVE-2021-32027, CVE-2021-32028, "
+"CVE-2021-32029)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:38
+msgid ""
+"postgresql_12: 12.6 -> 12.7 (CVE-2021-32027, CVE-2021-32028, "
+"CVE-2021-32029)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:39
+msgid ""
+"postgresql_13: 13.2 -> 13.3 (CVE-2021-32027, CVE-2021-32028, "
+"CVE-2021-32029)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:40
+msgid "postgresql_9_6: 9.6.21 -> 9.6.22 (CVE-2021-32027, CVE-2021-32028)"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:42
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/95105/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:46
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:48
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-129933):"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:50
+msgid "curl: add patch for CVE-2021-22898"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:52
+msgid "imagemagick: 7.0.11-13 -> 7.1.0-0"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:53
+msgid ""
+"libxml2: fix CVE-2021-3516, CVE-2021-3517, CVE-2021-3518, CVE-2021-3537, "
+"CVE-2021-3541"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:54
+msgid "linux: 5.4.120 -> 5.4.122"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:55
+msgid "phpPackages.composer2: 2.0.13 -> 2.0.14"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:57
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/95206/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:60
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:62
+msgid "Add documentation for NixOS 21.05 platform."
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:65
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:67
+msgid ""
+"NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_021/21.05...de2867127a884251d077159e1a808ebc504753cd>`_,"
+" `upstream changes "
+"<https://github.com/NixOS/nixpkgs/compare/5de44c15758465f8ddf84d541ba300b48e56eda4...6613a30c5e3ee59753181512b4bedd4121569925>`_"
+msgstr ""
+
+#: ../../src/changes/2021/r022.rst:69
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_021/20.09...d497eecdd4519e1ab8df095a8f2871b1db42ec7c>`_,"
+" `nixpkgs/upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/d95ebbf43015df5cb9acfd8ac484a4447ab29bfd...9be5f52846fad0e4c10ed86697a1425b6c095538>`_"
+msgstr ""
+

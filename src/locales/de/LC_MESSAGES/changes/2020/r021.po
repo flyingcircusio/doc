@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r021.rst:4
+msgid "Release 2020_021 (2020-07-16)"
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:7
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:9
+msgid ""
+"Firewall: Allow specification of prerouting and postrouting rules in "
+"nixos-nat-pre and nixos-nat-post chains (#126879, #126936, #127007)."
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:12
+msgid ""
+"Provide roles for Elasticsearch and Kibana 7, currently version 7.8.0. "
+"Machines using ES5 at the moment must first reindex with ES6 before "
+"upgrading to ES7 (#126877)."
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:16
+msgid ""
+"Update Kubernetes dashboard to 2.0.3 which fixes problems with the "
+"current Kubernetes version."
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:19
+msgid ""
+"Use kubernetes.<project-name>.fcio.net as primary address for Kubernetes "
+"Dashboard and API (#126858)."
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:22
+msgid "Provide coturn (STUN/TURN server) role (#126406)."
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:24
+msgid ""
+"Vagrant box: Enable logrotate and add local config dir for vagrant user "
+"(#123879, #127092)"
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:29
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2020/r021.rst:31
+msgid "Update custom firewall rule documentation for NixOS."
+msgstr ""
+

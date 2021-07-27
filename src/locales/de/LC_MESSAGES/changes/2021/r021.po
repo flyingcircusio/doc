@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r021.rst:4
+msgid "Release 2021_021 (2021-06-14)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:9
+msgid ""
+"[NixOS 21.05] Most services will be restarted due to a core dependency "
+"change. VMs will schedule a reboot to activate the new kernel version."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:11
+msgid ""
+"[NixOS 20.09] Most services will be restarted due to a core dependency "
+"change."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:15
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:17
+msgid ""
+"Removed RabbitMQ 3.6.x roles and packages. Upgrade to RabbitMQ 3.8 before"
+" upgrading to NixOS 21.05 (#PL-129907)."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:19
+msgid "Provide optional PHP 8.0 for LAMP role (#PL-129902)."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:20
+msgid "Update tideways daemon and PHP modules to support PHP 8.0."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:21
+msgid ""
+"Fix warning about duplicate :file:`/var/log` line when rebuilding the "
+"system with fc-manage (#PL-129854)."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:23
+msgid ""
+"Redis: add options :code:`flyingcircus.services.redis.maxmemory` and "
+":code:`flyingcircus.services.redis.maxmemory-policy`. Memory used by "
+"Redis is limited to 80% by default (#PL-115928)."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:26
+msgid ""
+"Telegraf: restart service after :command:`fc-manage` when config in "
+":file:`/etc/local/telegraf` changes. Before, telegraf had to be restarted"
+" separately (#PL-129831)."
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:29
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-129908):"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:31
+msgid "gitlab: 13.12.0 -> 13.12.2"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:32
+msgid "linux: 5.10.37 -> 5.10.40"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:33 ../../src/changes/2021/r021.rst:53
+msgid "lz4: patch CVE-2021-3520 and null pointer dereference"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:34
+msgid "matrix-synapse: 1.34.0 -> 1.35.1"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:35
+msgid "nix: 2.3.11 -> 2.3.12"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:36
+msgid "php74: 7.4.18 -> 7.4.20"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:37
+msgid "php80: 8.0.5 -> 8.0.7"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:38
+msgid "phpPackages.composer: 2.1.0 -> 2.1.1"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:39
+msgid "polkit: Fix authentication bypass vulnerability (CVE-2021-3560)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:41
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/93226/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:47
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:49
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-129901):"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:51
+msgid "cacert: 3.57 -> 3.66"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:52
+msgid "imagemagick: 7.0.11-12 -> 7.0.11.13"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:54
+msgid "nginx: Fix off-by-one in DNS resolver heap write (CVE-2021-23017)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:55
+msgid "nss_latest: 3.63 -> 3.64"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:56
+msgid "openvpn: 2.4.9 -> 2.4.11 (CVE-2020-15078)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:57
+msgid "php74.extensions.iconv: fix error signalling"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:58
+msgid "polkit: Fix local privilege escalation vulnerability (CVE-2021-3560)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:59
+msgid "python3Packages.websockets: add patch for CVE-2018-1000518-redux"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:60
+msgid "redis: 6.0.11 -> 6.0.13 (CVE-2021-29477, CVE-2021-29478)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:61
+msgid "samba: 4.12.14 -> 4.12.15 (CVE-2021-20254)"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:63
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/93404/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:67
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:69
+msgid ""
+"NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_020/21.05...a9cc58d57e5f54717c100f020e75cdd7a600c8a4>`_,"
+" `upstream changes "
+"<https://github.com/NixOS/nixpkgs/compare/3a2e0c36e79cecaf196cbea23e75e74710140ea4...5de44c15758465f8ddf84d541ba300b48e56eda4>`_"
+msgstr ""
+
+#: ../../src/changes/2021/r021.rst:71
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_020/20.09...c1ac505f24516aa8a49df66c913c5153940b52a2>`_,"
+" `nixpkgs/upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/d31f3c6c5154f5574979e3e1d6230ebd50733761...d95ebbf43015df5cb9acfd8ac484a4447ab29bfd>`_"
+msgstr ""
+

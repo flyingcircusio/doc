@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r035.rst:4
+msgid "Release 2016_035 (2016-12-07)"
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:9
+msgid ""
+"Apache, nginx and other applications linked against libcurl will be "
+"restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:10
+msgid "Applications linked against libpng will be restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:14
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:16
+msgid ""
+"Fix bug that caused several Qemu instances being left over from "
+"migrations (#24434)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:18
+msgid ""
+"Provide smartmontools on all physical machines for improved debugging "
+"capabilities (#24436)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:20
+msgid "Security update for wget (#24450)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:21
+msgid "Security update for unzip (#24499)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:22
+msgid "Security update for curl (#24528)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:23
+msgid "Security update for libpng (#24695)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:24
+msgid "Security update for GNU tar (#25002)."
+msgstr ""
+
+#: ../../src/changes/2016/r035.rst:25
+msgid "Adapt Ceph build flags for newer libxfs versions."
+msgstr ""
+

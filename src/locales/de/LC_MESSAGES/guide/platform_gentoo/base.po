@@ -1,0 +1,675 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_gentoo/base.rst:4
+msgid "Base environment"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:6
+msgid ""
+"The base installation includes a collection of little tools that "
+"generally help with application deployment. They will be available on "
+"every Flying Circus Gentoo VM."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:11
+msgid "Packages"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:13
+msgid ""
+"`app-admin/eselect <http://packages.gentoo.org/package/app-"
+"admin/eselect>`_ (Gentoo's multi-purpose configuration and management "
+"tool)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:15
+msgid ""
+"`app-admin/eselect-postgresql <http://packages.gentoo.org/package/app-"
+"admin/eselect-postgresql>`_ (Utility to select the default PostgreSQL "
+"slot)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:17
+msgid ""
+"`app-admin/goceptnet <http://packages.gentoo.org/package/app-"
+"admin/goceptnet>`_ (Python utilities to manage the FC infrastructure "
+"(localconfig etc.))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:19
+msgid ""
+"`app-admin/logrotate <http://packages.gentoo.org/package/app-"
+"admin/logrotate>`_ (Rotates, compresses, and mails system logs)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:21
+msgid ""
+"`app-admin/rsyslog <http://packages.gentoo.org/package/app-"
+"admin/rsyslog>`_ (An enhanced multi-threaded syslogd with database "
+"support and more)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:23
+msgid ""
+"`app-admin/sudo <http://packages.gentoo.org/package/app-admin/sudo>`_ "
+"(Allows users or groups to run commands as other users)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:25
+msgid ""
+"`app-admin/sysstat <http://packages.gentoo.org/package/app-"
+"admin/sysstat>`_ (System performance tools for Linux)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:27
+msgid ""
+"`app-admin/tmpwatch <http://packages.gentoo.org/package/app-"
+"admin/tmpwatch>`_ (Files which haven't been accessed in a given period of"
+" time are removed from specified directories)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:29
+msgid ""
+"`app-admin/webapp-config <http://packages.gentoo.org/package/app-admin"
+"/webapp-config>`_ (Gentoo's installer for web-based applications)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:33
+msgid ""
+"`app-arch/unzip <http://packages.gentoo.org/package/app-arch/unzip>`_ "
+"(unzipper for pkzip-compressed files)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:35
+msgid ""
+"`app-arch/xz-utils <http://packages.gentoo.org/package/app-arch/xz-"
+"utils>`_ (utils for managing LZMA compressed files)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:39
+msgid ""
+"`app-crypt/aespipe <http://packages.gentoo.org/package/app-"
+"crypt/aespipe>`_ (Encrypts data from stdin to stdout)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:41
+msgid ""
+"`app-crypt/gnupg <http://packages.gentoo.org/package/app-crypt/gnupg>`_ "
+"(The GNU Privacy Guard, a GPL pgp replacement)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:45
+msgid ""
+"`app-editors/nano <http://packages.gentoo.org/package/app-editors/nano>`_"
+" (GNU GPL'd Pico clone with more functionality)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:47
+msgid ""
+"`app-editors/vim <http://packages.gentoo.org/package/app-editors/vim>`_ "
+"(Vim, an improved vi-style text editor)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:51
+msgid ""
+"`app-misc/ca-certificates <http://packages.gentoo.org/package/app-misc"
+"/ca-certificates>`_ (Common CA Certificates PEM files)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:53
+msgid ""
+"`app-misc/mmv <http://packages.gentoo.org/package/app-misc/mmv>`_ "
+"(Move/copy/append/link multiple files according to a set of wildcard "
+"patterns)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:55
+msgid ""
+"`app-misc/screen <http://packages.gentoo.org/package/app-misc/screen>`_ "
+"(Full-screen window manager that multiplexes physical terminals between "
+"several processes)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:57
+msgid ""
+"`app-misc/symlinks <http://packages.gentoo.org/package/app-"
+"misc/symlinks>`_ (Scans for and fixes broken or messy symlinks)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:61
+msgid ""
+"`app-portage/portage-utils <http://packages.gentoo.org/package/app-"
+"portage/portage-utils>`_ (small and fast portage helper tools written in "
+"C)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:65
+msgid ""
+"`app-shells/bash-completion <http://packages.gentoo.org/package/app-"
+"shells/bash-completion>`_ (Programmable Completion for bash)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:67
+msgid ""
+"`app-shells/bash <http://packages.gentoo.org/package/app-shells/bash>`_ "
+"(The standard GNU Bourne again shell)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:69
+msgid ""
+"`app-shells/zsh <http://packages.gentoo.org/package/app-shells/zsh>`_ "
+"(UNIX Shell similar to the Korn shell)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:73
+msgid ""
+"`app-text/tree <http://packages.gentoo.org/package/app-text/tree>`_ "
+"(Lists directories recursively, and produces an indented listing of "
+"files)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:77
+msgid ""
+"`dev-lang/perl <http://packages.gentoo.org/package/dev-lang/perl>`_ "
+"(Larry Wall's Practical Extraction and Report Language)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:79
+msgid ""
+"`dev-lang/python <http://packages.gentoo.org/package/dev-lang/python>`_ "
+"(An interpreted, interactive, object-oriented programming language)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:81
+msgid ""
+"`dev-lang/ruby <http://packages.gentoo.org/package/dev-lang/ruby>`_ (An "
+"object-oriented scripting language)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:85
+msgid ""
+"`dev-libs/cyrus-sasl <http://packages.gentoo.org/package/dev-libs/cyrus-"
+"sasl>`_ (The Cyrus SASL (Simple Authentication and Security Layer))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:87
+msgid ""
+"`dev-libs/libaio <http://packages.gentoo.org/package/dev-libs/libaio>`_ "
+"(Asynchronous input/output library that uses the kernels native "
+"interface)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:89
+msgid ""
+"`dev-libs/libedit <http://packages.gentoo.org/package/dev-libs/libedit>`_"
+" (BSD replacement for libreadline)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:91
+msgid ""
+"`dev-libs/openssl <http://packages.gentoo.org/package/dev-libs/openssl>`_"
+" (full-strength general purpose cryptography library (including SSL v2/v3"
+" and TLS v1))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:93
+msgid ""
+"`dev-libs/protobuf <http://packages.gentoo.org/package/dev-"
+"libs/protobuf>`_ (Google's Protocol Buffers -- an efficient method of "
+"encoding structured data)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:97
+msgid ""
+"`dev-perl/Nagios-Plugin <http://packages.gentoo.org/package/dev-perl"
+"/Nagios-Plugin>`_ (A family of perl modules to streamline writing Nagios "
+"plugins)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:101
+msgid ""
+"`dev-python/nagiosplugin <http://packages.gentoo.org/package/dev-"
+"python/nagiosplugin>`_ (Python class library to help writing Nagios "
+"checks)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:103
+msgid ""
+"`dev-python/netaddr <http://packages.gentoo.org/package/dev-"
+"python/netaddr>`_ (Network address representation and manipulation "
+"library)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:105
+msgid ""
+"`dev-python/pip <http://packages.gentoo.org/package/dev-python/pip>`_ "
+"(Installs python packages -- replacement for easy_install)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:107
+msgid ""
+"`dev-python/python-ldap <http://packages.gentoo.org/package/dev-python"
+"/python-ldap>`_ (Various LDAP-related Python modules)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:109
+msgid ""
+"`dev-python/virtualenv <http://packages.gentoo.org/package/dev-"
+"python/virtualenv>`_ (Virtual Python Environment builder)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:113
+msgid ""
+"`dev-ruby/bundler <http://packages.gentoo.org/package/dev-ruby/bundler>`_"
+" (An easy way to vendor gem dependencies)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:115
+msgid ""
+"`dev-ruby/rubygems <http://packages.gentoo.org/package/dev-"
+"ruby/rubygems>`_ (Centralized Ruby extension management system)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:119
+msgid ""
+"`dev-util/ccache <http://packages.gentoo.org/package/dev-util/ccache>`_ "
+"(fast compiler cache)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:121
+msgid ""
+"`dev-util/strace <http://packages.gentoo.org/package/dev-util/strace>`_ "
+"(A useful diagnostic, instructional, and debugging tool)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:123
+msgid ""
+"`dev-util/systemtap <http://packages.gentoo.org/package/dev-"
+"util/systemtap>`_ (A linux trace/probe tool)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:127
+msgid ""
+"`dev-vcs/git <http://packages.gentoo.org/package/dev-vcs/git>`_ (GIT - "
+"the stupid content tracker, the revision control system heavily used by "
+"the Linux kernel team)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:129
+msgid ""
+"`dev-vcs/mercurial <http://packages.gentoo.org/package/dev-"
+"vcs/mercurial>`_ (Scalable distributed SCM)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:131
+msgid ""
+"`dev-vcs/subversion <http://packages.gentoo.org/package/dev-"
+"vcs/subversion>`_ (Advanced version control system)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:135
+msgid ""
+"`mail-client/mailx <http://packages.gentoo.org/package/mail-"
+"client/mailx>`_ (The /bin/mail program, which is used to send mail via "
+"shell scripts)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:139
+msgid ""
+"`net-analyzer/nagios-check_logfiles <http://packages.gentoo.org/package"
+"/net-analyzer/nagios-check_logfiles>`_ (A nagios plugin for checking "
+"logfiles)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:141
+msgid ""
+"`net-analyzer/nagios-plugins <http://packages.gentoo.org/package/net-"
+"analyzer/nagios-plugins>`_ (Nagios 1.4.16 plugins - Pack of plugins to "
+"make Nagios work properly)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:143
+msgid ""
+"`net-analyzer/nagios <http://packages.gentoo.org/package/net-"
+"analyzer/nagios>`_ (The Nagios metapackage - merge this to pull install "
+"all of the nagios packages)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:145
+msgid ""
+"`net-analyzer/netcat6 <http://packages.gentoo.org/package/net-"
+"analyzer/netcat6>`_ (netcat clone with better IPv6 support, improved "
+"code, etc...)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:147
+msgid ""
+"`net-analyzer/net-snmp <http://packages.gentoo.org/package/net-analyzer"
+"/net-snmp>`_ (Software for generating and retrieving SNMP data)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:149
+msgid ""
+"`net-analyzer/nrpe <http://packages.gentoo.org/package/net-"
+"analyzer/nrpe>`_ (Nagios Remote Plugin Executor)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:151
+msgid ""
+"`net-analyzer/tcpdump <http://packages.gentoo.org/package/net-"
+"analyzer/tcpdump>`_ (A Tool for network monitoring and data acquisition)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:153
+msgid ""
+"`net-analyzer/traceroute <http://packages.gentoo.org/package/net-"
+"analyzer/traceroute>`_ (Utility to trace the route of IP packets)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:157
+msgid ""
+"`net-firewall/iptables <http://packages.gentoo.org/package/net-"
+"firewall/iptables>`_ (Linux kernel (2.4+) firewall, NAT and packet "
+"mangling tools)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:161
+msgid ""
+"`net-fs/nfs-utils <http://packages.gentoo.org/package/net-fs/nfs-utils>`_"
+" (NFS client and server daemons)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:165
+msgid ""
+"`net-libs/libkeepalive <http://packages.gentoo.org/package/net-"
+"libs/libkeepalive>`_ (Enable tcp keepalive in glibc based binary dynamic "
+"executables)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:169
+msgid ""
+"`net-mail/mailbase <http://packages.gentoo.org/package/net-"
+"mail/mailbase>`_ (MTA layout package)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:173
+msgid ""
+"`net-misc/chrony <http://packages.gentoo.org/package/net-misc/chrony>`_ "
+"(NTP client and server programs)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:175
+msgid ""
+"`net-misc/dhcpcd <http://packages.gentoo.org/package/net-misc/dhcpcd>`_ "
+"(A fully featured, yet light weight RFC2131 compliant DHCP client)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:177
+msgid ""
+"`net-misc/openssh <http://packages.gentoo.org/package/net-misc/openssh>`_"
+" (Port of OpenBSD's free SSH release)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:179
+msgid ""
+"`net-misc/rsync <http://packages.gentoo.org/package/net-misc/rsync>`_ "
+"(File transfer program to keep remote files into sync)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:181
+msgid ""
+"`net-misc/wget <http://packages.gentoo.org/package/net-misc/wget>`_ "
+"(Network utility to retrieve files from the WWW)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:185
+msgid ""
+"`net-nds/openldap <http://packages.gentoo.org/package/net-nds/openldap>`_"
+" (LDAP suite of application and development tools)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:189
+msgid ""
+"`sec-policy/apparmor-profiles <http://packages.gentoo.org/package/sec-"
+"policy/apparmor-profiles>`_ (A collection of profiles for the AppArmor "
+"application security system)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:193
+msgid ""
+"`sys-apps/apparmor-utils <http://packages.gentoo.org/package/sys-apps"
+"/apparmor-utils>`_ (Additional userspace utils to assist with AppArmor "
+"profile management)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:195
+msgid ""
+"`sys-apps/baselayout <http://packages.gentoo.org/package/sys-"
+"apps/baselayout>`_ (Filesystem baselayout and init scripts)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:197
+msgid ""
+"`sys-apps/coreutils <http://packages.gentoo.org/package/sys-"
+"apps/coreutils>`_ (Standard GNU file utilities (chmod, cp, dd, dir, "
+"ls...), text utilities (sort, tr, head, wc..), and shell utilities "
+"(whoami, who,...))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:199
+msgid ""
+"`sys-apps/dbus <http://packages.gentoo.org/package/sys-apps/dbus>`_ (A "
+"message bus system, a simple way for applications to talk to each other)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:201
+msgid ""
+"`sys-apps/dstat <http://packages.gentoo.org/package/sys-apps/dstat>`_ "
+"(Versatile replacement for vmstat, iostat and ifstat)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:203
+msgid ""
+"`sys-apps/gptfdisk <http://packages.gentoo.org/package/sys-"
+"apps/gptfdisk>`_ (gdisk - GPT partition table manipulator for Linux)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:205
+msgid ""
+"`sys-apps/kmod <http://packages.gentoo.org/package/sys-apps/kmod>`_ "
+"(library and tools for managing linux kernel modules)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:207
+msgid ""
+"`sys-apps/man <http://packages.gentoo.org/package/sys-apps/man>`_ "
+"(Standard commands to read man pages)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:209
+msgid ""
+"`sys-apps/net-tools <http://packages.gentoo.org/package/sys-apps/net-"
+"tools>`_ (Standard Linux networking tools)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:211
+msgid ""
+"`sys-apps/openrc <http://packages.gentoo.org/package/sys-apps/openrc>`_ "
+"(OpenRC manages the services, startup and shutdown of a host)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:213
+msgid ""
+"`sys-apps/pciutils <http://packages.gentoo.org/package/sys-"
+"apps/pciutils>`_ (Various utilities dealing with the PCI bus)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:215
+msgid ""
+"`sys-apps/xinetd <http://packages.gentoo.org/package/sys-apps/xinetd>`_ "
+"(powerful replacement for inetd)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:219
+msgid ""
+"`sys-auth/nss_ldap <http://packages.gentoo.org/package/sys-"
+"auth/nss_ldap>`_ (NSS LDAP Module)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:221
+msgid ""
+"`sys-auth/pam_ldap <http://packages.gentoo.org/package/sys-"
+"auth/pam_ldap>`_ (PAM LDAP Module)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:225
+msgid ""
+"`sys-boot/grub <http://packages.gentoo.org/package/sys-boot/grub>`_ (GNU "
+"GRUB boot loader)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:229
+msgid ""
+"`sys-devel/bc <http://packages.gentoo.org/package/sys-devel/bc>`_ (Handy "
+"console-based calculator utility)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:233
+msgid ""
+"`sys-fs/btrfs-progs <http://packages.gentoo.org/package/sys-fs/btrfs-"
+"progs>`_ (Btrfs filesystem utilities)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:235
+msgid ""
+"`sys-fs/eudev <http://packages.gentoo.org/package/sys-fs/eudev>`_ (Linux "
+"dynamic and persistent device naming support (aka userspace devfs))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:237
+msgid ""
+"`sys-fs/ncdu <http://packages.gentoo.org/package/sys-fs/ncdu>`_ (NCurses "
+"Disk Usage)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:239
+msgid ""
+"`sys-fs/xfsprogs <http://packages.gentoo.org/package/sys-fs/xfsprogs>`_ "
+"(xfs filesystem utilities)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:243
+msgid ""
+"`sys-kernel/genkernel <http://packages.gentoo.org/package/sys-"
+"kernel/genkernel>`_ (Gentoo automatic kernel building scripts)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:245
+msgid ""
+"`sys-kernel/gentoo-sources <http://packages.gentoo.org/package/sys-kernel"
+"/gentoo-sources>`_ (Full sources including the Gentoo patchset for the "
+"2.6 kernel tree)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:247
+msgid ""
+"`sys-kernel/linux-firmware <http://packages.gentoo.org/package/sys-kernel"
+"/linux-firmware>`_ (Linux firmware files)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:251
+msgid ""
+"`sys-libs/gdbm <http://packages.gentoo.org/package/sys-libs/gdbm>`_ "
+"(Standard GNU database libraries)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:253
+msgid ""
+"`sys-libs/glibc <http://packages.gentoo.org/package/sys-libs/glibc>`_ "
+"(GNU libc6 (also called glibc2) C library)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:255
+msgid ""
+"`sys-libs/pam <http://packages.gentoo.org/package/sys-libs/pam>`_ (Linux-"
+"PAM (Pluggable Authentication Modules))"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:259
+msgid ""
+"`sys-process/acct <http://packages.gentoo.org/package/sys-process/acct>`_"
+" (GNU system accounting utilities)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:261
+msgid ""
+"`sys-process/atop <http://packages.gentoo.org/package/sys-process/atop>`_"
+" (Resource-specific view of processes)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:263
+msgid ""
+"`sys-process/at <http://packages.gentoo.org/package/sys-process/at>`_ "
+"(Queues jobs for later execution)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:265
+msgid ""
+"`sys-process/lsof <http://packages.gentoo.org/package/sys-process/lsof>`_"
+" (Lists open files for running Unix processes)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:267
+msgid ""
+"`sys-process/restarter <http://packages.gentoo.org/package/sys-"
+"process/restarter>`_ (Automatic service restart after updates)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:269
+msgid ""
+"`sys-process/vixie-cron <http://packages.gentoo.org/package/sys-process"
+"/vixie-cron>`_ (Paul Vixie's cron daemon, a fully featured crond "
+"implementation)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:273
+msgid ""
+"`www-apache/mod_python <http://packages.gentoo.org/package/www-"
+"apache/mod_python>`_ (An Apache2 module providing an embedded Python "
+"interpreter)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:277
+msgid ""
+"`www-servers/apache <http://packages.gentoo.org/package/www-"
+"servers/apache>`_ (The Apache Web Server)"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:282
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/base.rst:284
+msgid ""
+"All tools can be configured individually with dotfiles in the user's home"
+" directory."
+msgstr ""
+

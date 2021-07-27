@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r004.rst:4
+msgid "Release 2015_004 (2015-01-30)"
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:9
+msgid ""
+"Security update for CVE-2015-0235 (GHOST). Note that this fix requires "
+"nearly all services to be restarted, including PostgreSQL (#14378)."
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:16
+msgid ""
+"Improve restart rules for clamd and policyd-weight to make them more "
+"robust."
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:20
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:22
+msgid ""
+"Silence logchecks for some classes of application errors which cannot be "
+"fixed on the platform level (#14170, #14258)."
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:27
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2015/r004.rst:29
+msgid "Rework Message of the Day (MOTD) shown at login to be more informative."
+msgstr ""
+

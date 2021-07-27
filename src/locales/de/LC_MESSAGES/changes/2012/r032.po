@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r032.rst:4
+msgid "Release 2012-10-17"
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:9
+msgid ""
+"Drop support for PostgreSQL 8.2 since does not receive upstream support "
+"anymore and has open security issues (RT 85344)."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:16
+msgid ""
+"Move puppet master to a different machine. This should not lead to user-"
+"visible changes."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:18
+msgid ""
+"Stop awstats support for shared hosting customers. awstats will still be "
+"available for VM customers (#11363)."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:20
+msgid ""
+"awstats config files are now writable by service users and live in "
+":file:`/etc/awstats/vhosts.d`."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:25
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:27
+msgid ""
+"Move monitoring server to different machine. Note that some DNS resolvers"
+" do not expire the old IP addresses."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:29
+msgid ""
+"Change mail sender address for Nagios alerts to a machine-independent "
+"format."
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:33
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r032.rst:35
+msgid "Update awstats section in :ref:`webgateway` role documentation."
+msgstr ""
+

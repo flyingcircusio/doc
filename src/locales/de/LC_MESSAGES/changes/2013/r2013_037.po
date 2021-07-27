@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_037.rst:4
+msgid "Release 2013_037 (2013-11-27)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:9
+msgid "Upgrade QEMU package to support VM data access via Ceph (#12942)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:10
+msgid ""
+"Security update for `GLSA 201311-13 / openvpn "
+"<http://www.gentoo.org/security/en/glsa/glsa-201311-13.xml>`_"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:15
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:17
+msgid "Improve backup reliability (#12942)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:18
+msgid ""
+"The configuration file :file:`/etc/conf.d/memcached.memusage` is now "
+"writable for service users (RT 91989)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:23
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:25
+msgid ""
+"Fix bug in backup monitoring where the backup recentness check showed "
+"false positives (#9108)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:30
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_037.rst:32
+msgid ""
+"Extend :ref:`networking` documentation to explain physical and logical "
+"networks a bit more."
+msgstr ""
+

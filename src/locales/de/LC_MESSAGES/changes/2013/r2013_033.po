@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_033.rst:4
+msgid "Release 2013_033 (2013-20-30)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:9
+msgid ""
+"Security update for `GLSA 201310-14 / groff "
+"<http://www.gentoo.org/security/en/glsa/glsa-201310-14.xml>`_ (#12939)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:11
+msgid ""
+"Security update for `GLSA 201310-18 / gnutls "
+"<http://www.gentoo.org/security/en/glsa/glsa-201310-18.xml>`_ Requires "
+"service restarts for PostgreSQL and others. (#12943)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:14
+msgid "Update util-linux to get online partition resize (#9790)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:18
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:20
+msgid ""
+"Adjust kernel VM configuration to avoid page allocation failures leading "
+"to VM network outages (RT 91490)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:22
+msgid ""
+"Bugfix: the remote syslog code sent log messages to wrong machines "
+"(#12940)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:23
+msgid "nginx: compresses font objects by default."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:24
+msgid "All syslog files are now readable by local users to easy debugging."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:28
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_033.rst:30
+msgid ""
+"Start to use new remote monitoring satellites in Latvia, Greece, and "
+"Norway."
+msgstr ""
+

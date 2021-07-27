@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r019.rst:4
+msgid "Release 2016_019 (2016-06-22)"
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:9
+msgid "Percona 5.7 servers need to be restarted due to the version upgrade."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:15
+msgid "Upgrade percona (MySQL clone) version to 5.7.12."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:17
+msgid "Improve mailout configuration for system/cron mails (#21964)."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:19
+msgid "Provide pre-built PHP 5.5 in addition to PHP 5.6."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:21
+msgid ""
+"Add libjpeg and related command line utilities to the default "
+"installation (#21949)."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:26
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:28
+msgid ""
+"Provide new backup schedule \"default-full\" which takes full backups "
+"every day. This is meant for heavily used database VMs with high change "
+"rates (#21960)."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:31
+msgid ""
+"Improve monitoring and alerting for overflowing disks in Ceph clusters. "
+"Now the supporter is alerted in advance to get more reaction time "
+"(#21961)."
+msgstr ""
+
+#: ../../src/changes/2016/r019.rst:34
+msgid "Moderate size of swap and tmp volumes for large VMs (#21961)."
+msgstr ""
+

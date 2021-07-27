@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/deployment/database.rst:4
+msgid "Setup database"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:6
+msgid "Change to your service user context.::"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:10
+msgid "Service users are allowed to change into the postgres user context.::"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:15
+msgid "Create PostgreSQL role"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:17
+msgid ""
+"To access a database from the application we need to create a PostgreSQL "
+"role.::"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:22
+msgid "Create PostgreSQL database"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:24
+msgid "Afterwards we create a database for the application.::"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:29
+msgid "Test database connection"
+msgstr ""
+
+#: ../../src/guide/deployment/database.rst:31
+msgid "Exit the postgres user context and test the database connection.::"
+msgstr ""
+

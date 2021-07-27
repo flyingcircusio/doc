@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r036.rst:4
+msgid "Release 2012-11-19"
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:9
+msgid ""
+"Always install `bundler` to support installing ruby services in "
+"unprivileged users (#10844)."
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:11
+msgid ""
+"Fix missing init script registration for varnish on webproxy nodes "
+"(#8045)."
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:15
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:17
+msgid ""
+"Improve Nagios self-checks to detect performance data processing lag "
+"(#10350)."
+msgstr ""
+
+#: ../../src/changes/2012/r036.rst:18
+msgid ""
+"Fix haproxy log performance monitoring which was inadvertently broken "
+"during the last release."
+msgstr ""
+

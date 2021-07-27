@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/api/index.rst:8
+msgid "API"
+msgstr ""
+
+#: ../../src/guide/api/index.rst:10
+msgid ""
+"The Flying Circus provides an API that enables you to interact with our "
+"platform in a programmatic way: creating, updating, and deleting "
+"resources like virtual machines, service users, granting permissions, and"
+" retrieving information about the usage of those resources platform."
+msgstr ""
+
+#: ../../src/guide/api/index.rst:17
+msgid ""
+"The API is currently under development and only available to selected "
+"customers and projects at the moment. Please be careful: accidents may "
+"happen and cause downtime or data loss."
+msgstr ""
+
+#: ../../src/guide/api/index.rst:19
+msgid ""
+"If you're interested in accessing the Flying Circus through an API, `let "
+"us know <mailto:support@flyingcircus.io>`_!"
+msgstr ""
+

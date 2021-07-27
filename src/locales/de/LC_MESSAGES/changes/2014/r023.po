@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r023.rst:4
+msgid "Release 2014_023 (2014-04-30)"
+msgstr ""
+
+#: ../../src/changes/2014/r023.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r023.rst:9
+msgid ""
+"Fix another regression on unicode handling in the localconfig-users code "
+"and improve test coverage."
+msgstr ""
+
+#: ../../src/changes/2014/r023.rst:11
+msgid "Switch testrunner for \"gocept.net\" utility code to py.test."
+msgstr ""
+
+#: ../../src/changes/2014/r023.rst:15
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r023.rst:17
+msgid ""
+"Fix bug in PuppetDB configuration that caused restricted machines "
+"disappearing from the monitoring."
+msgstr ""
+

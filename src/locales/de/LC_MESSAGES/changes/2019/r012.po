@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2019/r012.rst:4
+msgid "Release 2019_012 (2019-04-29)"
+msgstr ""
+
+#: ../../src/changes/2019/r012.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2019/r012.rst:9
+msgid "Add administrator key for Tobias Stenzel."
+msgstr ""
+
+#: ../../src/changes/2019/r012.rst:10
+msgid "Prepare upgrade of first VMs to NixOS 18.09 (#110152)."
+msgstr ""
+
+#: ../../src/changes/2019/r012.rst:11
+msgid ""
+"Fix atomic updates of statshost relay configs to stop Prometheus from "
+"complaining when curl rewrites the file on the fly (#100108)."
+msgstr ""
+

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r014.rst:4
+msgid "Release 2014_014 (2014-03-12)"
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:9
+msgid ""
+"Security update for `GLSA 201403-02 / libyaml "
+"<http://www.gentoo.org/security/en/glsa/glsa-201403-02.xml>`_ (#13265)."
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:11
+msgid "Remove old iSCSI-related code from management codebase (#5996)."
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:15
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:17
+msgid ""
+"Decrease Ceph backfill rates to reduce impact of storage migrations to "
+"ongoing production (#13244)."
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:22
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:24
+msgid "Brand new data center status overview at http://status.flyingcircus.io/."
+msgstr ""
+
+#: ../../src/changes/2014/r014.rst:25
+msgid ":ref:`appserver` role documentation."
+msgstr ""
+

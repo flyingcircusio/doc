@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_035.rst:4
+msgid "Release 2013_035 (2013-11-13)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_035.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_035.rst:9
+msgid ""
+"No security update for `GLSA 201311-06 / libxml2 "
+"<http://www.gentoo.org/security/en/glsa/glsa-201311-06.xml>`_ yet "
+"(#13002). This update would introduce libxml2-2.9, which has issues with "
+"lxml < 3. lxml 2.x is used in many customer projects. Please note that "
+"all customers should upgrade their applications to use lxml 3.x."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_035.rst:17
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_035.rst:19
+msgid "Activate our new directory in production."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_035.rst:20
+msgid "Improved estimation of fsck times for scheduled reboots."
+msgstr ""
+
