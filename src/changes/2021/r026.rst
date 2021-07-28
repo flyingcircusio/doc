@@ -3,6 +3,9 @@
 Release 2021_026 (unreleased)
 -----------------------------
 
+NixOS 21.05 is our default platform version starting with this release.
+21.05 will be used for new VMs created via the self-service UI at my.flyingcircus.io.
+
 Impact
 ^^^^^^
 
