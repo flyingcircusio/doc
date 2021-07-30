@@ -16,6 +16,10 @@ NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * mailserver: merge in upstream updates for nixos-mailserver (#PL-129997).
+* mailserver: The `domains` option now allows switching off mail client autoconfiguration per domain and setting the primary domain.
+  The old config style of just specifying a list of domain names is still supported but should be converted to the new form.
+  See the :ref:`nixos-mailserver <mailserver role documentation>` for details (#PL-130003).
+* external_net/openvpn: remove deprecated `cipher` option in server and generated client config (#PL-129937).
 
 
 NixOS 20.09 platform
