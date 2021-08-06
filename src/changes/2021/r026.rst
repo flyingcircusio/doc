@@ -9,7 +9,8 @@ NixOS 21.05 is our default platform version starting with this release.
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Most services will be restarted due to a core dependency update.
+  VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
@@ -74,5 +75,9 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_025/21.05...817a5b0b808caa9a6b6942ffa17c1f8113e55eba>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/63ee5cd99a2e193d5e4c879feb9683ddec23fa03...16bf3980bfa0d8929639be93fa8491ebad9d61ec>`_
+
 
 .. vim: set spell spelllang=en:
