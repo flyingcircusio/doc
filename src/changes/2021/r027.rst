@@ -25,6 +25,8 @@ NixOS 21.05 platform
     * prosody: 0.11.9 -> 0.11.10
     * rabbitmq-server: add patches for CVE-2021-22116, CVE-2021-32718 and CVE-2021-32719
 
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/99941/download/1/nixexprs.tar.xz
+
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
