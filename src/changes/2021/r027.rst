@@ -6,8 +6,7 @@ Release 2021_027 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 21.05] Gitlab will be restarted and unavailable for some minutes.
-* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
+* [NixOS 21.05] Most services will be restarted. VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
@@ -59,5 +58,9 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_026/21.05...b37994d2b94583ffed31c7ec7fccfaec592b4161>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/16bf3980bfa0d8929639be93fa8491ebad9d61ec...97c5d0cbe76901da0135b05cdbdfc5b068a7942c>`_
+
 
 .. vim: set spell spelllang=en:
