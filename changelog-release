@@ -60,7 +60,7 @@ def finalize_old_changelog(last_release, release_date):
         release_date), text)
 
     r_empty_sec = re.compile(r'^.{6,40}\n\^{6,40}\n+^\* nothing yet\n+', re.M)
-    text = r_empty_sec.sub('', text, count=4)
+    text = r_empty_sec.sub('', text)
     last_release.write_changelog(text)
 
 
