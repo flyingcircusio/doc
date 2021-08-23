@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r003.rst:4
+msgid "Release 2017_003 (2017-02-06)"
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:9
+msgid "[NixOS] PHP applications will need to be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:15
+msgid "Update vulnix to version 1.2.2 with improved reporting."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:16
+msgid "Add mongodb-tools to mongodb servers (#25713)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:17
+msgid ""
+"Update PHP to recent versions with improved MySQL drivers: 5.5.35, "
+"5.6.21, 7.0.15 (#25713)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:19
+msgid "Add Kibana service. Needs local configuration (#25713)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:20
+msgid "`memcached` listens now on all configured SRV addresses (#25641)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:21
+msgid ""
+"Allow to customize ElasticSearch via "
+":file:`/etc/local/elasticsearch/elasticsearch.yml` (#25713)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:26
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:28
+msgid "GLSA reporting now marks advisories that are already worked on as such."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:29
+msgid "Fix bug which causes sshd to crash during system updates (#25566)."
+msgstr ""
+
+#: ../../src/changes/2017/r003.rst:30
+msgid ""
+"Disable transparent huge pages (THP) on VM hosts as we suspect that it is"
+" the source of recent kernel crashes (#25515)."
+msgstr ""
+

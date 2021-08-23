@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r016.rst:4
+msgid "Release 2016_016 (2016-05-23)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:9
+msgid ""
+"The Apache 2.4 upgrade has compatibility modules to version 2.2 "
+"activated, but we recommend you to review your configuration files in "
+":file:`/etc/apache2/local` after the update and review deprecation "
+"warnings in :file:`/var/log/apache2/error.log`."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:16
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:18
+msgid "Improve monitoring of managed MySQL/Percona instances. (#21337)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:20
+msgid "Relax monitoring limits for system load."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:22
+msgid ""
+"Set an explicit shell timeout to discontinue shells that are stuck in "
+"broken SSH connections."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:25
+msgid ""
+"Fix monitoring bug where NixOS VMs running in a project specific "
+"environment were incorrectly reported as broken. (#21511)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:28
+msgid ""
+"Fix systemd user unit management so that users can place own unit files "
+"in /etc/local/systemd. (#20984)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:31
+msgid "Introduce a timeout for the :literal:`fc-manage` job. (#21538)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:33
+msgid "Add Sensu monitoring for managed MongoDB instances. (#21336)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:37
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:39
+msgid "Upgrade Apache to 2.4 to get up-to-date encryption support. (#20447)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:40
+msgid "Allow service users to run doveadm via sudo. (#21485)"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:41
+msgid "Fix router runlevel switch on failure."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:42
+msgid "Fix detection of ENC environment class."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:43
+msgid "Add conffile rule for /etc/filesystems."
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:46
+msgid "References"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:48
+msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/{COMMIT}"
+msgstr ""
+
+#: ../../src/changes/2016/r016.rst:51
+msgid ""
+"Puppet source: "
+"https://bitbucket.org/flyingcircus/fc.platform/commits/{COMMIT}"
+msgstr ""
+

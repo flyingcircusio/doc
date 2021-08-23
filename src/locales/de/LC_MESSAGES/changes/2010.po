@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2010.rst:2
+msgid "2010"
+msgstr ""
+
+#: ../../src/changes/2010.rst:4
+msgid "Changelog for 2010 in reverse chronological order."
+msgstr ""
+
+#: ../../src/changes/2010.rst:8
+msgid "2010-12-17"
+msgstr ""
+
+#: ../../src/changes/2010.rst:11
+msgid "Package updates"
+msgstr ""
+
+#: ../../src/changes/2010.rst:13
+msgid "Update to openssl 1.0.0c to fix non-critical security issues (#8415)."
+msgstr ""
+
+#: ../../src/changes/2010.rst:16 ../../src/changes/2010.rst:27
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2010.rst:18
+msgid "/etc/nginx/local directory is writable for service users (#8315)."
+msgstr ""
+
+#: ../../src/changes/2010.rst:19
+msgid "Sensible default for nginx access log filenames (#8315)."
+msgstr ""
+
+#: ../../src/changes/2010.rst:20
+msgid "Enhanced infrastructure for custom web statistics reports (#8311)."
+msgstr ""
+
+#: ../../src/changes/2010.rst:24
+msgid "2010-12-08"
+msgstr ""
+
+#: ../../src/changes/2010.rst:29
+msgid ""
+"Per-user logrotate snippets can now be placed in "
+":file:`/var/spool/logrotate/{USER}`.  They are executed with USER's "
+"permissions.  (#6241)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:32
+msgid ""
+"Available user permissions are now configured in "
+":file:`/etc/local/permission.desc`.  (#8358)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:34
+msgid ""
+"Non-privileged nodes (like VMs) are now able to query directory "
+"parameters of all nodes in the same resource group via "
+":program:`/etc/puppet/node.rb`. (#8367)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:39
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2010.rst:41
+msgid "Start this changelog to inform users about changes. :-)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:42
+msgid "Publish existing documentation at http://gocept.net/doc/."
+msgstr ""
+
+#: ../../src/changes/2010.rst:45
+msgid "Performance/reliability improvements"
+msgstr ""
+
+#: ../../src/changes/2010.rst:47
+msgid ""
+"Backup performance enhancement: pull volumes directly off storage "
+"servers. (#8077)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:49
+msgid ""
+"Cross monitoring: Monitoring servers monitor others to improve failure "
+"detection. (#7421)"
+msgstr ""
+
+#: ../../src/changes/2010.rst:54
+msgid "2010-11-16"
+msgstr ""
+
+#: ../../src/changes/2010.rst:56
+msgid "Security fix for glibc"
+msgstr ""
+

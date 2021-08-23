@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r029.rst:4
+msgid "Release 2017_029 (2017-12-05)"
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:9
+msgid "[NixOS] PostgreSQL servers will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:15
+msgid "Security update for PostgreSQL: 9.6.6, 9.5.10, 9.4.15 (#29123)."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:16
+msgid "Check for circular systemd service dependencies (#28203)."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:17
+msgid "Fix sendmail setuid-wrapper permissions (#29181)."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:18
+msgid ""
+"Don't try to start dogstatsd (from datadog role) when there is no "
+"configuration for it (#27879)."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:20
+msgid ""
+"Update and fix VirtualboxGuest additions to build correctly with our VM "
+"guest kernel for Vagrant installations."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:22
+msgid "Disable the fc-manage service on Vagrant completely."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:23
+msgid "Update vulnix to 1.4.0."
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:27
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r029.rst:29
+msgid "Apache: Lift limits for apache mpm_event_module (#29201)."
+msgstr ""
+

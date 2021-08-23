@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r033.rst:4
+msgid "Release 2016_033 (2016-10-27)"
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:9
+msgid ""
+"VMs that used to exceed disk quota tacitly may now get \"disk full\" "
+"errors."
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:10
+msgid "MySQL servers will be restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:14
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:16
+msgid ""
+"Fix quota handling bug which rendered \"virtual\" disk shrink via quotas "
+"ineffective (#21994)."
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:18
+msgid ""
+"Remove monitoring of logged in users. Lots of noise, little effect "
+"(#22541)."
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:19
+msgid "Security update for dnsmasq (CVE-2015-8899, #23865)."
+msgstr ""
+
+#: ../../src/changes/2016/r033.rst:20
+msgid "Update vulnix to 1.1.5 (#24192)."
+msgstr ""
+

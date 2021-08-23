@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r031.rst:4
+msgid "Release 2017_031 (2017-12-14)"
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:9
+msgid ""
+"Update to Grafana 4.6.2 (statshost role). This version of Grafana "
+"includes annotations, which nicely allow to note events in the dashboards"
+" (#29125)."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:11
+msgid ""
+"Allow non-local binds: this allows binding to IP addresses that may not "
+"have been configured (yet) and thus stabilizes the startup behaviour for "
+"services like nginx and varnish even in the face of ordering issues. "
+"However, this also means that configuring wrong listen addresses may "
+"remain unnoticed (#28908)."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:15
+msgid ""
+"Loghosts can be scaled for higher load of messages and better "
+"availability, by having multiple Graylog instances, and/or multiple "
+"ElasticSearch instances, including MongoDB replication."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:18
+msgid ""
+"Browser access to graylog is no longer proxied through our self-service "
+"portal. A public IP address will be needed to access Graylog. Users will "
+"user their Flying Circus login to directly authenticate against Graylog."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:21
+msgid "Security patches for audiofile 0.3.6 (#26909)."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:22
+msgid ""
+"Increase channel update interval to once every 2h for reduced storage "
+"load during roll-outs (#29353)."
+msgstr ""
+
+#: ../../src/changes/2017/r031.rst:24
+msgid ""
+"Make `nix-env -i` work even when a VM runs on a developer checkout "
+"(#29193)."
+msgstr ""
+

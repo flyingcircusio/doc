@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r002.rst:4
+msgid "Release 2014_002 (2014-01-16)"
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:9
+msgid ""
+"Declined security update for `GLSA 201309-05 / pip "
+"<http://www.gentoo.org/security/en/glsa/glsa-201309-05.xml>`_ (#13119). "
+"In the Flying Circus, pip cannot be invoked to install system packages."
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:12
+msgid ""
+"Declined security update for `GLSA 201401-07 / libxslt "
+"<http://www.gentoo.org/security/en/glsa/glsa-201401-07.xml>`_ yet "
+"(#13120). This update depends on libxml2 >= 2.9. An update of libxml2 is "
+"not feasible yet. Thus, libxslt is blocked as well. Because of the low "
+"security impact of the libxslt bugs in our environment, we decide to "
+"defer the libxslt update as well."
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:23
+msgid ""
+"Add secondary resolvers so that we have redundant resolvers *per "
+"location*. Move the failed DNS server to another machine (RT 92882)."
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:28
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r002.rst:30
+msgid ""
+"The 'haproxy port' check now parses :file:`/etc/haproxy.cfg` for the port"
+" haproxy is supposed to listen on."
+msgstr ""
+

@@ -209,3 +209,8 @@ feed_description = 'Flying Circus manual'
 
 def setup(app):
     app.add_css_file('flyingcircus.css')
+
+
+
+locale_dirs = ["locales/"]
+gettext_compact = False

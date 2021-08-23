@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r012.rst:4
+msgid "Release 2014_012 (2014-02-28)"
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:8
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:10
+msgid ""
+"Allow Hetzner to request gocept.net DNS zone transfers in preparation of "
+"hosting an external secondary authoritative DNS with them (#13016)."
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:12
+msgid ""
+"Provide completely separated resolver infrastructures for each location "
+"(#13016)."
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:14
+msgid ""
+"Enable A and AAAA records for all canonical host names (*VM*.gocept.net) "
+"See also `blog post <http://gocepthosting.blogspot.com/2014/02/ipv4-and-"
+"ipv6-addressing-now-fully.html>`_ (#12242)."
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:21
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2014/r012.rst:23
+msgid ""
+"Provide information how to connect to our VMs in various scenarios of "
+"IPv4 and IPv6 availability."
+msgstr ""
+

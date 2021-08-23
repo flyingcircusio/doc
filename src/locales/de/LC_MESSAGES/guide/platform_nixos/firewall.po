@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/firewall.rst:4
+msgid "Firewall"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:6
+msgid ""
+"On NixOS, our general firewall rules apply with a slight deviation: "
+"access is limited by default and can be enabled on a per-case basis."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:9
+msgid ""
+"You are free to open any port you like on the frontend network "
+"(``ethfe``) which will be accessible to the outside world. The server-to-"
+"server network is only accessible in a limited way from the outside and "
+"freely to the machines in the same project."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:15
+msgid "Adding custom configuration"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:17
+msgid ""
+"To add firewall rules, you can place configuration files in "
+":file:`/etc/local/firewall/*`. Upon the next config activation all files "
+"placed there will be concatenated and placed in a late stage of the "
+"firewall configuration."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:22
+msgid ""
+"The files are shell scripts and are intended to be very simple. We check "
+"that all lines are either:"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:25
+msgid "comments (starting with #)"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:26
+msgid "invocations of an iptables command (iptables, ip6tables, ip46tables)"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:28
+msgid ""
+"After making changes to the firewall configuration, either wait for the "
+"agent to apply it or run ``sudo fc-manage -b``."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:33
+msgid ""
+"You should definitely use the ``nixos-fw`` chain instead of the regular "
+"``INPUT`` chain to avoid unpredictable behaviour."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:37
+msgid "How to verify"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:39
+msgid ""
+"Service users may list currently active firewall rules with "
+":command:`sudo iptables -L`, e.g.:"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/firewall.rst:47
+msgid ""
+"If the intended rules do not show up, check the system journal for "
+"possible syntax errors in :file:`/etc/local/firewall` and re-run :command"
+":`fc-manage --build`."
+msgstr ""
+

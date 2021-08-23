@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/logrotate.rst:4
+msgid "Logrotate"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/logrotate.rst:6
+msgid ""
+"To rotate log files that are growing in service user directories, drop "
+"custom :file:`logrotate.conf` snippets into "
+":file:`/etc/local/logrotate/{USER}`. This service is automatically "
+"enabled for all service users."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/logrotate.rst:10
+msgid ""
+"If you store multiple files into this folders, **all** files will be "
+"activated."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/logrotate.rst:13
+msgid ""
+"Default options will be applied and are continuously documented in "
+":file:`/etc/local/logrotate/README.txt`."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/logrotate.rst:16
+msgid ""
+"For details about logrotate, check the `logrotate project "
+"<https://github.com/logrotate/logrotate>`_ and it's documentation."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/logrotate.rst:20
+msgid ""
+"Here's an example for a simple rotation signalling the owning process to "
+"re-open its file:"
+msgstr ""
+

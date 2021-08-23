@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r034.rst:4
+msgid "Release 2016_034 (2016-11-17)"
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:9
+msgid "The kernel update will trigger a reboot on all machines."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:10
+msgid ""
+"Many servers supporting crypto will be restarted due to the libgcrypt "
+"update. This affects at least Apache, nginx, PostgreSQL, and SSH."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:15
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:17 ../../src/changes/2016/r034.rst:28
+msgid "Update Linux to 4.4.27 (dirty cow) (#24271)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:18
+msgid ""
+"Optimize reboot management in scheduled maintenance machinery (#23965, "
+"#24189)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:20
+msgid "Deactivate CPU \"steal accounting\" since it is broken (#23769)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:21
+msgid ""
+"Set \"out of service\" flag in the directory while a VM performs "
+"maintenance (#24029)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:26
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:29
+msgid "Security update of Qemu from 2.5 to 2.7 (#23965)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:30
+msgid "Security update of MySQL from 5.5.43 to 5.5.53 (#24156)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:31
+msgid "Security update of subversion and serf (#24157, #24158)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:32
+msgid "Security update of libgcrypt from 1.6.3 to 1.7.3 (#24159)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:33
+msgid "Security update of bind (#24155)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:34
+msgid "Update XFS filesystem utilites for improved recovery capabilities (#24288)"
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:35
+msgid "Optimize reboot management in scheduled maintenance machinery (#23965)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:36
+msgid ""
+"Reduce parallelism in mass VM starts/stops for improved VM host stability"
+" (#24288)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:38
+msgid "Improve backy server performance (#24295)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:39
+msgid "Fix XFS filesystem issue leading to VM hangs (#24309)."
+msgstr ""
+
+#: ../../src/changes/2016/r034.rst:40
+msgid "Fix Ceph instrumentation bug on VM hosts (#24416)."
+msgstr ""
+

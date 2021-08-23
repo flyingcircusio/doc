@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r001.rst:4
+msgid "Release 2015_001 (2015-01-12)"
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:9
+msgid "Remove ahbl.org DNS blacklists as those were discontinued."
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:11
+msgid ""
+"Flush all IPv6 neighbour caches every 15 minutes to work around a "
+"deficiency in our IPv6 router failover setup. This avoids an edge case "
+"where some nodes do not update their IPv6 routes properly and need manual"
+" intervention."
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:15
+msgid ""
+"Fix bug where awstats was not able to handle web servers with wildcard "
+"names correctly (#13860)."
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:19
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:21
+msgid "Fix information leak in Nagios' configuration view (#14157)."
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:25
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2015/r001.rst:27
+msgid "Appoint new data protection officer, see :ref:`data-protection` (#13907)."
+msgstr ""
+

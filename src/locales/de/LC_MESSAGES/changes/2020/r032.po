@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r032.rst:4
+msgid "Release 2020_032 (2020-10-05)"
+msgstr ""
+
+#: ../../src/changes/2020/r032.rst:7
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r032.rst:9
+msgid "MongoDB: add Sensu check for feature compatibility version (#127913)."
+msgstr ""
+
+#: ../../src/changes/2020/r032.rst:10
+msgid ""
+"Nginx: remove the ``flyingcircus.services.mapHashBucketSize`` option "
+"which didn't work correctly. It's replaced by "
+"``services.nginx.mapHashBucketSize.`` This change also adds the related "
+"settings ``mapHashMaxSize``, ``serverNamesHashBucketSize``, and "
+"``serverNamesHashMaxSize`` (#128833)."
+msgstr ""
+
+#: ../../src/changes/2020/r032.rst:14
+msgid ""
+"Gitlab: add processing of incoming mails via the mail_room component. "
+"Settings must be configured via the new ``services.gitlab.incomingEmail``"
+" attribute set (#128712)."
+msgstr ""
+

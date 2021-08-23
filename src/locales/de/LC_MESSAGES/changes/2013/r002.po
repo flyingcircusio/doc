@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r002.rst:4
+msgid "Release 2013-03-04"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:9
+msgid ""
+"This release represents a major OS upgrade. It brings in a lot of good "
+"new stuff. Of the roughly 1000 packages we provide in our managed "
+"environment, web developers may find the following updates interesting:"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:13
+msgid "amavisd-new-2.7.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:14
+msgid "apache-2.2.23"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:15
+msgid "automake-1.11.6"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:16
+msgid "awstats-7.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:17
+msgid "bundler-1.0.22"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:18
+msgid "clamav-0.97.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:19
+msgid "couchdb-1.2.0"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:20
+msgid "curl-7.26.0"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:21
+msgid "dovecot-2.1.9"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:22
+msgid "emacs-24.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:23
+msgid "erlang-15.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:24
+msgid "gawk-4.0.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:25
+msgid "gcc-4.5.4"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:26
+msgid "gd-2.0.35"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:27
+msgid "gdb-7.3.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:28
+msgid "geos-3.3.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:29
+msgid "ghostscript-gpl-9.05"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:30
+msgid "git-1.7.8.6"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:31
+msgid "glibc-2.15"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:32
+msgid "gnutls-2.12.20"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:33
+msgid "graphviz-2.26.3"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:34
+msgid "icedtea-bin-6.1.11.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:35
+msgid "imagemagick-6.7.8.7"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:36
+msgid "libpcre-8.30"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:37
+msgid "libreoffice-3.6.3.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:38
+msgid "libxml2-2.8.0"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:39
+msgid "libxslt-1.1.27"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:40
+msgid "llvm-3.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:41
+msgid "memcached-1.4.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:42
+msgid "mercurial-2.1.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:43
+msgid "mysql-5.1.66"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:44
+msgid "nginx-1.2.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:45
+msgid "nodejs-0.9.3"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:46
+msgid "openldap-2.4.30"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:47
+msgid "openoffice-bin-3.4.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:48
+msgid "openssh-5.9_p1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:49
+msgid "php-5.4.6"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:50
+msgid "poppler-0.20.4"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:51
+msgid "postfix-2.9.4"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:52
+msgid "postgis-2.0.0"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:53
+msgid "postgresql-server-9.0.10"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:54
+msgid "python-2.6.8"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:55
+msgid "python-2.7.3"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:56
+msgid "python-3.1.5"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:57
+msgid "python-3.2.3"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:58
+msgid "redis-2.4.10"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:59
+msgid "ruby-1.9.3_p194"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:60
+msgid "spamassassin-3.3.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:61
+msgid "sqlite-3.7.14.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:62
+msgid "strace-4.7"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:63
+msgid "subversion-1.6.17"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:64
+msgid "tar-1.26"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:65
+msgid "v8-3.14.5.1"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:66
+msgid "varnish-3.0.2"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:67
+msgid "vim-7.3.409"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:68
+msgid "webalizer-2.21.02"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:69
+msgid "zsh-4.3.17"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:71
+msgid ""
+"The updates should not break existing applications. However, some Python "
+"modules with compiled C extensions may need to be recompiled, for example"
+" PIL and lxml."
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:77
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:79
+msgid ""
+"Apart from reflecting the updated packages' configuration, we reworked "
+"quite a bit of the system management code. Most of these changes are not "
+"directly visible to users."
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:83
+msgid "Reduce VM host reboot times by parallelizing VM shutdowns."
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:84
+msgid "Relax IPMI watchdog timeout on VM hosts to avoid unnecessary reboots."
+msgstr ""
+
+#: ../../src/changes/2013/r002.rst:86
+msgid ""
+"A high-level description of changes users may need to consider in their "
+"application deployments can be found in our `blog post`_. There is also a"
+" detailed description of our `roll-out techniques`_ available."
+msgstr ""
+

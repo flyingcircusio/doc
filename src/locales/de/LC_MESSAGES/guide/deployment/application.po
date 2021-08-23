@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/deployment/application.rst:4
+msgid "Install application"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:6
+msgid "Change to your service user context.::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:11
+msgid "Virtualenv"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:13
+msgid ""
+"To install Python applications in a controlled environment, you can use "
+":program:`virtualenv`. :program:`virtualenv` is already installed system-"
+"wide on VMs.::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:26
+msgid "Buildout"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:28
+msgid ""
+"We recommend to ship your application using `buildout`_. To do so, first "
+"download Buildout's :file:`bootstrap.py`::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:33
+msgid "Create a :file:`buildout.cfg`::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:50
+msgid "Install"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:52
+msgid "Use *Buildout* to install Django.::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:59
+msgid "Setup application"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:61
+msgid ""
+"The follwing steps are Django related and may differ depending on your "
+"application."
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:64
+msgid "Adjust :file:`mysite/settings.py`::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:80
+msgid "Initialize the database::"
+msgstr ""
+
+#: ../../src/guide/deployment/application.rst:84
+msgid "Test the app to start successfully.::"
+msgstr ""
+

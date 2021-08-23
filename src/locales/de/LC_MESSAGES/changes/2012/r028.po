@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r028.rst:4
+msgid "Release 2012-09-24"
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:9
+msgid ""
+"Security update for `GLSA 201209-02 / tiff "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-02.xml>`_ (#11443)."
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:11
+msgid ""
+"Security update for `GLSA 201209-03 / php "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-03.xml>`_ (#11444)."
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:13
+msgid ""
+"Security update for `GLSA 201209-04 / bind "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-04.xml>`_ (#11445)."
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:15
+msgid ""
+"Security update for `GLSA 201209-05 / libreoffice "
+"<http://www.gentoo.org/security/en/glsa/glsa-201209-05.xml>`_ not applied"
+" since there is a version dependency issue. Will be solved during the "
+"next OS update."
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:23
+msgid ""
+"Guard against SSH attacks. IP addresses with too many unsuccessful logins"
+" are automatically blocked on the routers (#11294)."
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:28
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r028.rst:30
+msgid ""
+"Include gocept's monitoring satellites in default Nagios config to ease "
+"creation of externally monitored services (#11222)."
+msgstr ""
+

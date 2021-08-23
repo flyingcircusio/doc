@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/statshost.rst:4
+msgid "Statshost"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/statshost.rst:6
+msgid ""
+"The Stathost role provides `Grafana <https://grafana.org>`_ dashboards "
+"for your project. A variety of metrics are collected from your nodes "
+"using `Telegraf <https://www.influxdata.com/time-series-"
+"platform/telegraf/>`_, and are ingested into `Prometheus "
+"<https://prometheus.io>`_."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/statshost.rst:9
+msgid "This is a stub. More documentation will follow."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/statshost.rst:13
+msgid "Customization"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/statshost.rst:15
+msgid ""
+"A Telegraf daemon runs on all NixOS VMs. All metrics collected by "
+"Telegraf are picked up by Prometheus. You can add custom inputs by "
+"putting :file:`*.conf` files into :file:`/etc/local/telegraf`. Telegraf "
+"configuration files are in the `TOML <https://github.com/toml-"
+"lang/toml>`_ format. See the `Telegraf configuration page "
+"<https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md>`_"
+" for details. The available inputs are `documented separately "
+"<https://github.com/influxdata/telegraf/tree/master/plugins/inputs>`_."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/statshost.rst:18
+msgid ""
+"To activate the configuration, run :command:`sudo fc-manage --build`. For"
+" further information, also see :ref:`nixos-local`."
+msgstr ""
+

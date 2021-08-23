@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r007.rst:4
+msgid "Release 2017_007 (2017-04-24)"
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:9
+msgid "[NixOS] VMs will be rebooted due to a kernel update."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:10
+msgid "[NixOS] MongoDB instances will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:11
+msgid "[NixOS] Network will be restarted without actively restarting services."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:15
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:17
+msgid "Update Qemu guest agent and Linux kernel to avoid VM hangs (#26515)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:18
+msgid ""
+"Introduce :file:`/etc/local/postfix/master.cf` to add local master.cf "
+"content to Postfix (#26492)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:20
+msgid "Add `sysstat` service on all VMs (#26608)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:21
+msgid "Manage Load thresholds based on machine's CPU count (#26550)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:22
+msgid "Monitoring: various improvements to journal checks (#26440, #26458)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:23
+msgid ""
+"Monitoring: Ignore invalid client-side cipher selection in SSH journal "
+"check (#26493)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:25
+msgid ""
+"Update MongoDB 3.2 to newest release in series (3.2.12) to benefit from "
+"fixes for segfaults and other bugs."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:27
+msgid "Exclude `autofs` from datadog's filesystem checks."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:28
+msgid "Add `collectd` metrics for ElasticSearch."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:29
+msgid ""
+"Fix network bug which caused PostgreSQL/Redis failures during VM startup "
+"(#22431)"
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:34
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:36
+msgid "Update fc.qemu to get rid of VM hangs (#26521)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:37
+msgid "Improve rotation of MySQL logs (#25164, #26230)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:38
+msgid "Enable VP8 support for `ffmpeg` (#26260)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:39
+msgid "Increase router conntrack memory to avoid packet losses (#26425)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:40
+msgid "Move backy to XFS volumes instead of btrfs (#26014)."
+msgstr ""
+
+#: ../../src/changes/2017/r007.rst:41
+msgid "Provide `wkhtmltopdf` in `psdpdf` role."
+msgstr ""
+

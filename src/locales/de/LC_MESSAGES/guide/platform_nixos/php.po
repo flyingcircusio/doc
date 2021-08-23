@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/php.rst:4
+msgid "PHP"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:6
+msgid ""
+"For operating PHP based applications we chose to use `FPM "
+"<http://php.net/manual/en/intro.fpm.php>`_."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:8
+msgid ""
+"We assume the service user is called ``s-phpsite``, and that the docroot "
+"is :file:`/srv/s-phpsite/docroot`. But of course you can use different "
+"service user names, and different docroots."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:12
+msgid "Installation"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:14
+msgid ""
+"Note that on the NixOS platform it is not necessary to activate a role to"
+" install PHP. You can install PHP into the service user::"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:20
+msgid "There are different PHP versions to choose from:"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:22
+msgid "``nixos.php55``"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:23
+msgid "``nixos.php56``"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:24
+msgid "``nixos.php70``"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:26
+msgid ""
+"You can install different PHP versions at the same time on the same "
+"machine in different service users."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:31
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:33
+msgid "Add configuration for FPM (:file:`/srv/s-phpsite/phpfpm.conf`)::"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:50
+msgid ""
+"Of course the specific values depend on the expected load and the VM "
+"dimensions."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:52
+msgid ""
+"You can add a :file:`php.ini` which suits your needs to "
+":file:`/srv/s-phpsite/php.ini`."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:54
+msgid ""
+"Register the FPM with systemd, to get a running process. Since there are "
+"some variables, like PATH to fill out, feel free to copy-paste the "
+"following shell-snippet (as service user, ``s-phpsite`` in our case)::"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:75
+msgid ""
+"Here is a snippet for configuring the phpfpm support into your nginx "
+"virtual host (see also the :revcF:ref:`nixos-nginx` role documentation)::"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:99
+msgid "Local PEAR configuration"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:101
+msgid ""
+"PEAR is shipped with PHP, and you will need a local configuration to use "
+"it::"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/php.rst:105
+msgid ""
+"For PEAR to work, PHP needs to include PEAR in :file:`php.ini` (see "
+"above)::"
+msgstr ""
+

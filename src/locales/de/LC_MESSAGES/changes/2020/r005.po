@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r005.rst:4
+msgid "Release 2020_005 (2020-02-20)"
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:9
+msgid "[NixOS 19.03] MySQL servers will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:15
+msgid ""
+"Randomize execution times of Graylog, Grafana, and Prometheus system jobs"
+" (#123321)."
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:17
+msgid ""
+"MySQL: set root password on every service startup. The root password can "
+"be changed now by editing the password file in /etc/local and restarting "
+"mysql. It's also possible to set a password before enabling a MySQL role "
+"(#123366)."
+msgstr ""
+
+#: ../../src/changes/2020/r005.rst:20
+msgid "Vagrant: add missing groups to fix journal permission script (#123299)."
+msgstr ""
+

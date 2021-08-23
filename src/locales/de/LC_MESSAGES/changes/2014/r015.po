@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r015.rst:4
+msgid "Release 2014_015 (2014-03-17)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:9
+msgid ""
+"Improve our KVM configuration script to avoid accidental VM shutdown. "
+"(#13278)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:12
+msgid ""
+"Data retention grace period for NFS box: do not remove user's directory "
+"upon user deletion - data will be removed by regular 24h cycle of the box"
+" anyway. (#13278)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:16
+msgid ""
+"Make the NFS box client configuration code more robust towards NFS "
+"mounting issues: try remounting when discovering that $HOME/box is a "
+"stale NFS handle."
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:19
+msgid ""
+"Tighten the safety belt for Ceph pool removal: disable the low-level "
+"method completely and raise a warning  if someone starts using it again. "
+"(#13278)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:22
+msgid ""
+"Remove superfluous unscheduled fsck during online disk size increase. "
+"(#13278)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:24
+msgid ""
+"Improve backup/restore machinery to make parallel restores easier to "
+"operate."
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:28
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:30
+msgid ""
+"Ensure we mention our `status page`_ in the documentation instead of the "
+"old hosting blog. (#13033)"
+msgstr ""
+
+#: ../../src/changes/2014/r015.rst:33
+msgid ""
+"Revive tutorials from old documentation site: :ref:`screen-multiuser` and"
+" :ref:`ssh-keygen`. (#13284)"
+msgstr ""
+

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r018.rst:4
+msgid "Release 2021_018 (2021-05-25)"
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:9
+msgid "[NixOS 20.09] Grafana will be restarted."
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:13
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:15
+msgid "Grafana: update to 7.5.6 (#PL-129853)."
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:16
+msgid ""
+"Infrastructure: silence RAID controller cache/BBU monitoring for machines"
+" that do not have a BBU (#PL-126095)."
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:18
+msgid ""
+"Nginx: generate dhparams at :file:`/var/lib/dhparams/nginx.pem`. Note "
+"they are not used by default and must be added to the config manually or "
+"by setting ``services.nginx.sslDhparam = "
+"config.security.dhparams.params.nginx.path;`` (#-PL-129859)."
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:22
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/90348/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:26
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r018.rst:28
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_017/20.09...f1f61ea57784c9c59db274fb2cc88a5132288006>`_"
+msgstr ""
+

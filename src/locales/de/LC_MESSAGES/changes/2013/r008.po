@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r008.rst:4
+msgid "Release 2013-04-19"
+msgstr ""
+
+#: ../../src/changes/2013/r008.rst:8
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r008.rst:10
+msgid ""
+"Fix race condition in package update code that led to "
+"corrupted/uninstallable binary packages (RT 88406)."
+msgstr ""
+
+#: ../../src/changes/2013/r008.rst:12
+msgid ""
+"Fix bug that led to incomplete Postfix installations after a full VM "
+"restore (RT 88491)."
+msgstr ""
+
+#: ../../src/changes/2013/r008.rst:17
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r008.rst:19
+msgid ""
+"Improve line speed checking on routers to detect duplex mismatches on "
+"outgoing lines (#12018)."
+msgstr ""
+

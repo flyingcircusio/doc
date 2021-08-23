@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r027.rst:4
+msgid "Release 2018_027 (2018-09-11)"
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:9
+msgid "[NixOS] Rebuild/restart of services linking against OpenLDAP."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:10
+msgid "[NixOS] Restart Apache instances."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:11
+msgid "[Gentoo] OpenSSH servers will stop to support some more outdated ciphers."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:15
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:17
+msgid "Give Prometheus more time for shutting down (#105074)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:18
+msgid "Update OpenLDAP 2.4.42 -> 2.4.46 (#101152)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:19
+msgid "Update Oracle Java 8 to Patch 181 (#105232)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:20
+msgid "Limit Apache startup time to prevent endless loop (#105206)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:21
+msgid "Update dependencies of Apache (#105161, #105166)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:22
+msgid ""
+"Enlarge maximum network receive buffer size to reduce drop-outs under "
+"high load (#105227)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:24
+msgid "Update bundix to 1.0.3 (#105196)."
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:28
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r027.rst:30
+msgid "Update OpenSSH to 7.5_p1 (#29539)."
+msgstr ""
+

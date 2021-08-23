@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r056.rst:4
+msgid "Release 2015_056 (2015-12-23)"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:9
+msgid ""
+"Security update for OpenSSH `GLSA 201512-04 "
+"<https://security.gentoo.org/glsa/201512-04>`_ (#19517). This change "
+"deprecates usage of ssh-dss keys as they are not secure anymore. Please "
+"consider creating a new SSH key if you are effected."
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:13
+msgid ""
+"Security update for gdk-pixbuf `GLSA 201512-05 "
+"<https://security.gentoo.org/glsa/201512-05>`_ (#19518)."
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:15
+msgid ""
+"Port gettext 0.19.4 to overlay as it's needed by the update of gdk-pixbuf"
+" (#19518)"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:17
+msgid ""
+"We are ignoring the security update for grub `GLSA 201512-03 "
+"<https://security.gentoo.org/glsa/201512-03>`_ as we are not affected by "
+"the issue."
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:22
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:24
+msgid "Remove duplicate package declaration of libjpeg (#19456)"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:25
+msgid "Improve loghost performance and reliability (#18782)"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:26
+msgid ""
+"Move Ceph-MON data directories into own logical volumes for increased "
+"speed and fault tolerance (#18803)."
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:28
+msgid "Improve Nginx configuration to support more/longer server names. (#19469)"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:32
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r056.rst:34
+msgid "Improve directory/nagios consistency check (#19425)."
+msgstr ""
+

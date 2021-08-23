@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_nixos/loghost.rst:4
+msgid "Loghost"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:6
+msgid ""
+"The Loghost role starts a managed instance of `Graylog "
+"<http://www.graylog.org>`_ 2.1.1."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:9
+msgid "Components"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:16
+msgid "Nginx"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:18
+msgid ""
+"One instance (:ref:`srv interface <logical_networks>`, port TCP 9000) "
+"passes logins via `My Flying Circus <https://my.flyingcircus.io>`_ to the"
+" web interface of Graylog."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:20
+msgid ""
+"The other (:ref:`srv interface <logical_networks>`, port TCP 9002) is "
+"meant for VMs in the same project to access the Graylog API directly."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:23
+msgid "Graylog"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:25
+msgid ""
+"Graylog saves user configs and settings in a MongoDB, while ingested "
+"messages are stored in :ref:`Elasticsearch <nixos-elasticsearch>`."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:30
+msgid "Interaction"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:36
+msgid ""
+"Activating the role in a project, activates the \"Logs …\" button on the "
+"`dashboard <https://my.flyingcircus.io>`_. From there on you will be "
+"transferred to Graylog's dashboard. Doing that for the first time, a user"
+" with adminstrator rights and your current login name will be created."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:38
+msgid ""
+"Alternatively, the URL to access the graylog dashboard directly is: "
+"``http://my.flyingcircus.io/tools/<machine>/graylog/``"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:42
+msgid "API"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:43
+msgid ""
+"Graylog implements its web interface as a first consumer of its REST api."
+" One can also access it directly via"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:45
+msgid ""
+"``http://my.flyingcircus.io/tools/<machine>/graylog/api`` "
+"``http://my.flyingcircus.io/tools/<machine>/graylog/api/api-browser`` "
+"(live documentation)"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:48
+msgid ""
+"There is an ``admin`` user setup, which password is to be found in "
+":file:`/etc/local/graylog/password`."
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:51
+msgid "Inputs"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:53
+msgid "The following inputs are active by default:"
+msgstr ""
+
+#: ../../src/guide/platform_nixos/loghost.rst:55
+msgid "Syslog UDP on port 5140"
+msgstr ""
+

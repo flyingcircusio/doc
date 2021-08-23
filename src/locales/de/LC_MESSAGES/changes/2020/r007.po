@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r007.rst:4
+msgid "Release 2020_007 (2020-03-05)"
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:6
+msgid ""
+"Our new NixOS 19.03 platform is ready for production. Effective March 6, "
+"VMs created via customer self-service will use the 19.03 platform. See "
+"the `blog post <https://blog.flyingcircus.io/2020/02/28/our-new-"
+"nixos-19-03-platform-is-ready-for-production/>`_ for more details."
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:12
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:14
+msgid "[NixOS 19.03] Statshost: Prometheus will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:18
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:20
+msgid "Statshost: fix TCP connection metric (#123713)."
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:24
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2020/r007.rst:26
+msgid ""
+"`buildEnv` is the only documented way to install custom packages into the"
+" user profile now."
+msgstr ""
+

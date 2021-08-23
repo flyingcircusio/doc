@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r023.rst:4
+msgid "Release 2020_023 (2020-08-03)"
+msgstr ""
+
+#: ../../src/changes/2020/r023.rst:7
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r023.rst:9
+msgid ""
+"Telegraf metrics: increase read timeouts for rabbitmq and influxdb, fix "
+"for PostgreSQL 12 (#127644)."
+msgstr ""
+
+#: ../../src/changes/2020/r023.rst:11
+msgid ""
+"Add MongoDB roles for 3.6 and 4.0. We support upgrades from 3.2 to 4.0 "
+"which must include every major version in between (#126656)."
+msgstr ""
+
+#: ../../src/changes/2020/r023.rst:16
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r023.rst:18
+msgid ""
+"Always use SNI in :command:`check_http` for directory-based service "
+"checks (#127689)."
+msgstr ""
+

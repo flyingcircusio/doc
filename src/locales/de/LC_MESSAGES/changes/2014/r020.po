@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r020.rst:4
+msgid "Release 2014_020 (2014-04-14)"
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:9
+msgid ""
+"Upgrade Squirrelmail on https://mail.gocept.net/webmail/ to snapshot "
+"2014-04-09 to solve a PHP 5.4 bug (RT 94654)."
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:16
+msgid ""
+"Change UID/GID of :program:`redis` to 120 to prevent UID/GID collisions "
+"with portmap. A restart of redis may be necessary (#13157)."
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:18
+msgid ""
+"Fix bug in user management code which led to missing access rights for FC"
+" administrators (RT 94745)."
+msgstr ""
+
+#: ../../src/changes/2014/r020.rst:20
+msgid ""
+"Whitelist managed Outlook's outgoing mail relays from greylisting since "
+"they use another IP address for every delivery attempt (RT 94761)."
+msgstr ""
+

@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r027.rst:4
+msgid "Release 2014_027 (2014-05-26)"
+msgstr ""
+
+#: ../../src/changes/2014/r027.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r027.rst:9
+msgid ""
+"Security update for `GLSA 201405-27 / libyaml "
+"<http://www.gentoo.org/security/en/glsa/glsa-201405-27.xml>`_ (#13444)."
+msgstr ""
+
+#: ../../src/changes/2014/r027.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r027.rst:16
+msgid ""
+"Rework entropy gathering: entropy is now harvested on VM servers with "
+":program:`haveged` and shuffled inside VMs via virtio-rng (#13293)."
+msgstr ""
+

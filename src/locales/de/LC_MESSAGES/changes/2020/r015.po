@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r015.rst:4
+msgid "Release 2020_015 (2020-06-02)"
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:9
+msgid "Statshost: Prometheus will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:15
+msgid ""
+"Replace 19.09 channel with 20.03. Lowers RAM consumption of our periodic "
+"management task which should reduce swapping on VMs with only 1GB RAM. "
+"Updates Kubernetes to 1.17 (#124530)."
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:18
+msgid ""
+"Statshost: Update Prometheus to 2.15.2, Grafana to 6.7, fix problems with"
+" too many open connections and correct wrong label dropping rules. The "
+"new Prometheus version uses significantly less RAM on our central "
+"statshost (#126199)."
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:25
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2020/r015.rst:27
+msgid "Update bind to fix nxnsattack (#126345)."
+msgstr ""
+

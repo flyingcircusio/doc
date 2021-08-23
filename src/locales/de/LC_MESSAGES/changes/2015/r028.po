@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r028.rst:4
+msgid "Release 2015_028 (2015-06-04)"
+msgstr ""
+
+#: ../../src/changes/2015/r028.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r028.rst:9
+msgid ""
+"Reboot all VMs to activate Qemu 2.2 which is not affected by the VENOM "
+"vulnerability (#15748)."
+msgstr ""
+
+#: ../../src/changes/2015/r028.rst:11
+msgid ""
+"Allow selected SSH algorithms for key exchange (diffie-hellman-"
+"group14-sha1) and MAC (hmac-sha1) which are helpful for compatibility "
+"with older clients and are reasonably safe for now. (#15940, #15913, "
+"#15871)"
+msgstr ""
+
+#: ../../src/changes/2015/r028.rst:14
+msgid ""
+"Mails passed through mailing list servers are seen by amavis/spamassassin"
+" only once now."
+msgstr ""
+
+#: ../../src/changes/2015/r028.rst:16
+msgid ""
+"Create auxiliary mailboxes (Trash, Sent, Drafts) automatically on IMAP "
+"servers (#15813)."
+msgstr ""
+

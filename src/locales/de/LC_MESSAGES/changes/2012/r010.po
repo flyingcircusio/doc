@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r010.rst:4
+msgid "Release 2012-04-18"
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:9
+msgid ""
+"Security update for FreeType: Multiple vulnerabilities GLSA 201204-04 "
+"(#10778)."
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:10
+msgid ""
+"Security update for SWFTools: User-assisted execution of arbitrary code "
+"GLSA 201204-05 (#10778)."
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:11
+msgid ""
+"Security update for Perl DBD-Pg Module: Arbitrary code execution GLSA "
+"201204-08 (#10778)."
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:15
+msgid ""
+"These update may involve PostgreSQL restarts depending on the set of "
+"packages actually installed on a machine."
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:20
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:22
+msgid "LDAP: additional index to speed up substring uid matches."
+msgstr ""
+
+#: ../../src/changes/2012/r010.rst:23
+msgid ""
+"Increase number of maximum allowed PostgreSQL connections to 200 to "
+"accommodate large installations."
+msgstr ""
+

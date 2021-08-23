@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r042.rst:4
+msgid "Release 2014_042 (2014-09-04)"
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:10
+msgid ""
+"Security update for `GLSA 201408-18 / nrpe "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-18.xml>`_ (#13610)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:13
+msgid ""
+"Security update for `GLSA 201408-10 / libgcrypt "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml>`_ (#13611)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:16
+msgid ""
+"Security update for `GLSA 201409-02 / net-snmp "
+"<http://www.gentoo.org/security/en/glsa/glsa-201409-02.xml>`_ (#13619)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:19
+msgid ""
+"Security update for `GLSA 201408-12 / apache "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml>`_ (#13614)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:22
+msgid ""
+"Security update for `GLSA 201408-15 / postgresql-server "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-15.xml>`_ (#13616)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:25
+msgid ""
+"Security update for `GLSA 201408-09 / libtasn1 "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml>`_ (#13613)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:28
+msgid ""
+"Security update for `GLSA 201408-08 / file "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-08.xml>`_ (#13612)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:31
+msgid ""
+"Security update for `GLSA 201408-11 / php "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-11.xml>`_ (#13617)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:34
+msgid ""
+"Security update for `GLSA 201408-13 / jinja "
+"<http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml>`_ (#13620)."
+msgstr ""
+
+#: ../../src/changes/2014/r042.rst:37
+msgid ""
+"Security update for `GLSA 201409-03 / dhcpcd "
+"<http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml>`_ (#13623)."
+msgstr ""
+

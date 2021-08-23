@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r001.rst:4
+msgid "Release 2012-01-24"
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:9
+msgid "Security fix for media-libs/freetype: GLSA 201201-09 (#10248)."
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:10
+msgid "Add qpdf tool to pspdf (document conversion) role (RT 80597)."
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:16
+msgid ""
+"Fix bug in the apache default configuration that causes apache not to "
+"start when installed without awstats (#8955)."
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:18
+msgid "Make slapd configuration partially writable by service users (#10170)."
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:22
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:24
+msgid ""
+"Suppress monitoring alerts about failed puppet runs for non-admins (RT "
+"80965)."
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:28
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r001.rst:30
+msgid "nothing yet"
+msgstr ""
+

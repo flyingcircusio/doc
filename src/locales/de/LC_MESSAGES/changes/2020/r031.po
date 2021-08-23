@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r031.rst:4
+msgid "Release 2020_031 (2020-09-28)"
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:9
+msgid ""
+"[NixOS 19.03] Multiple services will be restarted, including "
+"elasticsearch, httpd, mongodb, mysql, openvpn, postgresql, redis, "
+"rabbitmq and sshd."
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:14
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:16
+msgid ""
+"Nginx: anonymize IP addresses (IPv4 and IPv6) in access logs by default. "
+"We use a patched Nginx which provides $remote_addr_anon as a variable for"
+" log formats. This variable is used in the default combined log format "
+"(#127632)."
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:19
+msgid ""
+"Security updates for mcpp (patch CVE-2019-14274), Python (2.7.17 -> "
+"2.7.18, 3.6.9 -> 3.6.11, 3.7.4 -> 3.7.8), sysstat (12.2.0 -> 12.2.3), and"
+" unzip (patch CVE-2019-13232) (#128665)."
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:23
+msgid ""
+"Mail server: Grant users holding the \"sudo-srv\" permission sudo access "
+"to the \"vmail\" system user."
+msgstr ""
+
+#: ../../src/changes/2020/r031.rst:24
+msgid ""
+"Journal, logging: make unit script names more readable, for example "
+"``postgresql-start`` instead of ``<hash>-unit-script-postgresql-start`` "
+"(#126523)."
+msgstr ""
+

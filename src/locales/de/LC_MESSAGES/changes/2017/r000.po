@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r000.rst:4
+msgid "Release 2017_000 (2017-01-16)"
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:9
+msgid ""
+"Gentoo: MySQL servers and other applications linking against MySQL "
+"libraries will get restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:11
+msgid ""
+"NixOS: several services linking against PCRE (MySQL, PostgreSQL, Postfix)"
+" will get restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:16
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:18
+msgid ""
+"Re-enable vulnix vulnerability scanning after reducing vulnix' RAM usage "
+"to a bearable level (#24659)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:20
+msgid ""
+"Provide NFS box access for NixOS VMs under :file:`/mnt/auto/box`. "
+"Symlinks from users' home directories and the :command:`box` command are "
+"still missing (#21486)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:23
+msgid "Reduce noise in SSH connection attempt monitoring (#25476)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:24
+msgid "Security update for PCRE (CVE-2016-3191; #24063)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:25
+msgid "Security update for expat (CVE-2013-0340; #23872)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:29
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:31
+msgid ""
+"Improve resource usage and stability under host performance pressure for "
+"fc.agent (#25158)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:33
+msgid "Security update for MySQL/MariaDB (GLSA 201701-01; #25379)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:34
+msgid "Security update for coreutils (GLSA 201612-22; #25194)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:35
+msgid "Security update for util-linux (GLSA 201612-14; #25185)."
+msgstr ""
+
+#: ../../src/changes/2017/r000.rst:36
+msgid "Security update for cracklib (GLSA 201612-25; #25191)."
+msgstr ""
+

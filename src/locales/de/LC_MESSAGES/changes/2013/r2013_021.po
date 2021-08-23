@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r2013_021.rst:4
+msgid "Release 2013_021 (2013-08-29)"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:9
+msgid "Enable *sockets* extension for PHP (RT 90521)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:15
+msgid "Fix bug in the shared memory limit calculation (RT 90501)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:16
+msgid ""
+"Fix bug in configuration file handling where a configuration file is "
+"concatenated from snippets (#12716)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:18
+msgid ""
+"Provide integration point for local Mailman configuration at "
+":file:`/etc/mailman/mm_local_cfg.py` (#12526)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:23
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:25
+msgid ""
+"Fix reliability bug on the monitoring server where Nagios died if "
+"presented with incorrect configuration (RT 90452)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:27
+msgid "Fix Nagios startup bug (#12771)."
+msgstr ""
+
+#: ../../src/changes/2013/r2013_021.rst:28
+msgid ""
+"Resource groups can now install multiple business process configuration "
+"files."
+msgstr ""
+

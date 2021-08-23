@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:4
+msgid "End-to-end tracking of HTTP requests"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:6
+msgid ""
+"In order to track individual requests through the whole chain of involved"
+" components (nginx, Varnish, HAProxy), we have introduced a custom HTTP "
+"header (:code:`X-Request-ID`) that is added to each request in our nginx "
+"installations:"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:15
+msgid ""
+"The value is computed from nginx' PID, the connection number, and the "
+"request number in this connection. It is reasonably unique but might be "
+"re-used later."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:19
+msgid ""
+"Tracking an individual request is done by entering its :code:request_id "
+"in :ref:`Kibana <using_kibana>`'s search field:"
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:26
+msgid ""
+"This shows two matching entries, one from nginx, the other one from "
+"HAProxy."
+msgstr ""
+
+#: ../../src/guide/platform_gentoo/tracking_requests.rst:28
+msgid ""
+"You might want to integrate your application here. To do so, see "
+":ref:`here <integrating_app_with_elk>`. You can then extract the header "
+"from the request reaching your application to generate a logstash event "
+"that contains the :code:`request_id` field and others with the "
+"information you need."
+msgstr ""
+

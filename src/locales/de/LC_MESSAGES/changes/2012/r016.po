@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2012/r016.rst:4
+msgid "Release 2012-06-09"
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:9
+msgid ""
+"Install statically linked :command:`sash` shell to easy recovery from "
+"dynamic linking problems."
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:15
+msgid ""
+"Monitor iSCSI target daemons more tightly and recover automatically from "
+"crashes (#10933)."
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:17
+msgid ""
+"Fix bug in resolver config which leads to nameserver lookup timeouts when"
+" the primary nameserver is not responding (#10949)."
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:19
+msgid ""
+"Fix resource sizing bug in PostgreSQL configuration which caused "
+"PostgreSQL to allocate more shared memory than totally available on some "
+"machines (#10951). PostgreSQL restart is necessary in most cases."
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:24
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:26
+msgid ""
+"Improve network routing for monitoring server to avoid false alerts due "
+"to connectivity problems."
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:30
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2012/r016.rst:32
+msgid ""
+"Publish documentation updates also via `Twitter "
+"<http://twitter.com/#!/gocept>`_."
+msgstr ""
+

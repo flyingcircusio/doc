@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2021/r004.rst:4
+msgid "Release 2021_004 (2021-02-08)"
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:9
+msgid "[NixOS 20.09] VMs will be rebooted for a kernel update."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:10
+msgid ""
+"[NixOS 20.09] Jitsi Videobridge will be restarted which will interrupt "
+"conferences for a short time."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:11
+msgid "[NixOS 20.09]: Nginx will be restarted."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:15
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:17
+msgid ""
+"Merge upstream NixOS changes. Includes security fixes for sudo "
+"(CVE-2021-3156) and imagemagick (CVE-2020-29599, CVE-2020-27560) "
+"(#PL-129624)."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:19
+msgid "Jitsi: update components to the latest stable versions (#PL-129607)."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:20
+msgid ""
+"Nginx: ensure correct permissions for log files. We encountered some "
+"exceptional situations where startup failed because Nginx couldn't open "
+"log files (#PL-129618)."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:23
+msgid ""
+"Nginx: fix log retention time (for non-standard cases). Log files were "
+"always deleted after 10 days even if the rotateLogs setting (default 7 "
+"days) was set to a higher value (#PL-129618)."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:26
+msgid "Statshost: use TLS for fetching metrics via location proxies (#PL-129612)."
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:29
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../src/changes/2021/r004.rst:31
+msgid ""
+"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_003/20.09...203bd1c90d1a8f7d76b7986fc63d26e2b452d3f2>`_,"
+" `upstream changes "
+"<https://github.com/flyingcircusio/nixpkgs/compare/984c872d5ca6e521803a4cd9ba72d45c4c3640a6...f0abbebcba43f4806c63385c98a09afb4a3dc64f>`_"
+msgstr ""
+

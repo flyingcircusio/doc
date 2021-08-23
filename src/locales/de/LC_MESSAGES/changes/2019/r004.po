@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2019/r004.rst:4
+msgid "Release 2019_004 (2019-01-31)"
+msgstr ""
+
+#: ../../src/changes/2019/r004.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2019/r004.rst:9
+msgid ""
+"Fix Grafana datasource provisioning to not create new datasources on "
+"restart (#107948)."
+msgstr ""
+
+#: ../../src/changes/2019/r004.rst:11
+msgid "Fix relaying of outgoing mails via a `mailout` VM (#107962)."
+msgstr ""
+
+#: ../../src/changes/2019/r004.rst:12
+msgid "Remove (deprecated) Prometheus 1 from all `stathost` VMs (#106554)."
+msgstr ""
+

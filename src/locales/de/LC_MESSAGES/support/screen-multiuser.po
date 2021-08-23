@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/support/screen-multiuser.rst:4
+msgid "Shared screen sessions"
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:6
+msgid ""
+"The multiuser session feature of GNU :program:`screen` comes handy if a "
+"user needs remote assistance. Multiuser sessions allow other users to "
+"join in a running screen session. They see the same terminal output as "
+"the inviting user and are able to type in commands."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:12
+msgid "Walk-through"
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:14
+msgid ""
+"We illustrate how to use it with an example. Imaging user `alice` has a "
+"screen session running and wants to invite user `bob`."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:17
+msgid "We assume that `alice` is already running a screen session."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:19
+msgid ""
+"User `alice` needs to activate multiuser mode by typing :kbd:`Control-a "
+":multiuser on<Return>`."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:21
+msgid ""
+"User `alice` needs to allow `bob` to join by typing :kbd:`Control-a "
+":acladd bob<Return>`."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:23
+msgid ""
+"User `bob` joins the screen session by invoking :command:`screen -r "
+"alice/` at the shell."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:25
+msgid "To detach from the shared session, bob types :kbd:`Control-a d`."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:27
+msgid ""
+"Both `alice` and `bob` should share the same terminal now. For further "
+"details, please refer to the :manpage:`screen(1)` manual page."
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:32
+msgid "Limitations"
+msgstr ""
+
+#: ../../src/support/screen-multiuser.rst:34
+msgid ""
+":program:`screen` cannot be run inside :program:`sudo` sessions. So start"
+" screen first and then sudo inside the screen session."
+msgstr ""
+

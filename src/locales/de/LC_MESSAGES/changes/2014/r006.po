@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r006.rst:4
+msgid "Release 2014_006 (2014-02-05)"
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:8
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:10
+msgid ""
+"Improve backup performance to keep backup jobs in the announced time "
+"window (midnight - 6am) (RT 93307)."
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:12
+msgid ""
+"Reduce Ceph backfill rate in case of OSDs joining/leaving the storage "
+"cluster. Ceph backfills should have minimal impact of production storage "
+"performance now."
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:15
+msgid ""
+"Reduce frequency of backup server configuration reloads to prevent "
+"aborted backup jobs (#13112)."
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:20
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r006.rst:22
+msgid ""
+"Enhanced Ceph performance monitoring. This helps admins to trouble shoot "
+"storage related probleems more quickly (#12589)."
+msgstr ""
+

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r009.rst:4
+msgid "Release 2015_009 (2015-02-18)"
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:9
+msgid ""
+"Security update for `GLSA 201502-10 / libpng "
+"<http://www.gentoo.org/security/en/glsa/glsa-201502-10.xml>`_ (#14628)."
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:11
+msgid ""
+"Security update for `GLSA 201502-11 / cpio "
+"<http://www.gentoo.org/security/en/glsa/glsa-201502-11.xml>`_ (#14629)."
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:18
+msgid "Rotate /var/log/syslog on log hosts which can grow really big (#14649)."
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:19
+msgid ""
+"Reorder service startups on Ceph hosts to improve troubleshooting "
+"capabilities (#14638)."
+msgstr ""
+
+#: ../../src/changes/2015/r009.rst:21
+msgid ""
+"Improve traffic accounter/firewall management interaction for more "
+"accurate traffic accounts (#14609)."
+msgstr ""
+

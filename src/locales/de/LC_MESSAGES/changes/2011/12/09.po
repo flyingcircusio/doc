@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2011/12/09.rst:4
+msgid "Release 2011-12-09"
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:9
+msgid ""
+"Upgrade to Puppet 2.6. This involves PostgreSQL restarts due to changed "
+"flags (#8821)."
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:11
+msgid ""
+"Allow the document conversion role (pspdf) to be applied to physical "
+"machines as well (RT 80061)."
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:13
+msgid "Allow MySQL installations to be managed by service users (RT 80132)."
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:17
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:19
+msgid ""
+"Shorten time required for Nagios restarts to avoid monitoring \"holes\" "
+"(#9665)."
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:23
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2011/12/09.rst:25
+msgid "Add `RSS feed`_ for documentation updates (#9789)."
+msgstr ""
+

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r049.rst:4
+msgid "Release 2015_049 (2015-11-05)"
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:9
+msgid ""
+"Security update for tcpdump `GLSA 201510-04 "
+"<https://security.gentoo.org/glsa/201510-04>`_ (#18739)."
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:11
+msgid ""
+"Security update for CUPS `GLSA 201510-07 "
+"<https://security.gentoo.org/glsa/201510-07>`_ (#18740)."
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:13
+msgid ""
+"Security update for cups-filters `GLSA 201510-08 "
+"<https://security.gentoo.org/glsa/201510-08>`_ (#18741)."
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:15
+msgid "Ship Thawte SSL123 SHA-2 chain (#18808)."
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:19
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:21
+msgid ""
+"Remove bacula stuff cleanly from machines that have been converted to "
+"backy (#13456)."
+msgstr ""
+
+#: ../../src/changes/2015/r049.rst:23
+msgid ""
+"Fix problem with ineffective rotation of chrony's statistics.log and "
+"tracking.log files (#18710)."
+msgstr ""
+

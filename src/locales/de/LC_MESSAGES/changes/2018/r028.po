@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r028.rst:4
+msgid "Release 2018_028 (2018-09-24)"
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:9
+msgid "Services linking against libcurl will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:15
+msgid "Backport `filebeat6` from NixOS 18.03 (#105314)."
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:16
+msgid "Fix initial activation of Kibana role (#105376)."
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:17
+msgid "Update curl to 7.61.1 (#106436)."
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:21
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:23
+msgid "Update curl to 7.61.1 (#106437)."
+msgstr ""
+
+#: ../../src/changes/2018/r028.rst:24
+msgid "Improve block device settings on Ceph servers (#105313)."
+msgstr ""
+

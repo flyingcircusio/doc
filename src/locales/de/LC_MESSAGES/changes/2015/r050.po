@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r050.rst:4
+msgid "Release 2015_050 (2015-11-11)"
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:9
+msgid ""
+"Security update for Qemu `GLSA 201510-02 "
+"<https://security.gentoo.org/glsa/201510-02>`_ (#18743)."
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:11
+msgid "Update Ceph to fix a critical bug during PG resizing (#18497)."
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:12
+msgid ""
+"Update backy and fc.agent to get the newest features of backy 2.0 "
+"(#13456)."
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:16
+msgid ""
+"We have to reboot all VMs to bring the Qemu security update into effect. "
+"RG technical contacts will be notified individually about the reboot "
+"schedule."
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:23
+msgid "Switch all VMs to the new backup system (backy) (#13456)."
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:24
+msgid ""
+"Fix critical VM snapshotting bug which can cause spontaneous I/O hangs "
+"(#18917)"
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:29
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2015/r050.rst:31
+msgid "Adapt RPO times in :ref:`disaster-recovery` to the new backup system."
+msgstr ""
+

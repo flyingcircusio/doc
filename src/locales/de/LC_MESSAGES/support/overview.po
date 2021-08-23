@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/support/overview.rst:4
+msgid "Overview"
+msgstr ""
+
+#: ../../src/support/overview.rst:6
+msgid ""
+"We are happy to assist you with any issues that you may have when using "
+"our services. We have multiple informal ways that you may be "
+"communicating with us like telephone, chat, or video conferences."
+msgstr ""
+
+#: ../../src/support/overview.rst:10
+msgid ""
+"However, for situations where a higher due diligence is required (like "
+"leaving a paper trail of what we agreed on) we offer a formal support "
+"structure based on an issue tracking system. You are always welcome to "
+"start inquiring about any issue through our informal channels - our staff"
+" will guide you towards the more formal structure if needed."
+msgstr ""
+
+#: ../../src/support/overview.rst:16
+msgid ""
+"We differentiate inquiries into this system based on whether they "
+"critically affect production services or not."
+msgstr ""
+
+#: ../../src/support/overview.rst:21
+msgid "General Support"
+msgstr ""
+
+#: ../../src/support/overview.rst:23
+msgid ""
+"For non-production critical issues please contact our support by sending "
+"an email to support@flyingcircus.io. This will create a ticket and our "
+"staff will follow up with you within at most a business day."
+msgstr ""
+
+#: ../../src/support/overview.rst:29
+msgid "Emergency Support"
+msgstr ""
+
+#: ../../src/support/overview.rst:31
+msgid ""
+"As a customer with a service level agreement you have access to "
+"additional ways of communication that will ensure that our personnel "
+"responds within the agreed short time frames (i.e. 24/7 and 1h response "
+"time) during an emergency."
+msgstr ""
+
+#: ../../src/support/overview.rst:35
+msgid ""
+"An emergency is any situation where you experience large visible outages,"
+" are unable to proceed with development, or find yourselve in any other "
+"business-adverse situations caused by or related to our services."
+msgstr ""
+
+#: ../../src/support/overview.rst:39
+msgid ""
+"In the case of an emergency we will concentrate our resources towards a "
+"resolution. Other work is postponed until the problem is resolved. "
+"Information about ongoing large scale emergencies and disruptive work is "
+"published on our `status page <http://status.flyingcircus.io/>`_."
+msgstr ""
+
+#: ../../src/support/overview.rst:44
+msgid "There are three ways for us to get aware of an emergency:"
+msgstr ""
+
+#: ../../src/support/overview.rst:46
+msgid "Our system monitoring detects an outage and alerts us automatically."
+msgstr ""
+
+#: ../../src/support/overview.rst:48
+msgid ""
+"You send an email to emergency+<PIN>@flyingcircus.io (If your PIN is "
+"`1234`, send an email to `emergency+1234@flyingcircus.io`)."
+msgstr ""
+
+#: ../../src/support/overview.rst:51
+msgid ""
+"You call our emergency support number *+49 345 95990625* and enter your "
+"client-specific PIN."
+msgstr ""
+
+#: ../../src/support/overview.rst:54
+msgid ""
+"The call is forwarded to on-duty supporter who either picks up "
+"immediately or will call you back within the allowed time frame of the "
+"SLA. If you phone number is not transmitted, our supporter will follow up"
+" with known emergency contacts from your team."
+msgstr ""
+
+#: ../../src/support/overview.rst:59
+msgid "In any case there will be a support ticket created automatically."
+msgstr ""
+
+#: ../../src/support/overview.rst:63
+msgid ""
+"The standby support is *only* notified during the hours booked according "
+"to the SLA."
+msgstr ""
+
+#: ../../src/support/overview.rst:68
+msgid ""
+"When an emergency ticket is created the active supporters are immediately"
+" notified via"
+msgstr ""
+
+#: ../../src/support/overview.rst:71
+msgid "Pushover (https://pushover.net/),"
+msgstr ""
+
+#: ../../src/support/overview.rst:73
+msgid "Pager (http://www.ecityruf.de/) and"
+msgstr ""
+
+#: ../../src/support/overview.rst:75
+msgid "Email."
+msgstr ""
+

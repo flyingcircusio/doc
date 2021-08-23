@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r033.rst:4
+msgid "Release 2015_033 (2015-07-01)"
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:9
+msgid ""
+"Security update for OpenVPN: `GLSA 201412-41 "
+"<http://www.gentoo.org/security/en/glsa/glsa-01412-41.xml>`_ (#16229)."
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:11
+msgid "Upgrade e2fsprogs (#16190)."
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:16
+msgid "Allow service users to execute Postgrey init script (#16478)."
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:17
+msgid "Allow service users to execute rsyncd init script (#15802)."
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:18
+msgid "Improve reliability of VM live migrations (#14920)."
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:21
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r033.rst:23
+msgid "Detect that elasticsearchs emits too many exceptions."
+msgstr ""
+

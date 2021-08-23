@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r025.rst:4
+msgid "Release 2020_025 (2020-08-17)"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:9
+msgid ""
+"Multiple service restarts are expected due to changed deep link "
+"dependencies caused by security updates."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:14
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:16 ../../src/changes/2020/r025.rst:48
+#: ../../src/changes/2020/r025.rst:58
+msgid ""
+"Add logging syslog and journal to centralized loghosts for improved "
+"platform-wide analysis and security (#126523)."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:19
+msgid ""
+"Improve map file configuration mechanism for Postfix to more flexibly "
+"support different requirements to provide dynamic map data from configs "
+"and applications. (#126884)"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:23
+msgid ""
+"Prebuild wkhtmltopdf on Hydra to avoid expensive local compilation "
+"(#127964)."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:25
+msgid ""
+"Improve robustness of fc-userscan, the garbage collection scanner. It "
+"doesn't stop on unreadable files now. Also fix setuid-root invocation: GC"
+" roots and cache files are opened with dropped privileges (#124165)."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:29
+msgid "Security updates for"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:31
+msgid "Python 2.7 (patch against CVE-2019-20907),"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:32
+msgid "Ruby (2.5.7 -> 2.5.8, 2.6.5 -> 2.6.6),"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:33
+msgid "libarchive (3.3.3 -> 3.4.2),"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:34
+msgid "pcre2 (10.32 -> 10.34),"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:35
+msgid "screen (4.6.2 -> 4.8.0)."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:37
+msgid "Fix Python package overrides in our overlay."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:39
+msgid "Fix mailstub usage in Vagrant. (#127577)"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:41
+msgid "Disable automatic version checks for Graylog to avoid superfluous alerts."
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:46
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:53
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2020/r025.rst:55
+msgid ""
+"Make firewalls more specific to limit NRPE outside access to cross "
+"location checks from known addresses. (#124651)"
+msgstr ""
+

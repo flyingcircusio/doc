@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r020.rst:4
+msgid "Release 2015_020 (2015-04-15)"
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:9
+msgid ""
+"Security update for `GLSA 201504-03 / Apache "
+"<https://security.gentoo.org/glsa/201504-03>`_ (#15347)."
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:12
+msgid ""
+"Security update for `GLSA 201504-02 / sudo "
+"<https://security.gentoo.org/glsa/201504-02>`_ (#15348)."
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:18
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:20
+msgid ""
+"Fix bug which caused support mails to be assigned to two different "
+"tracking numbers (#15314)."
+msgstr ""
+
+#: ../../src/changes/2015/r020.rst:23
+msgid ""
+"Start to roll out `Consul <https://consul.io/>`_ for infrastructure "
+"service orchestration (#14919)."
+msgstr ""
+

@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r019.rst:4
+msgid "Release 2020_019 (2020-07-06)"
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:8
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:10
+msgid ""
+"Revert our atomic firewall to the fine-grained reload/reconfiguration "
+"mechanism in baseline NixOS. This helps compatibility with dynamic rule "
+"systems like Docker, Kubernetes, etc. We also now filter custom rules in "
+"/etc/local/firewall to only interact with custom chains and prohibit "
+"interaction with the default chains. Existing configurations may become "
+"invalid but will not silently break as NixOS catches those errors without"
+" breaking the running configuration. We'll clean up customer "
+"installations that are affected by this (#124117)."
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:15
+msgid ""
+"Update PHP to latest point releases: 7.3.19, 7.2.31. These include "
+"several security fixes (#126583)."
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:16
+msgid ""
+"Silence misleading journal messages from postfix-queue-perms.service "
+"(#126796)."
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:17
+msgid "FC Vagrant box: provide common directories under /etc/local by default."
+msgstr ""
+
+#: ../../src/changes/2020/r019.rst:18
+msgid ""
+"Security updates: iproute (5.5.0), gnupg (2.2.19), gnutls (3.6.14) and "
+"git (2.25.4)."
+msgstr ""
+

@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r000.rst:4
+msgid "Release 2018_000 (2018-01-10)"
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:9
+msgid "[NixOS] MongoDB servers will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:15
+msgid "Add `htop` to the default environment."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:16
+msgid ""
+"Fix HTTPS (SSL) configuration for Graylog and Grafana (loghost) on the "
+"same VM."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:18
+msgid "Add NodeJS 8.9.0 (#29513)."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:19
+msgid "Update NodeJS: 4.8.5, 6.11.5 (#29513)."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:20
+msgid "Update MongoDB configuration file format to YAML (#29483)."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:21
+msgid "Reduce MongoDB memory usage on Graylog nodes (#29483)."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:25
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:27
+msgid "Add proxy_fcgi module to our Apache default configuration (#29515)."
+msgstr ""
+
+#: ../../src/changes/2018/r000.rst:28
+msgid "Update Linux kernel on backup servers (#29436)."
+msgstr ""
+

@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r025.rst:4
+msgid "Release 2014_025 (2014-05-19)"
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:9
+msgid ""
+"Install Java 7 (icedtea) in addtion to Java 6 on all machines with the "
+"*java* role (#13417)."
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:11
+msgid ""
+"Security update for `GLSA 201405-08 / clamav "
+"<http://www.gentoo.org/security/en/glsa/glsa-201405-08.xml>`_ (#13422)."
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:18
+msgid ""
+"Clean up kernel config code a bit - some machines may need a reboot due "
+"to updated kernel configuration (#10960)."
+msgstr ""
+
+#: ../../src/changes/2014/r025.rst:20
+msgid ""
+"Establish sshd connection timeout to avoid orphan sshd processes pile up "
+"(RT 95332)."
+msgstr ""
+

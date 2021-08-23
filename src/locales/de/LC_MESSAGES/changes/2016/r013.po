@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r013.rst:4
+msgid "Release 2016_013 (2016-04-25)"
+msgstr ""
+
+#: ../../src/changes/2016/r013.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r013.rst:9
+msgid ""
+"Reduce amount of data logged to the VM serial console. We found high "
+"amounts of output to interfere substantially with smooth operations. "
+"We're now only logging emergency and critical as well as all kernel "
+"messages, instead of everything that passes through rsyslog (#20415, "
+"#21303)."
+msgstr ""
+
+#: ../../src/changes/2016/r013.rst:16
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2016/r013.rst:18
+msgid ""
+"Remove \"Olark\" chat box from web pages. They have not been used that "
+"much."
+msgstr ""
+
+#: ../../src/changes/2016/r013.rst:19
+msgid "Clarify Apache restart options in :ref:`apache` role docmentation."
+msgstr ""
+

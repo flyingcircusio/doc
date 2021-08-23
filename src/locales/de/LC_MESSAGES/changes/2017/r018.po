@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r018.rst:4
+msgid "Release 2017_018 (2017-08-23)"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:9
+msgid ""
+"[NixOS] Many if not most services will be started due to security updates"
+" in underlying libraries."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:11
+msgid ""
+"[NixOS] NFS shares will be remounted and produce a spurious warning "
+"message (#27810)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:16
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:18
+msgid "Security update: GCC 5.4.0, 4.9.4 (#23873)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:19
+msgid "Security update: Jasper 1.900.31 (#23878)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:20
+msgid "Security update: iptables (#23877)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:21
+msgid "Security update: MySQL 5.5.57 (#24058)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:22
+msgid "Security update: Perl 5.22.3 (#24076)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:23
+msgid "Security update: unzip (#26968)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:24
+msgid "Security update: OpenSSL 1.0.1u, 1.0.2l, 1.1.0f (#27036)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:25
+msgid "Security update: zlib 1.2.11 (#27182)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:26
+msgid "Security update: libxml2 2.9.4 (#23929)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:27
+msgid "Security update: PHP 5.5.35, 5.6.21, 7.0.15 (#24077)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:28
+msgid "Security update: PostgreSQL 9.3.18, 9.4.13, 9.5.8, 9.6.4 (#28101, #27463)"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:29
+msgid "Security update: libsndfile 1.0.28 (#23894)"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:30
+msgid "Security update: nettle 3.3 (#24060)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:31
+msgid "Security update: OpenVPN 2.4.3 (#27552)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:32
+msgid "Security update: ImageMagick 6.9.9-3 (#28031)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:33
+msgid "Security update: libgcrypt 1.6.6 (#27181)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:34
+msgid "Security update: libarchive 3.3.2 (#23890)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:35
+msgid "Security update: rubygems 2.4.8 (#26900)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:36
+msgid "Security update: bundler 1.10.6 (#26910)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:37
+msgid "Security update: libxslt 1.1.29 (#26902)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:38
+msgid "Security update: MariaDB 10.0.32 (#26901)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:39
+msgid "Security update: shadow 4.5 (#26970)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:40
+msgid ""
+"Fix bug with resource group NFS shares: some of them did not get mounted "
+"during boot (#27810)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:42
+msgid "Fix bug with `fc-agent` automatic activation timer (#26699)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:43
+msgid "Improve \"channel activate in maintenance\" mode (#26699)"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:44
+msgid "Provide PHP extensions for PHP 7.0 (#24768)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:45
+msgid "Gather Varnish metrics (#24768)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:46
+msgid ""
+"Firewall: DNS traffic is allowed while the firewall is being reconfigured"
+" (#27132)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:48
+msgid "Custom labels on VMs are used to label Prometheus metrics (#27132)"
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:49
+msgid ""
+"Remove unused xxdiff and thus gstreamer dependency from xtrabackup "
+"(#28030)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:50
+msgid ""
+"Add preliminary support to protect applications installed in users' homes"
+" from the Nix gargabe collector (#27553)."
+msgstr ""
+
+#: ../../src/changes/2017/r018.rst:52
+msgid "Configure Nginx so that it uses all available cores (#28021)."
+msgstr ""
+

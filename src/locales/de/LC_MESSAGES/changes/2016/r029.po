@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r029.rst:4
+msgid "Release 2016_029 (2016-09-05)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:9
+msgid ""
+"NixOS only: If you have customized postfix with "
+":file:`/etc/local/postfix/local.cf` copy it over to "
+":file:`/etc/local/postfix/main.cf` before the release. You ran remove "
+":file:`local.cf` after the release. Be sure to also change automatic "
+"deployment procedures accordingly."
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:15
+msgid ""
+"Add \"external_net\" role which creates a RG-specific OpenVPN gateway "
+"(#21387)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:17
+msgid ""
+"Varnish listens on ethsrv as well now. Before it was only listening on "
+"127.0.0.1. (#23196)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:19
+msgid "Postfix: Fix setting of IPv6 addresses in mynetworks (#23236)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:21
+msgid ""
+"Fix resolving IP addresses from :file:`/etc/hosts` entries for hosts with"
+" more than one IP address (#23464)."
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:23
+msgid "Fix postfix' local customization filename to :file:`main.cf` (#23458)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:25
+msgid "Fix MongoDB logrotate rule (#23454)"
+msgstr ""
+
+#: ../../src/changes/2016/r029.rst:27
+msgid ""
+"Fix maintenance handling for VMs with RAM a amount which is not a power "
+"of 2 (#23358)"
+msgstr ""
+

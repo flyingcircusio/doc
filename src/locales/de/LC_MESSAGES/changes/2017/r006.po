@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r006.rst:4
+msgid "Release 2017_006 (2017-03-27)"
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:9
+msgid ""
+"MySQL and MongoDB machines on NixOS need manual support intervention to "
+"set the new roles and remove obsolete config from "
+":file:`/etc/nixos/local.nix`. No downtime is expected."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:12
+msgid "ElasticSearch instances running on NixOS will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:13
+msgid "Graylog instances running on NixOS will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:17
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:19
+msgid ""
+"Provide separate roles for MySQL 5.5, 5.6, and Percona. Display selected "
+"MySQL version in https://my.flyingcircus.io (#26125)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:21
+msgid ""
+"Provide separate roles for MongoDB 3.0 and 3.2 version in "
+"https://my.flyingcircus.io (#26125)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:23
+msgid "Changelog: Fix Elasticsearch resource limits (#26125)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:24
+msgid "Dynamically adapt Graylog settings to available resources (#26216)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:25
+msgid "Improve `box` automounter configuration (#21486)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:26
+msgid ""
+"Allow token based authentication for Graylog to make the API accessible "
+"(#26239)."
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:31
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r006.rst:33
+msgid "Add ffmpeg and libvorbis as packages installable on request (#25474)."
+msgstr ""
+

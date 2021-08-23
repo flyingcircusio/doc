@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r052.rst:4
+msgid "Release 2015_052 (2015-11-27)"
+msgstr ""
+
+#: ../../src/changes/2015/r052.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r052.rst:9
+msgid ""
+"Fix bug which stopped discontinued VMs from actually getting deleted "
+"(#19129)."
+msgstr ""
+
+#: ../../src/changes/2015/r052.rst:11
+msgid ""
+"Fix bug in VM imaging code which installed the wrong kernel version in "
+"the stage4 image."
+msgstr ""
+
+#: ../../src/changes/2015/r052.rst:15
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r052.rst:17
+msgid "Disable hostgroup and servicegroup view. Those views show too many hosts."
+msgstr ""
+

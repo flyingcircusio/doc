@@ -1,0 +1,721 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2011/00old.rst:4
+msgid "Release 2011-10-29"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:7 ../../src/changes/2011/00old.rst:23
+#: ../../src/changes/2011/00old.rst:47 ../../src/changes/2011/00old.rst:65
+#: ../../src/changes/2011/00old.rst:85 ../../src/changes/2011/00old.rst:120
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:9
+msgid "Security update for libxml2: GLSA 201110-26 (#9785)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:13
+msgid "Release 2011-10-26"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:16 ../../src/changes/2011/00old.rst:34
+#: ../../src/changes/2011/00old.rst:59 ../../src/changes/2011/00old.rst:75
+#: ../../src/changes/2011/00old.rst:103 ../../src/changes/2011/00old.rst:147
+#: ../../src/changes/2011/00old.rst:170 ../../src/changes/2011/00old.rst:201
+#: ../../src/changes/2011/00old.rst:221 ../../src/changes/2011/00old.rst:246
+#: ../../src/changes/2011/00old.rst:263 ../../src/changes/2011/00old.rst:293
+#: ../../src/changes/2011/00old.rst:311 ../../src/changes/2011/00old.rst:327
+#: ../../src/changes/2011/00old.rst:343 ../../src/changes/2011/00old.rst:377
+#: ../../src/changes/2011/00old.rst:388 ../../src/changes/2011/00old.rst:406
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:18
+msgid ""
+"Improved Nagios notification options to separate infrastructure and "
+"service notifications (#8161)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:20
+msgid "Speed up Nagios startup to minimize monitoring \"holes\" (#9665)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:25
+msgid "Security update for ClamAV: GLSA 201110-16 (#9798)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:26
+msgid ""
+"Security update for PostgreSQL: GLSA 201110-20 (#9714). PostgreSQL "
+"restart required."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:31
+msgid "Release 2011-10-13"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:36
+msgid ""
+"Turn syslog-ng to back to listening on 514/udp after the developers "
+"misguidedly changed it to 610/udp."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:38
+msgid "Ensure that `dstat` is installed on all physical machines."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:39
+msgid ""
+"Fix php warning about unconfigured timezone in Nagios UI by setting "
+"timezone explicitly to Europe/Berlin."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:41
+msgid ""
+"Enable HIGHMEM64 for virtual machines to allow more than 3.5GiB of "
+"memory. (#9531)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:43
+msgid "Add puppet class for installing dev-lang/erlang."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:44
+msgid "Improve GLSA notification mechanism (#8302)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:49
+msgid "Security fixes for phpmyadmin 3.4.4: Gentoo #383107"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:50
+msgid "Security fixes for apache 2.2.20: CVE-2011-3348"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:51
+msgid "Security fixes for dhcp: CVE-2011-{2748,2749}"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:52
+msgid "Upgrade to ghostscript 9.04 (RT 79159)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:56
+msgid "Release 2011-09-19"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:61
+msgid ""
+"add fontconfig flag to gd on physical machines (in addition to virtual "
+"machines)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:67
+msgid ""
+"Security fixes for tiff 3.9.4: "
+"CVE-2009-5022,CVE-2010-{2595,3087},CVE-2011-{0192,1167}"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:68
+msgid "Security fixes for librsvg 2.34.0: CVE-2011-3146"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:69
+msgid "Security fixes for openssl 1.0.0e: CVE-2011-{3207,3210}"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:72
+msgid "Release 2011-09-13"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:77
+msgid ""
+"Bring wvWare tools back which disappeared accidentally during the last "
+"update (RT 78747)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:79
+msgid "Remove superfluous old php configuration directories."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:80
+msgid "Bugfix for memcached Nagios check."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:81
+msgid "Restrict memcached to listen on SRV IPv4 only."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:82
+msgid "Increased number of allowed postgresql IDLE processes in Nagios check."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:87
+msgid ""
+"Security fixes for apache 2.2.20, apache-tools 2.2.20: CVE-2011-3192 "
+"(#9539)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:88
+msgid "Security fix for php 5.3.8: CVE-2011-2202 (#9548)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:89
+msgid "Security fix for libpng 1.4.8: CVE-2011-2501 (#9558)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:90
+msgid "Security fix for nagios 3.2.3: CVE-2011-2179 (#9522)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:91
+msgid "Security fix for phpmyadmin 3.4.3.2: CVE-2011-3181 (#9521)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:92
+msgid "Security fix for subversion 1.6.16: CVE-2011-1752 (#9523)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:93
+msgid "Security fix for ca-certificates 20090709: Gentoo #381169 (#9542)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:98
+msgid "Release 2011-09-07"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:100
+msgid "Mainly a bugfix release for the major update."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:105
+msgid ""
+"Resolve VM host race condition which impedes correct VM startup during "
+"booting."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:107
+msgid ""
+"Resolve VM host init script bug which causes all iSCSI connections to die"
+" under certain conditions."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:111 ../../src/changes/2011/00old.rst:160
+#: ../../src/changes/2011/00old.rst:191 ../../src/changes/2011/00old.rst:211
+#: ../../src/changes/2011/00old.rst:236 ../../src/changes/2011/00old.rst:282
+#: ../../src/changes/2011/00old.rst:333 ../../src/changes/2011/00old.rst:354
+#: ../../src/changes/2011/00old.rst:396 ../../src/changes/2011/00old.rst:417
+msgid "Documentation"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:113
+msgid "Expand examples in the :ref:`userinit` section."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:117
+msgid "Release 2011-08-29"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:122
+msgid ""
+"A great deal of updated packages is available with the new release. Some "
+"highlights in no particular order (#8984):"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:125
+msgid "PostgreSQL 9.0.4 with changed configuration layout (see below)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:126
+msgid "Python 2.5.4, 2.6.6, 2.7.1, and 3.1.3"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:127
+msgid "nginx 1.0.4"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:128
+msgid "ClamAV 0.97.1"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:129
+msgid "Emacs 23.4"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:130
+msgid "Poppler 0.16.7"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:131
+msgid "OpenSSL 1.0.0d"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:132
+msgid "NumPy 1.6.0"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:133
+msgid "setuptools 0.6.14"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:134
+msgid "virtualenv 1.6.1"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:135
+msgid "OpenSSH 5.8"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:136
+msgid "libjpeg-turbo 1.1.1"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:137
+msgid "Gentoo baselayout 2.0.3"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:138
+msgid "util-linux 2.19.1"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:139
+msgid "autoconf 2.68"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:140
+msgid "automake 1.11.1"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:141
+msgid "GCC 4.4.5"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:142
+msgid "Linux kernel version 2.6.38"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:143
+msgid ""
+"Update all packages not mentioned here to current Gentoo upstream "
+"versions."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:149
+msgid ""
+"PostgreSQL 9.0 configuration files (postgresql.conf etc.) reside now all "
+"in :file:`/etc/postgresql-9.0` instead of "
+":file:`/srv/postgresql/9.0/data/`."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:151
+msgid ""
+"Small VMs get more swap. This should avoid memory pressure from more or "
+"less inactive system services."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:153
+msgid "Multi-Core VMs are available on request (#9101)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:154
+msgid "RAM upgrades during automatically scheduled maintenance windows."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:155
+msgid "Switch to OpenRC (#9087)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:156
+msgid ""
+"Fix bug where a missing use flag prevented the installation of graphviz "
+"(RT 78548)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:162
+msgid ""
+"Another great deal of documentation updates, especially in the tutorials "
+"section."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:167
+msgid "Release 2011-08-05"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:172
+msgid ""
+"Automatic system maintenance scheduling. System activities that require "
+"downtime (kernel upgrades etc.) are automatically scheduled into the next"
+" available maintenance slot and e-mail notifications are sent out. System"
+" users may use :command:`list-maintenance` to view upcoming maintenance "
+"activities (#8668, #9359)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:177
+msgid ""
+"Set default system Python version to 2.7. Scripts using a specific Python"
+" version (:file:`#!/usr/bin/python{X.Y}`) are not affected (#9043)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:179
+msgid "Increase the initial TCP congestion window to 10 segments (RT 78202)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:183 ../../src/changes/2011/00old.rst:230
+#: ../../src/changes/2011/00old.rst:254 ../../src/changes/2011/00old.rst:275
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:185
+msgid "Fix bug with false positives in the `sysstat log freshness` check (#9269)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:186
+msgid ""
+"Relax swap rate checks to avoid false positives. The checks should only "
+"cause alerts when a machine is constantly swapping."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:193
+msgid "Completely reworked :ref:`firststeps` section."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:194
+msgid "Added tutorial ssh-keygen (#6938)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:198
+msgid "Release 2011-07-21"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:203
+msgid ""
+"Support user-generated postgresql.conf Snippets in "
+":file:`/etc/postgresql-{version}` (#9164)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:205
+msgid ""
+"Service users may register user-specific init scripts to start and stop "
+"applications during system boot/shutdown. This feature is documented in "
+":ref:`userinit` (RT 77751)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:213
+msgid ""
+"Revamped documentation, adding introductory material and better section "
+"overviews."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:218
+msgid "Release 2011-06-30"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:223
+msgid "Increase file size limits for ClamAV (RT 77694)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:224
+msgid "Further PostgreSQL performance tuning."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:225
+msgid ""
+"Integration of customers-specific storage servers for high-volume "
+"customers (#9219)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:232
+msgid "Add `sysstat memory` check to provide continuous graphs of memory usage."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:238
+msgid "Improve :ref:`service-deployment-checklist` (#8371)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:239
+msgid "Further improvements to :ref:`data-protection` (#8370)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:243
+msgid "Release 2011-06-21"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:248
+msgid "Introduce facility to pin machines to fixed releases (#6820)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:249
+msgid "Mount filesystems with `relatime` option by default."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:250
+msgid ""
+"Tune PostgreSQL shared_buffers and wal_buffers parameter defaults (RT "
+"77605)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:251
+msgid "Tune kernel I/O scheduler settings."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:256
+msgid "Plot memory usage graph for all machines (sysstat_memory check)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:260
+msgid "Release 2011-06-09"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:265
+msgid "Add xlhtml, rtf2xml and xls2csv to document processing role. (#8783)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:266
+msgid ""
+"Add warning to auto-generated SSH :file:`authorized_keys` files that they"
+" should not be edited manually. (#8867)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:268
+msgid ""
+"Reduce default greylisting time on mail gateways so that delivery of "
+"greylisted mails usually succeeds with the first queue re-run on upstream"
+" MTAs."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:271
+msgid ""
+"Refine backup exclude lists to omit file that are easy to recreate in "
+"order to speed up backup and restore."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:277
+msgid ""
+"Relax swap activity checks to avoid false alerts when there is "
+"substantial swapping activity but no thrashing."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:279
+msgid "Improve reliability of sysstat checks."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:284
+msgid ""
+"Greatly improve :ref:`data protection documentation <data-protection>` to"
+" provide a comprehensive overview of gocept.net data protection measures."
+" (#8370)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:290
+msgid "Release 2011-05-26"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:295
+msgid "Refine user access control to selectively grant rights to service users."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:296
+msgid ""
+"Refine/debug global administrative control to selectively revoke super-"
+"admin rights of gocept's administrators (see :ref:`access-control`) "
+"(#8365)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:301 ../../src/changes/2011/00old.rst:321
+msgid "Hardware"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:303
+msgid "New monitoring server to reduce monitoring latency."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:304
+msgid "Enhanced backup server performance."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:308
+msgid "Release 2011-05-18"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:313
+msgid ""
+"Improved functionality and performance of the gocept.directory (CMDB) "
+"server."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:314
+msgid "Fix bugs in Postfix/Mailman management code."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:318
+msgid "Release 2011-04-20"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:323
+msgid ""
+"Add new storage and application servers for improved performance and "
+"reliability."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:329
+msgid "Improve network routing to unnecessary roundtrips in some cases."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:330
+msgid "Add Python 2.7 to the list of system Python installations (#8906)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:335
+msgid "Rework emergency docs in :ref:`support`."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:336
+msgid ""
+"Add check list for service setups in :ref:`service-deployment-checklist` "
+"(#8765)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:340
+msgid "Release 2011-04-06"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:345
+msgid ""
+"Introduce separate roles for PostgreSQL 8.2, 8.4, 9.0. At most one of "
+"these roles may be active on a node at a time."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:347
+msgid ""
+"Improve monitoring for data links. We have seen failed auto-negotiation, "
+"which results in links running at 100 Mb/s and are now able to detect and"
+" fix these cases fast."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:350
+msgid ""
+"Add support for TIFF graphics files to various utilities like "
+":command:`convert` etc."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:356
+msgid "Describe support process."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:360
+msgid "Release 2011-02-22"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:363
+msgid "Package updates"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:365
+msgid ""
+"General snapshot update, upgrading most of the installed system packages."
+" New versions of highlighted packages are:"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:368
+msgid "python 2.6.6 and 3.1.2"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:369
+msgid "nginx 0.8.53 with IPv6 support"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:370
+msgid "haproxy 1.4.8"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:371
+msgid "postgresql 8.2.20 and 8.4.7"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:373
+msgid "and many more."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:379
+msgid ""
+"Restart network services automatically after updates of the package or "
+"it's libraries (#8304)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:381
+msgid "Allow different PostgreSQL versions (8.2, 8.4, or 9.0) (#7191)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:385
+msgid "Release 2011-01-28"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:390
+msgid ""
+"Fix permission bug which rendered :command:`crontab` unusable for some "
+"users (#8392)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:392
+msgid "Add ClamAV role to install the ClamAV virus scanner."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:398
+msgid "Add hint on how to use our mail server in mail.gocept.net."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:399
+msgid "Document screen-multiuser (#8366)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:403
+msgid "Release 2011-01-17"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:408
+msgid ""
+"Separate logging of system management changes (configuration, packages, "
+"users) to :file:`/var/log/sysconfig.log` from other syslog output "
+"(#8475)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:410
+msgid ""
+"Introduce *restricted mode* machines which get system management changes "
+"only on explicit request (#8368)."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:412
+msgid ""
+"Send Nagios alert mails with :mailheader:`Precendence: junk` to "
+"circumvent auto responders."
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:414
+msgid ""
+"Introduce option for multi-page vhost list in web statistics overview "
+"(#8416)"
+msgstr ""
+
+#: ../../src/changes/2011/00old.rst:419
+msgid "nginx-ssl describes how to set up chained SSL certificates correctly."
+msgstr ""
+

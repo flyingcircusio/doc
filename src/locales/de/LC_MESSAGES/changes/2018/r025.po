@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r025.rst:4
+msgid "Release 2018_025 (2018-08-08)"
+msgstr ""
+
+#: ../../src/changes/2018/r025.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r025.rst:9
+msgid ""
+"Configure statshost related firewall rules with IP addresses instead of "
+"host names (#104851)."
+msgstr ""
+
+#: ../../src/changes/2018/r025.rst:11
+msgid "Add role for Apache httpd (#104976)."
+msgstr ""
+
+#: ../../src/changes/2018/r025.rst:15
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r025.rst:17
+msgid "Improve portage integrity check to get rid of false positives (#104787)."
+msgstr ""
+

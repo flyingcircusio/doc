@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r055.rst:4
+msgid "Release 2015_055 (2015-12-17)"
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:9
+msgid "Use control groups on storage servers to prevent starvation (#18803)."
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:10
+msgid "Improve I/O scheduler settings for RAID filesystems (#18803)."
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:11
+msgid ""
+"Speed up Ceph OSD daemon startup by pre-reading files into the virtual "
+"file system cache (#18803)."
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:13
+msgid "Improve consistency of Ceph MON filesystem backups (#18803)."
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:17
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r055.rst:19
+msgid "Directory/Nagios synchronization check (#19421, #19425)."
+msgstr ""
+

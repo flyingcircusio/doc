@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r026.rst:4
+msgid "Release 2014_026 (2014-05-21)"
+msgstr ""
+
+#: ../../src/changes/2014/r026.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r026.rst:9
+msgid ""
+"Security update for `GLSA 201405-24 / apr apr-util "
+"<http://www.gentoo.org/security/en/glsa/glsa-201405-24.xml>`_ (#13424)."
+msgstr ""
+
+#: ../../src/changes/2014/r026.rst:11
+msgid ""
+"Security update for `GLSA 201405-09 / imagemagick "
+"<http://www.gentoo.org/security/en/glsa/glsa-201405-09.xml>`_ (#13425)."
+msgstr ""
+
+#: ../../src/changes/2014/r026.rst:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r026.rst:18
+msgid "Extend mailserver role to run with or without anti-virus (clamav)."
+msgstr ""
+

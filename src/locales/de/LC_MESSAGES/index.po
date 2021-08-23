@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/index.rst:10
+msgid "Flying Circus operator's manual"
+msgstr ""
+
+#: ../../src/index.rst:13
+msgid ""
+"This is the manual for the `Flying Circus <http://flyingcircus.io>`_. It "
+"explains how the platform works and how to run your applications."
+msgstr ""
+
+#: ../../src/index.rst:18
+msgid "General platform guide"
+msgstr ""
+
+#: ../../src/index.rst:32
+msgid "Edition-specific platform & roles documentation"
+msgstr ""
+
+#: ../../src/index.rst:49
+msgid "Support"
+msgstr ""
+
+#: ../../src/index.rst:51
+msgid "We are here to help. Here is how to get in touch with us:"
+msgstr ""
+
+#: ../../src/index.rst:53
+msgid "Email our ticket system at support@flyingcircus.io"
+msgstr ""
+
+#: ../../src/index.rst:54
+msgid "Check our `status page <http://status.flyingcircus.io/>`_"
+msgstr ""
+
+#: ../../src/index.rst:55
+msgid "Check updates in our :doc:`/changes/index`"
+msgstr ""
+
+#: ../../src/index.rst:56
+msgid ""
+"Check our twitter feed `@flyingcircus "
+"<http://twitter.com/flyingcircusio>`_"
+msgstr ""
+
+#: ../../src/index.rst:57
+msgid "Call us at `+49 345 219401-0 <tel:+49 345 2194010>`_"
+msgstr ""
+
+#: ../../src/index.rst:59
+msgid "Or refer to :ref:`detailed support information <support>`."
+msgstr ""
+

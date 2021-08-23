@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2013/r003.rst:4
+msgid "Release 2013-03-14"
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:9
+msgid "Add various XML extensions to the default PHP install."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:15
+msgid ""
+"Add safeguard against rare KVM host crashes due to failed processor MSR "
+"read/writes (#12195)."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:17
+msgid ""
+"Improve internal NTP server hierarchy to provide more stable system "
+"clocks on VMs (#10580, #11540)."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:19
+msgid ""
+"Disallow memory overcommit for increased safety. This may affect Redis "
+"instances with very large allocations."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:21
+msgid ""
+"Fix bug where Apache's PHP configuration tends to disappear spontaneously"
+" after package upgrades."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:23
+msgid "Drop discontinued NJABL blacklist for spam filtering."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:24
+msgid ""
+"Adjust RAID controller settings to reduce the chance of data losses after"
+" machine crashes."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:29
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:31
+msgid ""
+"Improve alerting error handling so that failures in sending out critical "
+"alerts are escalated right away (#12190)."
+msgstr ""
+
+#: ../../src/changes/2013/r003.rst:33
+#, python-format
+msgid ""
+"Add some flexibility for disk checks so that the 15% limit does not apply"
+" blindly on very large volumes (#12036)."
+msgstr ""
+

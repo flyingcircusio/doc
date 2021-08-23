@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r022.rst:4
+msgid "Release 2018_022 (2018-07-19)"
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:9
+msgid ""
+"[NixOS] PostgreSQL servers and all services containing a PostgreSQL "
+"client will be restarted."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:14
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:16
+msgid "Update PostgreSQL 9.6.8 -> 9.6.9 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:17
+msgid "Update PostgreSQL 9.5.12 -> 9.5.13 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:18
+msgid "Update PostgreSQL 9.4.17 -> 9.4.18 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:19
+msgid "Update PostgreSQL 9.3.22 -> 9.3.23 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:20
+msgid "Update PostgreSQL 9.2.15 -> 9.2.24 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:21
+msgid "Update PostgreSQL 9.1.20 -> 9.1.24 (#104680)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:22
+msgid "Backport pipenv 10.1.0 from NixOS 18.03 (#101794)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:23
+msgid "Security update for vim: 8.0.1451 (#101782)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:24
+msgid "Improve varnish restart in systemd unit (#103578)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:25
+msgid ""
+"Add `fix-so-path` utility to fix RPATHs in shared objects shipped in "
+"binary package formats like Python wheels (#103604)."
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:30
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r022.rst:32
+msgid "Fix startup bug on servers with many disk devices (#27654)."
+msgstr ""
+

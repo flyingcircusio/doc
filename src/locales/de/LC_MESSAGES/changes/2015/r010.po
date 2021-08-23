@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2015/r010.rst:4
+msgid "Release 2015_010 (2015-02-26)"
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:9
+msgid ""
+"Security update for `GLSA 201502-14 / grep "
+"<http://www.gentoo.org/security/en/glsa/glsa-201502-14.xml>`_ (#14738)."
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:11
+msgid "Add media-libs/exempi library to pspdf role (#14719)."
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:15
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:17
+msgid "Remove NFS box from physical hosts to avoid boot deadlock (#14639)."
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:18
+msgid ""
+"Add infrastructure to check if a maintenance job is applicable at the "
+"point of execution (#13755)."
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:20
+msgid ""
+"Improve Ceph init scripts to avoid a peering storm during storage server "
+"restarts."
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:25
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2015/r010.rst:27
+msgid ""
+"Remove 'sysstat iowait' checks since it does not necessarily signal a "
+"problem."
+msgstr ""
+

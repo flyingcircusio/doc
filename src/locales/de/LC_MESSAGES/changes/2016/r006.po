@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r006.rst:4
+msgid "Release 2016_006 (2016-02-22)"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:9
+msgid "No immediate impact regarding service availability."
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:11
+msgid ""
+"All changes are preparatory for future storage improvements and to "
+"increase visibility of outages in our monitoring."
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:15
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:17
+msgid "Update fc.agent to 1.8.2."
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:21
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:23
+msgid ""
+"Improve storage reaction to overload conditions by reducing buffers in "
+"the I/O processing pipeline (#19785)."
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:28
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:30
+msgid "Improve network device monitor to detect \"link down\" (#20100)"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:31
+msgid ""
+"Add a KVM health check to more pro-actively notify us if a KVM host show "
+"symptoms of defect (#20100)"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:33
+msgid ""
+"Add generic VM health check to more to more pro-actively notify us if a "
+"VM show symptoms of defect (#20100)"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:35
+msgid "Ignore NixOS VMs in Nagios consistency check (#19851)"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:39
+msgid "API"
+msgstr ""
+
+#: ../../src/changes/2016/r006.rst:41
+msgid "The virtualmachine type now contains when the last maintenance has ended."
+msgstr ""
+

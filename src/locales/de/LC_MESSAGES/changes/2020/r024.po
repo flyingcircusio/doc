@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r024.rst:4
+msgid "Release 2020_024 (2020-08-10)"
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:9
+msgid "[NixOS 19.03] MySQL and Tideways daemons will be restarted."
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:15
+msgid ""
+"MySQL root password can now be set by service users before MySQL starts "
+"by changing the password file. That is helpful for automated deployments "
+"(#126845)."
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:17
+msgid ""
+"Update tideways to 1.6.6 so it doesn't crash in test suite now and can be"
+" run as a separate user (instead of nobody) (#126611)."
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:19
+msgid ""
+"Ensure we build sufficient sensu packages centrally on our Hydra to avoid"
+" building them on every machine locally (#127681)."
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:21 ../../src/changes/2020/r024.rst:31
+msgid ""
+"Disable dynamic router_advertisements for IPv6. This caused some frontend"
+" traffic to be flooded to unrelated VMs. Even though this looks dramatic,"
+" the affected traffic was public internet traffic so security policies "
+"require encryption anyway and we've seen encrypted traffic only. It did "
+"cause superfluous traffic in the network, though (#127887)."
+msgstr ""
+
+#: ../../src/changes/2020/r024.rst:29
+msgid "NixOS 15.09 platform"
+msgstr ""
+

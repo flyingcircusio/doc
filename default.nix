@@ -14,10 +14,14 @@ in pkgs.stdenv.mkDerivation {
   buildInputs = [ buildEnv ] ++ (with pkgs; [ python3 git ]);
   doCheck = false;
   buildPhase = ''
-    cd $src
-    sphinx-build -j 10 -a -b html src $out
+    make html
+    make html-de
   '';
-  installPhase = ":";
+  installPhase = ''
+    mkdir $out
+    mv _build/en/html $out/en
+    mv _build/de/html $out/de
+  '';
   src = ./.;
   dontStrip = true;
   dontPatchELF = true;

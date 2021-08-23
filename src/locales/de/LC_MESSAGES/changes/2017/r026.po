@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r026.rst:4
+msgid "Release 2017_026 (2017-11-02)"
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:9
+msgid "[NixOS] nginx will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:13
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:15
+msgid ""
+"Always restart Telegraf after a crash. This will result in less noise in "
+"monitoring and alerting (#28776)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:17
+msgid "Always restart Kibana after a crash (#28795)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:18
+#, python-format
+msgid ""
+"Monitor %steal CPU value to ensure we do not miss completely overloaded "
+"hosts (#28296)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:20
+msgid "Basic role for RabbitMQ (#28707)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:21
+msgid ""
+"Ignore freshclam's exit status so that the systemd check doesn't alert "
+"(#28236)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:23
+msgid ""
+"The uptime check was never alerting. Fix it with hopefully reasonable "
+"settings for automated alerting and human awareness (#28837)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:25
+msgid "Update wkhtmltopdf to 0.12.4 (#28838)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:26
+msgid "Update nginx to 0.10.3 (#28890)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:27
+msgid "Allow users to run iotop via sudo."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:28
+msgid "haproxy: set startup retry interval to 5s (#28920)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:32
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:34
+msgid "Improve outside connectivity check (#28798)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:35
+msgid "Improve firewall rules (#28288)."
+msgstr ""
+
+#: ../../src/changes/2017/r026.rst:36
+msgid "Silence `runscript` warnings (#28401)."
+msgstr ""
+

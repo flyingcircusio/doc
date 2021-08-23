@@ -1,0 +1,7961 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r050-packageversions.rst:4
+msgid "Detailed list of package versions"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:6
+msgid ""
+"Here is a list of package versions that will be rolled out as part of the"
+" OS update. Please note that these are *minimum versions*. We constantly "
+"update individual packages as it becomes necessary (for example, because "
+"of security updates)."
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:13
+msgid "Updated packages"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:16
+#: ../../src/changes/2014/r050-packageversions.rst:429
+#: ../../src/changes/2014/r050-packageversions.rst:586
+msgid "Package name"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:16
+msgid "Old version(s)"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:16
+msgid "New version(s)"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:18
+msgid "app-admin/eselect"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:18
+#: ../../src/changes/2014/r050-packageversions.rst:183
+#: ../../src/changes/2014/r050-packageversions.rst:392
+#: ../../src/changes/2014/r050-packageversions.rst:753
+#: ../../src/changes/2014/r050-packageversions.rst:824
+msgid "1.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:18
+#: ../../src/changes/2014/r050-packageversions.rst:171
+#: ../../src/changes/2014/r050-packageversions.rst:188
+#: ../../src/changes/2014/r050-packageversions.rst:374
+msgid "1.4.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:19
+msgid "app-admin/eselect-ctags"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:19
+#: ../../src/changes/2014/r050-packageversions.rst:20
+#: ../../src/changes/2014/r050-packageversions.rst:862
+msgid "1.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:19
+#: ../../src/changes/2014/r050-packageversions.rst:20
+msgid "1.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:20
+msgid "app-admin/eselect-emacs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:21
+msgid "app-admin/eselect-opengl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:21
+msgid "1.2.6.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:21
+#: ../../src/changes/2014/r050-packageversions.rst:410
+msgid "1.2.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:22
+msgid "app-admin/eselect-pinentry"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:22
+#: ../../src/changes/2014/r050-packageversions.rst:695
+msgid "0.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:22
+#: ../../src/changes/2014/r050-packageversions.rst:47
+#: ../../src/changes/2014/r050-packageversions.rst:772
+msgid "0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:23
+msgid "app-admin/eselect-python"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:23
+msgid "20100321"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:23
+msgid "20111108"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:24
+#: ../../src/changes/2014/r050-packageversions.rst:597
+msgid "app-admin/goceptnet"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:24
+msgid "1.1.1, 1.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:24
+#: ../../src/changes/2014/r050-packageversions.rst:246
+#: ../../src/changes/2014/r050-packageversions.rst:597
+msgid "1.5.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:25
+msgid "app-admin/logrotate"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:25
+#: ../../src/changes/2014/r050-packageversions.rst:81
+msgid "3.8.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:25
+msgid "3.8.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:26
+msgid "app-admin/puppet"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:26
+msgid "3.2.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:26
+#: ../../src/changes/2014/r050-packageversions.rst:270
+msgid "3.4.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:27
+msgid "app-admin/python-updater"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:27
+#: ../../src/changes/2014/r050-packageversions.rst:53
+#: ../../src/changes/2014/r050-packageversions.rst:167
+msgid "0.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:27
+#: ../../src/changes/2014/r050-packageversions.rst:112
+#: ../../src/changes/2014/r050-packageversions.rst:814
+msgid "0.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:28
+msgid "app-admin/rsyslog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:28
+msgid "7.2.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:28
+msgid "7.4.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:29
+msgid "app-admin/sysstat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:29
+msgid "10.0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:29
+msgid "10.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:30
+msgid "app-admin/tmpwatch"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:30
+msgid "2.10.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:30
+#: ../../src/changes/2014/r050-packageversions.rst:277
+#: ../../src/changes/2014/r050-packageversions.rst:606
+msgid "2.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:31
+msgid "app-admin/webapp-config"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:31
+msgid "1.50.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:31
+msgid "1.52"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:32
+msgid "app-arch/sharutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:32
+msgid "4.11.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:32
+msgid "4.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:33
+msgid "app-arch/snappy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:33
+#: ../../src/changes/2014/r050-packageversions.rst:379
+#: ../../src/changes/2014/r050-packageversions.rst:411
+#: ../../src/changes/2014/r050-packageversions.rst:412
+#: ../../src/changes/2014/r050-packageversions.rst:414
+#: ../../src/changes/2014/r050-packageversions.rst:993
+msgid "1.0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:33
+#: ../../src/changes/2014/r050-packageversions.rst:181
+#: ../../src/changes/2014/r050-packageversions.rst:378
+#: ../../src/changes/2014/r050-packageversions.rst:381
+#: ../../src/changes/2014/r050-packageversions.rst:396
+#: ../../src/changes/2014/r050-packageversions.rst:405
+#: ../../src/changes/2014/r050-packageversions.rst:670
+#: ../../src/changes/2014/r050-packageversions.rst:981
+#: ../../src/changes/2014/r050-packageversions.rst:986
+msgid "1.1.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:34
+msgid "app-arch/unrar"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:34
+msgid "4.2.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:34
+msgid "5.0.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:35
+msgid "app-arch/xz-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:35
+msgid "5.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:35
+msgid "5.0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:36
+msgid "app-backup/bacula"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:36
+msgid "5.2.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:36
+msgid "5.2.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:37
+msgid "app-cdr/cdrtools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:37
+msgid "3.00"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:37
+msgid "3.01_alpha17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:38
+msgid "app-dicts/aspell-en"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:38
+#: ../../src/changes/2014/r050-packageversions.rst:145
+#: ../../src/changes/2014/r050-packageversions.rst:146
+msgid "6.0.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:38
+msgid "7.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:39
+msgid "app-editors/emacs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:39
+msgid "24.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:39
+msgid "24.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:40
+msgid "app-editors/nano"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:40
+#: ../../src/changes/2014/r050-packageversions.rst:125
+#: ../../src/changes/2014/r050-packageversions.rst:666
+#: ../../src/changes/2014/r050-packageversions.rst:983
+#: ../../src/changes/2014/r050-packageversions.rst:999
+msgid "2.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:40
+#: ../../src/changes/2014/r050-packageversions.rst:973
+msgid "2.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:41
+msgid "app-editors/vim"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:41
+#: ../../src/changes/2014/r050-packageversions.rst:42
+msgid "7.3.409"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:41
+#: ../../src/changes/2014/r050-packageversions.rst:42
+msgid "7.3.762"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:42
+msgid "app-editors/vim-core"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:43
+msgid "app-emacs/emacs-common-gentoo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:43
+#: ../../src/changes/2014/r050-packageversions.rst:475
+#: ../../src/changes/2014/r050-packageversions.rst:635
+msgid "1.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:43
+#: ../../src/changes/2014/r050-packageversions.rst:58
+#: ../../src/changes/2014/r050-packageversions.rst:605
+#: ../../src/changes/2014/r050-packageversions.rst:633
+#: ../../src/changes/2014/r050-packageversions.rst:669
+#: ../../src/changes/2014/r050-packageversions.rst:886
+msgid "1.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:44
+msgid "app-misc/ca-certificates"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:44
+msgid "20111025"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:44
+msgid "20130906"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:45
+msgid "app-misc/colordiff"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:45
+msgid "1.0.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:45
+msgid "1.0.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:46
+msgid "app-misc/mime-types"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:46
+msgid "8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:46
+#: ../../src/changes/2014/r050-packageversions.rst:306
+msgid "9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:47
+msgid "app-misc/pax-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:47
+#: ../../src/changes/2014/r050-packageversions.rst:545
+#: ../../src/changes/2014/r050-packageversions.rst:776
+msgid "0.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:48
+msgid "app-misc/tmux"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:48
+#: ../../src/changes/2014/r050-packageversions.rst:56
+#: ../../src/changes/2014/r050-packageversions.rst:85
+#: ../../src/changes/2014/r050-packageversions.rst:207
+#: ../../src/changes/2014/r050-packageversions.rst:487
+#: ../../src/changes/2014/r050-packageversions.rst:882
+msgid "1.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:48
+#: ../../src/changes/2014/r050-packageversions.rst:318
+#: ../../src/changes/2014/r050-packageversions.rst:417
+msgid "1.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:49
+msgid "app-office/abiword"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:49
+#: ../../src/changes/2014/r050-packageversions.rst:685
+msgid "2.8.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:49
+msgid "3.0.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:50
+msgid "app-office/libreoffice-l10n"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:50
+msgid "3.6.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:50
+msgid "4.2.5.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:51
+msgid "app-portage/eix"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:51
+msgid "0.25.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:51
+msgid "0.29.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:52
+msgid "app-portage/gentoolkit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:52
+msgid "0.3.0.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:52
+msgid "0.3.0.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:53
+msgid "app-portage/portage-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:53
+msgid "0.53"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:54
+#: ../../src/changes/2014/r050-packageversions.rst:634
+msgid "app-shells/bash"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:54
+msgid "4.2_p37, 4.2_p48"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:54
+#: ../../src/changes/2014/r050-packageversions.rst:634
+msgid "4.2_p52"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:55
+msgid "app-shells/gentoo-bashcomp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:55
+msgid "20101217"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:55
+msgid "20121024"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:56
+msgid "app-shells/push"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:56
+#: ../../src/changes/2014/r050-packageversions.rst:608
+#: ../../src/changes/2014/r050-packageversions.rst:888
+msgid "1.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:57
+msgid "app-shells/zsh"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:57
+msgid "4.3.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:57
+msgid "5.0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:58
+msgid "app-text/build-docbook-catalog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:58
+msgid "1.19.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:59
+#: ../../src/changes/2014/r050-packageversions.rst:640
+#: ../../src/changes/2014/r050-packageversions.rst:641
+msgid "app-text/docbook-xml-dtd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:59
+msgid "4.2, 4.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:59
+msgid "4.1.2, 4.2, 4.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:60
+msgid "app-text/docbook-xsl-stylesheets"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:60
+msgid "1.77.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:60
+msgid "1.78.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:61
+msgid "app-text/dvipsk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:61
+msgid "5.991_p20110705"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:61
+msgid "5.992_p20120701"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:62
+msgid "app-text/ghostscript-gpl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:62
+msgid "9.05"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:62
+msgid "9.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:63
+msgid "app-text/libexttextcat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:63
+#: ../../src/changes/2014/r050-packageversions.rst:111
+#: ../../src/changes/2014/r050-packageversions.rst:823
+#: ../../src/changes/2014/r050-packageversions.rst:825
+#: ../../src/changes/2014/r050-packageversions.rst:971
+msgid "3.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:63
+#: ../../src/changes/2014/r050-packageversions.rst:420
+#: ../../src/changes/2014/r050-packageversions.rst:477
+msgid "3.4.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:64
+msgid "app-text/libwpd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:64
+#: ../../src/changes/2014/r050-packageversions.rst:189
+msgid "0.9.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:64
+msgid "0.9.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:65
+msgid "app-text/libwpg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:65
+msgid "0.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:65
+#: ../../src/changes/2014/r050-packageversions.rst:512
+#: ../../src/changes/2014/r050-packageversions.rst:848
+msgid "0.2.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:66
+msgid "app-text/libwps"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:66
+#: ../../src/changes/2014/r050-packageversions.rst:451
+msgid "0.2.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:66
+msgid "0.2.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:67
+msgid "app-text/poppler-data"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:67
+msgid "0.4.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:67
+msgid "0.4.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:68
+msgid "app-text/ps2pkm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:68
+msgid "1.5_p20110705"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:68
+msgid "1.5_p20120701"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:69
+msgid "app-text/qpdf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:69
+#: ../../src/changes/2014/r050-packageversions.rst:376
+msgid "3.0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:69
+msgid "4.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:70
+msgid "app-text/tesseract"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:70
+msgid "2.04"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:70
+msgid "3.02"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:71
+msgid "app-text/texlive-core"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:71
+#: ../../src/changes/2014/r050-packageversions.rst:193
+#: ../../src/changes/2014/r050-packageversions.rst:194
+#: ../../src/changes/2014/r050-packageversions.rst:195
+msgid "2011"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:71
+#: ../../src/changes/2014/r050-packageversions.rst:193
+#: ../../src/changes/2014/r050-packageversions.rst:194
+#: ../../src/changes/2014/r050-packageversions.rst:195
+msgid "2012"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:72
+msgid "app-text/xmlto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:72
+msgid "0.0.24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:72
+msgid "0.0.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:73
+msgid "app-vim/gentoo-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:73
+msgid "20120109"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:73
+msgid "20130619"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:74
+msgid "app-vim/gtk-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:74
+msgid "20110214"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:74
+msgid "20130716"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:75
+#: ../../src/changes/2014/r050-packageversions.rst:658
+msgid "dev-cpp/libcmis"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:75
+#: ../../src/changes/2014/r050-packageversions.rst:658
+msgid "0.2.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:75
+#: ../../src/changes/2014/r050-packageversions.rst:688
+msgid "0.4.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:76
+msgid "dev-db/couchdb"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:76
+#: ../../src/changes/2014/r050-packageversions.rst:171
+#: ../../src/changes/2014/r050-packageversions.rst:213
+#: ../../src/changes/2014/r050-packageversions.rst:385
+#: ../../src/changes/2014/r050-packageversions.rst:402
+#: ../../src/changes/2014/r050-packageversions.rst:594
+#: ../../src/changes/2014/r050-packageversions.rst:757
+#: ../../src/changes/2014/r050-packageversions.rst:758
+#: ../../src/changes/2014/r050-packageversions.rst:988
+#: ../../src/changes/2014/r050-packageversions.rst:1000
+msgid "1.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:76
+#: ../../src/changes/2014/r050-packageversions.rst:386
+#: ../../src/changes/2014/r050-packageversions.rst:681
+msgid "1.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:77
+#: ../../src/changes/2014/r050-packageversions.rst:660
+msgid "dev-db/mysql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:77
+#: ../../src/changes/2014/r050-packageversions.rst:660
+msgid "5.1.70"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:77
+msgid "5.5.39"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:78
+#: ../../src/changes/2014/r050-packageversions.rst:662
+#: ../../src/changes/2014/r050-packageversions.rst:663
+msgid "dev-db/postgresql-base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:78
+#: ../../src/changes/2014/r050-packageversions.rst:79
+msgid "8.4.20, 9.0.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:78
+#: ../../src/changes/2014/r050-packageversions.rst:79
+msgid "8.4.20, 9.0.16, 9.3.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:79
+#: ../../src/changes/2014/r050-packageversions.rst:664
+#: ../../src/changes/2014/r050-packageversions.rst:665
+msgid "dev-db/postgresql-server"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:80
+msgid "dev-db/redis"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:80
+#: ../../src/changes/2014/r050-packageversions.rst:768
+msgid "2.4.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:80
+msgid "2.6.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:81
+msgid "dev-db/sqlite"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:81
+msgid "3.7.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:82
+msgid "dev-java/ant-core"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:82
+#: ../../src/changes/2014/r050-packageversions.rst:84
+msgid "1.8.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:82
+#: ../../src/changes/2014/r050-packageversions.rst:84
+msgid "1.9.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:83
+#: ../../src/changes/2014/r050-packageversions.rst:667
+msgid "dev-java/ant-eclipse-ecj"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:83
+#: ../../src/changes/2014/r050-packageversions.rst:86
+msgid "3.3.0, 3.7.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:83
+#: ../../src/changes/2014/r050-packageversions.rst:86
+msgid "3.3.0, 3.7.2, 4.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:84
+msgid "dev-java/ant-trax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:85
+msgid "dev-java/commons-pool"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:85
+msgid "1.5.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:86
+#: ../../src/changes/2014/r050-packageversions.rst:671
+msgid "dev-java/eclipse-ecj"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:87
+#: ../../src/changes/2014/r050-packageversions.rst:673
+msgid "dev-java/icedtea-bin"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:87
+msgid "6.1.13.3, 7.2.3.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:87
+msgid "6.1.13.3, 7.2.4.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:88
+msgid "dev-java/java-config"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:88
+#: ../../src/changes/2014/r050-packageversions.rst:236
+msgid "2.1.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:88
+#: ../../src/changes/2014/r050-packageversions.rst:205
+msgid "2.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:89
+msgid "dev-java/jdbc-postgresql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:89
+msgid "8.4_p701"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:89
+msgid "9.2_p1003"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:90
+msgid "dev-java/tomcat-servlet-api"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:90
+#: ../../src/changes/2014/r050-packageversions.rst:375
+msgid "6.0.35"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:90
+#: ../../src/changes/2014/r050-packageversions.rst:375
+msgid "6.0.37"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:91
+msgid "dev-lang/erlang"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:91
+msgid "15.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:91
+msgid "15.2.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:92
+msgid "dev-lang/nasm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:92
+msgid "2.10.05"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:92
+msgid "2.10.07"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:93
+msgid "dev-lang/perl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:93
+msgid "5.12.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:93
+msgid "5.18.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:94
+msgid "dev-lang/php"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:94
+msgid "5.4.32"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:94
+msgid "5.5.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:95
+#: ../../src/changes/2014/r050-packageversions.rst:677
+#: ../../src/changes/2014/r050-packageversions.rst:678
+msgid "dev-lang/python"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:95
+msgid "2.5, 2.6, 2.7, 3.1, 3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:95
+msgid "2.6, 2.7, 3.2, 3.3, 3.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:96
+msgid "dev-lang/ruby"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:96
+msgid "1.8.7_p370, 1.9.3_p194"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:96
+msgid "1.9.3_p484, 2.0.0_p353"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:97
+msgid "dev-lang/swig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:97
+#: ../../src/changes/2014/r050-packageversions.rst:224
+msgid "2.0.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:97
+#: ../../src/changes/2014/r050-packageversions.rst:224
+msgid "2.0.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:98
+msgid "dev-libs/Ice"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:98
+msgid "3.4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:98
+msgid "3.5.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:99
+msgid "dev-libs/apr-util"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:99
+msgid "1.3.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:99
+#: ../../src/changes/2014/r050-packageversions.rst:551
+msgid "1.5.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:100
+msgid "dev-libs/atk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:100
+#: ../../src/changes/2014/r050-packageversions.rst:483
+msgid "2.4.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:100
+msgid "2.10.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:101
+msgid "dev-libs/boost"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:101
+#: ../../src/changes/2014/r050-packageversions.rst:196
+msgid "1.49.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:101
+#: ../../src/changes/2014/r050-packageversions.rst:196
+msgid "1.52.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:102
+msgid "dev-libs/dbus-glib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:102
+msgid "0.100"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:102
+msgid "0.100.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:103
+msgid "dev-libs/elfutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:103
+msgid "0.149"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:103
+msgid "0.158"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:104
+msgid "dev-libs/fribidi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:104
+msgid "0.19.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:104
+msgid "0.19.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:105
+msgid "dev-libs/geoip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:105
+#: ../../src/changes/2014/r050-packageversions.rst:231
+#: ../../src/changes/2014/r050-packageversions.rst:982
+msgid "1.4.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:105
+#: ../../src/changes/2014/r050-packageversions.rst:649
+#: ../../src/changes/2014/r050-packageversions.rst:936
+msgid "1.6.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:106
+msgid "dev-libs/glib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:106
+#: ../../src/changes/2014/r050-packageversions.rst:200
+msgid "2.32.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:106
+#: ../../src/changes/2014/r050-packageversions.rst:200
+msgid "2.38.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:107
+msgid "dev-libs/gmp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:107
+msgid "5.0.2_p1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:107
+msgid "5.1.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:108
+msgid "dev-libs/gobject-introspection"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:108
+#: ../../src/changes/2014/r050-packageversions.rst:109
+msgid "1.32.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:108
+#: ../../src/changes/2014/r050-packageversions.rst:109
+msgid "1.38.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:109
+msgid "dev-libs/gobject-introspection-common"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:110
+msgid "dev-libs/icu"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:110
+msgid "49.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:110
+msgid "52.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:111
+msgid "dev-libs/jemalloc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:111
+msgid "2.2.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:112
+msgid "dev-libs/json-c"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:112
+msgid "0.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:113
+msgid "dev-libs/kpathsea"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:113
+msgid "6.0.1_p20110705"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:113
+msgid "6.1.0_p20120701"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:114
+msgid "dev-libs/libassuan"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:114
+#: ../../src/changes/2014/r050-packageversions.rst:191
+#: ../../src/changes/2014/r050-packageversions.rst:500
+#: ../../src/changes/2014/r050-packageversions.rst:706
+msgid "2.0.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:114
+#: ../../src/changes/2014/r050-packageversions.rst:209
+#: ../../src/changes/2014/r050-packageversions.rst:764
+#: ../../src/changes/2014/r050-packageversions.rst:857
+#: ../../src/changes/2014/r050-packageversions.rst:998
+msgid "2.1.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:115
+msgid "dev-libs/libatomic_ops"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:115
+#: ../../src/changes/2014/r050-packageversions.rst:413
+#: ../../src/changes/2014/r050-packageversions.rst:860
+msgid "1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:115
+msgid "7.2d"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:116
+msgid "dev-libs/libcroco"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:116
+msgid "0.6.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:116
+msgid "0.6.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:117
+msgid "dev-libs/libedit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:117
+msgid "20110709.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:117
+msgid "20130712.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:118
+msgid "dev-libs/libestr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:118
+msgid "0.1.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:118
+msgid "0.1.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:119
+msgid "dev-libs/libevent"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:119
+msgid "2.0.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:119
+msgid "2.0.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:120
+msgid "dev-libs/libffi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:120
+#: ../../src/changes/2014/r050-packageversions.rst:332
+msgid "3.0.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:120
+#: ../../src/changes/2014/r050-packageversions.rst:332
+msgid "3.0.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:121
+msgid "dev-libs/libksba"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:121
+#: ../../src/changes/2014/r050-packageversions.rst:124
+#: ../../src/changes/2014/r050-packageversions.rst:213
+#: ../../src/changes/2014/r050-packageversions.rst:469
+#: ../../src/changes/2014/r050-packageversions.rst:680
+#: ../../src/changes/2014/r050-packageversions.rst:870
+#: ../../src/changes/2014/r050-packageversions.rst:960
+#: ../../src/changes/2014/r050-packageversions.rst:997
+msgid "1.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:121
+#: ../../src/changes/2014/r050-packageversions.rst:222
+#: ../../src/changes/2014/r050-packageversions.rst:482
+#: ../../src/changes/2014/r050-packageversions.rst:494
+#: ../../src/changes/2014/r050-packageversions.rst:803
+#: ../../src/changes/2014/r050-packageversions.rst:846
+msgid "1.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:122
+msgid "dev-libs/liblognorm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:122
+#: ../../src/changes/2014/r050-packageversions.rst:215
+msgid "0.3.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:122
+#: ../../src/changes/2014/r050-packageversions.rst:215
+msgid "0.3.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:123
+msgid "dev-libs/libnl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:123
+#: ../../src/changes/2014/r050-packageversions.rst:240
+#: ../../src/changes/2014/r050-packageversions.rst:575
+#: ../../src/changes/2014/r050-packageversions.rst:591
+#: ../../src/changes/2014/r050-packageversions.rst:789
+msgid "1.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:123
+#: ../../src/changes/2014/r050-packageversions.rst:227
+#: ../../src/changes/2014/r050-packageversions.rst:391
+#: ../../src/changes/2014/r050-packageversions.rst:401
+msgid "1.1.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:124
+msgid "dev-libs/librelp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:124
+#: ../../src/changes/2014/r050-packageversions.rst:128
+#: ../../src/changes/2014/r050-packageversions.rst:169
+#: ../../src/changes/2014/r050-packageversions.rst:397
+#: ../../src/changes/2014/r050-packageversions.rst:844
+msgid "1.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:125
+msgid "dev-libs/libsigc++"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:125
+msgid "2.2.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:126
+msgid "dev-libs/libxml2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:126
+#: ../../src/changes/2014/r050-packageversions.rst:216
+#: ../../src/changes/2014/r050-packageversions.rst:730
+msgid "2.8.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:126
+#: ../../src/changes/2014/r050-packageversions.rst:316
+#: ../../src/changes/2014/r050-packageversions.rst:322
+msgid "2.9.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:127
+msgid "dev-libs/libxslt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:127
+msgid "1.1.27"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:127
+msgid "1.1.28"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:128
+msgid "dev-libs/mpc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:128
+#: ../../src/changes/2014/r050-packageversions.rst:625
+msgid "0.8.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:129
+msgid "dev-libs/mpfr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:129
+msgid "3.0.1_p4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:129
+#: ../../src/changes/2014/r050-packageversions.rst:610
+msgid "3.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:130
+msgid "dev-libs/openssl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:130
+msgid "1.0.0m"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:130
+msgid "1.0.1h"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:131
+msgid "dev-libs/protobuf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:131
+msgid "2.4.0a"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:131
+#: ../../src/changes/2014/r050-packageversions.rst:607
+#: ../../src/changes/2014/r050-packageversions.rst:829
+msgid "2.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:132
+msgid "dev-libs/rasqal"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:132
+msgid "0.9.28"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:132
+msgid "0.9.29"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:133
+msgid "dev-libs/redland"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:133
+msgid "1.0.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:133
+msgid "1.0.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:134
+msgid "dev-perl/Authen-SASL"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:134
+msgid "2.150.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:134
+#: ../../src/changes/2014/r050-packageversions.rst:136
+msgid "2.160.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:135
+msgid "dev-perl/BerkeleyDB"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:135
+msgid "0.510.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:135
+#: ../../src/changes/2014/r050-packageversions.rst:750
+msgid "0.530.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:136
+msgid "dev-perl/Config-Tiny"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:136
+msgid "2.140.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:137
+msgid "dev-perl/Convert-BinHex"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:137
+msgid "1.119.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:137
+msgid "1.123.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:138
+msgid "dev-perl/Crypt-DES"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:138
+msgid "2.50.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:138
+msgid "2.70.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:139
+msgid "dev-perl/DBD-Pg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:139
+msgid "2.19.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:139
+msgid "2.19.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:140
+msgid "dev-perl/DBD-mysql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:140
+msgid "4.01.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:140
+msgid "4.20.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:141
+msgid "dev-perl/DBI"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:141
+msgid "1.618.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:141
+msgid "1.623.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:142
+msgid "dev-perl/Error"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:142
+msgid "0.170.160"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:142
+msgid "0.170.210"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:143
+msgid "dev-perl/Geo-IP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:143
+#: ../../src/changes/2014/r050-packageversions.rst:712
+msgid "1.400.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:143
+msgid "1.420.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:144
+msgid "dev-perl/HTML-Parser"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:144
+msgid "3.690.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:144
+msgid "3.710.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:145
+msgid "dev-perl/HTTP-Cookies"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:145
+#: ../../src/changes/2014/r050-packageversions.rst:146
+#: ../../src/changes/2014/r050-packageversions.rst:739
+msgid "6.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:146
+msgid "dev-perl/HTTP-Negotiate"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:147
+msgid "dev-perl/IO-Socket-INET6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:147
+msgid "2.690.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:147
+msgid "2.710.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:148
+msgid "dev-perl/IO-Socket-SSL"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:148
+msgid "1.440.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:148
+msgid "1.953.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:149
+msgid "dev-perl/LWP-Protocol-https"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:149
+#: ../../src/changes/2014/r050-packageversions.rst:160
+#: ../../src/changes/2014/r050-packageversions.rst:724
+#: ../../src/changes/2014/r050-packageversions.rst:729
+msgid "6.20.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:149
+#: ../../src/changes/2014/r050-packageversions.rst:153
+#: ../../src/changes/2014/r050-packageversions.rst:163
+#: ../../src/changes/2014/r050-packageversions.rst:725
+msgid "6.30.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:150
+msgid "dev-perl/MIME-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:150
+msgid "5.503.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:150
+msgid "5.504.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:151
+msgid "dev-perl/Mail-DKIM"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:151
+msgid "0.390.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:151
+msgid "0.400.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:152
+msgid "dev-perl/MailTools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:152
+msgid "2.90.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:152
+msgid "2.120.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:153
+msgid "dev-perl/Net-HTTP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:153
+msgid "6.60.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:154
+msgid "dev-perl/Net-IP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:154
+msgid "1.250.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:154
+msgid "1.260.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:155
+msgid "dev-perl/Net-SSLeay"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:155
+msgid "1.480.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:155
+msgid "1.550"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:156
+msgid "dev-perl/NetAddr-IP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:156
+msgid "4.59.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:156
+msgid "4.66.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:157
+msgid "dev-perl/Params-Validate"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:157
+#: ../../src/changes/2014/r050-packageversions.rst:168
+#: ../../src/changes/2014/r050-packageversions.rst:222
+#: ../../src/changes/2014/r050-packageversions.rst:505
+msgid "1.0.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:157
+#: ../../src/changes/2014/r050-packageversions.rst:731
+msgid "1.70.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:158
+msgid "dev-perl/Socket6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:158
+msgid "0.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:158
+msgid "0.230.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:159
+msgid "dev-perl/TimeDate"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:159
+#: ../../src/changes/2014/r050-packageversions.rst:267
+#: ../../src/changes/2014/r050-packageversions.rst:362
+msgid "1.200.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:159
+msgid "2.300.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:160
+msgid "dev-perl/WWW-RobotRules"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:160
+#: ../../src/changes/2014/r050-packageversions.rst:723
+msgid "6.10.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:161
+msgid "dev-perl/XML-LibXML"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:161
+#: ../../src/changes/2014/r050-packageversions.rst:336
+#: ../../src/changes/2014/r050-packageversions.rst:515
+msgid "1.900.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:161
+msgid "2.1.400"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:162
+msgid "dev-perl/XML-Simple"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:162
+msgid "2.180.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:162
+msgid "2.200.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:163
+msgid "dev-perl/libwww-perl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:163
+msgid "6.50.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:164
+msgid "dev-perl/net-server"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:164
+msgid "2.6.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:164
+msgid "2.7.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:165
+msgid "dev-perl/perl-ldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:165
+msgid "0.440.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:165
+msgid "0.570.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:166
+msgid "dev-python/cython"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:166
+#: ../../src/changes/2014/r050-packageversions.rst:674
+msgid "0.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:166
+msgid "0.20.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:167
+msgid "dev-python/docutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:167
+#: ../../src/changes/2014/r050-packageversions.rst:493
+#: ../../src/changes/2014/r050-packageversions.rst:777
+msgid "0.8.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:168
+msgid "dev-python/ipython"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:168
+msgid "0.10.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:169
+msgid "dev-python/mock"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:169
+#: ../../src/changes/2014/r050-packageversions.rst:249
+#: ../../src/changes/2014/r050-packageversions.rst:339
+#: ../../src/changes/2014/r050-packageversions.rst:774
+msgid "0.8.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:170
+msgid "dev-python/numpy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:170
+#: ../../src/changes/2014/r050-packageversions.rst:394
+msgid "1.6.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:170
+#: ../../src/changes/2014/r050-packageversions.rst:185
+msgid "1.8.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:171
+msgid "dev-python/pip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:172
+msgid "dev-python/pyasn1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:172
+#: ../../src/changes/2014/r050-packageversions.rst:760
+msgid "0.1.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:172
+msgid "0.1.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:173
+#: ../../src/changes/2014/r050-packageversions.rst:766
+msgid "dev-python/pygobject"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:173
+msgid "2.28.6, 3.2.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:173
+msgid "2.28.6, 3.10.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:174
+msgid "dev-python/pytz"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:174
+msgid "2012c"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:174
+#: ../../src/changes/2014/r050-packageversions.rst:326
+msgid "2013d"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:175
+msgid "dev-python/pyxattr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:175
+#: ../../src/changes/2014/r050-packageversions.rst:457
+#: ../../src/changes/2014/r050-packageversions.rst:552
+msgid "0.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:175
+msgid "0.5.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:176
+msgid "dev-python/setuptools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:176
+msgid "0.6.30"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:176
+#: ../../src/changes/2014/r050-packageversions.rst:272
+#: ../../src/changes/2014/r050-packageversions.rst:416
+msgid "2.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:177
+msgid "dev-python/simplejson"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:177
+msgid "2.6.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:177
+#: ../../src/changes/2014/r050-packageversions.rst:285
+#: ../../src/changes/2014/r050-packageversions.rst:667
+#: ../../src/changes/2014/r050-packageversions.rst:671
+msgid "3.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:178
+msgid "dev-python/virtualenv"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:178
+msgid "1.7.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:178
+#: ../../src/changes/2014/r050-packageversions.rst:624
+msgid "1.11.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:179
+#: ../../src/changes/2014/r050-packageversions.rst:771
+msgid "dev-ruby/builder"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:179
+#: ../../src/changes/2014/r050-packageversions.rst:771
+#: ../../src/changes/2014/r050-packageversions.rst:991
+msgid "2.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:179
+#: ../../src/changes/2014/r050-packageversions.rst:784
+msgid "3.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:180
+msgid "dev-ruby/bundler"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:180
+msgid "1.0.22"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:180
+msgid "1.3.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:181
+msgid "dev-ruby/daemon_controller"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:181
+msgid "0.2.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:182
+msgid "dev-ruby/echoe"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:182
+msgid "4.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:182
+msgid "4.6.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:183
+msgid "dev-ruby/hiera"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:183
+#: ../../src/changes/2014/r050-packageversions.rst:392
+#: ../../src/changes/2014/r050-packageversions.rst:643
+msgid "1.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:184
+msgid "dev-ruby/highline"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:184
+msgid "1.6.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:184
+msgid "1.6.19"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:185
+msgid "dev-ruby/json"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:185
+msgid "1.6.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:186
+msgid "dev-ruby/pg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:186
+msgid "0.14.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:186
+msgid "0.14.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:187
+msgid "dev-ruby/racc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:187
+msgid "1.4.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:187
+msgid "1.4.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:188
+msgid "dev-ruby/rack"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:188
+msgid "1.4.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:189
+msgid "dev-ruby/rake"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:189
+msgid "0.9.2.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:190
+msgid "dev-ruby/rdoc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:190
+msgid "3.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:190
+#: ../../src/changes/2014/r050-packageversions.rst:280
+msgid "4.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:191
+msgid "dev-ruby/rubygems"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:191
+msgid "1.8.24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:192
+msgid "dev-tex/bibtexu"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:192
+msgid "3.71_p20110705"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:192
+msgid "3.71_p20120701"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:193
+msgid "dev-texlive/texlive-basic"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:194
+msgid "dev-texlive/texlive-documentation-base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:195
+msgid "dev-texlive/texlive-latex"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:196
+msgid "dev-util/boost-build"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:197
+msgid "dev-util/ccache"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:197
+msgid "3.1.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:197
+msgid "3.1.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:198
+msgid "dev-util/cmake"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:198
+msgid "2.8.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:198
+msgid "2.8.12.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:199
+msgid "dev-util/cppunit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:199
+msgid "1.13.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:199
+msgid "1.13.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:200
+msgid "dev-util/gdbus-codegen"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:201
+msgid "dev-util/gtk-doc-am"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:201
+msgid "1.18"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:201
+msgid "1.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:202
+msgid "dev-util/mdds"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:202
+msgid "0.6.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:202
+msgid "0.10.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:203
+msgid "dev-util/pkgconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:203
+msgid "0.27.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:203
+msgid "0.28"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:204
+msgid "dev-util/ragel"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:204
+msgid "6.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:204
+msgid "6.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:205
+msgid "dev-util/scons"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:205
+msgid "2.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:206
+msgid "dev-util/strace"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:206
+msgid "4.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:206
+msgid "4.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:207
+msgid "dev-util/systemtap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:207
+#: ../../src/changes/2014/r050-packageversions.rst:763
+msgid "2.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:208
+msgid "dev-vcs/git"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:208
+msgid "1.7.8.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:208
+msgid "1.8.5.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:209
+msgid "dev-vcs/mercurial"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:209
+msgid "2.8.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:210
+msgid "dev-vcs/subversion"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:210
+msgid "1.7.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:210
+#: ../../src/changes/2014/r050-packageversions.rst:754
+msgid "1.7.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:211
+msgid "gnome-base/librsvg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:211
+msgid "2.36.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:211
+msgid "2.40.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:212
+msgid "gnome-extra/libgsf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:212
+msgid "1.14.23"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:212
+msgid "1.14.30"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:213
+msgid "media-gfx/graphite2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:214
+msgid "media-libs/alsa-lib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:214
+msgid "1.0.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:214
+msgid "1.0.27.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:215
+msgid "media-libs/audiofile"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:216
+msgid "media-libs/fontconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:216
+msgid "2.10.92"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:217
+msgid "media-libs/freetype"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:217
+#: ../../src/changes/2014/r050-packageversions.rst:808
+msgid "2.4.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:217
+msgid "2.5.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:218
+#: ../../src/changes/2014/r050-packageversions.rst:815
+#: ../../src/changes/2014/r050-packageversions.rst:816
+msgid "media-libs/jpeg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:218
+msgid "6b, 8d"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:219
+msgid "media-libs/lcms"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:219
+#: ../../src/changes/2014/r050-packageversions.rst:416
+msgid "2.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:219
+#: ../../src/changes/2014/r050-packageversions.rst:295
+#: ../../src/changes/2014/r050-packageversions.rst:979
+msgid "2.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:220
+msgid "media-libs/libcdr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:220
+msgid "0.0.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:220
+msgid "0.0.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:221
+msgid "media-libs/libvisio"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:221
+msgid "0.0.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:221
+msgid "0.0.30"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:222
+msgid "media-libs/libvpx"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:223
+msgid "media-libs/mesa"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:223
+msgid "9.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:223
+msgid "10.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:224
+msgid "media-libs/raptor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:225
+msgid "media-libs/tiff"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:225
+#: ../../src/changes/2014/r050-packageversions.rst:280
+msgid "4.0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:225
+#: ../../src/changes/2014/r050-packageversions.rst:632
+msgid "4.0.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:226
+msgid "media-sound/murmur"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:226
+#: ../../src/changes/2014/r050-packageversions.rst:234
+#: ../../src/changes/2014/r050-packageversions.rst:492
+#: ../../src/changes/2014/r050-packageversions.rst:645
+msgid "1.2.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:226
+msgid "1.2.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:227
+msgid "net-analyzer/iptraf-ng"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:227
+msgid "1.1.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:228
+msgid "net-analyzer/mtr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:228
+msgid "0.82"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:228
+msgid "0.85"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:229
+msgid "net-analyzer/nmap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:229
+msgid "5.51"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:229
+msgid "6.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:230
+msgid "net-analyzer/pnp4nagios"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:230
+msgid "0.6.19"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:230
+msgid "0.6.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:231
+msgid "net-analyzer/rrdtool"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:231
+#: ../../src/changes/2014/r050-packageversions.rst:374
+msgid "1.4.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:232
+msgid "net-dns/bind-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:232
+msgid "9.9.3_p2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:232
+msgid "9.9.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:233
+msgid "net-firewall/iptables"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:233
+msgid "1.4.16.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:233
+msgid "1.4.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:234
+msgid "net-fs/nfs-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:234
+#: ../../src/changes/2014/r050-packageversions.rst:650
+msgid "1.2.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:235
+msgid "net-ftp/lftp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:235
+msgid "4.4.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:235
+msgid "4.4.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:236
+msgid "net-im/ejabberd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:236
+msgid "2.1.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:237
+msgid "net-libs/neon"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:237
+msgid "0.29.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:237
+msgid "0.30.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:238
+msgid "net-libs/nodejs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:238
+msgid "0.10.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:238
+msgid "0.10.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:239
+msgid "net-mail/dovecot"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:239
+msgid "2.1.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:239
+msgid "2.2.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:240
+msgid "net-mail/mailbase"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:240
+#: ../../src/changes/2014/r050-packageversions.rst:333
+#: ../../src/changes/2014/r050-packageversions.rst:334
+#: ../../src/changes/2014/r050-packageversions.rst:366
+#: ../../src/changes/2014/r050-packageversions.rst:367
+#: ../../src/changes/2014/r050-packageversions.rst:559
+#: ../../src/changes/2014/r050-packageversions.rst:797
+#: ../../src/changes/2014/r050-packageversions.rst:965
+#: ../../src/changes/2014/r050-packageversions.rst:968
+msgid "1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:241
+msgid "net-misc/aria2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:241
+msgid "1.9.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:241
+msgid "1.15.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:242
+#: ../../src/changes/2014/r050-packageversions.rst:853
+msgid "net-misc/dhcpcd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:242
+msgid "5.6.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:242
+#: ../../src/changes/2014/r050-packageversions.rst:853
+msgid "6.4.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:243
+msgid "net-misc/iputils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:243
+msgid "20101006"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:243
+msgid "20121221"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:244
+msgid "net-misc/ipv6calc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:244
+msgid "0.93.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:244
+msgid "0.94.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:245
+msgid "net-misc/npapi-sdk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:245
+msgid "0.27"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:245
+msgid "0.27.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:246
+msgid "net-print/cups"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:246
+#: ../../src/changes/2014/r050-packageversions.rst:773
+msgid "1.7.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:247
+msgid "perl-core/Attribute-Handlers"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:247
+#: ../../src/changes/2014/r050-packageversions.rst:337
+msgid "0.910.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:247
+#: ../../src/changes/2014/r050-packageversions.rst:337
+msgid "0.930.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:248
+msgid "perl-core/CPAN-Meta"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:248
+#: ../../src/changes/2014/r050-packageversions.rst:338
+msgid "2.112.621"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:248
+#: ../../src/changes/2014/r050-packageversions.rst:338
+msgid "2.120.921"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:249
+msgid "perl-core/CPAN-Meta-YAML"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:249
+#: ../../src/changes/2014/r050-packageversions.rst:339
+msgid "0.4.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:250
+msgid "perl-core/Digest-MD5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:250
+#: ../../src/changes/2014/r050-packageversions.rst:342
+msgid "2.510.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:250
+#: ../../src/changes/2014/r050-packageversions.rst:342
+msgid "2.520.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:251
+msgid "perl-core/Encode"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:251
+#: ../../src/changes/2014/r050-packageversions.rst:344
+msgid "2.430.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:251
+#: ../../src/changes/2014/r050-packageversions.rst:344
+msgid "2.470.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:252
+msgid "perl-core/ExtUtils-CBuilder"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:252
+#: ../../src/changes/2014/r050-packageversions.rst:345
+msgid "0.27.03"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:252
+#: ../../src/changes/2014/r050-packageversions.rst:345
+msgid "0.280.205"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:253
+msgid "perl-core/ExtUtils-Install"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:253
+#: ../../src/changes/2014/r050-packageversions.rst:336
+#: ../../src/changes/2014/r050-packageversions.rst:346
+msgid "1.54"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:253
+#: ../../src/changes/2014/r050-packageversions.rst:346
+msgid "1.540.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:254
+msgid "perl-core/ExtUtils-MakeMaker"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:254
+#: ../../src/changes/2014/r050-packageversions.rst:347
+msgid "6.620.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:254
+#: ../../src/changes/2014/r050-packageversions.rst:347
+msgid "6.640.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:255
+msgid "perl-core/ExtUtils-Manifest"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:255
+#: ../../src/changes/2014/r050-packageversions.rst:348
+msgid "1.580.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:255
+#: ../../src/changes/2014/r050-packageversions.rst:348
+msgid "1.610.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:256
+msgid "perl-core/ExtUtils-ParseXS"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:256
+#: ../../src/changes/2014/r050-packageversions.rst:349
+msgid "2.22.05"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:256
+#: ../../src/changes/2014/r050-packageversions.rst:349
+msgid "3.180.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:257
+msgid "perl-core/File-Spec"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:257
+#: ../../src/changes/2014/r050-packageversions.rst:350
+msgid "3.31"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:257
+#: ../../src/changes/2014/r050-packageversions.rst:350
+msgid "3.400.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:258
+msgid "perl-core/Module-Build"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:258
+#: ../../src/changes/2014/r050-packageversions.rst:353
+msgid "0.380.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:258
+#: ../../src/changes/2014/r050-packageversions.rst:353
+msgid "0.400.300"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:259
+msgid "perl-core/Module-Metadata"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:259
+#: ../../src/changes/2014/r050-packageversions.rst:354
+#: ../../src/changes/2014/r050-packageversions.rst:411
+#: ../../src/changes/2014/r050-packageversions.rst:467
+#: ../../src/changes/2014/r050-packageversions.rst:604
+#: ../../src/changes/2014/r050-packageversions.rst:992
+msgid "1.0.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:259
+#: ../../src/changes/2014/r050-packageversions.rst:354
+#: ../../src/changes/2014/r050-packageversions.rst:388
+msgid "1.0.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:260
+msgid "perl-core/Parse-CPAN-Meta"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:260
+#: ../../src/changes/2014/r050-packageversions.rst:355
+msgid "1.440.100"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:260
+#: ../../src/changes/2014/r050-packageversions.rst:355
+msgid "1.440.400"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:261
+msgid "perl-core/PodParser"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:261
+#: ../../src/changes/2014/r050-packageversions.rst:356
+msgid "1.380.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:261
+#: ../../src/changes/2014/r050-packageversions.rst:356
+msgid "1.510.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:262
+msgid "perl-core/Scalar-List-Utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:262
+#: ../../src/changes/2014/r050-packageversions.rst:267
+#: ../../src/changes/2014/r050-packageversions.rst:357
+#: ../../src/changes/2014/r050-packageversions.rst:362
+#: ../../src/changes/2014/r050-packageversions.rst:364
+msgid "1.230.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:262
+#: ../../src/changes/2014/r050-packageversions.rst:357
+msgid "1.270.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:263
+msgid "perl-core/Storable"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:263
+#: ../../src/changes/2014/r050-packageversions.rst:358
+#: ../../src/changes/2014/r050-packageversions.rst:893
+msgid "2.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:263
+#: ../../src/changes/2014/r050-packageversions.rst:358
+msgid "2.390.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:264
+msgid "perl-core/Sys-Syslog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:264
+#: ../../src/changes/2014/r050-packageversions.rst:359
+msgid "0.290.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:264
+#: ../../src/changes/2014/r050-packageversions.rst:359
+msgid "0.320.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:265
+msgid "perl-core/Test-Harness"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:265
+#: ../../src/changes/2014/r050-packageversions.rst:360
+msgid "3.230.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:265
+#: ../../src/changes/2014/r050-packageversions.rst:360
+msgid "3.260.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:266
+msgid "perl-core/Time-HiRes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:266
+#: ../../src/changes/2014/r050-packageversions.rst:361
+msgid "1.972.200"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:266
+#: ../../src/changes/2014/r050-packageversions.rst:361
+msgid "1.972.500"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:267
+msgid "perl-core/Time-Local"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:268
+msgid "perl-core/version"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:268
+#: ../../src/changes/2014/r050-packageversions.rst:365
+msgid "0.940.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:268
+#: ../../src/changes/2014/r050-packageversions.rst:365
+msgid "0.990.100"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:269
+msgid "sci-libs/gdal"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:269
+msgid "1.8.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:269
+msgid "1.10.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:270
+msgid "sci-libs/geos"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:270
+msgid "3.3.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:271
+msgid "sys-apps/attr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:271
+msgid "2.4.46"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:271
+msgid "2.4.47"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:272
+msgid "sys-apps/baselayout"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:272
+#: ../../src/changes/2014/r050-packageversions.rst:490
+msgid "2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:273
+msgid "sys-apps/coreutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:273
+msgid "8.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:273
+msgid "8.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:274
+msgid "sys-apps/dbus"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:274
+msgid "1.6.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:274
+msgid "1.6.18"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:275
+msgid "sys-apps/debianutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:275
+msgid "4.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:275
+msgid "4.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:276
+msgid "sys-apps/diffutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:276
+msgid "3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:276
+#: ../../src/changes/2014/r050-packageversions.rst:313
+msgid "3.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:277
+msgid "sys-apps/dmidecode"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:277
+#: ../../src/changes/2014/r050-packageversions.rst:618
+msgid "2.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:278
+msgid "sys-apps/ethtool"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:278
+#: ../../src/changes/2014/r050-packageversions.rst:617
+#: ../../src/changes/2014/r050-packageversions.rst:822
+msgid "3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:278
+msgid "3.12.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:279
+msgid "sys-apps/file"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:279
+msgid "5.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:279
+msgid "5.19"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:280
+msgid "sys-apps/gawk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:281
+msgid "sys-apps/gptfdisk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:281
+#: ../../src/changes/2014/r050-packageversions.rst:489
+#: ../../src/changes/2014/r050-packageversions.rst:541
+msgid "0.8.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:281
+msgid "0.8.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:282
+msgid "sys-apps/grep"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:282
+msgid "2.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:282
+msgid "2.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:283
+msgid "sys-apps/help2man"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:283
+msgid "1.40.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:283
+msgid "1.43.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:284
+msgid "sys-apps/hwids"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:284
+msgid "20121119"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:284
+msgid "20140317"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:285
+msgid "sys-apps/iproute2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:285
+msgid "3.8.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:286
+msgid "sys-apps/kbd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:286
+msgid "1.15.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:286
+msgid "1.15.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:287
+msgid "sys-apps/less"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:287
+msgid "451"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:287
+msgid "457"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:288
+msgid "sys-apps/man-pages"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:288
+msgid "3.43"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:288
+msgid "3.63"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:289
+msgid "sys-apps/man-pages-posix"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:289
+msgid "2003a"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:289
+msgid "2013a"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:290
+msgid "sys-apps/mlocate"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:290
+msgid "0.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:290
+msgid "0.26"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:291
+msgid "sys-apps/openrc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:291
+msgid "0.11.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:291
+msgid "0.12.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:292
+msgid "sys-apps/pciutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:292
+#: ../../src/changes/2014/r050-packageversions.rst:554
+msgid "3.1.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:292
+msgid "3.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:293
+msgid "sys-apps/portage"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:293
+msgid "2.1.11.31"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:293
+msgid "2.2.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:294
+msgid "sys-apps/rng-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:294
+#: ../../src/changes/2014/r050-packageversions.rst:570
+msgid "2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:294
+#: ../../src/changes/2014/r050-packageversions.rst:630
+#: ../../src/changes/2014/r050-packageversions.rst:964
+msgid "4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:295
+msgid "sys-apps/sandbox"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:295
+msgid "2.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:296
+msgid "sys-apps/shadow"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:296
+msgid "4.1.4.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:296
+msgid "4.1.5.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:297
+msgid "sys-apps/tcp-wrappers"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:297
+msgid "7.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:297
+msgid "7.6.22"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:298
+msgid "sys-apps/util-linux"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:298
+msgid "2.22.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:298
+msgid "2.24.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:299
+msgid "sys-apps/watchdog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:299
+#: ../../src/changes/2014/r050-packageversions.rst:329
+msgid "5.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:299
+msgid "5.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:300
+msgid "sys-auth/pambase"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:300
+msgid "20101024"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:300
+msgid "20120417"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:301
+#: ../../src/changes/2014/r050-packageversions.rst:898
+msgid "sys-boot/grub"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:301
+msgid "0.97, 2.00"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:301
+msgid "0.97, 2.00_p5107"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:302
+#: ../../src/changes/2014/r050-packageversions.rst:900
+msgid "sys-devel/autoconf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:302
+msgid "2.13, 2.68"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:302
+msgid "2.13, 2.69"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:303
+msgid "sys-devel/autoconf-wrapper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:303
+msgid "12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:303
+msgid "13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:304
+msgid "sys-devel/autogen"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:304
+msgid "5.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:304
+msgid "5.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:305
+#: ../../src/changes/2014/r050-packageversions.rst:901
+#: ../../src/changes/2014/r050-packageversions.rst:902
+msgid "sys-devel/automake"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:305
+msgid "1.11.6, 1.12.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:305
+msgid "1.11.6, 1.12.6, 1.13.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:306
+msgid "sys-devel/automake-wrapper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:306
+msgid "7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:307
+msgid "sys-devel/binutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:307
+#: ../../src/changes/2014/r050-packageversions.rst:917
+msgid "2.22"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:307
+msgid "2.23.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:308
+msgid "sys-devel/flex"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:308
+msgid "2.5.35_p10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:308
+msgid "2.5.37"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:309
+#: ../../src/changes/2014/r050-packageversions.rst:906
+msgid "sys-devel/gcc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:309
+#: ../../src/changes/2014/r050-packageversions.rst:906
+msgid "4.5.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:309
+msgid "4.7.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:310
+msgid "sys-devel/gdb"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:310
+msgid "7.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:310
+msgid "7.6.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:311
+msgid "sys-devel/gettext"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:311
+msgid "0.18.1.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:311
+msgid "0.18.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:312
+msgid "sys-devel/gnuconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:312
+msgid "20120818"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:312
+msgid "20131128"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:313
+msgid "sys-devel/llvm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:313
+#: ../../src/changes/2014/r050-packageversions.rst:897
+msgid "3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:314
+msgid "sys-fs/btrfs-progs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:314
+msgid "0.19.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:314
+msgid "3.12, 3.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:315
+msgid "sys-fs/e2fsprogs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:315
+#: ../../src/changes/2014/r050-packageversions.rst:323
+msgid "1.42"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:315
+#: ../../src/changes/2014/r050-packageversions.rst:323
+msgid "1.42.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:316
+msgid "sys-fs/fuse"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:316
+msgid "2.9.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:317
+msgid "sys-fs/lvm2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:317
+msgid "2.02.88"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:317
+msgid "2.02.103"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:318
+msgid "sys-fs/ncdu"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:318
+#: ../../src/changes/2014/r050-packageversions.rst:407
+#: ../../src/changes/2014/r050-packageversions.rst:417
+msgid "1.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:319
+msgid "sys-kernel/genkernel"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:319
+msgid "3.4.24_p2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:319
+msgid "3.4.45.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:320
+#: ../../src/changes/2014/r050-packageversions.rst:913
+msgid "sys-kernel/gentoo-sources"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:320
+#: ../../src/changes/2014/r050-packageversions.rst:913
+msgid "3.10.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:320
+msgid "3.12.21, 3.17.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:321
+msgid "sys-kernel/linux-headers"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:321
+#: ../../src/changes/2014/r050-packageversions.rst:696
+msgid "3.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:321
+msgid "3.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:322
+msgid "sys-libs/cracklib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:322
+msgid "2.8.19"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:323
+msgid "sys-libs/e2fsprogs-libs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:324
+msgid "sys-libs/glibc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:324
+#: ../../src/changes/2014/r050-packageversions.rst:832
+msgid "2.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:324
+msgid "2.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:325
+msgid "sys-libs/pam"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:325
+msgid "1.1.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:325
+msgid "1.1.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:326
+msgid "sys-libs/timezone-data"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:326
+msgid "2012f"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:327
+msgid "sys-process/procps"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:327
+msgid "3.2.8_p11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:327
+msgid "3.3.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:328
+msgid "sys-process/psmisc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:328
+msgid "22.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:328
+msgid "22.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:329
+msgid "virtual/httpd-php"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:329
+#: ../../src/changes/2014/r050-packageversions.rst:335
+msgid "5.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:330
+#: ../../src/changes/2014/r050-packageversions.rst:936
+#: ../../src/changes/2014/r050-packageversions.rst:937
+msgid "virtual/jdk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:330
+msgid "1.6.0, 1.7.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:331
+#: ../../src/changes/2014/r050-packageversions.rst:938
+#: ../../src/changes/2014/r050-packageversions.rst:939
+msgid "virtual/jpeg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:331
+msgid "0, 62"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:332
+msgid "virtual/libffi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:333
+msgid "virtual/mailx"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:333
+#: ../../src/changes/2014/r050-packageversions.rst:334
+#: ../../src/changes/2014/r050-packageversions.rst:366
+#: ../../src/changes/2014/r050-packageversions.rst:367
+#: ../../src/changes/2014/r050-packageversions.rst:571
+#: ../../src/changes/2014/r050-packageversions.rst:928
+#: ../../src/changes/2014/r050-packageversions.rst:929
+#: ../../src/changes/2014/r050-packageversions.rst:930
+#: ../../src/changes/2014/r050-packageversions.rst:931
+#: ../../src/changes/2014/r050-packageversions.rst:933
+#: ../../src/changes/2014/r050-packageversions.rst:934
+#: ../../src/changes/2014/r050-packageversions.rst:935
+#: ../../src/changes/2014/r050-packageversions.rst:938
+#: ../../src/changes/2014/r050-packageversions.rst:941
+#: ../../src/changes/2014/r050-packageversions.rst:942
+#: ../../src/changes/2014/r050-packageversions.rst:943
+#: ../../src/changes/2014/r050-packageversions.rst:944
+#: ../../src/changes/2014/r050-packageversions.rst:945
+#: ../../src/changes/2014/r050-packageversions.rst:946
+#: ../../src/changes/2014/r050-packageversions.rst:947
+#: ../../src/changes/2014/r050-packageversions.rst:950
+#: ../../src/changes/2014/r050-packageversions.rst:951
+#: ../../src/changes/2014/r050-packageversions.rst:952
+#: ../../src/changes/2014/r050-packageversions.rst:953
+#: ../../src/changes/2014/r050-packageversions.rst:963
+#: ../../src/changes/2014/r050-packageversions.rst:966
+#: ../../src/changes/2014/r050-packageversions.rst:967
+#: ../../src/changes/2014/r050-packageversions.rst:969
+msgid "0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:334
+msgid "virtual/mta"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:335
+#: ../../src/changes/2014/r050-packageversions.rst:948
+msgid "virtual/mysql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:335
+#: ../../src/changes/2014/r050-packageversions.rst:948
+msgid "5.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:336
+msgid "virtual/perl-Archive-Tar"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:337
+msgid "virtual/perl-Attribute-Handlers"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:338
+msgid "virtual/perl-CPAN-Meta"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:339
+msgid "virtual/perl-CPAN-Meta-YAML"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:340
+msgid "virtual/perl-Compress-Raw-Zlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:340
+#: ../../src/changes/2014/r050-packageversions.rst:351
+msgid "2.024"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:340
+#: ../../src/changes/2014/r050-packageversions.rst:351
+#: ../../src/changes/2014/r050-packageversions.rst:516
+#: ../../src/changes/2014/r050-packageversions.rst:517
+#: ../../src/changes/2014/r050-packageversions.rst:525
+#: ../../src/changes/2014/r050-packageversions.rst:560
+msgid "2.60.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:341
+msgid "virtual/perl-DB_File"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:341
+msgid "1.820"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:341
+#: ../../src/changes/2014/r050-packageversions.rst:520
+msgid "1.827.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:342
+msgid "virtual/perl-Digest-MD5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:343
+msgid "virtual/perl-Digest-SHA"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:343
+msgid "5.47"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:343
+#: ../../src/changes/2014/r050-packageversions.rst:522
+msgid "5.820.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:344
+msgid "virtual/perl-Encode"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:345
+msgid "virtual/perl-ExtUtils-CBuilder"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:346
+msgid "virtual/perl-ExtUtils-Install"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:347
+msgid "virtual/perl-ExtUtils-MakeMaker"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:348
+msgid "virtual/perl-ExtUtils-Manifest"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:349
+msgid "virtual/perl-ExtUtils-ParseXS"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:350
+msgid "virtual/perl-File-Spec"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:351
+msgid "virtual/perl-IO-Compress"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:352
+msgid "virtual/perl-MIME-Base64"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:352
+msgid "3.08"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:352
+#: ../../src/changes/2014/r050-packageversions.rst:529
+msgid "3.130.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:353
+msgid "virtual/perl-Module-Build"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:354
+msgid "virtual/perl-Module-Metadata"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:355
+msgid "virtual/perl-Parse-CPAN-Meta"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:356
+msgid "virtual/perl-PodParser"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:357
+msgid "virtual/perl-Scalar-List-Utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:358
+msgid "virtual/perl-Storable"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:359
+msgid "virtual/perl-Sys-Syslog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:360
+msgid "virtual/perl-Test-Harness"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:361
+msgid "virtual/perl-Time-HiRes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:362
+msgid "virtual/perl-Time-Local"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:363
+msgid "virtual/perl-digest-base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:363
+msgid "1.160.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:363
+#: ../../src/changes/2014/r050-packageversions.rst:521
+#: ../../src/changes/2014/r050-packageversions.rst:867
+#: ../../src/changes/2014/r050-packageversions.rst:954
+msgid "1.170.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:364
+msgid "virtual/perl-libnet"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:364
+msgid "1.220.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:365
+msgid "virtual/perl-version"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:366
+msgid "virtual/python-argparse"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:367
+#: ../../src/changes/2014/r050-packageversions.rst:965
+msgid "virtual/ruby-ssl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:368
+#: ../../src/changes/2014/r050-packageversions.rst:964
+msgid "virtual/rubygems"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:368
+msgid "1, 4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:368
+msgid "4, 6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:369
+msgid "virtual/udev"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:369
+msgid "171"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:369
+msgid "208"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:370
+msgid "www-apache/passenger"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:370
+msgid "3.0.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:370
+msgid "3.0.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:371
+msgid "www-apache/pwauth"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:371
+msgid "2.3.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:371
+msgid "2.3.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:372
+msgid "www-client/firefox-bin"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:372
+msgid "10.0.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:372
+msgid "24.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:373
+msgid "www-client/lynx"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:373
+msgid "2.8.8_pre12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:373
+msgid "2.8.8_rc1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:374
+msgid "www-servers/nginx"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:375
+msgid "www-servers/tomcat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:376
+msgid "www-servers/varnish"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:376
+msgid "3.0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:377
+msgid "x11-apps/bdftopcf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:377
+#: ../../src/changes/2014/r050-packageversions.rst:476
+#: ../../src/changes/2014/r050-packageversions.rst:800
+#: ../../src/changes/2014/r050-packageversions.rst:801
+msgid "1.0.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:377
+#: ../../src/changes/2014/r050-packageversions.rst:379
+#: ../../src/changes/2014/r050-packageversions.rst:412
+#: ../../src/changes/2014/r050-packageversions.rst:414
+#: ../../src/changes/2014/r050-packageversions.rst:756
+#: ../../src/changes/2014/r050-packageversions.rst:799
+msgid "1.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:378
+msgid "x11-apps/mkfontscale"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:378
+#: ../../src/changes/2014/r050-packageversions.rst:381
+msgid "1.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:379
+msgid "x11-apps/rgb"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:380
+msgid "x11-apps/xauth"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:380
+#: ../../src/changes/2014/r050-packageversions.rst:387
+#: ../../src/changes/2014/r050-packageversions.rst:978
+msgid "1.0.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:380
+#: ../../src/changes/2014/r050-packageversions.rst:387
+#: ../../src/changes/2014/r050-packageversions.rst:980
+msgid "1.0.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:381
+msgid "x11-apps/xsetroot"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:382
+msgid "x11-libs/cairo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:382
+msgid "1.10.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:382
+msgid "1.12.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:383
+msgid "x11-libs/gdk-pixbuf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:383
+msgid "2.26.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:383
+msgid "2.30.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:384
+msgid "x11-libs/gtk+"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:384
+msgid "2.24.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:384
+msgid "2.24.23, 3.10.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:385
+msgid "x11-libs/libSM"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:385
+#: ../../src/changes/2014/r050-packageversions.rst:402
+#: ../../src/changes/2014/r050-packageversions.rst:761
+msgid "1.2.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:386
+msgid "x11-libs/libX11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:386
+#: ../../src/changes/2014/r050-packageversions.rst:473
+msgid "1.6.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:387
+msgid "x11-libs/libXau"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:388
+msgid "x11-libs/libXaw"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:388
+msgid "1.0.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:389
+msgid "x11-libs/libXcomposite"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:389
+msgid "0.4.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:389
+msgid "0.4.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:390
+msgid "x11-libs/libXcursor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:390
+msgid "1.1.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:390
+msgid "1.1.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:391
+msgid "x11-libs/libXdamage"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:391
+#: ../../src/changes/2014/r050-packageversions.rst:395
+#: ../../src/changes/2014/r050-packageversions.rst:401
+#: ../../src/changes/2014/r050-packageversions.rst:403
+msgid "1.1.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:392
+msgid "x11-libs/libXext"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:393
+msgid "x11-libs/libXfixes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:393
+#: ../../src/changes/2014/r050-packageversions.rst:990
+msgid "5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:393
+msgid "5.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:394
+msgid "x11-libs/libXi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:394
+msgid "1.7.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:395
+msgid "x11-libs/libXinerama"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:395
+#: ../../src/changes/2014/r050-packageversions.rst:396
+#: ../../src/changes/2014/r050-packageversions.rst:403
+#: ../../src/changes/2014/r050-packageversions.rst:405
+#: ../../src/changes/2014/r050-packageversions.rst:802
+msgid "1.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:396
+msgid "x11-libs/libXmu"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:397
+msgid "x11-libs/libXp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:397
+#: ../../src/changes/2014/r050-packageversions.rst:984
+msgid "1.0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:398
+msgid "x11-libs/libXpm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:398
+msgid "3.5.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:398
+msgid "3.5.11"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:399
+msgid "x11-libs/libXrandr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:399
+#: ../../src/changes/2014/r050-packageversions.rst:875
+#: ../../src/changes/2014/r050-packageversions.rst:994
+msgid "1.4.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:399
+msgid "1.4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:400
+msgid "x11-libs/libXrender"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:400
+#: ../../src/changes/2014/r050-packageversions.rst:847
+msgid "0.9.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:400
+msgid "0.9.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:401
+msgid "x11-libs/libXt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:402
+msgid "x11-libs/libXtst"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:403
+msgid "x11-libs/libXxf86vm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:404
+msgid "x11-libs/libdrm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:404
+msgid "2.4.40"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:404
+msgid "2.4.52"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:405
+msgid "x11-libs/libfontenc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:406
+msgid "x11-libs/libpciaccess"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:406
+msgid "0.13.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:406
+msgid "0.13.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:407
+msgid "x11-libs/libxcb"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:407
+msgid "1.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:408
+msgid "x11-libs/pango"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:408
+msgid "1.30.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:408
+msgid "1.36.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:409
+msgid "x11-libs/pixman"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:409
+msgid "0.28.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:409
+msgid "0.32.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:410
+msgid "x11-libs/xtrans"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:410
+msgid "1.3.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:411
+msgid "x11-misc/imake"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:412
+msgid "x11-misc/makedepend"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:413
+msgid "x11-misc/shared-mime-info"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:413
+#: ../../src/changes/2014/r050-packageversions.rst:577
+#: ../../src/changes/2014/r050-packageversions.rst:578
+#: ../../src/changes/2014/r050-packageversions.rst:804
+#: ../../src/changes/2014/r050-packageversions.rst:828
+msgid "1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:414
+msgid "x11-misc/xorg-cf-files"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:415
+msgid "x11-proto/glproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:415
+#: ../../src/changes/2014/r050-packageversions.rst:826
+#: ../../src/changes/2014/r050-packageversions.rst:910
+msgid "1.4.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:415
+#: ../../src/changes/2014/r050-packageversions.rst:855
+msgid "1.4.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:416
+msgid "x11-proto/inputproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:417
+msgid "x11-proto/xcb-proto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:418
+msgid "x11-proto/xextproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:418
+msgid "7.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:418
+msgid "7.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:419
+msgid "x11-proto/xproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:419
+msgid "7.0.23"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:419
+msgid "7.0.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:420
+msgid "x11-themes/gnome-icon-theme"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:420
+msgid "3.10.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:421
+msgid "x11-wm/icewm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:421
+msgid "1.2.37"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:421
+msgid "1.3.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:426
+msgid "New packages"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:429
+msgid "New version"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:431
+msgid "app-accessibility/at-spi2-atk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:431
+#: ../../src/changes/2014/r050-packageversions.rst:432
+msgid "2.10.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:432
+msgid "app-accessibility/at-spi2-core"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:433
+msgid "app-admin/eselect-bashcomp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:433
+msgid "1.3.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:434
+msgid "app-admin/eselect-java"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:434
+#: ../../src/changes/2014/r050-packageversions.rst:539
+msgid "0.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:435
+msgid "app-admin/eselect-lib-bin-symlink"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:435
+msgid "0.1.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:436
+msgid "app-backup/backy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:436
+msgid "2.0_beta1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:437
+msgid "app-benchmarks/iozone"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:437
+msgid "3.397"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:438
+msgid "app-editors/hexedit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:438
+msgid "1.2.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:439
+msgid "app-emulation/qemu-guest-agent"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:439
+msgid "2.0.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:440
+msgid "app-misc/devtodo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:440
+msgid "0.1.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:441
+msgid "app-misc/fdupes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:441
+msgid "1.50_pre2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:442
+msgid "app-portage/gentoolkit-dev"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:442
+msgid "0.2.8.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:443
+msgid "app-text/asciidoc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:443
+msgid "8.6.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:444
+msgid "app-text/libabw"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:444
+#: ../../src/changes/2014/r050-packageversions.rst:445
+msgid "0.0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:445
+msgid "app-text/libebook"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:446
+msgid "app-text/libetonyek"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:446
+msgid "0.0.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:447
+msgid "app-text/liblangtag"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:447
+#: ../../src/changes/2014/r050-packageversions.rst:459
+msgid "0.5.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:448
+msgid "app-text/libmspub"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:448
+msgid "0.0.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:449
+msgid "app-text/libmwaw"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:449
+#: ../../src/changes/2014/r050-packageversions.rst:865
+msgid "0.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:450
+msgid "app-text/libodfgen"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:450
+msgid "0.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:451
+msgid "app-text/libspectre"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:452
+msgid "app-text/wv2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:452
+#: ../../src/changes/2014/r050-packageversions.rst:926
+#: ../../src/changes/2014/r050-packageversions.rst:987
+msgid "0.4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:453
+msgid "app-vim/eselect-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:453
+msgid "20070506"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:454
+msgid "dev-lang/lua"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:454
+msgid "5.1.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:455
+#: ../../src/changes/2014/r050-packageversions.rst:456
+msgid "dev-lang/python-exec"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:455
+msgid "0.3.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:456
+#: ../../src/changes/2014/r050-packageversions.rst:488
+#: ../../src/changes/2014/r050-packageversions.rst:873
+msgid "2.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:457
+msgid "dev-libs/libixion"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:458
+msgid "dev-libs/libmemcached"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:458
+#: ../../src/changes/2014/r050-packageversions.rst:474
+msgid "1.0.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:459
+msgid "dev-libs/liborcus"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:460
+msgid "dev-libs/vala-common"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:460
+msgid "0.22.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:461
+msgid "dev-perl/File-Next"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:461
+msgid "1.120.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:462
+msgid "dev-perl/Module-Implementation"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:462
+msgid "0.60.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:463
+msgid "dev-perl/Module-Runtime"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:463
+msgid "0.13.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:464
+msgid "dev-perl/RPC-XML"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:464
+msgid "0.770.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:465
+msgid "dev-perl/TermReadKey"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:465
+msgid "2.300.200"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:466
+msgid "dev-perl/Try-Tiny"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:466
+#: ../../src/changes/2014/r050-packageversions.rst:711
+msgid "0.180.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:467
+msgid "dev-php/PEAR-Auth_SASL"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:468
+msgid "dev-php/PEAR-Log"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:468
+msgid "1.12.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:469
+msgid "dev-php/PEAR-Mail"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:470
+msgid "dev-php/PEAR-MDB2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:470
+msgid "2.5.0_beta3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:471
+msgid "dev-php/PEAR-MDB2_Driver_pgsql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:471
+#: ../../src/changes/2014/r050-packageversions.rst:472
+msgid "1.5.0_beta3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:472
+msgid "dev-php/PEAR-MDB2_Driver_sqlite"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:473
+msgid "dev-php/PEAR-Net_SMTP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:474
+msgid "dev-php/PEAR-Net_Socket"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:475
+msgid "dev-python/blinker"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:476
+msgid "dev-python/charade"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:477
+msgid "dev-python/decorator"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:478
+msgid "dev-python/flask"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:478
+msgid "0.10.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:479
+msgid "dev-python/itsdangerous"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:479
+#: ../../src/changes/2014/r050-packageversions.rst:845
+msgid "0.24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:480
+msgid "dev-python/jinja"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:480
+#: ../../src/changes/2014/r050-packageversions.rst:874
+msgid "2.7.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:481
+msgid "dev-python/markupsafe"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:481
+#: ../../src/changes/2014/r050-packageversions.rst:486
+msgid "0.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:482
+msgid "dev-python/matplotlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:483
+msgid "dev-python/pillow"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:484
+msgid "dev-python/prettytable"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:484
+#: ../../src/changes/2014/r050-packageversions.rst:593
+#: ../../src/changes/2014/r050-packageversions.rst:821
+msgid "0.7.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:485
+msgid "dev-python/pycrypto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:485
+#: ../../src/changes/2014/r050-packageversions.rst:912
+msgid "2.6.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:486
+msgid "dev-python/pyelftools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:487
+msgid "dev-python/pygments"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:488
+msgid "dev-python/pyparsing"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:489
+msgid "dev-python/pypax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:490
+msgid "dev-python/python-dateutil"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:491
+msgid "dev-python/pyzmq"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:491
+msgid "13.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:492
+msgid "dev-python/requests"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:493
+msgid "dev-python/simplegeneric"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:494
+msgid "dev-python/six"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:495
+msgid "dev-python/werkzeug"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:495
+msgid "0.9.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:496
+msgid "dev-qt/qtcore"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:496
+#: ../../src/changes/2014/r050-packageversions.rst:497
+#: ../../src/changes/2014/r050-packageversions.rst:498
+#: ../../src/changes/2014/r050-packageversions.rst:499
+msgid "4.8.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:497
+msgid "dev-qt/qtdbus"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:498
+msgid "dev-qt/qtsql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:499
+msgid "dev-qt/qtxmlpatterns"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:500
+msgid "dev-ruby/allison"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:501
+msgid "dev-util/diffstat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:501
+msgid "1.58"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:502
+msgid "dev-util/perf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:502
+#: ../../src/changes/2014/r050-packageversions.rst:972
+msgid "3.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:503
+msgid "dev-util/valgrind"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:503
+msgid "3.8.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:504
+msgid "mail-client/squirrelmail"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:504
+msgid "1.4.23_pre20140409"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:505
+msgid "media-fonts/stix-fonts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:506
+msgid "media-libs/harfbuzz"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:506
+msgid "0.9.23"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:507
+msgid "media-libs/leptonica"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:507
+msgid "1.68"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:508
+msgid "media-libs/libfreehand"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:508
+msgid "0.0.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:509
+msgid "net-analyzer/nagios-check_logfiles"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:509
+msgid "3.6.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:510
+msgid "net-libs/zeromq"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:510
+msgid "3.2.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:511
+msgid "net-misc/ipcalc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:511
+msgid "0.41"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:512
+msgid "net-misc/netifrc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:513
+msgid "net-misc/stunnel"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:513
+msgid "4.56"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:514
+msgid "net-print/cups-filters"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:514
+msgid "1.0.53"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:515
+msgid "perl-core/Archive-Tar"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:516
+msgid "perl-core/Compress-Raw-Bzip2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:517
+msgid "perl-core/Compress-Raw-Zlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:518
+msgid "perl-core/CPAN-Meta-Requirements"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:518
+#: ../../src/changes/2014/r050-packageversions.rst:561
+msgid "2.122.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:519
+msgid "perl-core/Data-Dumper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:519
+#: ../../src/changes/2014/r050-packageversions.rst:562
+msgid "2.139.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:520
+msgid "perl-core/DB_File"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:521
+msgid "perl-core/digest-base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:522
+msgid "perl-core/Digest-SHA"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:523
+msgid "perl-core/File-Temp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:523
+#: ../../src/changes/2014/r050-packageversions.rst:955
+msgid "0.220.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:524
+msgid "perl-core/Getopt-Long"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:524
+#: ../../src/changes/2014/r050-packageversions.rst:956
+msgid "2.380.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:525
+msgid "perl-core/IO-Compress"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:526
+msgid "perl-core/IO-Zlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:526
+#: ../../src/changes/2014/r050-packageversions.rst:740
+#: ../../src/changes/2014/r050-packageversions.rst:743
+#: ../../src/changes/2014/r050-packageversions.rst:958
+msgid "1.100.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:527
+msgid "perl-core/IPC-Cmd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:527
+#: ../../src/changes/2014/r050-packageversions.rst:563
+msgid "0.780.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:528
+msgid "perl-core/Locale-Maketext-Simple"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:528
+#: ../../src/changes/2014/r050-packageversions.rst:564
+msgid "0.210.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:529
+msgid "perl-core/MIME-Base64"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:530
+msgid "perl-core/Module-CoreList"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:530
+#: ../../src/changes/2014/r050-packageversions.rst:565
+msgid "2.840.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:531
+msgid "perl-core/Module-Load"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:531
+#: ../../src/changes/2014/r050-packageversions.rst:566
+msgid "0.240.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:532
+msgid "perl-core/Module-Load-Conditional"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:532
+#: ../../src/changes/2014/r050-packageversions.rst:567
+msgid "0.540.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:533
+msgid "perl-core/Package-Constants"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:533
+#: ../../src/changes/2014/r050-packageversions.rst:568
+msgid "0.20.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:534
+msgid "perl-core/Params-Check"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:534
+#: ../../src/changes/2014/r050-packageversions.rst:569
+#: ../../src/changes/2014/r050-packageversions.rst:732
+msgid "0.360.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:535
+msgid "sec-policy/apparmor-profiles"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:535
+#: ../../src/changes/2014/r050-packageversions.rst:537
+#: ../../src/changes/2014/r050-packageversions.rst:538
+#: ../../src/changes/2014/r050-packageversions.rst:556
+msgid "2.8.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:536
+msgid "sys-apps/ack"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:536
+#: ../../src/changes/2014/r050-packageversions.rst:619
+msgid "1.96"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:537
+msgid "sys-apps/apparmor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:538
+msgid "sys-apps/apparmor-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:539
+msgid "sys-apps/baselayout-java"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:540
+msgid "sys-apps/cpuid"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:540
+msgid "20130610"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:541
+msgid "sys-apps/elfix"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:542
+msgid "sys-apps/haveged"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:542
+msgid "1.7a"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:543
+msgid "sys-apps/hdparm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:543
+msgid "9.39"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:544
+msgid "sys-apps/kmod"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:544
+msgid "17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:545
+msgid "sys-apps/paxctl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:546
+msgid "sys-block/fio"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:546
+msgid "2.0.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:547
+msgid "sys-block/thin-provisioning-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:547
+msgid "0.2.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:548
+msgid "sys-boot/efibootmgr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:548
+msgid "0.5.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:549
+msgid "sys-devel/autoconf-archive"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:549
+msgid "2013.11.01"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:550
+msgid "sys-devel/ucpp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:550
+msgid "1.3.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:551
+msgid "sys-fs/eudev"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:552
+msgid "sys-fs/multipath-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:553
+msgid "sys-fs/udev-init-scripts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:553
+msgid "26"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:554
+msgid "sys-fs/xfsprogs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:555
+msgid "sys-libs/gpm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:555
+msgid "1.20.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:556
+msgid "sys-libs/libapparmor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:557
+msgid "sys-libs/libcap-ng"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:557
+msgid "0.7.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:558
+msgid "sys-process/time"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:558
+#: ../../src/changes/2014/r050-packageversions.rst:863
+msgid "1.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:559
+msgid "virtual/awk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:560
+msgid "virtual/perl-Compress-Raw-Bzip2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:561
+msgid "virtual/perl-CPAN-Meta-Requirements"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:562
+msgid "virtual/perl-Data-Dumper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:563
+msgid "virtual/perl-IPC-Cmd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:564
+msgid "virtual/perl-Locale-Maketext-Simple"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:565
+msgid "virtual/perl-Module-CoreList"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:566
+msgid "virtual/perl-Module-Load"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:567
+msgid "virtual/perl-Module-Load-Conditional"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:568
+msgid "virtual/perl-Package-Constants"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:569
+msgid "virtual/perl-Params-Check"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:570
+msgid "virtual/python-imaging"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:571
+msgid "virtual/service-manager"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:572
+msgid "www-apache/mod_security"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:572
+msgid "2.7.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:573
+msgid "www-apache/modsecurity-crs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:573
+msgid "2.2.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:574
+msgid "x11-libs/goffice"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:574
+msgid "0.10.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:575
+msgid "x11-libs/libxshmfence"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:576
+msgid "x11-misc/util-macros"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:576
+msgid "1.18.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:577
+msgid "x11-proto/dri3proto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:578
+msgid "x11-proto/presentproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:583
+msgid "Unchanged packages"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:586
+msgid "Version"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:588
+msgid "app-admin/apache-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:588
+#: ../../src/changes/2014/r050-packageversions.rst:976
+msgid "2.2.27"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:589
+msgid "app-admin/apachetop"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:589
+msgid "0.12.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:590
+msgid "app-admin/apg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:590
+msgid "2.3.0b"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:591
+msgid "app-admin/eselect-fontconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:592
+msgid "app-admin/eselect-mesa"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:592
+msgid "0.0.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:593
+msgid "app-admin/eselect-php"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:594
+msgid "app-admin/eselect-postgresql"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:595
+msgid "app-admin/eselect-ruby"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:595
+msgid "20100603"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:596
+msgid "app-admin/eselect-vi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:596
+msgid "1.1.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:598
+msgid "app-admin/perl-cleaner"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:598
+msgid "2.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:599
+msgid "app-admin/puppetlabs-stdlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:599
+msgid "3.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:600
+msgid "app-admin/showconsole"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:600
+msgid "1.08"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:601
+msgid "app-admin/sudo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:601
+msgid "1.8.6_p7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:602
+msgid "app-antivirus/clamav"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:602
+msgid "0.98.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:603
+msgid "app-arch/arc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:603
+msgid "5.21p"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:604
+msgid "app-arch/bzip2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:605
+msgid "app-arch/cabextract"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:606
+msgid "app-arch/cpio"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:607
+msgid "app-arch/freeze"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:608
+msgid "app-arch/gzip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:609
+msgid "app-arch/lha"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:609
+msgid "114i"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:610
+msgid "app-arch/libarchive"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:611
+msgid "app-arch/ncompress"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:611
+msgid "4.2.4.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:612
+msgid "app-arch/pax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:612
+msgid "3.4.12.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:613
+msgid "app-arch/rpm2targz"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:613
+msgid "9.0.0.5g"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:614
+msgid "app-arch/tar"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:614
+msgid "1.26"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:615
+msgid "app-arch/unarj"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:615
+msgid "2.65"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:616
+msgid "app-arch/unzip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:616
+msgid "6.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:617
+msgid "app-arch/zip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:618
+msgid "app-arch/zoo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:619
+msgid "app-benchmarks/bonnie++"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:620
+msgid "app-benchmarks/tiobench"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:620
+#: ../../src/changes/2014/r050-packageversions.rst:924
+msgid "0.3.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:621
+msgid "app-crypt/aespipe"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:621
+msgid "2.3e"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:622
+msgid "app-crypt/gnupg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:622
+msgid "2.0.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:623
+msgid "app-crypt/mhash"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:623
+msgid "0.9.9.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:624
+msgid "app-crypt/mit-krb5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:625
+msgid "app-crypt/pinentry"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:626
+msgid "app-dicts/aspell-de"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:626
+msgid "0.60_pre20030222"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:627
+msgid "app-dicts/myspell-de"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:627
+msgid "2012.06.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:628
+msgid "app-dicts/myspell-en"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:628
+msgid "20081002"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:629
+msgid "app-i18n/man-pages-de"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:629
+msgid "0.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:630
+msgid "app-misc/editor-wrapper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:631
+msgid "app-misc/mmv"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:631
+msgid "1.01b_p15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:632
+msgid "app-misc/screen"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:633
+msgid "app-misc/symlinks"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:635
+msgid "app-shells/bash-completion"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:636
+msgid "app-shells/sash"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:636
+msgid "3.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:637
+msgid "app-shells/zsh-completion"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:637
+msgid "20091203"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:638
+msgid "app-text/aspell"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:638
+msgid "0.60.6.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:639
+msgid "app-text/catdoc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:639
+msgid "0.94.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:640
+msgid "4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:641
+msgid "4.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:642
+msgid "app-text/htmltidy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:642
+msgid "20090325"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:643
+msgid "app-text/hunspell"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:644
+msgid "app-text/libpaper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:644
+msgid "1.1.24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:645
+msgid "app-text/mythes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:646
+msgid "app-text/pdftk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:646
+msgid "1.44"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:647
+msgid "app-text/poppler"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:647
+msgid "0.24.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:648
+msgid "app-text/sgml-common"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:648
+msgid "0.6.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:649
+msgid "app-text/tree"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:650
+msgid "app-text/wv"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:651
+msgid "app-text/xlhtml"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:651
+msgid "0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:652
+msgid "app-vim/nagios-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:652
+msgid "20050105"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:653
+msgid "app-vim/nginx-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:653
+msgid "0.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:654
+msgid "app-vim/pam-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:654
+msgid "20060424"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:655
+msgid "app-vim/puppet-syntax"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:655
+msgid "3.0.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:656
+msgid "dev-cpp/cairomm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:656
+#: ../../src/changes/2014/r050-packageversions.rst:737
+#: ../../src/changes/2014/r050-packageversions.rst:745
+#: ../../src/changes/2014/r050-packageversions.rst:765
+msgid "1.10.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:657
+msgid "dev-cpp/clucene"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:657
+msgid "2.3.3.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:659
+msgid "dev-cpp/libmcpp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:659
+#: ../../src/changes/2014/r050-packageversions.rst:792
+msgid "2.7.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:661
+msgid "dev-db/mysql-init-scripts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:661
+msgid "2.0_pre1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:662
+#: ../../src/changes/2014/r050-packageversions.rst:664
+msgid "8.4.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:663
+#: ../../src/changes/2014/r050-packageversions.rst:665
+msgid "9.0.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:666
+msgid "dev-db/unixODBC"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:668
+msgid "dev-java/commons-daemon"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:668
+msgid "1.0.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:669
+msgid "dev-java/commons-dbcp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:670
+msgid "dev-java/commons-logging"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:672
+msgid "dev-java/glassfish-transaction-api"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:672
+msgid "1.1.2.2.04"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:673
+msgid "6.1.13.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:674
+msgid "dev-java/java-config-wrapper"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:675
+msgid "dev-java/javatoolkit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:675
+#: ../../src/changes/2014/r050-packageversions.rst:735
+msgid "0.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:676
+msgid "dev-java/log4j"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:676
+msgid "1.2.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:677
+msgid "2.6.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:678
+msgid "3.2.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:679
+msgid "dev-lang/spidermonkey"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:679
+msgid "1.8.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:680
+msgid "dev-lang/yasm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:681
+msgid "dev-libs/apr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:682
+msgid "dev-libs/cyrus-sasl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:682
+msgid "2.1.26"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:683
+msgid "dev-libs/expat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:683
+msgid "2.1.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:684
+msgid "dev-libs/fcgi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:684
+msgid "2.4.1_pre0910052249"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:685
+msgid "dev-libs/hyphen"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:686
+msgid "dev-libs/leveldb"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:686
+msgid "1.9.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:687
+msgid "dev-libs/libaio"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:687
+msgid "0.3.109"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:688
+msgid "dev-libs/libee"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:689
+msgid "dev-libs/libev"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:689
+msgid "4.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:690
+msgid "dev-libs/libgcrypt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:690
+msgid "1.5.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:691
+msgid "dev-libs/libgpg-error"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:691
+msgid "1.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:692
+msgid "dev-libs/libIDL"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:692
+msgid "0.8.14"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:693
+msgid "dev-libs/libmcrypt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:693
+msgid "2.5.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:694
+msgid "dev-libs/libpcre"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:694
+msgid "8.35"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:695
+msgid "dev-libs/libpthread-stubs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:696
+msgid "dev-libs/libtasn1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:697
+msgid "dev-libs/libtommath"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:697
+msgid "0.42.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:698
+msgid "dev-libs/libverto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:698
+msgid "0.2.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:699
+msgid "dev-libs/libyaml"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:699
+msgid "0.1.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:700
+msgid "dev-libs/lzo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:700
+msgid "2.06"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:701
+msgid "dev-libs/nspr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:701
+msgid "4.10.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:702
+msgid "dev-libs/nss"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:702
+msgid "3.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:703
+msgid "dev-libs/oniguruma"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:703
+msgid "5.9.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:704
+msgid "dev-libs/popt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:704
+msgid "1.16"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:705
+msgid "dev-libs/pth"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:705
+msgid "2.0.7"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:706
+msgid "dev-libs/yajl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:707
+msgid "dev-libs/zziplib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:707
+msgid "0.13.60"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:708
+msgid "dev-perl/Archive-Zip"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:708
+msgid "1.300.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:709
+msgid "dev-perl/Class-Accessor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:709
+msgid "0.340.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:710
+msgid "dev-perl/Convert-ASN1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:710
+msgid "0.260.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:711
+msgid "dev-perl/Convert-TNEF"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:712
+msgid "dev-perl/Convert-UUlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:713
+msgid "dev-perl/Crypt-OpenSSL-Bignum"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:713
+#: ../../src/changes/2014/r050-packageversions.rst:714
+msgid "0.40.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:714
+msgid "dev-perl/Crypt-OpenSSL-Random"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:715
+msgid "dev-perl/Crypt-OpenSSL-RSA"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:715
+msgid "0.280.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:716
+msgid "dev-perl/DBD-SQLite"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:716
+msgid "1.350.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:717
+msgid "dev-perl/Digest-HMAC"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:717
+#: ../../src/changes/2014/r050-packageversions.rst:719
+msgid "1.30.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:718
+msgid "dev-perl/Digest-SHA1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:718
+msgid "2.130.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:719
+msgid "dev-perl/Encode-Locale"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:720
+msgid "dev-perl/File-Listing"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:720
+msgid "6.40.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:721
+msgid "dev-perl/File-Tail"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:721
+msgid "0.99.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:722
+msgid "dev-perl/HTML-Tagset"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:722
+msgid "3.200.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:723
+msgid "dev-perl/HTTP-Daemon"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:724
+msgid "dev-perl/HTTP-Date"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:725
+msgid "dev-perl/HTTP-Message"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:726
+msgid "dev-perl/IO-Multiplex"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:726
+msgid "1.130.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:727
+msgid "dev-perl/IO-stringy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:727
+msgid "2.110.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:728
+msgid "dev-perl/Locale-gettext"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:728
+msgid "1.50.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:729
+msgid "dev-perl/LWP-MediaTypes"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:730
+msgid "dev-perl/Mail-SPF"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:731
+msgid "dev-perl/Math-Calc-Units"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:732
+msgid "dev-perl/Nagios-Plugin"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:733
+msgid "dev-perl/Net-Daemon"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:733
+msgid "0.480.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:734
+msgid "dev-perl/Net-DNS"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:734
+msgid "0.660.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:735
+msgid "dev-perl/Net-DNS-Resolver-Programmable"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:736
+msgid "dev-perl/Net-RBLClient"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:736
+msgid "0.500.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:737
+msgid "dev-perl/Net-SMTP-SSL"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:738
+msgid "dev-perl/Net-SMTP-TLS"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:738
+msgid "0.120.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:739
+msgid "dev-perl/Net-SNMP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:740
+msgid "dev-perl/Parse-Syslog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:741
+msgid "dev-perl/PlRPC"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:741
+msgid "0.202.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:742
+msgid "dev-perl/Sub-Name"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:742
+msgid "0.50.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:743
+msgid "dev-perl/Unix-Syslog"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:744
+msgid "dev-perl/URI"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:744
+msgid "1.600.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:745
+msgid "dev-perl/XML-Filter-BufferText"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:746
+msgid "dev-perl/XML-NamespaceSupport"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:746
+msgid "1.110.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:747
+msgid "dev-perl/XML-Parser"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:747
+msgid "2.410.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:748
+msgid "dev-perl/XML-SAX"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:748
+msgid "0.990.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:749
+msgid "dev-perl/XML-SAX-Base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:749
+msgid "1.80.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:750
+msgid "dev-perl/XML-SAX-Writer"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:751
+msgid "dev-php/pear"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:751
+#: ../../src/changes/2014/r050-packageversions.rst:755
+msgid "1.9.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:752
+msgid "dev-php/PEAR-Archive_Tar"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:752
+msgid "1.3.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:753
+msgid "dev-php/PEAR-Console_Getopt"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:754
+msgid "dev-php/PEAR-DB"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:755
+msgid "dev-php/PEAR-PEAR"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:756
+msgid "dev-php/PEAR-Structures_Graph"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:757
+msgid "dev-php/PEAR-XML_Util"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:758
+msgid "dev-python/argparse"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:759
+msgid "dev-python/configobj"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:759
+msgid "4.7.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:760
+msgid "dev-python/iso8601"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:761
+msgid "dev-python/nagiosplugin"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:762
+msgid "dev-python/netaddr"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:762
+msgid "0.7.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:763
+msgid "dev-python/pexpect"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:764
+msgid "dev-python/psutil"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:765
+msgid "dev-python/pycairo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:766
+msgid "2.28.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:767
+msgid "dev-python/pygtk"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:767
+msgid "2.24.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:768
+msgid "dev-python/python-ldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:769
+msgid "dev-python/pyyaml"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:769
+msgid "3.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:770
+msgid "dev-python/rtf2xml"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:770
+msgid "1.33"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:772
+msgid "dev-ruby/check-webpage"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:773
+msgid "dev-ruby/facter"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:774
+msgid "dev-ruby/fast_xs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:775
+msgid "dev-ruby/hpricot"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:775
+msgid "0.8.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:776
+msgid "dev-ruby/optiflag"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:777
+msgid "dev-ruby/rake-compiler"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:778
+msgid "dev-ruby/rubyforge"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:778
+msgid "2.0.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:779
+msgid "dev-ruby/ruby-ldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:779
+msgid "0.9.12"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:780
+msgid "dev-ruby/ruby-shadow"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:780
+msgid "2.1.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:781
+msgid "dev-scheme/guile"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:781
+msgid "1.8.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:782
+msgid "dev-tex/luatex"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:782
+msgid "0.70.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:783
+msgid "dev-util/ctags"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:783
+msgid "5.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:784
+msgid "dev-util/gperf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:785
+msgid "dev-util/intltool"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:785
+msgid "0.50.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:786
+msgid "dev-util/lockrun"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:786
+msgid "20120508"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:787
+msgid "dev-util/re2c"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:787
+msgid "0.13.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:788
+msgid "gnome-base/libglade"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:788
+msgid "2.6.4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:789
+msgid "java-virtuals/transaction-api"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:790
+msgid "mail-client/mailx"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:790
+msgid "8.1.2.20050715"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:791
+msgid "mail-client/mailx-support"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:791
+msgid "20060102"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:792
+msgid "mail-filter/amavisd-new"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:793
+msgid "mail-filter/postgrey"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:793
+msgid "1.34"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:794
+msgid "mail-filter/procmail"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:794
+msgid "3.22"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:795
+msgid "mail-filter/spamassassin"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:795
+msgid "3.3.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:796
+msgid "mail-mta/ssmtp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:796
+msgid "2.64"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:797
+msgid "media-fonts/corefonts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:798
+msgid "media-fonts/dejavu"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:798
+msgid "2.33"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:799
+msgid "media-fonts/encodings"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:800
+msgid "media-fonts/font-alias"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:801
+msgid "media-fonts/font-cursor-misc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:802
+msgid "media-fonts/font-misc-misc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:803
+msgid "media-fonts/font-util"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:804
+msgid "media-fonts/Humor-Sans"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:805
+msgid "media-fonts/liberation-fonts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:805
+msgid "2.00.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:806
+msgid "media-fonts/libertine-ttf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:806
+msgid "5.1.3.20110615"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:807
+msgid "media-fonts/unifont"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:807
+msgid "5.1.20080914"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:808
+msgid "media-fonts/urw-fonts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:809
+msgid "media-gfx/graphicsmagick"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:809
+msgid "1.3.18"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:810
+msgid "media-gfx/graphviz"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:810
+msgid "2.26.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:811
+msgid "media-gfx/imagemagick"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:811
+msgid "6.8.8.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:812
+msgid "media-libs/gd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:812
+msgid "2.0.35"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:813
+msgid "media-libs/giflib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:813
+msgid "4.1.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:814
+msgid "media-libs/jbig2dec"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:815
+msgid "6b"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:816
+msgid "8d"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:817
+msgid "media-libs/libart_lgpl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:817
+msgid "2.3.21"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:818
+msgid "media-libs/libpng"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:818
+msgid "1.6.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:819
+msgid "media-libs/libsdl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:819
+msgid "1.2.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:820
+msgid "media-libs/t1lib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:820
+msgid "5.1.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:821
+msgid "net-analyzer/check_email_delivery"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:822
+msgid "net-analyzer/fping"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:823
+msgid "net-analyzer/nagios"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:824
+msgid "net-analyzer/nagios-bpi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:825
+msgid "net-analyzer/nagios-core"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:826
+msgid "net-analyzer/nagios-plugins"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:827
+msgid "net-analyzer/nagios-plugins-snmp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:827
+msgid "0.6.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:828
+msgid "net-analyzer/netcat6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:829
+msgid "net-analyzer/netperf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:830
+msgid "net-analyzer/net-snmp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:830
+msgid "5.7.3_pre3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:831
+msgid "net-analyzer/ngrep"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:831
+msgid "1.45"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:832
+msgid "net-analyzer/nrpe"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:833
+msgid "net-analyzer/tcpdump"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:833
+msgid "4.3.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:834
+msgid "net-analyzer/traceroute"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:834
+msgid "2.0.18"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:835
+msgid "net-dns/bind"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:835
+msgid "9.9.4_p2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:836
+msgid "net-fs/box"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:836
+#: ../../src/changes/2014/r050-packageversions.rst:842
+msgid "0.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:837
+msgid "net-ftp/ftp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:837
+msgid "0.17"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:838
+msgid "net-ftp/ftpbase"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:838
+#: ../../src/changes/2014/r050-packageversions.rst:840
+msgid "0.01"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:839
+msgid "net-ftp/pure-ftpd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:839
+msgid "1.0.36"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:840
+msgid "net-im/jabber-base"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:841
+msgid "net-libs/gnutls"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:841
+msgid "2.12.23"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:842
+msgid "net-libs/libkeepalive"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:843
+msgid "net-libs/liblockfile"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:843
+msgid "1.09"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:844
+msgid "net-libs/libnfnetlink"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:845
+msgid "net-libs/libnfsidmap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:846
+msgid "net-libs/libpcap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:847
+msgid "net-libs/librsync"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:848
+msgid "net-libs/libtirpc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:849
+msgid "net-mail/mailman"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:849
+msgid "2.1.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:850
+msgid "net-mail/pfqueue"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:850
+msgid "0.5.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:851
+msgid "net-misc/chrony"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:851
+msgid "1.29.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:852
+msgid "net-misc/curl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:852
+msgid "7.36.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:854
+msgid "net-misc/iperf"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:854
+msgid "2.0.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:855
+msgid "net-misc/memcached"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:856
+msgid "net-misc/openssh"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:856
+msgid "6.6_p1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:857
+msgid "net-misc/pssh"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:858
+msgid "net-misc/rabbitmq-server"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:858
+msgid "2.7.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:859
+msgid "net-misc/rsync"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:859
+msgid "3.0.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:860
+msgid "net-misc/telnet-bsd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:861
+msgid "net-misc/tightvnc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:861
+msgid "1.3.10"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:862
+msgid "net-misc/wget"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:863
+msgid "net-nds/ldapvi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:864
+msgid "net-nds/openldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:864
+msgid "2.4.35"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:865
+msgid "net-nds/rpcbind"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:866
+msgid "net-proxy/haproxy"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:866
+msgid "1.4.24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:867
+msgid "perl-core/ExtUtils-Command"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:868
+msgid "perl-core/IO"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:868
+#: ../../src/changes/2014/r050-packageversions.rst:957
+msgid "1.25"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:869
+msgid "perl-core/JSON-PP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:869
+#: ../../src/changes/2014/r050-packageversions.rst:959
+msgid "2.272.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:870
+msgid "perl-core/Perl-OSType"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:871
+msgid "perl-core/Test-Simple"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:871
+#: ../../src/changes/2014/r050-packageversions.rst:961
+msgid "0.980.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:872
+msgid "perl-core/Version-Requirements"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:872
+#: ../../src/changes/2014/r050-packageversions.rst:962
+msgid "0.101.20"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:873
+msgid "sci-geosciences/mapnik"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:874
+msgid "sci-libs/colamd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:875
+msgid "sci-libs/libgeotiff"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:876
+msgid "sci-libs/proj"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:876
+msgid "4.8.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:877
+msgid "sci-libs/ufconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:877
+msgid "3.5.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:878
+msgid "sci-mathematics/lpsolve"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:878
+msgid "5.5.2.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:879
+msgid "sys-apps/acl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:879
+msgid "2.2.51"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:880
+msgid "sys-apps/busybox"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:880
+msgid "1.21.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:881
+msgid "sys-apps/dstat"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:881
+msgid "0.7.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:882
+msgid "sys-apps/ed"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:883
+msgid "sys-apps/findutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:883
+msgid "4.4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:884
+msgid "sys-apps/groff"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:884
+msgid "1.22.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:885
+msgid "sys-apps/keyutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:885
+msgid "1.5.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:886
+msgid "sys-apps/lsb-release"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:887
+msgid "sys-apps/man"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:887
+msgid "1.6g"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:888
+msgid "sys-apps/miscfiles"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:889
+msgid "sys-apps/net-tools"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:889
+msgid "1.60_p20120127084908"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:890
+msgid "sys-apps/sed"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:890
+msgid "4.2.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:891
+msgid "sys-apps/sysvinit"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:891
+msgid "2.88"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:892
+msgid "sys-apps/texinfo"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:892
+msgid "4.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:893
+msgid "sys-apps/which"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:894
+msgid "sys-apps/xinetd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:894
+msgid "2.3.15"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:895
+msgid "sys-auth/nss_ldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:895
+msgid "265"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:896
+msgid "sys-auth/pam_ldap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:896
+msgid "183"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:897
+msgid "sys-block/parted"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:898
+msgid "0.97"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:899
+msgid "sys-cluster/ceph"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:899
+msgid "0.72.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:900
+msgid "2.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:901
+msgid "1.11.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:902
+msgid "1.12.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:903
+msgid "sys-devel/bc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:903
+msgid "1.06.95"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:904
+msgid "sys-devel/binutils-config"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:904
+msgid "3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:905
+msgid "sys-devel/bison"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:905
+msgid "2.4.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:907
+msgid "sys-devel/gcc-config"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:907
+msgid "1.7.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:908
+msgid "sys-devel/libperl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:908
+msgid "5.10.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:909
+msgid "sys-devel/libtool"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:909
+msgid "2.4.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:910
+msgid "sys-devel/m4"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:911
+msgid "sys-devel/make"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:911
+msgid "3.82"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:912
+msgid "sys-devel/patch"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:914
+msgid "sys-kernel/linux-firmware"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:914
+msgid "20130728"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:915
+msgid "sys-libs/db"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:915
+msgid "4.8.30"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:916
+msgid "sys-libs/gdbm"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:916
+msgid "1.8.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:917
+msgid "sys-libs/libcap"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:918
+msgid "sys-libs/ncurses"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:918
+msgid "5.9"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:919
+msgid "sys-libs/readline"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:919
+msgid "6.2_p1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:920
+msgid "sys-libs/zlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:920
+msgid "1.2.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:921
+msgid "sys-process/acct"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:921
+msgid "6.5.5"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:922
+msgid "sys-process/at"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:922
+msgid "3.1.13"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:923
+msgid "sys-process/atop"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:923
+msgid "1.27_p3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:924
+msgid "sys-process/cronbase"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:925
+msgid "sys-process/lsof"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:925
+msgid "4.85"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:926
+msgid "sys-process/restarter"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:927
+msgid "sys-process/vixie-cron"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:927
+msgid "4.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:928
+msgid "virtual/acl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:929
+msgid "virtual/cron"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:930
+msgid "virtual/dev-manager"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:931
+msgid "virtual/editor"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:932
+msgid "virtual/emacs"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:932
+msgid "24"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:933
+msgid "virtual/freedesktop-icon-theme"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:934
+msgid "virtual/httpd-cgi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:935
+msgid "virtual/inetd"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:937
+#: ../../src/changes/2014/r050-packageversions.rst:940
+msgid "1.7.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:939
+msgid "62"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:940
+msgid "virtual/jre"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:941
+msgid "virtual/libc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:942
+msgid "virtual/libiconv"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:943
+msgid "virtual/libintl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:944
+msgid "virtual/linux-sources"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:945
+msgid "virtual/logger"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:946
+msgid "virtual/man"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:947
+msgid "virtual/modutils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:949
+msgid "virtual/opengl"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:949
+msgid "7.0"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:950
+msgid "virtual/os-headers"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:951
+msgid "virtual/package-manager"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:952
+msgid "virtual/pager"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:953
+msgid "virtual/pam"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:954
+msgid "virtual/perl-ExtUtils-Command"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:955
+msgid "virtual/perl-File-Temp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:956
+msgid "virtual/perl-Getopt-Long"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:957
+msgid "virtual/perl-IO"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:958
+msgid "virtual/perl-IO-Zlib"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:959
+msgid "virtual/perl-JSON-PP"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:960
+msgid "virtual/perl-Perl-OSType"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:961
+msgid "virtual/perl-Test-Simple"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:962
+msgid "virtual/perl-Version-Requirements"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:963
+msgid "virtual/pkgconfig"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:966
+msgid "virtual/shadow"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:967
+msgid "virtual/ssh"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:968
+msgid "virtual/ttf-fonts"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:969
+msgid "virtual/yacc"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:970
+msgid "www-apache/mod_authnz_external"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:970
+msgid "3.2.6"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:971
+msgid "www-apache/mod_python"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:972
+msgid "www-apache/mod_wsgi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:973
+msgid "www-apps/websvn"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:974
+msgid "www-client/links"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:974
+#: ../../src/changes/2014/r050-packageversions.rst:989
+msgid "2.8"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:975
+msgid "www-misc/awstats"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:975
+msgid "7.1_p20121017"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:976
+msgid "www-servers/apache"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:977
+msgid "www-servers/spawn-fcgi"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:977
+msgid "1.6.3"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:978
+msgid "x11-apps/mkfontdir"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:979
+msgid "x11-libs/agg"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:980
+msgid "x11-libs/libICE"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:981
+msgid "x11-libs/libXdmcp"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:982
+msgid "x11-libs/libXfont"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:983
+msgid "x11-libs/libXft"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:984
+msgid "x11-misc/gccmakedep"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:985
+msgid "x11-misc/icon-naming-utils"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:985
+msgid "0.8.90"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:986
+msgid "x11-misc/xbitmaps"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:987
+msgid "x11-proto/compositeproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:988
+msgid "x11-proto/damageproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:989
+msgid "x11-proto/dri2proto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:990
+msgid "x11-proto/fixesproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:991
+msgid "x11-proto/fontsproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:992
+msgid "x11-proto/kbproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:993
+msgid "x11-proto/printproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:994
+msgid "x11-proto/randrproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:995
+msgid "x11-proto/recordproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:995
+msgid "1.14.2"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:996
+msgid "x11-proto/renderproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:996
+msgid "0.11.1"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:997
+msgid "x11-proto/xf86bigfontproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:998
+msgid "x11-proto/xf86driproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:999
+msgid "x11-proto/xf86vidmodeproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:1000
+msgid "x11-proto/xineramaproto"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:1001
+msgid "x11-themes/hicolor-icon-theme"
+msgstr ""
+
+#: ../../src/changes/2014/r050-packageversions.rst:1001
+msgid "0.12"
+msgstr ""
+

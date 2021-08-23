@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2017/r016.rst:4
+msgid "Release 2017_016 (2017-08-03)"
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:9
+msgid "`coturn` services will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:10
+msgid "NodeJS based services will be restarted."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:14
+msgid "Network"
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:16
+msgid "Add new IPv4 address range 185.105.252.0/24 for VMs (#16370)."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:20
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:22
+msgid "Fix bug in journal check which lead to invalid file references (#27697)."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:23
+msgid "Security: Update `coturn` from version 4.5.0.3 to 4.5.0.6."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:24
+msgid ""
+"Security: Update NodeJS 7.10.0 to 7.10.1, 6.9.1 to 6.11.1 and 4.8.3 to "
+"4.8.4 (#27817)."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:26
+msgid "Improve startup ordering for varnish (#27558)."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:27
+msgid "Grafana/ElasticSearch/Telegraf integration (#27132)."
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:30
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2017/r016.rst:32
+msgid ""
+"We switched the public probes for determining whether our data centers "
+"have proper internet connectivity from the usually reliable `heise.de` to"
+" the well-known IPs of Google's Public DNS after having had to deal with "
+"false positives. (#27868)"
+msgstr ""
+

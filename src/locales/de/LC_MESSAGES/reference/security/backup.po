@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/security/backup.rst:7
+msgid "Backup"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:9
+msgid ""
+"All persistent data of a virtual machine is stored on a central storage "
+"cluster. The storage cluster is independent of the host that runs the "
+"virtual machine. The storage cluster keeps the virtual disk in Ceph RADOS"
+" Block Devices."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:13
+msgid ""
+"We perform backups at the \"block layer\": the virtual disk is copied as "
+"a full image into our backup system, where either the filesystem can be "
+"mounted read-only to retrieve individual files or the whole virtual disk "
+"can be restored into Ceph."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:18
+msgid ""
+"The application software used for backups is `Backy`_, an open-source "
+"backup solution."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:22
+msgid "Schedule"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:24
+msgid "Backups are run daily or hourly, depending on the chosen backup level."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:26
+msgid "The *default* (daily) backup schedule retains the following backups:"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:28
+#: ../../src/reference/security/backup.rst:35
+msgid "Daily backups for the past 10 days."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:29
+#: ../../src/reference/security/backup.rst:36
+msgid "Weekly backups for the past 5 weeks."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:30
+#: ../../src/reference/security/backup.rst:37
+msgid "Monthly backups for the past 4 months."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:32
+msgid "The *hourly* backup schedule retains the following backups:"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:34
+msgid "Hourly backups for the last 25 hours"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:39
+msgid ""
+"If backups were missed then the retention period keeps at least that many"
+" copies before deleting them, i.e. there will always be 25 hourly backups"
+"  even if a backup was missed for some reason."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:43
+msgid ""
+"Backups are created at fixed intervals but the time during the interval "
+"is not guaranteed. I.e. daily backups for a specific VM occur every 24 "
+"hours at the same time but there is no guarantee for a specific time, "
+"like 03:00."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:48
+msgid "Procedure"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:50
+msgid ""
+"Backups are performed outside of the virtual machine: the backup server "
+"directly accesses the Ceph cluster to retrieve the data."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:53
+msgid ""
+"First the VM's filesystem is being frozen to ensure consistency of the "
+"backup. Then a snapshot of the volume is made. The snapshot is then "
+"retrieved by the backup server as a difference to the previous backup. "
+"After the backup is finished a random sample is verified against the "
+"snapshot, to further ensure consistency."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:57
+msgid ""
+"The backup procedure is logged to the filesystem of the backup server. We"
+" automatically monitor that all backups are taken within the agreed "
+"schedule."
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:60
+msgid "Restore"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:62
+msgid ""
+"Single files or full VMs can be restored by our infrastructure "
+"administrators. Please submit a support request with the following "
+"information:"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:65
+msgid "which machine to restore files for"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:66
+msgid "which files (specific path names)"
+msgstr ""
+
+#: ../../src/reference/security/backup.rst:67
+msgid "from which approximate time (e.g. \"before last saturday\")"
+msgstr ""
+

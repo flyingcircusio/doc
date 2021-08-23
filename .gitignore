@@ -1,5 +1,5 @@
 .installed.cfg
-_build
+/_build*/
 bin
 eggs
 lib
@@ -8,3 +8,4 @@ pyvenv.cfg
 /lib64
 /share/
 /result
+*.mo

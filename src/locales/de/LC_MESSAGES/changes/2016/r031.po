@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2016/r031.rst:4
+msgid "Release 2016_031 (2016-10-13)"
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:9
+msgid "MySQL servers running on NixOS VMs are being restarted."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:10
+msgid "RabbitMQ will be restarted on NixOS VMs."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:14
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:16
+msgid "Increase kernel loglevel to help debug VM crashes."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:17
+#, python-format
+msgid ""
+"Reduce MySQL buffer pool from 80% to 70% of RAM. We saw VMs starting to "
+"swap."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:18
+msgid ""
+"Update Vulnix for improved scanning times and flexible whitelist handling"
+" (#23254)."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:20
+msgid "Reduce journal noise: sensu-client, systemd-quotacheck (#21808)."
+msgstr ""
+
+#: ../../src/changes/2016/r031.rst:21
+msgid "Update RabbitMQ to 3.6.5 (#23773)."
+msgstr ""
+

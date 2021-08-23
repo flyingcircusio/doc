@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/reference/security/disaster-recovery.rst:4
+#: ../../src/reference/security/disaster-recovery.rst:56
+#: ../../src/reference/security/disaster-recovery.rst:71
+#: ../../src/reference/security/disaster-recovery.rst:90
+#: ../../src/reference/security/disaster-recovery.rst:105
+#: ../../src/reference/security/disaster-recovery.rst:122
+#: ../../src/reference/security/disaster-recovery.rst:139
+#: ../../src/reference/security/disaster-recovery.rst:157
+#: ../../src/reference/security/disaster-recovery.rst:177
+#: ../../src/reference/security/disaster-recovery.rst:195
+#: ../../src/reference/security/disaster-recovery.rst:210
+#: ../../src/reference/security/disaster-recovery.rst:227
+#: ../../src/reference/security/disaster-recovery.rst:244
+#: ../../src/reference/security/disaster-recovery.rst:257
+msgid "Disaster recovery"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:6
+msgid ""
+"This disaster recovery plan provides an overview of the expected "
+"disasters and how Flying Circus systems and personnel is prepared to deal"
+" with them."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:9
+msgid "For each scenario we give:"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:11
+msgid "a preventive action"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:12
+msgid "the recovery action"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:13
+msgid "the recovery time and recovery point objective"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:14
+msgid "measures we take to prevent the scenario"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:17
+msgid "Terminology"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:20
+msgid "RTO"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:20
+msgid ""
+"Recovery time objective. The planned time needed between discovering a "
+"disaster and restoring the service."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:24
+msgid "RPO"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:23
+msgid ""
+"Recovery point objective. The point in time to which data will be "
+"available after recovery. Given as in \"time before the disaster\"."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:27
+msgid ""
+"If recovery actions are neither self-service nor automatic then a 1 hour "
+"response time is included to notify the standby support technician."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:32
+msgid "Hardware errors"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:35
+msgid "Loss of active network component"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:39
+#: ../../src/reference/security/disaster-recovery.rst:64
+#: ../../src/reference/security/disaster-recovery.rst:82
+#: ../../src/reference/security/disaster-recovery.rst:98
+#: ../../src/reference/security/disaster-recovery.rst:114
+#: ../../src/reference/security/disaster-recovery.rst:132
+#: ../../src/reference/security/disaster-recovery.rst:150
+#: ../../src/reference/security/disaster-recovery.rst:166
+#: ../../src/reference/security/disaster-recovery.rst:187
+#: ../../src/reference/security/disaster-recovery.rst:201
+#: ../../src/reference/security/disaster-recovery.rst:217
+#: ../../src/reference/security/disaster-recovery.rst:236
+#: ../../src/reference/security/disaster-recovery.rst:250
+msgid "Disaster prevention"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:38
+msgid ""
+"We deploy hot-standby routers, active-active redundant core switches and "
+"keep warm standby ports on neighbouring switches."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:42
+msgid ""
+"Swap faulty component with standby component. This happens automatically "
+"for routers and manually for switches."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:45
+msgid ""
+"Depending on the affected services higher level components' redundancies "
+"( storage, virtualisation) may allow faster recovery times."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:48
+msgid "RTO for hot-standby routers: less than 15 seconds"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:50
+msgid "RTO for core switches: 0 seconds (active-active)"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:52
+msgid "RTO for access switch port failures: 1 hour"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:54
+msgid "RTO for access switch complete failures: 4 hours"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:56
+#: ../../src/reference/security/disaster-recovery.rst:139
+#: ../../src/reference/security/disaster-recovery.rst:157
+#: ../../src/reference/security/disaster-recovery.rst:176
+msgid "RPO: n/a"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:59
+msgid "Loss of VM server"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:62
+msgid ""
+"We buy professional hardware with those components that are most likely "
+"to fail built in redundantly: multiple disks in RAID and a redundant "
+"power supply."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:67
+msgid "Restart virtual machines from the failed host on spare hosts."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:69
+msgid "RTO: within customer-specific SLA + 15 minutes"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:71
+#: ../../src/reference/security/disaster-recovery.rst:90
+msgid "RPO: 0"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:74
+msgid "Loss of storage servers covered by redundancy"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:77
+msgid ""
+"We store all virtual machine images on a distributed storage system "
+"(Ceph) with n+2 redundancy. Loss of a single server can be masked "
+"transparently."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:80
+msgid ""
+"We can loose multiple storage servers, depending on the capacity of our "
+"cluster. We expect to be able to loose at least 2 servers without "
+"impacting service or data availability."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:85
+msgid ""
+"Ceph performs automatic recovery. Reduced I/O performance may be "
+"experienced during this period on virtual machines."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:88
+msgid "RTO: 5 minutes"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:93
+msgid "Loss of storage servers exceeding redundancy"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:96
+msgid ""
+"This is a multi-layered issue. In the case of loss of redundancy beyond "
+"automatic repair abilities requires manual specific diagnostics and "
+"decision-making."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:101
+msgid "Restore virtual machines from backup."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:103
+msgid "RTO: 4 hours + 5 hours per TiB of VM storage"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:105
+msgid "RPO: 24 hours / 1 hour [#fn1]_"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:108
+msgid "Loss of server rack"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:111
+msgid ""
+"The most likely scenario to loose a server rack is due to overheating and"
+" fire. We thus pack racks loosely to allow for optimal air-flow and "
+"density without over-heating. Also, the data center operator employs a "
+"smoke detection system that allows for early detection and fire "
+"prevention."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:117
+msgid "Buy and install new hardware, provision to new rack in data center."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:119
+msgid "RTO: 2 weeks"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:121
+msgid "RPO: not available"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:125
+msgid "Force majeure"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:128
+msgid "Loss of power in the data center"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:131
+msgid ""
+"Require redundant power lines, UPS backup, and diesel generators in the "
+"data center."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:135
+msgid "Data center personnel restores power."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:137
+#: ../../src/reference/security/disaster-recovery.rst:155
+msgid "RTO: n/a, covered by 3rd party 99.99% SLA"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:142
+msgid "Loss of uplink connectivity in the data center"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:145
+msgid ""
+"The data center provides redundant uplinks to the internet together with "
+"separate underground cables from different directions. The data center "
+"also uses a highly-available routers and network."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:149
+msgid ""
+"The Flying Circus has a service level agreement on the availability of "
+"the network with the data center provider."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:153
+msgid "Data center restores connectivity"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:160
+msgid "Loss of data center"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:163
+msgid ""
+"Our data center implements a variety of security measures certified "
+"through the ISO 27000 family."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:166
+msgid "RZOB: http://www.kamp.de/kamp-rechenzentrum/sicherheit.html"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:169
+msgid ""
+"Evaluate recovery of data center, if possible together with the data "
+"center operator."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:172
+msgid "Alternatively find new data center and rebuild infrastructure."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:174
+msgid "RTO: n/a"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:180
+msgid "Software errors"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:183
+msgid "Filesystem corruption"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:186
+msgid ""
+"We use mature file systems in our storage cluster, backup solutions and "
+"with the VMs which can cause inconsistencies under failure scenarios."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:190
+msgid ""
+"Restore filesystem or missing files from backups, recreate backups in "
+"case of file system errors on backup systems."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:193
+#: ../../src/reference/security/disaster-recovery.rst:206
+#: ../../src/reference/security/disaster-recovery.rst:222
+#: ../../src/reference/security/disaster-recovery.rst:241
+#: ../../src/reference/security/disaster-recovery.rst:255
+msgid "RTO: depends on SLA [#fn2]_"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:195
+#: ../../src/reference/security/disaster-recovery.rst:243
+#: ../../src/reference/security/disaster-recovery.rst:257
+msgid "RPO: 1 day/1 hour [#fn1]_"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:198
+msgid "Configuration errors"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:201
+msgid ""
+"Leverage automated, repeatable, and version-controlled configuration "
+"systems."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:204
+msgid "Roll back configuration changes and restore backups if data is lost."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:208
+msgid "RPO for reversible configuration changes: 4 hours"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:210
+#: ../../src/reference/security/disaster-recovery.rst:226
+msgid "RPO for restore: 1 day/1 hour [#fn1]_"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:213
+msgid "Application errors"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:216
+msgid ""
+"Leverage automated, repeatable, and version-controlled application "
+"deployment. Leverage fully separated test/staging/production "
+"environments."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:220
+msgid "Re-install application and restore backups if data is lost."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:224
+msgid "RPO for reinstallation: 4 hours"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:230
+msgid "User errors"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:233
+msgid "Accidental single file deletion"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:236
+msgid "Performing backups."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:239
+msgid "Restore deleted file from backup."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:247
+msgid "Accidental database/directory tree deletion"
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:250
+msgid "Restricting root access and performing backups."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:253
+msgid "Restore deleted files from backup."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:259
+msgid ""
+"RPO is 1 day for all virtual machines covered by the default backup "
+"schedule. Customers can opt for a more frequent backup schedule with "
+"hourly backups."
+msgstr ""
+
+#: ../../src/reference/security/disaster-recovery.rst:262
+msgid ""
+"Standard support reaction time is 4 hours during office hours. Customers "
+"may book SLAs with shorter guaranteed reaction times. Restore RTOs "
+"require the SLAs basic RTO + 5 hours per TiB of VM storage."
+msgstr ""
+

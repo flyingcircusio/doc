@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r022.rst:4
+msgid "Release 2014_022 (2014-04-29)"
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:7
+msgid "Packages"
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:9
+msgid "Start using btrfs for experimental backup volumes (#13328)."
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:15
+msgid ""
+"Changed old \"gocept.net LDAP login\" to \"flyingcircus.io login\" on "
+"various HTTP basic auth challenges."
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:17
+msgid "Fix unicode issue in management scripts for /etc/passwd."
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:18
+msgid ""
+"Replace ActiveRecord with PuppetDB for the Puppet storage terminus "
+"(#10916)."
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:19
+msgid ""
+"Improve robustness of the backup subsystem against VMs that have been "
+"deliberately set offline (#13357)."
+msgstr ""
+
+#: ../../src/changes/2014/r022.rst:21
+msgid "Improve robustness of MySQL network configuration."
+msgstr ""
+

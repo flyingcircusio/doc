@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2014/r038.rst:4
+msgid "Release 2014_038 (2014-08-04)"
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:7
+msgid "Configuration"
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:9
+msgid "Ceph storage stability and operability improvements (#13496)."
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:10
+msgid ""
+"Reduce bloated network buffer to ensure prompt response to fully loaded "
+"network interfaces (#13496)."
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:12
+msgid ""
+"Fix bug which stops automated system configuration after the *box* server"
+" goes down (RT 96869)."
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:16
+msgid "Monitoring"
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:18
+msgid "Monitor RAID controllers more closely for media errors (#13496)."
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:21
+msgid "Other"
+msgstr ""
+
+#: ../../src/changes/2014/r038.rst:23
+msgid ""
+"Require a reboot for all virtual machines online since before 2014-06-10 "
+"to run a preventative fsck."
+msgstr ""
+

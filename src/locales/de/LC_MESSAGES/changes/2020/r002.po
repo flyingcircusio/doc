@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2020/r002.rst:4
+msgid "Release 2020_002 (2020-01-21)"
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:7
+msgid "Impact"
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:9
+msgid "[NixOS 19.03] VMs will be rebooted during individual maintenance windows."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:13
+msgid "NixOS 19.03 platform"
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:15
+msgid "Add loghost, graylog (3.x) and elasticsearch (5.x, 6.x) roles (#119556)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:16
+msgid "Logging from 19.03 hosts to Graylog works now (#120805)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:17
+msgid ""
+"Use BFQ for I/O scheduling to reduce system load during OS garbage "
+"collection (#119463, #115735)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:19
+msgid "Update kernel to 4.19.94 (#122779)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:20
+msgid "Prometheus/statshost: fix missing data after upgrade from 15.09 (#115483)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:24
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:26
+msgid "Increase warning/critical limits for dovecot [hotfix] (#122785)."
+msgstr ""
+
+#: ../../src/changes/2020/r002.rst:27
+msgid "Fix error on puppet certificate renewal (#122712)."
+msgstr ""
+

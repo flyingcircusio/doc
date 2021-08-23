@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2021-07-27\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/changes/2018/r029.rst:4
+msgid "Release 2018_029 (2018-10-10)"
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:7
+msgid "NixOS platform"
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:9
+msgid "Update InfluxDB to 1.6.3 (#106460)."
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:10
+msgid "Fix metric gaps on central statshost (#106553)."
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:11
+msgid ""
+"Backport Chromium 69.0.3497.81 and Chromedriver 2.41 from 18.09 (#106464,"
+" #105369)."
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:16
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:18
+msgid ""
+"Work around performance bottleneck while removing deleted VMs on backup "
+"servers (#106478)."
+msgstr ""
+
+#: ../../src/changes/2018/r029.rst:20
+msgid "Fix bug in VM root drive resizing (#105199)"
+msgstr ""
+
