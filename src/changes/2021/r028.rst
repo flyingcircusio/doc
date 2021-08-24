@@ -12,7 +12,11 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* fc-agent: add structured logging output for better error reporting and more
+  insights into what automated updates are doing. This also changes the output
+  of the fc-manage command when run manually to give better user feedback.
+  Structured logging output can be explored with journalctl or graylog (loghost)
+  (#PL-130029).
 
 
 NixOS 20.09 platform
