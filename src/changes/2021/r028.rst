@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-08-30
 
-Release 2021_028 (unreleased)
+Release 2021_028 (2021-08-30)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -29,30 +23,6 @@ NixOS 20.09 platform
 * Fix a race condition between a system rebuild and automatic garbage collection
   that can possibly damage the system (#PL-130040).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/101082/download/1/nixexprs.tar.xz
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
