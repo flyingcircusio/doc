@@ -12,8 +12,26 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-130071):
 
+    * ffmpeg: patch CVE-2021-33815 and CVE-2021-38114
+    * haproxy: 2.3.10 -> 2.3.13
+    * linux: 5.10.57 -> 5.10.60
+    * matrix-synapse: 1.39.0 -> 1.41.0
+
+* Nginx: custom Flying Circus options can be fully configured
+  via Nix code now. ``flyingcircus.services.nginx.virtualHosts.<domain>``
+  supports the same options as JSON config for easy porting of JSON to Nix.
+  The options ``services.nginx.virtualHosts.<domain>.listenAddress`` and
+  ``listenAddress6`` were removed, use ``listenAddresses``
+  (a list of IPv4 and quoted IPv6 addresses) instead.
+  The two options still exist in JSON config but will be deprecated in the
+  future. (#PL-129843).
+* Mailserver: add ``imprintUrl`` and ``imprintText`` (config.json or via Nix code)
+  to allow the user to specify either HTML or an URL to redirect
+  to from the mailHost FQDN. These options can be used to serve an imprint which
+  may be required by some mail providers on the other side like T-Online, for example.
+  (#PL-129598).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
