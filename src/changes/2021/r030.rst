@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-09-13
 
-Release 2021_030 (unreleased)
+Release 2021_030 (2021-09-13)
 -----------------------------
 
 Impact
@@ -40,30 +40,6 @@ NixOS 20.09 platform
 
 * webgateway: update haproxy to 2.2.17 for a critical security fix (CVE-2021-40346) (#PL-130098).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/102556/download/1/nixexprs.tar.xz
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
