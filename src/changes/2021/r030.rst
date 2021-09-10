@@ -6,19 +6,38 @@ Release 2021_030 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] sshd will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* webgateway: update haproxy to 2.3.14 for a critical security fix (CVE-2021-40346) (#PL-130098).
+* Use OpenSSH 8.7 for ssh/sshd. This fixes frequent sshd crashes caused by
+  malicious connection attempts that fail. This update has potentially
+  imcompatible changes that won't affect common use of ssh.
+  See https://www.openssh.com/releasenotes.html for details (#PL-130095).
+* Mailserver: fix building the example config if there's no config file, yet.
+  Already released as hotfix (#PL-130086).
+* fc-agent: various logging fixes and improvements. Nix build errors are now
+  easier to find in the journal and Graylog (#PL-130088).
+* journalbeat: add option flyingcircus.journalbeat.fields.
+  This is used by default to add VM metadata to log messages that are sent out
+  to loghosts/Graylog (#PL-130085).
+* jornalbeat: add VM resources info (cores, disk, iops, memory) to log messages (#PL-130097).
+* fc-agent and fc-garbage-collect: apply CPU/IO limitations and low priority
+  settings via SystemD units to avoid load peaks and resulting alerts.
+  This is often caused by iowait on HDD VMs.
+  We tried to limit the impact before by using ionice and by limiting the
+  amount of collected garbage but we still had problems on mostly idle
+  machines or when agent and garbage collection ran at the same time (#PL-130083).
+* Ignore "other error" count on drives controlled by MegaRAID controllers to
+  reduce monitoring noise (#PL-130057).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* webgateway: update haproxy to 2.2.17 for a critical security fix (CVE-2021-40346) (#PL-130098).
 
 
 NixOS 19.03 platform
