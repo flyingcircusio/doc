@@ -9,6 +9,7 @@ The following people are administrators for the Flying Circus:
 * Christian Theune
 * Christian Zagrodnick
 * Frank Lanitz
+* Nils Möller
 * Tobias Stenzel
 
 
