@@ -1,8 +1,8 @@
 Policy
 ======
 
-.. note:: This documents the ISMS Policy, as released on 2020-08-03
-.. https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=5006
+.. note:: This documents the ISMS Policy, as released on 2021-09-21
+.. https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=6099
 
 We, the management of Flying Circus Internet Operations, decided to establish an Information Security Management System (ISMS) according to the international standard ISO/IEC 27001.
 
@@ -49,3 +49,4 @@ The commitment to accomplish the above goals is to be carried forward into pract
 * There is open, transparent exchange with customers, partner companies, and service providers regarding information security.
 * Staff is appropriately educated, trained, and informed to follow defined policies, business directives, and procedures for information security.
 * Trends, developments, upcoming threats in information security are actively observed and assessed with regard to their relevance to us.
+* Management defines specific ISMS goals each year which are mapped to the general information security goals.
