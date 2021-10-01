@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2021-10-04
 
-Release 2021_032 (unreleased)
+Release 2021_032 (2021-10-04)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -31,34 +25,10 @@ NixOS 21.05 platform
   or re-enable the old behavior if needed. (#PL-130114).
 * Production channel for this release: https://hydra.flyingcircus.io/build/104035/download/1/nixexprs.tar.xz
 
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 19.03 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
 * SSH: use secure key exchange algorithms, ciphers and MACs like on our NixOS platforms (#141842).
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
