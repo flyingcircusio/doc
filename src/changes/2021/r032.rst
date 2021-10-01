@@ -25,6 +25,15 @@ NixOS 21.05 platform
   or re-enable the old behavior if needed. (#PL-130114).
 * Production channel for this release: https://hydra.flyingcircus.io/build/104035/download/1/nixexprs.tar.xz
 
+
+NixOS 15.09 platform
+^^^^^^^^^^^^^^^^^^^^
+
+* Already released as hotfix: due to the `Compatibility issues with new Let's Encrypt X1 Root certificate <http://status.flyingcircus.io/incidents/1lclb8tktl8s?u=sq2v1cppvw8x>`_,
+  we had to roll out a new release with an updated SSL certificate bundle manually to
+  fix our automated system management. This removes support for `Graylog` and the `docsplit` package
+  because they need old Java versions that don't build anymore.
+
 Gentoo platform
 ^^^^^^^^^^^^^^^
 
