@@ -1,4 +1,5 @@
-.. last review: 2020-05-06
+.. last review: 2021-04-10
+.. review schedule: 1 year
 .. ISMSControl: A.5.1.1
 .. ISMSControl: A.12.3.1
 .. _backup:
