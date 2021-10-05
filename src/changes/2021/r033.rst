@@ -6,13 +6,20 @@ Release 2021_033 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Merge upstream NixOS changes that include security fixes and other updates (#PL-130129):
+
+    * element-web: 1.8.5 -> 1.9.0
+    * imagemagick: 7.1.0-6 -> 7.1.0-8
+    * linux: 5.10.67 -> 5.10.70
+    * php74: 7.4.23 -> 7.4.24 (CVE-2021-21706)
+    * php80: 8.0.10 -> 8.0.11
+
 
 
 NixOS 20.09 platform
