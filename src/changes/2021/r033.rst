@@ -12,6 +12,8 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+
+* [hotfix] Apache: security update 2.4.49 -> 2.4.51 (CVE-2021-41773, CVE-2021-42013) (#PL-130135).
 * Merge upstream NixOS changes that include security fixes and other updates (#PL-130129):
 
     * element-web: 1.8.5 -> 1.9.0
@@ -20,6 +22,7 @@ NixOS 21.05 platform
     * php74: 7.4.23 -> 7.4.24 (CVE-2021-21706)
     * php80: 8.0.10 -> 8.0.11
 
+* Fix xtrabackup for Percona 8 (#PL-130139).
 
 
 NixOS 20.09 platform
