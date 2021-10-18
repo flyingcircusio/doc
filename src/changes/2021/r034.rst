@@ -12,7 +12,13 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* The ACME cert renewal service now tries to run three times per hour on failure
+  to avoid hitting the Letsencrypt rate limit (5 failed authorizations per hour) (#PL-130150).
+* Install upstream PHP (currently 7.4) globally on machines instead of
+  lamp_php73 and drop composer to reduce installation size and speed up updates.
+  Machines using the lamp role are not affected, they still install the PHP package
+  used by lamp and composer with matching versions globally (#PL-130145).
+
 
 
 NixOS 20.09 platform
