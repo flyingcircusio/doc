@@ -6,8 +6,8 @@ Release 2021_034 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
-
+* [NixOS 21.05] MySQL will be restarted.
+* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -18,8 +18,17 @@ NixOS 21.05 platform
   lamp_php73 and drop composer to reduce installation size and speed up updates.
   Machines using the lamp role are not affected, they still install the PHP package
   used by lamp and composer with matching versions globally (#PL-130145).
+* MySQL/Percona: increase start and stop timeout to 15 minutes to avoid interrupting recovery or flushing of dirty pages (#PL-130155).
+* Pull in upstream NixOS changes that include security fixes and other updates (#PL-130159):
 
-
+    * ffmpeg: patch CVE-2021-38171 and CVE-2021-38291
+    * github-runner: 2.282.0 -> 2.283.3
+    * grafana: 7.5.10 -> 7.5.11, fix CVE-2021-39226
+    * linux: 5.10.70 -> 5.10.71
+    * matrix-synapse: 1.43.0 -> 1.44.0
+    * nodejs-12_x: 12.22.6 -> 12.22.7
+    * nodejs-16_x: 16.10.0 -> 16.11.0
+    * nodejs: 14.17.6 -> 14.18.1
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
