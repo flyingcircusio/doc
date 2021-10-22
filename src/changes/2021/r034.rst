@@ -7,6 +7,8 @@ Impact
 ^^^^^^
 
 * [NixOS 21.05] MySQL will be restarted.
+* [NixOS 21.05] Jitsi will be restarted and unavailable for a short amount of time.
+* [NixOS 21.05] Some network-related services will be restarted.
 * [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
 
 NixOS 21.05 platform
@@ -29,6 +31,15 @@ NixOS 21.05 platform
     * nodejs-12_x: 12.22.6 -> 12.22.7
     * nodejs-16_x: 16.10.0 -> 16.11.0
     * nodejs: 14.17.6 -> 14.18.1
+
+* Jitsi: update jitsi-videobridge, jicofo and jitsi-meet to latest stable versions (#PL-130164).
+* Ensure proper order of startup and shutdown for services that are likely to
+  access NFS shares. This affects mainly LAMP stacks and nginx from a platform
+  perspective. Customer applications should adapt their own service units - when
+  relying on NFS - as well (#PL-129954).
+* Add routes for all known subnets to all interfaces.
+  This avoids problems with traffic using the wrong interface after we disabled
+  policy routing (#PL-130130).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
