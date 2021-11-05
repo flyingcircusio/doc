@@ -5,14 +5,16 @@ Release 2021_035 (unreleased)
 
 Impact
 ^^^^^^
-
-* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version. Matrix Synapse will be restarted.
+* [NixOS 21.05] Apache (httpd), mysql, postgresql, docker and matrix-synapse will be restarted.
+* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * `mysql` service user can now "just log in" by typing :command:`mysql`, like root (#PL-115620).
+* haproxy: fix build failure when files in :file:`/etc/local/haproxy` start with a dot.
+  This happened for temporary files of editors, for example (#PL-130158).
 * Pull upstream NixOS changes that include security fixes and other updates (#PL-130185):
 
     * containerd: 1.5.4 -> 1.5.7 (CVE-2021-41103)
@@ -26,6 +28,7 @@ NixOS 21.05 platform
     * php74: 7.4.24 -> 7.4.25 (CVE-2021-21703)
     * php80: 8.0.11 -> 8.0.12 (CVE-2021-21703)
     * qemu: patch CVE-2021-3544, CVE-2021-3527, CVE-2021-3682, CVE-2021-3713
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/109670/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -60,5 +63,9 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_034/21.05...58348d2e9321a310dcab5dca8cbe4c34b7438915>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/83667ff60a88e22b76ef4b0bdf5334670b39c2b6...b239cf7ba017c1abb1d5f0421bc360f9612cac58>`_
+
 
 .. vim: set spell spelllang=en:
