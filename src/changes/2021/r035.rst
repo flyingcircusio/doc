@@ -6,13 +6,26 @@ Release 2021_035 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version. Matrix Synapse will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* `mysql` service user can now "just log in" by typing :command:`mysql`, like root (#PL-115620).
+* Pull upstream NixOS changes that include security fixes and other updates (#PL-130185):
+
+    * containerd: 1.5.4 -> 1.5.7 (CVE-2021-41103)
+    * element-web: 1.9.0 -> 1.9.2
+    * go_1_17: init at 1.17.2
+    * imagemagick6: 6.9.12-19 -> 6.9.12-26
+    * imagemagick: 7.1.0-8 -> 7.1.0-9
+    * linux: 5.10.71 -> 5.10.76
+    * matrix-synapse: 1.44.0 -> 1.46.0
+    * nix: 2.3.15 -> 2.3.16
+    * php74: 7.4.24 -> 7.4.25 (CVE-2021-21703)
+    * php80: 8.0.11 -> 8.0.12 (CVE-2021-21703)
+    * qemu: patch CVE-2021-3544, CVE-2021-3527, CVE-2021-3682, CVE-2021-3713
 
 
 NixOS 20.09 platform
