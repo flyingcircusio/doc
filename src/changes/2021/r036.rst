@@ -6,13 +6,15 @@ Release 2021_036 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] MySQL will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Matomo: update to 4.5.0 (#PL-130137).
+* MySQL: enable log for slow queries (> 100ms) and queries that don't use indices.
+  :file:`/var/log/mysql/mysql.slow` can be read by service users (#PL-100075).
 
 
 NixOS 20.09 platform
