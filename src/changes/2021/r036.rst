@@ -15,6 +15,7 @@ NixOS 21.05 platform
 * Matomo: update to 4.5.0 (#PL-130137).
 * MySQL: enable log for slow queries (> 100ms) and queries that don't use indices.
   :file:`/var/log/mysql/mysql.slow` can be read by service users (#PL-100075).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/111778/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -49,5 +50,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_035/21.05...342521bac8337f41ece316e9a00af52d6eb50336>`_
 
 .. vim: set spell spelllang=en:
