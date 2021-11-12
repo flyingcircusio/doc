@@ -12,7 +12,7 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Matomo: update to 4.5.0 (#PL-130137).
 
 
 NixOS 20.09 platform
