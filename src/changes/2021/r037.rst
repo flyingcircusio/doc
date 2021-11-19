@@ -6,13 +6,23 @@ Release 2021_037 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] VMs will schedule a reboot to activate the new kernel version.
+  Roundcube Webmail will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add PSI metrics that will replace the traditional "load" metric in the future (#PL-129904).
+Pull upstream NixOS changes that include security fixes and other updates (#PL-130210):
+
+    * linux: 5.10.76 -> 5.10.79
+    * mariadb: 10.5.10 -> 10.5.13 (CVE-2021-35604)
+    * roundcube: 1.4.11 -> 1.4.12
+
+* Add new role **devhost** to replace Vagrant-based setups with a container-based solution (#PL-129841).
+* Fix a few nginx reload bugs depending on specific listen statement collisions.
+* Retire Vagrant support.
 
 
 NixOS 20.09 platform
