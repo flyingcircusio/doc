@@ -23,6 +23,7 @@ Pull upstream NixOS changes that include security fixes and other updates (#PL-1
 * Add new role **devhost** to replace Vagrant-based setups with a container-based solution (#PL-129841).
 * Fix a few nginx reload bugs depending on specific listen statement collisions.
 * Retire Vagrant support.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/113866/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -57,5 +58,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_036/21.05...de9229f7f315089cbc59a1135f91c72d37b28afe>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/b239cf7ba017c1abb1d5f0421bc360f9612cac58...195d5816cddc056e07fd2aa3fe81ee6e3f9d96e2>`_
 
 .. vim: set spell spelllang=en:
