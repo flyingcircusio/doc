@@ -12,11 +12,9 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Support custom NixOS configurations provisioned by our configuration
-  management database (#PL-129625).
 * We can now provision custom NixOS configuration for all machines per customer,
   resource group, and individually for each machine through our configuration
-  database. (PL-129625)
+  database (#PL-129625).
 * Monitor size of netfilter connection tracking table (conntrack) and increase
   size limit (#PL-130189).
 * fc-agent: improve error handling: extract Nix builder errors properly for logging,
@@ -33,6 +31,7 @@ NixOS 21.05 platform
   resource group (:file:`/etc/local/htpasswd_fcio_users.*`).
 * Limit access to the Kubernetes dashboard to users with the `sudo-srv` permission.
 * Allow service users to use dev containers.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/116563/download/1/nixexprs.tar.xz
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -66,5 +65,6 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_037/21.05...d34e1da62c69380c350a81527af6a7bb48b77b52>`_,
 
 .. vim: set spell spelllang=en:
