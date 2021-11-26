@@ -12,8 +12,27 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Support custom NixOS configurations provisioned by our configuration
+  management database (#PL-129625).
+* We can now provision custom NixOS configuration for all machines per customer,
+  resource group, and individually for each machine through our configuration
+  database. (PL-129625)
+* Monitor size of netfilter connection tracking table (conntrack) and increase
+  size limit (#PL-130189).
+* fc-agent: improve error handling: extract Nix builder errors properly for logging,
+  fix problem that sometimes caused the loss of lines of command output at the end.
+  (#PL-130214).
+* Varnish: fix metrics relabeling rules so metrics don't contain a partial nix
+  store path anymore (#PL-120471).
+* Matrix: update synapse to 1.47.1 to fix a security issue (CVE-2021-41281) (#PL-130224).
+* Add option to enable the kernel audit system and automatically log information
+  about all started processes as well as interactions on TTYs to our centralized
+  logging infrastructure. This feature may become mandatory in the future (#PL-129625).
+* Extend the mechanism that writes a `htpasswd` file for users with `login`
+  permission to provide a `htpasswd` file for each permission within the
+  resource group (:file:`/etc/local/htpasswd_fcio_users.*`).
+* Limit access to the Kubernetes dashboard to users with the `sudo-srv` permission.
+* Allow service users to use dev containers.
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
