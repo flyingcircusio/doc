@@ -24,6 +24,13 @@ NixOS 21.05 platform
   The k3s roles are currently in beta state.
   Documentation has been updated to reflect the changes and give more frontend
   configuration examples (#PL-130215).
+* devhost: various improvements (#PL-129841):
+
+  * Use platform default timezone "Europe/Berlin" as default for containers, too.
+  * Fix use of NFS roles (single container only).
+  * Start dev containers automatically when the devhost ist rebooted.
+  * Properly handle disabled containers for startup and with existing nginx configurations.
+
 * Pull upstream NixOS changes that include security fixes and other updates (#PL-130230):
 
     * gd: 2.3.0 -> 2.3.2, add patch for partial CVE-2021-40812 fix
