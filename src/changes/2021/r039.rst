@@ -12,8 +12,29 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* OpenVPN: client example config is now accessible for users with `login` permissions.
+* Kubernetes: replace old implementation based on NixOS k8s support with a
+  k3s-based solution which is easier to manage and has some improvements like
+  proper support for services of type LoadBalancer, a local path provisioner and
+  pre-installed helm for package management, a metrics-server, and traefik for ingress.
+  The roles k3s-server and k3s-agent replace kubernetes-master and kubernetes-node,
+  respectively.
+  The kubernetes-frontend role was removed, webgateway now automatically
+  activates Kubernetes support when it's running in a project with a k3s-server.
+  The k3s roles are currently in beta state.
+  Documentation has been updated to reflect the changes and give more frontend
+  configuration examples (#PL-130215).
+* Pull upstream NixOS changes that include security fixes and other updates (#PL-130230):
 
+    * gd: 2.3.0 -> 2.3.2, add patch for partial CVE-2021-40812 fix
+    * go_1_17: 1.17.2 -> 1.17.3
+    * imagemagick: 7.1.0-9 -> 7.1.0-13
+    * linux: 5.10.79 -> 5.10.81
+    * nginxStable: 1.20.1 -> 1.20.2
+    * openssh: Fix CVE-2021-41617
+    * php74: 7.4.25 -> 7.4.26 (CVE-2021-21707)
+    * php80: 8.0.12 -> 8.0.13 (CVE-2021-21707)
+    * vim: 8.2.2567 -> 8.2.3451
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
