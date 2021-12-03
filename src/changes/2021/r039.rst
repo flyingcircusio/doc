@@ -12,6 +12,8 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* MySQL: rotate slow log when file size is greater than 2GB and compress,
+  at least once a week (#PL-130221).
 * OpenVPN: client example config is now accessible for users with `login` permissions.
 * Kubernetes: replace old implementation based on NixOS k8s support with a
   k3s-based solution which is easier to manage and has some improvements like
@@ -24,6 +26,10 @@ NixOS 21.05 platform
   The k3s roles are currently in beta state.
   Documentation has been updated to reflect the changes and give more frontend
   configuration examples (#PL-130215).
+* kubernetes/k3s: speed up kubectl startup by using a separate binary
+  instead of aliasing `k3s kubectl` (#PL-130240).
+* Gitlab: upgrade to 14.4.1. The upgrade was already rolled out manually
+  before this release (#PL-130156).
 * devhost: various improvements (#PL-129841):
 
   * Use platform default timezone "Europe/Berlin" as default for containers, too.
