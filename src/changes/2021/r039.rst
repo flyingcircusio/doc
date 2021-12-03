@@ -6,7 +6,8 @@ Release 2021_039 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Most services will be restarted.
+  VMs will schedule a reboot to activate the new kernel version.
 
 
 NixOS 21.05 platform
@@ -49,6 +50,9 @@ NixOS 21.05 platform
     * php80: 8.0.12 -> 8.0.13 (CVE-2021-21707)
     * vim: 8.2.2567 -> 8.2.3451
 
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/118848/download/1/nixexprs.tar.xz
+
+
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -81,5 +85,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_038/21.05...dfcdd3b9806f4c56785afab206ffcf7ac58a76f2>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/195d5816cddc056e07fd2aa3fe81ee6e3f9d96e2...2553aee74fed8c2205a4aeb3ffd206ca14ede60f>`_
 
 .. vim: set spell spelllang=en:
