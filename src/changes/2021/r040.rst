@@ -6,13 +6,15 @@ Release 2021_040 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Graylog will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* [hotfix] graylog: update to 3.3.15 which contains the log4j2 fix for CVE-2021-44228.
+  Systems using Graylog are already protected by the `"-Dlog4j2.formatMsgNoLookups=true"`
+  setting we have rolled out (#PL-130250).
 
 
 NixOS 20.09 platform
