@@ -28,6 +28,8 @@ NixOS 21.05 platform
     * imagemagick: 7.1.0-13 -> 7.1.0-19
     * linux: 5.10.81 -> 5.10.88
 
+* Devhost docs: Update the specific batou_ext reference to the currently most up-to-date version
+  and make a note about checking for further updates when migrating.
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
