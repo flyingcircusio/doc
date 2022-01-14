@@ -6,6 +6,7 @@ Release 2022_001 (2022-01-17)
 Impact
 ^^^^^^
 
+* [NixOS 21.05]: Elasticsearch, httpd and postgresql will be restarted.
 * [NixOS 21.05]: VMs will schedule a reboot to activate the changed kernel.
 
 
