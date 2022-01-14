@@ -13,7 +13,7 @@ NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * PostgreSQL: add the *pg_stat_statements* extension to the shared libraries
-  loaded by default so it can be activated by just running `CREATE EXTENSION pg_stat_statements` (#PL-130293).
+  loaded by default so it can be activated by just running ``CREATE EXTENSION pg_stat_statements`` (#PL-130293).
 * NFS: Fix a possible NFS server outage caused by adding new NFS clients.
   Instead of restarting, nfs services are now reloaded (#PL-130253).
 * Matomo: update to 4.6.2 and various fixes (#PL-130234):
@@ -30,6 +30,7 @@ NixOS 21.05 platform
 
 * Devhost docs: Update the specific batou_ext reference to the currently most up-to-date version
   and make a note about checking for further updates when migrating.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/126396/download/1/nixexprs.tar.xz
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -52,5 +53,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2021_040/21.05...d03b2bfdedf18db4305064d7b31607581244d83e>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/c5f1ee982246d09ae7f119c13aafcce90286221d...932ec35ff8ac0fef5667ad2b0db4a009440255a9>`_
 
 .. vim: set spell spelllang=en:
