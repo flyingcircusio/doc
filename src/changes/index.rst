@@ -11,6 +11,7 @@ You can subscribe to our `RSS feed of changes <../../rss.xml>`_.
 .. toctree::
    :maxdepth: 1
 
+   2022/index
    2021/index
    2020/index
    2019/index
