@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-01-17
 
-Release 2022_001 (unreleased)
+Release 2022_001 (2022-01-17)
 -----------------------------
 
 Impact
@@ -37,18 +37,6 @@ NixOS 15.09 platform
 
 * Fix SSL cert verification problem that rendered the platform update mechanism unusable.
   This will deployed as a hotfix directly to the VMs during the release window (#PL-130290).
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
