@@ -19,6 +19,6 @@ NixOS 21.05 platform
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_001/21.05...3621b769c2108a482ec5289a24d7491b83ca0ea3>`_,
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_001/21.05...3621b769c2108a482ec5289a24d7491b83ca0ea3>`_
 
 .. vim: set spell spelllang=en:
