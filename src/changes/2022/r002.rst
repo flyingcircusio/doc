@@ -12,8 +12,13 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* MongoDB: add role for major version 4.2.
+  See the `MongoDB changelogs <https://docs.mongodb.com/manual/release-notes/4.2/>`_ when you want to upgrade (#PL-130260).
+* Loghost/graylog: use MongoDB 4.2 by default (#PL-130260).
+* devhost: rename the config directory for containers from :file:`/etc/devserver` to :file:`/etc/devhost` to be consistent with the role name.
+* devhost: start all containers even if some fail to start (#PL-130323).
+* devhost: improve NFS mounts for the *nfs_rg_share* role in containers (#FC-21094).
+* fc-userscan: add documentation.
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
