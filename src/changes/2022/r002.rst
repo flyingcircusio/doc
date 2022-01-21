@@ -19,6 +19,8 @@ NixOS 21.05 platform
 * devhost: start all containers even if some fail to start (#PL-130323).
 * devhost: improve NFS mounts for the *nfs_rg_share* role in containers (#FC-21094).
 * fc-userscan: add documentation.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/128207/download/1/nixexprs.tar.xz
+
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -52,5 +54,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_001/21.05...3621b769c2108a482ec5289a24d7491b83ca0ea3>`_,
 
 .. vim: set spell spelllang=en:
