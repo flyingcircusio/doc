@@ -6,19 +6,22 @@ Release 2022_003 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] MySQL/Percona 8 will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix CVE-2021-4034 that allows local privilege escalation through pkexec (#PL-130363).
+* Percona: 8.0.22-13 -> 8.0.26-17.  Fixes a `known bug <https://jira.percona.com/browse/PS-7485?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aworklog-tabpanel>`_
+  that affects some queries and crashes the server process (#PL-130362).
+* Backup: add new *longterm* schedule option for *backy* that covers a 30 day daily and 12 months monthly rhythm (#PL-130179).
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fix CVE-2021-4034 that allows local privilege escalation through pkexec (#PL-130363).
 
 
 NixOS 19.03 platform
