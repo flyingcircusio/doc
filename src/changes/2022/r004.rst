@@ -12,9 +12,9 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Increase neighbour discovery tables for IPv4 and IPv6 on all nodes to
-  ensure services that talk to a lot of neighbours on a single LAN work properly
-  with at least multiple hundreds of neighbours (#PL-130380).
+* Increase neighbor discovery tables for IPv4 and IPv6 on all nodes to
+  ensure services that talk to a lot of neighbors on a single LAN work properly
+  with at least multiple hundreds of neighbors (#PL-130380).
 * K3s/Kubernetes frontend improvements (#PL-130265):
 
     * VM now adds cluster DNS to resolv.conf so names like `web-service.namespace.svc.cluster.local` can be resolved now.
@@ -30,6 +30,7 @@ NixOS 21.05 platform
 
 * Fix memcached's localhost dualstack binding when running in a devhost container (#FC-21094).
 * Our Ceph infrastructure has been fully ported to NixOS now (#PL-127635).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/132731/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -64,5 +65,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_003/21.05...666629818ea2e91ba64b1ce02c555ecec0252e13>`_,
+  `upstream changes <https://github.com/NixOS/nixpkgs/compare/932ec35ff8ac0fef5667ad2b0db4a009440255a9...0fd9ee1aa36ce865ad273f4f07fdc093adeb5c00>`_
 
 .. vim: set spell spelllang=en:
