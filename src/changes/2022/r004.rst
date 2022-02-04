@@ -6,13 +6,30 @@ Release 2022_004 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05]: Many services will be restarted because of a core dependency change.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Increase neighbour discovery tables for IPv4 and IPv6 on all nodes to
+  ensure services that talk to a lot of neighbours on a single LAN work properly
+  with at least multiple hundreds of neighbours (#PL-130380).
+* K3s/Kubernetes frontend improvements (#PL-130265):
+
+    * VM now adds cluster DNS to resolv.conf so names like `web-service.namespace.svc.cluster.local` can be resolved now.
+      Before, only haproxy could resolve internal DNS names.
+    * Added option `sslBackend` to use SSL for the backend pod connection from haproxy to the backend pod.
+    * Added new option `extraPodTemplateOptions` to add options to the generated `server-template` line.
+
+* Pull upstream NixOS changes that include security fixes and other updates (#PL-130353):
+
+    * binutils: 2.35.1 -> 2.35.2 (CVE-2020-35448, CVE-2021-20284, CVE-2021-20294)
+    * gegl_0_4: patch https://github.com/advisories/GHSA-g9gv-9646-jvp8
+    * unicorn: add patch for https://github.com/advisories/GHSA-rmvm-v6m6-87vr
+
+* Fix memcached's localhost dualstack binding when running in a devhost container (#FC-21094).
+* Our Ceph infrastructure has been fully ported to NixOS now (#PL-127635).
 
 
 NixOS 20.09 platform
