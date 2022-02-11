@@ -12,7 +12,9 @@ Impact
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fetch Nix store paths (packages) directly from our S3-compatible object
+  storage to reduce load on our central Hydra instance.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/133853/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -47,5 +49,7 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_004/21.05...c9f568c68fbc6698687516985107d5d90d64f04f>`_
 
 .. vim: set spell spelllang=en:
