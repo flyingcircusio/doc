@@ -1,1 +1,1 @@
-src/changes/2022/r005.rst
+src/changes/2022/r006.rst
