@@ -1,13 +1,7 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-02-21
 
-Release 2022_006 (unreleased)
+Release 2022_006 (2022-02-21)
 -----------------------------
-
-Impact
-^^^^^^
-
-* nothing yet
-
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -39,18 +33,6 @@ NixOS 15.09 platform
 
 * Fetch Nix store paths (packages) directly from our S3-compatible object
   storage to reduce load on our central Hydra instance.
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
