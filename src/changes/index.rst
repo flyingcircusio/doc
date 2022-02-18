@@ -6,8 +6,6 @@ ChangeLog
 Here follows a short description of all user-visible changes made to our
 infrastructure in reverse chronological order.
 
-You can subscribe to our `RSS feed of changes <../../rss.xml>`_.
-
 .. toctree::
    :maxdepth: 1
 
