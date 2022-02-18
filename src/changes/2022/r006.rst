@@ -13,24 +13,28 @@ NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Add PHP 7.2 for usage in our LAMP role for legacy reasons (#PL-130410).
+* devhost: automatic container cleanup is optional now and nginx configs are
+  more robust regarding container DNS lookups.
 
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Fetch Nix store paths (packages) directly from our S3-compatible object
+  storage to reduce load on our central Hydra instance.
 
 NixOS 19.03 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fetch Nix store paths (packages) directly from our S3-compatible object
+  storage to reduce load on our central Hydra instance.
 
 
 NixOS 15.09 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Fetch Nix store paths (packages) directly from our S3-compatible object
+  storage to reduce load on our central Hydra instance.
 
 
 Gentoo platform
