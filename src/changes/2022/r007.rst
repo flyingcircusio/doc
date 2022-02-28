@@ -6,15 +6,16 @@ Release 2022_007 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Apache on LAMP servers will be restarted.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-
+* Work around a suspected Apache/PHP bug regarding dynamic library loading and
+  static thread local storage by restarting Apache instead of reloading
+  gracefully (PL-130372).
 * We now use the black code formatter for our platform Python code.
-
 
 
 NixOS 21.11 platform
