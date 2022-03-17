@@ -6,19 +6,26 @@ Release 2022_008 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
-
-
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add a sensu check for early detection of a XFS bug that may bring IO to a halt (#PL-130343).
+* Jitsi: update jitsi-videobridge, jicofo and jitsi-meet to latest stable versions (#PL-130375).
+* k3s: 1.22.3 -> 1.23.3. Fixes a problem with images with very long labels
+  which prevented affected pods from starting (#PL-130456).
+* Improve default firewall rules for docker bridged networking: allow access
+  to host service similar to other locally run services (#PL-130058).
+* Remove duplicate, broken SSL certificate checks (#PL-130379).
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add a sensu check for early detection of a XFS bug that may bring IO to a halt (#PL-130343).
+* linux: 5.10.88 -> 5.10.105 (fixes CVE-2022-0847) (#PL-130481).
+* Improve default firewall rules for docker bridged networking: allow access
+  to host service similar to other locally run services (#PL-130058).
+* Remove duplicate, broken SSL certificate checks (#PL-130379).
 
 
 NixOS 20.09 platform
