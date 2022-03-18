@@ -6,6 +6,9 @@ Release 2022_008 (unreleased)
 Impact
 ^^^^^^
 
+* [NixOS 21.11] VMs will schedule a reboot to activate the changed kernel.
+* [NixOS 21.05] VMs will schedule a reboot to activate the changed kernel.
+
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -26,6 +29,7 @@ NixOS 21.05 platform
 * Improve default firewall rules for docker bridged networking: allow access
   to host service similar to other locally run services (#PL-130058).
 * Remove duplicate, broken SSL certificate checks (#PL-130379).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/142628/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -54,5 +58,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_007/21.05...57ea14896b3d0b513b9d9f614350aad9ca6cd025>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/0fd9ee1aa36ce865ad273f4f07fdc093adeb5c00...0f5fbc131671be14b6e76daa8125284b5111b33b>`_
 
 .. vim: set spell spelllang=en:
