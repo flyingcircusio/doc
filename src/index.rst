@@ -34,6 +34,7 @@ Edition-specific platform & roles documentation
 .. toctree::
    :maxdepth: 2
 
+   platform/21.11/index
    platform/21.05/index
    platform/20.09/index
    platform/19.03/index
