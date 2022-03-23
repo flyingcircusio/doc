@@ -6,19 +6,24 @@ Release 2022_009 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.11] All LAMP servers will be restarted and switched from mod_php to FPM.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* LAMP: switch from mod_php to FPM due to stability reasons and for future flexibility (#PL-130496).
+* Add setuptools to global Python 3 which was dropped in the transition from 21.05 to 21.11.
+  This avoid errors like ``ModuleNotFoundError: No module named 'pkg_resources'``.
+  In general, applications should not depend on the globally installed python3
+  interpreter but we re-add this to make upgrades to 21.11 easier (#PL-130510).
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* LAMP role: provide FPM as an alternative to the mod_php based environments.
+  This is a drop-in replacement and can be enabled using the flyingcircus.roles.lamp.useFPM flag (#PL-130496).
 
 
 NixOS 20.09 platform
