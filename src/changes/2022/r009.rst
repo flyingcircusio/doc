@@ -12,6 +12,8 @@ Impact
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* This is the first production release of the 21.11 platform.
+  Default version for new production VMs is still 21.05.
 * LAMP: switch from mod_php to FPM due to stability reasons and for future flexibility (#PL-130496).
 * Add setuptools to global Python 3 which was dropped in the transition from 21.05 to 21.11.
   This avoid errors like ``ModuleNotFoundError: No module named 'pkg_resources'``.
