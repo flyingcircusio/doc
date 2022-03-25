@@ -9,6 +9,7 @@ Impact
 * [NixOS 21.11] All LAMP servers will be restarted and switched from mod_php to FPM.
 * [NixOS 21.11] Most services will be restarted because of core dependency changes.
   VM will schedule a reboot to activate the new kernel.
+* [NixOS 21.05] LAMP: Apache will be restarted.
 
 
 NixOS 21.11 platform
