@@ -7,6 +7,8 @@ Impact
 ^^^^^^
 
 * [NixOS 21.11] All LAMP servers will be restarted and switched from mod_php to FPM.
+* [NixOS 21.11] Most services will be restarted because of core dependency changes.
+  VM will schedule a reboot to activate the new kernel.
 
 
 NixOS 21.11 platform
@@ -47,6 +49,7 @@ NixOS 21.11 platform
   * postgresql_13: 13.5 -> 13.6
   * postgresql_14: 14.1 -> 14.2
   * util-linux: 2.37.3 -> 2.37.4 (CVE-2022-0563)
+  * nixos/tomcat: configure default group and fix broken default package reference
 
 
 NixOS 21.05 platform
