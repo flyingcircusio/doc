@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-03-28
 
-Release 2022_009 (unreleased)
+Release 2022_009 (2022-03-28)
 -----------------------------
 
 Impact
@@ -61,30 +61,6 @@ NixOS 21.05 platform
   flyingcircus.roles.lamp.useFPM flag (#PL-130496).
 * Make sure that home dir permissions are always set correctly when activating a new system (#PL-130524).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/145685/download/1/nixexprs.tar.xz
-
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
