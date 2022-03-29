@@ -4,17 +4,12 @@
 
 .. _application-deployment:
 
-**********************
-Application deployment
-**********************
+***********************
+Application deployments
+***********************
 
-To outline how to operate applications within the Flying Circus platform this
-section contains a walk-through of a Django installation.
+This section includes information on how to operate certain tech stacks within the Flying Circus platform.
 
 .. toctree::
 
-   preparation
-   database
-   application
-   process-management
-   service-setup
+   lamp
