@@ -18,7 +18,8 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Sensu/Uchiwa: tune refresh and timeout settings to avoid spurious connection
+  issues when the API is temporarily overloaded (#PL-130537).
 
 
 NixOS 20.09 platform
