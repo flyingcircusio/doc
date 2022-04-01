@@ -14,6 +14,11 @@ NixOS 21.11 platform
 
 * Elasticsearch/Kibana: pin version for the 7.x roles to 7.10.2 which is
   the last version available with a free license. (#PL-130528).
+* Gitlab: update 14.8.4 -> 14.8.5 (#PL-130540).
+* k3s: add a simplified single-node role intended for running CI pipelines from
+  Gitlab, for example (#PL-130465).
+* Jitsi: add a Sensu check to find situations where Jitsi is unusable, for example when the
+  videobridge isn't available (#PL-129940).
 
 
 NixOS 21.05 platform
