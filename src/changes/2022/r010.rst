@@ -7,11 +7,14 @@ Impact
 ^^^^^^
 
 * [NixOS 21.05] Elasticsearch and Kibana will be restarted.
+* [NixOS 21.11] Elasticsearch and Kibana will be restarted.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
+* Elasticsearch/Kibana: use OSS packages by default to make sure we don't
+  provide unfree functionality covered by the Elastic license (#PL-130528).
 * Elasticsearch/Kibana: pin version for the 7.x roles to 7.10.2 which is
   the last version available with a free license. (#PL-130528).
 * Gitlab: update 14.8.4 -> 14.8.5 (#PL-130540).
@@ -24,11 +27,14 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Sensu/Uchiwa: tune refresh and timeout settings to avoid spurious connection
-  issues when the API is temporarily overloaded (#PL-130537).
 * Elasticsearch/Kibana: use OSS packages by default to make sure we don't
   provide unfree functionality covered by the Elastic license (#PL-130528).
-
+* Elasticsearch/Kibana: pin version for the 7.x roles to 7.10.2 which is
+  the last version available with a free license. (#PL-130528).
+* Elasticsearch: use Java 11 which is recommended for the used ES versions and
+  provides additional protection against log4shell exploits (#PL-130528)
+* Sensu/Uchiwa: tune refresh and timeout settings to avoid spurious connection
+  issues when the API is temporarily overloaded (#PL-130537).
 
 
 NixOS 20.09 platform
