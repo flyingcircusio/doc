@@ -22,7 +22,8 @@ NixOS 21.11 platform
   Gitlab, for example (#PL-130465).
 * Jitsi: add a Sensu check to find situations where Jitsi is unusable, for example when the
   videobridge isn't available (#PL-129940).
-
+* Updated and extended MySQL role documentation.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/149883/download/1/nixexprs.tar.xz
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -35,6 +36,8 @@ NixOS 21.05 platform
   provides additional protection against log4shell exploits (#PL-130528)
 * Sensu/Uchiwa: tune refresh and timeout settings to avoid spurious connection
   issues when the API is temporarily overloaded (#PL-130537).
+* Updated and extended MySQL role documentation.
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/149926/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -63,5 +66,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_009/21.11...bddd788f61745b5d9e55379114c9764417036222>`_
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_009/21.05...2c1f89a2ec6e00ce848cffa7b864da9ee4c062ca>`_
 
 .. vim: set spell spelllang=en:
