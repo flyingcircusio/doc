@@ -32,7 +32,7 @@ NixOS 21.11 platform
   **Important note**: we have experienced problems with some Java applications
   due to the updated zlib version. zlib hasn't been updated for some years and the
   change may also affect other packages depending on it.
-  Because of the problem, Elasticsearch and Graylog use Java runtimes with a patched zlib.
+  Because of the problem, Elasticsearch, Solr and Graylog use Java runtimes with a patched zlib.
   The Java packages *jdk8_headless* and *jdk11_headless* include this patch.
   If you see problems with other Java versions or other packages, contact our support for help.
 
