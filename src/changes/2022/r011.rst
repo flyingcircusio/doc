@@ -24,8 +24,12 @@ NixOS 21.11 platform
 * LAMP: accept the obsolete useFPM option instead of failing to make upgrading
   from 21.05 easier. FPM is always used on 21.11. (#PL-130565).
 * Jitsi: update jitsi-videobridge, jicofo and jitsi-meet to latest stable versions (#PL-130541).
+* Add auditbeat7-oss and filebeat7-oss packages and use them in platform code.
+  They remove unfree code before building the packages to make sure that the
+  result can be used freely without being affected by the Elastic license (#PL-130528).
+* Loghost: updated and enhanced role documentation.
 * Pull upstream NixOS changes that include security fixes and other updates (#PL-130547).
-  Important note: we have experienced problems with some Java applications
+  **Important note**: we have experienced problems with some Java applications
   due to the updated zlib version. zlib hasn't been updated for some years and the
   change may also affect other packages depending on it.
   Because of the problem, Elasticsearch and Graylog use Java runtimes with a patched zlib.
@@ -60,7 +64,7 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Loghost: updated and enhanced role documentation.
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
