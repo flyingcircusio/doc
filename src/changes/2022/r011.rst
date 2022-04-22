@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-04-25
 
-Release 2022_011 (unreleased)
+Release 2022_011 (2022-04-25)
 -----------------------------
 
 Impact
@@ -68,30 +68,6 @@ NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Loghost: updated and enhanced role documentation.
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
