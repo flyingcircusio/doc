@@ -27,7 +27,8 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Add flyingcircus.allowedUnfreePackageNames to make upgrades to 21.11 easier
+  if unfree packages are used. Has no effect on 21.05. (#PL-130528).
 
 
 NixOS 20.09 platform
