@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-05-02
 
-Release 2022_012 (unreleased)
+Release 2022_012 (2022-05-02)
 -----------------------------
 
 Impact
@@ -32,30 +32,6 @@ NixOS 21.05 platform
 * Add flyingcircus.allowedUnfreePackageNames to make upgrades to 21.11 easier
   if unfree packages are used. Has no effect on 21.05. (#PL-130528).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/155193/download/1/nixexprs.tar.xz
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
