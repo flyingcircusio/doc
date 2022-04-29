@@ -7,6 +7,7 @@ Impact
 ^^^^^^
 
 * [NixOS 21.11] mailserver: Postfix and dovecot will be restarted.
+* [NixOS 21.11] matomo will be restarted.
 
 
 NixOS 21.11 platform
@@ -23,13 +24,14 @@ NixOS 21.11 platform
   default. Unfree Elastic packages (elasticsearch6/7, kibana6/7) can no longer be
   used on machines without explicitly allowing these packages there. There's a new
   option :code:`flyingcircus.allowUnfreePackageNames` to do that (#PL-130528).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/155170/download/1/nixexprs.tar.xz
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
 * Add flyingcircus.allowedUnfreePackageNames to make upgrades to 21.11 easier
   if unfree packages are used. Has no effect on 21.05. (#PL-130528).
-
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/155193/download/1/nixexprs.tar.xz
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -57,5 +59,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_011/21.11...300cb13390e0a28910efd1fddf580aaaf6c3b429>`_
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_011/21.05...b456db2509aaf7f93b91427cac80cc09ba2af9d0>`_
 
 .. vim: set spell spelllang=en:
