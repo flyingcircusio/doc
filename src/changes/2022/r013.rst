@@ -8,7 +8,7 @@ Impact
 
 * [NixOS 21.11] Most services will be restarted because of a core dependency
   change. Machines will schedule a reboot to activate the changed kernel.
-
+* [NixOS 21.05] Networking services will be restarted and can be down for a short period of time.
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -19,15 +19,21 @@ NixOS 21.11 platform
   (``-b -c -e``) commands which are still present. Service users now may sudo
   run ``fc-maintenance`` ``list``/``show``/``delete`` to look at and delete
   maintenance requests (#PL-130441).
+* Fix an Apache FPM configuration issue: FPM pools would get confused and
+  keepalive connections could block workers indefinitely. Disable FPM proxy
+  connection reuse (#PL-130609).
 * Gitlab: don't overwrite existing certificates for the container registry anymore.
-* Pull upstream NixOS changes that include security fixes and other updates (#PL-130595):
+* Jitsi: update all packages to latest stable versions
+  (jitsi-meet-2.0.7210, 2022-04-18) (#PL-130591).
+* Pull upstream NixOS changes that include security fixes and other
+  updates (#PL-130595, #PL-130610):
 
     * cifs-utils: fix information disclosure in logger (CVE-2022-29869)
     * cifs-utils: patch buffer-overflow in ip param handling (CVE-2022-27239)
     * docker: 20.10.13 -> 20.10.14
     * element-web: 1.10.10 -> 1.10.11
     * git: 2.33.1 -> 2.33.3 (CVE-2022-24765)
-    * gitlab: 14.9.2 -> 14.9.3
+    * gitlab: 14.9.2 -> 14.9.4
     * grafana: 8.4.6 -> 8.4.7
     * gzip: 1.11 -> 1.12 (CVE-2022-1271)
     * imagemagick: 7.1.0-26 -> 7.1.0-31
@@ -47,8 +53,9 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
-
+* Port Qemu/KVM server role to NixOS. (#PL-127635)
+* Nginx: Limit number of worker processes to 12, determined by the number of CPUs.
+  Add an option ``services.nginx.workerProcesses`` to make this value configurable (#PL-127635).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
