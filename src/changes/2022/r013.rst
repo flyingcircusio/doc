@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-05-09
 
-Release 2022_013 (unreleased)
+Release 2022_013 (2022-05-09)
 -----------------------------
 
 Impact
@@ -60,30 +60,6 @@ NixOS 21.05 platform
   before but limited to 12 now. The number is configurable via the new option
   ``flyingcircus.services.nginx.workerProcesses`` (#PL-127635).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/158017/download/1/nixexprs.tar.xz
-
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
