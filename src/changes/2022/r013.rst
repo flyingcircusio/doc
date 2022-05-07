@@ -8,7 +8,8 @@ Impact
 
 * [NixOS 21.11] Most services will be restarted because of a core dependency
   change. Machines will schedule a reboot to activate the changed kernel.
-* [NixOS 21.05] Networking services will be restarted and can be down for a short period of time.
+* [NixOS 21.05] Networking services will be restarted and connectivity may be
+  down for a short period of time.
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -53,9 +54,10 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* Port Qemu/KVM server role to NixOS. (#PL-127635)
-* Nginx: Limit number of worker processes to 12, determined by the number of CPUs.
-  Add an option ``services.nginx.workerProcesses`` to make this value configurable (#PL-127635).
+* Port Qemu/KVM server role to NixOS (#PL-127635).
+* Nginx: the number of worker processes is determined by the number of CPU as
+  before but limited to 12 now. The number is configurable via the new option
+  ``services.nginx.workerProcesses`` (#PL-127635).
 
 NixOS 20.09 platform
 ^^^^^^^^^^^^^^^^^^^^
