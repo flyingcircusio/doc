@@ -58,7 +58,7 @@ NixOS 21.05 platform
 * Port Qemu/KVM server role to NixOS (#PL-127635).
 * Nginx: the number of worker processes is determined by the number of CPU as
   before but limited to 12 now. The number is configurable via the new option
-  ``services.nginx.workerProcesses`` (#PL-127635).
+  ``flyingcircus.services.nginx.workerProcesses`` (#PL-127635).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/158017/download/1/nixexprs.tar.xz
 
 
@@ -89,8 +89,8 @@ Documentation
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
-* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_012/21.11...bc0c2218d718f8a04fc1846d53efe13789faf1ea>`_
-  , `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/1f05f61bc9cb8b49b86780749d9cca46308688a5...7336576854f45032a04636b1d8fa86db5c6ba7a0>`_
+* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_012/21.11...bc0c2218d718f8a04fc1846d53efe13789faf1ea>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/1f05f61bc9cb8b49b86780749d9cca46308688a5...7336576854f45032a04636b1d8fa86db5c6ba7a0>`_
 * NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_012/21.05...5b870e586a9a5542f8f8878ccc3fe5e3d78787cd>`_
 
 .. vim: set spell spelllang=en:
