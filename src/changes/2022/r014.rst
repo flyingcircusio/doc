@@ -15,6 +15,9 @@ NixOS 21.11 platform
 
 * matomo: update to 4.10.0 (#PL-130635).
 * Remove broken check for obsolete result links in :file:`/root` (#PL-130493).
+* LAMP: make PHP-FPM options from `services.phpfpm.pools` also available under
+  `flyingcircus.roles.lamp.vhost.*.pool` to make it easier to override
+   settings for the automatically set-up vhost pool (#PL-130548).
 * Pull upstream NixOS changes that include security fixes and other
   updates (#PL-130636):
 
