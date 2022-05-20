@@ -6,13 +6,34 @@ Release 2022_014 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.11] Most services will be restarted because of a core dependency
+  change. Machines will schedule a reboot to activate the changed kernel.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* matomo: update to 4.10.0 (#PL-130635).
+* Remove broken check for obsolete result links in :file:`/root` (#PL-130493).
+* Pull upstream NixOS changes that include security fixes and other
+  updates (#PL-130636):
+
+	* cacert: 3.74 -> 3.77
+	* curl: backport security patches from 7.83.0 (CVE-2022-22576,
+	  CVE-2022-27774, CVE-2022-27775, CVE-27776)
+	* element-web: 1.10.11 -> 1.10.12
+	* ghostscript: add patches for CVE-2021-45944 & CVE-2021-45949
+	* haproxy: 2.3.14 -> 2.3.18
+	* imagemagick: 7.1.0-31 -> 7.1.0-33
+	* libxml2: Backport CVE fixes from v2.9.13 and v2.9.14 (CVE-2022-29824,
+	  CVE-2022-23308)
+	* linux: 5.10.113 -> 5.10.115
+	* openssl_3_0: 3.0.2 -> 3.0.3 (CVE-2022-1292, CVE-2022-1434,
+	  CVE-2022-1473, CVE-2022-1343)
+	* openssl_1_1: 1.1.1n -> 1.1.1o (CVE-2022-1292)
+	* redis: 6.2.6 -> 6.2.7
+	* runc: fix CVE-2022-29162
+	* zsh: 5.8 -> 5.8.1 (CVE-2021-45444)
 
 
 NixOS 21.05 platform
