@@ -12,7 +12,7 @@ Impact
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* antivirus: make database updates and monitoring more reliable. We now use our own clamav mirror now to avoid issues with rate-limiting by the official mirrors. For new installations, the initial database fetch is done immediately now so clamav should work right from the start (#PL-130648).
 
 
 NixOS 21.05 platform
