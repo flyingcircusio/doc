@@ -12,7 +12,28 @@ Impact
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* antivirus: make database updates and monitoring more reliable. We now use our own clamav mirror now to avoid issues with rate-limiting by the official mirrors. For new installations, the initial database fetch is done immediately now so clamav should work right from the start (#PL-130648).
+* antivirus: make database updates and monitoring more reliable. We now use
+  our own clamav mirror now to avoid issues with rate-limiting by the
+  official mirrors. For new installations, the initial database fetch is done
+  immediately now so clamav should work right from the start (#PL-130648).
+* Monitoring: adjust disk check limits when an elasticsearch role is enabled
+  to warn when Elasticsearch reaches it watermark levels (#PL-111220).
+* Pull upstream NixOS changes that include security fixes and other
+  updates (#PL-130662):
+
+    * clamav: 0.103.5 -> 0.103.6
+    * curl: add patches for CVE-2022-27781 & CVE-2022-27782
+    * grafana: fix CVE-2022-29170
+    * imagemagick: 7.1.0-33 -> 7.1.0-35
+    * linux: 5.10.115 -> 5.10.118
+    * logrotate: fix CVE-2022-1348
+    * matrix-synapse: 1.57.0 -> 1.59.1
+    * podman: add patch for CVE-2022-27649
+    * postgresql_10: 10.20 -> 10.21
+    * postgresql_11: 11.15 -> 11.16
+    * postgresql_12: 12.10 -> 12.11
+    * postgresql_13: 13.6 -> 13.7
+    * postgresql_14: 14.2 -> 14.3
 
 
 NixOS 21.05 platform
