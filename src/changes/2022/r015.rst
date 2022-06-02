@@ -6,7 +6,8 @@ Release 2022_015 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.05] Network connectivity can be interrupted for a short amount of time
+  due to changes to network-setup services.
 
 
 NixOS 21.11 platform
@@ -39,7 +40,11 @@ NixOS 21.11 platform
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Elasticsearch: add dummy option ``services.elasticsearch.single_node`` which
+  does nothing on 21.05 but is required on 21.11. On 21.11, the option has
+  ``true`` as default which breaks multi-node clusters on upgrade. Make sure
+  to set the option to ``false`` on 21.05 before upgrading such clusters!
+  (#PL-130608).
 
 
 NixOS 20.09 platform
