@@ -6,9 +6,8 @@ Release 2022_015 (unreleased)
 Impact
 ^^^^^^
 
-* [NixOS 21.05] Network connectivity can be interrupted for a short amount of time
-  due to changes to network-setup services.
-
+* [NixOS 21.11] Most services will be restarted because of a core dependency
+  change. Machines will schedule a reboot to activate the changed kernel.
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -36,6 +35,7 @@ NixOS 21.11 platform
     * postgresql_13: 13.6 -> 13.7
     * postgresql_14: 14.2 -> 14.3
 
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/164566/download/1/nixexprs.tar.xz
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
@@ -45,6 +45,7 @@ NixOS 21.05 platform
   ``true`` as default which breaks multi-node clusters on upgrade. Make sure
   to set the option to ``false`` on 21.05 before upgrading such clusters!
   (#PL-130608).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/164448/download/1/nixexprs.tar.xz
 
 
 NixOS 20.09 platform
@@ -74,4 +75,7 @@ Documentation
 Detailed Changes
 ^^^^^^^^^^^^^^^^
 
+* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_014/21.11...0524a52216c67217378d883d6023b1193ef253a1>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/45595e44034670ebfd06c9a62f63170be974f354...397669babd51cebd19b07e3f70fd4b6960f0fb1a>`_
+* NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_013/21.05...124e53a4b0bd2a60ace68af83ac33d100234b818>`_
 .. vim: set spell spelllang=en:
