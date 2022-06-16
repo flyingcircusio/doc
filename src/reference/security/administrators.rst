@@ -10,6 +10,7 @@ The following people are administrators for the Flying Circus:
 * Christian Zagrodnick
 * Frank Lanitz
 * Nils Möller
+* Oliver Schmidt
 * Tobias Stenzel
 
 
