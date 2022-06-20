@@ -1,6 +1,6 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+:Publish Date: 2022-06-21
 
-Release 2022_016 (unreleased)
+Release 2022_016 (2022-06-21)
 -----------------------------
 
 Impact
@@ -23,30 +23,6 @@ NixOS 21.05 platform
 
 * Make Sensu check for a known XFS bug more specific (#FC-23696).
 * Production channel URL for this release: https://hydra.flyingcircus.io/build/166986/download/1/nixexprs.tar.xz
-
-
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Gentoo platform
-^^^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
 
 
 Detailed Changes
