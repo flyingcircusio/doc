@@ -6,19 +6,21 @@ Release 2022_016 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.11] Jitsi will be restarted and conferences will be interrupted for a short period of time.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Jitsi: update all packages to latest stable release (#PL-130664).
+* LAMP, role documentation: add example how to set vhost-specific FPM pool options (#PL-130548).
+* Make Sensu check for a known XFS bug more specific (#FC-23696).
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Make Sensu check for a known XFS bug more specific (#FC-23696).
 
 
 NixOS 20.09 platform
