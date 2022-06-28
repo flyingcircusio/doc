@@ -5,8 +5,8 @@
 
 .. _firststeps:
 
-Tutorial
-========
+Getting started
+===============
 
 Welcome to the Flying Circus!
 
@@ -83,9 +83,6 @@ machine using SFTP::
 Application Deployment
 ----------------------
 
-.. XXX link to appropriate section in reference that explains the service user
-    concept in detail
-
 Server applications should be running in a *service user* account and not in a
 *human user* account. For every project we automatically
 provide a service user with a matching name. For example: if your resource
@@ -155,7 +152,7 @@ Disks
 
 Every virtual machine has three disks mounted::
 
-    ctheune@myapp00 ~ $ lsblk
+    user@myapp00 ~ $ lsblk
     NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
     vda    253:0    0  10G  0 disk
     ├─vda1 253:1    0  10G  0 part /
@@ -185,8 +182,9 @@ You can use our managed components/roles to avoid having to install and maintain
 complex setups yourself. Some examples for components we provide:
 
 * postgresql
-* webgateway
-* mailout
+* mysql
+* webgateway (nginx, haproxy)
+* mailserver (postfix, dovecot, roundcube)
 * redis
 
 The benefit of managed components are:
