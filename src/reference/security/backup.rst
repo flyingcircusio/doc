@@ -1,4 +1,4 @@
-.. last review: 2021-04-10
+.. last review: 2022-05-05
 .. review schedule: 1 year
 .. ISMSControl: A.5.1.1
 .. ISMSControl: A.12.3.1
@@ -37,6 +37,12 @@ The *hourly* backup schedule retains the following backups:
 * Weekly backups for the past 5 weeks.
 * Monthly backups for the past 4 months.
 
+The the *longterm* backup schedule retains the following backups:
+
+* Daily backups for the past 30 days.
+* Monthly backups for the last 12 months.
+
+
 If backups were missed then the retention period keeps at least that many
 copies before deleting them, i.e. there will always be 25 hourly backups  even
 if a backup was missed for some reason.
@@ -44,6 +50,8 @@ if a backup was missed for some reason.
 Backups are created at fixed intervals but the time during the interval is not
 guaranteed. I.e. daily backups for a specific VM occur every 24 hours at the
 same time but there is no guarantee for a specific time, like 03:00.
+
+Backups are *only* stored on-site. Off-site replication is available, please contact our `support <https://my.flyingcircus.io/support/>`_.
 
 Procedure
 ---------
