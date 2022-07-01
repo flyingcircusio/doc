@@ -6,13 +6,31 @@ Release 2022_017 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.11] Most services will be restarted because of a core dependency
+  change. Machines will schedule a reboot to activate the changed kernel.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Pull upstream NixOS changes that include security fixes and other
+  updates (#PL-130684):
+
+    * apacheHttpd: 2.4.53 -> 2.4.54 (CVE-2022-31813, CVE-2022-30556,
+      CVE-2022-30522, CVE-2022-29404, CVE-2022-28615, CVE-2022-28614,
+      CVE-2022-28330, CVE-2022-26377)
+    * gitlab: 14.9.4 -> 14.9.5
+    * imagemagick: 7.1.0-35 -> 7.1.0-37
+    * libtiff: add patches for CVE-2022-1354 & CVE-2022-1355
+    * linux: 5.10.118 -> 5.10.121
+    * python39: 3.9.12 -> 3.9.13
+    * vim: 8.2.4816 -> 8.2.4975
+
+* Sensu: remove load check because it has proven to not be a good predictor
+  for problems (#PL-129904). We recently added pressure stall information
+  (PSI) to our VM dashboards which are more fine-grained and can be used
+  combined with traditional load for analysing issues but neither is
+  qualified to be used for alerting.
 
 
 NixOS 21.05 platform
