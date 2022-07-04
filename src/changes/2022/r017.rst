@@ -20,8 +20,7 @@ NixOS 21.11 platform
       CVE-2022-30522, CVE-2022-29404, CVE-2022-28615, CVE-2022-28614,
       CVE-2022-28330, CVE-2022-26377)
     * gitlab: 14.9.4 -> 14.10.5
-    * imagemagick: 7.1.0-35 -> 7.1.0-37
-    * imagemagick: 7.1.0-37 -> 7.1.0-39
+    * imagemagick: 7.1.0-35 -> 7.1.0-39
     * libtiff: add patches for CVE-2022-1354 & CVE-2022-1355
     * linux: 5.10.118 -> 5.10.124
     * matrix-synapse: 1.59.1 -> 1.61.1
@@ -31,10 +30,10 @@ NixOS 21.11 platform
     * vim: 8.2.4816 -> 8.2.4975
 
 * Sensu: remove load check because it has proven to not be a good predictor
-  for problems (#PL-129904). We recently added pressure stall information
+  for problems. We recently added pressure stall information
   (PSI) to our VM dashboards which are more fine-grained and can be used
   combined with traditional load for analysing issues but neither is
-  qualified to be used for alerting.
+  qualified to be used for alerting (#PL-129904).
 
 
 NixOS 21.05 platform
