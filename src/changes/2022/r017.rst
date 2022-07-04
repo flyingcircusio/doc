@@ -34,6 +34,7 @@ NixOS 21.11 platform
   (PSI) to our VM dashboards which are more fine-grained and can be used
   combined with traditional load for analysing issues but neither is
   qualified to be used for alerting (#PL-129904).
+* Production channel URL for this release: https://hydra.flyingcircus.io/build/170042/download/1/nixexprs.tar.xz
 
 
 NixOS 21.05 platform
@@ -68,5 +69,8 @@ Documentation
 
 Detailed Changes
 ^^^^^^^^^^^^^^^^
+
+* NixOS 21.11: `platform code <https://github.com/flyingcircusio/fc-nixos/compare/fc/r2022_016/21.11...097806d3b09ead955d0867b79ba1174d09363ff5>`_,
+  `upstream changes <https://github.com/flyingcircusio/nixpkgs/compare/397669babd51cebd19b07e3f70fd4b6960f0fb1a...f4cf82996be177196cb28d234b28ba111bae98fc>`_
 
 .. vim: set spell spelllang=en:
