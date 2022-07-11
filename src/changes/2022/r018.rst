@@ -12,13 +12,20 @@ Impact
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* k3s/kubernetes: fix apiserver availability check (#PL-130641).
+* Documentation: add EOL notice for MySQL/Percona 5.6 and MongoDB before 4.2.
+* Documentation: add PostgreSQL 14 to supported versions.
 
 
 NixOS 21.05 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* Various internal improvements for hardware running on NixOS(#PL-127635).
+  VMs will still get an update to the new release but won't be affected
+  directly by the changes.
+* Kibana and Elasticsearch role documentation: add note about the free/unfree
+  package situation, same as on 21.11.
+* Documentation: add EOL notice for MySQL/Percona 5.6 and MongoDB before 4.2.
 
 
 NixOS 20.09 platform
