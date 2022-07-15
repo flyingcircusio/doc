@@ -6,7 +6,7 @@ Release 2022_019 (2022-07-18)
 Impact
 ^^^^^^
 
-* [NixOS 21.11] Machines will schedule a reboot to activate the changed kernel.
+* [NixOS 21.11] Elasticsearch will be restarted. Machines will schedule a reboot to activate the changed kernel.
 
 
 NixOS 21.11 platform
