@@ -19,4 +19,5 @@ your application in the Flying Circus.
    :maxdepth: 1
 
    overview
+   chat
    screen-multiuser
