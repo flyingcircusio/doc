@@ -6,13 +6,21 @@ Release 2022_019 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* [NixOS 21.11] Machines will schedule a reboot to activate the changed kernel.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
+* java: apply patched zlib to all commonly used openjdk variants and aliases.
+  Since `release 2022_011 <https://doc.flyingcircus.io/platform/changes/2022/r011.html?highlight=zlib#nixos-21-11-platform>`_
+  only *jdk8_headless* and *jdk11_headless* used the patched zlib. It's
+  recommended to use the **openjdk17_headless** package for applications.
+  *openjdk11*, *openjdk8* and their headless variants can also be used.
+  (#PL-130760).
+* Pull upstream NixOS changes that include security fixes and other
+  updates (#PL-130744):
 
-* nothing yet
+  * linux: 5.10.124 -> 5.10.126
 
 
 NixOS 21.05 platform
