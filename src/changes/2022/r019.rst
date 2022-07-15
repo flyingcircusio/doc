@@ -50,7 +50,9 @@ Gentoo platform
 Documentation
 ^^^^^^^^^^^^^
 
-* nothing yet
+* Document Matrix/Element chat for customer communication.
+* Add tutorial for LAMP role.
+* Update backup documentation.
 
 
 Detailed Changes
