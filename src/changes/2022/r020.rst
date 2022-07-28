@@ -33,6 +33,7 @@ NixOS 21.11 platform
   Jitsi services if they are running but don't work properly. This usually
   happens after a reboot or large system update, making Jitsi conferences
   unavailable until a manual service restart (#PL-130720).
+* Redis: document how to change the password (#PL-130686).
 
 
 NixOS 21.05 platform
