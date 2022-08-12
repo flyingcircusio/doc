@@ -9,6 +9,29 @@ Impact
 * Matomo will be restarted.
 
 
+NixOS 22.05 platform
+^^^^^^^^^^^^^^^^^^^^
+
+Our platform version NixOS 22.05 is now ready for testing on non-production
+systems. Starting with this release, the environment fc-22.05-staging can be
+used for upgrading machines.
+
+We plan to roll out the upgrade for most of the customer staging systems in
+calendar week 34. There will be an announcement one week before the roll-out.
+
+Significant package updates, compared to 21.11:
+
+* glibc 2.33 -> 2.34
+* haproxy: 2.3.x -> 2.5.x
+* nginx: 1.20.2 -> 1.22
+* nix: 2.3 -> 2.8
+* php 8.1: new
+* openssh: 8.8 -> 9.0
+* redis: 6.2.x -> 7.0.x
+* systemd: 249 -> 250
+* varnish: 7.0.x -> 7.1.x
+
+
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
