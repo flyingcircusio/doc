@@ -6,13 +6,16 @@ Release 2022_021 (unreleased)
 Impact
 ^^^^^^
 
-* nothing yet
+* Matomo will be restarted.
 
 
 NixOS 21.11 platform
 ^^^^^^^^^^^^^^^^^^^^
 
-* nothing yet
+* matomo: update to 4.11.0 (#PL-130689).
+* LAMP: Add ``flyingcircus.roles.lamp.vhost.*.apacheExtraConfig`` option which
+  allows adding plain Apache config to the end of the *<VirtualHost ...>* block
+  (#PL-130680, #PL-130679).
 
 
 NixOS 21.05 platform
