@@ -29,25 +29,20 @@ based on the following standards and regulations:
 
 **Information Security officer:**
 
-Christian Zagrodnick
-
-<mailto:cz@flyingcircus.io>
+```{eval-rst}
+| Christian Zagrodnick
+| cz@flyingcircus.io
+```
 
 **Data protection officer:**
 
-Prof. Dr. Andre Döring
-
-Robin Data GmbH
-
-Fritz-Haber-Straße 9 · 06217 Merseburg
-
-<https://www.robin-data.io>
-
- · 
-
-<mailto:datenschutz@robin-data.io>
-
-[+49 3461 4798960](tel:+4934614798960)
+```{eval-rst}
+| Prof. Dr. Andre Döring
+| Robin Data GmbH
+| Fritz-Haber-Straße 9 · 06217 Merseburg
+| https://www.robin-data.io · datenschutz@robin-data.io
+| `+49 3461 4798960 <tel:+4934614798960>`_
+```
 
 ## General
 
