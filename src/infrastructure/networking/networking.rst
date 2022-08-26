@@ -48,8 +48,8 @@ purposes on the application level. This network is firewalled from the DC
 firewalls and allows only HTTP/S and SSH traffic. Additionally VMs can filter
 this traffic locally and only allow free traffic by default from VMs belonging
 to the same project. All VMs have this NIC used and addresses
-allocated. DNS example: *vm00.srv.rzob.gocept.net* or simply
-*vm00.gocept.net*.
+allocated. DNS example: *vm00.srv.rzob.fcio.net* or simply
+*vm00.fcio.net*.
 
 **STO** - Storage communication. Used by the virtualization and backup servers
 to access the network storages where the VM disk images are located. DNS
