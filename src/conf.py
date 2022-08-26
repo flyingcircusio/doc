@@ -202,14 +202,12 @@ latex_documents = [
 
 # -- Options for extensions ----------------------------------------------------
 
-platform_role_doc = os.environ.get("platformRoleDoc")
-if platform_role_doc == "" or platform_role_doc == "null":
-    platform_role_doc = None
-elif platform_role_doc is not None:
-    platform_role_doc += "/objects.inv"
+platform_doc_objects_inventory = os.environ.get("platformDocObjectsInventory")
+if platform_doc_objects_inventory in ("", "null"):
+    platform_doc_objects_inventory = None
 
 intersphinx_mapping = {
-    "platform-current": ("https://doc.flyingcircus.io/roles/fc-21.11-production", platform_role_doc)
+    "platform-current": ("https://doc.flyingcircus.io/roles/fc-21.11-production", platform_doc_objects_inventory)
 }
 
 myst_enable_extensions = [
