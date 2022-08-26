@@ -1,64 +1,59 @@
-.. _apparmor:
+(apparmor)=
 
-AppArmor
-========
+# AppArmor
 
 This role installs and pre-configures AppArmor, a Linux application security
-system. Information about AppArmor can be found in the `official documentation
-<http://wiki.apparmor.net/index.php/Documentation>`_.
+system. Information about AppArmor can be found in the [official documentation](http://wiki.apparmor.net/index.php/Documentation).
 
-Components
-----------
+## Components
 
-* apparmor-profiles (A collection of profiles for the AppArmor application
+- apparmor-profiles (A collection of profiles for the AppArmor application
   security system)
-* apparmor-utils (Additional userspace utils to assist with AppArmor profile
+- apparmor-utils (Additional userspace utils to assist with AppArmor profile
   management)
 
-Configuration
--------------
+## Configuration
 
-The pre-configured AppArmor profiles are stored in :file:`/etc/apparmor.d/`.
+The pre-configured AppArmor profiles are stored in {file}`/etc/apparmor.d/`.
 
 By default, all these profiles are loaded in `complain` mode, which represents a
 learning mode. Actions that violate profile rules are only logged, not
 prohibited. Technically, the `complain` mode is realized by having symlinks in
-:file:`/etc/apparmor.d/force-complain/` that point to the respective profile in
-:file:`/etc/apparmor.d/`.
+{file}`/etc/apparmor.d/force-complain/` that point to the respective profile in
+{file}`/etc/apparmor.d/`.
 
 To enable a profile, simply remove the corresponding symlink in
-:file:`/etc/apparmor.d/force-complain/` as a service user.
+{file}`/etc/apparmor.d/force-complain/` as a service user.
 
-Service users may put own AppArmor profiles in :file:`/etc/apparmor.d/local/`.
-For information about how to create AppArmor profiles, the official `quick
-language guide <http://wiki.apparmor.net/index.php/QuickProfileLanguage>`_ is a
+Service users may put own AppArmor profiles in {file}`/etc/apparmor.d/local/`.
+For information about how to create AppArmor profiles, the official [quick
+language guide](http://wiki.apparmor.net/index.php/QuickProfileLanguage) is a
 good place to start.
 
-.. note::
+:::{note}
+Please note that profiles created in {file}`/etc/apparmor.d/local/` are
+enabled by default as long as you put a corresponding symlink in
+{file}`/etc/apparmor.d/force-complain/`.
+:::
 
-   Please note that profiles created in :file:`/etc/apparmor.d/local/` are
-   enabled by default as long as you put a corresponding symlink in
-   :file:`/etc/apparmor.d/force-complain/`.
+## Interaction
 
-Interaction
------------
-
-Service users may restart AppArmor by executing :command:`/etc/init.d/apparmor
+Service users may restart AppArmor by executing {command}`/etc/init.d/apparmor
 restart`.
 
 They may also inquire information about AppArmors's currently loaded policy
-be executing :command:`sudo aa-status`.
+be executing {command}`sudo aa-status`.
 
 Further, service users may list processes that have network access and have no
-AppArmor profile assigned by executing :command:`sudo aa-unconfined`.
+AppArmor profile assigned by executing {command}`sudo aa-unconfined`.
 
-
-Monitoring
-----------
+## Monitoring
 
 Log messages from AppArmor will appear in our general logcheck which customers
 do also receive notifications about.
 
-You can manually inspect the log files on a machine for entries by grepping this way::
+You can manually inspect the log files on a machine for entries by grepping this way:
 
-    $ zgrep -i /var/log/messages*
+```
+$ zgrep -i /var/log/messages*
+```

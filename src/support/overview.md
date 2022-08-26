@@ -1,7 +1,6 @@
-.. _support-details:
+(support-details)=
 
-Overview
-========
+# Overview
 
 We are happy to assist you with any issues that you may have when using our
 services. We have multiple informal ways that you may be communicating with us
@@ -9,24 +8,20 @@ like telephone, chat, or video conferences.
 
 However, for situations where a higher due diligence is required (like leaving
 a paper trail of what we agreed on) we offer a formal support structure based
-on an issue tracking system. You are always welcome to start inquiring about 
+on an issue tracking system. You are always welcome to start inquiring about
 any issue through our informal channels - our staff will guide you towards
 the more formal structure if needed.
 
 We differentiate inquiries into this system based on whether they critically
 affect production services or not.
 
+## General Support
 
-General Support
----------------
-
-For non-production critical issues please contact our support by sending an 
-email to support@flyingcircus.io. This will create a ticket and our staff will
+For non-production critical issues please contact our support by sending an
+email to <mailto:support@flyingcircus.io>. This will create a ticket and our staff will
 follow up with you within at most a business day.
 
-
-Emergency Support
------------------
+## Emergency Support
 
 As a customer with a service level agreement you have access to additional ways
 of communication that will ensure that our personnel responds within the agreed
@@ -38,17 +33,17 @@ business-adverse situations caused by or related to our services.
 
 In the case of an emergency we will concentrate our resources towards a
 resolution. Other work is postponed until the problem is resolved. Information
-about ongoing large scale emergencies and disruptive work is published on our 
-`status page <http://status.flyingcircus.io/>`_.
+about ongoing large scale emergencies and disruptive work is published on our
+[status page](http://status.flyingcircus.io/).
 
 There are three ways for us to get aware of an emergency:
 
-* Our system monitoring detects an outage and alerts us automatically.
+- Our system monitoring detects an outage and alerts us automatically.
 
-* You send an email to emergency+<PIN>@flyingcircus.io (If your PIN is
+- You send an email to emergency+\<PIN>@flyingcircus.io (If your PIN is
   `1234`, send an email to `emergency+1234@flyingcircus.io`).
 
-* You call our emergency support number *+49 345 95990625* and enter your
+- You call our emergency support number *+49 345 95990625* and enter your
   client-specific PIN.
 
   The call is forwarded to on-duty supporter who either picks up
@@ -58,18 +53,16 @@ There are three ways for us to get aware of an emergency:
 
 In any case there will be a support ticket created automatically.
 
-.. WARNING::
+:::{WARNING}
+The standby support is *only* notified during the hours booked
+according to the SLA.
+:::
 
-    The standby support is *only* notified during the hours booked
-    according to the SLA.
+:::{NOTE}
+When an emergency ticket is created the active supporters are immediately
+notified via
 
-.. NOTE::
-
-    When an emergency ticket is created the active supporters are immediately
-    notified via
-
-    * Pushover (https://pushover.net/),
-
-    * Pager (http://www.ecityruf.de/) and
-
-    * Email.
+- Pushover (<https://pushover.net/>),
+- Pager (<http://www.ecityruf.de/>) and
+- Email.
+:::

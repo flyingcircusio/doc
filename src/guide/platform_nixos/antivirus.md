@@ -1,24 +1,21 @@
-.. _antivirus_nixos:
+(antivirus-nixos)=
 
-Antivirus
-=========
+# Antivirus
 
-Installs the `ClamAV`_ virus checker and infrastructure to update virus
+Installs the [ClamAV] virus checker and infrastructure to update virus
 signatures regularly.
 
-.. _ClamAV: http://www.clamav.net
+## Components
 
-Components
-----------
+- clamd - antivirus daemon
+- clam(d)scan - command line virus checker
+- freshclam - signature update service
 
-* clamd - antivirus daemon
-* clam(d)scan - command line virus checker
-* freshclam - signature update service
+## Interaction
 
-Interaction
------------
-
-Use :command:`clamdscan` to pass files to the scanning daemon or talk directly
+Use {command}`clamdscan` to pass files to the scanning daemon or talk directly
 to it via `libclamav`.
 
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:
+
+[clamav]: http://www.clamav.net

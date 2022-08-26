@@ -1,37 +1,30 @@
-:Publish Date: 2011-10-29
+---
+Publish Date: '2011-10-29'
+---
 
-Release 2011-10-29
-------------------
+# Release 2011-10-29
 
-Packages
-^^^^^^^^
+## Packages
 
 - Security update for libxml2: GLSA 201110-26 (#9785).
 
+# Release 2011-10-26
 
-Release 2011-10-26
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Improved Nagios notification options to separate infrastructure and service
   notifications (#8161).
 - Speed up Nagios startup to minimize monitoring "holes" (#9665).
 
-Packages
-^^^^^^^^
+## Packages
 
 - Security update for ClamAV: GLSA 201110-16 (#9798).
 - Security update for PostgreSQL: GLSA 201110-20 (#9714). PostgreSQL restart
   required.
 
+# Release 2011-10-13
 
-Release 2011-10-13
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Turn syslog-ng to back to listening on 514/udp after the developers
   misguidedly changed it to 610/udp.
@@ -43,36 +36,29 @@ Configuration
 - Add puppet class for installing dev-lang/erlang.
 - Improve GLSA notification mechanism (#8302)
 
-Packages
-^^^^^^^^
+## Packages
 
 - Security fixes for phpmyadmin 3.4.4: Gentoo #383107
 - Security fixes for apache 2.2.20: CVE-2011-3348
 - Security fixes for dhcp: CVE-2011-{2748,2749}
 - Upgrade to ghostscript 9.04 (RT 79159)
 
+# Release 2011-09-19
 
-Release 2011-09-19
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - add fontconfig flag to gd on physical machines (in addition to virtual
   machines)
 
-Packages
-^^^^^^^^
+## Packages
 
 - Security fixes for tiff 3.9.4: CVE-2009-5022,CVE-2010-{2595,3087},CVE-2011-{0192,1167}
 - Security fixes for librsvg 2.34.0: CVE-2011-3146
 - Security fixes for openssl 1.0.0e: CVE-2011-{3207,3210}
 
-Release 2011-09-13
-------------------
+# Release 2011-09-13
 
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Bring wvWare tools back which disappeared accidentally during the last
   update (RT 78747).
@@ -81,8 +67,7 @@ Configuration
 - Restrict memcached to listen on SRV IPv4 only.
 - Increased number of allowed postgresql IDLE processes in Nagios check.
 
-Packages
-^^^^^^^^
+## Packages
 
 - Security fixes for apache 2.2.20, apache-tools 2.2.20: CVE-2011-3192 (#9539).
 - Security fix for php 5.3.8: CVE-2011-2202 (#9548).
@@ -92,32 +77,24 @@ Packages
 - Security fix for subversion 1.6.16: CVE-2011-1752 (#9523).
 - Security fix for ca-certificates 20090709: Gentoo #381169 (#9542).
 
-
-
-Release 2011-09-07
-------------------
+# Release 2011-09-07
 
 Mainly a bugfix release for the major update.
 
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Resolve VM host race condition which impedes correct VM startup during
   booting.
 - Resolve VM host init script bug which causes all iSCSI connections to die
   under certain conditions.
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
-- Expand examples in the :ref:`userinit` section.
+- Expand examples in the {ref}`userinit` section.
 
+# Release 2011-08-29
 
-Release 2011-08-29
-------------------
-
-Packages
-^^^^^^^^
+## Packages
 
 A great deal of updated packages is available with the new release. Some
 highlights in no particular order (#8984):
@@ -142,12 +119,10 @@ highlights in no particular order (#8984):
 - Linux kernel version 2.6.38
 - Update all packages not mentioned here to current Gentoo upstream versions.
 
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - PostgreSQL 9.0 configuration files (postgresql.conf etc.) reside now all in
-  :file:`/etc/postgresql-9.0` instead of :file:`/srv/postgresql/9.0/data/`.
+  {file}`/etc/postgresql-9.0` instead of {file}`/srv/postgresql/9.0/data/`.
 - Small VMs get more swap. This should avoid memory pressure from more or less
   inactive system services.
 - Multi-Core VMs are available on request (#9101).
@@ -156,114 +131,87 @@ Configuration
 - Fix bug where a missing use flag prevented the installation of graphviz (RT
   78548).
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
 Another great deal of documentation updates, especially in the tutorials
 section.
 
+# Release 2011-08-05
 
-Release 2011-08-05
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Automatic system maintenance scheduling. System activities that require
   downtime (kernel upgrades etc.) are automatically scheduled into the next
   available maintenance slot and e-mail notifications are sent out. System users
-  may use :command:`list-maintenance` to view upcoming maintenance activities
+  may use {command}`list-maintenance` to view upcoming maintenance activities
   (#8668, #9359).
 - Set default system Python version to 2.7. Scripts using a specific Python
-  version (:file:`#!/usr/bin/python{X.Y}`) are not affected (#9043).
+  version ({file}`#!/usr/bin/python{X.Y}`) are not affected (#9043).
 - Increase the initial TCP congestion window to 10 segments (RT 78202).
 
-
-Monitoring
-^^^^^^^^^^
+## Monitoring
 
 - Fix bug with false positives in the `sysstat log freshness` check (#9269).
 - Relax swap rate checks to avoid false positives. The checks should only cause
   alerts when a machine is constantly swapping.
 
+## Documentation
 
-Documentation
-^^^^^^^^^^^^^
-
-- Completely reworked :ref:`firststeps` section.
+- Completely reworked {ref}`firststeps` section.
 - Added tutorial ssh-keygen (#6938).
 
+# Release 2011-07-21
 
-Release 2011-07-21
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Support user-generated postgresql.conf Snippets in
-  :file:`/etc/postgresql-{version}` (#9164)
+  {file}`/etc/postgresql-{version}` (#9164)
 - Service users may register user-specific init scripts to start and stop
   applications during system boot/shutdown. This feature is documented in
-  :ref:`userinit` (RT 77751).
+  {ref}`userinit` (RT 77751).
 
-
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
 - Revamped documentation, adding introductory material and better
   section overviews.
 
+# Release 2011-06-30
 
-Release 2011-06-30
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Increase file size limits for ClamAV (RT 77694).
 - Further PostgreSQL performance tuning.
 - Integration of customers-specific storage servers for high-volume customers
   (#9219).
 
-
-Monitoring
-^^^^^^^^^^
+## Monitoring
 
 - Add `sysstat memory` check to provide continuous graphs of memory usage.
 
+## Documentation
 
-Documentation
-^^^^^^^^^^^^^
+- Improve {ref}`service-deployment-checklist` (#8371)
+- Further improvements to {ref}`data-protection` (#8370)
 
-- Improve :ref:`service-deployment-checklist` (#8371)
-- Further improvements to :ref:`data-protection` (#8370)
+# Release 2011-06-21
 
-
-Release 2011-06-21
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Introduce facility to pin machines to fixed releases (#6820).
 - Mount filesystems with `relatime` option by default.
 - Tune PostgreSQL shared_buffers and wal_buffers parameter defaults (RT 77605).
 - Tune kernel I/O scheduler settings.
 
-Monitoring
-^^^^^^^^^^
+## Monitoring
 
 - Plot memory usage graph for all machines (sysstat_memory check).
 
+# Release 2011-06-09
 
-Release 2011-06-09
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Add xlhtml, rtf2xml and xls2csv to document processing role. (#8783)
-- Add warning to auto-generated SSH :file:`authorized_keys` files that they
+- Add warning to auto-generated SSH {file}`authorized_keys` files that they
   should not be edited manually. (#8867)
 - Reduce default greylisting time on mail gateways so that delivery of
   greylisted mails usually succeeds with the first queue re-run on
@@ -271,76 +219,58 @@ Configuration
 - Refine backup exclude lists to omit file that are easy to recreate in order to
   speed up backup and restore.
 
-Monitoring
-^^^^^^^^^^
+## Monitoring
 
 - Relax swap activity checks to avoid false alerts when there is substantial
   swapping activity but no thrashing.
 - Improve reliability of sysstat checks.
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
-- Greatly improve :ref:`data protection documentation <data-protection>` to
+- Greatly improve {ref}`data protection documentation <data-protection>` to
   provide a comprehensive overview of gocept.net data protection measures.
   (#8370)
 
+# Release 2011-05-26
 
-Release 2011-05-26
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Refine user access control to selectively grant rights to service users.
 - Refine/debug global administrative control to selectively revoke super-admin
-  rights of gocept's administrators (see :ref:`access-control`) (#8365)
+  rights of gocept's administrators (see {ref}`access-control`) (#8365)
 
-
-Hardware
-^^^^^^^^
+## Hardware
 
 - New monitoring server to reduce monitoring latency.
 - Enhanced backup server performance.
 
+# Release 2011-05-18
 
-Release 2011-05-18
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Improved functionality and performance of the gocept.directory (CMDB) server.
 - Fix bugs in Postfix/Mailman management code.
 
+# Release 2011-04-20
 
-Release 2011-04-20
-------------------
-
-Hardware
-^^^^^^^^
+## Hardware
 
 Add new storage and application servers for improved performance and
 reliability.
 
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Improve network routing to unnecessary roundtrips in some cases.
 - Add Python 2.7 to the list of system Python installations (#8906)
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
-- Rework emergency docs in :ref:`support`.
-- Add check list for service setups in :ref:`service-deployment-checklist` (#8765).
+- Rework emergency docs in {ref}`support`.
+- Add check list for service setups in {ref}`service-deployment-checklist` (#8765).
 
+# Release 2011-04-06
 
-Release 2011-04-06
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Introduce separate roles for PostgreSQL 8.2, 8.4, 9.0. At most one of these
   roles may be active on a node at a time.
@@ -348,19 +278,15 @@ Configuration
   which results in links running at 100 Mb/s and are now able to detect and fix
   these cases fast.
 - Add support for TIFF graphics files to various utilities like
-  :command:`convert` etc.
+  {command}`convert` etc.
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
 - Describe support process.
 
+# Release 2011-02-22
 
-Release 2011-02-22
-------------------
-
-Package updates
-^^^^^^^^^^^^^^^
+## Package updates
 
 General snapshot update, upgrading most of the installed system packages. New
 versions of highlighted packages are:
@@ -372,51 +298,39 @@ versions of highlighted packages are:
 
 and many more.
 
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Restart network services automatically after updates of the package or
   it's libraries (#8304).
 - Allow different PostgreSQL versions (8.2, 8.4, or 9.0) (#7191).
 
+# Release 2011-01-28
 
-Release 2011-01-28
-------------------
+## Configuration
 
-Configuration
-^^^^^^^^^^^^^
-
-- Fix permission bug which rendered :command:`crontab` unusable for some users
+- Fix permission bug which rendered {command}`crontab` unusable for some users
   (#8392).
 - Add ClamAV role to install the ClamAV virus scanner.
 
-
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
 - Add hint on how to use our mail server in mail.gocept.net.
 - Document screen-multiuser (#8366).
 
+# Release 2011-01-17
 
-Release 2011-01-17
-------------------
-
-Configuration
-^^^^^^^^^^^^^
+## Configuration
 
 - Separate logging of system management changes (configuration, packages, users)
-  to :file:`/var/log/sysconfig.log` from other syslog output (#8475).
+  to {file}`/var/log/sysconfig.log` from other syslog output (#8475).
 - Introduce *restricted mode* machines which get system management changes only
   on explicit request (#8368).
-- Send Nagios alert mails with :mailheader:`Precendence: junk` to circumvent
+- Send Nagios alert mails with {mailheader}`Precendence: junk` to circumvent
   auto responders.
 - Introduce option for multi-page vhost list in web statistics overview (#8416)
 
-Documentation
-^^^^^^^^^^^^^
+## Documentation
 
 - nginx-ssl describes how to set up chained SSL certificates correctly.
 
-
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:

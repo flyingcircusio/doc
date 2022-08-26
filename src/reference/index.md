@@ -1,16 +1,15 @@
-.. image:: ../images/reference300.png
-   :class: logo
-   :width: 300px
+```{image} ../images/reference300.png
+:class: logo
+:width: 300px
+```
 
-*********
-Reference
-*********
+# Reference
 
+```{toctree}
+:maxdepth: 2
 
-.. toctree::
-   :maxdepth: 2
-
-   about
-   security/index
-   users/index
-   hardware/index
+about
+security/index
+users/index
+hardware/index
+```

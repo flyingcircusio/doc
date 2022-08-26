@@ -1,5 +1,4 @@
-Redundant router
-================
+# Redundant router
 
 Routers are an important resource within a location because they provide all
 external connectivity for all machines to the internet.
@@ -15,8 +14,7 @@ an identical setup and can fail-over in a primary/secondary mode.
 Our goal is to be able to guarantee a recovery of connectivity within
 less than 4 hours.
 
-Configuration details: BGP-based
---------------------------------
+## Configuration details: BGP-based
 
 In locations that support it (currently: DEV, RZOB) we leverage BGP as a
 mechanism to dynamically provide fail-over capabilities between our routers
@@ -31,19 +29,18 @@ and gets automatically assigned by the fail-over mechanism.
 
 The gateway addresses of the IP networks in this location are assigned to a
 physical host in the directory that is not a real puppet client but a
-placeholder node. It is called <location-router> (e.g. "whq-router" for
+placeholder node. It is called \<location-router> (e.g. "whq-router" for
 the router in our WHQ network).
 
 The routers within our location use VRRP
-(https://de.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol) to decide
+(<https://de.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol>) to decide
 which router should be the master. They leverage interface status information as
 well as default route availability.
 
 When the primary/secondary switches then we also enable/disable the DHCPD and
 RADVD services accordingly.
 
-Configuration details: Non-BGP
-------------------------------
+## Configuration details: Non-BGP
 
 For locations that do not have BGP available from our providers (currently: WHQ
 and some customer-owned locations) we extend the VRRP configuration to the TR
@@ -52,9 +49,7 @@ vlan and use a floating gateway IP there as well.
 This is an older setup that does have some impact on availability under certain
 circumstances on the provide side and is less flexible from our side.
 
-
-Manually switching master/backup routers
-----------------------------------------
+## Manually switching master/backup routers
 
 The master/backup role is normally automatically determined by an election
 process between all possible routers.
@@ -62,22 +57,19 @@ process between all possible routers.
 If for some reason, this should be manually changed, then the following steps
 need ot be performed:
 
-* locate the current master and log in per SSH
-* disable the keepalive daemon by calling `/etc/init.d/keepalived stop`
+- locate the current master and log in per SSH
+- disable the keepalive daemon by calling `/etc/init.d/keepalived stop`
   (alternatively the daemon can be restarted)
 
-Known issues
-------------
+## Known issues
 
-Inertia
-~~~~~~~
+### Inertia
 
 Switching between routers back and forth quickly can cause visible customer
 outages as the process will cause some packets to be lost and BGP sessions to
 reconverge.
 
-Uplink router ARP caching
-~~~~~~~~~~~~~~~~~~~~~~~~~
+### Uplink router ARP caching
 
 In locations that use VRRP on the TR vlan there may be additional delays  if the
 upstream routers should cache our routers' MAC addresses and ignore the MAC

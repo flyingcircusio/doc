@@ -1,53 +1,54 @@
-.. image:: ../../images/components250.png
-   :class: logo
-   :width: 250px
+```{image} ../../images/components250.png
+:class: logo
+:width: 250px
+```
 
+(managed-components)=
 
-.. _managed-components:
-.. _platform-gentoo:
+(platform-gentoo)=
 
-Gentoo (obsolete)
-=================
+# Gentoo (obsolete)
 
-Our traditional platform is based upon `Gentoo Linux <http://gentoo.org/>`_.
+Our traditional platform is based upon [Gentoo Linux](http://gentoo.org/).
 It is outdated and only receives very specific security updates.
 
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
+```{toctree}
+:maxdepth: 1
+:titlesonly: true
 
-   base
-   firewall
-   logging
+base
+firewall
+logging
+```
 
-Roles and packages
-------------------
+## Roles and packages
 
-.. toctree::
-   :titlesonly:
+```{toctree}
+:titlesonly: true
 
-   antivirus
-   apache
-   apparmor
-   appserver
-   docconv
-   dovecot
-   ejabberd
-   haproxy
-   java
-   loghost
-   mailman
-   mailserver
-   mapnik
-   memcached
-   mysql
-   nfs
-   nginx
-   openldap
-   php
-   postgresql
-   rabbitmq
-   redis
-   tomcat
-   ui_testing
-   varnish
+antivirus
+apache
+apparmor
+appserver
+docconv
+dovecot
+ejabberd
+haproxy
+java
+loghost
+mailman
+mailserver
+mapnik
+memcached
+mysql
+nfs
+nginx
+openldap
+php
+postgresql
+rabbitmq
+redis
+tomcat
+ui_testing
+varnish
+```

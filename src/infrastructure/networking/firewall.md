@@ -1,10 +1,8 @@
-.. _firewall:
+(firewall)=
 
-Firewall
-========
+# Firewall
 
-Concept
--------
+## Concept
 
 We rely mainly on the separation of different VLANs. Firewalls provide
 exceptions to the rules. This results in a rather small firewall ruleset which
@@ -15,9 +13,7 @@ interface(s) application bind to. If an application opens a port on the *fe*
 interface, public access is assumed. If an application opens a port on the *srv*
 interface, restricted access is assumed.
 
-
-Restrictions on the *srv* network
----------------------------------
+## Restrictions on the *srv* network
 
 Only few connections from the public internet to ports on the *srv* network
 can be opened by default. Machines inside the same project may access the
@@ -25,29 +21,26 @@ can be opened by default. Machines inside the same project may access the
 
 Currently we allow public access for:
 
-* SSH (22) - to provide login access to VMs
-* NTP (123) - to synchronize clocks with outside hosts
-* BGP (179, INPUT routers) to peer with uplink providers
-* Domain (53, INPUT on routers) to provide access to selected authoritative zones
-* RSYNC (873) - to allow binhosts to provide data to other locations
+- SSH (22) - to provide login access to VMs
+- NTP (123) - to synchronize clocks with outside hosts
+- BGP (179, INPUT routers) to peer with uplink providers
+- Domain (53, INPUT on routers) to provide access to selected authoritative zones
+- RSYNC (873) - to allow binhosts to provide data to other locations
 
 Managed components that are installed on a machine may provide additional
 firewall exceptions (either for public or data center-internal traffic), for
 example:
 
-* Grafana (statshost) opens ports 2003 and 2004.
-* VxLAN/OpenVPN servers open several ports depending on their configuration.
+- Grafana (statshost) opens ports 2003 and 2004.
+- VxLAN/OpenVPN servers open several ports depending on their configuration.
 
+(custom-firewall-rules)=
 
-.. _custom-firewall-rules:
-
-Adding custom firewall rules
-----------------------------
+## Adding custom firewall rules
 
 How to add custom firewall rules depends on the platform of your VM:
 
-* `NixOS 19.03 and newer </roles/current/firewall.html>`_
-* :ref:`NixOS 15.09 <nixos-firewall>`
+- [NixOS 19.03 and newer](/roles/current/firewall.html)
+- {ref}`NixOS 15.09 <nixos-firewall>`
 
-
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:

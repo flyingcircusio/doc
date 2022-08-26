@@ -1,7 +1,6 @@
-.. _nixos-base:
+(nixos-base)=
 
-Base environment
-================
+# Base environment
 
 The base installation includes various tools that generally help with
 application deployment. They are available on every Flying Circus NixOS VM.
@@ -14,79 +13,73 @@ may cause breakage of your applications in the long term.
 Also, those packages are not providing running daemons (like OpenLDAP). If you
 need a managed component, those need to be activated explicitly.
 
-Packages
---------
+## Packages
 
-* atop
-* bc
-* bind
-* bundler
-* curl
-* cyrus_sasl
-* db
-* dstat
-* fcmaintenance
-* fio
-* gcc
-* gdbm
-* git
-* gnupg
-* go
-* gptfdisk
-* graphviz
-* imagemagick
-* inetutils
-* iotop
-* kerberos
-* libmemcached
-* links
-* lsof
-* lynx
-* mercurial
-* mmv
-* nano
-* nc6
-* ncdu
-* netcat
-* ngrep
-* nmap
-* nodejs
-* openldap
-* openssl
-* php
-* postgresql
-* protobuf
-* psmisc
-* pv
-* python27Full
-* python3
-* python34Packages.virtualenv
-* screen
-* strace
-* subversion
-* sysstat
-* tcpdump
-* telnet
-* traceroute
-* tree
-* unzip
-* utillinux
-* vim
-* zlib
+- atop
+- bc
+- bind
+- bundler
+- curl
+- cyrus_sasl
+- db
+- dstat
+- fcmaintenance
+- fio
+- gcc
+- gdbm
+- git
+- gnupg
+- go
+- gptfdisk
+- graphviz
+- imagemagick
+- inetutils
+- iotop
+- kerberos
+- libmemcached
+- links
+- lsof
+- lynx
+- mercurial
+- mmv
+- nano
+- nc6
+- ncdu
+- netcat
+- ngrep
+- nmap
+- nodejs
+- openldap
+- openssl
+- php
+- postgresql
+- protobuf
+- psmisc
+- pv
+- python27Full
+- python3
+- python34Packages.virtualenv
+- screen
+- strace
+- subversion
+- sysstat
+- tcpdump
+- telnet
+- traceroute
+- tree
+- unzip
+- utillinux
+- vim
+- zlib
 
-
-Configuration
--------------
+## Configuration
 
 All tools can be configured individually with dotfiles in the user's home
 directory.
 
+## Interaction
 
-Interaction
------------
+Service users may invoke {command}`sudo systemctl` to restart individual
+services manually. See also {ref}`nixos-local` for information about how to activate configuration changes.
 
-Service users may invoke :command:`sudo systemctl` to restart individual
-services manually. See also :ref:`nixos-local` for information about how to activate configuration changes.
-
-
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:

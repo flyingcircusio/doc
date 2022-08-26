@@ -1,45 +1,36 @@
-.. _appserver:
+(appserver)=
 
-Application servers
-===================
+# Application servers
 
 This role provides various utilities and libraries that are need for common
 application deployments.
 
+## Components:
 
-Components:
------------
-
-* mit_krb5 (MIT Kerberos V)
-* libxml2 (Version 2 of the library to manipulate XML files)
-* libxslt (A Perl module to parse XSL Transformational sheets using gnome's
+- mit_krb5 (MIT Kerberos V)
+- libxml2 (Version 2 of the library to manipulate XML files)
+- libxslt (A Perl module to parse XSL Transformational sheets using gnome's
   libXSLT)
-* imaging (Python Imaging Library (PIL))
-* graphviz (Open Source Graph Visualization Software)
-* ftp (Standard Linux FTP client)
-* nodejs (Evented IO for V8 Javascript)
-* curl (A Client that groks URLs)
-* links (A fast and lightweight web browser running in both graphics and text
+- imaging (Python Imaging Library (PIL))
+- graphviz (Open Source Graph Visualization Software)
+- ftp (Standard Linux FTP client)
+- nodejs (Evented IO for V8 Javascript)
+- curl (A Client that groks URLs)
+- links (A fast and lightweight web browser running in both graphics and text
   mode)
-* libjpeg-turbo (MMX, SSE, and SSE2 SIMD accelerated JPEG library)
-* freetype (A high-quality and portable font engine)
-* libmemcached (a C client library to the memcached server)
+- libjpeg-turbo (MMX, SSE, and SSE2 SIMD accelerated JPEG library)
+- freetype (A high-quality and portable font engine)
+- libmemcached (a C client library to the memcached server)
 
-
-Configuration
--------------
+## Configuration
 
 There are currently no user-configurable parts.
 
-
-Interaction
------------
+## Interaction
 
 No services running - just invoke the utilities from scripts or application
 code.
 
-
-Monitoring
-----------
+## Monitoring
 
 No monitoring by default.

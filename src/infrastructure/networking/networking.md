@@ -1,10 +1,8 @@
-.. _networking_overview:
+(networking-overview)=
 
-Overview
-========
+# Overview
 
-Physical networks
------------------
+## Physical networks
 
 The physical network in our public datacenter is implemented with Extreme VDX
 switches in a leaf-spine architecture with a redundant (n=2) spine. We leverage
@@ -18,12 +16,12 @@ dedicated link for each VLAN that it needs access to.
 Routers are attached to upstream ports provided by the data center, a dedicated
 management link, and a link with tagged VLANs for everything else.
 
-.. _logical_networks:
+(logical-networks)=
 
-Logical networks
-----------------
+## Logical networks
 
-.. image:: logical.png
+```{image} logical.png
+```
 
 The following VLANs and logical networks are in use:
 
@@ -67,8 +65,7 @@ Services that require tight control are bound to listening IP addresses on only
 those networks but then can get relaxed ACL rules making configuration simpler
 and easier to understand.
 
-Local ports
------------
+## Local ports
 
 Your application is generally free to use any open port on a machine above 1024.
 Especially if you run a component that has a registered, well-known port, please

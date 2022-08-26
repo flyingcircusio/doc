@@ -1,14 +1,12 @@
-.. _networking:
+(networking)=
 
-**********
-Networking
-**********
+# Networking
 
+```{toctree}
+:maxdepth: 1
 
-.. toctree::
-   :maxdepth: 1
-
-   networking
-   connecting
-   firewall
-   fallback-router
+networking
+connecting
+firewall
+fallback-router
+```

@@ -1,51 +1,44 @@
-.. _dovecot:
+(dovecot)=
 
-Dovecot
-=======
+# Dovecot
 
 Provides the Dovecot IMAP/POP server to store and access emails.
 
+## Components
 
-Components
-----------
+- Dovecot
 
-* Dovecot
-
-
-Configuration
--------------
+## Configuration
 
 The managed configuration provides the following setup:
 
-* Mails are stored in *maildir* format in :file:`/srv/vmail/<domain>/<user>`.
-* Access is possible via IMAP(S) and POP(S) on all interfaces.
-* The SSL certificates are self-signed by default.
+- Mails are stored in *maildir* format in {file}`/srv/vmail/<domain>/<user>`.
+- Access is possible via IMAP(S) and POP(S) on all interfaces.
+- The SSL certificates are self-signed by default.
 
-
-Interaction
------------
+## Interaction
 
 Service users may place custom configuration directives into
-:file:`/etc/dovecot/local.conf`.
+{file}`/etc/dovecot/local.conf`.
 
-Service users may reload dovecot using :command:`sudo /etc/init.d/dovecot
+Service users may reload dovecot using {command}`sudo /etc/init.d/dovecot
 reload`. The init-script can be also used to restart dovcot using
-:command:`sudo /etc/init.d/dovecot restart`.
+{command}`sudo /etc/init.d/dovecot restart`.
 
-A limited set of :manpage:`doveadm(1)` subcommands is available to users with
-`sudo-srv` permission. Examples::
+A limited set of {manpage}`doveadm(1)` subcommands is available to users with
+`sudo-srv` permission. Examples:
 
-   sudo doveadm mailbox list -u user@domain
-   sudo doveadm auth test user@domain password
-   sudo doveadm who
+```
+sudo doveadm mailbox list -u user@domain
+sudo doveadm auth test user@domain password
+sudo doveadm who
+```
 
-Monitoring
-----------
+## Monitoring
 
-* Dovecot processes running
-* IMAP(S) port reachable and responsive
-* POP(S) port reachable and responsive
-* Log checks for :file:`/var/log/mail`
+- Dovecot processes running
+- IMAP(S) port reachable and responsive
+- POP(S) port reachable and responsive
+- Log checks for {file}`/var/log/mail`
 
-
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:

@@ -1,9 +1,8 @@
-Hardware
-========
+# Hardware
 
+```{toctree}
+:maxdepth: 2
 
-.. toctree::
-   :maxdepth: 2
-
-   specs
-   data-centers
+specs
+data-centers
+```

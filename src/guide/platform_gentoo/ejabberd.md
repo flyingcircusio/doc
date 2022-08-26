@@ -1,51 +1,46 @@
-:Publish Date: 2012-12-13
+---
+Publish Date: '2012-12-13'
+---
 
-.. _jabber:
+(jabber)=
 
-ejabberd
-========
+# ejabberd
 
-Description
------------
+## Description
 
 Installs ejabberd, a XMPP (Jabber) server.
 
-Components
-----------
+## Components
 
-- `ejabberd`_
+- [ejabberd]
 
-.. _ejabberd: http://www.process-one.net/en/ejabberd
-
-Configuration
--------------
+## Configuration
 
 A default configuration that enabled the most common modules (including mod_muc)
 is provided with the role. Please note that the default configuration opens
 sockets on localhost only, so the XMPP server will not be very useful without
 customization.
 
-Service users may modify :file:`/etc/jabber/ejabberd-local.cfg`, which is read
+Service users may modify {file}`/etc/jabber/ejabberd-local.cfg`, which is read
 in addition to the default configuration. Most likely custom port definitions
 go in here.
 
-Interaction
------------
+## Interaction
 
-Service users may call :command:`sudo /etc/init.d/ejabberd restart` to restart
-the XMPP server instance. They may also call :command:`sudo
+Service users may call {command}`sudo /etc/init.d/ejabberd restart` to restart
+the XMPP server instance. They may also call {command}`sudo
 /etc/init.d/ejabberctl` to invoke administrative functions.
 
-The XMPP server logs to :file:`/var/log/jabber` which is world-readable.
+The XMPP server logs to {file}`/var/log/jabber` which is world-readable.
 
-
-Monitoring
-----------
+## Monitoring
 
 - The existence of an ejabberd process is checked.
 - The monitoring system tries to connect to localhost port 5222 and expects a
   XMPP handshake. When you configure custom ports in
-  :file:`/etc/jabber/ejabberd-local.cfg`, make sure to leave a port open on
+  {file}`/etc/jabber/ejabberd-local.cfg`, make sure to leave a port open on
   localhost:5222 to keep the check running.
 
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:
+
+[ejabberd]: http://www.process-one.net/en/ejabberd

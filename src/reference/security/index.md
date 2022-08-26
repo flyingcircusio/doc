@@ -1,8 +1,8 @@
-.. last review: 2021-10-04
-.. review schedule: 1 year
+% last review: 2021-10-04
 
-Security
-========
+% review schedule: 1 year
+
+# Security
 
 Security is a major concern for application hosting services as multiple
 requirements need to be balanced carefully: accessibility to our customers
@@ -12,13 +12,14 @@ logical) located in the infrastructure.
 In this section we document our goals, general thoughts, solutions, and
 policies to issues.
 
-.. toctree::
-   :maxdepth: 1
+```{toctree}
+:maxdepth: 1
 
-   policy
-   data-protection
-   disaster-recovery
-   backup
-   software-vulnerabilities
-   network
-   administrators
+policy
+data-protection
+disaster-recovery
+backup
+software-vulnerabilities
+network
+administrators
+```
