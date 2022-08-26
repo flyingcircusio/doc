@@ -28,7 +28,7 @@ In addition you likely want a variant of MySQL.
 
 ### MySQL
 
-Enable a MySQL role of your choice, e.g. mysql57, percona80, in the VM dashboard on <https://my.flyingcircus.io/>. See {ref}`nixos-mysql` for details.
+Enable a MySQL role of your choice, e.g. mysql57, percona80, in the VM dashboard on <https://my.flyingcircus.io/>. See the {external+platform-current:ref}`nixos-mysql` role documentation for details.
 
 If you just enabled a MySQL role it might not be available on the VM, yet. Call `sudo fc-manage -eb` to force a build. The `-e` option is there to reload the configuration you have set in the VM dashboard, so it's usually omitted when applying local changes.
 
@@ -110,7 +110,7 @@ in
 
 This setting configures both Apache *and* FPM automatically. To enable the configuration, call `sudo fc-manage -b`
 
-The detailed documentation for this component is: {ref}`nixos-lamp`.
+The detailed documentation for this component is: {external+platform-current:ref}`nixos-lamp`.
 
 ### NGINX
 
@@ -150,4 +150,4 @@ in
 }
 ```
 
-You will find more details on NGINX configuration at {ref}`nixos-webgateway`.
+You will find more details on NGINX configuration in the role documentation for {external+platform-current:ref}`nixos-webgateway`.
