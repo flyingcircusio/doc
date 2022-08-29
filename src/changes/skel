@@ -1,51 +1,41 @@
-.. XXX update on release :Publish Date: YYYY-MM-DD
+---
+Publish Date: 'YYYY-MM-DD'
+---
 
-Release YYYY_NNN (unreleased)
------------------------------
+# Release YYYY_NNN (unreleased)
 
-Impact
-^^^^^^
+## Impact
 
-* nothing yet
+- nothing yet
 
+## NixOS 22.05 platform
 
-NixOS 21.11 platform
-^^^^^^^^^^^^^^^^^^^^
+- nothing yet
 
-* nothing yet
+## NixOS 21.11 platform
 
+- nothing yet
 
-NixOS 21.05 platform
-^^^^^^^^^^^^^^^^^^^^
+## NixOS 21.05 platform
 
-* nothing yet
+- nothing yet
 
+## NixOS 20.09 platform
 
-NixOS 20.09 platform
-^^^^^^^^^^^^^^^^^^^^
+- nothing yet
 
-* nothing yet
+## NixOS 15.09 platform
 
+- nothing yet
 
-NixOS 15.09 platform
-^^^^^^^^^^^^^^^^^^^^
+## Gentoo platform
 
-* nothing yet
+- nothing yet
 
+## Documentation
 
-Gentoo platform
-^^^^^^^^^^^^^^^
+- nothing yet
 
-* nothing yet
+## Detailed Changes
 
-
-Documentation
-^^^^^^^^^^^^^
-
-* nothing yet
-
-
-Detailed Changes
-^^^^^^^^^^^^^^^^
-
-.. vim: set spell spelllang=en:
+% vim: set spell spelllang=en:
