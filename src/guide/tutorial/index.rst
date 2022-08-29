@@ -63,16 +63,16 @@ provided us when establishing your account.
     :ref:`data protection plan <entry-control>`.
 
 Every virtual machine will have a DNS name that follows the pattern
-`<virtualmachine>.gocept.net`. For example, if your resource
+`<virtualmachine>.fcio.net`. For example, if your resource
 group is called `myapp` the first virtual machine will be known as
-`myapp00.gocept.net`. ::
+`myapp00.fcio.net`. ::
 
-  $ ssh myuser@myapp00.gocept.net
+  $ ssh myuser@myapp00.fcio.net
 
 Based on your SSH login you can also transfer files from and to the virtual
 machine using SFTP::
 
-  $ scp my-file myuser@myapp00.gocept.net:
+  $ scp my-file myuser@myapp00.fcio.net:
 
 .. warning:: If you have problems connecting to the VM, check our section on
     :ref:`connecting`.
@@ -92,7 +92,7 @@ all virtual machines that belong to this project.
 Change your user context to this user and perform the necessary tasks to deploy
 your application::
 
-    $ ssh bob@myapp00.gocept.net
+    $ ssh bob@myapp00.fcio.net
     bob@myapp00 ~ $ sudo -u s-myapp -i
     s-myapp@myapp00 ~ $ # ... execute commands to install your application ...
 
