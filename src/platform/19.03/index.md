@@ -1,7 +1,5 @@
-# NixOS 19.03
+# NixOS 19.03 (obsolete)
 
 ```{toctree}
 fc-19.03-production
-fc-19.03-staging
-fc-19.03-dev
 ```
