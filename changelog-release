@@ -21,7 +21,7 @@ class Release(collections.namedtuple('Release', ['year', 'num'])):
     @property
     def filename(self):
         """Where the ChangeLog for this release resides."""
-        return 'src/changes/{}/r{:03n}.rst'.format(
+        return 'src/changes/{}/r{:03n}.md'.format(
             self.year, self.num)
 
     def read_changelog(self):
@@ -36,7 +36,7 @@ class Release(collections.namedtuple('Release', ['year', 'num'])):
 
 
 def last_release():
-    candidates = glob.glob('src/changes/{}/r*.rst'.format(
+    candidates = glob.glob('src/changes/{}/r*.md'.format(
         datetime.date.today().year))
     candidates.sort()
     try:
@@ -50,18 +50,21 @@ def last_release():
 
 def finalize_old_changelog(last_release, release_date):
     text = last_release.read_changelog()
+    parts = text.split("---", maxsplit=3)
+    if len(parts) != 3:
+        raise ValueError("YAML front matter not found in current changelog!")
+    _, metadata, body = parts
 
-    r_publish_date = re.compile(
-        r'^\.\. XXX update on release :Publish Date: YYYY-MM-DD')
-    text = r_publish_date.sub(':Publish Date: {}'.format(release_date), text)
+    r_publish_date = re.compile("Publish Date: 'YYYY-MM-DD'")
+    metadata = r_publish_date.sub(f"Publish Date: '{release_date}'", metadata)
 
-    r_headline = re.compile(r'(Release ...._...) \(unreleased\)\n-{6,40}')
-    text = r_headline.sub(r'\1 ({})\n-----------------------------'.format(
-        release_date), text)
+    r_headline = re.compile(r'(Release ...._...) \(unreleased\)')
+    body = r_headline.sub(fr'\1 ({release_date})', body)
 
-    r_empty_sec = re.compile(r'^.{6,40}\n\^{6,40}\n+^\* nothing yet\n+', re.M)
-    text = r_empty_sec.sub('', text)
-    last_release.write_changelog(text)
+    r_empty_sec = re.compile(r'^## .*\n+^\- nothing yet\n+', re.M)
+    body = r_empty_sec.sub('', body)
+    finalized_text = "---".join(["", metadata, body])
+    last_release.write_changelog(finalized_text)
 
 
 def prepare_new_changelog(new_release):
@@ -72,32 +75,35 @@ def prepare_new_changelog(new_release):
     new_release.write_changelog(changes)
     subprocess.check_call(['git', 'add', new_release.filename])
     try:
-        os.unlink('CHANGES.rst')
+        os.unlink('CHANGES.md')
     except FileNotFoundError:
         pass
-    os.symlink(new_release.filename, 'CHANGES.rst')
+    os.symlink(new_release.filename, 'CHANGES.md')
 
+INDEX_TEMPLATE = """\
+# {year}
+
+Releases performed in {year}.
+
+```{{toctree}}
+:maxdepth: 1
+
+{releases}
+```
+"""
 
 def update_index(last, new):
     year = datetime.date.today().year
     releases = [
-        e.name for e in os.scandir(p.join('src/changes', str(year)))
-        if e.is_file() and re.match(r"^r\d+\.rst$", e.name)
+        e.name.removesuffix(".md")
+        for e in os.scandir(p.join('src/changes', str(year)))
+        if e.is_file() and re.match(r"^r\d+\.md$", e.name)
     ]
-    with open('src/changes/{}/index.rst'.format(year), 'w') as index:
-        print("""\
-{year}
-====
-
-Releases performed in {year}.
-
-.. toctree::
-   :maxdepth: 1
-
-""".format(year=year), file=index)
-        for r in sorted(releases):
-            print('   ' + r.replace('.rst', ''), file=index)
-
+    index_content = INDEX_TEMPLATE.format(
+        year=year, releases="\n".join(sorted(releases))
+    )
+    with open('src/changes/{}/index.md'.format(year), 'w') as index:
+        index.write(index_content)
 
 def main():
     a = argparse.ArgumentParser()
