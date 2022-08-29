@@ -59,7 +59,7 @@ provided us when establishing your account.
 
 :::{note}
 We do not allow password-based SSH logins. For details, check our
-{ref}`data protection plan &gt;entry-control>`.
+{ref}`data protection plan <entry-control>`.
 :::
 
 Every virtual machine will have a DNS name that follows the pattern
@@ -104,7 +104,7 @@ s-myapp@myapp00 ~ $ # ... execute commands to install your application ...
 
 The advantage of running applications in a service user is that applications are
 not bound to any individuals, but run in a rather neutral context. Some features
-like {ref}`automatic service start on VM boot &gt;userinit>` work only for service
+like {ref}`automatic service start on VM boot <userinit>` work only for service
 users. Further information about our user account concept can be found in
 the {ref}`useraccounts` section.
 
@@ -119,14 +119,14 @@ Here is how the network for a virtual machine looks like:
 
 ```
 ctheune@myapp00 ~ $ ip addr show
-1: lo: &gt;LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN
     ...
-2: ethfe: &gt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN qlen 1000
+2: ethfe: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN qlen 1000
     inet 195.62.106.2/27 brd 195.62.106.31 scope global ethfe
     inet 195.62.106.3/27 brd 195.62.106.31 scope global secondary ethfe
     inet6 2001:470:9aaf:2::1013/64 scope global
        valid_lft forever preferred_lft forever
-3: ethsrv: &gt;BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN qlen 1000
+3: ethsrv: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN qlen 1000
     inet 172.22.48.131/20 brd 195.62.106.63 scope global ethsrv
     inet6 2001:470:9aaf:3::1013/64 scope global
        valid_lft forever preferred_lft forever
