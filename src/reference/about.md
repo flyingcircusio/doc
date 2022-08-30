@@ -134,7 +134,7 @@ Security
 
 Our platform runs on top of Linux with [KVM](http://www.linux-kvm.org) virtual
 machines and uses a structured approach to automated systems management and
-operation with [Puppet](http://www.puppetlabs.com).
+operation with [NixOS](https://nixos.org).
 
 A detailed list of used hardware and software can be provided on request.
 
@@ -153,4 +153,4 @@ A detailed list of used hardware and software can be provided on request.
 ## Our offers
 
 For details about our commercial offerings based on the Flying Circus hosting
-infrastructure, please visit our [homepage](http://flyingcircus.io).
+infrastructure, please visit our [homepage](https://flyingcircus.io).

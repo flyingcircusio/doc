@@ -393,8 +393,8 @@ environment_class
 
 : The `environment_class` is the general flavor of your VM. Possible values are:
 
-  - `Puppet`
-  - `NixOS`.
+  - `NixOS`
+  - `Puppet` (Gentoo platform, obsolete)
 
   :::{NOTE}
   The `environment_class` must be set coherently with the `environment`.
@@ -409,8 +409,21 @@ environment
 
   The available environments depend on the environments class:
 
+  - NixOS
+    - `fc-22.05-production`
+    - `fc-22.05-staging`
+    - `fc-21.11-production`
+    - `fc-21.11-staging`
+    - Outdated environments:
+      - `fc-21.05-production`
+      - `fc-21.05-staging`
+      - `fc-20.09-production`
+      - `fc-20.09-staging`
+      - `fc-19.03-production`
+      - `fc-19.03-staging`
+      - `fc-15.09-production`
+      - `fc-15.09-staging`
   - Puppet: `production`, `staging`
-  - NixOS: `fc-19.03-production`, `fc-19.03-staging`, `fc-15.09-production`, `fc-15.09-staging`
 
 cores
 
