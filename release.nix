@@ -1,4 +1,5 @@
 { pkgs ? import <nixpkgs> {}
+, platformDocObjectsInventory
 , src ? {
     outPath = ./.;
     revCount = 0;
@@ -14,7 +15,7 @@ in {
     pkgs.stdenv.mkDerivation {
       name = "platform-doc";
       src = (import src.outPath {
-        inherit pkgs;
+        inherit pkgs platformDocObjectsInventory;
         inherit (src) revCount shortRev gitTag;
       });
       builder = pkgs.stdenv.shell;

@@ -38,13 +38,13 @@ else:
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = []
+extensions = ["myst_parser", "sphinx.ext.intersphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+source_suffix = '.md'
 
 # The encoding of source files.
 #source_encoding = 'utf-8'
@@ -201,6 +201,24 @@ latex_documents = [
 #latex_use_modindex = True
 
 # -- Options for extensions ----------------------------------------------------
+
+platform_doc_objects_inventory = os.environ.get("platformDocObjectsInventory")
+if platform_doc_objects_inventory in ("", "null"):
+    platform_doc_objects_inventory = None
+
+intersphinx_mapping = {
+    "platform-current": ("https://doc.flyingcircus.io/roles/fc-21.11-production", platform_doc_objects_inventory)
+}
+
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "replacements",
+    "substitution",
+    "linkify",
+]
+
+myst_substitutions = {"release": release, "version": version}
 
 feed_base_url = 'https://flyingcircus.io/doc'
 feed_author = 'Flying Circus Internet Operations GmbH <support@flyingcircus.io>'

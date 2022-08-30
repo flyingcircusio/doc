@@ -2,10 +2,17 @@
 , revCount ? 0
 , shortRev ? "0000000"
 , gitTag ? ""
+, platformDocObjectsInventory ? null # path to objects.inv of flyingcircusio/fc-nixos/doc
 }:
 
 let
-  buildEnv = pkgs.python3.withPackages (ps: [ ps.sphinx ps.sphinx_rtd_theme ]);
+  myst-docutils = pkgs.python3Packages.callPackage ./myst-docutils.nix {};
+  buildEnv = pkgs.python3.withPackages (ps: with ps; [
+    linkify-it-py
+    myst-docutils
+    sphinx
+    sphinx_rtd_theme
+  ]);
   version = "${toString revCount}.${shortRev}";
 
 in pkgs.stdenv.mkDerivation {
@@ -25,5 +32,5 @@ in pkgs.stdenv.mkDerivation {
   src = ./.;
   dontStrip = true;
   dontPatchELF = true;
-  inherit revCount shortRev gitTag version;
+  inherit revCount shortRev gitTag version platformDocObjectsInventory;
 }

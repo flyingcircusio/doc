@@ -1,7 +1,0 @@
-.. Placeholder for separately built platform & roles documentation.
-.. Will be redirected by the web server.
-
-.. _fc-20.09-dev:
-
-Development
-===========
