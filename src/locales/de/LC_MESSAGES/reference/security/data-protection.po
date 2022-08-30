@@ -35,32 +35,29 @@ msgstr ""
 "Vorschriften:"
 
 #: ../../../src/reference/security/data-protection.md:21
-#, fuzzy
 msgid ""
 "[Certified](https://flyingcircus.io/iso-27001-en.pdf) Information "
 "Security Management System (ISMS) based on ISO/IEC 27001,"
 msgstr ""
-"`Zertifiziertes <https://flyingcircus.io/iso-27001-en.pdf>`_ "
+"[Zertifiziertes](https://flyingcircus.io/iso-27001-en.pdf) "
 "Informationssicherheitsmanagementsystem (ISMS) basierend auf ISO/IEC "
 "27001,"
 
 #: ../../../src/reference/security/data-protection.md:22
-#, fuzzy
 msgid ""
 "Germany's [federal data protection law "
 "(BDSG)](http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz), and"
 msgstr ""
-"Das `Bundesdatenschutzgesetz (BDSG) "
-"<http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, und"
+"Das [Bundesdatenschutzgesetz (BDSG)]"
+"(http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz), und"
 
 #: ../../../src/reference/security/data-protection.md:23
-#, fuzzy
 msgid ""
 "the EU's [General Data Protection Regulation "
 "(GDPR)](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung)."
 msgstr ""
-"die `Datenschutz-Grundverordnung (DS-GVO) <https://de.wikipedia.org/wiki"
-"/Datenschutz-Grundverordnung>`_ der EU."
+"die [Datenschutz-Grundverordnung (DS-GVO)](https://de.wikipedia.org/wiki"
+"/Datenschutz-Grundverordnung) der EU."
 
 #: ../../../src/reference/security/data-protection.md:24
 msgid "Contents"
@@ -96,11 +93,11 @@ msgstr "Robin Data GmbH"
 
 #: ../../../src/reference/security/data-protection.md:42
 msgid "Fritz-Haber-Straße 9 · 06217 Merseburg"
-msgstr "Fritz-Haber-Straße 9 - 06217 Merseburg"
+msgstr "Fritz-Haber-Straße 9 · 06217 Merseburg"
 
 #: ../../../src/reference/security/data-protection.md:43
 msgid "https://www.robin-data.io · datenschutz@robin-data.io"
-msgstr "https://www.robin-data.io - datenschutz@robin-data.io"
+msgstr "https://www.robin-data.io · datenschutz@robin-data.io"
 
 #: ../../../src/reference/security/data-protection.md:44
 msgid "`+49 3461 4798960 <tel:+4934614798960>`_"
@@ -195,7 +192,6 @@ msgstr ""
 "physischen Zugang zu den Datenverarbeitungsanlagen haben.**"
 
 #: ../../../src/reference/security/data-protection.md:81
-#, fuzzy
 msgid ""
 "The physical assets (servers, switches, hard drives, ...) are located in "
 "EU data centers operated by third parties. The ownership of the physical "
@@ -205,7 +201,7 @@ msgstr ""
 "Die physischen Anlagen (Server, Switches, Festplatten, ...) befinden sich"
 " in EU-Rechenzentren, die von Dritten betrieben werden. Das Eigentum an "
 "den physischen Anlagen liegt beim Flying Circus, oder, in besonderen "
-"Fällen, bei unseren Kunden [#customer-owned]_."
+"Fällen, bei unseren Kunden [^customer-owned]."
 
 #: ../../../src/reference/security/data-protection.md:86
 msgid "For each data center used by us we require the following measures:"
@@ -248,19 +244,17 @@ msgstr ""
 "Schlüssel zu verwenden."
 
 #: ../../../src/reference/security/data-protection.md:97
-#, fuzzy
 msgid "We maintain a separate {ref}`data-centers`."
-msgstr "Wir unterhalten ein separates :ref:`data-centers`."
+msgstr "Wir unterhalten ein separates {ref}`data-centers`."
 
 #: ../../../src/reference/security/data-protection.md:99
-#, fuzzy
 msgid ""
 "Physical access to data processing equipment may be performed only by the"
 " Flying Circus' {ref}`administrators <administrators>`. Administrators "
 "may delegate physical access to other persons (e.g., data center staff)."
 msgstr ""
 "Der physische Zugang zu Datenverarbeitungsanlagen darf nur von den Flying"
-" Circus :ref:`Aministratoren <administrators>` vorgenommen werden. "
+" Circus {ref}`Administratoren <administrators>` vorgenommen werden. "
 "Administratoren können den physischen Zugang an andere Personen (z.B. "
 "Mitarbeiter des Rechenzentrums) delegieren."
 
@@ -371,14 +365,13 @@ msgstr ""
 " *Richtlinie zum Umgang mit geheimen Authentifizierungsinformationen*."
 
 #: ../../../src/reference/security/data-protection.md:136
-#, fuzzy
 msgid ""
 "All hardware machines have emergency root logins which may only be used "
 "by {ref}`Flying Circus administrators <administrators>` if regular user "
 "authentication is not working correctly. Such uses must be documented."
 msgstr ""
 "Alle Hardware-Maschinen haben Notfall-Root-Logins, die nur von "
-":ref:`Flying Circus-Administratoren <administrators>` verwendet werden "
+"{ref}`Flying Circus-Administratoren <administrators>` verwendet werden "
 "dürfen, wenn die reguläre Benutzerauthentifizierung nicht korrekt "
 "funktioniert. Solche Verwendungen müssen dokumentiert werden."
 
@@ -398,7 +391,6 @@ msgstr ""
 " wo die Logs analysiert und überwacht werden."
 
 #: ../../../src/reference/security/data-protection.md:142
-#, fuzzy
 msgid ""
 "SSH logins must be performed using SSH keys. Password authentication is "
 "not allowed and prevented by the system configuration. Successful SSH "
@@ -408,8 +400,8 @@ msgstr ""
 "SSH-Logins müssen mit SSH-Schlüsseln durchgeführt werden. "
 "Passwortauthentifizierung ist nicht erlaubt und wird durch die "
 "Systemkonfiguration verhindert. Erfolgreiche SSH-Anmeldungen an Maschinen"
-" werden protokolliert, erfolglose SSH-Anmeldeversuche nicht [#log-"
-"unsuccessful-attempts]_."
+" werden protokolliert, erfolglose SSH-Anmeldeversuche nicht [^log-"
+"unsuccessful-attempts]."
 
 #: ../../../src/reference/security/data-protection.md:146
 msgid "Access control"
@@ -424,7 +416,6 @@ msgstr ""
 "unautorisiertes Personal.**"
 
 #: ../../../src/reference/security/data-protection.md:153
-#, fuzzy
 msgid ""
 "Customer-owned virtual machines may be accessed by all Flying Circus "
 "{ref}`administrators <administrators>` implicitly. In projects additional"
@@ -433,13 +424,12 @@ msgid ""
 "representative."
 msgstr ""
 "Auf kundeneigene virtuelle Maschinen können alle Flying Circus "
-":ref:`Administratoren <administrators>` implizit zugreifen. In Projekten "
+"{ref}`Administratoren <administrators>` implizit zugreifen. In Projekten "
 "können weitere Mitarbeiter (z.B. Support-Mitarbeiter) expliziten Zugriff "
 "erhalten. Der Zugriff durch andere (z.B. Kundenpersonal, Dritte) muss "
 "durch einen Kundenvertreter autorisiert werden."
 
 #: ../../../src/reference/security/data-protection.md:161
-#, fuzzy
 msgid ""
 "Users are centrally managed using <https://my.flyingcircus.io>. Users are"
 " automatically provisioned to all relevant systems, including proper "
@@ -463,7 +453,6 @@ msgstr ""
 "Betriebssystemkonfiguration."
 
 #: ../../../src/reference/security/data-protection.md:167
-#, fuzzy
 msgid ""
 "Privileged administrative access is generally not granted to customers. "
 "In cases where another person who is not an administrator is needed to "
@@ -474,7 +463,7 @@ msgstr ""
 "gewährt. In Fällen, in denen eine andere Person, die kein Administrator "
 "ist, benötigt wird, um ein Problem zu lösen, muss eine gemeinsame Sitzung"
 " zwischen einem Administrator und der anderen Person eingerichtet werden "
-"(z.B. mit :command:`screen`)."
+"(z.B. mit {command}`screen`)."
 
 #: ../../../src/reference/security/data-protection.md:173
 msgid ""
@@ -485,7 +474,6 @@ msgstr ""
 "administrative Operationen durchzuführen:"
 
 #: ../../../src/reference/security/data-protection.md:176
-#, fuzzy
 msgid ""
 "Using a user account which has been granted the 'login' and 'wheel' "
 "{ref}`permissions <permissions>` for a certain project. This requires the"
@@ -493,36 +481,33 @@ msgid ""
 "provide his password to access privileged operations."
 msgstr ""
 "Verwendung eines Benutzerkontos, dem die 'login' und 'wheel' "
-":ref:`Berechtigungen <permissions>` für ein bestimmtes Projekt erteilt "
+"{ref}`Berechtigungen <permissions>` für ein bestimmtes Projekt erteilt "
 "wurden. Dies erfordert, dass der Benutzer sich mit seinem SSH-Schlüssel "
 "in einen regulären Account einloggt und zusätzlich sein Passwort angibt, "
 "um auf privilegierte Operationen zuzugreifen."
 
 #: ../../../src/reference/security/data-protection.md:180
-#, fuzzy
 msgid ""
 "Using a user account which is member of the global group of "
 "administrators (see {ref}`administrators`) which grants access to all "
 "machines within the Flying Circus infrastructure."
 msgstr ""
 "Die Verwendung eines Benutzerkontos, das Mitglied der globalen Gruppe der"
-" Administratoren ist (siehe :ref:`administrators`), die Zugriff auf alle "
+" Administratoren ist (siehe {ref}`administrators`), die Zugriff auf alle "
 "Maschinen innerhalb der Flying Circus Infrastruktur gewährt."
 
 #: ../../../src/reference/security/data-protection.md:183
-#, fuzzy
 msgid "Emergency root logins (see above in {ref}`entry-control`)."
-msgstr "Notfall-Root-Logins (siehe oben in :ref:`entry-control`)."
+msgstr "Notfall-Root-Logins (siehe oben in {ref}`entry-control`)."
 
 #: ../../../src/reference/security/data-protection.md:185
-#, fuzzy
 msgid ""
 "Authorized and unauthorized access to privileged operations is logged and"
 " analysed on a central loghost within the same site. [^trace-tty]"
 msgstr ""
 "Autorisierte und unautorisierte Zugriffe auf privilegierte Operationen "
 "werden auf einem zentralen Loghost innerhalb desselben Standorts "
-"protokolliert und analysiert. [#trace-tty]_"
+"protokolliert und analysiert. [^trace-tty]"
 
 #: ../../../src/reference/security/data-protection.md:188
 msgid ""
@@ -708,7 +693,6 @@ msgstr ""
 "übertragen."
 
 #: ../../../src/reference/security/data-protection.md:253
-#, fuzzy
 msgid ""
 "Persistent data is saved on storage servers. Storage traffic is not "
 "encrypted due to performance reasons. Storage servers are connected to "
@@ -722,7 +706,7 @@ msgstr ""
 "Storage-Server sind mit Anwendungsservern über ein privates Netzwerk "
 "verbunden. Maschinen, auf denen Kunden administrative Privilegien gewährt"
 " werden, dürfen sich nicht direkt mit dem Speichernetzwerk verbinden "
-"(siehe auch :ref:`network-security`)."
+"(siehe auch {ref}`network-security`)."
 
 #: ../../../src/reference/security/data-protection.md:258
 msgid ""
@@ -895,7 +879,6 @@ msgstr ""
 "(z.B. RAID-Speicher, redundante Netzteile, Ersatzkomponenten)."
 
 #: ../../../src/reference/security/data-protection.md:318
-#, fuzzy
 msgid ""
 "Customer data is regularly backed up according to the Flying Circus' "
 "{ref}`backup schedule <backup>`. Restoration of past states may be "
@@ -903,10 +886,10 @@ msgid ""
 "recovery plan <disaster-recovery>` details failure scenarios, our "
 "preventative and recovery measures."
 msgstr ""
-"Die Kundendaten werden regelmäßig nach dem Flying Circus :ref:`Backup-"
+"Die Kundendaten werden regelmäßig nach dem Flying Circus {ref}`Backup-"
 "Plan <backup>` gesichert. Die Wiederherstellung vergangener Zustände kann"
 " von Administratoren auf Anfrage durchgeführt werden. Zusätzlich gibt es "
-"einen :ref:`Desaster Recovery Plan <disaster-recovery>`, der "
+"einen {ref}`Desaster Recovery Plan <disaster-recovery>`, der "
 "Ausfallszenarien, unsere Präventiv- und Wiederherstellungsmaßnahmen "
 "detailliert beschreibt."
 
@@ -915,16 +898,14 @@ msgid "Other measures"
 msgstr "Andere Maßnahmen"
 
 #: ../../../src/reference/security/data-protection.md:326
-#, fuzzy
 msgid ""
 "Our support process and incident response measures are documented at "
 "{ref}`the support overview <support-details>`."
 msgstr ""
 "Unser Supportprozess und die Maßnahmen zur Reaktion auf Vorfälle sind "
-"unter :ref:`Support-Details <support-details>` dokumentiert."
+"unter {ref}`Support-Details <support-details>` dokumentiert."
 
 #: ../../../src/reference/security/data-protection.md:327
-#, fuzzy
 msgid ""
 "We have a process for emergency and crisis management including "
 "contingency plans for critical business processes (business continuity). "
@@ -932,7 +913,7 @@ msgid ""
 msgstr ""
 "Wir haben einen Prozess für Notfall- und Krisenmanagement einschließlich "
 "Notfallplänen für kritische Geschäftsprozesse (Business Continuity). "
-"Siehe auch :ref:`disaster-recovery`."
+"Siehe auch {ref}`disaster-recovery`."
 
 #: ../../../src/reference/security/data-protection.md:329
 msgid "Footnotes"
