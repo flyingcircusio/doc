@@ -7,18 +7,22 @@
 
 let
   myst-docutils = pkgs.python3Packages.callPackage ./myst-docutils.nix {};
+  sphinx-intl = pkgs.python3Packages.callPackage ./sphinx-intl.nix {};
+
   buildEnv = pkgs.python3.withPackages (ps: with ps; [
     linkify-it-py
     myst-docutils
     sphinx
+    sphinx-intl
     sphinx_rtd_theme
   ]);
+
   version = "${toString revCount}.${shortRev}";
 
 in pkgs.stdenv.mkDerivation {
   name = "flyingcircus-docs";
   configurePhase = ":";
-  buildInputs = [ buildEnv ] ++ (with pkgs; [ python3 git ]);
+  buildInputs = [ buildEnv ] ++ (with pkgs; [ python3 git gnumake ]);
   doCheck = false;
   buildPhase = ''
     make html
