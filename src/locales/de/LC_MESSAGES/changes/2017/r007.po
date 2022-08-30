@@ -9,112 +9,129 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r007.rst:4
+#: ../../../src/changes/2017/r007.md:5
 msgid "Release 2017_007 (2017-04-24)"
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:7
+#: ../../../src/changes/2017/r007.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:9
-msgid "[NixOS] VMs will be rebooted due to a kernel update."
+#: ../../../src/changes/2017/r007.md:9
+msgid "\\[NixOS\\] VMs will be rebooted due to a kernel update."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:10
-msgid "[NixOS] MongoDB instances will be restarted."
+#: ../../../src/changes/2017/r007.md:10
+msgid "\\[NixOS\\] MongoDB instances will be restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:11
-msgid "[NixOS] Network will be restarted without actively restarting services."
+#: ../../../src/changes/2017/r007.md:11
+msgid ""
+"\\[NixOS\\] Network will be restarted without actively restarting "
+"services."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:15
+#: ../../../src/changes/2017/r007.md:13
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:17
+#: ../../../src/changes/2017/r007.md:15
 msgid "Update Qemu guest agent and Linux kernel to avoid VM hangs (#26515)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:18
+#: ../../../src/changes/2017/r007.md:16
 msgid ""
-"Introduce :file:`/etc/local/postfix/master.cf` to add local master.cf "
+"Introduce {file}`/etc/local/postfix/master.cf` to add local master.cf "
 "content to Postfix (#26492)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:20
+#: ../../../src/changes/2017/r007.md:18
 msgid "Add `sysstat` service on all VMs (#26608)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:21
+#: ../../../src/changes/2017/r007.md:19
 msgid "Manage Load thresholds based on machine's CPU count (#26550)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:22
+#: ../../../src/changes/2017/r007.md:20
 msgid "Monitoring: various improvements to journal checks (#26440, #26458)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:23
+#: ../../../src/changes/2017/r007.md:21
 msgid ""
 "Monitoring: Ignore invalid client-side cipher selection in SSH journal "
 "check (#26493)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:25
+#: ../../../src/changes/2017/r007.md:23
 msgid ""
 "Update MongoDB 3.2 to newest release in series (3.2.12) to benefit from "
 "fixes for segfaults and other bugs."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:27
+#: ../../../src/changes/2017/r007.md:25
 msgid "Exclude `autofs` from datadog's filesystem checks."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:28
+#: ../../../src/changes/2017/r007.md:26
 msgid "Add `collectd` metrics for ElasticSearch."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:29
+#: ../../../src/changes/2017/r007.md:27
 msgid ""
 "Fix network bug which caused PostgreSQL/Redis failures during VM startup "
 "(#22431)"
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:34
+#: ../../../src/changes/2017/r007.md:30
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:36
+#: ../../../src/changes/2017/r007.md:32
 msgid "Update fc.qemu to get rid of VM hangs (#26521)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:37
+#: ../../../src/changes/2017/r007.md:33
 msgid "Improve rotation of MySQL logs (#25164, #26230)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:38
+#: ../../../src/changes/2017/r007.md:34
 msgid "Enable VP8 support for `ffmpeg` (#26260)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:39
+#: ../../../src/changes/2017/r007.md:35
 msgid "Increase router conntrack memory to avoid packet losses (#26425)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:40
+#: ../../../src/changes/2017/r007.md:36
 msgid "Move backy to XFS volumes instead of btrfs (#26014)."
 msgstr ""
 
-#: ../../src/changes/2017/r007.rst:41
+#: ../../../src/changes/2017/r007.md:37
 msgid "Provide `wkhtmltopdf` in `psdpdf` role."
 msgstr ""
+
+#~ msgid "[NixOS] VMs will be rebooted due to a kernel update."
+#~ msgstr ""
+
+#~ msgid "[NixOS] MongoDB instances will be restarted."
+#~ msgstr ""
+
+#~ msgid "[NixOS] Network will be restarted without actively restarting services."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Introduce :file:`/etc/local/postfix/master.cf` to "
+#~ "add local master.cf content to Postfix"
+#~ " (#26492)."
+#~ msgstr ""
 

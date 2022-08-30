@@ -9,34 +9,42 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r015.rst:4
+#: ../../../src/changes/2018/r015.md:5
 msgid "Release 2018_015 (2018-05-29)"
 msgstr ""
 
-#: ../../src/changes/2018/r015.rst:6
+#: ../../../src/changes/2018/r015.md:7
 msgid ""
 "This release is scheduled to support the data center maintenance "
 "activities. Please see "
-"http://status.flyingcircus.io/incidents/kw4cxwqz8dqx for details."
+"<http://status.flyingcircus.io/incidents/kw4cxwqz8dqx> for details."
 msgstr ""
 
-#: ../../src/changes/2018/r015.rst:11
+#: ../../../src/changes/2018/r015.md:10
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2018/r015.rst:13
+#: ../../../src/changes/2018/r015.md:12
 msgid ""
 "Update Linux kernel version all physical hosts (storage servers, VM "
 "hosts, ...) to 4.9.95. The new kernel includes *retpoline* support as "
 "defense against Spectre attacks."
 msgstr ""
+
+#~ msgid ""
+#~ "This release is scheduled to support "
+#~ "the data center maintenance activities. "
+#~ "Please see "
+#~ "http://status.flyingcircus.io/incidents/kw4cxwqz8dqx for "
+#~ "details."
+#~ msgstr ""
 

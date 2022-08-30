@@ -9,50 +9,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r007.rst:4
+#: ../../../src/changes/2014/r007.md:5
 msgid "Release 2014_007 (2014-02-12)"
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:7
+#: ../../../src/changes/2014/r007.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:9
+#: ../../../src/changes/2014/r007.md:9
 msgid ""
-"Security update for `GLSA 201402-11 / links "
-"<http://www.gentoo.org/security/en/glsa/glsa-201402-11.xml>`_ (#13203)."
+"Security update for [GLSA 201402-11 / "
+"links](http://www.gentoo.org/security/en/glsa/glsa-201402-11.xml) "
+"(#13203)."
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:11
+#: ../../../src/changes/2014/r007.md:10
 msgid ""
-"Security update for `GLSA 201402-14 / icu "
-"<http://www.gentoo.org/security/en/glsa/glsa-201402-14.xml>`_ (#13204). "
-"This update may require a re-compilation of third party libraries and "
+"Security update for [GLSA 201402-14 / "
+"icu](http://www.gentoo.org/security/en/glsa/glsa-201402-14.xml) (#13204)."
+" This update may require a re-compilation of third party libraries and "
 "C-extensions which depend on libicu."
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:18
+#: ../../../src/changes/2014/r007.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:20
+#: ../../../src/changes/2014/r007.md:16
 msgid "Further backup performance improvements (#13112)."
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:24
+#: ../../../src/changes/2014/r007.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r007.rst:26
-msgid "Clarified :ref:`backup` schedule (#13112)."
+#: ../../../src/changes/2014/r007.md:20
+msgid "Clarified {ref}`backup` schedule (#13112)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201402-11 /"
+#~ " links "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201402-11.xml>`_ "
+#~ "(#13203)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201402-14 /"
+#~ " icu "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201402-14.xml>`_ "
+#~ "(#13204). This update may require a "
+#~ "re-compilation of third party libraries"
+#~ " and C-extensions which depend on "
+#~ "libicu."
+#~ msgstr ""
+
+#~ msgid "Clarified :ref:`backup` schedule (#13112)."
+#~ msgstr ""
 

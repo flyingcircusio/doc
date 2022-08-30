@@ -9,36 +9,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r028.rst:4
+#: ../../../src/changes/2020/r028.md:5
 msgid "Release 2020_028 (2020-09-07)"
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:7
+#: ../../../src/changes/2020/r028.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:9
-msgid "[NixOS 19.03] All 19.03 machines will schedule a reboot."
+#: ../../../src/changes/2020/r028.md:9
+msgid "\\[NixOS 19.03\\] All 19.03 machines will schedule a reboot."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:10
-msgid "[NixOS 19.03] Nginx will be restarted."
+#: ../../../src/changes/2020/r028.md:10
+msgid "\\[NixOS 19.03\\] Nginx will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:13
+#: ../../../src/changes/2020/r028.md:12
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:15
+#: ../../../src/changes/2020/r028.md:14
 msgid ""
 "Update Linux-Kernel to newest LTS (5.4) branch. We have seen a number of "
 "VFS caching bugs with suspected memory leaks on a number of machines for "
@@ -46,41 +46,47 @@ msgid ""
 "the newest LTS branch, though (#127876)."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:19
+#: ../../../src/changes/2020/r028.md:19
 msgid "Nginx (#127883)"
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:21
+#: ../../../src/changes/2020/r028.md:21
 msgid ""
 "Update default package to latest stable version 1.18.0, add mainline "
 "version 1.19.0"
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:22
+#: ../../../src/changes/2020/r028.md:22
 msgid ""
 "Structured JSON config: use frontend IPs instead of all interfaces when "
 "listenAddress is not given."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:23
+#: ../../../src/changes/2020/r028.md:23
 msgid ""
 "Reload master process when Nginx package changes. This avoids restarts "
 "for updates in the future."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:24
+#: ../../../src/changes/2020/r028.md:24
 msgid "Add modsecurity module."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:25
+#: ../../../src/changes/2020/r028.md:25
 msgid "Don't listen on 0.0.0.0 port 80 by default."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:27
+#: ../../../src/changes/2020/r028.md:27
 msgid "Lower default retention period for nginx logs to 7 days (#127632)."
 msgstr ""
 
-#: ../../src/changes/2020/r028.rst:28
+#: ../../../src/changes/2020/r028.md:29
 msgid "Add Gitlab role with docker registry integration (#124013)."
 msgstr ""
+
+#~ msgid "[NixOS 19.03] All 19.03 machines will schedule a reboot."
+#~ msgstr ""
+
+#~ msgid "[NixOS 19.03] Nginx will be restarted."
+#~ msgstr ""
 

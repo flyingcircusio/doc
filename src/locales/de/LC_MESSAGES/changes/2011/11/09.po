@@ -9,44 +9,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2011/11/09.rst:4
+#: ../../../src/changes/2011/11/09.md:5
 msgid "Release 2011-11-09"
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:7
+#: ../../../src/changes/2011/11/09.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:9
+#: ../../../src/changes/2011/11/09.md:9
 msgid "Security update for Java (Oracle/Sun-JDK): 201111-02 (#9903)."
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:12
+#: ../../../src/changes/2011/11/09.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:14
+#: ../../../src/changes/2011/11/09.md:13
 msgid "Fix bug that caused backups from not being made on some VMs (#9685)."
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:15
+#: ../../../src/changes/2011/11/09.md:14
 msgid ""
 "Speed up VM bootstrapping by giving out the final IP addresses via DHCP "
 "from the beginning (#6564, #8869)."
 msgstr ""
 
-#: ../../src/changes/2011/11/09.rst:17
+#: ../../../src/changes/2011/11/09.md:16
 msgid ""
-"Fix obscure bug that can lead to empty :file:`postgresql.conf` under rare"
+"Fix obscure bug that can lead to empty {file}`postgresql.conf` under rare"
 " circumstances (#9791)."
 msgstr ""
+
+#~ msgid ""
+#~ "Fix obscure bug that can lead to"
+#~ " empty :file:`postgresql.conf` under rare "
+#~ "circumstances (#9791)."
+#~ msgstr ""
 

@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2021/r040.md:5
+msgid "Release 2021_040 (2021-12-16)"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:9
+msgid "\\[NixOS 21.05\\] Postgresql, Elasticsearch and Grafana will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:10
+msgid ""
+"\\[NixOS 21.05\\] Jitsi will be restarted and running conferences will be"
+" interrupted for some seconds."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:11
+msgid "\\[NixOS 20.09\\] Elasticsearch will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:13
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:15
+msgid ""
+"\\[hotfix\\] graylog: update to 3.3.15 which contains the log4j2 fix for "
+"CVE-2021-44228. Systems using Graylog are already protected by the "
+"`\"-Dlog4j2.formatMsgNoLookups=true\"` setting we have rolled out "
+"(#PL-130250)."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:19
+msgid ""
+"Improve backup restore utilities to allow restore operations while "
+"backups are running (#PL-129786)."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:22
+msgid ""
+"Improve backup restore utilities memory usage to allow single file "
+"restore working on extremely large multi-terabyte volumes (#PL-130044)."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:25
+msgid ""
+"Jitsi: update package versions to latest stable release and tune video "
+"stream settings to improve quality and stability. Add an option to "
+"activate the pre-join page which allows users to check their audio/video "
+"and change settings before the conference starts (#PL-130249)."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:30 ../../../src/changes/2021/r040.md:48
+msgid ""
+"Elasticsearch: fix log4j2 CVE-2021-44228 by setting "
+"`-Dlog4j2.formatMsgNoLookups=true`. Without this, Elasticsearch is "
+"susceptible to a minor information leak about the system environment. "
+"Remote code execution was never possible via Elasticsearch (#PL-130251)."
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:35
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130255):"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:38
+msgid "nss: 3.64 -> 3.68.1"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:39
+msgid "nss_latest: 3.71 -> 3.73"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:40
+msgid "nspr: 4.30 -> 4.32"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:41
+msgid "strace: 5.14 -> 5.15"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:42
+msgid "grafana: 7.5.11 -> 7.5.12 (CVE-2021-43813)"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:44
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/121678/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:46
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:52
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/121594/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:54
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:56
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_039/21.05...c755ec59689b3438bc7dfbcfcc273d5016c10bf8),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/2553aee74fed8c2205a4aeb3ffd206ca14ede60f...c5f1ee982246d09ae7f119c13aafcce90286221d)"
+msgstr ""
+
+#: ../../../src/changes/2021/r040.md:58
+msgid ""
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_030/20.09...3e7b6b1855c16f56fb6e9e4b81a1d8a6c4320bfb)"
+msgstr ""
+

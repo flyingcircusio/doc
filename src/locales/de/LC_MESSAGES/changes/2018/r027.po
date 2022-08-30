@@ -9,74 +9,87 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r027.rst:4
+#: ../../../src/changes/2018/r027.md:5
 msgid "Release 2018_027 (2018-09-11)"
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:7
+#: ../../../src/changes/2018/r027.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:9
-msgid "[NixOS] Rebuild/restart of services linking against OpenLDAP."
+#: ../../../src/changes/2018/r027.md:9
+msgid "\\[NixOS\\] Rebuild/restart of services linking against OpenLDAP."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:10
-msgid "[NixOS] Restart Apache instances."
+#: ../../../src/changes/2018/r027.md:10
+msgid "\\[NixOS\\] Restart Apache instances."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:11
-msgid "[Gentoo] OpenSSH servers will stop to support some more outdated ciphers."
+#: ../../../src/changes/2018/r027.md:11
+msgid ""
+"\\[Gentoo\\] OpenSSH servers will stop to support some more outdated "
+"ciphers."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:15
+#: ../../../src/changes/2018/r027.md:13
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:17
+#: ../../../src/changes/2018/r027.md:15
 msgid "Give Prometheus more time for shutting down (#105074)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:18
+#: ../../../src/changes/2018/r027.md:16
 msgid "Update OpenLDAP 2.4.42 -> 2.4.46 (#101152)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:19
+#: ../../../src/changes/2018/r027.md:17
 msgid "Update Oracle Java 8 to Patch 181 (#105232)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:20
+#: ../../../src/changes/2018/r027.md:18
 msgid "Limit Apache startup time to prevent endless loop (#105206)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:21
+#: ../../../src/changes/2018/r027.md:19
 msgid "Update dependencies of Apache (#105161, #105166)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:22
+#: ../../../src/changes/2018/r027.md:20
 msgid ""
 "Enlarge maximum network receive buffer size to reduce drop-outs under "
 "high load (#105227)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:24
+#: ../../../src/changes/2018/r027.md:22
 msgid "Update bundix to 1.0.3 (#105196)."
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:28
+#: ../../../src/changes/2018/r027.md:24
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2018/r027.rst:30
+#: ../../../src/changes/2018/r027.md:26
 msgid "Update OpenSSH to 7.5_p1 (#29539)."
 msgstr ""
+
+#~ msgid "[NixOS] Rebuild/restart of services linking against OpenLDAP."
+#~ msgstr ""
+
+#~ msgid "[NixOS] Restart Apache instances."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Gentoo] OpenSSH servers will stop to"
+#~ " support some more outdated ciphers."
+#~ msgstr ""
 

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2021/r033.md:5
+msgid "Release 2021_033 (2021-10-11)"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:9
+msgid ""
+"\\[NixOS 21.05\\] Apache and PostgreSQL will be restarted. VMs will "
+"schedule a reboot to activate the new kernel version."
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:12
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:14
+msgid ""
+"\\[hotfix\\] Apache: security update 2.4.49 -> 2.4.51 (CVE-2021-41773, "
+"CVE-2021-42013) (#PL-130135)."
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:16
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-130129):"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:18
+msgid "element-web: 1.8.5 -> 1.9.0"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:19
+msgid "imagemagick: 7.1.0-6 -> 7.1.0-8"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:20
+msgid "linux: 5.10.67 -> 5.10.70"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:21
+msgid "php74: 7.4.23 -> 7.4.24 (CVE-2021-21706)"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:22
+msgid "php80: 8.0.10 -> 8.0.11"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:24
+msgid "Fix xtrabackup for Percona 8 (#PL-130139)."
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:26
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/104974/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:28
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2021/r033.md:30
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_032/21.05...06a1226148d00d047b5b389fddefa1004a45d617),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/83413f47809790e4ca012e314e7782adeae36cf2...751110a6f65bc23138b804945fd426f1eae1de8b)"
+msgstr ""
+

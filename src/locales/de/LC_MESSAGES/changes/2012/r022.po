@@ -9,49 +9,74 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r022.rst:4
+#: ../../../src/changes/2012/r022.md:5
 msgid "Release 2012-07-10"
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:7
+#: ../../../src/changes/2012/r022.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:9
+#: ../../../src/changes/2012/r022.md:9
 msgid ""
-"Security update for `GLSA 201206-23 / pycrypto "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-23.xml>`_ (#11147)."
+"Security update for [GLSA 201206-23 / "
+"pycrypto](http://www.gentoo.org/security/en/glsa/glsa-201206-23.xml) "
+"(#11147)."
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:11
+#: ../../../src/changes/2012/r022.md:10
 msgid ""
-"Security update for `GLSA 201207-01 / sudo "
-"<http://www.gentoo.org/security/en/glsa/glsa-201207-01.xml>`_ (#11168)."
+"Security update for [GLSA 201207-01 / "
+"sudo](http://www.gentoo.org/security/en/glsa/glsa-201207-01.xml) "
+"(#11168)."
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:13
+#: ../../../src/changes/2012/r022.md:11
 msgid ""
-"Security update for `GLSA 201207-02 / libxml2 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201207-02.xml>`_ (#11167). "
-"PostgreSQL restart necessary due to changed link level dependencies."
+"Security update for [GLSA 201207-02 / "
+"libxml2](http://www.gentoo.org/security/en/glsa/glsa-201207-02.xml) "
+"(#11167). PostgreSQL restart necessary due to changed link level "
+"dependencies."
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:19
+#: ../../../src/changes/2012/r022.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r022.rst:21
+#: ../../../src/changes/2012/r022.md:16
 msgid ""
 "Bugfix: Stop our mail servers to issue unsolicited XFORWARD commands to "
 "remote MTAs."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201206-23 /"
+#~ " pycrypto "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-23.xml>`_ "
+#~ "(#11147)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201207-01 /"
+#~ " sudo "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201207-01.xml>`_ "
+#~ "(#11168)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201207-02 /"
+#~ " libxml2 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201207-02.xml>`_ "
+#~ "(#11167). PostgreSQL restart necessary due "
+#~ "to changed link level dependencies."
+#~ msgstr ""
 

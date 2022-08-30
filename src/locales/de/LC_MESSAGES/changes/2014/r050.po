@@ -9,161 +9,194 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r050.rst:4
+#: ../../../src/changes/2014/r050.md:5
 msgid "Release 2014_050 (2014-11-03)"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:7
+#: ../../../src/changes/2014/r050.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:9
+#: ../../../src/changes/2014/r050.md:9
 msgid ""
 "Starting to roll out the OS upgrade (snapshot update) to production "
 "machines. Customers will be informed separately when their machines are "
 "due."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:11
+#: ../../../src/changes/2014/r050.md:11
 msgid "Upgrade MySQL to version 5.5 (#13420)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:12
+#: ../../../src/changes/2014/r050.md:12
 msgid "Upgrade the Linux kernel to version 3.17.2 (#13293)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:13
+#: ../../../src/changes/2014/r050.md:13
 msgid "Upgrade PHP to version 5.5 (#13667)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:14
+#: ../../../src/changes/2014/r050.md:14
 msgid "Upgrade Ruby to version 1.9 and 2.0 (#13361)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:15
+#: ../../../src/changes/2014/r050.md:15
 msgid "Upgrade GCC to version 4.7.3 (#13293)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:16
+#: ../../../src/changes/2014/r050.md:16
 msgid "Introduce Python3.4, remove Python2.4 and Python2.5 (#13554)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:17
+#: ../../../src/changes/2014/r050.md:17
 msgid "Introduce AppArmor (#13408)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:18
+#: ../../../src/changes/2014/r050.md:18
 msgid "Introduce Postgres9.3 (#13560)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:19
+#: ../../../src/changes/2014/r050.md:19
 msgid "Switch from udev to eudev (#13710)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:20
+#: ../../../src/changes/2014/r050.md:20
 msgid "Switch from GRUB to GRUB2 (#13421)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:21
+#: ../../../src/changes/2014/r050.md:21
 msgid "Switch from python/PIL to python/pillow (#13648)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:22
+#: ../../../src/changes/2014/r050.md:22
 msgid "Add libmemcached for appserver role (#13639)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:23
+#: ../../../src/changes/2014/r050.md:23
 msgid ""
-"Security update for `GLSA 201410-02  / Perl, Perl Locale-Maketext module "
-"( Multiple vulnerabilities) "
-"<http://www.gentoo.org/security/en/glsa/glsa-201410-02.xml>`_ (#13684)."
+"Security update for [GLSA 201410-02  / Perl, Perl Locale-Maketext module "
+"( Multiple "
+"vulnerabilities)](http://www.gentoo.org/security/en/glsa/glsa-201410-02.xml)"
+" (#13684)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:26
+#: ../../../src/changes/2014/r050.md:25
 msgid ""
-"Security update for `GLSA 201409-08  / libxml2 (Denial of Service) "
-"<http://www.gentoo.org/security/en/glsa/glsa-201409-08.xml>`_ (#13638)."
+"Security update for [GLSA 201409-08  / libxml2 (Denial of "
+"Service)](http://www.gentoo.org/security/en/glsa/glsa-201409-08.xml) "
+"(#13638)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:28
+#: ../../../src/changes/2014/r050.md:26
 msgid ""
-"Security update for `GLSA 201408-19  / LibreOffice (Multiple "
-"vulnerabilities) "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-19.xml>`_ (#13618)."
+"Security update for [GLSA 201408-19  / LibreOffice (Multiple "
+"vulnerabilities)](http://www.gentoo.org/security/en/glsa/glsa-201408-19.xml)"
+" (#13618)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:30
+#: ../../../src/changes/2014/r050.md:27
 msgid "Provide managed installation of libaio (#10837)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:32
-msgid "We've compiled a :ref:`r2014_050_packageversions` on a separate page."
+#: ../../../src/changes/2014/r050.md:29
+msgid "We've compiled a {ref}`r2014_050_packageversions` on a separate page."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:41
+#: ../../../src/changes/2014/r050.md:37
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:43
+#: ../../../src/changes/2014/r050.md:39
 msgid "Enable AppArmor on customer VMs (#13418)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:44
+#: ../../../src/changes/2014/r050.md:40
 msgid "Enable qemu-guest-agent on VMs (#13293)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:45
+#: ../../../src/changes/2014/r050.md:41
 msgid "Enable dovecot-sasl on postfix (#11681)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:46
+#: ../../../src/changes/2014/r050.md:42
 msgid "Introduce global SSL/TLS settings for Apache (#13695)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:47
+#: ../../../src/changes/2014/r050.md:43
 msgid "Set default python3 version to 3.3 (#13554)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:48
+#: ../../../src/changes/2014/r050.md:44
 msgid "Set default ruby version to 1.9 (#13361)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:49
+#: ../../../src/changes/2014/r050.md:45
 msgid "Allow sudo-srv users to reboot a VM (RT97974)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:50
+#: ../../../src/changes/2014/r050.md:46
 msgid "Move varnish SHM to separate tmpfs partition."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:51
+#: ../../../src/changes/2014/r050.md:47
 msgid "Fix bug which prevents kernel compile jobs from being executed (RT 98569)."
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:55
+#: ../../../src/changes/2014/r050.md:49
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:57
+#: ../../../src/changes/2014/r050.md:51
 msgid "Inhibit NRPE check execution during snaphost update (#13293)"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:61
+#: ../../../src/changes/2014/r050.md:53
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r050.rst:63
+#: ../../../src/changes/2014/r050.md:55
 msgid ""
-"`iptables` snippet usage gets now explained in :ref:`custom-firewall-"
+"`iptables` snippet usage gets now explained in {ref}`custom-firewall-"
 "rules` (#13654)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201410-02  /"
+#~ " Perl, Perl Locale-Maketext module ("
+#~ " Multiple vulnerabilities) "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201410-02.xml>`_ "
+#~ "(#13684)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201409-08  /"
+#~ " libxml2 (Denial of Service) "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201409-08.xml>`_ "
+#~ "(#13638)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201408-19  /"
+#~ " LibreOffice (Multiple vulnerabilities) "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-19.xml>`_ "
+#~ "(#13618)."
+#~ msgstr ""
+
+#~ msgid "We've compiled a :ref:`r2014_050_packageversions` on a separate page."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`iptables` snippet usage gets now "
+#~ "explained in :ref:`custom-firewall-rules` "
+#~ "(#13654)."
+#~ msgstr ""
 

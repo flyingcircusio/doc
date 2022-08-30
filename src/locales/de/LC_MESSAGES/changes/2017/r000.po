@@ -9,87 +9,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r000.rst:4
+#: ../../../src/changes/2017/r000.md:5
 msgid "Release 2017_000 (2017-01-16)"
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:7
+#: ../../../src/changes/2017/r000.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:9
+#: ../../../src/changes/2017/r000.md:9
 msgid ""
 "Gentoo: MySQL servers and other applications linking against MySQL "
 "libraries will get restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:11
+#: ../../../src/changes/2017/r000.md:11
 msgid ""
 "NixOS: several services linking against PCRE (MySQL, PostgreSQL, Postfix)"
 " will get restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:16
+#: ../../../src/changes/2017/r000.md:14
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:18
+#: ../../../src/changes/2017/r000.md:16
 msgid ""
 "Re-enable vulnix vulnerability scanning after reducing vulnix' RAM usage "
 "to a bearable level (#24659)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:20
+#: ../../../src/changes/2017/r000.md:18
 msgid ""
-"Provide NFS box access for NixOS VMs under :file:`/mnt/auto/box`. "
-"Symlinks from users' home directories and the :command:`box` command are "
+"Provide NFS box access for NixOS VMs under {file}`/mnt/auto/box`. "
+"Symlinks from users' home directories and the {command}`box` command are "
 "still missing (#21486)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:23
+#: ../../../src/changes/2017/r000.md:21
 msgid "Reduce noise in SSH connection attempt monitoring (#25476)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:24
+#: ../../../src/changes/2017/r000.md:22
 msgid "Security update for PCRE (CVE-2016-3191; #24063)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:25
+#: ../../../src/changes/2017/r000.md:23
 msgid "Security update for expat (CVE-2013-0340; #23872)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:29
+#: ../../../src/changes/2017/r000.md:25
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:31
+#: ../../../src/changes/2017/r000.md:27
 msgid ""
 "Improve resource usage and stability under host performance pressure for "
 "fc.agent (#25158)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:33
+#: ../../../src/changes/2017/r000.md:29
 msgid "Security update for MySQL/MariaDB (GLSA 201701-01; #25379)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:34
+#: ../../../src/changes/2017/r000.md:30
 msgid "Security update for coreutils (GLSA 201612-22; #25194)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:35
+#: ../../../src/changes/2017/r000.md:31
 msgid "Security update for util-linux (GLSA 201612-14; #25185)."
 msgstr ""
 
-#: ../../src/changes/2017/r000.rst:36
+#: ../../../src/changes/2017/r000.md:32
 msgid "Security update for cracklib (GLSA 201612-25; #25191)."
 msgstr ""
+
+#~ msgid ""
+#~ "Provide NFS box access for NixOS "
+#~ "VMs under :file:`/mnt/auto/box`. Symlinks from"
+#~ " users' home directories and the "
+#~ ":command:`box` command are still missing "
+#~ "(#21486)."
+#~ msgstr ""
 

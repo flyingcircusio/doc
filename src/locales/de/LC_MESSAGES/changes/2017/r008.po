@@ -9,50 +9,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r008.rst:4
+#: ../../../src/changes/2017/r008.md:5
 msgid "Release 2017_008 (2017-05-08)"
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:8
+#: ../../../src/changes/2017/r008.md:7
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:10
+#: ../../../src/changes/2017/r008.md:9
 msgid "Enable *i6300esb* watchdog for virtual machines (#23942)."
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:11
-msgid "Provide *uswgi_params* in :file:`/etc/local/nginx`."
+#: ../../../src/changes/2017/r008.md:10
+msgid "Provide *uswgi_params* in {file}`/etc/local/nginx`."
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:12
+#: ../../../src/changes/2017/r008.md:11
 msgid "Improve Datadog StatsD service setup (#26538)."
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:13
+#: ../../../src/changes/2017/r008.md:12
 msgid ""
 "The sensu client now has a configurable loglevel so we can customize it "
 "locally to aid debugging."
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:15
+#: ../../../src/changes/2017/r008.md:14
 msgid "Fix sensu unicode crashes."
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:19
+#: ../../../src/changes/2017/r008.md:16
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r008.rst:21
+#: ../../../src/changes/2017/r008.md:18
 msgid "Install processor microcode fix (#26735)."
 msgstr ""
+
+#~ msgid "Provide *uswgi_params* in :file:`/etc/local/nginx`."
+#~ msgstr ""
 

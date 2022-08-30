@@ -9,64 +9,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/index.rst:10
+#: ../../../src/index.md:9
 msgid "Flying Circus operator's manual"
 msgstr ""
 
-#: ../../src/index.rst:13
+#: ../../../src/index.md:11
 msgid ""
-"This is the manual for the `Flying Circus <http://flyingcircus.io>`_. It "
+"This is the manual for the [Flying Circus](http://flyingcircus.io). It "
 "explains how the platform works and how to run your applications."
 msgstr ""
 
-#: ../../src/index.rst:18
+#: ../../../src/index.md:14
 msgid "General platform guide"
 msgstr ""
 
-#: ../../src/index.rst:32
+#: ../../../src/index.md:27
 msgid "Edition-specific platform & roles documentation"
 msgstr ""
 
-#: ../../src/index.rst:49
+#: ../../../src/index.md:45
 msgid "Support"
 msgstr ""
 
-#: ../../src/index.rst:51
+#: ../../../src/index.md:47
 msgid "We are here to help. Here is how to get in touch with us:"
 msgstr ""
 
-#: ../../src/index.rst:53
-msgid "Email our ticket system at support@flyingcircus.io"
+#: ../../../src/index.md:49
+msgid "Email our ticket system at <mailto:support@flyingcircus.io>"
 msgstr ""
 
-#: ../../src/index.rst:54
-msgid "Check our `status page <http://status.flyingcircus.io/>`_"
+#: ../../../src/index.md:50
+msgid "Check our [status page](http://status.flyingcircus.io/)"
 msgstr ""
 
-#: ../../src/index.rst:55
-msgid "Check updates in our :doc:`/changes/index`"
+#: ../../../src/index.md:51
+msgid "Check updates in our {doc}`/changes/index`"
 msgstr ""
 
-#: ../../src/index.rst:56
-msgid ""
-"Check our twitter feed `@flyingcircus "
-"<http://twitter.com/flyingcircusio>`_"
+#: ../../../src/index.md:52
+msgid "Check our twitter feed [@flyingcircus](http://twitter.com/flyingcircusio)"
 msgstr ""
 
-#: ../../src/index.rst:57
-msgid "Call us at `+49 345 219401-0 <tel:+49 345 2194010>`_"
+#: ../../../src/index.md:53
+msgid "Call us at [+49 345 219401-0](tel:+493452194010)"
 msgstr ""
 
-#: ../../src/index.rst:59
-msgid "Or refer to :ref:`detailed support information <support>`."
+#: ../../../src/index.md:55
+msgid "Or refer to {ref}`detailed support information <support>`."
 msgstr ""
+
+#~ msgid ""
+#~ "This is the manual for the `Flying"
+#~ " Circus <http://flyingcircus.io>`_. It explains"
+#~ " how the platform works and how "
+#~ "to run your applications."
+#~ msgstr ""
+
+#~ msgid "Email our ticket system at support@flyingcircus.io"
+#~ msgstr ""
+
+#~ msgid "Check our `status page <http://status.flyingcircus.io/>`_"
+#~ msgstr ""
+
+#~ msgid "Check updates in our :doc:`/changes/index`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check our twitter feed `@flyingcircus "
+#~ "<http://twitter.com/flyingcircusio>`_"
+#~ msgstr ""
+
+#~ msgid "Call us at `+49 345 219401-0 <tel:+49 345 2194010>`_"
+#~ msgstr ""
+
+#~ msgid "Or refer to :ref:`detailed support information <support>`."
+#~ msgstr ""
 

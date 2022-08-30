@@ -9,70 +9,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r020.rst:4
+#: ../../../src/changes/2016/r020.md:5
 msgid "Release 2016_020 (2016-06-30)"
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:7
+#: ../../../src/changes/2016/r020.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:9
+#: ../../../src/changes/2016/r020.md:9
 msgid "Gentoo nginx instances will get restarted."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:13
+#: ../../../src/changes/2016/r020.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:15
+#: ../../../src/changes/2016/r020.md:13
 msgid ""
 "Monitoring: adjust concurrent connection threshold for MongoDB servers "
 "(#22091)."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:18
-msgid "Allow service users to invoke :command:`sudo systemctl` (#22013)."
+#: ../../../src/changes/2016/r020.md:15
+msgid "Allow service users to invoke {command}`sudo systemctl` (#22013)."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:20
+#: ../../../src/changes/2016/r020.md:16
 msgid ""
-"Fix :command:`crontab FILE`{file}` bug and cron job execution environment"
+"Fix {command}`crontab FILE`{file}` bug and cron job execution environment"
 " (#21757, #21964)."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:23
+#: ../../../src/changes/2016/r020.md:18
 msgid "Improve VM memory detection to make RAM changes more reliable (#21724)."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:25
+#: ../../../src/changes/2016/r020.md:19
 msgid ""
 "Sensu client check can now access the services group (e.g., for group-"
 "writable supervisord sockets)."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:28
+#: ../../../src/changes/2016/r020.md:21
 msgid "MySQL role: Allow to choose between percona 5.7, 5.6, and mysql 5.5."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:30
+#: ../../../src/changes/2016/r020.md:22
 msgid "Add logrotate to Vagrant image."
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:33
+#: ../../../src/changes/2016/r020.md:24
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2016/r020.rst:35
+#: ../../../src/changes/2016/r020.md:26
 msgid "Security upgrade for nginx to fix CVE-2016-4450 (#22084)."
 msgstr ""
+
+#~ msgid "Allow service users to invoke :command:`sudo systemctl` (#22013)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix :command:`crontab FILE`{file}` bug and "
+#~ "cron job execution environment (#21757, "
+#~ "#21964)."
+#~ msgstr ""
 

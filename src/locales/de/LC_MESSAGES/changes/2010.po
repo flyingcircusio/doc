@@ -9,108 +9,132 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2010.rst:2
+#: ../../../src/changes/2010.md:1
 msgid "2010"
 msgstr ""
 
-#: ../../src/changes/2010.rst:4
+#: ../../../src/changes/2010.md:3
 msgid "Changelog for 2010 in reverse chronological order."
 msgstr ""
 
-#: ../../src/changes/2010.rst:8
+#: ../../../src/changes/2010.md:5
 msgid "2010-12-17"
 msgstr ""
 
-#: ../../src/changes/2010.rst:11
+#: ../../../src/changes/2010.md:7
 msgid "Package updates"
 msgstr ""
 
-#: ../../src/changes/2010.rst:13
+#: ../../../src/changes/2010.md:9
 msgid "Update to openssl 1.0.0c to fix non-critical security issues (#8415)."
 msgstr ""
 
-#: ../../src/changes/2010.rst:16 ../../src/changes/2010.rst:27
+#: ../../../src/changes/2010.md:11 ../../../src/changes/2010.md:19
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2010.rst:18
+#: ../../../src/changes/2010.md:13
 msgid "/etc/nginx/local directory is writable for service users (#8315)."
 msgstr ""
 
-#: ../../src/changes/2010.rst:19
+#: ../../../src/changes/2010.md:14
 msgid "Sensible default for nginx access log filenames (#8315)."
 msgstr ""
 
-#: ../../src/changes/2010.rst:20
+#: ../../../src/changes/2010.md:15
 msgid "Enhanced infrastructure for custom web statistics reports (#8311)."
 msgstr ""
 
-#: ../../src/changes/2010.rst:24
+#: ../../../src/changes/2010.md:17
 msgid "2010-12-08"
 msgstr ""
 
-#: ../../src/changes/2010.rst:29
+#: ../../../src/changes/2010.md:21
 msgid ""
 "Per-user logrotate snippets can now be placed in "
-":file:`/var/spool/logrotate/{USER}`.  They are executed with USER's "
+"{file}`/var/spool/logrotate/{USER}`.  They are executed with USER's "
 "permissions.  (#6241)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:32
+#: ../../../src/changes/2010.md:24
 msgid ""
 "Available user permissions are now configured in "
-":file:`/etc/local/permission.desc`.  (#8358)"
+"{file}`/etc/local/permission.desc`.  (#8358)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:34
+#: ../../../src/changes/2010.md:26
 msgid ""
 "Non-privileged nodes (like VMs) are now able to query directory "
 "parameters of all nodes in the same resource group via "
-":program:`/etc/puppet/node.rb`. (#8367)"
+"{program}`/etc/puppet/node.rb`. (#8367)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:39
+#: ../../../src/changes/2010.md:30
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2010.rst:41
+#: ../../../src/changes/2010.md:32
 msgid "Start this changelog to inform users about changes. :-)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:42
-msgid "Publish existing documentation at http://gocept.net/doc/."
+#: ../../../src/changes/2010.md:33
+msgid "Publish existing documentation at <http://gocept.net/doc/>."
 msgstr ""
 
-#: ../../src/changes/2010.rst:45
+#: ../../../src/changes/2010.md:35
 msgid "Performance/reliability improvements"
 msgstr ""
 
-#: ../../src/changes/2010.rst:47
+#: ../../../src/changes/2010.md:37
 msgid ""
 "Backup performance enhancement: pull volumes directly off storage "
 "servers. (#8077)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:49
+#: ../../../src/changes/2010.md:39
 msgid ""
 "Cross monitoring: Monitoring servers monitor others to improve failure "
 "detection. (#7421)"
 msgstr ""
 
-#: ../../src/changes/2010.rst:54
+#: ../../../src/changes/2010.md:42
 msgid "2010-11-16"
 msgstr ""
 
-#: ../../src/changes/2010.rst:56
+#: ../../../src/changes/2010.md:44
 msgid "Security fix for glibc"
 msgstr ""
+
+#~ msgid ""
+#~ "Per-user logrotate snippets can now "
+#~ "be placed in :file:`/var/spool/logrotate/{USER}`."
+#~ "  They are executed with USER's "
+#~ "permissions.  (#6241)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Available user permissions are now "
+#~ "configured in :file:`/etc/local/permission.desc`.  "
+#~ "(#8358)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Non-privileged nodes (like VMs) are "
+#~ "now able to query directory parameters"
+#~ " of all nodes in the same "
+#~ "resource group via :program:`/etc/puppet/node.rb`."
+#~ " (#8367)"
+#~ msgstr ""
+
+#~ msgid "Publish existing documentation at http://gocept.net/doc/."
+#~ msgstr ""
 

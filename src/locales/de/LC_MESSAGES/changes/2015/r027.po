@@ -9,59 +9,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r027.rst:4
+#: ../../../src/changes/2015/r027.md:5
 msgid "Release 2015_027 (2015-05-29)"
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:7
+#: ../../../src/changes/2015/r027.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:9
+#: ../../../src/changes/2015/r027.md:9
 msgid ""
 "Improve Postfix/Dovecot integration to reduce turn-around times to set up"
 " typical mail server configurations (#15759). May cause PostgreSQL "
 "restarts due to changed link level dependencies."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:12
+#: ../../../src/changes/2015/r027.md:12
 msgid ""
 "Improve mail server bounce behaviour: don't send backscatter for non-"
 "existent Dovecot mailboxes in certain configurations (#15771)."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:14
+#: ../../../src/changes/2015/r027.md:14
 msgid "Create standard mailboxes (Drafts, Trash, Sent) by default (#15813)."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:15
+#: ../../../src/changes/2015/r027.md:15
 msgid ""
 "Remove globally configured hg hostfingerprint as they tend to change from"
 " time to time."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:20
+#: ../../../src/changes/2015/r027.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:22
-msgid "Add DNS configuration tips to :ref:`mailserver`."
+#: ../../../src/changes/2015/r027.md:20
+msgid "Add DNS configuration tips to {ref}`mailserver`."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:23
-msgid "Mention integration points in :ref:`dovecot`."
+#: ../../../src/changes/2015/r027.md:21
+msgid "Mention integration points in {ref}`dovecot`."
 msgstr ""
 
-#: ../../src/changes/2015/r027.rst:24
+#: ../../../src/changes/2015/r027.md:22
 msgid "Add hints about how to connect to MySQL using the MySQL root user."
 msgstr ""
+
+#~ msgid "Add DNS configuration tips to :ref:`mailserver`."
+#~ msgstr ""
+
+#~ msgid "Mention integration points in :ref:`dovecot`."
+#~ msgstr ""
 

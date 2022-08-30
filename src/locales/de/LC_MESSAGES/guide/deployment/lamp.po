@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/guide/deployment/lamp.md:1
+msgid "How to set up a LAMP stack"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:3
+msgid ""
+"The Flying Circus platform provides components which can be used to set "
+"up an environment for operating PHP applications. The configuration *can*"
+" be automated with deployment tools of course, but this is not part of "
+"this tutorial."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:5
+msgid "What you should know before starting:"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:7
+msgid "The general ideas of the Flying Circus platform: {ref}`firststeps`."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:8
+msgid "The difference between human users and service users: {ref}`useraccounts`"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:9
+msgid "How to connect to VMs via SSH (or SFTP): {ref}`connecting`"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:11
+msgid "Assumptions:"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:13
+msgid ""
+"There is only *one* VM, `myvm00`. The setup generally works in multi VM "
+"setups, too, though."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:14
+msgid "You will host multiple sites in one setup."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:15
+msgid ""
+"Each site is being hosted in a different service user. We use "
+"`s-myserviceuser` here. Switch to the service user with `sudo -iu "
+"s-myserviceuser`. The docroot is *inside* the service user's home "
+"directory."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:17
+msgid "General structure"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:19
+msgid "The general request flow for our LAMP stack is as follows:"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:21
+msgid "NGINX: SSL termination and domain/vhost specific configuration"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:22
+msgid "Apache: Used so `.htaccess` files work."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:23
+msgid "PHP-FPM for actually running PHP code"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:25
+msgid "In addition you likely want a variant of MySQL."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:27
+msgid "Component setup"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:29
+msgid "MySQL"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:31
+msgid ""
+"Enable a MySQL role of your choice, e.g. mysql57, percona80, in the VM "
+"dashboard on <https://my.flyingcircus.io/>. See the {external+platform-"
+"current:ref}`nixos-mysql` role documentation for details."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:33
+msgid ""
+"If you just enabled a MySQL role it might not be available on the VM, "
+"yet. Call `sudo fc-manage -eb` to force a build. The `-e` option is there"
+" to reload the configuration you have set in the VM dashboard, so it's "
+"usually omitted when applying local changes."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:35
+msgid ""
+"To create a service-specific MySQL user and database you switch to the "
+"mysql user and start a mysql shell:"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:46
+msgid "You will of course need a real username and password for your application."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:48
+msgid ""
+"Note that we used `myservice@'%'` as user name. This generally allows "
+"access from everywhere (`%`). Our firewall rules make sure that MySQL is "
+"only reachable via the SRV interface and only from other VMs in the "
+"*same* resource group. See {ref}`firewall` for details."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:50
+msgid "Apache / FPM"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:52
+msgid ""
+"You configure Apache and FPM in one step. With the Flying Circus `lamp` "
+"role you define an Apache docroot which is properly hooked up with FPM."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:54
+msgid ""
+"But first, there are some generic Apache settings, which are used for "
+"*all* sites. :"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:90
+msgid ""
+"Now configure a docroot. It is best to create a separate service user for"
+" each project and separate the vhost configuration defining listening "
+"port and the corresponding docroot:"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:111
+msgid ""
+"This setting configures both Apache *and* FPM automatically. To enable "
+"the configuration, call `sudo fc-manage -b`"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:113
+msgid ""
+"The detailed documentation for this component is: {external+platform-"
+"current:ref}`nixos-lamp`."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:115
+msgid "NGINX"
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:117
+msgid "The NGINX component manages SSL termination and routing to Apache."
+msgstr ""
+
+#: ../../../src/guide/deployment/lamp.md:153
+msgid ""
+"You will find more details on NGINX configuration in the role "
+"documentation for {external+platform-current:ref}`nixos-webgateway`."
+msgstr ""
+

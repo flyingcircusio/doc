@@ -9,60 +9,77 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r005.rst:4
+#: ../../../src/changes/2014/r005.md:5
 msgid "Release 2014_005 (2014-01-31)"
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:7
+#: ../../../src/changes/2014/r005.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:9
+#: ../../../src/changes/2014/r005.md:9
 msgid ""
-"Security update for `GLSA 201401-34 / bind "
-"<http://www.gentoo.org/security/en/glsa/glsa-201401-34.xml>`_ (#13151)."
+"Security update for [GLSA 201401-34 / "
+"bind](http://www.gentoo.org/security/en/glsa/glsa-201401-34.xml) "
+"(#13151)."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:14
+#: ../../../src/changes/2014/r005.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:16
+#: ../../../src/changes/2014/r005.md:13
 msgid "Upgrade Linux kernel on routers from 2.6.38 to 3.10.7."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:17
-msgid "Apply timeout in :ref:`userinit`."
+#: ../../../src/changes/2014/r005.md:14
+msgid "Apply timeout in {ref}`userinit`."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:18
+#: ../../../src/changes/2014/r005.md:15
 msgid "Make RabbitMQ log files readable by unprivileged users (#13100)."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:19
+#: ../../../src/changes/2014/r005.md:16
 msgid ""
 "Improve ucarp configuration scripts on routers to correctly handle IPv4 "
 "networks with different netmasks on the same interface (#12895)."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:23
+#: ../../../src/changes/2014/r005.md:19
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:25
-msgid "Add note about 5 minute timeout in :ref:`userinit`."
+#: ../../../src/changes/2014/r005.md:21
+msgid "Add note about 5 minute timeout in {ref}`userinit`."
 msgstr ""
 
-#: ../../src/changes/2014/r005.rst:26
-msgid "Mention example configuration is provided in :ref:`webgateway`."
+#: ../../../src/changes/2014/r005.md:22
+msgid "Mention example configuration is provided in {ref}`webgateway`."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201401-34 /"
+#~ " bind "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201401-34.xml>`_ "
+#~ "(#13151)."
+#~ msgstr ""
+
+#~ msgid "Apply timeout in :ref:`userinit`."
+#~ msgstr ""
+
+#~ msgid "Add note about 5 minute timeout in :ref:`userinit`."
+#~ msgstr ""
+
+#~ msgid "Mention example configuration is provided in :ref:`webgateway`."
+#~ msgstr ""
 

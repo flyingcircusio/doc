@@ -9,91 +9,97 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r008.rst:4
+#: ../../../src/changes/2018/r008.md:5
 msgid "Release 2018_008 (2018-03-28)"
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:7
+#: ../../../src/changes/2018/r008.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:9
-msgid "[NixOS] ElasticSearch instances will be restarted."
+#: ../../../src/changes/2018/r008.md:9
+msgid "\\[NixOS\\] ElasticSearch instances will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:10
-msgid "[Gentoo] PostgreSQL 9.3 instances will be restarted."
+#: ../../../src/changes/2018/r008.md:10
+msgid "\\[Gentoo\\] PostgreSQL 9.3 instances will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:14
+#: ../../../src/changes/2018/r008.md:12
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:16
+#: ../../../src/changes/2018/r008.md:14
 msgid ""
 "Fix cluster detection for `elasticsearch2` and `elasticsearch5` roles "
 "(#100251)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:18
+#: ../../../src/changes/2018/r008.md:16
 msgid ""
 "Provide Python 3.5 and 3.6 for manual installation via `nix-env` "
 "(#100534, #100644, #100759)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:20
+#: ../../../src/changes/2018/r008.md:18
 msgid "Fix monitoring of ElasticSearch 5 (#100170)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:21
+#: ../../../src/changes/2018/r008.md:19
 msgid ""
 "ElasticSearch startup: improve behaviour when /srv/elasticsearch contains"
 " old files (#100722)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:23
+#: ../../../src/changes/2018/r008.md:21
 msgid "Fix occasional build error in firewall configuration (#100755)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:24
+#: ../../../src/changes/2018/r008.md:22
 msgid ""
 "Adjust our swap check: instead of relying on relative usage and \"almost "
 "empy\", we now consider more than 1G of usage to be \"too much\" "
 "(#100605)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:26
+#: ../../../src/changes/2018/r008.md:24
 msgid "Tune HAProxy timeout settings for Graylog (#100770)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:27
+#: ../../../src/changes/2018/r008.md:25
 msgid "Don't reboot VMs due to high load (#100612)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:31
+#: ../../../src/changes/2018/r008.md:27
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:33
+#: ../../../src/changes/2018/r008.md:29
 msgid ""
 "memcached: Fix firewall to block 11211/udp access to avoid amplification "
 "attacks (#100565)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:35
+#: ../../../src/changes/2018/r008.md:31
 msgid "Fix apache2 config file update (#100383)."
 msgstr ""
 
-#: ../../src/changes/2018/r008.rst:36
+#: ../../../src/changes/2018/r008.md:32
 msgid "Security update for PostgreSQL: 9.3.3 -> 9.3.14 (GLSA 201701-33; #25481)."
 msgstr ""
+
+#~ msgid "[NixOS] ElasticSearch instances will be restarted."
+#~ msgstr ""
+
+#~ msgid "[Gentoo] PostgreSQL 9.3 instances will be restarted."
+#~ msgstr ""
 

@@ -9,30 +9,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r039.rst:4
+#: ../../../src/changes/2020/r039.md:5
 msgid "Release 2020_039 (2020-12-07)"
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:7
+#: ../../../src/changes/2020/r039.md:7
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:9
+#: ../../../src/changes/2020/r039.md:9
 msgid ""
 "Kubernetes: flannel update and other improvements to fix slow restart "
 "times and missing network connectivity after node reboots (PL-129513)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:11
+#: ../../../src/changes/2020/r039.md:11
 msgid ""
 "Kubernetes: add kubernetes-frontend role that provides a pre-configured "
 "HAProxy to load-balance external traffic to nodes. VMs without any "
@@ -40,65 +40,86 @@ msgid ""
 "(#PL-129522)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:14
+#: ../../../src/changes/2020/r039.md:14
 msgid ""
 "Nginx: cover usage of mod_security in our nginx platform tests to ensure "
 "that it works (PL-129514)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:15 ../../src/changes/2020/r039.rst:29
+#: ../../../src/changes/2020/r039.md:15 ../../../src/changes/2020/r039.md:27
 msgid ""
-"Nginx: add option ``flyingcircus.services.nginx.rotateLogs`` to set the "
+"Nginx: add option `flyingcircus.services.nginx.rotateLogs` to set the "
 "rotation count for logrotate (PL-129495)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:16 ../../src/changes/2020/r039.rst:28
+#: ../../../src/changes/2020/r039.md:16 ../../../src/changes/2020/r039.md:26
 msgid "Provide zip in our default installation (PL-129517)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:17
+#: ../../../src/changes/2020/r039.md:17
 msgid ""
 "LAMP role: remove deprecated configuration and standardize on pure NixOS-"
 "based configuration options (PL-128815)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:18
+#: ../../../src/changes/2020/r039.md:18
 msgid ""
 "Review and streamline our wkhtmltopdf builds (0.12.4, 0.12.5, 0.12.6) to "
 "reflect build options as used by upstream. Added test coverage to "
 "validate proper usage of fonts in CSS (#129939)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:20
+#: ../../../src/changes/2020/r039.md:20
 msgid ""
 "PostgreSQL: install globally available commands (like psql) with the same"
 " version as the active role; link socket which is now in /run/postgresql "
 "for all versions to old location in /tmp (PL-129526)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:22
+#: ../../../src/changes/2020/r039.md:22
 msgid "Varnish: fix error on reload when deleting the old config (PL-129524)."
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:26
+#: ../../../src/changes/2020/r039.md:24
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:33
+#: ../../../src/changes/2020/r039.md:29
 msgid "Detailed changes"
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:35
+#: ../../../src/changes/2020/r039.md:31
 msgid ""
-"NixOS 20.09: `platform 20.09 <https://github.com/flyingcircusio/fc-"
-"nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09>`_,"
-" `upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f>`_"
+"NixOS 20.09: [platform 20.09](https://github.com/flyingcircusio/fc-"
+"nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f)"
 msgstr ""
 
-#: ../../src/changes/2020/r039.rst:36
+#: ../../../src/changes/2020/r039.md:32
 msgid ""
-"NixOS 19.03: `platform 19.03 <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2020_038...fc/r2020_039/19.03>`_"
+"NixOS 19.03: [platform 19.03](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2020_038...fc/r2020_039/19.03)"
 msgstr ""
+
+#~ msgid ""
+#~ "Nginx: add option "
+#~ "``flyingcircus.services.nginx.rotateLogs`` to set "
+#~ "the rotation count for logrotate "
+#~ "(PL-129495)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform 20.09 "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/1126fb7cac7a063081f616ab602e34be7a3c66cc...fc/r2020_039/20.09>`_,"
+#~ " `upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/da85063a619e8a43495b3deae097b95af8360de9...ddf1ef86071abd6270dc9a48da38bfe6ba34427f>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 19.03: `platform 19.03 "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2020_038...fc/r2020_039/19.03>`_"
+#~ msgstr ""
 

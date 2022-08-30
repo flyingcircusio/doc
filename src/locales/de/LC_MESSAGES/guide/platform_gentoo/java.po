@@ -9,66 +9,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/java.rst:5
+#: ../../../src/guide/platform_gentoo/java.md:3
 msgid "Java"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:7
+#: ../../../src/guide/platform_gentoo/java.md:5
 msgid ""
-"This component provides the Java JDK (based on `OpenJDK "
-"<http://openjdk.java.net/>`_)."
+"This component provides the Java JDK (based on "
+"[OpenJDK](http://openjdk.java.net/))."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:12
+#: ../../../src/guide/platform_gentoo/java.md:8
 msgid "Packages"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:14
+#: ../../../src/guide/platform_gentoo/java.md:10
 msgid "dev-java/log4j"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:15
+#: ../../../src/guide/platform_gentoo/java.md:11
 msgid "net-print/cups"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:16
+#: ../../../src/guide/platform_gentoo/java.md:12
 msgid "dev-java/icedtea-bin"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:20
+#: ../../../src/guide/platform_gentoo/java.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:22
+#: ../../../src/guide/platform_gentoo/java.md:16
 msgid ""
 "Multiple Java versions may be installed at any point in time. However, "
-"you may need to select which version should be active as :command:`java` "
+"you may need to select which version should be active as {command}`java` "
 "in your PATH."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:26
+#: ../../../src/guide/platform_gentoo/java.md:20
 msgid ""
-"You can find out which ones are available by running :command:`eselect "
-"java-vm list`::"
+"You can find out which ones are available by running {command}`eselect "
+"java-vm list`:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:34
+#: ../../../src/guide/platform_gentoo/java.md:30
 msgid ""
 "To choose a specific version for your service user you can do so by "
-"running :command:`eselect java-vm set user <slot>`. The slot number is "
+"running {command}`eselect java-vm set user <slot>`. The slot number is "
 "the one that is shown to you in the output of the list command above."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/java.rst:38
+#: ../../../src/guide/platform_gentoo/java.md:34
 msgid "This setting then becomes permanent for all future sessions of this user."
 msgstr ""
+
+#~ msgid ""
+#~ "This component provides the Java JDK "
+#~ "(based on `OpenJDK <http://openjdk.java.net/>`_)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Multiple Java versions may be installed"
+#~ " at any point in time. However, "
+#~ "you may need to select which "
+#~ "version should be active as "
+#~ ":command:`java` in your PATH."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can find out which ones are"
+#~ " available by running :command:`eselect "
+#~ "java-vm list`::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To choose a specific version for "
+#~ "your service user you can do so"
+#~ " by running :command:`eselect java-vm "
+#~ "set user <slot>`. The slot number "
+#~ "is the one that is shown to "
+#~ "you in the output of the list "
+#~ "command above."
+#~ msgstr ""
 

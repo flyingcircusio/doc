@@ -9,62 +9,80 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r017.rst:4
+#: ../../../src/changes/2012/r017.md:5
 msgid "Release 2012-06-18"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:7
+#: ../../../src/changes/2012/r017.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:9
+#: ../../../src/changes/2012/r017.md:9
 msgid ""
-"New :ref:`gis` role that bundles packages for processing geographical "
+"New {ref}`gis` role that bundles packages for processing geographical "
 "data."
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:10
+#: ../../../src/changes/2012/r017.md:10
 msgid "Install `protobuf` by default on all machines."
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:14
+#: ../../../src/changes/2012/r017.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:16
+#: ../../../src/changes/2012/r017.md:14
 msgid ""
-"Move PostgreSQL's statistics tempfile (:file:`pg_stat_tmp`) to shared "
+"Move PostgreSQL's statistics tempfile ({file}`pg_stat_tmp`) to shared "
 "memory to speed up statistics collections. Triggers PostgreSQL restart."
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:21
+#: ../../../src/changes/2012/r017.md:17
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:23
+#: ../../../src/changes/2012/r017.md:19
 msgid ""
 "Fix bug which caused monitoring system failures in the presence of "
 "permanently disabled VMs (#8975)."
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:28
+#: ../../../src/changes/2012/r017.md:22
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:30
-msgid ":ref:`dovecot` role documentation"
+#: ../../../src/changes/2012/r017.md:24
+msgid "{ref}`dovecot` role documentation"
 msgstr ""
 
-#: ../../src/changes/2012/r017.rst:31
-msgid ":ref:`gis` role documentation"
+#: ../../../src/changes/2012/r017.md:25
+msgid "{ref}`gis` role documentation"
 msgstr ""
+
+#~ msgid ""
+#~ "New :ref:`gis` role that bundles "
+#~ "packages for processing geographical data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move PostgreSQL's statistics tempfile "
+#~ "(:file:`pg_stat_tmp`) to shared memory to "
+#~ "speed up statistics collections. Triggers "
+#~ "PostgreSQL restart."
+#~ msgstr ""
+
+#~ msgid ":ref:`dovecot` role documentation"
+#~ msgstr ""
+
+#~ msgid ":ref:`gis` role documentation"
+#~ msgstr ""
 

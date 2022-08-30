@@ -9,43 +9,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r020.rst:4
+#: ../../../src/changes/2012/r020.md:5
 msgid "Release 2012-06-29"
 msgstr ""
 
-#: ../../src/changes/2012/r020.rst:7
+#: ../../../src/changes/2012/r020.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r020.rst:9
+#: ../../../src/changes/2012/r020.md:9
 msgid ""
-"Security update for sys-libs/pam: `GLSA 201206-31 / pam "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-31.xml>`_ (#11089). "
-"PostgreSQL restart necessary."
+"Security update for sys-libs/pam: [GLSA 201206-31 / "
+"pam](http://www.gentoo.org/security/en/glsa/glsa-201206-31.xml) (#11089)."
+" PostgreSQL restart necessary."
 msgstr ""
 
-#: ../../src/changes/2012/r020.rst:12
+#: ../../../src/changes/2012/r020.md:11
 msgid ""
-"Security update for www-client/links: `GLSA 201206-32 / Links "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-32.xml>`_ (#11110)."
+"Security update for www-client/links: [GLSA 201206-32 / "
+"Links](http://www.gentoo.org/security/en/glsa/glsa-201206-32.xml) "
+"(#11110)."
 msgstr ""
 
-#: ../../src/changes/2012/r020.rst:17
+#: ../../../src/changes/2012/r020.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r020.rst:19
+#: ../../../src/changes/2012/r020.md:15
 msgid ""
-"Increase retention time for :file:`/var/log/haproxy.log` to 60 days to "
+"Increase retention time for {file}`/var/log/haproxy.log` to 60 days to "
 "help debugging sporadic performance problems."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for sys-libs/pam: `GLSA"
+#~ " 201206-31 / pam "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-31.xml>`_ "
+#~ "(#11089). PostgreSQL restart necessary."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for www-client/links: "
+#~ "`GLSA 201206-32 / Links "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-32.xml>`_ "
+#~ "(#11110)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Increase retention time for "
+#~ ":file:`/var/log/haproxy.log` to 60 days to "
+#~ "help debugging sporadic performance problems."
+#~ msgstr ""
 

@@ -9,80 +9,86 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r022.rst:4
+#: ../../../src/changes/2018/r022.md:5
 msgid "Release 2018_022 (2018-07-19)"
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:7
+#: ../../../src/changes/2018/r022.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:9
+#: ../../../src/changes/2018/r022.md:9
 msgid ""
-"[NixOS] PostgreSQL servers and all services containing a PostgreSQL "
+"\\[NixOS\\] PostgreSQL servers and all services containing a PostgreSQL "
 "client will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:14
+#: ../../../src/changes/2018/r022.md:12
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:16
+#: ../../../src/changes/2018/r022.md:14
 msgid "Update PostgreSQL 9.6.8 -> 9.6.9 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:17
+#: ../../../src/changes/2018/r022.md:15
 msgid "Update PostgreSQL 9.5.12 -> 9.5.13 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:18
+#: ../../../src/changes/2018/r022.md:16
 msgid "Update PostgreSQL 9.4.17 -> 9.4.18 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:19
+#: ../../../src/changes/2018/r022.md:17
 msgid "Update PostgreSQL 9.3.22 -> 9.3.23 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:20
+#: ../../../src/changes/2018/r022.md:18
 msgid "Update PostgreSQL 9.2.15 -> 9.2.24 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:21
+#: ../../../src/changes/2018/r022.md:19
 msgid "Update PostgreSQL 9.1.20 -> 9.1.24 (#104680)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:22
+#: ../../../src/changes/2018/r022.md:20
 msgid "Backport pipenv 10.1.0 from NixOS 18.03 (#101794)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:23
+#: ../../../src/changes/2018/r022.md:21
 msgid "Security update for vim: 8.0.1451 (#101782)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:24
+#: ../../../src/changes/2018/r022.md:22
 msgid "Improve varnish restart in systemd unit (#103578)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:25
+#: ../../../src/changes/2018/r022.md:23
 msgid ""
 "Add `fix-so-path` utility to fix RPATHs in shared objects shipped in "
 "binary package formats like Python wheels (#103604)."
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:30
+#: ../../../src/changes/2018/r022.md:26
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2018/r022.rst:32
+#: ../../../src/changes/2018/r022.md:28
 msgid "Fix startup bug on servers with many disk devices (#27654)."
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] PostgreSQL servers and all "
+#~ "services containing a PostgreSQL client "
+#~ "will be restarted."
+#~ msgstr ""
 

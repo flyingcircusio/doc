@@ -9,74 +9,82 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r003.rst:4
+#: ../../../src/changes/2017/r003.md:5
 msgid "Release 2017_003 (2017-02-06)"
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:7
+#: ../../../src/changes/2017/r003.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:9
-msgid "[NixOS] PHP applications will need to be restarted."
+#: ../../../src/changes/2017/r003.md:9
+msgid "\\[NixOS\\] PHP applications will need to be restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:13
+#: ../../../src/changes/2017/r003.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:15
+#: ../../../src/changes/2017/r003.md:13
 msgid "Update vulnix to version 1.2.2 with improved reporting."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:16
+#: ../../../src/changes/2017/r003.md:14
 msgid "Add mongodb-tools to mongodb servers (#25713)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:17
+#: ../../../src/changes/2017/r003.md:15
 msgid ""
 "Update PHP to recent versions with improved MySQL drivers: 5.5.35, "
 "5.6.21, 7.0.15 (#25713)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:19
+#: ../../../src/changes/2017/r003.md:17
 msgid "Add Kibana service. Needs local configuration (#25713)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:20
+#: ../../../src/changes/2017/r003.md:18
 msgid "`memcached` listens now on all configured SRV addresses (#25641)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:21
+#: ../../../src/changes/2017/r003.md:19
 msgid ""
 "Allow to customize ElasticSearch via "
-":file:`/etc/local/elasticsearch/elasticsearch.yml` (#25713)."
+"{file}`/etc/local/elasticsearch/elasticsearch.yml` (#25713)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:26
+#: ../../../src/changes/2017/r003.md:22
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:28
+#: ../../../src/changes/2017/r003.md:24
 msgid "GLSA reporting now marks advisories that are already worked on as such."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:29
+#: ../../../src/changes/2017/r003.md:25
 msgid "Fix bug which causes sshd to crash during system updates (#25566)."
 msgstr ""
 
-#: ../../src/changes/2017/r003.rst:30
+#: ../../../src/changes/2017/r003.md:26
 msgid ""
 "Disable transparent huge pages (THP) on VM hosts as we suspect that it is"
 " the source of recent kernel crashes (#25515)."
 msgstr ""
+
+#~ msgid "[NixOS] PHP applications will need to be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allow to customize ElasticSearch via "
+#~ ":file:`/etc/local/elasticsearch/elasticsearch.yml` (#25713)."
+#~ msgstr ""
 

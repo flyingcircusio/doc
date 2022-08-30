@@ -9,44 +9,59 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r032.rst:4
+#: ../../../src/changes/2014/r032.md:5
 msgid "Release 2014_032 (2014-06-23)"
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:7
+#: ../../../src/changes/2014/r032.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:9
+#: ../../../src/changes/2014/r032.md:9
 msgid ""
-"Security update for `GLSA 201406-21 / curl "
-"<http://www.gentoo.org/security/en/glsa/glsa-201406-21.xml>`_ (#13487)."
+"Security update for [GLSA 201406-21 / "
+"curl](http://www.gentoo.org/security/en/glsa/glsa-201406-21.xml) "
+"(#13487)."
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:11
+#: ../../../src/changes/2014/r032.md:10
 msgid ""
-"Security update for `GLSA 201406-19 / nss "
-"<http://www.gentoo.org/security/en/glsa/glsa-201406-19.xml>`_ (#13489)."
+"Security update for [GLSA 201406-19 / "
+"nss](http://www.gentoo.org/security/en/glsa/glsa-201406-19.xml) (#13489)."
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:16
+#: ../../../src/changes/2014/r032.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:18
+#: ../../../src/changes/2014/r032.md:14
 msgid "Create proper ebuild from gocept.net platform management code (RT 95695)."
 msgstr ""
 
-#: ../../src/changes/2014/r032.rst:19
+#: ../../../src/changes/2014/r032.md:15
 msgid "Automate VM host selection to obtain a better VM distribution (#13236)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201406-21 /"
+#~ " curl "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201406-21.xml>`_ "
+#~ "(#13487)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201406-19 /"
+#~ " nss "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201406-19.xml>`_ "
+#~ "(#13489)."
+#~ msgstr ""
 

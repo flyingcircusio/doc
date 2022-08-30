@@ -9,54 +9,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r021.rst:4
+#: ../../../src/changes/2015/r021.md:5
 msgid "Release 2015_021 (2015-04-21)"
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:7
+#: ../../../src/changes/2015/r021.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:9
+#: ../../../src/changes/2015/r021.md:9
 msgid "Upgrade system Java 1.7 to retain elasticsearch compatibility (#11117)."
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:13
+#: ../../../src/changes/2015/r021.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:15
+#: ../../../src/changes/2015/r021.md:13
 msgid ""
 "Add separate log format to nginx that allows anonymization of IP "
-"addresses in nginx log files. Also see section :ref:`nginx` (#15187)."
+"addresses in nginx log files. Also see section {ref}`nginx` (#15187)."
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:17
+#: ../../../src/changes/2015/r021.md:15
 msgid "Activate slow logs for MySQL (#15395)."
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:18
+#: ../../../src/changes/2015/r021.md:16
 msgid "Make MySQL logs service user readable (#15395)."
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:22
+#: ../../../src/changes/2015/r021.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:24
-msgid "How to anonymize IP addresses in :ref:`nginx` log files (#15187)."
+#: ../../../src/changes/2015/r021.md:20
+msgid "How to anonymize IP addresses in {ref}`nginx` log files (#15187)."
 msgstr ""
 
-#: ../../src/changes/2015/r021.rst:25
-msgid "Data import examples for :ref:`nginx` performance logs."
+#: ../../../src/changes/2015/r021.md:21
+msgid "Data import examples for {ref}`nginx` performance logs."
 msgstr ""
+
+#~ msgid ""
+#~ "Add separate log format to nginx "
+#~ "that allows anonymization of IP "
+#~ "addresses in nginx log files. Also "
+#~ "see section :ref:`nginx` (#15187)."
+#~ msgstr ""
+
+#~ msgid "How to anonymize IP addresses in :ref:`nginx` log files (#15187)."
+#~ msgstr ""
+
+#~ msgid "Data import examples for :ref:`nginx` performance logs."
+#~ msgstr ""
 

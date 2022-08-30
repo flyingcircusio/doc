@@ -9,40 +9,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r024.rst:4
+#: ../../../src/changes/2021/r024.md:5
 msgid "Release 2021_024 (2021-07-19)"
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:7
+#: ../../../src/changes/2021/r024.md:7
 msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:9
-msgid "LAMP: add :command:`composer` to global environment (#PL-129819)."
+#: ../../../src/changes/2021/r024.md:9
+msgid "LAMP: add {command}`composer` to global environment (#PL-129819)."
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:10
+#: ../../../src/changes/2021/r024.md:10
 msgid ""
 "HAProxy: add structured Nix configuration via "
 "`flyingcircus.services.haproxy`. This feature is experimental and must be"
 " activated explicitly. Plain custom HAProxy configs in "
-":file:`/etc/local/haproxy` are still supported but may be deprecated in "
-"future platform versions. See `nixos/services/haproxy/README.md "
-"<https://github.com/flyingcircusio/fc-"
-"nixos/blob/fc-21.05-staging/nixos/services/haproxy/README.md>`_ for "
-"details (#PL-129868)."
+"{file}`/etc/local/haproxy` are still supported but may be deprecated in "
+"future platform versions. See "
+"[nixos/services/haproxy/README.md](https://github.com/flyingcircusio/fc-"
+"nixos/blob/fc-21.05-staging/nixos/services/haproxy/README.md) for details"
+" (#PL-129868)."
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:16
+#: ../../../src/changes/2021/r024.md:16
 msgid ""
 "Nginx: update from our 1.18 fork to the 1.20 upstream version which fixes"
 " a frequent error message regarding gzip. IPv6 addresses are now "
@@ -50,27 +50,56 @@ msgid ""
 " anonymization patch, too (#PL-129922)."
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:20
+#: ../../../src/changes/2021/r024.md:20
 msgid "Fix monitoring for daily ClamAV updates (#PL-129991)."
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:21
+#: ../../../src/changes/2021/r024.md:21
 msgid "Statshost: fix Grafana dashboard git pull warning (#PL-129655)."
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:22
+#: ../../../src/changes/2021/r024.md:22
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:25
+#: ../../../src/changes/2021/r024.md:24
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r024.rst:27
+#: ../../../src/changes/2021/r024.md:26
 msgid ""
-"NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_023/21.05...902437857e1666b6d5459aaae138f6987d1d4374>`_"
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_023/21.05...902437857e1666b6d5459aaae138f6987d1d4374)"
 msgstr ""
+
+#~ msgid "LAMP: add :command:`composer` to global environment (#PL-129819)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "HAProxy: add structured Nix configuration "
+#~ "via `flyingcircus.services.haproxy`. This feature"
+#~ " is experimental and must be "
+#~ "activated explicitly. Plain custom HAProxy "
+#~ "configs in :file:`/etc/local/haproxy` are "
+#~ "still supported but may be deprecated"
+#~ " in future platform versions. See "
+#~ "`nixos/services/haproxy/README.md "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/blob/fc-21.05-staging/nixos/services/haproxy/README.md>`_ "
+#~ "for details (#PL-129868)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/97431/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 21.05: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_023/21.05...902437857e1666b6d5459aaae138f6987d1d4374>`_"
+#~ msgstr ""
 

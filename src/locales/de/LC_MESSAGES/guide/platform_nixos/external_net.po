@@ -9,36 +9,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/external_net.rst:4
+#: ../../../src/guide/platform_nixos/external_net.md:3
 msgid "External network gateway"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:6
+#: ../../../src/guide/platform_nixos/external_net.md:5
 msgid ""
 "The external network gateway (external_net) role provides connectivity "
 "between VPN and VxLAN tunnels and the local project. Client connections "
 "across these tunnels may access ports in the RG's backend network (srv)."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:11
+#: ../../../src/guide/platform_nixos/external_net.md:9
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:14
-#: ../../src/guide/platform_nixos/external_net.rst:42
+#: ../../../src/guide/platform_nixos/external_net.md:11
+#: ../../../src/guide/platform_nixos/external_net.md:31
 msgid "OpenVPN"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:16
+#: ../../../src/guide/platform_nixos/external_net.md:13
 msgid ""
 "An OpenVPN gateway listens on the standard port (1194/udp) on the "
 "gateway's frontend network (fe). The standard configuration requires two "
@@ -49,75 +49,114 @@ msgid ""
 "have a valid login for this RG."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:24
-#: ../../src/guide/platform_nixos/external_net.rst:60
+#: ../../../src/guide/platform_nixos/external_net.md:20
+#: ../../../src/guide/platform_nixos/external_net.md:47
 msgid "VxLAN"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:26
+#: ../../../src/guide/platform_nixos/external_net.md:22
 msgid ""
 "The external network gateway contains also provisions to interconnect the"
-" local RG with a remote network via VxLAN_. Contact the :ref:`support` "
+" local RG with a remote network via [VxLAN]. Contact the {ref}`support` "
 "for details."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:30
+#: ../../../src/guide/platform_nixos/external_net.md:25
 msgid "mosh"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:32
-msgid "As a courtesy, external network gateways run a mosh_ server by default."
+#: ../../../src/guide/platform_nixos/external_net.md:27
+msgid "As a courtesy, external network gateways run a [mosh] server by default."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:39
+#: ../../../src/guide/platform_nixos/external_net.md:29
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:44
+#: ../../../src/guide/platform_nixos/external_net.md:33
 msgid ""
 "An OpenVPN server needs correct DNS settings (forward and reverse names)."
-" Contact the :ref:`support` to get this set up. Additional options (like "
-"address pools) can be set in :file:`/etc/local/openvpn/networks.json`. "
+" Contact the {ref}`support` to get this set up. Additional options (like "
+"address pools) can be set in {file}`/etc/local/openvpn/networks.json`. "
 "The README file in the same directory contains a detailed description of "
 "available options."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:49
+#: ../../../src/guide/platform_nixos/external_net.md:38
 msgid ""
 "By default, OpenVPN allocates client addresses from the pools "
 "10.70.67.0/24 and fd3e:65c4:fc10::/48."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:54
+#: ../../../src/guide/platform_nixos/external_net.md:42
 msgid ""
 "Our OpenVPN servers push routes for the whole location (data center). "
 "This means that opening VPN connections to external network gateways in "
 "several RGs at once may not be a good idea."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:62
+#: ../../../src/guide/platform_nixos/external_net.md:49
 msgid ""
 "A VxLAN tunnel is created if the file "
-":file:`/etc/local/vxlan/config.json` exists. See the accompanying README "
+"{file}`/etc/local/vxlan/config.json` exists. See the accompanying README "
 "file for details."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:67
+#: ../../../src/guide/platform_nixos/external_net.md:52
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:69
+#: ../../../src/guide/platform_nixos/external_net.md:54
 msgid ""
 "A default client configuration file (`*.ovpn`) is provided on OpenVPN "
-"gateways in the directory :file:`/etc/local/openvpn`. Import this "
+"gateways in the directory {file}`/etc/local/openvpn`. Import this "
 "configuration file into your OpenVPN client of choice."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:75
+#: ../../../src/guide/platform_nixos/external_net.md:58
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/external_net.rst:77
+#: ../../../src/guide/platform_nixos/external_net.md:60
 msgid "Currently, OpenVPN server processes are checked for liveness."
 msgstr ""
+
+#~ msgid ""
+#~ "The external network gateway contains "
+#~ "also provisions to interconnect the "
+#~ "local RG with a remote network via"
+#~ " VxLAN_. Contact the :ref:`support` for "
+#~ "details."
+#~ msgstr ""
+
+#~ msgid "As a courtesy, external network gateways run a mosh_ server by default."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An OpenVPN server needs correct DNS "
+#~ "settings (forward and reverse names). "
+#~ "Contact the :ref:`support` to get this"
+#~ " set up. Additional options (like "
+#~ "address pools) can be set in "
+#~ ":file:`/etc/local/openvpn/networks.json`. The README "
+#~ "file in the same directory contains "
+#~ "a detailed description of available "
+#~ "options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A VxLAN tunnel is created if the"
+#~ " file :file:`/etc/local/vxlan/config.json` exists. "
+#~ "See the accompanying README file for "
+#~ "details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A default client configuration file "
+#~ "(`*.ovpn`) is provided on OpenVPN "
+#~ "gateways in the directory "
+#~ ":file:`/etc/local/openvpn`. Import this "
+#~ "configuration file into your OpenVPN "
+#~ "client of choice."
+#~ msgstr ""
 

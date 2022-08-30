@@ -9,26 +9,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/infrastructure/networking/fallback-router.rst:2
+#: ../../../src/infrastructure/networking/fallback-router.md:1
 msgid "Redundant router"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:4
+#: ../../../src/infrastructure/networking/fallback-router.md:3
 msgid ""
 "Routers are an important resource within a location because they provide "
 "all external connectivity for all machines to the internet."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:7
+#: ../../../src/infrastructure/networking/fallback-router.md:6
 #, python-format
 msgid ""
 "From our upstream providers we expect a reliability of at least 99,9% on "
@@ -36,134 +36,155 @@ msgid ""
 "99,99% on our upstream connectivity."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:11
+#: ../../../src/infrastructure/networking/fallback-router.md:10
 msgid ""
 "To improve the availability of our own routers without expensive high-"
 "availability hardware we use a redundant setup where two machines run an "
 "identical setup and can fail-over in a primary/secondary mode."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:15
+#: ../../../src/infrastructure/networking/fallback-router.md:14
 msgid ""
 "Our goal is to be able to guarantee a recovery of connectivity within "
 "less than 4 hours."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:19
+#: ../../../src/infrastructure/networking/fallback-router.md:17
 msgid "Configuration details: BGP-based"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:21
+#: ../../../src/infrastructure/networking/fallback-router.md:19
 msgid ""
 "In locations that support it (currently: DEV, RZOB) we leverage BGP as a "
 "mechanism to dynamically provide fail-over capabilities between our "
 "routers and the uplink routers."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:25
+#: ../../../src/infrastructure/networking/fallback-router.md:23
 msgid ""
 "In this case the TR vlan does not have a fixed gateway address but "
 "retrieves this information dynamically from a BGP session with our "
 "provider."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:28
+#: ../../../src/infrastructure/networking/fallback-router.md:26
 msgid ""
 "All the internal VLANs (mgm, srv, fe) are configured on each router with "
 "a static regular IP in addition to the gateway IP which is a \"floating\""
 " address and gets automatically assigned by the fail-over mechanism."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:32
+#: ../../../src/infrastructure/networking/fallback-router.md:30
 msgid ""
 "The gateway addresses of the IP networks in this location are assigned to"
 " a physical host in the directory that is not a real puppet client but a "
-"placeholder node. It is called <location-router> (e.g. \"whq-router\" for"
-" the router in our WHQ network)."
+"placeholder node. It is called \\<location-router> (e.g. \"whq-router\" "
+"for the router in our WHQ network)."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:37
+#: ../../../src/infrastructure/networking/fallback-router.md:35
 msgid ""
 "The routers within our location use VRRP "
-"(https://de.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol) to "
+"(<https://de.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol>) to "
 "decide which router should be the master. They leverage interface status "
 "information as well as default route availability."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:42
+#: ../../../src/infrastructure/networking/fallback-router.md:40
 msgid ""
 "When the primary/secondary switches then we also enable/disable the DHCPD"
 " and RADVD services accordingly."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:46
+#: ../../../src/infrastructure/networking/fallback-router.md:43
 msgid "Configuration details: Non-BGP"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:48
+#: ../../../src/infrastructure/networking/fallback-router.md:45
 msgid ""
 "For locations that do not have BGP available from our providers "
 "(currently: WHQ and some customer-owned locations) we extend the VRRP "
 "configuration to the TR vlan and use a floating gateway IP there as well."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:52
+#: ../../../src/infrastructure/networking/fallback-router.md:49
 msgid ""
 "This is an older setup that does have some impact on availability under "
 "certain circumstances on the provide side and is less flexible from our "
 "side."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:57
+#: ../../../src/infrastructure/networking/fallback-router.md:52
 msgid "Manually switching master/backup routers"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:59
+#: ../../../src/infrastructure/networking/fallback-router.md:54
 msgid ""
 "The master/backup role is normally automatically determined by an "
 "election process between all possible routers."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:62
+#: ../../../src/infrastructure/networking/fallback-router.md:57
 msgid ""
 "If for some reason, this should be manually changed, then the following "
 "steps need ot be performed:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:65
+#: ../../../src/infrastructure/networking/fallback-router.md:60
 msgid "locate the current master and log in per SSH"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:66
+#: ../../../src/infrastructure/networking/fallback-router.md:61
 msgid ""
 "disable the keepalive daemon by calling `/etc/init.d/keepalived stop` "
 "(alternatively the daemon can be restarted)"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:70
+#: ../../../src/infrastructure/networking/fallback-router.md:64
 msgid "Known issues"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:73
+#: ../../../src/infrastructure/networking/fallback-router.md:66
 msgid "Inertia"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:75
+#: ../../../src/infrastructure/networking/fallback-router.md:68
 msgid ""
 "Switching between routers back and forth quickly can cause visible "
 "customer outages as the process will cause some packets to be lost and "
 "BGP sessions to reconverge."
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:80
+#: ../../../src/infrastructure/networking/fallback-router.md:72
 msgid "Uplink router ARP caching"
 msgstr ""
 
-#: ../../src/infrastructure/networking/fallback-router.rst:82
+#: ../../../src/infrastructure/networking/fallback-router.md:74
 msgid ""
 "In locations that use VRRP on the TR vlan there may be additional delays"
 "  if the upstream routers should cache our routers' MAC addresses and "
 "ignore the MAC updates we are sending proactively. This will converge "
 "within at most a few minutes."
 msgstr ""
+
+#~ msgid ""
+#~ "The gateway addresses of the IP "
+#~ "networks in this location are assigned"
+#~ " to a physical host in the "
+#~ "directory that is not a real "
+#~ "puppet client but a placeholder node."
+#~ " It is called <location-router> (e.g."
+#~ " \"whq-router\" for the router in "
+#~ "our WHQ network)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The routers within our location use "
+#~ "VRRP "
+#~ "(https://de.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol) "
+#~ "to decide which router should be "
+#~ "the master. They leverage interface "
+#~ "status information as well as default"
+#~ " route availability."
+#~ msgstr ""
 

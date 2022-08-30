@@ -9,70 +9,98 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r003.rst:4
+#: ../../../src/changes/2021/r003.md:5
 msgid "Release 2021_003 (2021-02-01)"
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:7
+#: ../../../src/changes/2021/r003.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:9
+#: ../../../src/changes/2021/r003.md:9
 msgid ""
-"[NixOS 20.09] Graylog will be restarted and be unavailable for some "
+"\\[NixOS 20.09\\] Graylog will be restarted and be unavailable for some "
 "minutes. Changing the log shipping method may drop some messages."
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:14
+#: ../../../src/changes/2021/r003.md:12
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:16
+#: ../../../src/changes/2021/r003.md:14
 msgid ""
 "Logging: ship structured log data from the journal to loghost/graylog "
 "instead of using the limited Syslog format. It provides more metadata "
 "about log events and preserves multiline messages from the journal. "
 "Syslog via UDP 514 is now forwarded to the journal except for HAProxy. "
 "HAProxy isn't forwarded to Graylog anymore and only logs to "
-":file:`/var/log/haproxy.log`. :file:`/var/log/messages` is no longer "
+"{file}`/var/log/haproxy.log`. {file}`/var/log/messages` is no longer "
 "used. (#PL-128336)."
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:22
+#: ../../../src/changes/2021/r003.md:20
 msgid ""
 "Graylog: make telegraf metrics collection work for all nodes in a cluster"
 " (#PL-129455)."
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:23
+#: ../../../src/changes/2021/r003.md:21
 msgid ""
 "Webgateway/Nginx: do not remove Accept-Encoding header in recommended "
 "proxy settings which are enabled by default. This allows backends to send"
 " already compressed content, for example (#PL-129611)."
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:26
+#: ../../../src/changes/2021/r003.md:24
 msgid ""
 "Provide further upgrades to modsecurity to ensure stability when using "
 "the OWASP core rules (PL-129610)."
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:31
+#: ../../../src/changes/2021/r003.md:27
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r003.rst:33
+#: ../../../src/changes/2021/r003.md:29
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_002/20.09...9eb9d3b6cc8c100fd6cb86f011b82d3835cb3b0d>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_002/20.09...9eb9d3b6cc8c100fd6cb86f011b82d3835cb3b0d)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Graylog will be restarted"
+#~ " and be unavailable for some minutes."
+#~ " Changing the log shipping method may"
+#~ " drop some messages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Logging: ship structured log data from"
+#~ " the journal to loghost/graylog instead "
+#~ "of using the limited Syslog format. "
+#~ "It provides more metadata about log "
+#~ "events and preserves multiline messages "
+#~ "from the journal. Syslog via UDP "
+#~ "514 is now forwarded to the "
+#~ "journal except for HAProxy. HAProxy "
+#~ "isn't forwarded to Graylog anymore and"
+#~ " only logs to :file:`/var/log/haproxy.log`. "
+#~ ":file:`/var/log/messages` is no longer used."
+#~ " (#PL-128336)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_002/20.09...9eb9d3b6cc8c100fd6cb86f011b82d3835cb3b0d>`_"
+#~ msgstr ""
 

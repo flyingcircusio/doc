@@ -9,54 +9,60 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r011.rst:4
+#: ../../../src/changes/2012/r011.md:5
 msgid "Release 2012-04-26"
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:7
+#: ../../../src/changes/2012/r011.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:9
+#: ../../../src/changes/2012/r011.md:9
 msgid ""
 "Performance optimisations for default PostgreSQL configuration: enlarged "
 "shared_buffers, checkpoints, async io, ... (RT 82296)."
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:11
+#: ../../../src/changes/2012/r011.md:11
 msgid ""
-"Finally roll out strict firewall rules (started in :ref:`rel_20120308`) "
+"Finally roll out strict firewall rules (started in {ref}`rel_20120308`) "
 "on all machines (#8846)."
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:13
+#: ../../../src/changes/2012/r011.md:13
 msgid ""
 "Fix OpenLDAP restart bug that led to dead slapd instances in rare "
 "circumstances."
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:15
+#: ../../../src/changes/2012/r011.md:15
 msgid ""
 "Provide a sensible ZSH default configuration and avoid running the "
 "newuser module. (#10377)"
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:20
+#: ../../../src/changes/2012/r011.md:18
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r011.rst:22
+#: ../../../src/changes/2012/r011.md:20
 msgid ""
 "Improved PostgreSQL logging: checkpoint times, connects, vacuum time (RT "
 "82296)."
 msgstr ""
+
+#~ msgid ""
+#~ "Finally roll out strict firewall rules"
+#~ " (started in :ref:`rel_20120308`) on all"
+#~ " machines (#8846)."
+#~ msgstr ""
 

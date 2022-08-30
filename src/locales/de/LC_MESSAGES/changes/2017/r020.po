@@ -9,80 +9,87 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r020.rst:4
+#: ../../../src/changes/2017/r020.md:5
 msgid "Release 2017_020 (2017-09-21)"
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:7
+#: ../../../src/changes/2017/r020.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:9
+#: ../../../src/changes/2017/r020.md:9
 msgid "nginx, varnish, and haproxy will be restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:13
+#: ../../../src/changes/2017/r020.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:15
+#: ../../../src/changes/2017/r020.md:13
 msgid ""
 "Reload haproxy when the configuration changes, instead of restarting it "
 "(#28325)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:17
+#: ../../../src/changes/2017/r020.md:15
 msgid ""
 "Automatically load changed varnish configuration instead of restarting "
 "varnish with the new configuration (#28325)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:19
+#: ../../../src/changes/2017/r020.md:17
 msgid "Fix OpenVPN check (#28240)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:20
+#: ../../../src/changes/2017/r020.md:18
 msgid "Gather detailed metrics from HAProxy (#27132)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:21
+#: ../../../src/changes/2017/r020.md:19
 msgid "Provide standard dashboards in Grafana (#27132)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:22
+#: ../../../src/changes/2017/r020.md:20
 msgid ""
 "Improve some collected metrics to use tags instead of separate series "
 "(#27132)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:24
+#: ../../../src/changes/2017/r020.md:22
 msgid "Update Prometheus to 1.7.1 (#27132)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:25
+#: ../../../src/changes/2017/r020.md:23
 msgid ""
 "To avoid confusion, move active configurations of nginx, varnish, and "
-"haproxy to :file:`/etc/current-config` (#28325)."
+"haproxy to {file}`/etc/current-config` (#28325)."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:27
+#: ../../../src/changes/2017/r020.md:25
 msgid ""
 "Enable SNMP for Telegraf. This includes an update to a recent Telegraf "
 "bugfix release 1.3.5."
 msgstr ""
 
-#: ../../src/changes/2017/r020.rst:29
+#: ../../../src/changes/2017/r020.md:27
 msgid ""
 "Enable automatic NixOS garbage collection on selected test/dev/staging "
 "machines (#27553)."
 msgstr ""
+
+#~ msgid ""
+#~ "To avoid confusion, move active "
+#~ "configurations of nginx, varnish, and "
+#~ "haproxy to :file:`/etc/current-config` "
+#~ "(#28325)."
+#~ msgstr ""
 

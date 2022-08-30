@@ -9,86 +9,97 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r025.rst:4
+#: ../../../src/changes/2017/r025.md:5
 msgid "Release 2017_025 (2017-10-26)"
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:7
+#: ../../../src/changes/2017/r025.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:9
+#: ../../../src/changes/2017/r025.md:9
 msgid ""
-"[NixOS] Most services will be restarted due to a multitude of security "
-"updates."
+"\\[NixOS\\] Most services will be restarted due to a multitude of "
+"security updates."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:11
+#: ../../../src/changes/2017/r025.md:11
 msgid ""
-"[NixOS] All virtual machines will be rebooted during announced "
+"\\[NixOS\\] All virtual machines will be rebooted during announced "
 "maintenance windows."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:16
+#: ../../../src/changes/2017/r025.md:14
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:18
+#: ../../../src/changes/2017/r025.md:16
 msgid "Update Linux kernel from 4.4.59 -> 4.4.91 (#28503)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:19
+#: ../../../src/changes/2017/r025.md:17
 msgid "Update PHP 5.5, 5.6 and 7.0 to most recent bugfix releases (#28594)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:20
+#: ../../../src/changes/2017/r025.md:18
 msgid "Security update for ImageMagick: 6.9.9-4 -> 6.9.9-19 (#28605)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:21
+#: ../../../src/changes/2017/r025.md:19
 msgid ""
 "Statshost: Use nginx as proxy when using Prometheus to gather metrics in "
 "multiple projects -- instead of using federation (#28647)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:23
+#: ../../../src/changes/2017/r025.md:21
 msgid "Security update for pcre: 8.40 -> 8.41 (#27731)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:24
+#: ../../../src/changes/2017/r025.md:22
 msgid "Security update for varnish: 4.0.3 -> 4.0.5 (#28593)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:25
+#: ../../../src/changes/2017/r025.md:23
 msgid "Security update for curl: 7.52.1 -> 7.56.0 (#27729)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:26
+#: ../../../src/changes/2017/r025.md:24
 msgid "Security update for libxml: 2.9.4 -> 2.9.6 (#28608)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:27
+#: ../../../src/changes/2017/r025.md:25
 msgid "Security update for libxslt: 1.1.29 -> 1.1.31 (#28609)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:28
+#: ../../../src/changes/2017/r025.md:26
 msgid "Security update for LibreOffice: 5.0.1.2 -> 5.2.6.2."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:29
+#: ../../../src/changes/2017/r025.md:27
 msgid "vulnix: fix incorrect status reporting (#28741)."
 msgstr ""
 
-#: ../../src/changes/2017/r025.rst:30
+#: ../../../src/changes/2017/r025.md:28
 msgid "Enable automatic garbage collection on all VMs (#27553)."
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] Most services will be restarted"
+#~ " due to a multitude of security "
+#~ "updates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] All virtual machines will be "
+#~ "rebooted during announced maintenance windows."
+#~ msgstr ""
 

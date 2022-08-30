@@ -9,60 +9,78 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r041.rst:4
+#: ../../../src/changes/2015/r041.md:5
 msgid "Release 2015_041 (2015-08-13)"
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:7
+#: ../../../src/changes/2015/r041.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:9
+#: ../../../src/changes/2015/r041.md:9
 msgid "Update redis to 3.0.2 (from 2.6) (#17085)."
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:10
+#: ../../../src/changes/2015/r041.md:10
 msgid ""
-"New managed role :ref:`UI testing <ui_testing>` which provides `IceWM "
-"<http://www.icewm.org/>`_, `TightVNC <http://tightvnc.com/>`_, and "
-"`Mozilla Firefox <https://www.mozilla.org/en-US/firefox/products/>`_ "
+"New managed role {ref}`UI testing <ui_testing>` which provides "
+"[IceWM](http://www.icewm.org/), [TightVNC](http://tightvnc.com/), and "
+"[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/products/) "
 "(#17014)."
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:16
+#: ../../../src/changes/2015/r041.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:18
+#: ../../../src/changes/2015/r041.md:15
 msgid ""
 "Increase maximum of open files to accommodate for file-hungry "
 "applications like Elasticsearch or Ceph (#16967)."
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:20
+#: ../../../src/changes/2015/r041.md:17
 msgid "Further stability improvements for VM live migration (#16372)."
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:24
+#: ../../../src/changes/2015/r041.md:19
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:26
+#: ../../../src/changes/2015/r041.md:21
 msgid ""
-"Finish :doc:`API documentation </guide/api/index>` that reflects our "
+"Finish {doc}`API documentation </guide/api/index>` that reflects our "
 "current implementation status."
 msgstr ""
 
-#: ../../src/changes/2015/r041.rst:28
-msgid "Document new managed role :ref:`UI testing <ui_testing>` (#17014)."
+#: ../../../src/changes/2015/r041.md:23
+msgid "Document new managed role {ref}`UI testing <ui_testing>` (#17014)."
 msgstr ""
+
+#~ msgid ""
+#~ "New managed role :ref:`UI testing "
+#~ "<ui_testing>` which provides `IceWM "
+#~ "<http://www.icewm.org/>`_, `TightVNC "
+#~ "<http://tightvnc.com/>`_, and `Mozilla Firefox "
+#~ "<https://www.mozilla.org/en-US/firefox/products/>`_ "
+#~ "(#17014)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Finish :doc:`API documentation </guide/api/index>`"
+#~ " that reflects our current implementation"
+#~ " status."
+#~ msgstr ""
+
+#~ msgid "Document new managed role :ref:`UI testing <ui_testing>` (#17014)."
+#~ msgstr ""
 

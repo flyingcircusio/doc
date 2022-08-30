@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r021.md:5
+msgid "Release 2022_021 (2022-08-15)"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:9
+msgid "Matomo will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:11
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:13
+msgid ""
+"Our platform version NixOS 22.05 is now ready for testing on non-"
+"production systems. Starting with this release, the environment "
+"fc-22.05-staging can be used for upgrading machines."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:17
+msgid ""
+"We plan to roll out the upgrade for most of the customer staging systems "
+"in calendar week 34. There will be an announcement one week before the "
+"roll-out."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:20
+msgid "Significant package updates, compared to 21.11:"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:22
+msgid "glibc 2.33 -> 2.34"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:23
+msgid "haproxy: 2.3.x -> 2.5.x"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:24
+msgid "nginx: 1.20.2 -> 1.22"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:25
+msgid "nix: 2.3 -> 2.8"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:26
+msgid "php 8.1: new"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:27
+msgid "openssh: 8.8 -> 9.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:28
+msgid "redis: 6.2.x -> 7.0.x"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:29
+msgid "systemd: 249 -> 250"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:30
+msgid "varnish: 7.0.x -> 7.1.x"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:32
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:34
+msgid "matomo: update to 4.11.0 (#PL-130689)."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:35
+msgid ""
+"LAMP: Add `flyingcircus.roles.lamp.vhost.*.apacheExtraConfig` option "
+"which allows adding plain Apache config to the end of the *\\<VirtualHost"
+" ...>* block (#PL-130680, #PL-130679)."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:38
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/178580/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:40
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:42
+msgid "Internal changes for physical machines."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:43
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/178548/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:45
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:47
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_020/21.11...5bd65fbcd9b7593f35cc7955156b06634a09f05c)."
+msgstr ""
+
+#: ../../../src/changes/2022/r021.md:48
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_018/21.05...64aff7f6a7a5c25b2da556007ac20c7c71d6bc0b)."
+msgstr ""
+

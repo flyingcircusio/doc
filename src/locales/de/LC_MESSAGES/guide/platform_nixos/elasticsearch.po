@@ -9,73 +9,90 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:4
+#: ../../../src/guide/platform_nixos/elasticsearch.md:3
 msgid "Elasticsearch"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:6
+#: ../../../src/guide/platform_nixos/elasticsearch.md:5
 msgid ""
-"Managed instance of `Elasticsearch "
-"<https://www.elastic.co/products/elasticsearch>`_ 2.4."
+"Managed instance of "
+"[Elasticsearch](https://www.elastic.co/products/elasticsearch) 2.4."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:10
+#: ../../../src/guide/platform_nixos/elasticsearch.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:12
+#: ../../../src/guide/platform_nixos/elasticsearch.md:9
 msgid ""
 "Upon activating the role, Elasticsearch forms a cluster named as the VM's"
 " name. To change the cluster name, add a file "
-":file:`/etc/local/elasticsearch/clusterName`, with the cluster name as "
-"its sole contents. To activate run :command:`sudo fc-manage --build` (see"
-" :ref:`nixos-local` for details)."
+"{file}`/etc/local/elasticsearch/clusterName`, with the cluster name as "
+"its sole contents. To activate run {command}`sudo fc-manage --build` (see"
+" {ref}`nixos-local` for details)."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:14
+#: ../../../src/guide/platform_nixos/elasticsearch.md:11
 msgid ""
 "Elasticsearch instances are configured with a reasonable memory "
 "configuration, depending on the VMs configured memory."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:17
+#: ../../../src/guide/platform_nixos/elasticsearch.md:13
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:19
+#: ../../../src/guide/platform_nixos/elasticsearch.md:15
 msgid "The following checks are active initially:"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:21
+#: ../../../src/guide/platform_nixos/elasticsearch.md:17
 msgid "Circuit Breakers active"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:23
+#: ../../../src/guide/platform_nixos/elasticsearch.md:18
 msgid "Cluster Health"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:25
+#: ../../../src/guide/platform_nixos/elasticsearch.md:19
 msgid "File descriptors in use"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:27
+#: ../../../src/guide/platform_nixos/elasticsearch.md:20
 msgid "Heap too full"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:29
+#: ../../../src/guide/platform_nixos/elasticsearch.md:21
 msgid "Node status"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/elasticsearch.rst:31
+#: ../../../src/guide/platform_nixos/elasticsearch.md:22
 msgid "Shard allocation status"
 msgstr ""
+
+#~ msgid ""
+#~ "Managed instance of `Elasticsearch "
+#~ "<https://www.elastic.co/products/elasticsearch>`_ 2.4."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upon activating the role, Elasticsearch "
+#~ "forms a cluster named as the VM's"
+#~ " name. To change the cluster name,"
+#~ " add a file "
+#~ ":file:`/etc/local/elasticsearch/clusterName`, with the "
+#~ "cluster name as its sole contents. "
+#~ "To activate run :command:`sudo fc-manage"
+#~ " --build` (see :ref:`nixos-local` for "
+#~ "details)."
+#~ msgstr ""
 

@@ -9,65 +9,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/reference/security/policy.rst:2
+#: ../../../src/reference/security/policy.md:1
 msgid "Policy"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:4
-msgid "This documents the ISMS Policy, as released on 2020-08-03"
+#: ../../../src/reference/security/policy.md:4
+msgid "This documents the ISMS Policy, as released on 2021-09-21"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:7
+#: ../../../src/reference/security/policy.md:9
 msgid ""
 "We, the management of Flying Circus Internet Operations, decided to "
 "establish an Information Security Management System (ISMS) according to "
 "the international standard ISO/IEC 27001."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:9
+#: ../../../src/reference/security/policy.md:11
 msgid ""
 "This ISMS policy represents the basis of the organisational ISMS, "
 "defining the elementary goals, strategies, and the framework of the ISMS."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:12
+#: ../../../src/reference/security/policy.md:13
 msgid "Objective"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:14
+#: ../../../src/reference/security/policy.md:15
 msgid ""
 "We mainly operate in the area of the managed hosting of critical business"
 " applications."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:16
+#: ../../../src/reference/security/policy.md:17
 msgid "Information security is crucial for our economic viability. The ISMS"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:18
+#: ../../../src/reference/security/policy.md:19
 msgid ""
 "ensures information is secured in relation to the required protection "
 "level"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:19
+#: ../../../src/reference/security/policy.md:20
 msgid "helps us to avoid violating information security,"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:20
+#: ../../../src/reference/security/policy.md:21
 msgid "and thus protect our customers and ourselves from economical damage."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:22
+#: ../../../src/reference/security/policy.md:23
 msgid ""
 "The targeted security level represents the baseline for a risk-oriented "
 "and economically appropriate procedure. Internal requirements (company "
@@ -75,14 +75,14 @@ msgid ""
 "regulatory obligations) are duly considered."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:24
+#: ../../../src/reference/security/policy.md:25
 msgid ""
 "To reach the objective and to take on overall responsibility the "
 "management of FCIO establishes an ISMS, an information security "
 "organisation, and ensures sufficient resources."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:26
+#: ../../../src/reference/security/policy.md:27
 msgid ""
 "This ISMS policy defines the management’s mandate towards the information"
 " security organisation to plan, implement, control, and continually "
@@ -90,11 +90,11 @@ msgid ""
 "external requirements."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:29
+#: ../../../src/reference/security/policy.md:29
 msgid "Goals and Principles of Information Security"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:31
+#: ../../../src/reference/security/policy.md:31
 msgid ""
 "Information security at FCIO plays a significant role to accomplish the "
 "business objectives. There must be appropriate safeguards to secure the "
@@ -102,83 +102,92 @@ msgid ""
 "information. This will help us to:"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:33
+#: ../../../src/reference/security/policy.md:33
 msgid "ensure safety of operation,"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:34
+#: ../../../src/reference/security/policy.md:34
 msgid "avoid unacceptable economical damage to us and our customers,"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:35
+#: ../../../src/reference/security/policy.md:35
 msgid "comply with legal provisions, regulatory requirements, and"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:36
+#: ../../../src/reference/security/policy.md:36
 msgid "comply with unit specific policies, business directives and procedures."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:38
+#: ../../../src/reference/security/policy.md:38
 msgid "This leads to the following goals regarding information security:"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:40
+#: ../../../src/reference/security/policy.md:40
 msgid ""
 "Ensure that information security is managed at an adequate level of "
 "maturity."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:41
+#: ../../../src/reference/security/policy.md:41
 msgid ""
 "Ensure that all significant risks are identified, evaluated, and reduced "
 "to an acceptable level – taking into account the entire value chain and "
 "life cycle of information and its associated resources."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:42
+#: ../../../src/reference/security/policy.md:42
 msgid ""
 "Engage staff and ensure that they follow specific policies, business "
 "directives, and procedures for information security."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:43
+#: ../../../src/reference/security/policy.md:43
 msgid ""
 "Ensure that service providers and partner companies follow relevant "
 "requirements out of specified policies, business directives, and "
 "procedures for information security."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:45
+#: ../../../src/reference/security/policy.md:45
 msgid ""
 "The commitment to accomplish the above goals is to be carried forward "
 "into practice through the following key points:"
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:47
+#: ../../../src/reference/security/policy.md:47
 msgid ""
 "The management assumes personal responsibility for information security "
 "and demonstrates active leadership."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:48
+#: ../../../src/reference/security/policy.md:48
 msgid "We establish an ISMS which complies to ISO/IEC 27001."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:49
+#: ../../../src/reference/security/policy.md:49
 msgid ""
 "There is open, transparent exchange with customers, partner companies, "
 "and service providers regarding information security."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:50
+#: ../../../src/reference/security/policy.md:50
 msgid ""
 "Staff is appropriately educated, trained, and informed to follow defined "
 "policies, business directives, and procedures for information security."
 msgstr ""
 
-#: ../../src/reference/security/policy.rst:51
+#: ../../../src/reference/security/policy.md:51
 msgid ""
 "Trends, developments, upcoming threats in information security are "
 "actively observed and assessed with regard to their relevance to us."
 msgstr ""
+
+#: ../../../src/reference/security/policy.md:52
+msgid ""
+"Management defines specific ISMS goals each year which are mapped to the "
+"general information security goals."
+msgstr ""
+
+#~ msgid "This documents the ISMS Policy, as released on 2020-08-03"
+#~ msgstr ""
 

@@ -9,73 +9,108 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/redis.rst:6
-#: ../../src/guide/platform_gentoo/redis.rst:15
+#: ../../../src/guide/platform_gentoo/redis.md:7
+#: ../../../src/guide/platform_gentoo/redis.md:14
 msgid "Redis"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:8
+#: ../../../src/guide/platform_gentoo/redis.md:9
 msgid ""
-"Runs a `Redis <http://redis.io>`_ database server. The server listens on "
+"Runs a [Redis](http://redis.io) database server. The server listens on "
 "the *srv* interface on port 6379."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:13
+#: ../../../src/guide/platform_gentoo/redis.md:12
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:19
+#: ../../../src/guide/platform_gentoo/redis.md:16
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:21
+#: ../../../src/guide/platform_gentoo/redis.md:18
 msgid ""
 "The Redis configuration is fully managed and located in "
-":file:`/etc/redis.conf` and :file:`/etc/conf.d/redis`. Currently, the "
+"{file}`/etc/redis.conf` and {file}`/etc/conf.d/redis`. Currently, the "
 "configuration is mostly as provided by the upstream defaults."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:25
+#: ../../../src/guide/platform_gentoo/redis.md:22
 msgid ""
 "The authentication password is automatically generated upon installation "
 "and can be read by service users. It can be found in "
-":file:`/etc/redis.conf` by searching for :command:`requirepass`."
+"{file}`/etc/redis.conf` by searching for {command}`requirepass`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:31
+#: ../../../src/guide/platform_gentoo/redis.md:26
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:33
+#: ../../../src/guide/platform_gentoo/redis.md:28
 msgid ""
 "Interaction with the server happens only in-band using the Redis "
 "commands. Please make sure to authenticate yourself by sending the "
-":command:`AUTH` command followed by the authentication password before "
+"{command}`AUTH` command followed by the authentication password before "
 "sending any other commands."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:39
+#: ../../../src/guide/platform_gentoo/redis.md:32
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:41
+#: ../../../src/guide/platform_gentoo/redis.md:34
 msgid "We monitor by default:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:43
-msgid "whether exactly 1 :command:`redis-server` process is running"
+#: ../../../src/guide/platform_gentoo/redis.md:36
+msgid "whether exactly 1 {command}`redis-server` process is running"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/redis.rst:44
+#: ../../../src/guide/platform_gentoo/redis.md:37
 msgid "whether the TCP port is reachable"
 msgstr ""
+
+#~ msgid ""
+#~ "Runs a `Redis <http://redis.io>`_ database "
+#~ "server. The server listens on the "
+#~ "*srv* interface on port 6379."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Redis configuration is fully managed"
+#~ " and located in :file:`/etc/redis.conf` and"
+#~ " :file:`/etc/conf.d/redis`. Currently, the "
+#~ "configuration is mostly as provided by"
+#~ " the upstream defaults."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The authentication password is automatically"
+#~ " generated upon installation and can "
+#~ "be read by service users. It can"
+#~ " be found in :file:`/etc/redis.conf` by "
+#~ "searching for :command:`requirepass`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Interaction with the server happens only"
+#~ " in-band using the Redis commands."
+#~ " Please make sure to authenticate "
+#~ "yourself by sending the :command:`AUTH` "
+#~ "command followed by the authentication "
+#~ "password before sending any other "
+#~ "commands."
+#~ msgstr ""
+
+#~ msgid "whether exactly 1 :command:`redis-server` process is running"
+#~ msgstr ""
 

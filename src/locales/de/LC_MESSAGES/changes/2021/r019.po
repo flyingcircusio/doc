@@ -9,101 +9,121 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r019.rst:4
+#: ../../../src/changes/2021/r019.md:5
 msgid "Release 2021_019 (2021-05-31)"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:7
+#: ../../../src/changes/2021/r019.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:9
+#: ../../../src/changes/2021/r019.md:9
 msgid ""
-"[NixOS 20.09] VMs will schedule a reboot to activate the new kernel "
+"\\[NixOS 20.09\\] VMs will schedule a reboot to activate the new kernel "
 "version."
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:12
+#: ../../../src/changes/2021/r019.md:11
 msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:14
+#: ../../../src/changes/2021/r019.md:13
 msgid ""
 "The new platform version 21.05 is ready for dev/staging. First production"
 " release is planned for 2021_020."
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:19
+#: ../../../src/changes/2021/r019.md:16
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:21
+#: ../../../src/changes/2021/r019.md:18
 msgid ""
 "Merge upstream NixOS changes that include security fixes and other "
 "updates (#PL-129839):"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:23
+#: ../../../src/changes/2021/r019.md:20
 msgid "redis: 6.0.11 -> 6.0.13"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:24
+#: ../../../src/changes/2021/r019.md:21
 msgid "imagemagick: 7.0.11-12 -> 7.0.11-13"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:25
+#: ../../../src/changes/2021/r019.md:22
 msgid "imagemagick6: 6.9.12.8 -> 6.9.12-12"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:26
+#: ../../../src/changes/2021/r019.md:23
 msgid "grafana: 7.5.6 -> 7.5.7"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:27
+#: ../../../src/changes/2021/r019.md:24
 msgid "xorg.libX11: patch CVE-2021-31535"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:28
+#: ../../../src/changes/2021/r019.md:25
 msgid ""
 "prometheus: fix open redirect vulnerability on /new endpoint "
 "(CVE-2021-29622)"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:29
+#: ../../../src/changes/2021/r019.md:26
 msgid "linux: 5.4.114 -> 5.4.119"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:30
+#: ../../../src/changes/2021/r019.md:28
 msgid ""
 "Jitsi: update components including a new UI, enable WebAssembly "
 "optimizations which reduce client load significantly, add recording and "
 "live streaming support via Jibri (#PL-129794)."
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:32
+#: ../../../src/changes/2021/r019.md:31
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/91207/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/91207/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:36
+#: ../../../src/changes/2021/r019.md:33
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r019.rst:38
+#: ../../../src/changes/2021/r019.md:35
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_018/20.09...7822e5e21b712f8a5e8b1671895b9265adfec458>`_,"
-" `nixpkgs/upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/e9de7f2ce45c58127fe27db9617d4de96e7d49b5...d31f3c6c5154f5574979e3e1d6230ebd50733761>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_018/20.09...7822e5e21b712f8a5e8b1671895b9265adfec458),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e9de7f2ce45c58127fe27db9617d4de96e7d49b5...d31f3c6c5154f5574979e3e1d6230ebd50733761)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] VMs will schedule a "
+#~ "reboot to activate the new kernel "
+#~ "version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/91207/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_018/20.09...7822e5e21b712f8a5e8b1671895b9265adfec458>`_,"
+#~ " `nixpkgs/upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/e9de7f2ce45c58127fe27db9617d4de96e7d49b5...d31f3c6c5154f5574979e3e1d6230ebd50733761>`_"
+#~ msgstr ""
 

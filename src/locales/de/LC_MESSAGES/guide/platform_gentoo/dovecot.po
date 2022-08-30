@@ -9,90 +9,118 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:4
-#: ../../src/guide/platform_gentoo/dovecot.rst:12
+#: ../../../src/guide/platform_gentoo/dovecot.md:3
+#: ../../../src/guide/platform_gentoo/dovecot.md:9
 msgid "Dovecot"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:6
+#: ../../../src/guide/platform_gentoo/dovecot.md:5
 msgid "Provides the Dovecot IMAP/POP server to store and access emails."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:10
+#: ../../../src/guide/platform_gentoo/dovecot.md:7
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:16
+#: ../../../src/guide/platform_gentoo/dovecot.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:18
+#: ../../../src/guide/platform_gentoo/dovecot.md:13
 msgid "The managed configuration provides the following setup:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:20
+#: ../../../src/guide/platform_gentoo/dovecot.md:15
 msgid ""
 "Mails are stored in *maildir* format in "
-":file:`/srv/vmail/<domain>/<user>`."
+"{file}`/srv/vmail/<domain>/<user>`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:21
+#: ../../../src/guide/platform_gentoo/dovecot.md:16
 msgid "Access is possible via IMAP(S) and POP(S) on all interfaces."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:22
+#: ../../../src/guide/platform_gentoo/dovecot.md:17
 msgid "The SSL certificates are self-signed by default."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:26
+#: ../../../src/guide/platform_gentoo/dovecot.md:19
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:28
+#: ../../../src/guide/platform_gentoo/dovecot.md:21
 msgid ""
 "Service users may place custom configuration directives into "
-":file:`/etc/dovecot/local.conf`."
+"{file}`/etc/dovecot/local.conf`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:31
+#: ../../../src/guide/platform_gentoo/dovecot.md:24
 msgid ""
-"Service users may reload dovecot using :command:`sudo /etc/init.d/dovecot"
+"Service users may reload dovecot using {command}`sudo /etc/init.d/dovecot"
 " reload`. The init-script can be also used to restart dovcot using "
-":command:`sudo /etc/init.d/dovecot restart`."
+"{command}`sudo /etc/init.d/dovecot restart`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:35
+#: ../../../src/guide/platform_gentoo/dovecot.md:28
 msgid ""
-"A limited set of :manpage:`doveadm(1)` subcommands is available to users "
-"with `sudo-srv` permission. Examples::"
+"A limited set of {manpage}`doveadm(1)` subcommands is available to users "
+"with `sudo-srv` permission. Examples:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:43
+#: ../../../src/guide/platform_gentoo/dovecot.md:37
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:45
+#: ../../../src/guide/platform_gentoo/dovecot.md:39
 msgid "Dovecot processes running"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:46
+#: ../../../src/guide/platform_gentoo/dovecot.md:40
 msgid "IMAP(S) port reachable and responsive"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:47
+#: ../../../src/guide/platform_gentoo/dovecot.md:41
 msgid "POP(S) port reachable and responsive"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/dovecot.rst:48
-msgid "Log checks for :file:`/var/log/mail`"
+#: ../../../src/guide/platform_gentoo/dovecot.md:42
+msgid "Log checks for {file}`/var/log/mail`"
 msgstr ""
+
+#~ msgid ""
+#~ "Mails are stored in *maildir* format "
+#~ "in :file:`/srv/vmail/<domain>/<user>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Service users may place custom "
+#~ "configuration directives into "
+#~ ":file:`/etc/dovecot/local.conf`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Service users may reload dovecot using"
+#~ " :command:`sudo /etc/init.d/dovecot reload`. The"
+#~ " init-script can be also used "
+#~ "to restart dovcot using :command:`sudo "
+#~ "/etc/init.d/dovecot restart`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A limited set of :manpage:`doveadm(1)` "
+#~ "subcommands is available to users with"
+#~ " `sudo-srv` permission. Examples::"
+#~ msgstr ""
+
+#~ msgid "Log checks for :file:`/var/log/mail`"
+#~ msgstr ""
 

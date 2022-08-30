@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r022.md:3
+msgid "Release 2022_022 (unreleased)"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:5
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:7 ../../../src/changes/2022/r022.md:11
+#: ../../../src/changes/2022/r022.md:15 ../../../src/changes/2022/r022.md:19
+#: ../../../src/changes/2022/r022.md:23 ../../../src/changes/2022/r022.md:27
+#: ../../../src/changes/2022/r022.md:31
+msgid "nothing yet"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:9
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:13
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:17
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:21
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:25
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:29
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:33
+msgid "Detailed Changes"
+msgstr ""
+

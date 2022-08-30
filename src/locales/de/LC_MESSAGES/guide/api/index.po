@@ -9,20 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/api/index.rst:8
+#: ../../../src/guide/api/index.md:8
 msgid "API"
 msgstr ""
 
-#: ../../src/guide/api/index.rst:10
+#: ../../../src/guide/api/index.md:10
 msgid ""
 "The Flying Circus provides an API that enables you to interact with our "
 "platform in a programmatic way: creating, updating, and deleting "
@@ -30,16 +30,22 @@ msgid ""
 " retrieving information about the usage of those resources platform."
 msgstr ""
 
-#: ../../src/guide/api/index.rst:17
+#: ../../../src/guide/api/index.md:16
 msgid ""
 "The API is currently under development and only available to selected "
 "customers and projects at the moment. Please be careful: accidents may "
 "happen and cause downtime or data loss."
 msgstr ""
 
-#: ../../src/guide/api/index.rst:19
+#: ../../../src/guide/api/index.md:18
 msgid ""
-"If you're interested in accessing the Flying Circus through an API, `let "
-"us know <mailto:support@flyingcircus.io>`_!"
+"If you're interested in accessing the Flying Circus through an API, [let "
+"us know](mailto:support@flyingcircus.io)!"
 msgstr ""
+
+#~ msgid ""
+#~ "If you're interested in accessing the"
+#~ " Flying Circus through an API, `let"
+#~ " us know <mailto:support@flyingcircus.io>`_!"
+#~ msgstr ""
 

@@ -9,51 +9,73 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r015.rst:4
+#: ../../../src/changes/2015/r015.md:5
 msgid "Release 2015_015 (2015-03-18)"
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:7
+#: ../../../src/changes/2015/r015.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:9
+#: ../../../src/changes/2015/r015.md:9
 msgid ""
-"Security update for `GLSA 201503-06 / ICU "
-"<https://security.gentoo.org/glsa/201503-06>`_ (#14965)."
+"Security update for [GLSA 201503-06 / "
+"ICU](https://security.gentoo.org/glsa/201503-06) (#14965)."
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:11
+#: ../../../src/changes/2015/r015.md:10
 msgid ""
-"Security update for `GLSA 201503-08 / file "
-"<https://security.gentoo.org/glsa/201503-08>`_ (#14985)."
+"Security update for [GLSA 201503-08 / "
+"file](https://security.gentoo.org/glsa/201503-08) (#14985)."
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:16
+#: ../../../src/changes/2015/r015.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:18
+#: ../../../src/changes/2015/r015.md:14
 msgid ""
-"Forget about old :file:`/etc/local/logrotate.d` directory - user-defined "
-"logrotate snippets are supposed to go to :file:`/var/spool/logrotate` "
+"Forget about old {file}`/etc/local/logrotate.d` directory - user-defined "
+"logrotate snippets are supposed to go to {file}`/var/spool/logrotate` "
 "(#14962)."
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:24
+#: ../../../src/changes/2015/r015.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r015.rst:26
-msgid "Present example logrotate configuration in :ref:`service_setup`."
+#: ../../../src/changes/2015/r015.md:20
+msgid "Present example logrotate configuration in {ref}`service_setup`."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-06 /"
+#~ " ICU <https://security.gentoo.org/glsa/201503-06>`_ "
+#~ "(#14965)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-08 /"
+#~ " file <https://security.gentoo.org/glsa/201503-08>`_ "
+#~ "(#14985)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Forget about old :file:`/etc/local/logrotate.d` "
+#~ "directory - user-defined logrotate "
+#~ "snippets are supposed to go to "
+#~ ":file:`/var/spool/logrotate` (#14962)."
+#~ msgstr ""
+
+#~ msgid "Present example logrotate configuration in :ref:`service_setup`."
+#~ msgstr ""
 

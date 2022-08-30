@@ -9,53 +9,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/reference/security/administrators.rst:4
+#: ../../../src/reference/security/administrators.md:3
 msgid "List of administrators"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:6
+#: ../../../src/reference/security/administrators.md:5
 msgid "The following people are administrators for the Flying Circus:"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:8
-#: ../../src/reference/security/administrators.rst:20
+#: ../../../src/reference/security/administrators.md:7
+#: ../../../src/reference/security/administrators.md:19
 msgid "Christian Schmidt"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:9
-#: ../../src/reference/security/administrators.rst:21
+#: ../../../src/reference/security/administrators.md:8
+#: ../../../src/reference/security/administrators.md:20
 msgid "Christian Theune"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:10
-#: ../../src/reference/security/administrators.rst:22
+#: ../../../src/reference/security/administrators.md:9
+#: ../../../src/reference/security/administrators.md:21
 msgid "Christian Zagrodnick"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:11
-#: ../../src/reference/security/administrators.rst:23
+#: ../../../src/reference/security/administrators.md:10
+#: ../../../src/reference/security/administrators.md:22
 msgid "Frank Lanitz"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:12
-#: ../../src/reference/security/administrators.rst:24
+#: ../../../src/reference/security/administrators.md:11
+msgid "Nils Möller"
+msgstr ""
+
+#: ../../../src/reference/security/administrators.md:12
+msgid "Oliver Schmidt"
+msgstr ""
+
+#: ../../../src/reference/security/administrators.md:13
+#: ../../../src/reference/security/administrators.md:23
 msgid "Tobias Stenzel"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:16
+#: ../../../src/reference/security/administrators.md:15
 msgid "List of stand-by supporters"
 msgstr ""
 
-#: ../../src/reference/security/administrators.rst:18
+#: ../../../src/reference/security/administrators.md:17
 msgid "The following people perform standby support duties:"
 msgstr ""
 

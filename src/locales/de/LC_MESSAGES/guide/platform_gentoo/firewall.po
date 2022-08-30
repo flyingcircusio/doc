@@ -9,40 +9,69 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/firewall.rst:5
+#: ../../../src/guide/platform_gentoo/firewall.md:3
 msgid "Firewall"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/firewall.rst:7
+#: ../../../src/guide/platform_gentoo/firewall.md:5
 msgid ""
 "Service users are allowed to add custom firewall rules. To do so place "
 "configuration files containing iptables rules in the directory "
-":file:`local` at :file:`/var/lib/iptables/rules.d/filter` or "
-":file:`/var/lib/ip6tables/rules.d/filter` according the appropriate "
+"{file}`local` at {file}`/var/lib/iptables/rules.d/filter` or "
+"{file}`/var/lib/ip6tables/rules.d/filter` according the appropriate "
 "iptables chain. The filenames have to start with at least two digits and "
 "are joined together by ascending numbers."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/firewall.rst:14
+#: ../../../src/guide/platform_gentoo/firewall.md:12
 msgid ""
 "For example, to add a ruleset for outgoing IPv6 connections, place a "
 "configuration file at "
-":file:`/var/lib/ip6tables/rules.d/filter/OUTPUT/local/60custom`"
+"{file}`/var/lib/ip6tables/rules.d/filter/OUTPUT/local/60custom`"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/firewall.rst:18
+#: ../../../src/guide/platform_gentoo/firewall.md:16
 msgid ""
 "Altered configuration files are activated on a regular basis by a cron "
 "job every 10 minutes. Alternatively, service users (or those with `sudo-"
-"srv` permissions) can trigger an update run manually::"
+"srv` permissions) can trigger an update run manually:"
 msgstr ""
+
+#~ msgid ""
+#~ "Service users are allowed to add "
+#~ "custom firewall rules. To do so "
+#~ "place configuration files containing iptables"
+#~ " rules in the directory :file:`local` "
+#~ "at :file:`/var/lib/iptables/rules.d/filter` or "
+#~ ":file:`/var/lib/ip6tables/rules.d/filter` according the"
+#~ " appropriate iptables chain. The filenames"
+#~ " have to start with at least "
+#~ "two digits and are joined together "
+#~ "by ascending numbers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, to add a ruleset for"
+#~ " outgoing IPv6 connections, place a "
+#~ "configuration file at "
+#~ ":file:`/var/lib/ip6tables/rules.d/filter/OUTPUT/local/60custom`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Altered configuration files are activated "
+#~ "on a regular basis by a cron "
+#~ "job every 10 minutes. Alternatively, "
+#~ "service users (or those with `sudo-"
+#~ "srv` permissions) can trigger an update"
+#~ " run manually::"
+#~ msgstr ""
 

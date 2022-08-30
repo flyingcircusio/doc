@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2021/r031.md:5
+msgid "Release 2021_031 (2021-09-27)"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:9
+msgid ""
+"\\[NixOS 21.05\\] Most services will be restarted to a core dependency "
+"change. VMs will schedule a reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:12
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:14
+msgid ""
+"Webgateway docs: document Nix as the recommended configuration method for"
+" Nginx. An example NixOS module for that can be found at "
+"{file}`/etc/local/nixos/nginx.nix.example` (#PL-129629)."
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:17
+msgid ""
+"Mysql/Percona: make *xtrabackup* available with a version matching the "
+"running server. {command}`xtrabackup` can be run by service users with "
+"sudo now (#PL-129826)."
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:20
+msgid ""
+"Merge upstream NixOS changes that include security fixes and other "
+"updates (#PL-130108):"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:22
+msgid ""
+"apacheHttpd: 2.4.48 -> 2.4.49 (CVE-2021-33193, CVE-2021-34798, "
+"CVE-2021-36160, CVE-2021-39275, CVE-2021-40438)"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:24
+msgid "element-web: 1.8.2 -> 1.8.5"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:25
+msgid "github-runner: 2.279.0 -> 2.282.0"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:26
+msgid "glibc: 2.32-48 2.32-54"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:27
+msgid "go_1_16: 1.16.7 -> 1.16.8"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:28
+msgid "imagemagick: 7.1.0-5 -> 7.1.0-6"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:29
+msgid "linux: 5.10.60 -> 5.10.67"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:30
+msgid "matrix-synapse: 1.42.0 -> 1.43.0"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:31
+msgid "nss: 3.68 -> 3.70"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:32
+msgid "nodejs: 12.22.4 -> 12.22.6, 14.17.4 -> 14.17.6, 16.4.1 -> 16.8.0"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:33
+msgid "openssl: 1.1.1k -> 1.1.1l"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:34
+msgid "php74: 7.4.21 -> 7.4.23"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:35
+msgid "postgresql_10: 10.17 -> 10.18"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:36
+msgid "postgresql_11: 11.12 -> 11.13"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:37
+msgid "postgresql_12: 12.7 -> 12.8"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:38
+msgid "postgresql_13: 13.3 -> 13.4"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:39
+msgid "postgresql_9_6: 9.6.22 -> 9.6.23"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:40
+msgid ""
+"python: 3.8.9 -> 3.8.11, 3.6.13 -> 3.6.14, 3.7.10 -> 3.7.11, 3.9.4 -> "
+"3.9.6"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:41
+msgid "rPackages.RMySQL: fix package"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:42
+msgid "wget: 1.21.1 -> 1.21.2 (CVE-2021-31879)"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:43
+msgid "wireguard-tools: 1.0.20210424 -> 1.0.20210914"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:45
+msgid ""
+"Jitsi: update *jitsi-videobridge*, *jicofo* and *jitsi-meet* to latest "
+"stable versions. End-to-end encryption works with these versions now "
+"(#PL-130110)."
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:48
+msgid ""
+"Provide a basic reusable wireguard installation and always generate one "
+"key pair with appropriate permissions (#PL-130025)."
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:51
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/103566/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:53
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2021/r031.md:55
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_030/21.05...8b3d92fc2ef4a512a6399447333f03d95cdc4acd),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/74d017edb6717ad76d38edc02ad3210d4ad66b96...83413f47809790e4ca012e314e7782adeae36cf2)"
+msgstr ""
+

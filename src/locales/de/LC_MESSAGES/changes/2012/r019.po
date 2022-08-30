@@ -9,136 +9,176 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r019.rst:4
+#: ../../../src/changes/2012/r019.md:5
 msgid "Release 2012-06-28"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:7
+#: ../../../src/changes/2012/r019.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:9
+#: ../../../src/changes/2012/r019.md:9
 msgid ""
-"Security update for net-libs/gnutls: `GLSA 201206-18 / GnuTLS "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-18.xml>`_ (#11063)."
+"Security update for net-libs/gnutls: [GLSA 201206-18 / "
+"GnuTLS](http://www.gentoo.org/security/en/glsa/glsa-201206-18.xml) "
+"(#11063)."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:11
+#: ../../../src/changes/2012/r019.md:11
 msgid ""
-"Security update for x11-libs/gdk-pixbuf: `GLSA 201206-20 / gdk-pixbuf "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-20.xml>`_ (#11064)."
+"Security update for x11-libs/gdk-pixbuf: [GLSA 201206-20 / gdk-"
+"pixbuf](http://www.gentoo.org/security/en/glsa/glsa-201206-20.xml) "
+"(#11064)."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:13
+#: ../../../src/changes/2012/r019.md:13
 msgid ""
-"Security update for www-servers/tomcat: `GLSA 201206-24 / apache tomcat "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-24.xml>`_ (#11067)."
+"Security update for www-servers/tomcat: [GLSA 201206-24 / apache "
+"tomcat](http://www.gentoo.org/security/en/glsa/glsa-201206-24.xml) "
+"(#11067)."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:15
+#: ../../../src/changes/2012/r019.md:15
 msgid ""
-"Security update for www-servers/apache: `GLSA 201206-25 / apache "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-25.xml>`_ (#11068)."
+"Security update for www-servers/apache: [GLSA 201206-25 / "
+"apache](http://www.gentoo.org/security/en/glsa/glsa-201206-25.xml) "
+"(#11068)."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:17
+#: ../../../src/changes/2012/r019.md:17
 msgid ""
-"Security update for app-text/texlive-core `GLSA 201206-28 / TeX Live "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-28.xml>`_ (#11088)."
+"Security update for app-text/texlive-core [GLSA 201206-28 / TeX "
+"Live](http://www.gentoo.org/security/en/glsa/glsa-201206-28.xml) "
+"(#11088)."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:19
+#: ../../../src/changes/2012/r019.md:19
 msgid ""
 "Upgrade additional packages to meet updated version dependencies "
 "introduced by security updates metioned above:"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:22
+#: ../../../src/changes/2012/r019.md:22
 msgid "app-text/dvipsk-5.991_p20110705"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:23
+#: ../../../src/changes/2012/r019.md:23
 msgid "app-text/poppler-0.18.4"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:24
+#: ../../../src/changes/2012/r019.md:24
 msgid "app-text/ps2pkm-1.5_p20110705"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:25
+#: ../../../src/changes/2012/r019.md:25
 msgid "app-text/texlive-core-2011-r6"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:26
+#: ../../../src/changes/2012/r019.md:26
 msgid "dev-libs/boost-1.48.0-r2"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:27
+#: ../../../src/changes/2012/r019.md:27
 msgid "dev-libs/kpathsea-6.0.1_p20110705"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:28
+#: ../../../src/changes/2012/r019.md:28
 msgid "dev-tex/bibtexu-3.71_p20110705"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:29
+#: ../../../src/changes/2012/r019.md:29
 msgid "dev-texlive/texlive-basic-2011-r1"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:30
+#: ../../../src/changes/2012/r019.md:30
 msgid "dev-texlive/texlive-documentation-base-2011"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:31
+#: ../../../src/changes/2012/r019.md:31
 msgid "dev-texlive/texlive-latex-2011"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:32
+#: ../../../src/changes/2012/r019.md:32
 msgid "dev-tex/luatex-0.70.1"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:33
+#: ../../../src/changes/2012/r019.md:33
 msgid "dev-util/boost-build-1.48.0-r1"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:34
+#: ../../../src/changes/2012/r019.md:34
 msgid "sci-geosciences/mapnik-2.0.1"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:35
+#: ../../../src/changes/2012/r019.md:35
 msgid "sci-libs/gdal-1.8.1"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:36
+#: ../../../src/changes/2012/r019.md:36
 msgid "sci-libs/libgeotiff-1.4.0"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:38
+#: ../../../src/changes/2012/r019.md:38
 msgid ""
 "PostgreSQL restart may be necessary due to changed shared object "
 "dependencies."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:42
+#: ../../../src/changes/2012/r019.md:40
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:44
+#: ../../../src/changes/2012/r019.md:42
 msgid "Fix bug with apache2 crashing during upgrades."
 msgstr ""
 
-#: ../../src/changes/2012/r019.rst:45
+#: ../../../src/changes/2012/r019.md:43
 msgid ""
 "Fix bug that caused failed binary package rebuilds not to be detected "
 "(#11065)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for net-libs/gnutls: "
+#~ "`GLSA 201206-18 / GnuTLS "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-18.xml>`_ "
+#~ "(#11063)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for x11-libs/gdk-pixbuf: "
+#~ "`GLSA 201206-20 / gdk-pixbuf "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-20.xml>`_ "
+#~ "(#11064)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for www-servers/tomcat: "
+#~ "`GLSA 201206-24 / apache tomcat "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-24.xml>`_ "
+#~ "(#11067)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for www-servers/apache: "
+#~ "`GLSA 201206-25 / apache "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-25.xml>`_ "
+#~ "(#11068)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for app-text/texlive-"
+#~ "core `GLSA 201206-28 / TeX Live "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-28.xml>`_ "
+#~ "(#11088)."
+#~ msgstr ""
 

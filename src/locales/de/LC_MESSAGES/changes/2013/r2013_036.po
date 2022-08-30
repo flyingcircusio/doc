@@ -9,49 +9,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2013/r2013_036.rst:4
+#: ../../../src/changes/2013/r2013_036.md:5
 msgid "Release 2013_036 (2013-11-20)"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:7
+#: ../../../src/changes/2013/r2013_036.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:9
+#: ../../../src/changes/2013/r2013_036.md:9
 msgid ""
-"Security update for `GLSA 201311-10 / graphicsmagick "
-"<http://www.gentoo.org/security/en/glsa/glsa-201311-10.xml>`_ (#13036)."
+"Security update for [GLSA 201311-10 / "
+"graphicsmagick](http://www.gentoo.org/security/en/glsa/glsa-201311-10.xml)"
+" (#13036)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:14
+#: ../../../src/changes/2013/r2013_036.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:16
+#: ../../../src/changes/2013/r2013_036.md:13
 msgid ""
 "Start to deploy the Ceph storage system in production. We will move VMs "
 "one after another. The individual technical contacts will be provided "
 "with details (#12942)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:19
+#: ../../../src/changes/2013/r2013_036.md:16
 msgid "Ceph/backup integration (#12789)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:20
+#: ../../../src/changes/2013/r2013_036.md:17
 msgid "Improved robustness of VM startup/shutdown in case of locking conflicts."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_036.rst:21
+#: ../../../src/changes/2013/r2013_036.md:18
 msgid "Harden Apache default configuration agains SSL CRIME attacks (#12935)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201311-10 /"
+#~ " graphicsmagick "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201311-10.xml>`_ "
+#~ "(#13036)."
+#~ msgstr ""
 

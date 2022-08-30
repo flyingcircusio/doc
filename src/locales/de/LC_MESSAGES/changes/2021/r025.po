@@ -9,146 +9,182 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r025.rst:4
+#: ../../../src/changes/2021/r025.md:5
 msgid "Release 2021_025 (2021-07-26)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:7
+#: ../../../src/changes/2021/r025.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:9
+#: ../../../src/changes/2021/r025.md:9
 msgid ""
-"[NixOS 21.05] Most services will be restarted due to a glibc update. VMs "
-"will schedule a reboot to activate the new kernel version."
+"\\[NixOS 21.05\\] Most services will be restarted due to a glibc update. "
+"VMs will schedule a reboot to activate the new kernel version."
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:14
+#: ../../../src/changes/2021/r025.md:12
 msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:16
-msgid "Fix :command:`nix-env -qa` (#PL-129888)."
+#: ../../../src/changes/2021/r025.md:14
+msgid "Fix {command}`nix-env -qa` (#PL-129888)."
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:17
+#: ../../../src/changes/2021/r025.md:16
 msgid ""
 "Mailserver: make autoconfig virtual hosts in Nginx listen only on ethfe "
 "instead of all interfaces (#PL-129209)."
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:19 ../../src/changes/2021/r025.rst:44
+#: ../../../src/changes/2021/r025.md:19 ../../../src/changes/2021/r025.md:44
 msgid ""
 "Add a new infrastructure module to support running development containers"
 " using the Flying Circus platform."
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:21
+#: ../../../src/changes/2021/r025.md:22
 msgid ""
 "Merge upstream NixOS changes that include security fixes and other "
 "updates (#PL-129998):"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:23
+#: ../../../src/changes/2021/r025.md:24
 msgid "glibc: 2.32-46 -> 2.32-48 (CVE-2021-33574)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:24
+#: ../../../src/changes/2021/r025.md:25
 msgid "go_1_15: 1.15.13 -> 1.15.14"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:25
+#: ../../../src/changes/2021/r025.md:26
 msgid "go_1_16: 1.16.4 -> 1.16.6"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:26
+#: ../../../src/changes/2021/r025.md:27
 msgid "grafana: 7.5.9 -> 7.5.10"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:27
+#: ../../../src/changes/2021/r025.md:28
 msgid "imagemagick: 7.0.11-13 -> 7.1.0-2"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:28
+#: ../../../src/changes/2021/r025.md:29
 msgid "linux: 5.10.45 -> 5.10.50"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:29
+#: ../../../src/changes/2021/r025.md:30
 msgid "matrix-synapse: 1.37.1 -> 1.38.0"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:30
+#: ../../../src/changes/2021/r025.md:31
 msgid "nodejs-12_x: 12.22.1 -> 12.22.2"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:31
+#: ../../../src/changes/2021/r025.md:32
 msgid "nodejs-14_x: 14.17.0 -> 14.17.2"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:32
+#: ../../../src/changes/2021/r025.md:33
 msgid "nodejs-15_x: remove expression"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:33
+#: ../../../src/changes/2021/r025.md:34
 msgid "nodejs-16_x: 16.2.0 -> 16.4.1"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:34
+#: ../../../src/changes/2021/r025.md:35
 msgid "php73: 7.3.28 -> 7.3.29 (CVE-2021-21705, CVE-2021-21704)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:35
+#: ../../../src/changes/2021/r025.md:36
 msgid "php74: 7.4.20 -> 7.4.21 (CVE-2021-21705, CVE-2021-21704)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:36
+#: ../../../src/changes/2021/r025.md:37
 msgid "php80: 8.0.7 -> 8.0.8 (CVE-2021-21705, CVE-2021-21704)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:37
+#: ../../../src/changes/2021/r025.md:38
 msgid "tcpdump: 4.99.0 -> 4.99.1"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:39
+#: ../../../src/changes/2021/r025.md:40
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/98691/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/98691/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:42
+#: ../../../src/changes/2021/r025.md:42
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:46
+#: ../../../src/changes/2021/r025.md:46
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/98375/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/98375/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:50
+#: ../../../src/changes/2021/r025.md:48
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:52
+#: ../../../src/changes/2021/r025.md:50
 msgid ""
-"NixOS 21.05: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_024/21.05...7f4938a7ddaf89c321cbfc80229493e2bebdb993>`_,"
-" `upstream changes "
-"<https://github.com/NixOS/nixpkgs/compare/21b696caf392ad6fa513caf3327d0aa0430ffb72...63ee5cd99a2e193d5e4c879feb9683ddec23fa03>`_"
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_024/21.05...7f4938a7ddaf89c321cbfc80229493e2bebdb993),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/21b696caf392ad6fa513caf3327d0aa0430ffb72...63ee5cd99a2e193d5e4c879feb9683ddec23fa03)"
 msgstr ""
 
-#: ../../src/changes/2021/r025.rst:54
+#: ../../../src/changes/2021/r025.md:52
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_023/20.09...5eae01fff61bd57c0dbf1c8f1c78e0ec8d17f86c>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_023/20.09...5eae01fff61bd57c0dbf1c8f1c78e0ec8d17f86c)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 21.05] Most services will be "
+#~ "restarted due to a glibc update. "
+#~ "VMs will schedule a reboot to "
+#~ "activate the new kernel version."
+#~ msgstr ""
+
+#~ msgid "Fix :command:`nix-env -qa` (#PL-129888)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/98691/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/98375/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 21.05: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_024/21.05...7f4938a7ddaf89c321cbfc80229493e2bebdb993>`_,"
+#~ " `upstream changes "
+#~ "<https://github.com/NixOS/nixpkgs/compare/21b696caf392ad6fa513caf3327d0aa0430ffb72...63ee5cd99a2e193d5e4c879feb9683ddec23fa03>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_023/20.09...5eae01fff61bd57c0dbf1c8f1c78e0ec8d17f86c>`_"
+#~ msgstr ""
 

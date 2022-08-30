@@ -9,55 +9,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r022.rst:4
+#: ../../../src/changes/2020/r022.md:5
 msgid "Release 2020_022 (2020-07-27)"
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:7
+#: ../../../src/changes/2020/r022.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:9
+#: ../../../src/changes/2020/r022.md:9
 msgid ""
-"[NixOS 19.03] Almost all services will be restarted due to the pcre "
+"\\[NixOS 19.03\\] Almost all services will be restarted due to the pcre "
 "security update."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:13
+#: ../../../src/changes/2020/r022.md:11
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:15
+#: ../../../src/changes/2020/r022.md:13
 msgid ""
 "Fix problems with future platform release updates (stuck 'next' channel) "
 "if the last update has failed (#110203)."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:17
+#: ../../../src/changes/2020/r022.md:16
 msgid "Security updates: adns 1.5.1 -> 1.5.2 and pcre 8.42 -> 8.44."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:18
+#: ../../../src/changes/2020/r022.md:18
 msgid "Security updates: sysstat 12.1.2 -> 12.2.0 and tcpdump: 4.9.2 -> 4.9.3."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:19
+#: ../../../src/changes/2020/r022.md:20
 msgid ""
 "Provide PostgreSQL 12 role, remove unused 9.5 role. The new role for 12 "
-"uses :file:`/run/postgresql` as socket dir and replaces the deprecated "
+"uses {file}`/run/postgresql` as socket dir and replaces the deprecated "
 "**temporal_tables** extension with the **periods** extension (#126897)."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:22
+#: ../../../src/changes/2020/r022.md:24
 msgid ""
 "Reduce swappiness to 1. Our overall experience shows that applications in"
 " our environment really want to stay in RAM. The perfomance penalty of "
@@ -67,36 +67,51 @@ msgid ""
 "become critical in undue situations (#127498)."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:27
+#: ../../../src/changes/2020/r022.md:30
 msgid ""
 "Add a new role \"LAMP\" to provide an easy-to-use and managed version of "
 "an Apache server (not intended to run on the frontend network) with PHP "
 "that only needs to be pointed at a service-user's docroot."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:31
+#: ../../../src/changes/2020/r022.md:34
 msgid ""
 "Also includes support for the Tideways APM service, only the API key "
 "needs to be added (#126611)."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:37
+#: ../../../src/changes/2020/r022.md:36
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:39
+#: ../../../src/changes/2020/r022.md:38
 msgid "Separate logging documentation per platform."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:40
+#: ../../../src/changes/2020/r022.md:39
 msgid "Update Kubernetes for version 1.18."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:41
+#: ../../../src/changes/2020/r022.md:40
 msgid "Add docker, elasticsearch and kibana role documentation for NixOS 19.03."
 msgstr ""
 
-#: ../../src/changes/2020/r022.rst:42
+#: ../../../src/changes/2020/r022.md:41
 msgid "Mailserver: Example for users.json"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 19.03] Almost all services will"
+#~ " be restarted due to the pcre "
+#~ "security update."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Provide PostgreSQL 12 role, remove "
+#~ "unused 9.5 role. The new role for"
+#~ " 12 uses :file:`/run/postgresql` as socket"
+#~ " dir and replaces the deprecated "
+#~ "**temporal_tables** extension with the "
+#~ "**periods** extension (#126897)."
+#~ msgstr ""
 

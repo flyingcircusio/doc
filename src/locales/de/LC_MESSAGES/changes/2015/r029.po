@@ -9,44 +9,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r029.rst:4
+#: ../../../src/changes/2015/r029.md:5
 msgid "Release 2015_029 (2015-06-05)"
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:7
+#: ../../../src/changes/2015/r029.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:9
+#: ../../../src/changes/2015/r029.md:9
 msgid ""
 "Provide ELK stack (Elasticsearch, Logstash, Kibana) on loghosts (#11117, "
 "#16005)."
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:10
+#: ../../../src/changes/2015/r029.md:10
 msgid ""
 "Configure logstash-forwarder automatically on all machines of a resource "
 "group if a loghost is present (#11117)."
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:12
+#: ../../../src/changes/2015/r029.md:12
 msgid "Various VM migration bugfixes (#14920, #16000)."
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:16
+#: ../../../src/changes/2015/r029.md:14
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r029.rst:18
-msgid ":ref:`gentoo-loghost` component documentation."
+#: ../../../src/changes/2015/r029.md:16
+msgid "{ref}`gentoo-loghost` component documentation."
 msgstr ""
+
+#~ msgid ":ref:`gentoo-loghost` component documentation."
+#~ msgstr ""
 

@@ -9,65 +9,73 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r050.rst:4
+#: ../../../src/changes/2015/r050.md:5
 msgid "Release 2015_050 (2015-11-11)"
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:7
+#: ../../../src/changes/2015/r050.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:9
+#: ../../../src/changes/2015/r050.md:9
 msgid ""
-"Security update for Qemu `GLSA 201510-02 "
-"<https://security.gentoo.org/glsa/201510-02>`_ (#18743)."
+"Security update for Qemu [GLSA "
+"201510-02](https://security.gentoo.org/glsa/201510-02) (#18743)."
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:11
+#: ../../../src/changes/2015/r050.md:10
 msgid "Update Ceph to fix a critical bug during PG resizing (#18497)."
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:12
+#: ../../../src/changes/2015/r050.md:11
 msgid ""
 "Update backy and fc.agent to get the newest features of backy 2.0 "
 "(#13456)."
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:16
+#: ../../../src/changes/2015/r050.md:14
 msgid ""
 "We have to reboot all VMs to bring the Qemu security update into effect. "
 "RG technical contacts will be notified individually about the reboot "
 "schedule."
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:21
+#: ../../../src/changes/2015/r050.md:18
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:23
+#: ../../../src/changes/2015/r050.md:20
 msgid "Switch all VMs to the new backup system (backy) (#13456)."
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:24
+#: ../../../src/changes/2015/r050.md:21
 msgid ""
 "Fix critical VM snapshotting bug which can cause spontaneous I/O hangs "
 "(#18917)"
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:29
+#: ../../../src/changes/2015/r050.md:24
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r050.rst:31
-msgid "Adapt RPO times in :ref:`disaster-recovery` to the new backup system."
+#: ../../../src/changes/2015/r050.md:26
+msgid "Adapt RPO times in {ref}`disaster-recovery` to the new backup system."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for Qemu `GLSA 201510-02"
+#~ " <https://security.gentoo.org/glsa/201510-02>`_ (#18743)."
+#~ msgstr ""
+
+#~ msgid "Adapt RPO times in :ref:`disaster-recovery` to the new backup system."
+#~ msgstr ""
 

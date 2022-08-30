@@ -9,42 +9,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r054.rst:4
+#: ../../../src/changes/2014/r054.md:5
 msgid "Release 2014_054 (2014-11-17)"
 msgstr ""
 
-#: ../../src/changes/2014/r054.rst:7
+#: ../../../src/changes/2014/r054.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r054.rst:9
+#: ../../../src/changes/2014/r054.md:9
 msgid ""
-"Move PostGIS: it is now in the :ref:`gis` role and does not get installed"
+"Move PostGIS: it is now in the {ref}`gis` role and does not get installed"
 " automatically with all PostgreSQL servers anymore (RT 98926)."
 msgstr ""
 
-#: ../../src/changes/2014/r054.rst:11
+#: ../../../src/changes/2014/r054.md:11
 msgid ""
-"Security update for `GLSA 2014411-05 / wget "
-"<http://www.gentoo.org/security/en/glsa/glsa-201411-05.xml>`_ (#13761)."
+"Security update for [GLSA 2014411-05 / "
+"wget](http://www.gentoo.org/security/en/glsa/glsa-201411-05.xml) "
+"(#13761)."
 msgstr ""
 
-#: ../../src/changes/2014/r054.rst:15
+#: ../../../src/changes/2014/r054.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r054.rst:17
+#: ../../../src/changes/2014/r054.md:15
 msgid ""
 "Fix VM bootstrap error that led to incomplete portage configuration on "
 "newly created VMs (RT 98924)."
 msgstr ""
+
+#~ msgid ""
+#~ "Move PostGIS: it is now in the "
+#~ ":ref:`gis` role and does not get "
+#~ "installed automatically with all PostgreSQL"
+#~ " servers anymore (RT 98926)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 2014411-05 /"
+#~ " wget "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201411-05.xml>`_ "
+#~ "(#13761)."
+#~ msgstr ""
 

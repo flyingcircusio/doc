@@ -9,49 +9,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r012.rst:4
+#: ../../../src/changes/2014/r012.md:5
 msgid "Release 2014_012 (2014-02-28)"
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:8
+#: ../../../src/changes/2014/r012.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:10
+#: ../../../src/changes/2014/r012.md:9
 msgid ""
 "Allow Hetzner to request gocept.net DNS zone transfers in preparation of "
 "hosting an external secondary authoritative DNS with them (#13016)."
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:12
+#: ../../../src/changes/2014/r012.md:11
 msgid ""
 "Provide completely separated resolver infrastructures for each location "
 "(#13016)."
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:14
+#: ../../../src/changes/2014/r012.md:13
 msgid ""
 "Enable A and AAAA records for all canonical host names (*VM*.gocept.net) "
-"See also `blog post <http://gocepthosting.blogspot.com/2014/02/ipv4-and-"
-"ipv6-addressing-now-fully.html>`_ (#12242)."
+"See also [blog post](http://gocepthosting.blogspot.com/2014/02/ipv4-and-"
+"ipv6-addressing-now-fully.html) (#12242)."
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:21
+#: ../../../src/changes/2014/r012.md:17
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r012.rst:23
+#: ../../../src/changes/2014/r012.md:19
 msgid ""
 "Provide information how to connect to our VMs in various scenarios of "
 "IPv4 and IPv6 availability."
 msgstr ""
+
+#~ msgid ""
+#~ "Enable A and AAAA records for all"
+#~ " canonical host names (*VM*.gocept.net) See"
+#~ " also `blog post "
+#~ "<http://gocepthosting.blogspot.com/2014/02/ipv4-and-ipv6"
+#~ "-addressing-now-fully.html>`_ (#12242)."
+#~ msgstr ""
 

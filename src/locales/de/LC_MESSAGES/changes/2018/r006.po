@@ -9,92 +9,113 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r006.rst:4
+#: ../../../src/changes/2018/r006.md:5
 msgid "Release 2018_006 (2018-02-27)"
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:7
+#: ../../../src/changes/2018/r006.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:9
-msgid "[NixOS] Various services that link against OpenSSL will be restarted."
+#: ../../../src/changes/2018/r006.md:9
+msgid "\\[NixOS\\] Various services that link against OpenSSL will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:10
-msgid "[NixOS] OpenSSH servers will be restarted."
+#: ../../../src/changes/2018/r006.md:10
+msgid "\\[NixOS\\] OpenSSH servers will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:11
+#: ../../../src/changes/2018/r006.md:11
 msgid ""
-"[NixOS] OpenSSH has widely updated their cryptographic policies and "
+"\\[NixOS\\] OpenSSH has widely updated their cryptographic policies and "
 "disabled various (very) outdated protocols like SSHv1. For details check "
-"https://www.openssh.com/releasenotes.html for incompatible changes "
+"<https://www.openssh.com/releasenotes.html> for incompatible changes "
 "between version 6.9 and 7.5."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:15
-msgid "[NixOS] InfluxDB services will be restarted."
+#: ../../../src/changes/2018/r006.md:15
+msgid "\\[NixOS\\] InfluxDB services will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:16
-msgid "[Gentoo] Apache services will be restarted."
+#: ../../../src/changes/2018/r006.md:16
+msgid "\\[Gentoo\\] Apache services will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:20
+#: ../../../src/changes/2018/r006.md:18
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:22
+#: ../../../src/changes/2018/r006.md:20
 msgid ""
 "Enable installation of strongSwan 5.6 IPSec server (assistance from "
 "support needed) (#29822)."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:24
+#: ../../../src/changes/2018/r006.md:22
 msgid "Fix Sensu API authentication."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:25
+#: ../../../src/changes/2018/r006.md:23
 msgid "Security update OpenSSL: -> 1.0.1g, -> 1.0.2n (#29247)."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:26
+#: ../../../src/changes/2018/r006.md:24
 msgid "Update OpenSSH: 6.9 -> 7.5 (#29247)."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:27
+#: ../../../src/changes/2018/r006.md:25
 msgid "Update for cmake due to NixOS 17.09 compatibility issues."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:28
+#: ../../../src/changes/2018/r006.md:26
 msgid "Configure InfluxDBs' systemd unit to automatically restart after crashes."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:29
+#: ../../../src/changes/2018/r006.md:27
 msgid "Improve outside connectivity check to reduce false positives."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:33
+#: ../../../src/changes/2018/r006.md:29
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:35
+#: ../../../src/changes/2018/r006.md:31
 msgid "Use *copytruncate* for logrotate on MySQL (#29764)."
 msgstr ""
 
-#: ../../src/changes/2018/r006.rst:36
+#: ../../../src/changes/2018/r006.md:32
 msgid ""
 "Security update for Apache 2.4 (GLSA 201701-36; GLSA 201710-32; #25501; "
 "#28953)"
 msgstr ""
+
+#~ msgid "[NixOS] Various services that link against OpenSSL will be restarted."
+#~ msgstr ""
+
+#~ msgid "[NixOS] OpenSSH servers will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] OpenSSH has widely updated their"
+#~ " cryptographic policies and disabled "
+#~ "various (very) outdated protocols like "
+#~ "SSHv1. For details check "
+#~ "https://www.openssh.com/releasenotes.html for incompatible"
+#~ " changes between version 6.9 and 7.5."
+#~ msgstr ""
+
+#~ msgid "[NixOS] InfluxDB services will be restarted."
+#~ msgstr ""
+
+#~ msgid "[Gentoo] Apache services will be restarted."
+#~ msgstr ""
 

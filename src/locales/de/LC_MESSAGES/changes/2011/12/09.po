@@ -9,54 +9,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2011/12/09.rst:4
+#: ../../../src/changes/2011/12/09.md:5
 msgid "Release 2011-12-09"
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:7
+#: ../../../src/changes/2011/12/09.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:9
+#: ../../../src/changes/2011/12/09.md:9
 msgid ""
 "Upgrade to Puppet 2.6. This involves PostgreSQL restarts due to changed "
 "flags (#8821)."
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:11
+#: ../../../src/changes/2011/12/09.md:11
 msgid ""
 "Allow the document conversion role (pspdf) to be applied to physical "
 "machines as well (RT 80061)."
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:13
+#: ../../../src/changes/2011/12/09.md:13
 msgid "Allow MySQL installations to be managed by service users (RT 80132)."
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:17
+#: ../../../src/changes/2011/12/09.md:15
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:19
+#: ../../../src/changes/2011/12/09.md:17
 msgid ""
 "Shorten time required for Nagios restarts to avoid monitoring \"holes\" "
 "(#9665)."
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:23
+#: ../../../src/changes/2011/12/09.md:19
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2011/12/09.rst:25
-msgid "Add `RSS feed`_ for documentation updates (#9789)."
+#: ../../../src/changes/2011/12/09.md:21
+msgid "Add [RSS feed] for documentation updates (#9789)."
 msgstr ""
+
+#~ msgid "Add `RSS feed`_ for documentation updates (#9789)."
+#~ msgstr ""
 

@@ -9,128 +9,158 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r026.rst:4
+#: ../../../src/changes/2018/r026.md:5
 msgid "Release 2018_026 (2018-08-27)"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:7
+#: ../../../src/changes/2018/r026.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:9
-msgid "[NixOS] Apache servers will be restarted"
+#: ../../../src/changes/2018/r026.md:9
+msgid "\\[NixOS\\] Apache servers will be restarted"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:10
-msgid "[NixOS] ClamAV servers will be restarted"
+#: ../../../src/changes/2018/r026.md:10
+msgid "\\[NixOS\\] ClamAV servers will be restarted"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:11
-msgid "[NixOS] MongoDB servers will be restarted"
+#: ../../../src/changes/2018/r026.md:11
+msgid "\\[NixOS\\] MongoDB servers will be restarted"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:12
+#: ../../../src/changes/2018/r026.md:12
 msgid ""
-"[NixOS] MySQL servers and all services containing a MySQL client will be "
-"restarted"
+"\\[NixOS\\] MySQL servers and all services containing a MySQL client will"
+" be restarted"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:13
-msgid "[NixOS] OpenVPN servers will be restarted"
+#: ../../../src/changes/2018/r026.md:13
+msgid "\\[NixOS\\] OpenVPN servers will be restarted"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:14
+#: ../../../src/changes/2018/r026.md:14
 msgid ""
-"[NixOS] PostgreSQL servers and all services containing a PostgreSQL "
+"\\[NixOS\\] PostgreSQL servers and all services containing a PostgreSQL "
 "client will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:16
+#: ../../../src/changes/2018/r026.md:16
 msgid ""
-"[NixOS] Some of the PostgreSQL-indexes need to be recreated due to the "
-"update of rum and PostGis"
+"\\[NixOS\\] Some of the PostgreSQL-indexes need to be recreated due to "
+"the update of rum and PostGis"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:21
+#: ../../../src/changes/2018/r026.md:19
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:23
+#: ../../../src/changes/2018/r026.md:21
 msgid "Add PHP 7.2 role (7.2.7) (#105028)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:24
+#: ../../../src/changes/2018/r026.md:22
 msgid "Add PostgreSQL 10 role (10.5) (#105078)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:25
+#: ../../../src/changes/2018/r026.md:23
 msgid ""
 "Extend Apache role to load mod_deflate, mod_filter and mod_proxy_fcgi by "
 "default (#105086, #105023)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:27
+#: ../../../src/changes/2018/r026.md:25
 msgid "Fix a bug while including custom vhost-config at Apache role (#105003)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:28
+#: ../../../src/changes/2018/r026.md:26
 msgid "Security update for ClamAV 0.99.3 -> 0.99.4 (#100814)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:29
+#: ../../../src/changes/2018/r026.md:27
 msgid "Security update for PHP 5.6.34 -> 5.6.36 (#105028)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:30
+#: ../../../src/changes/2018/r026.md:28
 msgid "Security update for PHP 7.0.28 -> 7.0.30 (#105028)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:31
+#: ../../../src/changes/2018/r026.md:29
 msgid "Security update for PHP 7.1.15 -> 7.1.19 (#105028)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:32
+#: ../../../src/changes/2018/r026.md:30
 msgid "Security update for OpenVPN 2.4.3 -> 2.4.4 (#102038)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:33
+#: ../../../src/changes/2018/r026.md:31
 msgid "Security update for PostgreSQL 9.3.23 -> 9.3.24 (#105031)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:34
+#: ../../../src/changes/2018/r026.md:32
 msgid "Security update for PostgreSQL 9.4.18 -> 9.4.19 (#105031)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:35
+#: ../../../src/changes/2018/r026.md:33
 msgid "Security update for PostgreSQL 9.5.13 -> 9.5.14 (#105031)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:36
+#: ../../../src/changes/2018/r026.md:34
 msgid "Security update for PostgreSQL 9.6.9 -> 9.6.10 (#105031)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:37
+#: ../../../src/changes/2018/r026.md:35
 msgid "Update PostgreSQL/rum to 1.2.1 (#105078)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:38
+#: ../../../src/changes/2018/r026.md:36
 msgid "Update PostgreSQL/PostGis to 2.4.0 (#105078)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:39
+#: ../../../src/changes/2018/r026.md:37
 msgid "Security update for sharutils 4.11.2 -> 4.15.2 (#101089)."
 msgstr ""
 
-#: ../../src/changes/2018/r026.rst:40
+#: ../../../src/changes/2018/r026.md:38
 msgid "Improve robustness of `fc-manage` during Hydra failures (#105048)."
 msgstr ""
+
+#~ msgid "[NixOS] Apache servers will be restarted"
+#~ msgstr ""
+
+#~ msgid "[NixOS] ClamAV servers will be restarted"
+#~ msgstr ""
+
+#~ msgid "[NixOS] MongoDB servers will be restarted"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] MySQL servers and all services"
+#~ " containing a MySQL client will be"
+#~ " restarted"
+#~ msgstr ""
+
+#~ msgid "[NixOS] OpenVPN servers will be restarted"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] PostgreSQL servers and all "
+#~ "services containing a PostgreSQL client "
+#~ "will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] Some of the PostgreSQL-indexes"
+#~ " need to be recreated due to "
+#~ "the update of rum and PostGis"
+#~ msgstr ""
 

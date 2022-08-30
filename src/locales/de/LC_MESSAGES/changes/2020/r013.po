@@ -9,58 +9,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r013.rst:4
+#: ../../../src/changes/2020/r013.md:5
 msgid "Release 2020_013 (2020-05-18)"
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:7
+#: ../../../src/changes/2020/r013.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:9
-msgid "[NixOS 19.03] Prometheus will be restarted."
+#: ../../../src/changes/2020/r013.md:9
+msgid "\\[NixOS 19.03\\] Prometheus will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:13
+#: ../../../src/changes/2020/r013.md:11
 msgid "NixOS 15.09 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:15
+#: ../../../src/changes/2020/r013.md:13
 msgid ""
 "Add Python 3.6 system wide. Not overriding Python 3.4 as the platform's "
 "default `python3` executable, though (#126100)."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:17
+#: ../../../src/changes/2020/r013.md:15
 msgid ""
 "Introduce *mailstub* as alias for *mailout* to reach role name parity "
 "(#115698)."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:22
+#: ../../../src/changes/2020/r013.md:18
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:24
+#: ../../../src/changes/2020/r013.md:20
 msgid "Upgrade central statshost to NixOS 19.03 (#123876)."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:25
+#: ../../../src/changes/2020/r013.md:21
 msgid ""
 "Automatically recover from stuck \"VM in maintenance\" directory flags "
 "(#119218)."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:26
+#: ../../../src/changes/2020/r013.md:22
 msgid ""
 "Managed *mailserver* role. This role configures a full-fledged mail "
 "server with Postfix, Dovecot, rspamd, Roundcube, DNS template, DKIM, and "
@@ -70,13 +70,23 @@ msgid ""
 "all nodes in this RG relay outgoing mails via this node (#115698)."
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:35
+#: ../../../src/changes/2020/r013.md:29
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2020/r013.rst:37
+#: ../../../src/changes/2020/r013.md:31
 msgid ""
-"[Hotfix] Remove outdated CRLs on Puppet clients and replace them with "
-"fresh copies from the Puppet master (#124831)."
+"\\[Hotfix\\] Remove outdated CRLs on Puppet clients and replace them with"
+" fresh copies from the Puppet master (#124831)."
 msgstr ""
+
+#~ msgid "[NixOS 19.03] Prometheus will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Hotfix] Remove outdated CRLs on Puppet"
+#~ " clients and replace them with fresh"
+#~ " copies from the Puppet master "
+#~ "(#124831)."
+#~ msgstr ""
 

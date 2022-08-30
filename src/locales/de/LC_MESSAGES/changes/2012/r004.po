@@ -9,82 +9,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r004.rst:4
+#: ../../../src/changes/2012/r004.md:5
 msgid "Release 2012-03-02"
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:7
+#: ../../../src/changes/2012/r004.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:9
+#: ../../../src/changes/2012/r004.md:9
 msgid ""
-"Security update for libxml2: `GLSA 201202-09`_. Note that there is a "
+"Security update for libxml2: [GLSA 201202-09]. Note that there is a "
 "chance that user-compiled programs linked after libxml2 break due to "
 "linkage problems. Requires PostgreSQL restart (RT 81681)."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:12
-msgid "Security update for stunnel: `GLSA 201202-08`_ (RT 81681)."
+#: ../../../src/changes/2012/r004.md:12
+msgid "Security update for stunnel: [GLSA 201202-08] (RT 81681)."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:19
+#: ../../../src/changes/2012/r004.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:21
+#: ../../../src/changes/2012/r004.md:16
 msgid ""
 "Add role for customer-specific mail server with greylisting, virus "
 "scanner and SpamAssassin (#10182)."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:23
+#: ../../../src/changes/2012/r004.md:18
 msgid ""
 "Unify user ids for system services that used to be dynamically generated "
 "on a per-system basis. This may cause nginx (web server) downtime in some"
 " cases (#10182)."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:26
+#: ../../../src/changes/2012/r004.md:21
 msgid "Improve NTP clock stability."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:27
+#: ../../../src/changes/2012/r004.md:22
 msgid ""
-"Fix bug in :file:`/etc/resolv.conf` handling that caused delays during VM"
+"Fix bug in {file}`/etc/resolv.conf` handling that caused delays during VM"
 " bootstrap."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:32
+#: ../../../src/changes/2012/r004.md:25
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:34
+#: ../../../src/changes/2012/r004.md:27
 msgid "Sharpen mail server monitoring to test spam rejection etc. (#10182)."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:38
+#: ../../../src/changes/2012/r004.md:29
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:40
+#: ../../../src/changes/2012/r004.md:31
 msgid "Add ssh-forward tutorial."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:41
-msgid "Add :ref:`mailserver` role documentation."
+#: ../../../src/changes/2012/r004.md:32
+msgid "Add {ref}`mailserver` role documentation."
 msgstr ""
 
-#: ../../src/changes/2012/r004.rst:42
+#: ../../../src/changes/2012/r004.md:33
 msgid "Improve access-nagios tutorial."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for libxml2: `GLSA "
+#~ "201202-09`_. Note that there is a "
+#~ "chance that user-compiled programs "
+#~ "linked after libxml2 break due to "
+#~ "linkage problems. Requires PostgreSQL restart"
+#~ " (RT 81681)."
+#~ msgstr ""
+
+#~ msgid "Security update for stunnel: `GLSA 201202-08`_ (RT 81681)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix bug in :file:`/etc/resolv.conf` handling"
+#~ " that caused delays during VM "
+#~ "bootstrap."
+#~ msgstr ""
+
+#~ msgid "Add :ref:`mailserver` role documentation."
+#~ msgstr ""
 

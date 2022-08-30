@@ -9,71 +9,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/memcached.rst:4
+#: ../../../src/guide/platform_nixos/memcached.md:3
 msgid "Memcached"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:6
+#: ../../../src/guide/platform_nixos/memcached.md:5
 msgid "This role provides Memcached."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:10
+#: ../../../src/guide/platform_nixos/memcached.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:12
+#: ../../../src/guide/platform_nixos/memcached.md:9
 msgid ""
 "Out of the box, Memcached is set up with a couple of common default "
 "parameters and listens on IP-addresses of the ethsrv-interface of your VM"
-" (See :ref:`networking` for details on this topic)."
+" (See {ref}`networking` for details on this topic)."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:16
+#: ../../../src/guide/platform_nixos/memcached.md:13
 msgid ""
 "If you need to change the behaviour of Memcached, you have to put the "
 "changed options into a JSON file and save it to "
-":file:`/etc/local/memcached/memcached.json`. For further information on "
+"{file}`/etc/local/memcached/memcached.json`. For further information on "
 "how to activate changes on our NixOS-environment, please consult section "
-":ref:`nixos-local`."
+"{ref}`nixos-local`."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:22
+#: ../../../src/guide/platform_nixos/memcached.md:19
 msgid "Supported options are:"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:24
+#: ../../../src/guide/platform_nixos/memcached.md:21
 msgid "**port**: The port memcached should listen on. Default: 11211"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:25
+#: ../../../src/guide/platform_nixos/memcached.md:22
 msgid ""
 "**maxMemory**: The maximum amount of memory to use for storage in MB. "
 "Default: 64"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:27
+#: ../../../src/guide/platform_nixos/memcached.md:24
 msgid ""
 "**maxConnections**: The maximum amount of simultaneous connections. "
 "Default: 1024"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:28
+#: ../../../src/guide/platform_nixos/memcached.md:25
 msgid ""
 "**extraOptions**: A string containing any additional command line options"
 " you like Memcached to be started with. For reference consult Memcached's"
 " man page."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/memcached.rst:31
-msgid "So a basic non-default configuration might look like::"
+#: ../../../src/guide/platform_nixos/memcached.md:28
+msgid "So a basic non-default configuration might look like:"
 msgstr ""
+
+#~ msgid ""
+#~ "Out of the box, Memcached is set"
+#~ " up with a couple of common "
+#~ "default parameters and listens on IP-"
+#~ "addresses of the ethsrv-interface of "
+#~ "your VM (See :ref:`networking` for "
+#~ "details on this topic)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you need to change the "
+#~ "behaviour of Memcached, you have to "
+#~ "put the changed options into a "
+#~ "JSON file and save it to "
+#~ ":file:`/etc/local/memcached/memcached.json`. For further"
+#~ " information on how to activate "
+#~ "changes on our NixOS-environment, please"
+#~ " consult section :ref:`nixos-local`."
+#~ msgstr ""
+
+#~ msgid "So a basic non-default configuration might look like::"
+#~ msgstr ""
 

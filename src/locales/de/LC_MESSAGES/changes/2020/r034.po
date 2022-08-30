@@ -9,44 +9,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r034.rst:4
+#: ../../../src/changes/2020/r034.md:5
 msgid "Release 2020_034 (2020-10-20)"
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:7
+#: ../../../src/changes/2020/r034.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:9
-msgid "[NixOS 19.03] Apache on LAMP servers will get restarted."
+#: ../../../src/changes/2020/r034.md:9
+msgid "\\[NixOS 19.03\\] Apache on LAMP servers will get restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:13
+#: ../../../src/changes/2020/r034.md:11
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:15
+#: ../../../src/changes/2020/r034.md:13
 msgid "Security updates: ClamAV 0.101.2 -> 0.102.4; Asterisk 15.3.0 -> 16.1.1."
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:17
+#: ../../../src/changes/2020/r034.md:14
 msgid ""
 "Docker: Disable policy routing on VM running Docker to fix problems with "
 "container networking (#128979)."
 msgstr ""
 
-#: ../../src/changes/2020/r034.rst:20
+#: ../../../src/changes/2020/r034.md:16
 msgid ""
 "LAMP role: Allow defining multiple virtual hosts with port/docroot pairs "
 "(#128815)."
 msgstr ""
+
+#~ msgid "[NixOS 19.03] Apache on LAMP servers will get restarted."
+#~ msgstr ""
 

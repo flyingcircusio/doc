@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r013.md:5
+msgid "Release 2022_013 (2022-05-09)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:9
+msgid ""
+"\\[NixOS 21.11\\] Most services will be restarted because of a core "
+"dependency change. Machines will schedule a reboot to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:11
+msgid ""
+"\\[NixOS 21.05\\] Networking services will be restarted and connectivity "
+"may be down for a short period of time."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:14
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:16
+msgid ""
+"fc-agent: restructured fc-manage and fc-maintenance commands, along with "
+"improvements to command output and logging: `fc-manage` has new sub "
+"commands `update-enc` and `switch`. They cover the same functionality as "
+"the old (`-b -c -e`) commands which are still present. Service users now "
+"may sudo run `fc-maintenance` `list`/`show`/`delete` to look at and "
+"delete maintenance requests (#PL-130441)."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:23
+msgid ""
+"Fix an Apache FPM configuration issue: FPM pools would get confused and "
+"keepalive connections could block workers indefinitely. Disable FPM proxy"
+" connection reuse (#PL-130609)."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:27
+msgid ""
+"Gitlab: don't overwrite existing certificates for the container registry "
+"anymore."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:29
+msgid ""
+"Jitsi: update all packages to latest stable versions (jitsi-"
+"meet-2.0.7210, 2022-04-18) (#PL-130591)."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:32
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130595, #PL-130610):"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:35
+msgid "cifs-utils: fix information disclosure in logger (CVE-2022-29869)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:36
+msgid "cifs-utils: patch buffer-overflow in ip param handling (CVE-2022-27239)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:37
+msgid "docker: 20.10.13 -> 20.10.14"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:38
+msgid "element-web: 1.10.10 -> 1.10.11"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:39
+msgid "git: 2.33.1 -> 2.33.3 (CVE-2022-24765)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:40
+msgid "gitlab: 14.9.2 -> 14.9.4"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:41
+msgid "grafana: 8.4.6 -> 8.4.7"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:42
+msgid "gzip: 1.11 -> 1.12 (CVE-2022-1271)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:43
+msgid "imagemagick: 7.1.0-26 -> 7.1.0-31"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:44
+msgid "libarchive: add patches for CVE-2022-26280, OSS Fuzz issue 38764"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:45
+msgid ""
+"libtiff: add patches for multiple CVEs (CVE-2022-0891, CVE-2022-0865, "
+"CVE-2022-0924, CVE-2022-0907, CVE-2022-0909, CVE-2022-0908)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:46
+msgid "linux: 5.10.111 -> 5.10.113"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:47
+msgid "matrix-synapse: 1.56.0 -> 1.57.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:48
+msgid "nginxStable: add patch for CVE-2021-3618"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:49
+msgid "openjdk: 11.0.12+7 -> 11.0.15.+10"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:50
+msgid "openjdk: 17.0.1+12 -> 17.0.3.+7"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:51
+msgid "python310: 3.10.3 -> 3.10.4"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:52
+msgid "python39: 3.9.11 -> 3.9.12"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:53
+msgid "ruby_2_7: 2.7.5 -> 2.7.6 (CVE-2022-28739)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:54
+msgid "ruby_3_0: 3.0.3 -> 3.0.4 (CVE-2022-28738, CVE-2022-28739)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:56
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/157876/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:58
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:60
+msgid "Port Qemu/KVM server role to NixOS (#PL-127635)."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:61
+msgid ""
+"Nginx: the number of worker processes is determined by the number of CPU "
+"as before but limited to 12 now. The number is configurable via the new "
+"option `flyingcircus.services.nginx.workerProcesses` (#PL-127635)."
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:64
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/158017/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:66
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:68
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_012/21.11...bc0c2218d718f8a04fc1846d53efe13789faf1ea),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/1f05f61bc9cb8b49b86780749d9cca46308688a5...7336576854f45032a04636b1d8fa86db5c6ba7a0)"
+msgstr ""
+
+#: ../../../src/changes/2022/r013.md:70
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_012/21.05...5b870e586a9a5542f8f8878ccc3fe5e3d78787cd)"
+msgstr ""
+

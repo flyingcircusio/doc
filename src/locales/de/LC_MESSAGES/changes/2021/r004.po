@@ -9,79 +9,99 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r004.rst:4
+#: ../../../src/changes/2021/r004.md:5
 msgid "Release 2021_004 (2021-02-08)"
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:7
+#: ../../../src/changes/2021/r004.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:9
-msgid "[NixOS 20.09] VMs will be rebooted for a kernel update."
+#: ../../../src/changes/2021/r004.md:9
+msgid "\\[NixOS 20.09\\] VMs will be rebooted for a kernel update."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:10
+#: ../../../src/changes/2021/r004.md:10
 msgid ""
-"[NixOS 20.09] Jitsi Videobridge will be restarted which will interrupt "
-"conferences for a short time."
+"\\[NixOS 20.09\\] Jitsi Videobridge will be restarted which will "
+"interrupt conferences for a short time."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:11
-msgid "[NixOS 20.09]: Nginx will be restarted."
+#: ../../../src/changes/2021/r004.md:11
+msgid "\\[NixOS 20.09\\]: Nginx will be restarted."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:15
+#: ../../../src/changes/2021/r004.md:13
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:17
+#: ../../../src/changes/2021/r004.md:15
 msgid ""
 "Merge upstream NixOS changes. Includes security fixes for sudo "
 "(CVE-2021-3156) and imagemagick (CVE-2020-29599, CVE-2020-27560) "
 "(#PL-129624)."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:19
+#: ../../../src/changes/2021/r004.md:17
 msgid "Jitsi: update components to the latest stable versions (#PL-129607)."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:20
+#: ../../../src/changes/2021/r004.md:18
 msgid ""
 "Nginx: ensure correct permissions for log files. We encountered some "
 "exceptional situations where startup failed because Nginx couldn't open "
 "log files (#PL-129618)."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:23
+#: ../../../src/changes/2021/r004.md:21
 msgid ""
 "Nginx: fix log retention time (for non-standard cases). Log files were "
 "always deleted after 10 days even if the rotateLogs setting (default 7 "
 "days) was set to a higher value (#PL-129618)."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:26
+#: ../../../src/changes/2021/r004.md:24
 msgid "Statshost: use TLS for fetching metrics via location proxies (#PL-129612)."
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:29
+#: ../../../src/changes/2021/r004.md:26
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r004.rst:31
+#: ../../../src/changes/2021/r004.md:28
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_003/20.09...203bd1c90d1a8f7d76b7986fc63d26e2b452d3f2>`_,"
-" `upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/984c872d5ca6e521803a4cd9ba72d45c4c3640a6...f0abbebcba43f4806c63385c98a09afb4a3dc64f>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_003/20.09...203bd1c90d1a8f7d76b7986fc63d26e2b452d3f2),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/984c872d5ca6e521803a4cd9ba72d45c4c3640a6...f0abbebcba43f4806c63385c98a09afb4a3dc64f)"
 msgstr ""
+
+#~ msgid "[NixOS 20.09] VMs will be rebooted for a kernel update."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Jitsi Videobridge will be"
+#~ " restarted which will interrupt conferences"
+#~ " for a short time."
+#~ msgstr ""
+
+#~ msgid "[NixOS 20.09]: Nginx will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_003/20.09...203bd1c90d1a8f7d76b7986fc63d26e2b452d3f2>`_,"
+#~ " `upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/984c872d5ca6e521803a4cd9ba72d45c4c3640a6...f0abbebcba43f4806c63385c98a09afb4a3dc64f>`_"
+#~ msgstr ""
 

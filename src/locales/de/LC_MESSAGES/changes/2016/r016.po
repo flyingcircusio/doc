@@ -9,104 +9,127 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r016.rst:4
+#: ../../../src/changes/2016/r016.md:5
 msgid "Release 2016_016 (2016-05-23)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:7
+#: ../../../src/changes/2016/r016.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:9
+#: ../../../src/changes/2016/r016.md:9
 msgid ""
 "The Apache 2.4 upgrade has compatibility modules to version 2.2 "
 "activated, but we recommend you to review your configuration files in "
-":file:`/etc/apache2/local` after the update and review deprecation "
-"warnings in :file:`/var/log/apache2/error.log`."
+"{file}`/etc/apache2/local` after the update and review deprecation "
+"warnings in {file}`/var/log/apache2/error.log`."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:16
+#: ../../../src/changes/2016/r016.md:14
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:18
+#: ../../../src/changes/2016/r016.md:16
 msgid "Improve monitoring of managed MySQL/Percona instances. (#21337)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:20
+#: ../../../src/changes/2016/r016.md:17
 msgid "Relax monitoring limits for system load."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:22
+#: ../../../src/changes/2016/r016.md:18
 msgid ""
 "Set an explicit shell timeout to discontinue shells that are stuck in "
 "broken SSH connections."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:25
+#: ../../../src/changes/2016/r016.md:20
 msgid ""
 "Fix monitoring bug where NixOS VMs running in a project specific "
 "environment were incorrectly reported as broken. (#21511)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:28
+#: ../../../src/changes/2016/r016.md:22
 msgid ""
 "Fix systemd user unit management so that users can place own unit files "
 "in /etc/local/systemd. (#20984)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:31
-msgid "Introduce a timeout for the :literal:`fc-manage` job. (#21538)"
+#: ../../../src/changes/2016/r016.md:24
+msgid "Introduce a timeout for the {literal}`fc-manage` job. (#21538)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:33
+#: ../../../src/changes/2016/r016.md:25
 msgid "Add Sensu monitoring for managed MongoDB instances. (#21336)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:37
+#: ../../../src/changes/2016/r016.md:27
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:39
+#: ../../../src/changes/2016/r016.md:29
 msgid "Upgrade Apache to 2.4 to get up-to-date encryption support. (#20447)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:40
+#: ../../../src/changes/2016/r016.md:30
 msgid "Allow service users to run doveadm via sudo. (#21485)"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:41
+#: ../../../src/changes/2016/r016.md:31
 msgid "Fix router runlevel switch on failure."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:42
+#: ../../../src/changes/2016/r016.md:32
 msgid "Fix detection of ENC environment class."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:43
+#: ../../../src/changes/2016/r016.md:33
 msgid "Add conffile rule for /etc/filesystems."
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:46
+#: ../../../src/changes/2016/r016.md:35
 msgid "References"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:48
-msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/{COMMIT}"
+#: ../../../src/changes/2016/r016.md:37
+msgid ""
+"NixOS source: "
+"<https://github.com/flyingcircusio/nixpkgs/commit>/\\{COMMIT}"
 msgstr ""
 
-#: ../../src/changes/2016/r016.rst:51
+#: ../../../src/changes/2016/r016.md:39
 msgid ""
 "Puppet source: "
-"https://bitbucket.org/flyingcircus/fc.platform/commits/{COMMIT}"
+"<https://bitbucket.org/flyingcircus/fc.platform/commits>/\\{COMMIT}"
 msgstr ""
+
+#~ msgid ""
+#~ "The Apache 2.4 upgrade has compatibility"
+#~ " modules to version 2.2 activated, "
+#~ "but we recommend you to review "
+#~ "your configuration files in "
+#~ ":file:`/etc/apache2/local` after the update "
+#~ "and review deprecation warnings in "
+#~ ":file:`/var/log/apache2/error.log`."
+#~ msgstr ""
+
+#~ msgid "Introduce a timeout for the :literal:`fc-manage` job. (#21538)"
+#~ msgstr ""
+
+#~ msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/{COMMIT}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Puppet source: "
+#~ "https://bitbucket.org/flyingcircus/fc.platform/commits/{COMMIT}"
+#~ msgstr ""
 

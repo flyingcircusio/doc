@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/support/chat.md:1
+msgid "Chat"
+msgstr ""
+
+#: ../../../src/support/chat.md:3
+msgid ""
+"For daily communication in ongoing projects we also offer the opportunity"
+" to chat with us. We decided to base our system upon the Matrix-protocol "
+"by hosting our own homeserver for every of our users. We do also provide "
+"a self-hosted and pre-configurated version of Element to allow easy "
+"access. However, alternative clients are allowed and welcomed to use."
+msgstr ""
+
+#: ../../../src/support/chat.md:6
+msgid ""
+"We usually create a project-specific Matrix channel and invite all needed"
+" persons to join. You may participate using the Matrix ID provided by us,"
+" or your currently existing ID at any other homeserver of your choice. In"
+" this case: Just let us know how we can reach you."
+msgstr ""
+
+#: ../../../src/support/chat.md:8
+msgid ""
+"If you want to use our Matrix setup, our pre-configured Element is "
+"available at [chat.flyingcircus.io](https://chat.flyingcircus.io)."
+msgstr ""
+
+#: ../../../src/support/chat.md:10
+msgid ""
+"If you want to use your own client, please find the needed information "
+"below:"
+msgstr ""
+
+#: ../../../src/support/chat.md:14
+msgid "Homeserver"
+msgstr ""
+
+#: ../../../src/support/chat.md:14
+msgid "customermatrix.flyingcircus.io"
+msgstr ""
+
+#: ../../../src/support/chat.md:16
+msgid "Login"
+msgstr ""
+
+#: ../../../src/support/chat.md:16
+msgid "<your_flyingcircus_username>"
+msgstr ""
+
+#: ../../../src/support/chat.md:18
+msgid "Password"
+msgstr ""
+
+#: ../../../src/support/chat.md:18
+msgid "<your_flyingcircus_password>"
+msgstr ""
+
+#: ../../../src/support/chat.md:20
+msgid "Matrix handle"
+msgstr ""
+
+#: ../../../src/support/chat.md:20
+msgid "@<username>:my.flyingcircus.io"
+msgstr ""
+

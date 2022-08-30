@@ -9,70 +9,77 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r021.rst:4
+#: ../../../src/changes/2012/r021.md:5
 msgid "Release 2012-07-06"
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:7
+#: ../../../src/changes/2012/r021.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:9
+#: ../../../src/changes/2012/r021.md:9
 msgid ""
 "Update media-gfx/graphicsmagick to make it compile again (broken by "
 "libpng update)."
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:11
+#: ../../../src/changes/2012/r021.md:11
 msgid ""
 "Install dev-java/log4j system-wide on machines with `tomcat` or `java` "
 "role."
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:15
+#: ../../../src/changes/2012/r021.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:17
+#: ../../../src/changes/2012/r021.md:15
 msgid ""
 "Prevent unnecessary restarts of Apache due to false positives in shared "
 "objects updates detection."
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:19
+#: ../../../src/changes/2012/r021.md:17
 msgid ""
-"Relax too aggressive :file:`resolv.conf` timeout to ensure reliable DNS "
+"Relax too aggressive {file}`resolv.conf` timeout to ensure reliable DNS "
 "resolution even under load spikes (RT 83555)"
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:21
+#: ../../../src/changes/2012/r021.md:19
 msgid ""
 "Enable `nscd` (name service caching) to improve resilience against DNS "
 "glitches (RT 83555)."
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:23
+#: ../../../src/changes/2012/r021.md:21
 msgid ""
 "Fix bug where old firewall rules could be activated after unclean machine"
 " shutdown (RT 83697)."
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:28
+#: ../../../src/changes/2012/r021.md:24
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r021.rst:30
+#: ../../../src/changes/2012/r021.md:26
 msgid ""
 "Change Nagios configuration so that we can now users allow to login into "
 "Nagios but don't mail them Nagios alerts (RT 83655)."
 msgstr ""
+
+#~ msgid ""
+#~ "Relax too aggressive :file:`resolv.conf` "
+#~ "timeout to ensure reliable DNS "
+#~ "resolution even under load spikes (RT"
+#~ " 83555)"
+#~ msgstr ""
 

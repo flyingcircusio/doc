@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2021/r032.md:5
+msgid "Release 2021_032 (2021-10-04)"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:7
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:9
+msgid ""
+"Nginx: fix a conditional reload bug. The internal status page and vhosts "
+"using the default wildcard address were not properly configured for dual "
+"stack operations and may block graceful reloads."
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:12
+msgid ""
+"Nginx: add option `services.nginx.masterUser` to be able to change the "
+"user for the Nginx master process. Nothing changes if you are using the "
+"platform `webgateway` / `nginx` roles or the "
+"`flyingcircus.services.nginx` service. They still use `root` and run the "
+"worker processes as `nginx`. Plain `services.nginx` now uses `nginx` for "
+"both by default like the upstream NixOS module. Note that changing this "
+"setting is experimental when using our platform roles/service and "
+"problems may occur, especially if Nginx has already been running on the "
+"system (#PL-130015)."
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:21
+msgid ""
+"Nginx: don't generate dhparam file by default anymore. Existing dhparam "
+"files will be removed. This file is only needed for DHE ciphers which are"
+" not used except by legacy clients like IE11 on older Windows versions. "
+"See the webgateway docs or {file}`/etc/local/nginx/README.txt` on how to "
+"keep or re-enable the old behavior if needed. (#PL-130114)."
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:26
+msgid ""
+"Production channel for this release: "
+"<https://hydra.flyingcircus.io/build/104035/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:28
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:30
+msgid ""
+"Already released as hotfix: due to the [Compatibility issues with new "
+"Let's Encrypt X1 Root "
+"certificate](http://status.flyingcircus.io/incidents/1lclb8tktl8s?u=sq2v1cppvw8x),"
+" we had to roll out a new release with an updated SSL certificate bundle "
+"manually to fix our automated system management. This removes support for"
+" `Graylog` and the `docsplit` package because they need old Java versions"
+" that don't build anymore."
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:35
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:37
+msgid ""
+"SSH: use secure key exchange algorithms, ciphers and MACs like on our "
+"NixOS platforms (#141842)."
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:39
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2021/r032.md:41
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_031/21.05...1b3e8bc627a2c3b6931375fb7281cd299508ac5a)"
+msgstr ""
+

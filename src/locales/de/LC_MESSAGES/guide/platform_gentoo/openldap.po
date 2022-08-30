@@ -9,109 +9,166 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/openldap.rst:6
+#: ../../../src/guide/platform_gentoo/openldap.md:7
 msgid "OpenLDAP"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:8
+#: ../../../src/guide/platform_gentoo/openldap.md:9
 msgid ""
 "Runs an OpenLDAP server for custom user management. The LDAP server "
 "listens by default on the *srv* network for LDAP requests."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:12
+#: ../../../src/guide/platform_gentoo/openldap.md:12
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:14
+#: ../../../src/guide/platform_gentoo/openldap.md:14
 msgid "OpenLDAP server"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:15
-msgid ":command:`ldapvi` utility to edit live LDAP records"
+#: ../../../src/guide/platform_gentoo/openldap.md:15
+msgid "{command}`ldapvi` utility to edit live LDAP records"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:18
+#: ../../../src/guide/platform_gentoo/openldap.md:17
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:20
+#: ../../../src/guide/platform_gentoo/openldap.md:19
 msgid ""
 "The main OpenLDAP configuration is broken into parts. Some of these are "
 "left empty by default and may be edited by service users:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:23
+#: ../../../src/guide/platform_gentoo/openldap.md:22
 msgid ""
-":file:`/etc/openldap/slapd.00acl-local.conf` allows to define custom ACLs"
+"{file}`/etc/openldap/slapd.00acl-local.conf` allows to define custom ACLs"
 " which precede the default ACLs"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:25
+#: ../../../src/guide/platform_gentoo/openldap.md:24
 msgid ""
-":file:`/etc/openldap/slapd.20main-local.conf` allows to add main "
+"{file}`/etc/openldap/slapd.20main-local.conf` allows to add main "
 "configuration settings after the default configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:27
+#: ../../../src/guide/platform_gentoo/openldap.md:26
 msgid ""
-":file:`/etc/openldap/slapd.40backend-local.conf` allows to override the "
+"{file}`/etc/openldap/slapd.40backend-local.conf` allows to override the "
 "default backend configuration, e.g. to define custom indexes."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:29
+#: ../../../src/guide/platform_gentoo/openldap.md:28
 msgid ""
-":file:`/etc/openldap/listen_urls` contains a list of LDAP URIs to listen "
+"{file}`/etc/openldap/listen_urls` contains a list of LDAP URIs to listen "
 "on, one per line. Listening on *srv* addresses and localhost is added "
 "automatically."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:33
+#: ../../../src/guide/platform_gentoo/openldap.md:32
 msgid ""
 "In addition, service users may also place custom schema files into "
-":file:`/etc/openldap/schema`."
+"{file}`/etc/openldap/schema`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:36
+#: ../../../src/guide/platform_gentoo/openldap.md:35
 msgid ""
-"The LDAP database suffix (as found in :file:`/etc/openldap/suffix`, e.g. "
+"The LDAP database suffix (as found in {file}`/etc/openldap/suffix`, e.g. "
 "`cn=example,cn=com`) can only be changed by Flying Circus support staff "
 "and requires the database to be rebuilt."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:41
+#: ../../../src/guide/platform_gentoo/openldap.md:39
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:43
+#: ../../../src/guide/platform_gentoo/openldap.md:41
 msgid ""
-"After configuration changes, invoke :command:`sudo /etc/init.d/slapd "
+"After configuration changes, invoke {command}`sudo /etc/init.d/slapd "
 "restart` as service user to activate the new configuration."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:46
+#: ../../../src/guide/platform_gentoo/openldap.md:44
 msgid ""
 "To get all slapd indexes rebuilt during server restart, invoke "
-":command:`sudo slapd-restart-reindex`."
+"{command}`sudo slapd-restart-reindex`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:50
+#: ../../../src/guide/platform_gentoo/openldap.md:47
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/openldap.rst:52
+#: ../../../src/guide/platform_gentoo/openldap.md:49
 msgid ""
 "We monitor the reachability of OpenLDAP via IPv4 and IPv6 via the *srv* "
 "network by default. Usually these checks are sufficient, so there is no "
 "custom monitoring configuration required."
 msgstr ""
+
+#~ msgid ":command:`ldapvi` utility to edit live LDAP records"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":file:`/etc/openldap/slapd.00acl-local.conf` allows "
+#~ "to define custom ACLs which precede "
+#~ "the default ACLs"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":file:`/etc/openldap/slapd.20main-local.conf` allows "
+#~ "to add main configuration settings after"
+#~ " the default configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":file:`/etc/openldap/slapd.40backend-local.conf` allows"
+#~ " to override the default backend "
+#~ "configuration, e.g. to define custom "
+#~ "indexes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":file:`/etc/openldap/listen_urls` contains a list"
+#~ " of LDAP URIs to listen on, one"
+#~ " per line. Listening on *srv* "
+#~ "addresses and localhost is added "
+#~ "automatically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In addition, service users may also "
+#~ "place custom schema files into "
+#~ ":file:`/etc/openldap/schema`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The LDAP database suffix (as found "
+#~ "in :file:`/etc/openldap/suffix`, e.g. "
+#~ "`cn=example,cn=com`) can only be changed "
+#~ "by Flying Circus support staff and "
+#~ "requires the database to be rebuilt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After configuration changes, invoke "
+#~ ":command:`sudo /etc/init.d/slapd restart` as "
+#~ "service user to activate the new "
+#~ "configuration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get all slapd indexes rebuilt "
+#~ "during server restart, invoke :command:`sudo"
+#~ " slapd-restart-reindex`."
+#~ msgstr ""
 

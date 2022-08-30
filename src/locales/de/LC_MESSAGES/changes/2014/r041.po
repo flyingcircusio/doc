@@ -9,85 +9,132 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r041.rst:4
+#: ../../../src/changes/2014/r041.md:5
 msgid "Release 2014_041 (2014-08-22)"
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:7
+#: ../../../src/changes/2014/r041.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:9
+#: ../../../src/changes/2014/r041.md:9
 msgid ""
-"Move several in-house packages to https://bitbucket.org/flyingcircus -- "
-"this will act as a central location for all platform management code "
+"Move several in-house packages to <https://bitbucket.org/flyingcircus> --"
+" this will act as a central location for all platform management code "
 "(#13577)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:12
+#: ../../../src/changes/2014/r041.md:11
 msgid ""
-"Security update for `GLSA 201408-10 / libgcrypt "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml>`_ (#13611)."
+"Security update for [GLSA 201408-10 / "
+"libgcrypt](http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml) "
+"(#13611)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:15
+#: ../../../src/changes/2014/r041.md:12
 msgid ""
-"Security update for `GLSA 201408-12 / apache "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml>`_ (#13614)."
+"Security update for [GLSA 201408-12 / "
+"apache](http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml) "
+"(#13614)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:18
+#: ../../../src/changes/2014/r041.md:13
 msgid ""
-"Security update for `GLSA 201408-09 / libtasn1 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml>`_ (#13613)."
+"Security update for [GLSA 201408-09 / "
+"libtasn1](http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml) "
+"(#13613)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:21
+#: ../../../src/changes/2014/r041.md:14
 msgid ""
-"Security update for `GLSA GLSA 201408-13 / jinja "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml>`_ (#13620)."
+"Security update for [GLSA GLSA 201408-13 / "
+"jinja](http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml) "
+"(#13620)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:24
+#: ../../../src/changes/2014/r041.md:15
 msgid ""
-"Security update for `GLSA GLSA 201409-03 / dhcpcd "
-"<http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml>`_ (#13623)."
+"Security update for [GLSA GLSA 201409-03 / "
+"dhcpcd](http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml) "
+"(#13623)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:29
+#: ../../../src/changes/2014/r041.md:17
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:31
+#: ../../../src/changes/2014/r041.md:19
 msgid "Serialize Ceph daemon restarts if scheduled on multiple storage servers."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:32
+#: ../../../src/changes/2014/r041.md:20
 msgid "Move persistent varnish cache from tmpfs to /tmp (#13293)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:36
+#: ../../../src/changes/2014/r041.md:22
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:38
+#: ../../../src/changes/2014/r041.md:24
 msgid "Detect failed bootstrap image creation."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:39
+#: ../../../src/changes/2014/r041.md:25
 msgid "Turn off our own US and FR monitoring satellites (#13017)."
 msgstr ""
 
-#: ../../src/changes/2014/r041.rst:40
+#: ../../../src/changes/2014/r041.md:26
 msgid "Improve monitoring of disk problems on the controller level."
 msgstr ""
+
+#~ msgid ""
+#~ "Move several in-house packages to "
+#~ "https://bitbucket.org/flyingcircus -- this will "
+#~ "act as a central location for all"
+#~ " platform management code (#13577)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201408-10 /"
+#~ " libgcrypt "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-10.xml>`_ "
+#~ "(#13611)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201408-12 /"
+#~ " apache "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-12.xml>`_ "
+#~ "(#13614)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201408-09 /"
+#~ " libtasn1 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-09.xml>`_ "
+#~ "(#13613)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA GLSA 201408-13"
+#~ " / jinja "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-13.xml>`_ "
+#~ "(#13620)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA GLSA 201409-03"
+#~ " / dhcpcd "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201409-03.xml>`_ "
+#~ "(#13623)."
+#~ msgstr ""
 

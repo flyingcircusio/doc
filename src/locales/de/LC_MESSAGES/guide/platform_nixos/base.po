@@ -9,20 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/base.rst:4
+#: ../../../src/guide/platform_nixos/base.md:3
 msgid "Base environment"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:6
+#: ../../../src/guide/platform_nixos/base.md:5
 msgid ""
 "The base installation includes various tools that generally help with "
 "application deployment. They are available on every Flying Circus NixOS "
@@ -30,264 +30,272 @@ msgid ""
 " and to compile your own software against them."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:11
+#: ../../../src/guide/platform_nixos/base.md:10
 msgid ""
 "However, those are intended for short-term convenience. Linking against "
 "them may cause breakage of your applications in the long term."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:14
+#: ../../../src/guide/platform_nixos/base.md:13
 msgid ""
 "Also, those packages are not providing running daemons (like OpenLDAP). "
 "If you need a managed component, those need to be activated explicitly."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:18
+#: ../../../src/guide/platform_nixos/base.md:16
 msgid "Packages"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:20
+#: ../../../src/guide/platform_nixos/base.md:18
 msgid "atop"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:21
+#: ../../../src/guide/platform_nixos/base.md:19
 msgid "bc"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:22
+#: ../../../src/guide/platform_nixos/base.md:20
 msgid "bind"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:23
+#: ../../../src/guide/platform_nixos/base.md:21
 msgid "bundler"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:24
+#: ../../../src/guide/platform_nixos/base.md:22
 msgid "curl"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:25
+#: ../../../src/guide/platform_nixos/base.md:23
 msgid "cyrus_sasl"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:26
+#: ../../../src/guide/platform_nixos/base.md:24
 msgid "db"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:27
+#: ../../../src/guide/platform_nixos/base.md:25
 msgid "dstat"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:28
+#: ../../../src/guide/platform_nixos/base.md:26
 msgid "fcmaintenance"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:29
+#: ../../../src/guide/platform_nixos/base.md:27
 msgid "fio"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:30
+#: ../../../src/guide/platform_nixos/base.md:28
 msgid "gcc"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:31
+#: ../../../src/guide/platform_nixos/base.md:29
 msgid "gdbm"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:32
+#: ../../../src/guide/platform_nixos/base.md:30
 msgid "git"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:33
+#: ../../../src/guide/platform_nixos/base.md:31
 msgid "gnupg"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:34
+#: ../../../src/guide/platform_nixos/base.md:32
 msgid "go"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:35
+#: ../../../src/guide/platform_nixos/base.md:33
 msgid "gptfdisk"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:36
+#: ../../../src/guide/platform_nixos/base.md:34
 msgid "graphviz"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:37
+#: ../../../src/guide/platform_nixos/base.md:35
 msgid "imagemagick"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:38
+#: ../../../src/guide/platform_nixos/base.md:36
 msgid "inetutils"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:39
+#: ../../../src/guide/platform_nixos/base.md:37
 msgid "iotop"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:40
+#: ../../../src/guide/platform_nixos/base.md:38
 msgid "kerberos"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:41
+#: ../../../src/guide/platform_nixos/base.md:39
 msgid "libmemcached"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:42
+#: ../../../src/guide/platform_nixos/base.md:40
 msgid "links"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:43
+#: ../../../src/guide/platform_nixos/base.md:41
 msgid "lsof"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:44
+#: ../../../src/guide/platform_nixos/base.md:42
 msgid "lynx"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:45
+#: ../../../src/guide/platform_nixos/base.md:43
 msgid "mercurial"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:46
+#: ../../../src/guide/platform_nixos/base.md:44
 msgid "mmv"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:47
+#: ../../../src/guide/platform_nixos/base.md:45
 msgid "nano"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:48
+#: ../../../src/guide/platform_nixos/base.md:46
 msgid "nc6"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:49
+#: ../../../src/guide/platform_nixos/base.md:47
 msgid "ncdu"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:50
+#: ../../../src/guide/platform_nixos/base.md:48
 msgid "netcat"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:51
+#: ../../../src/guide/platform_nixos/base.md:49
 msgid "ngrep"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:52
+#: ../../../src/guide/platform_nixos/base.md:50
 msgid "nmap"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:53
+#: ../../../src/guide/platform_nixos/base.md:51
 msgid "nodejs"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:54
+#: ../../../src/guide/platform_nixos/base.md:52
 msgid "openldap"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:55
+#: ../../../src/guide/platform_nixos/base.md:53
 msgid "openssl"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:56
+#: ../../../src/guide/platform_nixos/base.md:54
 msgid "php"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:57
+#: ../../../src/guide/platform_nixos/base.md:55
 msgid "postgresql"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:58
+#: ../../../src/guide/platform_nixos/base.md:56
 msgid "protobuf"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:59
+#: ../../../src/guide/platform_nixos/base.md:57
 msgid "psmisc"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:60
+#: ../../../src/guide/platform_nixos/base.md:58
 msgid "pv"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:61
+#: ../../../src/guide/platform_nixos/base.md:59
 msgid "python27Full"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:62
+#: ../../../src/guide/platform_nixos/base.md:60
 msgid "python3"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:63
+#: ../../../src/guide/platform_nixos/base.md:61
 msgid "python34Packages.virtualenv"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:64
+#: ../../../src/guide/platform_nixos/base.md:62
 msgid "screen"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:65
+#: ../../../src/guide/platform_nixos/base.md:63
 msgid "strace"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:66
+#: ../../../src/guide/platform_nixos/base.md:64
 msgid "subversion"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:67
+#: ../../../src/guide/platform_nixos/base.md:65
 msgid "sysstat"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:68
+#: ../../../src/guide/platform_nixos/base.md:66
 msgid "tcpdump"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:69
+#: ../../../src/guide/platform_nixos/base.md:67
 msgid "telnet"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:70
+#: ../../../src/guide/platform_nixos/base.md:68
 msgid "traceroute"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:71
+#: ../../../src/guide/platform_nixos/base.md:69
 msgid "tree"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:72
+#: ../../../src/guide/platform_nixos/base.md:70
 msgid "unzip"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:73
+#: ../../../src/guide/platform_nixos/base.md:71
 msgid "utillinux"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:74
+#: ../../../src/guide/platform_nixos/base.md:72
 msgid "vim"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:75
+#: ../../../src/guide/platform_nixos/base.md:73
 msgid "zlib"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:79
+#: ../../../src/guide/platform_nixos/base.md:75
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:81
+#: ../../../src/guide/platform_nixos/base.md:77
 msgid ""
 "All tools can be configured individually with dotfiles in the user's home"
 " directory."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:86
+#: ../../../src/guide/platform_nixos/base.md:80
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/base.rst:88
+#: ../../../src/guide/platform_nixos/base.md:82
 msgid ""
-"Service users may invoke :command:`sudo systemctl` to restart individual "
-"services manually. See also :ref:`nixos-local` for information about how "
+"Service users may invoke {command}`sudo systemctl` to restart individual "
+"services manually. See also {ref}`nixos-local` for information about how "
 "to activate configuration changes."
 msgstr ""
+
+#~ msgid ""
+#~ "Service users may invoke :command:`sudo "
+#~ "systemctl` to restart individual services "
+#~ "manually. See also :ref:`nixos-local` "
+#~ "for information about how to activate"
+#~ " configuration changes."
+#~ msgstr ""
 

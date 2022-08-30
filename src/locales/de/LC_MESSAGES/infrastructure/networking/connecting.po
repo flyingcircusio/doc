@@ -9,26 +9,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/infrastructure/networking/connecting.rst:4
+#: ../../../src/infrastructure/networking/connecting.md:3
 msgid "Connecting to VMs"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:7
+#: ../../../src/infrastructure/networking/connecting.md:5
 msgid ""
 "Generally you can connect to VMs on their \"SRV\" interface from the "
-"outside by calling::"
+"outside by calling:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:13
+#: ../../../src/infrastructure/networking/connecting.md:13
 msgid ""
 "However, due to a shortage of IPv4 addresses and an unpredictable status "
 "of IPv6 deployments, this might not work out of the box. Let's go through"
@@ -36,69 +36,69 @@ msgid ""
 "the box."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:21
+#: ../../../src/infrastructure/networking/connecting.md:21
 msgid "Getting an overview of your situation"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:23
-msgid "**VM has a public IPv4 address on SRV**::"
+#: ../../../src/infrastructure/networking/connecting.md:23
+msgid "**VM has a public IPv4 address on SRV**:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:34
-msgid "**VM has a private IPv4 address on SRV**::"
+#: ../../../src/infrastructure/networking/connecting.md:36
+msgid "**VM has a private IPv4 address on SRV**:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:39
-msgid "**VM is accessible through IPv6**::"
+#: ../../../src/infrastructure/networking/connecting.md:43
+msgid "**VM is accessible through IPv6**:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:51
-msgid "**VM is not accessible through IPv6**::"
+#: ../../../src/infrastructure/networking/connecting.md:57
+msgid "**VM is not accessible through IPv6**:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:57
+#: ../../../src/infrastructure/networking/connecting.md:65
 msgid ""
 "If you get a result that isn't shown here, please contact our support and"
 " we'll amend this list."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:60
+#: ../../../src/infrastructure/networking/connecting.md:68
 msgid "VM has a public IPv4 address"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:62
+#: ../../../src/infrastructure/networking/connecting.md:70
 msgid ""
 "Everything should be fine: independently of whether your ISP provides you"
 " with IPv4 and/or IPv6  you should be able to connect. If not: please "
 "contact our support."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:67
+#: ../../../src/infrastructure/networking/connecting.md:74
 msgid "VM has a private IPV4 address but you have native IPv6 from your ISP"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:69
+#: ../../../src/infrastructure/networking/connecting.md:76
 msgid ""
 "Excellent! You should be able to connect as IPv6 will automatically pick "
 "up where IPv4 dropped the ball. If you can not connect in this scenario: "
 "please contact our support."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:74
+#: ../../../src/infrastructure/networking/connecting.md:80
 msgid "VM has a private IPv4 and you do not have native IPv6"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:76
+#: ../../../src/infrastructure/networking/connecting.md:82
 msgid ""
 "This is the tricky part: the VM is only accessible via IPv6 directly from"
 " the outside but you don't have it yet."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:82
+#: ../../../src/infrastructure/networking/connecting.md:87
 msgid "Using an IPv4 SSH jump host"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:84
+#: ../../../src/infrastructure/networking/connecting.md:89
 msgid ""
 "SSH can perform complex connection setups including proxying through "
 "other machines. Fortunately there will always be at least one public IPv4"
@@ -106,72 +106,72 @@ msgid ""
 " machine you actually want to go to."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:89
+#: ../../../src/infrastructure/networking/connecting.md:94
 msgid ""
-"Put the following in your :file:`~/.ssh/config` to enable transparent SSH"
-" jump hosts::"
+"Put the following in your {file}`~/.ssh/config` to enable transparent SSH"
+" jump hosts:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:106
+#: ../../../src/infrastructure/networking/connecting.md:112
 msgid ""
-"Remember to replace <VMNAME> with the name of a VM that has a public "
+"Remember to replace \\<VMNAME> with the name of a VM that has a public "
 "frontend IPv4 address configured. It doesn't matter which other VM you "
-"connect to. Also, replace <USERNAME> with the unix username that you are "
-"using in the Flying Circus."
+"connect to. Also, replace \\<USERNAME> with the unix username that you "
+"are using in the Flying Circus."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:112
+#: ../../../src/infrastructure/networking/connecting.md:117
 msgid "Using a private OpenVPN server"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:114
+#: ../../../src/infrastructure/networking/connecting.md:119
 msgid ""
 "If a project has an OpenVPN server available (`external_net` role), "
 "tunneling through a VPN connection may be a convenient alternative."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:119
+#: ../../../src/infrastructure/networking/connecting.md:122
 msgid "Using IPv6 rapid deployment options"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:121
+#: ../../../src/infrastructure/networking/connecting.md:124
 msgid ""
 "Even if your provider does not provide you with IPv6 there is a good "
 "chance you can easily get IPv6 with one of the following \"rapid "
 "deployment\" options."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:124
+#: ../../../src/infrastructure/networking/connecting.md:127
 msgid "The technologies we recommend are:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:126
+#: ../../../src/infrastructure/networking/connecting.md:129
 msgid ""
-"`6to4 <https://en.wikipedia.org/wiki/6to4>`_ which works in many cases "
-"and is supported by Linux, Windows, Mac OS X and many routers. You can "
-"often turn this on for your whole office network by simply setting an "
-"\"Enable 6to4\" option in your router."
+"[6to4](https://en.wikipedia.org/wiki/6to4) which works in many cases and "
+"is supported by Linux, Windows, Mac OS X and many routers. You can often "
+"turn this on for your whole office network by simply setting an \"Enable "
+"6to4\" option in your router."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:130
+#: ../../../src/infrastructure/networking/connecting.md:133
 msgid ""
-"`Teredo tunneling <https://en.wikipedia.org/wiki/Teredo_tunneling>`_ may "
-"be a last-resort option that can be configured on individual machines and"
-" is supported on Windows and Linux."
+"[Teredo tunneling](https://en.wikipedia.org/wiki/Teredo_tunneling) may be"
+" a last-resort option that can be configured on individual machines and "
+"is supported on Windows and Linux."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:132
+#: ../../../src/infrastructure/networking/connecting.md:135
 msgid ""
-"Traditional IP tunnels, like provided by `Tunnelbroker "
-"<https://tunnelbroker.net/>`_ are also an option, although their "
-"performance and reliability varies."
+"Traditional IP tunnels, like provided by "
+"[Tunnelbroker](https://tunnelbroker.net/) are also an option, although "
+"their performance and reliability varies."
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:137
+#: ../../../src/infrastructure/networking/connecting.md:138
 msgid "Further support"
 msgstr ""
 
-#: ../../src/infrastructure/networking/connecting.rst:139
+#: ../../../src/infrastructure/networking/connecting.md:140
 msgid ""
 "IPv6 deployment is gaining traction but the rapid deployment options are "
 "unreliable at times. Check above options or let us know if you found a "
@@ -179,4 +179,63 @@ msgid ""
 "support: we're here to help you through the hard times of IPv4 "
 "exhaustion!"
 msgstr ""
+
+#~ msgid ""
+#~ "Generally you can connect to VMs "
+#~ "on their \"SRV\" interface from the "
+#~ "outside by calling::"
+#~ msgstr ""
+
+#~ msgid "**VM has a public IPv4 address on SRV**::"
+#~ msgstr ""
+
+#~ msgid "**VM has a private IPv4 address on SRV**::"
+#~ msgstr ""
+
+#~ msgid "**VM is accessible through IPv6**::"
+#~ msgstr ""
+
+#~ msgid "**VM is not accessible through IPv6**::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Put the following in your "
+#~ ":file:`~/.ssh/config` to enable transparent "
+#~ "SSH jump hosts::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Remember to replace <VMNAME> with the"
+#~ " name of a VM that has a "
+#~ "public frontend IPv4 address configured. "
+#~ "It doesn't matter which other VM "
+#~ "you connect to. Also, replace <USERNAME>"
+#~ " with the unix username that you "
+#~ "are using in the Flying Circus."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`6to4 <https://en.wikipedia.org/wiki/6to4>`_ which "
+#~ "works in many cases and is "
+#~ "supported by Linux, Windows, Mac OS "
+#~ "X and many routers. You can often"
+#~ " turn this on for your whole "
+#~ "office network by simply setting an "
+#~ "\"Enable 6to4\" option in your router."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Teredo tunneling "
+#~ "<https://en.wikipedia.org/wiki/Teredo_tunneling>`_ may be"
+#~ " a last-resort option that can "
+#~ "be configured on individual machines and"
+#~ " is supported on Windows and Linux."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Traditional IP tunnels, like provided by"
+#~ " `Tunnelbroker <https://tunnelbroker.net/>`_ are "
+#~ "also an option, although their "
+#~ "performance and reliability varies."
+#~ msgstr ""
 

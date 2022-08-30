@@ -9,60 +9,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r020.rst:4
+#: ../../../src/changes/2018/r020.md:5
 msgid "Release 2018_020 (2018-07-09)"
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:7
+#: ../../../src/changes/2018/r020.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:9
-msgid "[NixOS] Most services will be restarted due to the OpenSSL update."
+#: ../../../src/changes/2018/r020.md:9
+msgid "\\[NixOS\\] Most services will be restarted due to the OpenSSL update."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:13
+#: ../../../src/changes/2018/r020.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:15
+#: ../../../src/changes/2018/r020.md:13
 msgid "Security update for libtiff (#101123)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:16
+#: ../../../src/changes/2018/r020.md:14
 msgid "Security update for git (#101837)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:17
+#: ../../../src/changes/2018/r020.md:15
 msgid "Security update for utillinux."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:18
+#: ../../../src/changes/2018/r020.md:16
 msgid "Security update for OpenSSL: 1.0.2o, 1.1.0h (#100885)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:19
+#: ../../../src/changes/2018/r020.md:17
 msgid "Add node.js 9.11.2 (#103462)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:20
+#: ../../../src/changes/2018/r020.md:18
 msgid "Update node.js 8.9.4 -> 8.11.3 (#103462)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:21
+#: ../../../src/changes/2018/r020.md:19
 msgid "Update node.js 6.12.3 -> 6.14.3 (#103462)."
 msgstr ""
 
-#: ../../src/changes/2018/r020.rst:22
+#: ../../../src/changes/2018/r020.md:20
 msgid "Security update for curl: 7.56.0 -> 7.60.0 (#101638)."
 msgstr ""
+
+#~ msgid "[NixOS] Most services will be restarted due to the OpenSSL update."
+#~ msgstr ""
 

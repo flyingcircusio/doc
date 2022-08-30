@@ -9,58 +9,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2019/r008.rst:4
+#: ../../../src/changes/2019/r008.md:5
 msgid "Release 2019_008 (2019-03-27)"
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:7
+#: ../../../src/changes/2019/r008.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:9
-msgid "[NixOS] PostgreSQL servers will be restarted."
+#: ../../../src/changes/2019/r008.md:9
+msgid "\\[NixOS\\] PostgreSQL servers will be restarted."
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:13
+#: ../../../src/changes/2019/r008.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:15
+#: ../../../src/changes/2019/r008.md:13
 msgid "Provide PostgreSQL extension `temporal_tables` (#108908)."
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:16
+#: ../../../src/changes/2019/r008.md:14
 msgid ""
 "Use internal NTP servers for health checking to avoid false alerts when "
 "using public infrastructure (#108793)."
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:21
+#: ../../../src/changes/2019/r008.md:17
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:23
+#: ../../../src/changes/2019/r008.md:19
 msgid ""
 "Improve Ceph config to avoid performance drops during snap trimming tasks"
 " (#108512)."
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:25
+#: ../../../src/changes/2019/r008.md:21
 msgid ""
 "fc.qemu: Fix bug while trying to create snapshots for a VM that is not "
 "running (#108360)."
 msgstr ""
 
-#: ../../src/changes/2019/r008.rst:27
-msgid "fc.qemu: Fix problem with long process names [hotfix] (#108335)."
+#: ../../../src/changes/2019/r008.md:23
+msgid "fc.qemu: Fix problem with long process names \\[hotfix\\] (#108335)."
 msgstr ""
+
+#~ msgid "[NixOS] PostgreSQL servers will be restarted."
+#~ msgstr ""
+
+#~ msgid "fc.qemu: Fix problem with long process names [hotfix] (#108335)."
+#~ msgstr ""
 

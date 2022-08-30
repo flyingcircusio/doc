@@ -9,77 +9,109 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/mysql.rst:6
+#: ../../../src/guide/platform_gentoo/mysql.md:7
 msgid "MySQL"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:8
-msgid "Managed instance of the `MySQL`_ database server."
+#: ../../../src/guide/platform_gentoo/mysql.md:9
+msgid "Managed instance of the [MySQL] database server."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:14
+#: ../../../src/guide/platform_gentoo/mysql.md:11
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:16
+#: ../../../src/guide/platform_gentoo/mysql.md:13
 msgid "MySQL server"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:17
+#: ../../../src/guide/platform_gentoo/mysql.md:14
 msgid "Basic database set up like initial root user creation."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:20
+#: ../../../src/guide/platform_gentoo/mysql.md:16
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:22
+#: ../../../src/guide/platform_gentoo/mysql.md:18
 msgid ""
 "A my.cnf file containing basic settings is put to "
-":file:`/etc/mysql/my.cnf`. Service users may drop config file snippets "
-"containing additional options into :file:`/etc/mysql/local`."
+"{file}`/etc/mysql/my.cnf`. Service users may drop config file snippets "
+"containing additional options into {file}`/etc/mysql/local`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:26
+#: ../../../src/guide/platform_gentoo/mysql.md:22
 msgid ""
 "The password for MySQL's root user can be found in "
-":file:`/etc/mysql/mysql.passwd`. This file is readable by service users."
+"{file}`/etc/mysql/mysql.passwd`. This file is readable by service users."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:31
+#: ../../../src/guide/platform_gentoo/mysql.md:26
 msgid ""
 "Please note that there is no default permission that allows root logins "
 "from external. When connecting to MySQL as root, please omit the "
-":command:`-h` switch::"
+"{command}`-h` switch:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:39
+#: ../../../src/guide/platform_gentoo/mysql.md:35
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:41
+#: ../../../src/guide/platform_gentoo/mysql.md:37
 msgid ""
-"Service users may invoke :command:`sudo /etc/init.d/mysql restart` to "
+"Service users may invoke {command}`sudo /etc/init.d/mysql restart` to "
 "restart the MySQL server after configuration changes."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:45
+#: ../../../src/guide/platform_gentoo/mysql.md:40
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/mysql.rst:47
+#: ../../../src/guide/platform_gentoo/mysql.md:42
 msgid ""
 "The default monitoring setup checks that the MySQL server process is "
 "running and that it responds to connection attempts to the standard MySQL"
 " port."
 msgstr ""
+
+#~ msgid "Managed instance of the `MySQL`_ database server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A my.cnf file containing basic settings"
+#~ " is put to :file:`/etc/mysql/my.cnf`. "
+#~ "Service users may drop config file "
+#~ "snippets containing additional options into"
+#~ " :file:`/etc/mysql/local`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The password for MySQL's root user "
+#~ "can be found in "
+#~ ":file:`/etc/mysql/mysql.passwd`. This file is "
+#~ "readable by service users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that there is no "
+#~ "default permission that allows root "
+#~ "logins from external. When connecting to"
+#~ " MySQL as root, please omit the "
+#~ ":command:`-h` switch::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Service users may invoke :command:`sudo "
+#~ "/etc/init.d/mysql restart` to restart the "
+#~ "MySQL server after configuration changes."
+#~ msgstr ""
 

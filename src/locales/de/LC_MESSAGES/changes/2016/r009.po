@@ -9,59 +9,66 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r009.rst:4
+#: ../../../src/changes/2016/r009.md:5
 msgid "Release 2016_009 (2016-03-09)"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:7
+#: ../../../src/changes/2016/r009.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:9
+#: ../../../src/changes/2016/r009.md:9
 msgid ""
 "All Cluster daemons will be restarted, slowly and carefully, to activate "
 "the new release and configuration. We do not expect noticable impact."
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:13
+#: ../../../src/changes/2016/r009.md:12
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:15
+#: ../../../src/changes/2016/r009.md:14
 msgid "Update Ceph: 0.94.5 -> 0.94.6"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:16
+#: ../../../src/changes/2016/r009.md:15
 msgid "Fix box hashes (#20488)"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:20
+#: ../../../src/changes/2016/r009.md:17
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:22
+#: ../../../src/changes/2016/r009.md:19
 msgid ""
-"We are ignoring the security update for ipython `GLSA 201512-02 "
-"<https://security.gentoo.org/glsa/201512-02>`_ as we are not affected by "
-"the issue."
+"We are ignoring the security update for ipython [GLSA "
+"201512-02](https://security.gentoo.org/glsa/201512-02) as we are not "
+"affected by the issue."
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:26
+#: ../../../src/changes/2016/r009.md:22
 msgid ""
 "Adjust Ceph options to make maintenance activities like scrubbing and "
 "snapshot trimming less impactful."
 msgstr ""
 
-#: ../../src/changes/2016/r009.rst:29
+#: ../../../src/changes/2016/r009.md:24
 msgid "Switch Ceph to \"jemalloc\" allocator for improved latency."
 msgstr ""
+
+#~ msgid ""
+#~ "We are ignoring the security update "
+#~ "for ipython `GLSA 201512-02 "
+#~ "<https://security.gentoo.org/glsa/201512-02>`_ as we "
+#~ "are not affected by the issue."
+#~ msgstr ""
 

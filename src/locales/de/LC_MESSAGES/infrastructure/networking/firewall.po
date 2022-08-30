@@ -9,31 +9,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/infrastructure/networking/firewall.rst:4
+#: ../../../src/infrastructure/networking/firewall.md:3
 msgid "Firewall"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:7
+#: ../../../src/infrastructure/networking/firewall.md:5
 msgid "Concept"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:9
+#: ../../../src/infrastructure/networking/firewall.md:7
 msgid ""
 "We rely mainly on the separation of different VLANs. Firewalls provide "
 "exceptions to the rules. This results in a rather small firewall ruleset "
 "which is easy to understand."
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:13
+#: ../../../src/infrastructure/networking/firewall.md:11
 msgid ""
 "The main decision about access control is expressed by the choice of the "
 "interface(s) application bind to. If an application opens a port on the "
@@ -41,71 +41,77 @@ msgid ""
 "on the *srv* interface, restricted access is assumed."
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:20
+#: ../../../src/infrastructure/networking/firewall.md:16
 msgid "Restrictions on the *srv* network"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:22
+#: ../../../src/infrastructure/networking/firewall.md:18
 msgid ""
 "Only few connections from the public internet to ports on the *srv* "
 "network can be opened by default. Machines inside the same project may "
 "access the *srv* ports of their RG peers freely."
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:26
+#: ../../../src/infrastructure/networking/firewall.md:22
 msgid "Currently we allow public access for:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:28
+#: ../../../src/infrastructure/networking/firewall.md:24
 msgid "SSH (22) - to provide login access to VMs"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:29
+#: ../../../src/infrastructure/networking/firewall.md:25
 msgid "NTP (123) - to synchronize clocks with outside hosts"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:30
+#: ../../../src/infrastructure/networking/firewall.md:26
 msgid "BGP (179, INPUT routers) to peer with uplink providers"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:31
+#: ../../../src/infrastructure/networking/firewall.md:27
 msgid ""
 "Domain (53, INPUT on routers) to provide access to selected authoritative"
 " zones"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:32
+#: ../../../src/infrastructure/networking/firewall.md:28
 msgid "RSYNC (873) - to allow binhosts to provide data to other locations"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:34
+#: ../../../src/infrastructure/networking/firewall.md:30
 msgid ""
 "Managed components that are installed on a machine may provide additional"
 " firewall exceptions (either for public or data center-internal traffic),"
 " for example:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:38
+#: ../../../src/infrastructure/networking/firewall.md:34
 msgid "Grafana (statshost) opens ports 2003 and 2004."
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:39
+#: ../../../src/infrastructure/networking/firewall.md:35
 msgid "VxLAN/OpenVPN servers open several ports depending on their configuration."
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:45
+#: ../../../src/infrastructure/networking/firewall.md:39
 msgid "Adding custom firewall rules"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:47
+#: ../../../src/infrastructure/networking/firewall.md:41
 msgid "How to add custom firewall rules depends on the platform of your VM:"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:49
-msgid "`NixOS 19.03 and newer </roles/current/firewall.html>`_"
+#: ../../../src/infrastructure/networking/firewall.md:43
+msgid "[NixOS 19.03 and newer](/roles/current/firewall.html)"
 msgstr ""
 
-#: ../../src/infrastructure/networking/firewall.rst:50
-msgid ":ref:`NixOS 15.09 <nixos-firewall>`"
+#: ../../../src/infrastructure/networking/firewall.md:44
+msgid "{ref}`NixOS 15.09 <nixos-firewall>`"
 msgstr ""
+
+#~ msgid "`NixOS 19.03 and newer </roles/current/firewall.html>`_"
+#~ msgstr ""
+
+#~ msgid ":ref:`NixOS 15.09 <nixos-firewall>`"
+#~ msgstr ""
 

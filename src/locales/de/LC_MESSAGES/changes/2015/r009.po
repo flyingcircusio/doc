@@ -9,52 +9,68 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r009.rst:4
+#: ../../../src/changes/2015/r009.md:5
 msgid "Release 2015_009 (2015-02-18)"
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:7
+#: ../../../src/changes/2015/r009.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:9
+#: ../../../src/changes/2015/r009.md:9
 msgid ""
-"Security update for `GLSA 201502-10 / libpng "
-"<http://www.gentoo.org/security/en/glsa/glsa-201502-10.xml>`_ (#14628)."
+"Security update for [GLSA 201502-10 / "
+"libpng](http://www.gentoo.org/security/en/glsa/glsa-201502-10.xml) "
+"(#14628)."
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:11
+#: ../../../src/changes/2015/r009.md:10
 msgid ""
-"Security update for `GLSA 201502-11 / cpio "
-"<http://www.gentoo.org/security/en/glsa/glsa-201502-11.xml>`_ (#14629)."
+"Security update for [GLSA 201502-11 / "
+"cpio](http://www.gentoo.org/security/en/glsa/glsa-201502-11.xml) "
+"(#14629)."
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:16
+#: ../../../src/changes/2015/r009.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:18
+#: ../../../src/changes/2015/r009.md:14
 msgid "Rotate /var/log/syslog on log hosts which can grow really big (#14649)."
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:19
+#: ../../../src/changes/2015/r009.md:15
 msgid ""
 "Reorder service startups on Ceph hosts to improve troubleshooting "
 "capabilities (#14638)."
 msgstr ""
 
-#: ../../src/changes/2015/r009.rst:21
+#: ../../../src/changes/2015/r009.md:17
 msgid ""
 "Improve traffic accounter/firewall management interaction for more "
 "accurate traffic accounts (#14609)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201502-10 /"
+#~ " libpng "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201502-10.xml>`_ "
+#~ "(#14628)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201502-11 /"
+#~ " cpio "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201502-11.xml>`_ "
+#~ "(#14629)."
+#~ msgstr ""
 

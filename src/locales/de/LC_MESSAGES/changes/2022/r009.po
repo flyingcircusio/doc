@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r009.md:5
+msgid "Release 2022_009 (2022-03-28)"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:9
+msgid ""
+"\\[NixOS 21.11\\] All LAMP servers will be restarted and switched from "
+"mod_php to FPM."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:10
+msgid ""
+"\\[NixOS 21.11\\] Most services will be restarted because of core "
+"dependency changes. VM will schedule a reboot to activate the new kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:12
+msgid "\\[NixOS 21.05\\] LAMP: Apache will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:14
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:16
+msgid ""
+"This is the first production release of the 21.11 platform. Default "
+"version for new production VMs is still 21.05."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:19
+msgid ""
+"LAMP: switch from mod_php to FPM due to stability reasons and for future "
+"flexibility (#PL-130496)."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:21
+msgid ""
+"Add setuptools to global Python 3 which was dropped in the transition "
+"from 21.05 to 21.11. This avoid errors like `ModuleNotFoundError: No "
+"module named 'pkg_resources'`. In general, applications should not depend"
+" on the globally installed python3 interpreter but we re-add this to make"
+" upgrades to 21.11 easier (#PL-130510)."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:26 ../../../src/changes/2022/r009.md:64
+msgid ""
+"Make sure that home dir permissions are always set correctly when "
+"activating a new system (#PL-130524)."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:28
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130446, #PL-130514):"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:30
+msgid "bind: 9.16.25 -> 9.16.27 (CVE-2021-25220, CVE-2022-0396)"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:31
+msgid "element-web: 1.10.1 -> 1.10.6"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:32
+msgid "gitlab: 14.7.1 -> 14.8.4"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:33
+msgid "glibc: 2.33-117 -> 2.33-123"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:34
+msgid "grafana: 8.3.6 -> 8.4.4"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:35
+msgid "imagemagick: 7.1.0-24 -> 7.1.0-26"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:36
+msgid "linux: 5.10.99 -> 5.10.106"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:37
+msgid "matrix-synapse: 1.52.0 -> 1.54.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:38
+msgid "mysql57: 5.7.27 -> 5.7.37"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:39
+msgid "nginxModules.modsecurity-nginx: 1.0.1 -> 1.0.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:40
+msgid "nodejs-12_x: 12.22.9 -> 12.22.11"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:41
+msgid "nodejs-14_x: 14.18.3 -> 14.19.1"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:42
+msgid "nodejs-16_x: 16.13.2 -> 16.14.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:43
+msgid "nodejs-17_x: 17.4.0 -> 17.7.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:44
+msgid "openssl_1_1: 1.1.1m -> 1.1.1n (CVE-2022-0778)"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:45
+msgid "openssl_3_0: 3.0.1 -> 3.0.2 (CVE-2022-0778)"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:46
+msgid "php74: 7.4.27 -> 7.4.28"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:47
+msgid "php80: 8.0.14 -> 8.0.16"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:48
+msgid "postfix: 3.6.4 -> 3.6.5"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:49
+msgid "postgresql_10: 10.19 -> 10.20"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:50
+msgid "postgresql_11: 11.14 -> 11.15"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:51
+msgid "postgresql_12: 12.9 -> 12.10"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:52
+msgid "postgresql_13: 13.5 -> 13.6"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:53
+msgid "postgresql_14: 14.1 -> 14.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:54
+msgid "util-linux: 2.37.3 -> 2.37.4 (CVE-2022-0563)"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:55
+msgid ""
+"nixos/tomcat: configure default group and fix broken default package "
+"reference"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:57
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/145761/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:59
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:61
+msgid ""
+"LAMP role: provide FPM as an alternative to the mod_php based "
+"environments. This is a drop-in replacement and can be enabled using the "
+"flyingcircus.roles.lamp.useFPM flag (#PL-130496)."
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:65
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/145685/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:67
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r009.md:69
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_008/21.05...12a2dcc2f6922d9e66455a40c1aa7224bb59f931)"
+msgstr ""
+

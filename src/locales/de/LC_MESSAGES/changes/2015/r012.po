@@ -9,52 +9,60 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r012.rst:4
+#: ../../../src/changes/2015/r012.md:5
 msgid "Release 2015_012 (2015-03-06)"
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:7
+#: ../../../src/changes/2015/r012.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:9
+#: ../../../src/changes/2015/r012.md:9
 msgid "Rename platform utility package \"goceptnet\" to \"fc-agent\" (#13586)."
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:10
+#: ../../../src/changes/2015/r012.md:10
 msgid "Add app-text/pdfjam to pspdf role (#14814)."
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:14
+#: ../../../src/changes/2015/r012.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:16
+#: ../../../src/changes/2015/r012.md:14
 msgid ""
 "Clean up deprecated portage configuration files like "
-":file:`/etc/make.conf`."
+"{file}`/etc/make.conf`."
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:17
+#: ../../../src/changes/2015/r012.md:15
 msgid ""
 "Improve host reboot scheduling so that only one storage server goes down "
 "at a time (#13755)."
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:22
+#: ../../../src/changes/2015/r012.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r012.rst:24
-msgid "Update docs: :ref:`administrators` and :ref:`data-protection`."
+#: ../../../src/changes/2015/r012.md:20
+msgid "Update docs: {ref}`administrators` and {ref}`data-protection`."
 msgstr ""
+
+#~ msgid ""
+#~ "Clean up deprecated portage configuration "
+#~ "files like :file:`/etc/make.conf`."
+#~ msgstr ""
+
+#~ msgid "Update docs: :ref:`administrators` and :ref:`data-protection`."
+#~ msgstr ""
 

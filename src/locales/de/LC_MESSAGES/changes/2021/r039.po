@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2021/r039.md:5
+msgid "Release 2021_039 (2021-12-06)"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:9
+msgid ""
+"\\[NixOS 21.05\\] Most services will be restarted. VMs will schedule a "
+"reboot to activate the new kernel version."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:12
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:14
+msgid ""
+"MySQL: rotate slow log when file size is greater than 2GB and compress, "
+"at least once a week (#PL-130221)."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:17
+msgid ""
+"OpenVPN: client example config is now accessible for users with `login` "
+"permissions."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:19
+msgid ""
+"Kubernetes: replace old implementation based on NixOS k8s support with a "
+"k3s-based solution which is easier to manage and has some improvements "
+"like proper support for services of type LoadBalancer, a local path "
+"provisioner and pre-installed helm for package management, a metrics-"
+"server, and traefik for ingress. The roles k3s-server and k3s-agent "
+"replace kubernetes-master and kubernetes-node, respectively. The "
+"kubernetes-frontend role was removed, webgateway now automatically "
+"activates Kubernetes support when it's running in a project with a k3s-"
+"server. The k3s roles are currently in beta state. Documentation has been"
+" updated to reflect the changes and give more frontend configuration "
+"examples (#PL-130215)."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:31
+msgid ""
+"kubernetes/k3s: speed up kubectl startup by using a separate binary "
+"instead of aliasing `k3s kubectl` (#PL-130240)."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:34
+msgid ""
+"Gitlab: upgrade to 14.4.1. The upgrade was already rolled out manually "
+"before this release (#PL-130156)."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:37
+msgid "devhost: various improvements (#PL-129841):"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:39
+msgid ""
+"Use platform default timezone \"Europe/Berlin\" as default for "
+"containers, too."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:40
+msgid "Fix use of NFS roles (single container only)."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:41
+msgid "Start dev containers automatically when the devhost ist rebooted."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:42
+msgid ""
+"Properly handle disabled containers for startup and with existing nginx "
+"configurations."
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:44
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130230):"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:46
+msgid "gd: 2.3.0 -> 2.3.2, add patch for partial CVE-2021-40812 fix"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:47
+msgid "go_1_17: 1.17.2 -> 1.17.3"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:48
+msgid "imagemagick: 7.1.0-9 -> 7.1.0-13"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:49
+msgid "linux: 5.10.79 -> 5.10.81"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:50
+msgid "nginxStable: 1.20.1 -> 1.20.2"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:51
+msgid "openssh: Fix CVE-2021-41617"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:52
+msgid "php74: 7.4.25 -> 7.4.26 (CVE-2021-21707)"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:53
+msgid "php80: 8.0.12 -> 8.0.13 (CVE-2021-21707)"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:54
+msgid "vim: 8.2.2567 -> 8.2.3451"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:56
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/118848/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:58
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2021/r039.md:60
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_038/21.05...dfcdd3b9806f4c56785afab206ffcf7ac58a76f2),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/195d5816cddc056e07fd2aa3fe81ee6e3f9d96e2...2553aee74fed8c2205a4aeb3ffd206ca14ede60f)"
+msgstr ""
+

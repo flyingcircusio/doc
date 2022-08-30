@@ -9,61 +9,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r037.rst:4
+#: ../../../src/changes/2014/r037.md:5
 msgid "Release 2014_037 (2014-07-30)"
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:7
+#: ../../../src/changes/2014/r037.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:9
+#: ../../../src/changes/2014/r037.md:9
 msgid ""
-"Security update for `GLSA 201407-05 / openssl "
-"<http://www.gentoo.org/security/en/glsa/glsa-201407-05.xml>`_ (#13549). "
-"Restarts of PostgreSQL may be necessary due to changed link dependencies."
+"Security update for [GLSA 201407-05 / "
+"openssl](http://www.gentoo.org/security/en/glsa/glsa-201407-05.xml) "
+"(#13549). Restarts of PostgreSQL may be necessary due to changed link "
+"dependencies."
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:15
+#: ../../../src/changes/2014/r037.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:17
+#: ../../../src/changes/2014/r037.md:14
 msgid "Add root SSH key for orchestration support through the \"directory\"."
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:18
+#: ../../../src/changes/2014/r037.md:15
 msgid ""
 "Execute tighter control on key storage parameters like number of Ceph PGs"
 " per pool to keep performance variations in bounds (#13491)."
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:20
+#: ../../../src/changes/2014/r037.md:17
 msgid ""
 "Make invocation of `perl-cleaner` and `python-cleaner` independent of "
 "update-system's specific *todo list* to better support convergence."
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:22
+#: ../../../src/changes/2014/r037.md:19
 msgid ""
 "Improve ceph restart: use ceph-provided restart command and increase post"
 " start wait period to lower the noise level in cluster."
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:26
+#: ../../../src/changes/2014/r037.md:22
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r037.rst:28
+#: ../../../src/changes/2014/r037.md:24
 msgid "Fine-tune portage integrity check (RT 96400)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201407-05 /"
+#~ " openssl "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201407-05.xml>`_ "
+#~ "(#13549). Restarts of PostgreSQL may be"
+#~ " necessary due to changed link "
+#~ "dependencies."
+#~ msgstr ""
 

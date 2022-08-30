@@ -9,70 +9,109 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/docker.rst:4
+#: ../../../src/guide/platform_nixos/docker.md:3
 msgid "Docker"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:6
+#: ../../../src/guide/platform_nixos/docker.md:5
 msgid ""
-"Runs a `Docker <http://docker.com>`_ daemon to use containers for "
+"Runs a [Docker](http://docker.com) daemon to use containers for "
 "application deployment."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:9
+#: ../../../src/guide/platform_nixos/docker.md:9
 msgid ""
 "Docker support is – at the moment – still experimental. Feel free to use "
 "it but we suggest contacting our support before putting anything into "
 "production."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:15
+#: ../../../src/guide/platform_nixos/docker.md:14
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:17
+#: ../../../src/guide/platform_nixos/docker.md:16
 msgid ""
-"All service users can interact with Docker using the :command:`docker` "
+"All service users can interact with Docker using the {command}`docker` "
 "command."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:20
+#: ../../../src/guide/platform_nixos/docker.md:18
 msgid "Network"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:22
+#: ../../../src/guide/platform_nixos/docker.md:20
 msgid ""
 "The Flying Circus network is already designed to allow customer "
 "application components to talk to each other securely and reliably. "
-"Docker should be run with the :command:`--network host` option to ensure "
+"Docker should be run with the {command}`--network host` option to ensure "
 "proper integration."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:26
+#: ../../../src/guide/platform_nixos/docker.md:24
 msgid ""
 "If you want your container to be reachable from the public internet, make"
-" sure it binds to an address on the :file:`ethfe` interface (or "
-"``0.0.0.0`` or ``::``). You then need to :ref:`open up appropriate ports "
-"in the firewall <nixos-firewall>`."
+" sure it binds to an address on the {file}`ethfe` interface (or `0.0.0.0`"
+" or `::`). You then need to {ref}`open up appropriate ports in the "
+"firewall <nixos-firewall>`."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:30
+#: ../../../src/guide/platform_nixos/docker.md:28
 msgid ""
 "Other hosts in the same project can automatically connect to all the "
-"ports your container provides by connecting to ``<$hostname>:<port>`` "
-"(which ends up on on the :file:`ethsrv` interface)."
+"ports your container provides by connecting to `<$hostname>:<port>` "
+"(which ends up on on the {file}`ethsrv` interface)."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/docker.rst:34
+#: ../../../src/guide/platform_nixos/docker.md:32
 msgid "All other network configurations are not supported at the moment."
 msgstr ""
+
+#~ msgid ""
+#~ "Runs a `Docker <http://docker.com>`_ daemon"
+#~ " to use containers for application "
+#~ "deployment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All service users can interact with "
+#~ "Docker using the :command:`docker` command."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Flying Circus network is already "
+#~ "designed to allow customer application "
+#~ "components to talk to each other "
+#~ "securely and reliably. Docker should be"
+#~ " run with the :command:`--network host` "
+#~ "option to ensure proper integration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want your container to be"
+#~ " reachable from the public internet, "
+#~ "make sure it binds to an address"
+#~ " on the :file:`ethfe` interface (or "
+#~ "``0.0.0.0`` or ``::``). You then need"
+#~ " to :ref:`open up appropriate ports "
+#~ "in the firewall <nixos-firewall>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Other hosts in the same project "
+#~ "can automatically connect to all the "
+#~ "ports your container provides by "
+#~ "connecting to ``<$hostname>:<port>`` (which "
+#~ "ends up on on the :file:`ethsrv` "
+#~ "interface)."
+#~ msgstr ""
 

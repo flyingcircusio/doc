@@ -9,56 +9,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r019.rst:4
+#: ../../../src/changes/2018/r019.md:5
 msgid "Release 2018_019 (2018-07-03)"
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:7
+#: ../../../src/changes/2018/r019.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:9
+#: ../../../src/changes/2018/r019.md:9
 msgid ""
-"[NixOS] HAProxy instances will be restarted. In case of startup failures,"
-" check the configuration for outdated options."
+"\\[NixOS\\] HAProxy instances will be restarted. In case of startup "
+"failures, check the configuration for outdated options."
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:12
+#: ../../../src/changes/2018/r019.md:12
 msgid ""
 "Specifically, configuring the stats backend has changed. Replace lines "
-"like::"
+"like:"
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:16
-msgid "with::"
+#: ../../../src/changes/2018/r019.md:18
+msgid "with:"
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:22
+#: ../../../src/changes/2018/r019.md:24
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:24
+#: ../../../src/changes/2018/r019.md:26
 msgid "Update Telegraf 1.5.3 -> 1.7.0 (#101970)."
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:25
+#: ../../../src/changes/2018/r019.md:27
 msgid "Update HAProxy 1.5.14 -> 1.8.9 (#103210)."
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:26
+#: ../../../src/changes/2018/r019.md:28
 msgid "Update coturn to 4.5.0.7 (#103214)."
 msgstr ""
 
-#: ../../src/changes/2018/r019.rst:27
+#: ../../../src/changes/2018/r019.md:29
 msgid "Fix building of PHP 5.6 packages, like `xcache` (#103319)."
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS] HAProxy instances will be "
+#~ "restarted. In case of startup failures,"
+#~ " check the configuration for outdated "
+#~ "options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Specifically, configuring the stats backend"
+#~ " has changed. Replace lines like::"
+#~ msgstr ""
+
+#~ msgid "with::"
+#~ msgstr ""
 

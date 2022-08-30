@@ -9,64 +9,82 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2013/r2013_037.rst:4
+#: ../../../src/changes/2013/r2013_037.md:5
 msgid "Release 2013_037 (2013-11-27)"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:7
+#: ../../../src/changes/2013/r2013_037.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:9
+#: ../../../src/changes/2013/r2013_037.md:9
 msgid "Upgrade QEMU package to support VM data access via Ceph (#12942)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:10
+#: ../../../src/changes/2013/r2013_037.md:10
 msgid ""
-"Security update for `GLSA 201311-13 / openvpn "
-"<http://www.gentoo.org/security/en/glsa/glsa-201311-13.xml>`_"
+"Security update for [GLSA 201311-13 / "
+"openvpn](http://www.gentoo.org/security/en/glsa/glsa-201311-13.xml)"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:15
+#: ../../../src/changes/2013/r2013_037.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:17
+#: ../../../src/changes/2013/r2013_037.md:14
 msgid "Improve backup reliability (#12942)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:18
+#: ../../../src/changes/2013/r2013_037.md:15
 msgid ""
-"The configuration file :file:`/etc/conf.d/memcached.memusage` is now "
+"The configuration file {file}`/etc/conf.d/memcached.memusage` is now "
 "writable for service users (RT 91989)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:23
+#: ../../../src/changes/2013/r2013_037.md:18
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:25
+#: ../../../src/changes/2013/r2013_037.md:20
 msgid ""
 "Fix bug in backup monitoring where the backup recentness check showed "
 "false positives (#9108)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:30
+#: ../../../src/changes/2013/r2013_037.md:23
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_037.rst:32
+#: ../../../src/changes/2013/r2013_037.md:25
 msgid ""
-"Extend :ref:`networking` documentation to explain physical and logical "
+"Extend {ref}`networking` documentation to explain physical and logical "
 "networks a bit more."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201311-13 /"
+#~ " openvpn "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201311-13.xml>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The configuration file "
+#~ ":file:`/etc/conf.d/memcached.memusage` is now "
+#~ "writable for service users (RT 91989)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Extend :ref:`networking` documentation to "
+#~ "explain physical and logical networks a"
+#~ " bit more."
+#~ msgstr ""
 

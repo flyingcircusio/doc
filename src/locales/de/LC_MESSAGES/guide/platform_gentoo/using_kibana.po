@@ -9,102 +9,153 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:4
+#: ../../../src/guide/platform_gentoo/using_kibana.md:3
 msgid "Analyzing logs with Kibana"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:6
+#: ../../../src/guide/platform_gentoo/using_kibana.md:5
 msgid ""
-"Kibana is accessible on `My Flying Circus <https://my.flyingcircus.io>`_ "
+"Kibana is accessible on [My Flying Circus](https://my.flyingcircus.io) "
 "via the *Tools* drop-down box of the machine having the loghost role "
 "assigned:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:14
-msgid "You need the :ref:`stats permission <permissions>` to access Kibana."
+#: ../../../src/guide/platform_gentoo/using_kibana.md:13
+msgid "You need the {ref}`stats permission <permissions>` to access Kibana."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:17
+#: ../../../src/guide/platform_gentoo/using_kibana.md:16
 msgid "Creating an index pattern"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:19
+#: ../../../src/guide/platform_gentoo/using_kibana.md:18
 msgid ""
-"When accessing your :ref:`loghost's <gentoo-loghost>` Kibana for the "
+"When accessing your {ref}`loghost's <gentoo-loghost>` Kibana for the "
 "first time, you will be asked to create an *index pattern*.  Choose "
 "*@timestamp* as your *Time-field name*:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:26
+#: ../../../src/guide/platform_gentoo/using_kibana.md:26
 msgid ""
-"Now, you can start using Kibana. We recommend the `tutorial from Tim Roes"
-" <https://www.timroes.de/2015/02/07/kibana-4-tutorial-"
-"part-1-introduction/>`_ if you are new to Kibana."
+"Now, you can start using Kibana. We recommend the [tutorial from Tim "
+"Roes](https://www.timroes.de/2015/02/07/kibana-4-tutorial-"
+"part-1-introduction/) if you are new to Kibana."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:30
+#: ../../../src/guide/platform_gentoo/using_kibana.md:29
 msgid ""
 "Kibana will show all the data that is stored in Elasticsearch. Initially,"
 " these are the inputs that are included by us:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:33
-msgid "`syslog input plugin <http://logstash.net/docs/1.4.2/inputs/syslog>`_"
+#: ../../../src/guide/platform_gentoo/using_kibana.md:32
+msgid "[syslog input plugin](http://logstash.net/docs/1.4.2/inputs/syslog)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:34
-msgid "custom filter pattern for HAPRoxy (:file:`/var/log/haproxy.log`)"
+#: ../../../src/guide/platform_gentoo/using_kibana.md:33
+msgid "custom filter pattern for HAPRoxy ({file}`/var/log/haproxy.log`)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:35
+#: ../../../src/guide/platform_gentoo/using_kibana.md:34
 msgid ""
 "custom filter pattern for nginx access logs "
-"(:file:`/var/log/nginx/*access.log`)"
+"({file}`/var/log/nginx/*access.log`)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:36
+#: ../../../src/guide/platform_gentoo/using_kibana.md:35
 msgid ""
 "custom filter pattern for nginx performance logs "
-"(:file:`/var/log/nginx/performance.log`)"
+"({file}`/var/log/nginx/performance.log`)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:38
+#: ../../../src/guide/platform_gentoo/using_kibana.md:37
 msgid ""
-"For additional data sources, just add your own :ref:`configuration "
-"snippets <configuring_logging_components>` to :ref:`configure_logstash` "
-"or :ref:`configure_logstash-forwarder`, respectively."
+"For additional data sources, just add your own {ref}`configuration "
+"snippets <configuring_logging_components>` to {ref}`configure_logstash` "
+"or {ref}`configure_logstash-forwarder`, respectively."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:44
+#: ../../../src/guide/platform_gentoo/using_kibana.md:41
 msgid "Refreshing your index pattern (reload field list)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:46
+#: ../../../src/guide/platform_gentoo/using_kibana.md:43
 msgid ""
 "Every time your index properties in Elasticsearch change (e.g. when "
 "adding new logstash inputs), make sure to update your respective index "
 "patterns pattern in Kibana to reflect these changes."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:52
+#: ../../../src/guide/platform_gentoo/using_kibana.md:48
 msgid ""
 "if you miss this step, you might not see your changes in Kibana (e.g. "
 "newly introduced fields)."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/using_kibana.rst:55
+#: ../../../src/guide/platform_gentoo/using_kibana.md:52
 msgid ""
 "To update your index pattern, go to *Settings* -> *Indices* and select "
 "your *index pattern* (logstash-\\* in our case). Then, just hit the "
 "*Reload field list* button:"
 msgstr ""
+
+#~ msgid ""
+#~ "Kibana is accessible on `My Flying "
+#~ "Circus <https://my.flyingcircus.io>`_ via the "
+#~ "*Tools* drop-down box of the "
+#~ "machine having the loghost role "
+#~ "assigned:"
+#~ msgstr ""
+
+#~ msgid "You need the :ref:`stats permission <permissions>` to access Kibana."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When accessing your :ref:`loghost's "
+#~ "<gentoo-loghost>` Kibana for the first "
+#~ "time, you will be asked to create"
+#~ " an *index pattern*.  Choose *@timestamp*"
+#~ " as your *Time-field name*:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now, you can start using Kibana. "
+#~ "We recommend the `tutorial from Tim "
+#~ "Roes <https://www.timroes.de/2015/02/07/kibana-4-tutorial-"
+#~ "part-1-introduction/>`_ if you are new "
+#~ "to Kibana."
+#~ msgstr ""
+
+#~ msgid "`syslog input plugin <http://logstash.net/docs/1.4.2/inputs/syslog>`_"
+#~ msgstr ""
+
+#~ msgid "custom filter pattern for HAPRoxy (:file:`/var/log/haproxy.log`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "custom filter pattern for nginx access"
+#~ " logs (:file:`/var/log/nginx/*access.log`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "custom filter pattern for nginx "
+#~ "performance logs (:file:`/var/log/nginx/performance.log`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For additional data sources, just add"
+#~ " your own :ref:`configuration snippets "
+#~ "<configuring_logging_components>` to "
+#~ ":ref:`configure_logstash` or :ref:`configure_logstash-"
+#~ "forwarder`, respectively."
+#~ msgstr ""
 

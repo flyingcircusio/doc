@@ -9,58 +9,98 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r060.rst:4
+#: ../../../src/changes/2014/r060.md:5
 msgid "Release 2014_060 (2014-12-31)"
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:7
+#: ../../../src/changes/2014/r060.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:9
+#: ../../../src/changes/2014/r060.md:9
 msgid ""
-"Security update for `GLSA 201412-35 / rsyslog "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-35.xml>`_ (#14149)."
+"Security update for [GLSA 201412-35 / "
+"rsyslog](http://www.gentoo.org/security/en/glsa/glsa-201412-35.xml) "
+"(#14149)."
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:11
+#: ../../../src/changes/2014/r060.md:10
 msgid ""
-"Security update for `GLSA 201412-39 / openssl "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-39.xml>`_ (#14150)."
+"Security update for [GLSA 201412-39 / "
+"openssl](http://www.gentoo.org/security/en/glsa/glsa-201412-39.xml) "
+"(#14150)."
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:13
+#: ../../../src/changes/2014/r060.md:11
 msgid ""
-"Security update for `GLSA 201412-45 / facter "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-45.xml>`_ (#14151)."
+"Security update for [GLSA 201412-45 / "
+"facter](http://www.gentoo.org/security/en/glsa/glsa-201412-45.xml) "
+"(#14151)."
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:15
+#: ../../../src/changes/2014/r060.md:12
 msgid ""
-"Security update for `GLSA 201412-46 / lcms "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-46.xml>`_ (#14152)."
+"Security update for [GLSA 201412-46 / "
+"lcms](http://www.gentoo.org/security/en/glsa/glsa-201412-46.xml) "
+"(#14152)."
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:17
+#: ../../../src/changes/2014/r060.md:13
 msgid ""
-"Security update for `GLSA 201412-48 / file "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-48.xml>`_ (#14153)."
+"Security update for [GLSA 201412-48 / "
+"file](http://www.gentoo.org/security/en/glsa/glsa-201412-48.xml) "
+"(#14153)."
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:22
+#: ../../../src/changes/2014/r060.md:15
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r060.rst:24
+#: ../../../src/changes/2014/r060.md:17
 msgid "Fix bug in PostgreSQL sudo rules."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-35 /"
+#~ " rsyslog "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-35.xml>`_ "
+#~ "(#14149)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-39 /"
+#~ " openssl "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-39.xml>`_ "
+#~ "(#14150)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-45 /"
+#~ " facter "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-45.xml>`_ "
+#~ "(#14151)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-46 /"
+#~ " lcms "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-46.xml>`_ "
+#~ "(#14152)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-48 /"
+#~ " file "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-48.xml>`_ "
+#~ "(#14153)."
+#~ msgstr ""
 

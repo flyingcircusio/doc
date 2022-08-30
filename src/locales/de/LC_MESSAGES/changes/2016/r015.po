@@ -9,62 +9,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r015.rst:4
+#: ../../../src/changes/2016/r015.md:5
 msgid "Release 2016_015 (2016-05-10)"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:7
+#: ../../../src/changes/2016/r015.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:9
+#: ../../../src/changes/2016/r015.md:9
 msgid "Upgrade fc.agent to 1.9.3 (#21393)."
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:10
+#: ../../../src/changes/2016/r015.md:10
 msgid ""
 "Install dev-python/mysql-python on all MySQL servers to assist Ansible "
 "deployments. (#21250)"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:12
+#: ../../../src/changes/2016/r015.md:12
 msgid "NixOS: Add Java role (installs OpenJDK 8)."
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:13
+#: ../../../src/changes/2016/r015.md:13
 msgid ""
-"Security update for git `GLSA 201605-01 "
-"<https://security.gentoo.org/glsa/201605-01>`_ (#21484)."
+"Security update for git [GLSA "
+"201605-01](https://security.gentoo.org/glsa/201605-01) (#21484)."
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:17
+#: ../../../src/changes/2016/r015.md:15
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:19
+#: ../../../src/changes/2016/r015.md:17
 msgid "Provide the popular \"ll\" alias in bash by default."
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:23
+#: ../../../src/changes/2016/r015.md:19
 msgid "References"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:25
-msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/bf1f886"
+#: ../../../src/changes/2016/r015.md:21
+msgid "NixOS source: <https://github.com/flyingcircusio/nixpkgs/commit/bf1f886>"
 msgstr ""
 
-#: ../../src/changes/2016/r015.rst:28
+#: ../../../src/changes/2016/r015.md:23
 msgid ""
 "Puppet source: "
-"https://bitbucket.org/flyingcircus/fc.platform/commits/395a0476ef29"
+"<https://bitbucket.org/flyingcircus/fc.platform/commits/395a0476ef29>"
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for git `GLSA 201605-01"
+#~ " <https://security.gentoo.org/glsa/201605-01>`_ (#21484)."
+#~ msgstr ""
+
+#~ msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/bf1f886"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Puppet source: "
+#~ "https://bitbucket.org/flyingcircus/fc.platform/commits/395a0476ef29"
+#~ msgstr ""
 

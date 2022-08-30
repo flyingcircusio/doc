@@ -9,59 +9,73 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r039.rst:4
+#: ../../../src/changes/2015/r039.md:5
 msgid "Release 2015_039 (2015-08-05)"
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:7
+#: ../../../src/changes/2015/r039.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:9
+#: ../../../src/changes/2015/r039.md:9
 msgid ""
-"Security update for Qemu. This requires to reboot all VMs.  See `blog "
-"post <http://blog.flyingcircus.io/2015/08/03/venoms-little-brother-is-"
-"here-another-qemu-security-upgrade-required/>`_ for details (#16907)."
+"Security update for Qemu. This requires to reboot all VMs.  See [blog "
+"post](http://blog.flyingcircus.io/2015/08/03/venoms-little-brother-is-"
+"here-another-qemu-security-upgrade-required/) for details (#16907)."
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:12
+#: ../../../src/changes/2015/r039.md:11
 msgid ""
 "Force uninstallation of libjpeg-turbo to avoid clashes with libjpeg "
 "(#16940)"
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:13
+#: ../../../src/changes/2015/r039.md:12
 msgid "Upgrade Ceph to Hammer long-term stable release (#16783)."
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:14
+#: ../../../src/changes/2015/r039.md:13
 msgid ""
 "Remove `customerproject` role. Packages contained in this role are now "
 "contained in the base system."
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:19
+#: ../../../src/changes/2015/r039.md:16
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:21
+#: ../../../src/changes/2015/r039.md:18
 msgid "Reliability improvements in backup scripts."
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:25
+#: ../../../src/changes/2015/r039.md:20
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2015/r039.rst:27
-msgid "Updated :ref:`data-protection` to reflect changes in user authentication."
+#: ../../../src/changes/2015/r039.md:22
+msgid "Updated {ref}`data-protection` to reflect changes in user authentication."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for Qemu. This requires"
+#~ " to reboot all VMs.  See `blog "
+#~ "post <http://blog.flyingcircus.io/2015/08/03/venoms-"
+#~ "little-brother-is-here-another-qemu-"
+#~ "security-upgrade-required/>`_ for details "
+#~ "(#16907)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Updated :ref:`data-protection` to reflect "
+#~ "changes in user authentication."
+#~ msgstr ""
 

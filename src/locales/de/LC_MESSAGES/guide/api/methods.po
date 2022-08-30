@@ -9,89 +9,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/api/methods.rst:3
+#: ../../../src/guide/api/methods.md:1
 msgid "Methods"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:5
+#: ../../../src/guide/api/methods.md:3
 msgid ""
 "The API provides two generic XML-RPC methods: one for applying changes to"
-" resources (``apply()``) and one for querying for resource information "
-"(``query()``)."
+" resources (`apply()`) and one for querying for resource information "
+"(`query()`)."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:12
-msgid "apply([resource_record, ...])"
+#: ../../../src/guide/api/methods.md:11
+msgid "apply(\\[resource_record, ...\\])"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:14
+#: ../../../src/guide/api/methods.md:13
 msgid ""
-"``apply()`` accepts a list of resource records. It is guaranteed that "
+"`apply()` accepts a list of resource records. It is guaranteed that "
 "either all changes will be applied or, when an error occurs, an XML-RPC "
 "fault will be returned and no changes will have been applied. On success "
 "the result will be a list of resource records indicating the new state of"
 " the resources."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:19
+#: ../../../src/guide/api/methods.md:18
 msgid "Resource records are mappings that specify:"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:22
-msgid "``__type__``"
+#: ../../../src/guide/api/methods.md:20
+msgid "`__type__`"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:22
-msgid "The type of the resource (see :ref:`api-resource-types`). *Mandatory*."
+#: ../../../src/guide/api/methods.md:22
+msgid "The type of the resource (see {ref}`api-resource-types`). *Mandatory*."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:26
-msgid "``__action__``"
+#: ../../../src/guide/api/methods.md:24
+msgid "`__action__`"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:25
+#: ../../../src/guide/api/methods.md:26
 msgid ""
-"The action to perform (``set`` or ``delete``). If ``__action__`` is "
-"ommitted then the API will assume ``set`` as default."
+"The action to perform (`set` or `delete`). If `__action__` is ommitted "
+"then the API will assume `set` as default."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:29
-msgid "``any other key``"
+#: ../../../src/guide/api/methods.md:29
+msgid "`any other key`"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:29
-msgid "defines a value specific to the ``__type__``."
+#: ../../../src/guide/api/methods.md:31
+msgid "defines a value specific to the `__type__`."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:39
+#: ../../../src/guide/api/methods.md:41
 msgid ""
 "Resource records may be sparse: only keys that are given will be updated,"
 " others will be kept. You have to pass at least the keys marked as "
 "primary keys for a resource, though. Sparse updates allow you to perform "
 "changes without having to first retrieve and then save the whole record. "
 "It also avoids race conditions that could be introduced through a non-"
-"transactional read/update cycle. The result of ``apply()`` will always "
-"show the full resource records with all values as they were seen at the "
-"end of the transaction."
+"transactional read/update cycle. The result of `apply()` will always show"
+" the full resource records with all values as they were seen at the end "
+"of the transaction."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:47
+#: ../../../src/guide/api/methods.md:49
 msgid ""
-"If you create new resources through the ``apply()`` method you need to "
+"If you create new resources through the `apply()` method you need to "
 "provide enough data to make the record identifiable (all primary key "
 "fields) and additional fields that are marked as *required*."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:51
+#: ../../../src/guide/api/methods.md:53
 msgid ""
 "Deletions may be processed immediately or delayed. For example, virtual "
 "machines will be deleted over a period of time according to our retention"
@@ -99,102 +99,223 @@ msgid ""
 "deletion in their resource record."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:56
+#: ../../../src/guide/api/methods.md:58
 msgid ""
 "Also, deleting resources that do not exist is not an error. Deleted or "
 "non-existing objects will not have a result in the response."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:61
+#: ../../../src/guide/api/methods.md:61
 msgid "query(type, filter=None)"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:63
+#: ../../../src/guide/api/methods.md:63
 msgid ""
-"The ``query()`` method returns all resources of a given type that are "
+"The `query()` method returns all resources of a given type that are "
 "visible to the current access key. Without any filters this includes the "
 "data of all child projects."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:67
-msgid "The list of valid types is given in the section :ref:`api-resource-types`."
+#: ../../../src/guide/api/methods.md:67
+msgid "The list of valid types is given in the section {ref}`api-resource-types`."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:69
+#: ../../../src/guide/api/methods.md:69
 msgid ""
 "Filters are specified as a dictionary selecting type-specific keys from "
 "the result for exact matches:"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:82
+#: ../../../src/guide/api/methods.md:79
 msgid "log(serial=None)"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:84
+#: ../../../src/guide/api/methods.md:81
 msgid ""
-"The ``log()`` method returns all log entries about any call to the other "
+"The `log()` method returns all log entries about any call to the other "
 "methods within the same project.  This allows you to integrate our API "
 "logging into your own logging infrastructure by calling this method "
 "regularly. A serial counter assures that you will receive only new logs "
 "and not miss any logs."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:90
+#: ../../../src/guide/api/methods.md:87
 msgid "A few rules:"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:92
+#: ../../../src/guide/api/methods.md:89
 msgid "Logs are kept 30 days."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:93
-msgid "Calls to the ``log()`` method are not logged themselves."
+#: ../../../src/guide/api/methods.md:90
+msgid "Calls to the `log()` method are not logged themselves."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:94
+#: ../../../src/guide/api/methods.md:91
 msgid ""
 "If a project is deleted, then all associated logs are deleted "
 "immediately, too."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:95
+#: ../../../src/guide/api/methods.md:92
 msgid ""
 "Please do not poll the API in extremely short cycles. Let's say once "
 "every few minutes is sufficient."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:97
+#: ../../../src/guide/api/methods.md:94
 msgid ""
 "Logs only contain calls from the exact API key associated with the "
 "project. Calls with access keys from child projects are not shown in the "
 "parent log."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:98
+#: ../../../src/guide/api/methods.md:95
 msgid "Logs are kept when the API key is reset."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:100
+#: ../../../src/guide/api/methods.md:97
 msgid "How to ensure that you receive a gapless log:"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:102
+#: ../../../src/guide/api/methods.md:99
 msgid ""
-"For the first call you can omit the optional parameter ``serial`` which "
+"For the first call you can omit the optional parameter `serial` which "
 "will return the latest 10 records."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:105
+#: ../../../src/guide/api/methods.md:101
 msgid ""
-"For future calls you should remember the highest ``serial`` that you have"
-" seen in the past and pass it by calling ``log(serial)``."
+"For future calls you should remember the highest `serial` that you have "
+"seen in the past and pass it by calling `log(serial)`."
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:108
+#: ../../../src/guide/api/methods.md:104
 msgid "Here's an example:"
 msgstr ""
 
-#: ../../src/guide/api/methods.rst:129
-msgid "The data for ``args`` and ``result`` in the log are JSON-encoded strings."
+#: ../../../src/guide/api/methods.md:123
+msgid "The data for `args` and `result` in the log are JSON-encoded strings."
 msgstr ""
+
+#~ msgid ""
+#~ "The API provides two generic XML-"
+#~ "RPC methods: one for applying changes"
+#~ " to resources (``apply()``) and one "
+#~ "for querying for resource information "
+#~ "(``query()``)."
+#~ msgstr ""
+
+#~ msgid "apply([resource_record, ...])"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``apply()`` accepts a list of resource"
+#~ " records. It is guaranteed that "
+#~ "either all changes will be applied "
+#~ "or, when an error occurs, an "
+#~ "XML-RPC fault will be returned and"
+#~ " no changes will have been applied."
+#~ " On success the result will be "
+#~ "a list of resource records indicating"
+#~ " the new state of the resources."
+#~ msgstr ""
+
+#~ msgid "``__type__``"
+#~ msgstr ""
+
+#~ msgid "The type of the resource (see :ref:`api-resource-types`). *Mandatory*."
+#~ msgstr ""
+
+#~ msgid "``__action__``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The action to perform (``set`` or "
+#~ "``delete``). If ``__action__`` is ommitted "
+#~ "then the API will assume ``set`` "
+#~ "as default."
+#~ msgstr ""
+
+#~ msgid "``any other key``"
+#~ msgstr ""
+
+#~ msgid "defines a value specific to the ``__type__``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Resource records may be sparse: only "
+#~ "keys that are given will be "
+#~ "updated, others will be kept. You "
+#~ "have to pass at least the keys "
+#~ "marked as primary keys for a "
+#~ "resource, though. Sparse updates allow "
+#~ "you to perform changes without having"
+#~ " to first retrieve and then save "
+#~ "the whole record. It also avoids "
+#~ "race conditions that could be introduced"
+#~ " through a non-transactional read/update"
+#~ " cycle. The result of ``apply()`` "
+#~ "will always show the full resource "
+#~ "records with all values as they "
+#~ "were seen at the end of the "
+#~ "transaction."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you create new resources through "
+#~ "the ``apply()`` method you need to "
+#~ "provide enough data to make the "
+#~ "record identifiable (all primary key "
+#~ "fields) and additional fields that are"
+#~ " marked as *required*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The ``query()`` method returns all "
+#~ "resources of a given type that are"
+#~ " visible to the current access key."
+#~ " Without any filters this includes "
+#~ "the data of all child projects."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The list of valid types is given"
+#~ " in the section :ref:`api-resource-"
+#~ "types`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The ``log()`` method returns all log "
+#~ "entries about any call to the "
+#~ "other methods within the same project."
+#~ "  This allows you to integrate our"
+#~ " API logging into your own logging"
+#~ " infrastructure by calling this method "
+#~ "regularly. A serial counter assures that"
+#~ " you will receive only new logs "
+#~ "and not miss any logs."
+#~ msgstr ""
+
+#~ msgid "Calls to the ``log()`` method are not logged themselves."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the first call you can omit"
+#~ " the optional parameter ``serial`` which"
+#~ " will return the latest 10 records."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For future calls you should remember "
+#~ "the highest ``serial`` that you have "
+#~ "seen in the past and pass it "
+#~ "by calling ``log(serial)``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The data for ``args`` and ``result`` "
+#~ "in the log are JSON-encoded "
+#~ "strings."
+#~ msgstr ""
 

@@ -9,68 +9,68 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r001.rst:4
+#: ../../../src/changes/2020/r001.md:5
 msgid "Release 2020_001 (2020-01-02)"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:7
+#: ../../../src/changes/2020/r001.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:9
-msgid "[NixOS 19.03] ClamD instances will be restarted."
+#: ../../../src/changes/2020/r001.md:9
+msgid "\\[NixOS 19.03\\] ClamD instances will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:10
-msgid "[NixOS 15.09] Telegraf will be restarted."
+#: ../../../src/changes/2020/r001.md:10
+msgid "\\[NixOS 15.09\\] Telegraf will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:14
+#: ../../../src/changes/2020/r001.md:12
 msgid "NixOS 15.09 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:16
+#: ../../../src/changes/2020/r001.md:14
 msgid "Fix telegraf metrics collection for graylog (#122408)."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:17
+#: ../../../src/changes/2020/r001.md:15
 msgid ""
-"Grafana: pull in security updates, fix default password [hotfix] "
+"Grafana: pull in security updates, fix default password \\[hotfix\\] "
 "(#122385)."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:21
+#: ../../../src/changes/2020/r001.md:17
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:23
+#: ../../../src/changes/2020/r001.md:19
 msgid "Generally increase ClamD logging to assist in debugging (#120637)."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:24
+#: ../../../src/changes/2020/r001.md:20
 msgid ""
 "Improve memcached check so that locally configured listen addresses will "
 "be honoured (#122074)."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:25
+#: ../../../src/changes/2020/r001.md:21
 msgid "Fix MySQL, RabbitMQ and OpenVPN roles on Vagrant (#122228)."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:29
+#: ../../../src/changes/2020/r001.md:23
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:31
+#: ../../../src/changes/2020/r001.md:25
 msgid ""
 "Move resolver from Quad9:10 to Quad9:11. This means we're now using "
 "blacklists, DNSSEC, and EDNS Client-Subnet, which will filter some IPs "
@@ -78,11 +78,22 @@ msgid ""
 "CDN services like Github and friends."
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:37
+#: ../../../src/changes/2020/r001.md:29
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2020/r001.rst:39
+#: ../../../src/changes/2020/r001.md:31
 msgid "Directory API: document project maintenance mode."
 msgstr ""
+
+#~ msgid "[NixOS 19.03] ClamD instances will be restarted."
+#~ msgstr ""
+
+#~ msgid "[NixOS 15.09] Telegraf will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Grafana: pull in security updates, fix"
+#~ " default password [hotfix] (#122385)."
+#~ msgstr ""
 

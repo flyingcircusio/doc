@@ -9,189 +9,274 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/loghost.rst:4
+#: ../../../src/guide/platform_gentoo/loghost.md:3
 msgid "Loghost"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:6
+#: ../../../src/guide/platform_gentoo/loghost.md:5
 msgid ""
 "Provides centralized logging infrastructure inside a project including "
-"remote `rsyslog <http://www.rsyslog.com/>`_ and ELK (`Elasticsearch "
-"<https://www.elastic.co/products/elasticsearch>`_, `Logstash "
-"<https://www.elastic.co/products/logstash>`_, `Kibana "
-"<https://www.elastic.co/products/kibana>`_)."
+"remote [rsyslog](http://www.rsyslog.com/) and ELK "
+"([Elasticsearch](https://www.elastic.co/products/elasticsearch), "
+"[Logstash](https://www.elastic.co/products/logstash), "
+"[Kibana](https://www.elastic.co/products/kibana))."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:12
+#: ../../../src/guide/platform_gentoo/loghost.md:8
 msgid ""
-"Please refer to chapter :ref:`Logging <logging>` for configuration "
+"Please refer to chapter {ref}`Logging <logging>` for configuration "
 "examples and hints on using the ELK stack."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:16
+#: ../../../src/guide/platform_gentoo/loghost.md:11
 msgid "Components"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:18
-msgid "rsyslog (:ref:`srv interface <logical_networks>`, port UDP 514)"
+#: ../../../src/guide/platform_gentoo/loghost.md:13
+msgid "rsyslog ({ref}`srv interface <logical_networks>`, port UDP 514)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:19
+#: ../../../src/guide/platform_gentoo/loghost.md:15
 msgid ""
-"Elasticsearch (:ref:`srv interface <logical_networks>`, ports TCP 9200 "
-"and 9300)"
+"Elasticsearch ({ref}`srv interface <logical_networks>`, ports TCP 9200 "
+"and 9300\\)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:21
+#: ../../../src/guide/platform_gentoo/loghost.md:18
 msgid "elasticsearch-curator"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:22
+#: ../../../src/guide/platform_gentoo/loghost.md:20
 msgid "Logstash"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:24
+#: ../../../src/guide/platform_gentoo/loghost.md:22
 msgid ""
-"`syslog input <http://logstash.net/docs/1.4.2/inputs/syslog>`_ "
+"[syslog input](http://logstash.net/docs/1.4.2/inputs/syslog) "
 "(*localhost*, ports UDP 5000 and TCP 5000)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:26
+#: ../../../src/guide/platform_gentoo/loghost.md:24
 msgid ""
-"`Lumberjack input <http://logstash.net/docs/1.4.2/inputs/lumberjack>`_ "
-"(:ref:`srv interface <logical_networks>`, port TCP 5043)"
+"[Lumberjack input](http://logstash.net/docs/1.4.2/inputs/lumberjack) "
+"({ref}`srv interface <logical_networks>`, port TCP 5043)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:29
+#: ../../../src/guide/platform_gentoo/loghost.md:27
 msgid "logstash-forwarder"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:30
+#: ../../../src/guide/platform_gentoo/loghost.md:29
 msgid "Kibana"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:33
+#: ../../../src/guide/platform_gentoo/loghost.md:31
 msgid "Default setup"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:35
+#: ../../../src/guide/platform_gentoo/loghost.md:33
 msgid "Elasticsearch, Logstash and Kibana are installed on the loghost."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:36
+#: ../../../src/guide/platform_gentoo/loghost.md:34
 msgid ""
 "logstash creates elasticsearch indices of the pattern *logstash-"
 "YYYY.MM.DD*."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:37
+#: ../../../src/guide/platform_gentoo/loghost.md:35
 msgid "elasticsearch-curator deletes indices older than 90 days."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:38
+#: ../../../src/guide/platform_gentoo/loghost.md:36
 msgid ""
 "logstash-forwarder ships locally generated logs from all machines to the "
 "loghost."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:40
+#: ../../../src/guide/platform_gentoo/loghost.md:38
 msgid "rsyslog forwards all syslog entries to the loghost."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:45
+#: ../../../src/guide/platform_gentoo/loghost.md:42
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:47
+#: ../../../src/guide/platform_gentoo/loghost.md:44
 msgid ""
 "Below is a list of your configuration entry points for the involved "
 "components."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:51
+#: ../../../src/guide/platform_gentoo/loghost.md:47
 msgid ""
-"All configuration needs to be performed as a :ref:`service user "
+"All configuration needs to be performed as a {ref}`service user "
 "<service_users>`."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:54
-msgid "*rsyslog*: :file:`/etc/rsyslog.d/{SNIPPET}.conf`"
+#: ../../../src/guide/platform_gentoo/loghost.md:51
+msgid "*rsyslog*: {file}`/etc/rsyslog.d/{SNIPPET}.conf`"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:55
+#: ../../../src/guide/platform_gentoo/loghost.md:52
 msgid ""
-"*logstash-forwarder*: :file:`/etc/logstash-"
+"*logstash-forwarder*: {file}`/etc/logstash-"
 "forwarder/conf.d/{SNIPPET}.conf`"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:56
-msgid "*logstash*: :file:`/etc/logstash/conf.d/{SNIPPET}.conf`"
+#: ../../../src/guide/platform_gentoo/loghost.md:53
+msgid "*logstash*: {file}`/etc/logstash/conf.d/{SNIPPET}.conf`"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:59
+#: ../../../src/guide/platform_gentoo/loghost.md:55
 msgid "Interaction"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:61
+#: ../../../src/guide/platform_gentoo/loghost.md:57
 msgid ""
-"*rsyslog*: :command:`sudo /etc/init.d/rsyslog restart` for restarts after"
+"*rsyslog*: {command}`sudo /etc/init.d/rsyslog restart` for restarts after"
 " configuration changes"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:66
+#: ../../../src/guide/platform_gentoo/loghost.md:61
 msgid ""
 "rsyslog ignores invalid configuration statements, so be sure to check "
-":file:`/var/log/messages` for errors after a restart."
+"{file}`/var/log/messages` for errors after a restart."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:69
+#: ../../../src/guide/platform_gentoo/loghost.md:65
 msgid ""
-"*logstash-forwarder*: :command:`sudo /etc/init.d/logstash-forwarder "
+"*logstash-forwarder*: {command}`sudo /etc/init.d/logstash-forwarder "
 "restart` for restarts after configuration changes"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:71
+#: ../../../src/guide/platform_gentoo/loghost.md:68
 msgid ""
-"*Logstash*: :command:`sudo /etc/init.d/logstash restart` for restarts "
+"*Logstash*: {command}`sudo /etc/init.d/logstash restart` for restarts "
 "after configuration changes"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:73
+#: ../../../src/guide/platform_gentoo/loghost.md:71
 msgid ""
-"*Kibana*: refer to our :ref:`Logging <logging>` section for how to "
+"*Kibana*: refer to our {ref}`Logging <logging>` section for how to "
 "interact with Kibana"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:78
+#: ../../../src/guide/platform_gentoo/loghost.md:74
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:80
+#: ../../../src/guide/platform_gentoo/loghost.md:76
 msgid "We monitor for:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:82
+#: ../../../src/guide/platform_gentoo/loghost.md:78
 msgid "running processes"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:83
+#: ../../../src/guide/platform_gentoo/loghost.md:79
 msgid "reachable ports"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:84
+#: ../../../src/guide/platform_gentoo/loghost.md:80
 msgid "correctly written log files"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/loghost.rst:85
+#: ../../../src/guide/platform_gentoo/loghost.md:81
 msgid "correctly pruned Elasticsearch indices"
 msgstr ""
+
+#~ msgid ""
+#~ "Provides centralized logging infrastructure "
+#~ "inside a project including remote "
+#~ "`rsyslog <http://www.rsyslog.com/>`_ and ELK "
+#~ "(`Elasticsearch "
+#~ "<https://www.elastic.co/products/elasticsearch>`_, `Logstash "
+#~ "<https://www.elastic.co/products/logstash>`_, `Kibana "
+#~ "<https://www.elastic.co/products/kibana>`_)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to chapter :ref:`Logging "
+#~ "<logging>` for configuration examples and "
+#~ "hints on using the ELK stack."
+#~ msgstr ""
+
+#~ msgid "rsyslog (:ref:`srv interface <logical_networks>`, port UDP 514)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Elasticsearch (:ref:`srv interface "
+#~ "<logical_networks>`, ports TCP 9200 and "
+#~ "9300)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`syslog input "
+#~ "<http://logstash.net/docs/1.4.2/inputs/syslog>`_ (*localhost*,"
+#~ " ports UDP 5000 and TCP 5000)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Lumberjack input "
+#~ "<http://logstash.net/docs/1.4.2/inputs/lumberjack>`_ (:ref:`srv"
+#~ " interface <logical_networks>`, port TCP "
+#~ "5043)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All configuration needs to be performed"
+#~ " as a :ref:`service user <service_users>`."
+#~ msgstr ""
+
+#~ msgid "*rsyslog*: :file:`/etc/rsyslog.d/{SNIPPET}.conf`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*logstash-forwarder*: :file:`/etc/logstash-"
+#~ "forwarder/conf.d/{SNIPPET}.conf`"
+#~ msgstr ""
+
+#~ msgid "*logstash*: :file:`/etc/logstash/conf.d/{SNIPPET}.conf`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*rsyslog*: :command:`sudo /etc/init.d/rsyslog "
+#~ "restart` for restarts after configuration "
+#~ "changes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "rsyslog ignores invalid configuration "
+#~ "statements, so be sure to check "
+#~ ":file:`/var/log/messages` for errors after a"
+#~ " restart."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*logstash-forwarder*: :command:`sudo /etc/init.d"
+#~ "/logstash-forwarder restart` for restarts "
+#~ "after configuration changes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Logstash*: :command:`sudo /etc/init.d/logstash "
+#~ "restart` for restarts after configuration "
+#~ "changes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Kibana*: refer to our :ref:`Logging "
+#~ "<logging>` section for how to interact"
+#~ " with Kibana"
+#~ msgstr ""
 

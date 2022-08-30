@@ -9,36 +9,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r027.rst:4
+#: ../../../src/changes/2014/r027.md:5
 msgid "Release 2014_027 (2014-05-26)"
 msgstr ""
 
-#: ../../src/changes/2014/r027.rst:7
+#: ../../../src/changes/2014/r027.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r027.rst:9
+#: ../../../src/changes/2014/r027.md:9
 msgid ""
-"Security update for `GLSA 201405-27 / libyaml "
-"<http://www.gentoo.org/security/en/glsa/glsa-201405-27.xml>`_ (#13444)."
+"Security update for [GLSA 201405-27 / "
+"libyaml](http://www.gentoo.org/security/en/glsa/glsa-201405-27.xml) "
+"(#13444)."
 msgstr ""
 
-#: ../../src/changes/2014/r027.rst:14
+#: ../../../src/changes/2014/r027.md:11
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r027.rst:16
+#: ../../../src/changes/2014/r027.md:13
 msgid ""
 "Rework entropy gathering: entropy is now harvested on VM servers with "
-":program:`haveged` and shuffled inside VMs via virtio-rng (#13293)."
+"{program}`haveged` and shuffled inside VMs via virtio-rng (#13293)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201405-27 /"
+#~ " libyaml "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201405-27.xml>`_ "
+#~ "(#13444)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Rework entropy gathering: entropy is now"
+#~ " harvested on VM servers with "
+#~ ":program:`haveged` and shuffled inside VMs "
+#~ "via virtio-rng (#13293)."
+#~ msgstr ""
 

@@ -9,50 +9,56 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r027.rst:4
+#: ../../../src/changes/2016/r027.md:5
 msgid "Release 2016_027 (2016-08-17)"
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:7
+#: ../../../src/changes/2016/r027.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:9
+#: ../../../src/changes/2016/r027.md:9
 msgid ""
 "MongoDB instances need to be restarted due to configuration changes "
 "(#22535)."
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:13
+#: ../../../src/changes/2016/r027.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:15
+#: ../../../src/changes/2016/r027.md:13
 msgid ""
 "Improve VM bootstrapping time by avoiding unnecessary work after first "
 "boot (#22964)."
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:17
+#: ../../../src/changes/2016/r027.md:15
 msgid "Reduce MongoDB log output size and log into own file (#22535, #23015)."
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:18
+#: ../../../src/changes/2016/r027.md:16
 msgid "Make redis password configurable by service users (#23116, #23179)."
 msgstr ""
 
-#: ../../src/changes/2016/r027.rst:19
+#: ../../../src/changes/2016/r027.md:17
 msgid ""
 "Postfix' `myhostname` parameter can now be set via "
-":file:`/etc/local/postfix/myhostname` (#23084)."
+"{file}`/etc/local/postfix/myhostname` (#23084)."
 msgstr ""
+
+#~ msgid ""
+#~ "Postfix' `myhostname` parameter can now "
+#~ "be set via :file:`/etc/local/postfix/myhostname` "
+#~ "(#23084)."
+#~ msgstr ""
 

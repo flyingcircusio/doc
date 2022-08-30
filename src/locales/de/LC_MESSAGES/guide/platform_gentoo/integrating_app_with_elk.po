@@ -9,20 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:4
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:3
 msgid "Integrating your application"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:6
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:5
 msgid ""
 "A lot of logging frameworks already provide handlers for logging to "
 "logstash. Just look around, maybe there already is one out there for your"
@@ -30,41 +30,82 @@ msgid ""
 "languages:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:10
-msgid "Python: `python-logstash <https://pypi.python.org/pypi/python-logstash>`_"
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:9
+msgid "Python: [python-logstash](https://pypi.python.org/pypi/python-logstash)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:11
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:10
 msgid ""
-"PHP: `monolog <https://github.com/Seldaek/monolog/>`_ already comes with "
-"`a formatter "
-"<https://github.com/Seldaek/monolog/blob/master/src/Monolog/Formatter/LogstashFormatter.php>`_"
-" for Logstash. For example usage, `see here "
-"<http://engineering.blopboard.com/centralized-logging-with-monolog-"
-"logstash-and-elasticsearch>`_"
+"PHP: [monolog](https://github.com/Seldaek/monolog/) already comes with [a"
+" "
+"formatter](https://github.com/Seldaek/monolog/blob/master/src/Monolog/Formatter/LogstashFormatter.php)"
+" for Logstash. For example usage, [see "
+"here](http://engineering.blopboard.com/centralized-logging-with-monolog-"
+"logstash-and-elasticsearch)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:16
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:13
 msgid ""
-"Java: using log4j with via `SocketAppender "
-"<https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/net/SocketAppender.html>`_."
+"Java: using log4j with via "
+"[SocketAppender](https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/net/SocketAppender.html)."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:18
-msgid "Ruby: `logstash-logger <http://www.rubydoc.info/gems/logstash-logger/>`_"
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:14
+msgid "Ruby: [logstash-logger](http://www.rubydoc.info/gems/logstash-logger/)"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:20
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:16
 msgid ""
 "When configuring your handler, use the canonical FQDN of your "
-":ref:`loghost <gentoo-loghost>` as the logstash host, e.g. "
+"{ref}`loghost <gentoo-loghost>` as the logstash host, e.g. "
 "*myapp00.gocept.net*."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/integrating_app_with_elk.rst:25
+#: ../../../src/guide/platform_gentoo/integrating_app_with_elk.md:20
 msgid ""
 "You will most likely have to configure some kind of listener on the "
-"logstash side. See the :ref:`configure_logstash` section for how to add "
+"logstash side. See the {ref}`configure_logstash` section for how to add "
 "your configuration to logstash."
 msgstr ""
+
+#~ msgid ""
+#~ "Python: `python-logstash "
+#~ "<https://pypi.python.org/pypi/python-logstash>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PHP: `monolog <https://github.com/Seldaek/monolog/>`_ "
+#~ "already comes with `a formatter "
+#~ "<https://github.com/Seldaek/monolog/blob/master/src/Monolog/Formatter/LogstashFormatter.php>`_"
+#~ " for Logstash. For example usage, "
+#~ "`see here <http://engineering.blopboard.com"
+#~ "/centralized-logging-with-monolog-logstash-"
+#~ "and-elasticsearch>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Java: using log4j with via "
+#~ "`SocketAppender "
+#~ "<https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/net/SocketAppender.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ruby: `logstash-logger <http://www.rubydoc.info/gems"
+#~ "/logstash-logger/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When configuring your handler, use the"
+#~ " canonical FQDN of your :ref:`loghost "
+#~ "<gentoo-loghost>` as the logstash host,"
+#~ " e.g. *myapp00.gocept.net*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will most likely have to "
+#~ "configure some kind of listener on "
+#~ "the logstash side. See the "
+#~ ":ref:`configure_logstash` section for how to"
+#~ " add your configuration to logstash."
+#~ msgstr ""
 

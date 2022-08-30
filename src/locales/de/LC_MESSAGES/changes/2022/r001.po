@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r001.md:5
+msgid "Release 2022_001 (2022-01-17)"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:9
+msgid "\\[NixOS 21.05\\]: Elasticsearch, httpd and postgresql will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:10
+msgid ""
+"\\[NixOS 21.05\\]: VMs will schedule a reboot to activate the changed "
+"kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:12
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:14
+msgid ""
+"PostgreSQL: add the *pg_stat_statements* extension to the shared "
+"libraries loaded by default so it can be activated by just running "
+"`CREATE EXTENSION pg_stat_statements` (#PL-130293)."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:17
+msgid ""
+"NFS: Fix a possible NFS server outage caused by adding new NFS clients. "
+"Instead of restarting, nfs services are now reloaded (#PL-130253)."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:20
+msgid "Matomo: update to 4.6.2 and various fixes (#PL-130234):"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:22
+msgid ""
+"The GeoIP2 plugin works now (it's active by default). It failed "
+"previously because it couldn't write the database file."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:23
+msgid ""
+"Fix the periodic archive processing task. Setting "
+"`services.matomo.hostname` also changes the URL used for archive "
+"processing."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:24
+msgid ""
+"Don't require a local mysql database in the systemd unit as Matomo can be"
+" configured to use databases on other machines."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:26
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130280):"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:28
+msgid "element-web: 1.9.2 -> 1.9.7"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:29
+msgid "imagemagick: 7.1.0-13 -> 7.1.0-19"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:30
+msgid "linux: 5.10.81 -> 5.10.88"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:32
+msgid ""
+"Devhost docs: Update the specific batou_ext reference to the currently "
+"most up-to-date version and make a note about checking for further "
+"updates when migrating."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:35
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/126396/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:37
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:39
+msgid ""
+"Fix SSL cert verification problem that rendered the platform update "
+"mechanism unusable. This will deployed as a hotfix directly to the VMs "
+"during the release window (#PL-130290)."
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:42
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r001.md:44
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_040/21.05...d03b2bfdedf18db4305064d7b31607581244d83e),"
+" [upstream "
+"changes](https://github.com/NixOS/nixpkgs/compare/c5f1ee982246d09ae7f119c13aafcce90286221d...932ec35ff8ac0fef5667ad2b0db4a009440255a9)"
+msgstr ""
+

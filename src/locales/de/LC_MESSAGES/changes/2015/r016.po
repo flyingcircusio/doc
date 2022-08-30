@@ -9,58 +9,70 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r016.rst:4
+#: ../../../src/changes/2015/r016.md:5
 msgid "Release 2015_016 (2015-03-23)"
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:7
+#: ../../../src/changes/2015/r016.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:9
+#: ../../../src/changes/2015/r016.md:9
 msgid ""
-"Security update for `GLSA 201503-11 / OpenSSL "
-"<https://security.gentoo.org/glsa/201503-11>`_ (#15037)."
+"Security update for [GLSA 201503-11 / "
+"OpenSSL](https://security.gentoo.org/glsa/201503-11) (#15037)."
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:11
+#: ../../../src/changes/2015/r016.md:10
 msgid ""
-"Security update for `GLSA 201503-10 / Python "
-"<https://security.gentoo.org/glsa/201503-10>`_ (#15007)."
+"Security update for [GLSA 201503-10 / "
+"Python](https://security.gentoo.org/glsa/201503-10) (#15007)."
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:13
+#: ../../../src/changes/2015/r016.md:11
 msgid "Fix libreoffice package update (#15005)."
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:17
+#: ../../../src/changes/2015/r016.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:19
+#: ../../../src/changes/2015/r016.md:15
 msgid ""
 "Run network interface configuration on physical machines only off-hours "
 "(#14637)."
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:21
+#: ../../../src/changes/2015/r016.md:17
 msgid ""
 "Ignore nginx vhosts without `server_name` for AWstats config generation "
 "(#14988)."
 msgstr ""
 
-#: ../../src/changes/2015/r016.rst:23
+#: ../../../src/changes/2015/r016.md:19
 msgid ""
 "Fix outside IPv4 connectivity check so that it does not depend on DNS "
 "availability anymore (#15036)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-11 /"
+#~ " OpenSSL <https://security.gentoo.org/glsa/201503-11>`_ "
+#~ "(#15037)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-10 /"
+#~ " Python <https://security.gentoo.org/glsa/201503-10>`_ "
+#~ "(#15007)."
+#~ msgstr ""
 

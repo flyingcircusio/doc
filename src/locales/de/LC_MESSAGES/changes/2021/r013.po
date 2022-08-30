@@ -9,79 +9,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r013.rst:4
+#: ../../../src/changes/2021/r013.md:5
 msgid "Release 2021_013 (2021-04-19)"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:7
+#: ../../../src/changes/2021/r013.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:9
+#: ../../../src/changes/2021/r013.md:9
 msgid ""
-"[NixOS 20.09] Most services will be restarted due to a core dependency "
-"change. VMs will schedule a reboot to activate the new kernel version."
+"\\[NixOS 20.09\\] Most services will be restarted due to a core "
+"dependency change. VMs will schedule a reboot to activate the new kernel "
+"version."
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:14
+#: ../../../src/changes/2021/r013.md:12
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:16
+#: ../../../src/changes/2021/r013.md:14
 msgid ""
 "Merge upstream NixOS changes that include security fixes and other "
 "updates (#PL-129787):"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:18
+#: ../../../src/changes/2021/r013.md:16
 msgid "imagemagick7: 7.0.11-4 -> 7.0.11-6"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:19
+#: ../../../src/changes/2021/r013.md:17
 msgid "linux: 5.4.108 -> 5.4.109"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:20
+#: ../../../src/changes/2021/r013.md:18
 msgid "curl: add patches for CVE-2021-22876, CVE-2021-22890"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:21
+#: ../../../src/changes/2021/r013.md:19
 msgid "grafana: 7.4.5 -> 7.5.2"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:22
+#: ../../../src/changes/2021/r013.md:20
 msgid ""
 "python3Packages.pillow: add patches for CVE-2021-25287, CVE-2021-25288, "
 "CVE-2021-25289, CVE-2021-25290, CVE-2021-25291, CVE-2021-25292, "
 "CVE-2021-25293, CVE-2021-27921, CVE-2021-27922, CVE-2021-27923"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:25
+#: ../../../src/changes/2021/r013.md:23
 msgid "pythonPackages.lxml: 4.6.2 -> 4.6.3"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:26
+#: ../../../src/changes/2021/r013.md:24
 msgid "python3Packages.pygments: add patch for CVE-2021-27291"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:29
+#: ../../../src/changes/2021/r013.md:26
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r013.rst:31
+#: ../../../src/changes/2021/r013.md:28
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_012/20.09...00b0eaba45b0d3dc8b342abeb77f0a0593d457f8>`_,"
-" `nixpkgs/upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/bf5803c2f45babf24d339ba643f8d46d5c46c925...753913a8cb8310f4631860b7f77af13bd00eb031>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_012/20.09...00b0eaba45b0d3dc8b342abeb77f0a0593d457f8),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/bf5803c2f45babf24d339ba643f8d46d5c46c925...753913a8cb8310f4631860b7f77af13bd00eb031)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Most services will be "
+#~ "restarted due to a core dependency "
+#~ "change. VMs will schedule a reboot "
+#~ "to activate the new kernel version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_012/20.09...00b0eaba45b0d3dc8b342abeb77f0a0593d457f8>`_,"
+#~ " `nixpkgs/upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/bf5803c2f45babf24d339ba643f8d46d5c46c925...753913a8cb8310f4631860b7f77af13bd00eb031>`_"
+#~ msgstr ""
 

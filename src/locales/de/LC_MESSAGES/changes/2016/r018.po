@@ -9,50 +9,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r018.rst:4
+#: ../../../src/changes/2016/r018.md:5
 msgid "Release 2016_018 (2016-06-09)"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:7
+#: ../../../src/changes/2016/r018.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:9
+#: ../../../src/changes/2016/r018.md:9
 msgid "nginx will be restarted."
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:13
+#: ../../../src/changes/2016/r018.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:15
+#: ../../../src/changes/2016/r018.md:13
 msgid "Patch nginx for CVE-2016-4450. (#21775)"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:17
+#: ../../../src/changes/2016/r018.md:14
 msgid ""
 "Fix bug in automatic VM memory adjustments that caused an infinite reboot"
 " loop. (#21724)"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:20
+#: ../../../src/changes/2016/r018.md:16
 msgid "Implement transit mode (details see below)."
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:23
+#: ../../../src/changes/2016/r018.md:18
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:25
+#: ../../../src/changes/2016/r018.md:20
 msgid ""
 "Update backy: reduce partial backup verifications to a time-based limit "
 "to avoid extremely long periods that block other backups. The "
@@ -60,7 +60,7 @@ msgid ""
 "schemes, like BTRFS scrubbing. (#21879)"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:30
+#: ../../../src/changes/2016/r018.md:24
 msgid ""
 "Implement transit mode: physical and virtual machines can be placed in a "
 "location-independent non-servicing state where the network configuration "
@@ -68,33 +68,53 @@ msgid ""
 "and can be cleanly relocated."
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:35
+#: ../../../src/changes/2016/r018.md:28
 msgid ""
-"Security update for gnupg `GLSA 201606-04 "
-"<https://glsa.gentoo.org/glsa/201606-04>`_ (#21829)."
+"Security update for gnupg [GLSA "
+"201606-04](https://glsa.gentoo.org/glsa/201606-04) (#21829)."
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:38
+#: ../../../src/changes/2016/r018.md:29
 msgid "Security update for nginx (no GLSA yet, #21775, CVE-2016-4450)"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:40
+#: ../../../src/changes/2016/r018.md:30
 msgid ""
-"Security update for pam  to 1.2.1 `GLSA 201606-05 "
-"<https://glsa.gentoo.org/glsa/201606-05>`_ (#21753)."
+"Security update for pam  to 1.2.1 [GLSA "
+"201606-05](https://glsa.gentoo.org/glsa/201606-05) (#21753)."
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:45
+#: ../../../src/changes/2016/r018.md:32
 msgid "References"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:47
-msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/{TBA}"
+#: ../../../src/changes/2016/r018.md:34
+msgid "NixOS source: <https://github.com/flyingcircusio/nixpkgs/commit>/\\{TBA}"
 msgstr ""
 
-#: ../../src/changes/2016/r018.rst:50
+#: ../../../src/changes/2016/r018.md:36
 msgid ""
 "Puppet source: "
-"https://bitbucket.org/flyingcircus/fc.platform/commits/{TBA}"
+"<https://bitbucket.org/flyingcircus/fc.platform/commits>/\\{TBA}"
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for gnupg `GLSA "
+#~ "201606-04 <https://glsa.gentoo.org/glsa/201606-04>`_ "
+#~ "(#21829)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for pam  to 1.2.1 "
+#~ "`GLSA 201606-05 <https://glsa.gentoo.org/glsa/201606-05>`_"
+#~ " (#21753)."
+#~ msgstr ""
+
+#~ msgid "NixOS source: https://github.com/flyingcircusio/nixpkgs/commit/{TBA}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Puppet source: "
+#~ "https://bitbucket.org/flyingcircus/fc.platform/commits/{TBA}"
+#~ msgstr ""
 

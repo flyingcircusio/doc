@@ -9,52 +9,73 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r015.rst:4
+#: ../../../src/changes/2012/r015.md:5
 msgid "Release 2012-06-04"
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:7
+#: ../../../src/changes/2012/r015.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:9
+#: ../../../src/changes/2012/r015.md:9
 msgid ""
-"Security update for dev-lang/v8: `GLSA 201205-03 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201205-03.xml>`_, `GLSA "
-"201205-04 <http://www.gentoo.org/security/en/glsa/glsa-201205-04.xml>`_ "
+"Security update for dev-lang/v8: [GLSA "
+"201205-03](http://www.gentoo.org/security/en/glsa/glsa-201205-03.xml), "
+"[GLSA "
+"201205-04](http://www.gentoo.org/security/en/glsa/glsa-201205-04.xml) "
 "(#10895, #10921)."
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:13
+#: ../../../src/changes/2012/r015.md:13
 msgid ""
-"Security update for net-dns/bind: `GLSA 201206-01 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201206-01.xml>`_ (#10939)."
+"Security update for net-dns/bind: [GLSA "
+"201206-01](http://www.gentoo.org/security/en/glsa/glsa-201206-01.xml) "
+"(#10939)."
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:18
+#: ../../../src/changes/2012/r015.md:17
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:20
+#: ../../../src/changes/2012/r015.md:19
 msgid ""
 "Fix nginx permission problem which left directory permissions in an "
 "inconsistent state under certain conditions (#10637)."
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:24
+#: ../../../src/changes/2012/r015.md:22
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2012/r015.rst:26
-msgid "Explain authentication in :ref:`redis-server` documentation."
+#: ../../../src/changes/2012/r015.md:24
+msgid "Explain authentication in {ref}`redis-server` documentation."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for dev-lang/v8: `GLSA"
+#~ " 201205-03 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201205-03.xml>`_, "
+#~ "`GLSA 201205-04 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201205-04.xml>`_ "
+#~ "(#10895, #10921)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for net-dns/bind: `GLSA"
+#~ " 201206-01 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201206-01.xml>`_ "
+#~ "(#10939)."
+#~ msgstr ""
+
+#~ msgid "Explain authentication in :ref:`redis-server` documentation."
+#~ msgstr ""
 

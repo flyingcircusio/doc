@@ -9,88 +9,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r002.rst:4
+#: ../../../src/changes/2017/r002.md:5
 msgid "Release 2017_002 (2017-01-26)"
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:7
+#: ../../../src/changes/2017/r002.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:9
+#: ../../../src/changes/2017/r002.md:9
 msgid ""
-"[NixOS/Gentoo] Most services need to be restarted because several wide-"
-"spread libraries have been updated."
+"\\[NixOS/Gentoo\\] Most services need to be restarted because several "
+"wide-spread libraries have been updated."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:14
+#: ../../../src/changes/2017/r002.md:12
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:16
+#: ../../../src/changes/2017/r002.md:14
 msgid "Update nginx to 1.10.2 for HTTP/2 support (#25455)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:17
+#: ../../../src/changes/2017/r002.md:15
 msgid "NodeJS 6 uses a recent OpenSSL library (#25440)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:18
+#: ../../../src/changes/2017/r002.md:16
 msgid "Security update for OpenSSL (#23921)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:19
+#: ../../../src/changes/2017/r002.md:17
 msgid "Update libidn (#23893)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:20
+#: ../../../src/changes/2017/r002.md:18
 msgid "Basic memcached role (#22271)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:21
+#: ../../../src/changes/2017/r002.md:19
 msgid "Basic graylog2 support for loghosts (#22495)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:22
+#: ../../../src/changes/2017/r002.md:20
 msgid "Very rudimentary dovecot support (experimental; #15370)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:23
+#: ../../../src/changes/2017/r002.md:21
 msgid "Provide NodeJS 4 package to support Meteor 0.14 applications."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:24
+#: ../../../src/changes/2017/r002.md:22
 msgid "Avoid unnecessary reboots due to minor kernel packaging changes."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:28
+#: ../../../src/changes/2017/r002.md:24
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:30
+#: ../../../src/changes/2017/r002.md:26
 msgid "Security update for zlib (GLSA 201701-56; #25597)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:31
+#: ../../../src/changes/2017/r002.md:27
 msgid "Security update for libxml2 (GLSA 201701-37; #25520)."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:32
+#: ../../../src/changes/2017/r002.md:28
 msgid "Enable kernel Network Block Device (NBD) client everywhere."
 msgstr ""
 
-#: ../../src/changes/2017/r002.rst:33
+#: ../../../src/changes/2017/r002.md:29
 msgid ""
 "Improve robustness of restart code for rsyslogd, sshd, and others "
 "(#25566)."
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS/Gentoo] Most services need to be"
+#~ " restarted because several wide-spread "
+#~ "libraries have been updated."
+#~ msgstr ""
 

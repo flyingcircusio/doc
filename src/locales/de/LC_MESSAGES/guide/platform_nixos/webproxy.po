@@ -9,82 +9,119 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_nixos/webproxy.rst:4
+#: ../../../src/guide/platform_nixos/webproxy.md:3
 msgid "Varnish (Webproxy)"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:6
+#: ../../../src/guide/platform_nixos/webproxy.md:5
 msgid "This role provides Varnish."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:10
+#: ../../../src/guide/platform_nixos/webproxy.md:7
 msgid "How we differ from what you are used to"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:12
+#: ../../../src/guide/platform_nixos/webproxy.md:9
 msgid ""
 "Here is how we differ from what you already know from common Linux "
 "distributions and how you are used to configure, start, stop and maintain"
 " these packages."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:15
+#: ../../../src/guide/platform_nixos/webproxy.md:12
 msgid "**configuration file locations:**"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:17
+#: ../../../src/guide/platform_nixos/webproxy.md:14
 msgid ""
 "Since we use NixOS, configuration files have to be edited in "
-":file:`/etc/local/varnish`, followed by a NixOS rebuild which copies them"
+"{file}`/etc/local/varnish`, followed by a NixOS rebuild which copies them"
 " into the Nix store and activates the new configuration. To do so, run "
-"the command :command:`sudo fc-manage --build`."
+"the command {command}`sudo fc-manage --build`."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:23
+#: ../../../src/guide/platform_nixos/webproxy.md:19
 msgid "**service control:**"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:25
+#: ../../../src/guide/platform_nixos/webproxy.md:21
 msgid ""
-"We use :command:`systemd` to control processes. You can use familiar "
-"commands like :command:`sudo systemctl restart varnish` to control "
-"services. However, remember that invoking :command:`sudo fc-manage "
+"We use {command}`systemd` to control processes. You can use familiar "
+"commands like {command}`sudo systemctl restart varnish` to control "
+"services. However, remember that invoking {command}`sudo fc-manage "
 "--build` is necessary to put configuration changes into effect. A simple "
-"restart is not sufficient. For further information, also see :ref:`nixos-"
+"restart is not sufficient. For further information, also see {ref}`nixos-"
 "local`."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:32
+#: ../../../src/guide/platform_nixos/webproxy.md:27
 msgid "Role configuration"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:34
+#: ../../../src/guide/platform_nixos/webproxy.md:29
 msgid ""
-"Your custom configuration goes to :file:`/etc/local/varnish/default.vcl`."
+"Your custom configuration goes to {file}`/etc/local/varnish/default.vcl`."
 " Please note that all configuration has to be performed as a service "
 "user."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:40
+#: ../../../src/guide/platform_nixos/webproxy.md:33
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:42
+#: ../../../src/guide/platform_nixos/webproxy.md:35
 msgid "We monitor that the varnishd process is running."
 msgstr ""
 
-#: ../../src/guide/platform_nixos/webproxy.rst:43
+#: ../../../src/guide/platform_nixos/webproxy.md:37
 msgid ""
 "Please add a custom http checks which suite your needs to to "
-":file:`/etc/local/sensu-client`, for instance::"
+"{file}`/etc/local/sensu-client`, for instance:"
 msgstr ""
+
+#~ msgid ""
+#~ "Since we use NixOS, configuration files"
+#~ " have to be edited in "
+#~ ":file:`/etc/local/varnish`, followed by a "
+#~ "NixOS rebuild which copies them into "
+#~ "the Nix store and activates the "
+#~ "new configuration. To do so, run "
+#~ "the command :command:`sudo fc-manage "
+#~ "--build`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We use :command:`systemd` to control "
+#~ "processes. You can use familiar commands"
+#~ " like :command:`sudo systemctl restart "
+#~ "varnish` to control services. However, "
+#~ "remember that invoking :command:`sudo fc-"
+#~ "manage --build` is necessary to put "
+#~ "configuration changes into effect. A "
+#~ "simple restart is not sufficient. For"
+#~ " further information, also see :ref"
+#~ ":`nixos-local`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your custom configuration goes to "
+#~ ":file:`/etc/local/varnish/default.vcl`. Please note "
+#~ "that all configuration has to be "
+#~ "performed as a service user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please add a custom http checks "
+#~ "which suite your needs to to "
+#~ ":file:`/etc/local/sensu-client`, for instance::"
+#~ msgstr ""
 

@@ -9,50 +9,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r007.rst:4
+#: ../../../src/changes/2020/r007.md:5
 msgid "Release 2020_007 (2020-03-05)"
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:6
+#: ../../../src/changes/2020/r007.md:7
 msgid ""
 "Our new NixOS 19.03 platform is ready for production. Effective March 6, "
 "VMs created via customer self-service will use the 19.03 platform. See "
-"the `blog post <https://blog.flyingcircus.io/2020/02/28/our-new-"
-"nixos-19-03-platform-is-ready-for-production/>`_ for more details."
+"the [blog post](https://blog.flyingcircus.io/2020/02/28/our-new-"
+"nixos-19-03-platform-is-ready-for-production/) for more details."
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:12
+#: ../../../src/changes/2020/r007.md:11
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:14
-msgid "[NixOS 19.03] Statshost: Prometheus will be restarted."
+#: ../../../src/changes/2020/r007.md:13
+msgid "\\[NixOS 19.03\\] Statshost: Prometheus will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:18
+#: ../../../src/changes/2020/r007.md:15
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:20
+#: ../../../src/changes/2020/r007.md:17
 msgid "Statshost: fix TCP connection metric (#123713)."
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:24
+#: ../../../src/changes/2020/r007.md:19
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2020/r007.rst:26
+#: ../../../src/changes/2020/r007.md:21
 msgid ""
 "`buildEnv` is the only documented way to install custom packages into the"
 " user profile now."
 msgstr ""
+
+#~ msgid ""
+#~ "Our new NixOS 19.03 platform is "
+#~ "ready for production. Effective March 6,"
+#~ " VMs created via customer self-"
+#~ "service will use the 19.03 platform. "
+#~ "See the `blog post "
+#~ "<https://blog.flyingcircus.io/2020/02/28/our-new-"
+#~ "nixos-19-03-platform-is-ready-for-"
+#~ "production/>`_ for more details."
+#~ msgstr ""
+
+#~ msgid "[NixOS 19.03] Statshost: Prometheus will be restarted."
+#~ msgstr ""
 

@@ -9,65 +9,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r016.rst:4
+#: ../../../src/changes/2020/r016.md:5
 msgid "Release 2020_016 (2020-06-15)"
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:7
+#: ../../../src/changes/2020/r016.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:9
+#: ../../../src/changes/2020/r016.md:9
 msgid ""
-"[NixOS 19.03] Nginx, Kibana and possibly other services that depend on "
-"OpenSSL 1.1 will be restarted."
+"\\[NixOS 19.03\\] Nginx, Kibana and possibly other services that depend "
+"on OpenSSL 1.1 will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:13
+#: ../../../src/changes/2020/r016.md:11
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:15
+#: ../../../src/changes/2020/r016.md:13
 msgid "Add RabbitMQ 3.8 role (#126083)."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:16
+#: ../../../src/changes/2020/r016.md:14
 msgid ""
 "Fix port conflict on 443 when Letsencrypt is used. This makes it possible"
 " to run a TURN server on 443 with automated letsencrypt certs, for "
 "example (#126629)."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:18
+#: ../../../src/changes/2020/r016.md:16
 msgid "Security: Update Qemu to 4.2.0 (#126583)."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:19
+#: ../../../src/changes/2020/r016.md:17
 msgid "Security: Update for OpenSSL 1.1.1 (#126583)."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:20
+#: ../../../src/changes/2020/r016.md:18
 msgid ""
 "Fix Postfix permissions problem which lead to incomplete Telegraf metrics"
 " for low-volume mail servers (#126332)."
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:24
+#: ../../../src/changes/2020/r016.md:20
 msgid "NixOS 15.09 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r016.rst:26
+#: ../../../src/changes/2020/r016.md:22
 msgid ""
 "Add tar and compression tools to fc-manage. Using fetchTarball in local "
 "NixOS config doesn’t break automatic configuration anymore (#124799)."
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 19.03] Nginx, Kibana and possibly"
+#~ " other services that depend on "
+#~ "OpenSSL 1.1 will be restarted."
+#~ msgstr ""
 

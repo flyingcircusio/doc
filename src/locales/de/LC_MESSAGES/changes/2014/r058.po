@@ -9,70 +9,102 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r058.rst:4
+#: ../../../src/changes/2014/r058.md:5
 msgid "Release 2014_058 (2014-12-17)"
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:7
+#: ../../../src/changes/2014/r058.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:9
+#: ../../../src/changes/2014/r058.md:9
 msgid ""
-"Security update for `GLSA 201412-12 / dbus "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-12.xml>`_ (#14063)."
+"Security update for [GLSA 201412-12 / "
+"dbus](http://www.gentoo.org/security/en/glsa/glsa-201412-12.xml) "
+"(#14063)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:10
+#: ../../../src/changes/2014/r058.md:10
 msgid ""
-"Security update for `GLSA 201412-27 / Ruby "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-27.xml>`_ (#14064)."
+"Security update for [GLSA 201412-27 / "
+"Ruby](http://www.gentoo.org/security/en/glsa/glsa-201412-27.xml) "
+"(#14064)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:11
+#: ../../../src/changes/2014/r058.md:11
 msgid ""
-"Security update for `GLSA 201412-21 / mod_wsgi "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-21.xml>`_ (#14065)."
+"Security update for [GLSA 201412-21 / "
+"mod_wsgi](http://www.gentoo.org/security/en/glsa/glsa-201412-21.xml) "
+"(#14065)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:12
+#: ../../../src/changes/2014/r058.md:12
 msgid "Remove platform support for Tomcat (#14066)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:13
+#: ../../../src/changes/2014/r058.md:13
 msgid ""
-"Security update for `GLSA 201412-23 / nagios-core "
-"<http://www.gentoo.org/security/en/glsa/glsa-201412-23.xml>`_ (#14067)."
+"Security update for [GLSA 201412-23 / nagios-"
+"core](http://www.gentoo.org/security/en/glsa/glsa-201412-23.xml) "
+"(#14067)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:16
+#: ../../../src/changes/2014/r058.md:15
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:18
+#: ../../../src/changes/2014/r058.md:17
 msgid "Disable automatic disk shrink due to kernel issues (#14050)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:19
+#: ../../../src/changes/2014/r058.md:18
 msgid ""
 "Adjust `smtpd_relay_restrictions` Postfix parameter which has been "
 "introduced by the OS update (#14072)."
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:23
+#: ../../../src/changes/2014/r058.md:20
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r058.rst:25
+#: ../../../src/changes/2014/r058.md:22
 msgid "The upgraded Nagios server has an improved web UI."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-12 /"
+#~ " dbus "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-12.xml>`_ "
+#~ "(#14063)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-27 /"
+#~ " Ruby "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-27.xml>`_ "
+#~ "(#14064)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-21 /"
+#~ " mod_wsgi "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-21.xml>`_ "
+#~ "(#14065)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201412-23 /"
+#~ " nagios-core "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201412-23.xml>`_ "
+#~ "(#14067)."
+#~ msgstr ""
 

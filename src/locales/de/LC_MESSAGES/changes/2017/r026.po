@@ -9,93 +9,96 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2017/r026.rst:4
+#: ../../../src/changes/2017/r026.md:5
 msgid "Release 2017_026 (2017-11-02)"
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:7
+#: ../../../src/changes/2017/r026.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:9
-msgid "[NixOS] nginx will be restarted."
+#: ../../../src/changes/2017/r026.md:9
+msgid "\\[NixOS\\] nginx will be restarted."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:13
+#: ../../../src/changes/2017/r026.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:15
+#: ../../../src/changes/2017/r026.md:13
 msgid ""
 "Always restart Telegraf after a crash. This will result in less noise in "
 "monitoring and alerting (#28776)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:17
+#: ../../../src/changes/2017/r026.md:15
 msgid "Always restart Kibana after a crash (#28795)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:18
+#: ../../../src/changes/2017/r026.md:16
 #, python-format
 msgid ""
 "Monitor %steal CPU value to ensure we do not miss completely overloaded "
 "hosts (#28296)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:20
+#: ../../../src/changes/2017/r026.md:18
 msgid "Basic role for RabbitMQ (#28707)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:21
+#: ../../../src/changes/2017/r026.md:19
 msgid ""
 "Ignore freshclam's exit status so that the systemd check doesn't alert "
 "(#28236)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:23
+#: ../../../src/changes/2017/r026.md:21
 msgid ""
 "The uptime check was never alerting. Fix it with hopefully reasonable "
 "settings for automated alerting and human awareness (#28837)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:25
+#: ../../../src/changes/2017/r026.md:23
 msgid "Update wkhtmltopdf to 0.12.4 (#28838)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:26
+#: ../../../src/changes/2017/r026.md:24
 msgid "Update nginx to 0.10.3 (#28890)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:27
+#: ../../../src/changes/2017/r026.md:25
 msgid "Allow users to run iotop via sudo."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:28
+#: ../../../src/changes/2017/r026.md:26
 msgid "haproxy: set startup retry interval to 5s (#28920)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:32
+#: ../../../src/changes/2017/r026.md:28
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:34
+#: ../../../src/changes/2017/r026.md:30
 msgid "Improve outside connectivity check (#28798)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:35
+#: ../../../src/changes/2017/r026.md:31
 msgid "Improve firewall rules (#28288)."
 msgstr ""
 
-#: ../../src/changes/2017/r026.rst:36
+#: ../../../src/changes/2017/r026.md:32
 msgid "Silence `runscript` warnings (#28401)."
 msgstr ""
+
+#~ msgid "[NixOS] nginx will be restarted."
+#~ msgstr ""
 

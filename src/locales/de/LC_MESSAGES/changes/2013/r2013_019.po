@@ -9,58 +9,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2013/r2013_019.rst:4
+#: ../../../src/changes/2013/r2013_019.md:5
 msgid "Release 2013_019 (2013-08-23)"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:7
+#: ../../../src/changes/2013/r2013_019.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:9
+#: ../../../src/changes/2013/r2013_019.md:9
 msgid ""
-"Security update for `GLSA 201308-02 / d-bus "
-"<http://www.gentoo.org/security/en/glsa/glsa-201308-02.xml>`_ (#12762)."
+"Security update for [GLSA 201308-02 / "
+"d-bus](http://www.gentoo.org/security/en/glsa/glsa-201308-02.xml) "
+"(#12762)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:11
-msgid "Use `rsyslog`_ instead of syslog-ng (#8658)."
+#: ../../../src/changes/2013/r2013_019.md:10
+msgid "Use [rsyslog] instead of syslog-ng (#8658)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:17
+#: ../../../src/changes/2013/r2013_019.md:12
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:19
+#: ../../../src/changes/2013/r2013_019.md:14
 msgid ""
 "Enable `rsyslog` to collect all logs for its resource group on a central "
 "(per-resource-group) log server (#8658)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:21
-msgid "Add managed `RabbitMQ`_ as host role (RT 90430)."
+#: ../../../src/changes/2013/r2013_019.md:16
+msgid "Add managed [RabbitMQ] as host role (RT 90430)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:22
+#: ../../../src/changes/2013/r2013_019.md:17
 msgid ""
 "Fix bug in shutdown scripts which could lead to uncleanly unmounted root "
 "filesystems on physical machines (#12748)."
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:29
+#: ../../../src/changes/2013/r2013_019.md:20
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2013/r2013_019.rst:31
-msgid ":ref:`gentoo-loghost` role documentation (#8658)."
+#: ../../../src/changes/2013/r2013_019.md:22
+msgid "{ref}`gentoo-loghost` role documentation (#8658)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201308-02 /"
+#~ " d-bus "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201308-02.xml>`_ "
+#~ "(#12762)."
+#~ msgstr ""
+
+#~ msgid "Use `rsyslog`_ instead of syslog-ng (#8658)."
+#~ msgstr ""
+
+#~ msgid "Add managed `RabbitMQ`_ as host role (RT 90430)."
+#~ msgstr ""
+
+#~ msgid ":ref:`gentoo-loghost` role documentation (#8658)."
+#~ msgstr ""
 

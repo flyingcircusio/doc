@@ -9,34 +9,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/infrastructure/vms/index.rst:9
+#: ../../../src/infrastructure/vms/index.md:6
 msgid "Virtual machines"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:11
+#: ../../../src/infrastructure/vms/index.md:8
 msgid "VMs are run on the Linux Qemu/KVM hypervisor."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:12
+#: ../../../src/infrastructure/vms/index.md:10
 msgid "Virtual disks are stored in CEPH RBD volumes."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:14
+#: ../../../src/infrastructure/vms/index.md:12
 msgid ""
 "The guest operating system is a 64-bit NixOS Linux managed by the Flying "
 "Circus."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:16
+#: ../../../src/infrastructure/vms/index.md:14
 msgid ""
 "Packages are installed through the managed components globally or in your"
 " service user using the `nix-env` utility. You are also free to compile "
@@ -44,7 +44,7 @@ msgid ""
 "suprising effects - talk to us if you need to do that."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:20
+#: ../../../src/infrastructure/vms/index.md:18
 msgid ""
 "We are always looking for more components to manage for you but as a "
 "general rule new managed components take their time to develop them. "
@@ -52,171 +52,180 @@ msgid ""
 "support."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:24
+#: ../../../src/infrastructure/vms/index.md:23
 msgid "VMs can be assigned resources:"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:26
+#: ../../../src/infrastructure/vms/index.md:25
 msgid "1-8 virtual CPU cores"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:27
+#: ../../../src/infrastructure/vms/index.md:26
 msgid "1-60GiB RAM"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:28
+#: ../../../src/infrastructure/vms/index.md:27
 msgid ""
 "30GiB-10+TiB disk (note that filesystems become unwieldy at a certain "
 "size)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:30
+#: ../../../src/infrastructure/vms/index.md:29
 msgid "Resources can be resized:"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:32
+#: ../../../src/infrastructure/vms/index.md:31
 msgid "CPU and RAM changes currently require a reboot of the VM."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:33
+#: ../../../src/infrastructure/vms/index.md:32
 msgid "Disks can be grown on the fly without a reboot."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:34
+#: ../../../src/infrastructure/vms/index.md:33
 msgid ""
 "Shrinking disks is not supported. Growing a disk is very fast and thus we"
 " recommend starting small and growing as needed. If you need to "
 "drastically shrink a disk you need to provision a new VM."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:39
+#: ../../../src/infrastructure/vms/index.md:37
 msgid "Maintenance"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:41
+#: ../../../src/infrastructure/vms/index.md:39
 msgid ""
 "For every project our automatic maintenance window is by default set "
 "between 22:00 and 5:00 (Europe/Berlin) with a pre-announcement period of "
 "24 hours."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:44
+#: ../../../src/infrastructure/vms/index.md:42
 msgid ""
 "When our tools notice that maintenance is required they will "
 "automatically pick a window matching the configured limits and notify "
 "your technical contacts."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:48
+#: ../../../src/infrastructure/vms/index.md:45
 msgid "Reboot"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:50
+#: ../../../src/infrastructure/vms/index.md:47
 msgid ""
 "Automated reboots are announced according to the maintenance schedule. "
 "Users granted the `sudo-srv` permission are able to reboot a VM "
-"immediately via the customer portal at https://my.flyingcircus.io."
+"immediately via the customer portal at <https://my.flyingcircus.io>."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:53
+#: ../../../src/infrastructure/vms/index.md:50
 msgid ""
 "Machines should *not* be rebooted manually on the command line (e.g. "
 "`sudo systemctl reboot`). Monitoring systems will consider this "
 "*unplanned*, likely causing an alarm."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:56
+#: ../../../src/infrastructure/vms/index.md:52
 msgid "Deletion"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:58
+#: ../../../src/infrastructure/vms/index.md:54
 msgid ""
 "VMs are deleted in a multi-stage process that takes around 38 days. You "
 "can schedule the deletion of a VM at earliest for the next day (midnight "
 "Europe/Berlin)."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:62
+#: ../../../src/infrastructure/vms/index.md:58
 msgid "The stages of deletion are:"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:71
+#: ../../../src/infrastructure/vms/index.md:60
 msgid "Prepare"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:65
+#: ../../../src/infrastructure/vms/index.md:62
 msgid "(t-5 days)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:67
+#: ../../../src/infrastructure/vms/index.md:64
 msgid ""
 "Create a maintenance period to let technical contacts know that a VM is "
 "due for deletion soon."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:70
+#: ../../../src/infrastructure/vms/index.md:67
 msgid ""
 "Also, add downtimes in our monitoring systems to stop any alerts related "
 "to the VM starting from their deletion date."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:79
+#: ../../../src/infrastructure/vms/index.md:70
 msgid "Soft"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:74
+#: ../../../src/infrastructure/vms/index.md:72
 msgid "(at t=0)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:76
+#: ../../../src/infrastructure/vms/index.md:74
 msgid "Shutdown the VM but keep all existing records, IPs, disks, etc."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:78
+#: ../../../src/infrastructure/vms/index.md:76
 msgid ""
 "At this point you can still cancel the deletion and start up the VM as it"
 " was including all persistent data."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:86
+#: ../../../src/infrastructure/vms/index.md:79
 msgid "Hard"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:82
+#: ../../../src/infrastructure/vms/index.md:81
 msgid "(t+3 days)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:84
+#: ../../../src/infrastructure/vms/index.md:83
 msgid "Delete the VMs hard disk from activate storage."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:86
+#: ../../../src/infrastructure/vms/index.md:85
 msgid "Also delete all records from our directory and allow the IPs to be reused."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:91
+#: ../../../src/infrastructure/vms/index.md:87
 msgid "Purge"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:89
+#: ../../../src/infrastructure/vms/index.md:89
 msgid "(t+8 days)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:91
+#: ../../../src/infrastructure/vms/index.md:91
 msgid "Delete the VMs backups."
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:96
+#: ../../../src/infrastructure/vms/index.md:93
 msgid "Recycle"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:94
+#: ../../../src/infrastructure/vms/index.md:95
 msgid "(t+38 days)"
 msgstr ""
 
-#: ../../src/infrastructure/vms/index.rst:96
+#: ../../../src/infrastructure/vms/index.md:97
 msgid ""
 "Delete the VM deletion notice which will in turn allow the VMs name to be"
 " used again."
 msgstr ""
+
+#~ msgid ""
+#~ "Automated reboots are announced according "
+#~ "to the maintenance schedule. Users "
+#~ "granted the `sudo-srv` permission are"
+#~ " able to reboot a VM immediately "
+#~ "via the customer portal at "
+#~ "https://my.flyingcircus.io."
+#~ msgstr ""
 

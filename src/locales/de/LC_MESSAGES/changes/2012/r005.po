@@ -9,76 +9,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r005.rst:6
+#: ../../../src/changes/2012/r005.md:7
 msgid "Release 2012-03-08"
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:9
+#: ../../../src/changes/2012/r005.md:9
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:11
+#: ../../../src/changes/2012/r005.md:11
 msgid ""
-"Security update for cURL: `GLSA 201203-02 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-02.xml>`_ (#10541)."
+"Security update for cURL: [GLSA "
+"201203-02](http://www.gentoo.org/security/en/glsa/glsa-201203-02.xml) "
+"(#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:12
+#: ../../../src/changes/2012/r005.md:12
 msgid ""
-"Security update for puppet: `GLSA 201203-03 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-03.xml>`_ (#10541)."
+"Security update for puppet: [GLSA "
+"201203-03](http://www.gentoo.org/security/en/glsa/glsa-201203-03.xml) "
+"(#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:13
+#: ../../../src/changes/2012/r005.md:13
 msgid ""
-"Security update for libxml2: `GLSA 201203-04 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-04.xml>`_ (#10541). "
-"Requires PostgreSQL restart in some cases."
+"Security update for libxml2: [GLSA "
+"201203-04](http://www.gentoo.org/security/en/glsa/glsa-201203-04.xml) "
+"(#10541). Requires PostgreSQL restart in some cases."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:14
+#: ../../../src/changes/2012/r005.md:14
 msgid ""
-"Security update for rack: `GLSA 201203-05 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-05.xml>`_ (#10541)."
+"Security update for rack: [GLSA "
+"201203-05](http://www.gentoo.org/security/en/glsa/glsa-201203-05.xml) "
+"(#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:15
+#: ../../../src/changes/2012/r005.md:15
 msgid ""
-"Security update for libxslt: `GLSA 201203-08 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-08.xml>`_ (#10541)."
+"Security update for libxslt: [GLSA "
+"201203-08](http://www.gentoo.org/security/en/glsa/glsa-201203-08.xml) "
+"(#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:16
+#: ../../../src/changes/2012/r005.md:16
 msgid ""
-"Security update for ImageMagick: `GLSA 201203-09 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-09.xml>`_ (#10541)."
+"Security update for ImageMagick: [GLSA "
+"201203-09](http://www.gentoo.org/security/en/glsa/glsa-201203-09.xml) "
+"(#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:17
+#: ../../../src/changes/2012/r005.md:17
 msgid ""
-"Security update for openssl: `GLSA 201203-12 "
-"<http://www.gentoo.org/security/en/glsa/glsa-201203-12.xml>`_ (#10541). "
-"Requires PostgreSQL restart in some cases."
+"Security update for openssl: [GLSA "
+"201203-12](http://www.gentoo.org/security/en/glsa/glsa-201203-12.xml) "
+"(#10541). Requires PostgreSQL restart in some cases."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:18
+#: ../../../src/changes/2012/r005.md:18
 msgid "Install Python 3.2 by default (#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:22
+#: ../../../src/changes/2012/r005.md:20
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:24
+#: ../../../src/changes/2012/r005.md:22
 msgid ""
 "Stop to install Python 2.4 on all nodes by default since Gentoo support "
 "has been dropped. System Python 2.4 will still be available, but users "
@@ -86,33 +91,97 @@ msgid ""
 "2.4 from source (#10541)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:28
+#: ../../../src/changes/2012/r005.md:26
 msgid "Fix webalizer/GeoIP compile issues."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:29
+#: ../../../src/changes/2012/r005.md:27
 msgid ""
 "Refine firewall configuration to allow customer-specific exceptions "
 "(#8846)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:30
+#: ../../../src/changes/2012/r005.md:28
 msgid "Add firewall separation between resource groups for IPv6 (#8846)."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:31
+#: ../../../src/changes/2012/r005.md:29
 msgid ""
-"Adjust number of AMaViSd workers on :ref:`mailserver` nodes according to "
+"Adjust number of AMaViSd workers on {ref}`mailserver` nodes according to "
 "processor count."
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:36
+#: ../../../src/changes/2012/r005.md:32
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r005.rst:38
+#: ../../../src/changes/2012/r005.md:34
 msgid ""
-"Add GTUBE and EICAR checks to :ref:`mailserver` role to verify that spam "
+"Add GTUBE and EICAR checks to {ref}`mailserver` role to verify that spam "
 "and virus mails are rejected on mail servers."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for cURL: `GLSA "
+#~ "201203-02 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-02.xml>`_ "
+#~ "(#10541)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for puppet: `GLSA "
+#~ "201203-03 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-03.xml>`_ "
+#~ "(#10541)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for libxml2: `GLSA "
+#~ "201203-04 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-04.xml>`_ "
+#~ "(#10541). Requires PostgreSQL restart in "
+#~ "some cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for rack: `GLSA "
+#~ "201203-05 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-05.xml>`_ "
+#~ "(#10541)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for libxslt: `GLSA "
+#~ "201203-08 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-08.xml>`_ "
+#~ "(#10541)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for ImageMagick: `GLSA "
+#~ "201203-09 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-09.xml>`_ "
+#~ "(#10541)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for openssl: `GLSA "
+#~ "201203-12 "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201203-12.xml>`_ "
+#~ "(#10541). Requires PostgreSQL restart in "
+#~ "some cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adjust number of AMaViSd workers on "
+#~ ":ref:`mailserver` nodes according to processor"
+#~ " count."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add GTUBE and EICAR checks to "
+#~ ":ref:`mailserver` role to verify that "
+#~ "spam and virus mails are rejected "
+#~ "on mail servers."
+#~ msgstr ""
 

@@ -9,38 +9,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r007.rst:4
+#: ../../../src/changes/2021/r007.md:5
 msgid "Release 2021_007 (2021-03-08)"
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:7
+#: ../../../src/changes/2021/r007.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:9
+#: ../../../src/changes/2021/r007.md:9
 msgid ""
-"[NixOS 20.09] Many services will be restarted due to a systemd-related "
-"change."
+"\\[NixOS 20.09\\] Many services will be restarted due to a systemd-"
+"related change."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:10
-msgid "[NixOS 20.09] VM will schedule a reboot to activate the kernel update."
+#: ../../../src/changes/2021/r007.md:10
+msgid "\\[NixOS 20.09\\] VM will schedule a reboot to activate the kernel update."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:14
+#: ../../../src/changes/2021/r007.md:12
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:16
+#: ../../../src/changes/2021/r007.md:14
 msgid ""
 "Merge upstream NixOS changes. Includes security fixes for imagemagick "
 "(CVE-2021-20176), nodejs (CVE-2021-22883, CVE-2021-22884, "
@@ -48,53 +48,78 @@ msgid ""
 "and a kernel update. (#PL-129712)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:20
+#: ../../../src/changes/2021/r007.md:18
 msgid "Update Elasticsearch and Kibana to 7.10.2 (#PL-129713)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:21
+#: ../../../src/changes/2021/r007.md:19
 msgid "Kibana 7: disable broken reporting extension (#PL-127508)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:22
+#: ../../../src/changes/2021/r007.md:20
 msgid ""
 "LAMP: don't listen on port 80 by default because it conflicts with the "
 "webgateway role (#PL-129672)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:24
+#: ../../../src/changes/2021/r007.md:22
 msgid ""
 "Add a sensu check for each certificate managed by NixOS letsencrypt "
 "automation. It checks the validity and warns before certs expire "
 "(#PL-127856)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:26
+#: ../../../src/changes/2021/r007.md:24
 msgid ""
 "Mailserver: update /etc/local/mailserver/README for the new configuration"
 " system (#PL-129587)."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:31
+#: ../../../src/changes/2021/r007.md:27
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:33
+#: ../../../src/changes/2021/r007.md:29
 msgid ""
-"Improve documentation about using `fc-manage "
-"<https://doc.flyingcircus.io/roles/fc-20.09-production/local.html>`_ to "
-"pick up local changes, CMDB or OS updates."
+"Improve documentation about using [fc-"
+"manage](https://doc.flyingcircus.io/roles/fc-20.09-production/local.html)"
+" to pick up local changes, CMDB or OS updates."
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:37
+#: ../../../src/changes/2021/r007.md:32
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r007.rst:39
+#: ../../../src/changes/2021/r007.md:34
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_006/20.09...febe383fae71de27d8ed73ffc6bd3e410ae31a60>`_,"
-" `nixpkgs/upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/3c5ae423d8afcb608da3bb009b51633a6928e066...3e2e59332c03371925143b43d4a48cae95ebd699>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_006/20.09...febe383fae71de27d8ed73ffc6bd3e410ae31a60),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/3c5ae423d8afcb608da3bb009b51633a6928e066...3e2e59332c03371925143b43d4a48cae95ebd699)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Many services will be "
+#~ "restarted due to a systemd-related "
+#~ "change."
+#~ msgstr ""
+
+#~ msgid "[NixOS 20.09] VM will schedule a reboot to activate the kernel update."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improve documentation about using `fc-"
+#~ "manage "
+#~ "<https://doc.flyingcircus.io/roles/fc-20.09-production/local.html>`_"
+#~ " to pick up local changes, CMDB "
+#~ "or OS updates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_006/20.09...febe383fae71de27d8ed73ffc6bd3e410ae31a60>`_,"
+#~ " `nixpkgs/upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/3c5ae423d8afcb608da3bb009b51633a6928e066...3e2e59332c03371925143b43d4a48cae95ebd699>`_"
+#~ msgstr ""
 

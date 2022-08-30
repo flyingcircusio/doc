@@ -9,139 +9,162 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/reference/users/index.rst:9
+#: ../../../src/reference/users/index.md:8
 msgid "User accounts"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:18
+#: ../../../src/reference/users/index.md:16
 msgid "Principles"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:20
+#: ../../../src/reference/users/index.md:18
 msgid "Users are either humans or non-human users for services."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:21
+#: ../../../src/reference/users/index.md:19
 msgid ""
 "All users of a project are configured (e.g. visible via getent) on all "
 "hosts of a project."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:23
+#: ../../../src/reference/users/index.md:21
 msgid ""
 "The following attributes are globally unique: username, UID, group name, "
 "GID."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:25
+#: ../../../src/reference/users/index.md:23
 msgid ""
 "The bijections between username/UID and group name/GID are globally "
 "unique."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:26
+#: ../../../src/reference/users/index.md:24
 msgid ""
 "The presence of an account alone does not imply any permission "
 "assignments."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:29
+#: ../../../src/reference/users/index.md:26
 msgid "Human users"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:31
+#: ../../../src/reference/users/index.md:28
 msgid "The primary group is `users`."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:32
-msgid "The home directory is located in :file:`/home/$USER`."
+#: ../../../src/reference/users/index.md:29
+msgid "The home directory is located in {file}`/home/$USER`."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:37
+#: ../../../src/reference/users/index.md:33
 msgid "Service users"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:39
+#: ../../../src/reference/users/index.md:35
 msgid "The primary group is `service`."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:40
-msgid "The home directory is located in :file:`/srv/$USER`."
+#: ../../../src/reference/users/index.md:36
+msgid "The home directory is located in {file}`/srv/$USER`."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:41
+#: ../../../src/reference/users/index.md:37
 msgid ""
 "No SSH login is allowed by default to support the general data protection"
 " guidelines. In exceptional cases SSH access may be granted."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:42
+#: ../../../src/reference/users/index.md:38
 msgid ""
 "human users that have the *sudo-srv* permission in a project are allowed "
-"to change to the service user (:command:`sudo -u <service_user_name> -i`)"
-" and execute commands as a service user (:command:`sudo -u "
+"to change to the service user ({command}`sudo -u <service_user_name> -i`)"
+" and execute commands as a service user ({command}`sudo -u "
 "<service_user_name> <command>`)"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:50
+#: ../../../src/reference/users/index.md:45
 msgid "Permissions"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:52
+#: ../../../src/reference/users/index.md:47
 msgid ""
 "Users own a separate set of permissions for every project they are a "
 "member of. Common permissions include:"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:56
+#: ../../../src/reference/users/index.md:50
 msgid "login"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:56
+#: ../../../src/reference/users/index.md:52
 msgid "Perform interactive shell login on a machine (via SSH)."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:59
+#: ../../../src/reference/users/index.md:54
 msgid "manager"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:59
+#: ../../../src/reference/users/index.md:56
 msgid ""
 "Add or remove other users from the project. Define permissions for users "
 "in the project."
 msgstr ""
 
-#: ../../src/reference/users/index.rst:62
+#: ../../../src/reference/users/index.md:58
 msgid "sudo-srv"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:62
+#: ../../../src/reference/users/index.md:60
 msgid "Sudo into service users on a machine (password not necessary)"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:66
+#: ../../../src/reference/users/index.md:62
 msgid "stats"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:65
+#: ../../../src/reference/users/index.md:64
 msgid ""
 "View system statistics (e.g., performance, availability, or web access "
 "statistics)"
 msgstr ""
 
-#: ../../src/reference/users/index.rst:68
+#: ../../../src/reference/users/index.md:66
 msgid ""
 "There are more permissions that are not considered critical for general "
 "operations. The full list is documented in "
-":file:`/etc/local/permission.desc`."
+"{file}`/etc/local/permission.desc`."
 msgstr ""
+
+#~ msgid "The home directory is located in :file:`/home/$USER`."
+#~ msgstr ""
+
+#~ msgid "The home directory is located in :file:`/srv/$USER`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "human users that have the *sudo-"
+#~ "srv* permission in a project are "
+#~ "allowed to change to the service "
+#~ "user (:command:`sudo -u <service_user_name> "
+#~ "-i`) and execute commands as a "
+#~ "service user (:command:`sudo -u "
+#~ "<service_user_name> <command>`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are more permissions that are "
+#~ "not considered critical for general "
+#~ "operations. The full list is documented"
+#~ " in :file:`/etc/local/permission.desc`."
+#~ msgstr ""
 

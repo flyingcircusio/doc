@@ -9,45 +9,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2012/r023.rst:4
+#: ../../../src/changes/2012/r023.md:5
 msgid "Release 2012-07-27"
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:7
+#: ../../../src/changes/2012/r023.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:9
+#: ../../../src/changes/2012/r023.md:9
 msgid ""
 "Fix locale-related bug that caused delays during VM provisioning. Please "
 "note that this may trigger PostgreSQL restarts when running PostgreSQL "
 "instances still use old locale databases (#10785)."
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:12
+#: ../../../src/changes/2012/r023.md:12
 msgid "Automatic configuration of multiple IP addresses per interface (#8872)."
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:13
+#: ../../../src/changes/2012/r023.md:13
 msgid ""
 "Fix nameserver configuration bug that caused stale DNS data in some cases"
 " (#11061)."
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:18
+#: ../../../src/changes/2012/r023.md:16
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2012/r023.rst:20
-msgid "Provide default check for :file:`haproxy.log` (#10822)."
+#: ../../../src/changes/2012/r023.md:18
+msgid "Provide default check for {file}`haproxy.log` (#10822)."
 msgstr ""
+
+#~ msgid "Provide default check for :file:`haproxy.log` (#10822)."
+#~ msgstr ""
 

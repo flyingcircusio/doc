@@ -9,82 +9,97 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r017.rst:4
+#: ../../../src/changes/2021/r017.md:5
 msgid "Release 2021_017 (2021-05-17)"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:7
+#: ../../../src/changes/2021/r017.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:9
+#: ../../../src/changes/2021/r017.md:9
 msgid ""
-"[NixOS 20.09] Grafana and InfluxDB will be restarted. VMs will schedule a"
-" reboot to activate the new kernel version."
+"\\[NixOS 20.09\\] Grafana and InfluxDB will be restarted. VMs will "
+"schedule a reboot to activate the new kernel version."
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:13
+#: ../../../src/changes/2021/r017.md:11
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:15
+#: ../../../src/changes/2021/r017.md:13
 msgid ""
 "Grafana: 7.5.2 -> 7.5.5. This update fixes a problem with frequent "
 "logouts (#PL-129789)."
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:16
+#: ../../../src/changes/2021/r017.md:15
 msgid ""
 "Merge upstream NixOS changes that include security fixes and other "
 "updates (#PL-129839):"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:18
+#: ../../../src/changes/2021/r017.md:17
 msgid "cifs-utils: fix CVE-2021-20208"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:19
+#: ../../../src/changes/2021/r017.md:18
 msgid "imagemagick: 7.0.11-8 -> 7.0.11-9"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:20
+#: ../../../src/changes/2021/r017.md:19
 msgid "perlPackages.ImageExifTool: apply fix for CVE-2021-22204"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:21
+#: ../../../src/changes/2021/r017.md:20
 msgid "linux: 5.4.111 -> 5.4.114"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:22
+#: ../../../src/changes/2021/r017.md:21
 msgid "phpPackages.composer: 1.10.8 -> 1.10.22 (CVE-2021-29472)"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:23
+#: ../../../src/changes/2021/r017.md:22
 msgid "phpPackages.composer2: 2.0.12 -> 2.0.13 (CVE-2021-29472)"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:24
+#: ../../../src/changes/2021/r017.md:23
 msgid "dnsmasq: 2.84 -> 2.85"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:28
+#: ../../../src/changes/2021/r017.md:25
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r017.rst:30
+#: ../../../src/changes/2021/r017.md:27
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_016/20.09...60503bccebe7b273537a0afdde2b9d0eeecf3d7d>`_,"
-" `nixpkgs/upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/be3024f017f3c5cbf554516c28c4d0dae97d300d...e9de7f2ce45c58127fe27db9617d4de96e7d49b5>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_016/20.09...60503bccebe7b273537a0afdde2b9d0eeecf3d7d),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/be3024f017f3c5cbf554516c28c4d0dae97d300d...e9de7f2ce45c58127fe27db9617d4de96e7d49b5)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Grafana and InfluxDB will"
+#~ " be restarted. VMs will schedule a"
+#~ " reboot to activate the new kernel"
+#~ " version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_016/20.09...60503bccebe7b273537a0afdde2b9d0eeecf3d7d>`_,"
+#~ " `nixpkgs/upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/be3024f017f3c5cbf554516c28c4d0dae97d300d...e9de7f2ce45c58127fe27db9617d4de96e7d49b5>`_"
+#~ msgstr ""
 

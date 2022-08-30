@@ -9,396 +9,402 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2018/r037.rst:4
+#: ../../../src/changes/2018/r037.md:5
 msgid "Release 2018_037 (2018-12-19)"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:7
+#: ../../../src/changes/2018/r037.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:9
-msgid "[NixOS] Most services will be restarted."
+#: ../../../src/changes/2018/r037.md:9
+msgid "\\[NixOS\\] Most services will be restarted."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:13
+#: ../../../src/changes/2018/r037.md:11
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:15
+#: ../../../src/changes/2018/r037.md:13
 msgid ""
 "Increase scheduling priority for telegraf data collection daemons "
 "(#107353)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:16
+#: ../../../src/changes/2018/r037.md:14
 msgid "Remove `idle_since` label from RabbitMQ metrics (#107461)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:17
+#: ../../../src/changes/2018/r037.md:15
 msgid ""
 "Limit the number of parallel downloads during NixOS updates to reduce I/O"
 " load (#107440)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:19
+#: ../../../src/changes/2018/r037.md:17
 msgid "Ensure Grafana gets restarted after crashes (#107469)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:20
+#: ../../../src/changes/2018/r037.md:18
 msgid "Fix Graylog password generation (#107295)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:21
+#: ../../../src/changes/2018/r037.md:19
 msgid "Nginx: make `map_hash_bucket_size` accessible as Nix option (#107386)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:22
+#: ../../../src/changes/2018/r037.md:20
 msgid "Security updates for several packages (#107440):"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:25
+#: ../../../src/changes/2018/r037.md
 msgid "Package"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:25
+#: ../../../src/changes/2018/r037.md
 msgid "old"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:25
+#: ../../../src/changes/2018/r037.md
 msgid "new"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:27
+#: ../../../src/changes/2018/r037.md
 msgid "apache-httpd"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:27
+#: ../../../src/changes/2018/r037.md
 msgid "2.4.33"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:27
+#: ../../../src/changes/2018/r037.md
 msgid "2.4.35"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:28
+#: ../../../src/changes/2018/r037.md
 msgid "chromedriver"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:28
+#: ../../../src/changes/2018/r037.md
 msgid "2.41"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:28
+#: ../../../src/changes/2018/r037.md
 msgid "2.43"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:29
+#: ../../../src/changes/2018/r037.md
 msgid "chromium"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:29
+#: ../../../src/changes/2018/r037.md
 msgid "69.0.3497.81"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:29
+#: ../../../src/changes/2018/r037.md
 msgid "70.0.3538.110"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:30
+#: ../../../src/changes/2018/r037.md
 msgid "docker"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:30
+#: ../../../src/changes/2018/r037.md
 msgid "18.03.1-ce"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:30
+#: ../../../src/changes/2018/r037.md
 msgid "18.06.1-ce"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:31
+#: ../../../src/changes/2018/r037.md
 msgid "elasticsearch"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:31
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.6"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:31
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.9"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:32
+#: ../../../src/changes/2018/r037.md
 msgid "firefox"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:32
+#: ../../../src/changes/2018/r037.md
 msgid "59.0.2"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:32
+#: ../../../src/changes/2018/r037.md
 msgid "63.0.3"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:33
+#: ../../../src/changes/2018/r037.md
 msgid "ghostscript"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:33
+#: ../../../src/changes/2018/r037.md
 msgid "9.22"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:33
+#: ../../../src/changes/2018/r037.md
 msgid "9.25"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:34
+#: ../../../src/changes/2018/r037.md
 msgid "git"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:34
+#: ../../../src/changes/2018/r037.md
 msgid "2.15.2"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:34
+#: ../../../src/changes/2018/r037.md
 msgid "2.16.5"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:35
+#: ../../../src/changes/2018/r037.md
 msgid "grafana"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:35
+#: ../../../src/changes/2018/r037.md
 msgid "5.1.4"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:35
+#: ../../../src/changes/2018/r037.md
 msgid "5.2.3"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:36
+#: ../../../src/changes/2018/r037.md
 msgid "iptables"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:36
+#: ../../../src/changes/2018/r037.md
 msgid "1.6.1"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:36
+#: ../../../src/changes/2018/r037.md
 msgid "1.6.2"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:37
+#: ../../../src/changes/2018/r037.md
 msgid "libreoffice"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:37
+#: ../../../src/changes/2018/r037.md
 msgid "5.3.1.2"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:37
+#: ../../../src/changes/2018/r037.md
 msgid "6.0.2.1"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:38
+#: ../../../src/changes/2018/r037.md
 msgid "mercurial"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:38
+#: ../../../src/changes/2018/r037.md
 msgid "4.7"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:38
+#: ../../../src/changes/2018/r037.md
 msgid "4.8"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:39
+#: ../../../src/changes/2018/r037.md
 msgid "nix"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:39
+#: ../../../src/changes/2018/r037.md
 msgid "1.11.16"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:39
+#: ../../../src/changes/2018/r037.md
 msgid "2.0.4"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:40
+#: ../../../src/changes/2018/r037.md
 msgid "nodejs6"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:40
+#: ../../../src/changes/2018/r037.md
 msgid "6.14.3"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:40
+#: ../../../src/changes/2018/r037.md
 msgid "6.14.4"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:41
+#: ../../../src/changes/2018/r037.md
 msgid "nodejs10"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:41
+#: ../../../src/changes/2018/r037.md
 msgid "10.9.0"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:41
+#: ../../../src/changes/2018/r037.md
 msgid "10.12.0"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:42
+#: ../../../src/changes/2018/r037.md
 msgid "php5"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:42
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.36"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:42
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.38"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:43
+#: ../../../src/changes/2018/r037.md
 msgid "php70"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:43
+#: ../../../src/changes/2018/r037.md
 msgid "7.0.30"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:43
+#: ../../../src/changes/2018/r037.md
 msgid "7.0.32"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:44
+#: ../../../src/changes/2018/r037.md
 msgid "php71"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:44
+#: ../../../src/changes/2018/r037.md
 msgid "7.1.19"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:44
+#: ../../../src/changes/2018/r037.md
 msgid "7.1.21"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:45
+#: ../../../src/changes/2018/r037.md
 msgid "php72"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:45
+#: ../../../src/changes/2018/r037.md
 msgid "7.2.7"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:45
+#: ../../../src/changes/2018/r037.md
 msgid "7.2.8"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:46
+#: ../../../src/changes/2018/r037.md
 msgid "python35"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:46
+#: ../../../src/changes/2018/r037.md
 msgid "3.5.5"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:46
+#: ../../../src/changes/2018/r037.md
 msgid "3.5.6"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:47
+#: ../../../src/changes/2018/r037.md
 msgid "python36"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:47
+#: ../../../src/changes/2018/r037.md
 msgid "3.6.4"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:47
+#: ../../../src/changes/2018/r037.md
 msgid "3.6.6"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:48
+#: ../../../src/changes/2018/r037.md
 msgid "remarshal"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:48 ../../src/changes/2018/r037.rst:49
+#: ../../../src/changes/2018/r037.md
 msgid "0.6.0"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:48
+#: ../../../src/changes/2018/r037.md
 msgid "0.7.0"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:49
+#: ../../../src/changes/2018/r037.md
 msgid "ripgrep"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:49
+#: ../../../src/changes/2018/r037.md
 msgid "0.8.1"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:50
+#: ../../../src/changes/2018/r037.md
 msgid "samba"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:50
+#: ../../../src/changes/2018/r037.md
 msgid "4.6.14"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:50
+#: ../../../src/changes/2018/r037.md
 msgid "4.7.9"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:51
+#: ../../../src/changes/2018/r037.md
 msgid "strongswan"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:51
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.0"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:51
+#: ../../../src/changes/2018/r037.md
 msgid "5.6.3"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:52
+#: ../../../src/changes/2018/r037.md
 msgid "virtualbox"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:52
+#: ../../../src/changes/2018/r037.md
 msgid "5.1.32"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:52
+#: ../../../src/changes/2018/r037.md
 msgid "5.2.14"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:57
+#: ../../../src/changes/2018/r037.md:51
 msgid "Gentoo"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:59
+#: ../../../src/changes/2018/r037.md:53
 msgid "Improve Ceph tooling for disk maintenance operations (#24636)."
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:63
+#: ../../../src/changes/2018/r037.md:55
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2018/r037.rst:65
-msgid "Update :ref:`firewall` documentation (#29291)."
+#: ../../../src/changes/2018/r037.md:57
+msgid "Update {ref}`firewall` documentation (#29291)."
 msgstr ""
+
+#~ msgid "[NixOS] Most services will be restarted."
+#~ msgstr ""
+
+#~ msgid "Update :ref:`firewall` documentation (#29291)."
+#~ msgstr ""
 

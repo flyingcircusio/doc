@@ -9,62 +9,68 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r002.rst:4
+#: ../../../src/changes/2016/r002.md:5
 msgid "Release 2016_002 (2016-01-22)"
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:7
+#: ../../../src/changes/2016/r002.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:9
+#: ../../../src/changes/2016/r002.md:9
 msgid ""
-"Security update for OpenSSH `GLSA 201601-01 "
-"<https://security.gentoo.org/glsa/201601-01>`_ (#19787)."
+"Security update for OpenSSH [GLSA "
+"201601-01](https://security.gentoo.org/glsa/201601-01) (#19787)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:11
+#: ../../../src/changes/2016/r002.md:10
 msgid "Update fc.agent to 1.8.1 (#17873)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:12
+#: ../../../src/changes/2016/r002.md:11
 msgid "Update fc.qemu to 0.7.14 (#17873)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:15
+#: ../../../src/changes/2016/r002.md:13
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:17
+#: ../../../src/changes/2016/r002.md:15
 msgid "Start managing cloneable NixOS base images on Ceph servers (#17873)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:18
+#: ../../../src/changes/2016/r002.md:16
 msgid ""
 "Start migrating filesystems to XFS by switching /tmp on the next reboot "
 "(#17873)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:20
+#: ../../../src/changes/2016/r002.md:18
 msgid "Fix firewall rules for infrastructure machines (#19771)."
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:21
+#: ../../../src/changes/2016/r002.md:19
 msgid "Fix MySQL network dependency (#19766)"
 msgstr ""
 
-#: ../../src/changes/2016/r002.rst:22
+#: ../../../src/changes/2016/r002.md:20
 msgid ""
 "Improve I/O scheduler settings to reduce write request starvation "
 "(#19785)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for OpenSSH `GLSA "
+#~ "201601-01 <https://security.gentoo.org/glsa/201601-01>`_ "
+#~ "(#19787)."
+#~ msgstr ""
 

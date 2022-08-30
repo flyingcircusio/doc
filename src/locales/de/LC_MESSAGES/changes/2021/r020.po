@@ -9,32 +9,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r020.rst:4
+#: ../../../src/changes/2021/r020.md:5
 msgid "Release 2021_020 (2021-06-08)"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:7
+#: ../../../src/changes/2021/r020.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:9
-msgid "[NixOS 20.09] Grafana will be restarted."
+#: ../../../src/changes/2021/r020.md:9
+msgid "\\[NixOS 20.09\\] Grafana will be restarted."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:13
+#: ../../../src/changes/2021/r020.md:11
 msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:15
+#: ../../../src/changes/2021/r020.md:13
 msgid ""
 "This will be the first production release of the 21.05 platform. Main "
 "development will be done on this version from now on. Default version for"
@@ -42,53 +42,81 @@ msgid ""
 "20.09 to 21.05 in the coming weeks."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:19 ../../src/changes/2021/r020.rst:31
+#: ../../../src/changes/2021/r020.md:17 ../../../src/changes/2021/r020.md:27
 msgid ""
 "Switch LDAP connection settings for all Grafana and Graylog instances to "
-"properly use LDAPS and use the new canonical address ``ldap.fcio.net`` "
+"properly use LDAPS and use the new canonical address `ldap.fcio.net` "
 "(#PL-24593)."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:21
+#: ../../../src/changes/2021/r020.md:19
 msgid ""
 "Remove wkhtmltopdf version 0.12.4. We still support versions 0.12.5 and "
 "0.12.6. 20.09 can be used in user environments to get the package, if "
 "needed (#PL-129900)."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:23
+#: ../../../src/changes/2021/r020.md:21
 msgid ""
 "Sensu: suppress deprecation warnings in journal, update to 1.9 "
 "(#PL-129897)."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:24
+#: ../../../src/changes/2021/r020.md:22
 msgid "Fix Ceph build (#PL-129881)."
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:25
+#: ../../../src/changes/2021/r020.md:23
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/92201/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/92201/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:29
+#: ../../../src/changes/2021/r020.md:25
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:33
+#: ../../../src/changes/2021/r020.md:29
 msgid ""
 "Production channel URL for this release: "
-"https://hydra.flyingcircus.io/build/92325/download/1/nixexprs.tar.xz"
+"<https://hydra.flyingcircus.io/build/92325/download/1/nixexprs.tar.xz>"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:37
+#: ../../../src/changes/2021/r020.md:31
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r020.rst:39
+#: ../../../src/changes/2021/r020.md:33
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_019/20.09...40f73d7fb7033357624ed9da7b3230403c0e9da1>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_019/20.09...40f73d7fb7033357624ed9da7b3230403c0e9da1)"
 msgstr ""
+
+#~ msgid "[NixOS 20.09] Grafana will be restarted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Switch LDAP connection settings for all"
+#~ " Grafana and Graylog instances to "
+#~ "properly use LDAPS and use the new"
+#~ " canonical address ``ldap.fcio.net`` (#PL-24593)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/92201/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Production channel URL for this release:"
+#~ " "
+#~ "https://hydra.flyingcircus.io/build/92325/download/1/nixexprs.tar.xz"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_019/20.09...40f73d7fb7033357624ed9da7b3230403c0e9da1>`_"
+#~ msgstr ""
 

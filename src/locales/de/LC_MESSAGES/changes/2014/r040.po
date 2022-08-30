@@ -9,56 +9,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r040.rst:4
+#: ../../../src/changes/2014/r040.md:5
 msgid "Release 2014_040 (2014-08-18)"
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:7
+#: ../../../src/changes/2014/r040.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:9
+#: ../../../src/changes/2014/r040.md:9
 msgid "Reflect source URL changes on bitbucket in local ebuilds (#13577)."
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:10
+#: ../../../src/changes/2014/r040.md:10
 msgid ""
-"Ignore `GLSA 201408-02 / freetype "
-"<http://www.gentoo.org/security/en/glsa/glsa-201408-02.xml>`_ (#13567) as"
-" the update does not fit properly and the attack vector is neglible in "
-"our platform."
+"Ignore [GLSA 201408-02 / "
+"freetype](http://www.gentoo.org/security/en/glsa/glsa-201408-02.xml) "
+"(#13567) as the update does not fit properly and the attack vector is "
+"neglible in our platform."
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:17
+#: ../../../src/changes/2014/r040.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:19
+#: ../../../src/changes/2014/r040.md:16
 msgid "Prepare partitioning for the upcoming installation of GRUB2 (#13421)."
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:20
+#: ../../../src/changes/2014/r040.md:17
 msgid ""
 "Automatically create a support ticket when restoring a VM from backup so "
 "that we reliably notify customers about it. (#12348)"
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:24
+#: ../../../src/changes/2014/r040.md:20
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r040.rst:26
+#: ../../../src/changes/2014/r040.md:22
 msgid ""
 "Improve physical disk health monitoring once again for better accuracy in"
 " detecting soon-to-be-failing disks."
 msgstr ""
+
+#~ msgid ""
+#~ "Ignore `GLSA 201408-02 / freetype "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201408-02.xml>`_ "
+#~ "(#13567) as the update does not "
+#~ "fit properly and the attack vector "
+#~ "is neglible in our platform."
+#~ msgstr ""
 

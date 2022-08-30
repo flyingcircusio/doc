@@ -9,41 +9,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/api/log.rst:2
+#: ../../../src/guide/api/log.md:1
 msgid "Log"
 msgstr ""
 
-#: ../../src/guide/api/log.rst:4
+#: ../../../src/guide/api/log.md:3
 msgid ""
 "You can access a log of all calls made to the API for a project by "
-"visiting `your API page <https://my.flyingcircus.io/api/tokens>`_ and "
-"selecting the ``Log`` utility for a project:"
+"visiting [your API page](https://my.flyingcircus.io/api/tokens) and "
+"selecting the `Log` utility for a project:"
 msgstr ""
 
-#: ../../src/guide/api/log.rst:10
+#: ../../../src/guide/api/log.md:10
 msgid ""
 "The log shows all calls (successful or not) including their parameters "
 "and results (or errors) and keeps them for 30 days."
 msgstr ""
 
-#: ../../src/guide/api/log.rst:13
+#: ../../../src/guide/api/log.md:13
 msgid ""
-"Long results are folded by default. They are marked with an ``(expand)`` "
+"Long results are folded by default. They are marked with an `(expand)` "
 "badge and can be clicked to show them completely:"
 msgstr ""
 
-#: ../../src/guide/api/log.rst:23
+#: ../../../src/guide/api/log.md:23
 msgid ""
-"The log itself is also available throug the API. See the :ref:`log() "
+"The log itself is also available throug the API. See the {ref}`log() "
 "method <log-method>`."
 msgstr ""
+
+#~ msgid ""
+#~ "You can access a log of all "
+#~ "calls made to the API for a "
+#~ "project by visiting `your API page "
+#~ "<https://my.flyingcircus.io/api/tokens>`_ and selecting"
+#~ " the ``Log`` utility for a project:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Long results are folded by default. "
+#~ "They are marked with an ``(expand)`` "
+#~ "badge and can be clicked to show"
+#~ " them completely:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The log itself is also available "
+#~ "throug the API. See the :ref:`log() "
+#~ "method <log-method>`."
+#~ msgstr ""
 

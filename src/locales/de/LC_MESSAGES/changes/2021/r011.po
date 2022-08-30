@@ -9,111 +9,136 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r011.rst:4
+#: ../../../src/changes/2021/r011.md:5
 msgid "Release 2021_011 (2021-04-06)"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:7
+#: ../../../src/changes/2021/r011.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:9
+#: ../../../src/changes/2021/r011.md:9
 msgid ""
-"[NixOS 20.09] Many services will be restarted due to a openssl update. "
-"VMs will schedule a reboot to activate the new kernel version."
+"\\[NixOS 20.09\\] Many services will be restarted due to a openssl "
+"update. VMs will schedule a reboot to activate the new kernel version."
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:14
+#: ../../../src/changes/2021/r011.md:12
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:16
+#: ../../../src/changes/2021/r011.md:14
 msgid ""
-"`PostgreSQL role docs "
-"<https://doc.flyingcircus.io/roles/fc-20.09-production/postgresql.html>`_:"
+"[PostgreSQL role "
+"docs](https://doc.flyingcircus.io/roles/fc-20.09-production/postgresql.html):"
 " document how to add custom settings via a NixOS module. We found out "
-"that putting plain config in :file:`/etc/local/postgresql` doesn't work "
+"that putting plain config in {file}`/etc/local/postgresql` doesn't work "
 "properly on 20.09 in some cases."
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:20
+#: ../../../src/changes/2021/r011.md:19
 msgid ""
 "Merge upstream NixOS changes that include security fixes and other "
 "updates (#PL-129756):"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:22
+#: ../../../src/changes/2021/r011.md:21
 msgid "go_1_15: 1.15.8 -> 1.15.10 (CVE-2021-27918, CVE-2021-27919)"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:23
+#: ../../../src/changes/2021/r011.md:22
 msgid ""
 "grafana: 7.4.3 -> 7.4.5 (CVE-2021-27962, CVE-2021-28146, CVE-2021-28147, "
 "CVE-2021-28148)"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:24
+#: ../../../src/changes/2021/r011.md:23
 msgid "imagemagick6: 6.9.11-60 -> 6.9.12-3"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:25
+#: ../../../src/changes/2021/r011.md:24
 msgid "imagemagick: 7.0.10-61 -> 7.0.11-4"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:26
+#: ../../../src/changes/2021/r011.md:25
 msgid "libtiff: CVE-2020-35523, CVE-2020-35524"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:27
+#: ../../../src/changes/2021/r011.md:26
 msgid "linux: 5.4.104 -> 5.4.108"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:28
+#: ../../../src/changes/2021/r011.md:27
 msgid "openssh: 8.4p1 -> 8.5p1"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:29
+#: ../../../src/changes/2021/r011.md:28
 msgid "openssl: 1.1.1j -> 1.1.1k"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:30
+#: ../../../src/changes/2021/r011.md:29
 msgid "php74: 7.4.15 -> 7.4.16"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:31
+#: ../../../src/changes/2021/r011.md:30
 msgid "python3Packages.aiohttp: patch CVE-2021-21330"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:33
+#: ../../../src/changes/2021/r011.md:32
 msgid ""
 "Reconfigure MongoDB server units to ensure restarts are performed on "
 "crashes (#PL-108116)."
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:35
+#: ../../../src/changes/2021/r011.md:35
 msgid ""
 "Fix network boot image creation for physical machine bootstraps "
 "(#PL-129676)."
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:39
+#: ../../../src/changes/2021/r011.md:37
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r011.rst:41
+#: ../../../src/changes/2021/r011.md:39
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_010/20.09...163f76d1cb1078806aeb50bba495156baebfc2c2>`_,"
-" `nixpkgs/upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/7a2e6154d76f68f8f3a8add4af6aa43aa1b67dd7...bf5803c2f45babf24d339ba643f8d46d5c46c925>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_010/20.09...163f76d1cb1078806aeb50bba495156baebfc2c2),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/7a2e6154d76f68f8f3a8add4af6aa43aa1b67dd7...bf5803c2f45babf24d339ba643f8d46d5c46c925)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Many services will be "
+#~ "restarted due to a openssl update. "
+#~ "VMs will schedule a reboot to "
+#~ "activate the new kernel version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`PostgreSQL role docs "
+#~ "<https://doc.flyingcircus.io/roles/fc-20.09-production/postgresql.html>`_:"
+#~ " document how to add custom settings"
+#~ " via a NixOS module. We found "
+#~ "out that putting plain config in "
+#~ ":file:`/etc/local/postgresql` doesn't work properly"
+#~ " on 20.09 in some cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_010/20.09...163f76d1cb1078806aeb50bba495156baebfc2c2>`_,"
+#~ " `nixpkgs/upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/7a2e6154d76f68f8f3a8add4af6aa43aa1b67dd7...bf5803c2f45babf24d339ba643f8d46d5c46c925>`_"
+#~ msgstr ""
 

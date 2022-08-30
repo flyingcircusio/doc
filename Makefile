@@ -13,7 +13,7 @@ help:
 .PHONY: help Makefile html-de update-translations all
 
 update-translations: gettext
-	./bin/sphinx-intl -c src/conf.py update -l de -p _build/gettext
+	./bin/sphinx-intl -c src/conf.py update -l de -p _build/en/gettext
 
 html-de: SPHINXOPTS+="-Dlanguage=de"
 html-de: BUILDDIR="$(ROOTDIR)/de"

@@ -9,33 +9,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r035.rst:4
+#: ../../../src/changes/2020/r035.md:5
 msgid "Release 2020_035 (2020-10-26)"
 msgstr ""
 
-#: ../../src/changes/2020/r035.rst:7
+#: ../../../src/changes/2020/r035.md:7
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r035.rst:9
+#: ../../../src/changes/2020/r035.md:9
 msgid ""
 "Kubernetes: run CoreDNS and Dashboard as SystemD services on the master; "
 "Dashboard now uses HTTP Basic Auth instead of kubeconfig files for "
 "authentication (#128939)."
 msgstr ""
 
-#: ../../src/changes/2020/r035.rst:11
+#: ../../../src/changes/2020/r035.md:11
 msgid ""
-"Vagrant: ``/etc/local/nginx/htpasswd_fcio_users`` now includes the "
-"vagrant user (#129041)."
+"Vagrant: `/etc/local/nginx/htpasswd_fcio_users` now includes the vagrant "
+"user (#129041)."
 msgstr ""
+
+#~ msgid ""
+#~ "Vagrant: ``/etc/local/nginx/htpasswd_fcio_users`` now "
+#~ "includes the vagrant user (#129041)."
+#~ msgstr ""
 

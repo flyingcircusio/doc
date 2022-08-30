@@ -9,73 +9,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r001.rst:4
+#: ../../../src/changes/2021/r001.md:5
 msgid "Release 2021_001 (2021-01-11)"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:7
+#: ../../../src/changes/2021/r001.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:9
+#: ../../../src/changes/2021/r001.md:9
 msgid ""
-"[NixOS 20.09] Most services will be restarted and machines will be "
+"\\[NixOS 20.09\\] Most services will be restarted and machines will be "
 "rebooted for a kernel update."
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:13
+#: ../../../src/changes/2021/r001.md:11
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:15
+#: ../../../src/changes/2021/r001.md:13
 msgid ""
 "Catch up with latest upstream nixpkgs changes, including updates for "
 "Grafana, Prometheus and Kubernetes."
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:16
+#: ../../../src/changes/2021/r001.md:14
 msgid "fc-userscan: fix permission bug."
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:17
+#: ../../../src/changes/2021/r001.md:15
 msgid "Update Gitlab to 13.6.4 (#PL-129575)."
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:18
+#: ../../../src/changes/2021/r001.md:16
 msgid ""
 "Jitsi: Update packages, improve video and screenshare quality, save "
 "bandwith (#PL-129527)."
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:22
+#: ../../../src/changes/2021/r001.md:18
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:24
+#: ../../../src/changes/2021/r001.md:20
 msgid ""
 "Documentation is now available for all branches of the NixOS 19.03 and "
-"20.09 platforms: `Platform Overview "
-"<https://doc.flyingcircus.io/platform/>`_"
+"20.09 platforms: [Platform "
+"Overview](https://doc.flyingcircus.io/platform/)"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:28
+#: ../../../src/changes/2021/r001.md:23
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r001.rst:30
+#: ../../../src/changes/2021/r001.md:25
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2020_040/20.09...d8301f87664c2f353d2fb8327852729eb14ff0e1>`_,"
-" `upstream changes "
-"<https://github.com/flyingcircusio/nixpkgs/compare/71c5ae6ce4e1026f7da31cb6074dbb1fc773725c...7179961331b1e98dd28f07dbcb46ed700ad6a52b>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2020_040/20.09...d8301f87664c2f353d2fb8327852729eb14ff0e1),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/71c5ae6ce4e1026f7da31cb6074dbb1fc773725c...7179961331b1e98dd28f07dbcb46ed700ad6a52b)"
 msgstr ""
+
+#~ msgid ""
+#~ "[NixOS 20.09] Most services will be "
+#~ "restarted and machines will be rebooted"
+#~ " for a kernel update."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Documentation is now available for all"
+#~ " branches of the NixOS 19.03 and "
+#~ "20.09 platforms: `Platform Overview "
+#~ "<https://doc.flyingcircus.io/platform/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2020_040/20.09...d8301f87664c2f353d2fb8327852729eb14ff0e1>`_,"
+#~ " `upstream changes "
+#~ "<https://github.com/flyingcircusio/nixpkgs/compare/71c5ae6ce4e1026f7da31cb6074dbb1fc773725c...7179961331b1e98dd28f07dbcb46ed700ad6a52b>`_"
+#~ msgstr ""
 

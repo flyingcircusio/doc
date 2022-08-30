@@ -9,52 +9,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:4
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:3
 msgid "End-to-end tracking of HTTP requests"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:6
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:5
 msgid ""
 "In order to track individual requests through the whole chain of involved"
 " components (nginx, Varnish, HAProxy), we have introduced a custom HTTP "
-"header (:code:`X-Request-ID`) that is added to each request in our nginx "
+"header ({code}`X-Request-ID`) that is added to each request in our nginx "
 "installations:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:15
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:14
 msgid ""
 "The value is computed from nginx' PID, the connection number, and the "
 "request number in this connection. It is reasonably unique but might be "
 "re-used later."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:19
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:19
 msgid ""
 "Tracking an individual request is done by entering its :code:request_id "
-"in :ref:`Kibana <using_kibana>`'s search field:"
+"in {ref}`Kibana <using_kibana>`'s search field:"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:26
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:26
 msgid ""
 "This shows two matching entries, one from nginx, the other one from "
 "HAProxy."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/tracking_requests.rst:28
+#: ../../../src/guide/platform_gentoo/tracking_requests.md:28
 msgid ""
 "You might want to integrate your application here. To do so, see "
-":ref:`here <integrating_app_with_elk>`. You can then extract the header "
+"{ref}`here <integrating_app_with_elk>`. You can then extract the header "
 "from the request reaching your application to generate a logstash event "
-"that contains the :code:`request_id` field and others with the "
+"that contains the {code}`request_id` field and others with the "
 "information you need."
 msgstr ""
+
+#~ msgid ""
+#~ "In order to track individual requests"
+#~ " through the whole chain of involved"
+#~ " components (nginx, Varnish, HAProxy), we"
+#~ " have introduced a custom HTTP header"
+#~ " (:code:`X-Request-ID`) that is added "
+#~ "to each request in our nginx "
+#~ "installations:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tracking an individual request is done"
+#~ " by entering its :code:request_id in "
+#~ ":ref:`Kibana <using_kibana>`'s search field:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You might want to integrate your "
+#~ "application here. To do so, see "
+#~ ":ref:`here <integrating_app_with_elk>`. You can "
+#~ "then extract the header from the "
+#~ "request reaching your application to "
+#~ "generate a logstash event that contains"
+#~ " the :code:`request_id` field and others"
+#~ " with the information you need."
+#~ msgstr ""
 

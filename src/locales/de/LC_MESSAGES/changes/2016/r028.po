@@ -9,58 +9,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r028.rst:4
+#: ../../../src/changes/2016/r028.md:5
 msgid "Release 2016_028 (2016-08-25)"
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:7
+#: ../../../src/changes/2016/r028.md:7
 msgid "NixOS platform"
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:9
+#: ../../../src/changes/2016/r028.md:9
 msgid ""
 "Improve VM bootstrap time by eliminating unnecessary service dependencies"
 " (#22964)."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:11
+#: ../../../src/changes/2016/r028.md:11
 msgid "Simplify inter-VM routing (#20617)."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:12
+#: ../../../src/changes/2016/r028.md:12
 msgid "Improve PostgreSQL metrics."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:13
+#: ../../../src/changes/2016/r028.md:13
 msgid ""
-"Ensure :file:`/etc/local/redis/password` is owned by redis:service "
+"Ensure {file}`/etc/local/redis/password` is owned by redis:service "
 "(#23116)."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:14
+#: ../../../src/changes/2016/r028.md:14
 msgid "Activate *vulnix* security scanner on all machines (#22553)."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:15
+#: ../../../src/changes/2016/r028.md:15
 msgid "`wget` is now available in the standard PATH."
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:19
+#: ../../../src/changes/2016/r028.md:17
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2016/r028.rst:21
+#: ../../../src/changes/2016/r028.md:19
 msgid ""
 "Use process accouting on VM hosts for improved debugging capabilities "
 "(#23226)."
 msgstr ""
+
+#~ msgid ""
+#~ "Ensure :file:`/etc/local/redis/password` is owned"
+#~ " by redis:service (#23116)."
+#~ msgstr ""
 

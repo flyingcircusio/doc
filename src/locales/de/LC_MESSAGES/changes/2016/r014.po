@@ -9,74 +9,74 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2016/r014.rst:4
+#: ../../../src/changes/2016/r014.md:5
 msgid "Release 2016_014 (2016-05-03)"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:7
+#: ../../../src/changes/2016/r014.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:9
+#: ../../../src/changes/2016/r014.md:9
 msgid "NixOS VMs will be rebooted to enable filesystem quotas (#14222)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:12
+#: ../../../src/changes/2016/r014.md:11
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:14
+#: ../../../src/changes/2016/r014.md:13
 msgid ""
-"Security update for libksba `GLSA 201604-04 "
-"<https://security.gentoo.org/glsa/201604-04>`_ (#21390)."
+"Security update for libksba [GLSA "
+"201604-04](https://security.gentoo.org/glsa/201604-04) (#21390)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:16
+#: ../../../src/changes/2016/r014.md:14
 msgid "Upgrade fc.qemu to 0.7.20."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:20
+#: ../../../src/changes/2016/r014.md:16
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:22
+#: ../../../src/changes/2016/r014.md:18
 msgid "Quota-based disk shrink for NixOS VMs (#14222)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:23
+#: ../../../src/changes/2016/r014.md:19
 msgid "Scheduled maintenance for NixOS VMs (#20505)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:24
+#: ../../../src/changes/2016/r014.md:20
 msgid "Ensure customer-reserved local ports (#21298)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:28
+#: ../../../src/changes/2016/r014.md:22
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:30
+#: ../../../src/changes/2016/r014.md:24
 msgid "Improve KVM health check (#21349)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:31
+#: ../../../src/changes/2016/r014.md:25
 msgid "Add monitoring for NixOS MySQL servers (#21337)."
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:35
+#: ../../../src/changes/2016/r014.md:27
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2016/r014.rst:37
+#: ../../../src/changes/2016/r014.md:29
 msgid ""
 "We ensure that ports 61000-61999 will always be available for your "
 "applications. If you want to be absolutely sure that you can assign a "
@@ -84,4 +84,10 @@ msgid ""
 "ports (like 8080) free from managed components as long as it makes sense,"
 " but typically we use a component's default port."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for libksba `GLSA "
+#~ "201604-04 <https://security.gentoo.org/glsa/201604-04>`_ "
+#~ "(#21390)."
+#~ msgstr ""
 

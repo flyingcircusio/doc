@@ -9,42 +9,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2015/r013.rst:4
+#: ../../../src/changes/2015/r013.md:5
 msgid "Release 2015_013 (2015-03-10)"
 msgstr ""
 
-#: ../../src/changes/2015/r013.rst:7
+#: ../../../src/changes/2015/r013.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2015/r013.rst:9
+#: ../../../src/changes/2015/r013.md:9
 msgid "golang compiler as separate role (#13732)."
 msgstr ""
 
-#: ../../src/changes/2015/r013.rst:10
+#: ../../../src/changes/2015/r013.md:10
 msgid ""
-"Security update for `GLSA 201503-03 / PHP "
-"<http://www.gentoo.org/security/en/glsa/glsa-201503-03.xml>`_ (#14847)."
+"Security update for [GLSA 201503-03 / "
+"PHP](http://www.gentoo.org/security/en/glsa/glsa-201503-03.xml) (#14847)."
 msgstr ""
 
-#: ../../src/changes/2015/r013.rst:12
+#: ../../../src/changes/2015/r013.md:11
 msgid ""
-"Security update for `GLSA 201503-05 / FreeType "
-"<http://www.gentoo.org/security/en/glsa/glsa-201503-05.xml>`_ (#14845)."
+"Security update for [GLSA 201503-05 / "
+"FreeType](http://www.gentoo.org/security/en/glsa/glsa-201503-05.xml) "
+"(#14845)."
 msgstr ""
 
-#: ../../src/changes/2015/r013.rst:14
+#: ../../../src/changes/2015/r013.md:12
 msgid ""
-"Security update for `GLSA 201503-02 / dbus "
-"<http://www.gentoo.org/security/en/glsa/glsa-201503-02.xml>`_ (#14846)."
+"Security update for [GLSA 201503-02 / "
+"dbus](http://www.gentoo.org/security/en/glsa/glsa-201503-02.xml) "
+"(#14846)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-03 /"
+#~ " PHP "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201503-03.xml>`_ "
+#~ "(#14847)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-05 /"
+#~ " FreeType "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201503-05.xml>`_ "
+#~ "(#14845)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201503-02 /"
+#~ " dbus "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201503-02.xml>`_ "
+#~ "(#14846)."
+#~ msgstr ""
 

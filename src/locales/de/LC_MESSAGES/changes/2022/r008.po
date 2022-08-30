@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r008.md:5
+msgid "Release 2022_008 (2022-03-21)"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:9
+msgid ""
+"\\[NixOS 21.11\\] VMs will schedule a reboot to activate the changed "
+"kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:10
+msgid ""
+"\\[NixOS 21.05\\] VMs will schedule a reboot to activate the changed "
+"kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:12
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:14 ../../../src/changes/2022/r008.md:24
+msgid ""
+"Add a sensu check for early detection of a XFS bug that may bring IO to a"
+" halt (#PL-130343)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:15
+msgid ""
+"Jitsi: update jitsi-videobridge, jicofo and jitsi-meet to latest stable "
+"versions (#PL-130375)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:16
+msgid ""
+"k3s: 1.22.3 -> 1.23.3. Fixes a problem with images with very long labels "
+"which prevented affected pods from starting (#PL-130456)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:18 ../../../src/changes/2022/r008.md:26
+msgid ""
+"Improve default firewall rules for docker bridged networking: allow "
+"access to host service similar to other locally run services "
+"(#PL-130058)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:20 ../../../src/changes/2022/r008.md:28
+msgid "Remove duplicate, broken SSL certificate checks (#PL-130379)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:22
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:25
+msgid "linux: 5.10.88 -> 5.10.105 (fixes CVE-2022-0847) (#PL-130481)."
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:29
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/142628/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:31
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r008.md:33
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_007/21.05...57ea14896b3d0b513b9d9f614350aad9ca6cd025),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/0fd9ee1aa36ce865ad273f4f07fdc093adeb5c00...0f5fbc131671be14b6e76daa8125284b5111b33b)"
+msgstr ""
+

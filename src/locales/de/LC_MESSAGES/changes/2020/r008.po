@@ -9,84 +9,87 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2020/r008.rst:4
+#: ../../../src/changes/2020/r008.md:5
 msgid "Release 2020_008 (2020-03-23)"
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:7
+#: ../../../src/changes/2020/r008.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:9
-msgid "[NixOS 19.03] Elasticsearch 6 will be restarted."
+#: ../../../src/changes/2020/r008.md:9
+msgid "\\[NixOS 19.03\\] Elasticsearch 6 will be restarted."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:13
+#: ../../../src/changes/2020/r008.md:11
 msgid "NixOS 15.09 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:15
+#: ../../../src/changes/2020/r008.md:13
 msgid "Remove fc_collect_garbage metric (#123906)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:16
+#: ../../../src/changes/2020/r008.md:14
 msgid ""
 "Update globally available Python virtualenv package to version 16 "
 "(#124061)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:20
+#: ../../../src/changes/2020/r008.md:16
 msgid "NixOS 19.03 platform"
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:22
+#: ../../../src/changes/2020/r008.md:18
 msgid "Port customer-specific role (#123725)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:23
+#: ../../../src/changes/2020/r008.md:19
 msgid ""
 "Increase garbage collection limit increase disk space reclamation after "
 "larger system updates (#123868)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:25
+#: ../../../src/changes/2020/r008.md:21
 msgid ""
 "Provide `/etc/local/nixos` directory where service users can add custom "
 "NixOS configurations (#123888)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:27
+#: ../../../src/changes/2020/r008.md:23
 msgid ""
 "Fix Elasticsearch 6 role and avoid deprecation warning by using the new "
 "publish address format from ES7 (#123942)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:28
+#: ../../../src/changes/2020/r008.md:24
 msgid "Port Kibana role (#124025)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:32
+#: ../../../src/changes/2020/r008.md:26
 msgid "Gentoo platform"
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:34
+#: ../../../src/changes/2020/r008.md:28
 msgid ""
 "Fix bootstrapping Gentoo VMs which broke due to a Gentoo Python wrapper "
 "race condition (#123762)."
 msgstr ""
 
-#: ../../src/changes/2020/r008.rst:35
+#: ../../../src/changes/2020/r008.md:29
 msgid ""
 "Whitelist log messages of KVM if the name of the machine contains 'fail' "
 "(#123742)."
 msgstr ""
+
+#~ msgid "[NixOS 19.03] Elasticsearch 6 will be restarted."
+#~ msgstr ""
 

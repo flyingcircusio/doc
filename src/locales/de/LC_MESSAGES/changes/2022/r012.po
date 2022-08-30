@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r012.md:5
+msgid "Release 2022_012 (2022-05-02)"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:9
+msgid "\\[NixOS 21.11\\] mailserver: Postfix and dovecot will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:10
+msgid "\\[NixOS 21.11\\] matomo will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:12
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:14
+msgid "matomo: update to 4.9.1 (#PL-130574)."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:15
+msgid ""
+"mailserver: fix possible reload deadlock when SSL certificate and mail "
+"server configuration change at the same time. We have seen cases where "
+"postfix was down because of that problem (#PL-130204)."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:18
+msgid ""
+"mailserver: use relaxed/relaxed DKIM canonicalization algorithms to avoid"
+" invalid signatures when mail providers change whitespace in messages, "
+"for example."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:20
+msgid ""
+"Be explicit about which unfree packages are allowed on our platform by "
+"default instead of generally allowing them. MongoDB under the SSPL "
+"license is allowed by default. Unfree Elastic packages (elasticsearch6/7,"
+" kibana6/7) can no longer be used on machines without explicitly allowing"
+" these packages there. There's a new option "
+"{code}`flyingcircus.allowUnfreePackageNames` to do that (#PL-130528)."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:25
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/155170/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:27
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:29
+msgid ""
+"Add flyingcircus.allowedUnfreePackageNames to make upgrades to 21.11 "
+"easier if unfree packages are used. Has no effect on 21.05. (#PL-130528)."
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:31
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/155193/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:33
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:35
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_011/21.11...300cb13390e0a28910efd1fddf580aaaf6c3b429)"
+msgstr ""
+
+#: ../../../src/changes/2022/r012.md:36
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_011/21.05...b456db2509aaf7f93b91427cac80cc09ba2af9d0)"
+msgstr ""
+

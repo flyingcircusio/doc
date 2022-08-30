@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r017.md:5
+msgid "Release 2022_017 (2022-07-05)"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:9
+msgid ""
+"\\[NixOS 21.11\\] Most services will be restarted because of a core "
+"dependency change. Machines will schedule a reboot to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:12
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:14
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other "
+"updates, update Gitlab (#PL-130684, #PL-130706, #PL-130730):"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:17
+msgid ""
+"apacheHttpd: 2.4.53 -> 2.4.54 (CVE-2022-31813, CVE-2022-30556, "
+"CVE-2022-30522, CVE-2022-29404, CVE-2022-28615, CVE-2022-28614, "
+"CVE-2022-28330, CVE-2022-26377)"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:20
+msgid "gitlab: 14.9.4 -> 14.10.5"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:21
+msgid "imagemagick: 7.1.0-35 -> 7.1.0-39"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:22
+msgid "libtiff: add patches for CVE-2022-1354 & CVE-2022-1355"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:23
+msgid "linux: 5.10.118 -> 5.10.124"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:24
+msgid "matrix-synapse: 1.59.1 -> 1.61.1"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:25
+msgid "nspr: 4.32 -> 4.34"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:26
+msgid "nss_latest: 3.78 -> 3.80"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:27
+msgid "python39: 3.9.12 -> 3.9.13"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:28
+msgid "vim: 8.2.4816 -> 8.2.4975"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:30
+msgid ""
+"Sensu: remove load check because it has proven to not be a good predictor"
+" for problems. We recently added pressure stall information (PSI) to our "
+"VM dashboards which are more fine-grained and can be used combined with "
+"traditional load for analysing issues but neither is qualified to be used"
+" for alerting (#PL-129904)."
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:36
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/170042/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:38
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r017.md:40
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_016/21.11...097806d3b09ead955d0867b79ba1174d09363ff5),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/397669babd51cebd19b07e3f70fd4b6960f0fb1a...f4cf82996be177196cb28d234b28ba111bae98fc)"
+msgstr ""
+

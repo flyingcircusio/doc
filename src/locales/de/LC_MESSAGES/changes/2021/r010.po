@@ -9,24 +9,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2021/r010.rst:4
+#: ../../../src/changes/2021/r010.md:5
 msgid "Release 2021_010 (2021-03-29)"
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:7
+#: ../../../src/changes/2021/r010.md:7
 msgid "NixOS 20.09 platform"
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:9
+#: ../../../src/changes/2021/r010.md:9
 msgid ""
 "fc-agent: the automatic management task that runs every ten minutes now "
 "only switches to the new system configuration if it actually has changed "
@@ -36,47 +36,56 @@ msgid ""
 "(#PL-129745)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:14
+#: ../../../src/changes/2021/r010.md:14
 msgid ""
 "Fix ACME certificate validity check for multiple virtual hosts. SNI was "
 "not used so only the certificate for the default vhost was monitored "
 "(#PL-129749)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:16
+#: ../../../src/changes/2021/r010.md:16
 msgid "LAMP: fix logrotate config (#PL-129740)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:17
+#: ../../../src/changes/2021/r010.md:17
 msgid "Coturn: fix ACME certificate renewal (#PL-129729)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:18
-msgid "Fix link in :file:`/etc/local/firewall/README` (#PL-129735)."
+#: ../../../src/changes/2021/r010.md:18
+msgid "Fix link in {file}`/etc/local/firewall/README` (#PL-129735)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:19
+#: ../../../src/changes/2021/r010.md:19
 msgid ""
 "Improve our backup using multiple queues and more workers to balance fast"
 " and slow backups and reduce head of line blocking issues that cause "
 "unnecessary delays under stress (PL-128789)."
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:26
+#: ../../../src/changes/2021/r010.md:23
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:28
+#: ../../../src/changes/2021/r010.md:25
 msgid "nothing yet"
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:31
+#: ../../../src/changes/2021/r010.md:27
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../src/changes/2021/r010.rst:33
+#: ../../../src/changes/2021/r010.md:29
 msgid ""
-"NixOS 20.09: `platform code <https://github.com/flyingcircusio/fc-"
-"nixos/compare/fc/r2021_009/20.09...67782fa8ba7ca1126c39e921c903e0108ef4fa21>`_"
+"NixOS 20.09: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2021_009/20.09...67782fa8ba7ca1126c39e921c903e0108ef4fa21)"
 msgstr ""
+
+#~ msgid "Fix link in :file:`/etc/local/firewall/README` (#PL-129735)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS 20.09: `platform code "
+#~ "<https://github.com/flyingcircusio/fc-"
+#~ "nixos/compare/fc/r2021_009/20.09...67782fa8ba7ca1126c39e921c903e0108ef4fa21>`_"
+#~ msgstr ""
 

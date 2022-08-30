@@ -9,50 +9,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r011.rst:4
+#: ../../../src/changes/2014/r011.md:5
 msgid "Release 2014_011 (2014-02-27)"
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:7
+#: ../../../src/changes/2014/r011.md:7
 msgid "Packages"
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:9
+#: ../../../src/changes/2014/r011.md:9
 msgid ""
-"Security update for `GLSA 201402-24 / gnupg libgcrypt "
-"<http://www.gentoo.org/security/en/glsa/glsa-201402-24.xml>`_ (#13230). "
-"Requires restart of PostgreSQL instances due to changed link level "
-"dependencies."
+"Security update for [GLSA 201402-24 / gnupg "
+"libgcrypt](http://www.gentoo.org/security/en/glsa/glsa-201402-24.xml) "
+"(#13230). Requires restart of PostgreSQL instances due to changed link "
+"level dependencies."
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:13
-msgid "Provide :command:`netcat6` (:command:`nc`) on all machines (RT 93761)."
+#: ../../../src/changes/2014/r011.md:12
+msgid "Provide {command}`netcat6` ({command}`nc`) on all machines (RT 93761)."
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:17
+#: ../../../src/changes/2014/r011.md:14
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:19
+#: ../../../src/changes/2014/r011.md:16
 msgid ""
 "Introduce \"box\": an NFS mount shared over all VMs that allows users to "
 "easily share files between VMs (#13216)."
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:24
+#: ../../../src/changes/2014/r011.md:19
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r011.rst:26
-msgid "Update :ref:`firewall` documentation (#13095)."
+#: ../../../src/changes/2014/r011.md:21
+msgid "Update {ref}`firewall` documentation (#13095)."
 msgstr ""
+
+#~ msgid ""
+#~ "Security update for `GLSA 201402-24 /"
+#~ " gnupg libgcrypt "
+#~ "<http://www.gentoo.org/security/en/glsa/glsa-201402-24.xml>`_ "
+#~ "(#13230). Requires restart of PostgreSQL "
+#~ "instances due to changed link level "
+#~ "dependencies."
+#~ msgstr ""
+
+#~ msgid "Provide :command:`netcat6` (:command:`nc`) on all machines (RT 93761)."
+#~ msgstr ""
+
+#~ msgid "Update :ref:`firewall` documentation (#13095)."
+#~ msgstr ""
 

@@ -9,53 +9,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/changes/2014/r010.rst:4
+#: ../../../src/changes/2014/r010.md:5
 msgid "Release 2014_010 (2014-02-24)"
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:8
+#: ../../../src/changes/2014/r010.md:7
 msgid "Configuration"
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:10
+#: ../../../src/changes/2014/r010.md:9
 msgid ""
 "Add IPv6 records for canonical VM names (*VM*.gocept.net) in DNS for "
 "staging and testing VMs. IPv6 records will be added to production VMs "
-"with the next release. See also our `blog post "
-"<http://gocepthosting.blogspot.de/2014/02/ipv4-and-ipv6-addressing-in-"
-"backend-srv.html>`_ (#13218)."
+"with the next release. See also our [blog "
+"post](http://gocepthosting.blogspot.de/2014/02/ipv4-and-ipv6-addressing-"
+"in-backend-srv.html) (#13218)."
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:15
+#: ../../../src/changes/2014/r010.md:13
 msgid "Add specific DNS aliases for IPv4 (.ipv4.gocept.net) as well (#13218)."
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:16
+#: ../../../src/changes/2014/r010.md:14
 msgid "Improve backup reliability (#13112)."
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:20
+#: ../../../src/changes/2014/r010.md:16
 msgid "Monitoring"
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:22
+#: ../../../src/changes/2014/r010.md:18
 msgid "Check for backup volumes in \"Error\" state (#13112)."
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:26
+#: ../../../src/changes/2014/r010.md:20
 msgid "Documentation"
 msgstr ""
 
-#: ../../src/changes/2014/r010.rst:28
-msgid "Revise :ref:`firststeps` tutorial section."
+#: ../../../src/changes/2014/r010.md:22
+msgid "Revise {ref}`firststeps` tutorial section."
 msgstr ""
+
+#~ msgid ""
+#~ "Add IPv6 records for canonical VM "
+#~ "names (*VM*.gocept.net) in DNS for "
+#~ "staging and testing VMs. IPv6 records"
+#~ " will be added to production VMs "
+#~ "with the next release. See also "
+#~ "our `blog post "
+#~ "<http://gocepthosting.blogspot.de/2014/02/ipv4-and-ipv6"
+#~ "-addressing-in-backend-srv.html>`_ (#13218)."
+#~ msgstr ""
+
+#~ msgid "Revise :ref:`firststeps` tutorial section."
+#~ msgstr ""
 

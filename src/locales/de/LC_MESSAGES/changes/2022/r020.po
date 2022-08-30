@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-08-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../src/changes/2022/r020.md:5
+msgid "Release 2022_020 (2022-08-01)"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:9
+msgid "\\[NixOS 21.11\\] Elasticsearch nodes will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:10
+msgid ""
+"\\[NixOS 21.11\\] Jitsi services will be restarted. Conferences will be "
+"interrupted for a short amount of time."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:13
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:15
+msgid "Elasticsearch role improvements (#PL-130608):"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:17
+msgid ""
+"Make default config safer to prevent accidental cluster splits. Projects "
+"with multiple Elasticsearch clusters should set the `esNodes` option "
+"explicitly."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:20
+msgid ""
+"Add `initialMasterNodes` option for setting up a cluster which has "
+"multiple nodes right from the start."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:22
+msgid ""
+"Change config defaults to support mixed-version clusters for rolling "
+"upgrades."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:24
+msgid "Allow service/sudo-srv users to run {command}`elasticsearch-show-config`."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:25
+msgid ""
+"Documentation: document our NixOS role options which are the preferred "
+"way of configuring ES now. The local README at "
+"{file}`/etc/local/elasticsearch/README.md` now has more dynamically "
+"generated information about the current node and cluster configuration."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:30
+msgid ""
+"mailserver: fix changing the user password via Web mailer (Roundcube) "
+"settings (#PL-130674)."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:33
+msgid ""
+"Jitsi: update packages to latest stable and add watchdog checks to "
+"restart Jitsi services if they are running but don't work properly. This "
+"usually happens after a reboot or large system update, making Jitsi "
+"conferences unavailable until a manual service restart (#PL-130720)."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:38
+msgid "Redis: document how to change the password (#PL-130686)."
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:40
+msgid ""
+"Production channel URL for this release: "
+"<https://hydra.flyingcircus.io/build/175951/download/1/nixexprs.tar.xz>"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:42
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r020.md:44
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_019/21.11...11e696c8f1473d39df951fdc028440af1729f728)."
+msgstr ""
+

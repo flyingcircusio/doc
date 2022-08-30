@@ -9,56 +9,90 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../src/guide/platform_gentoo/logging.rst:4
+#: ../../../src/guide/platform_gentoo/logging.md:3
 msgid "Logging"
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/logging.rst:10
+#: ../../../src/guide/platform_gentoo/logging.md:10
 msgid ""
 "Creating, storing, and analysing logs from components and your "
 "application is an important part of keeping your service healthy and "
 "developing it further."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/logging.rst:13
+#: ../../../src/guide/platform_gentoo/logging.md:13
 msgid ""
 "This chapter gives you an overview of our logging infrastructure and how "
 "to integrate your application."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/logging.rst:16
+#: ../../../src/guide/platform_gentoo/logging.md:16
 msgid ""
-"On the most basic level, our :ref:`managed components <managed-"
+"On the most basic level, our {ref}`managed components <managed-"
 "components>` provide regular log files. See each component's "
 "documentation about where to find them and how to read them."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/logging.rst:20
+#: ../../../src/guide/platform_gentoo/logging.md:20
 msgid ""
 "For more advanced use cases, you can choose to use the managed "
-":ref:`loghost <gentoo-loghost>` component: using `Elasticsearch "
-"<https://www.elastic.co/products/elasticsearch>`_, `Logstash "
-"<https://www.elastic.co/products/logstash>`_, and `Kibana "
-"<https://www.elastic.co/products/kibana>`_ (known as the ELK stack)  "
-"gives you powerful tools to store your logs from multiple machines on a "
-"central server. There you can analyze, filter, notify, search, graph, and"
-" create dashboards from them."
+"{ref}`loghost <gentoo-loghost>` component: using "
+"[Elasticsearch](https://www.elastic.co/products/elasticsearch), "
+"[Logstash](https://www.elastic.co/products/logstash), and "
+"[Kibana](https://www.elastic.co/products/kibana) (known as the ELK stack)"
+"  gives you powerful tools to store your logs from multiple machines on a"
+" central server. There you can analyze, filter, notify, search, graph, "
+"and create dashboards from them."
 msgstr ""
 
-#: ../../src/guide/platform_gentoo/logging.rst:29
+#: ../../../src/guide/platform_gentoo/logging.md:26
 msgid ""
-"When you enable a :ref:`loghost <gentoo-loghost>` it automatically picks "
+"When you enable a {ref}`loghost <gentoo-loghost>` it automatically picks "
 "up logs from our managed components and gives you a starting point to "
 "integrate your application by either logging directly from your "
 "application or integrating custom log files."
 msgstr ""
+
+#~ msgid ""
+#~ "On the most basic level, our "
+#~ ":ref:`managed components <managed-components>` "
+#~ "provide regular log files. See each "
+#~ "component's documentation about where to "
+#~ "find them and how to read them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more advanced use cases, you "
+#~ "can choose to use the managed "
+#~ ":ref:`loghost <gentoo-loghost>` component: "
+#~ "using `Elasticsearch "
+#~ "<https://www.elastic.co/products/elasticsearch>`_, `Logstash "
+#~ "<https://www.elastic.co/products/logstash>`_, and `Kibana"
+#~ " <https://www.elastic.co/products/kibana>`_ (known as"
+#~ " the ELK stack)  gives you powerful"
+#~ " tools to store your logs from "
+#~ "multiple machines on a central server."
+#~ " There you can analyze, filter, "
+#~ "notify, search, graph, and create "
+#~ "dashboards from them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you enable a :ref:`loghost "
+#~ "<gentoo-loghost>` it automatically picks up"
+#~ " logs from our managed components and"
+#~ " gives you a starting point to "
+#~ "integrate your application by either "
+#~ "logging directly from your application "
+#~ "or integrating custom log files."
+#~ msgstr ""
 
