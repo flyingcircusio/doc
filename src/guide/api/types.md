@@ -583,35 +583,6 @@ deletion
   Reflects the deletion state of this VM. Reflects the deadline and
   the stages of the deletion that have been reached already.
 
-Here is the full list of all available managed components:
-
-- `role::antivirus`
-- `role::appserver`
-- `role::backupclient`
-- `role::dbserver`
-- `role::dovecot`
-- `role::gis`
-- `role::golang`
-- `role::jabber`
-- `role::java`
-- `role::lampserver`
-- `role::ldapserver`
-- `role::loghost`
-- `role::mailinglistserver`
-- `role::mailserver`
-- `role::mysql`
-- `role::nfs_rg_client`
-- `role::nfs_rg_share`
-- `role::php`
-- `role::postgresql84`
-- `role::postgresql90`
-- `role::postgresql93`
-- `role::pspdf`
-- `role::rabbitmq`
-- `role::redis`
-- `role::webgateway`
-- `role::webproxy`
-
 ### Deleting a virtual machine
 
 If you delete a VM without any options it will be marked for deletion by the
