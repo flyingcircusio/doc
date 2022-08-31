@@ -85,16 +85,3 @@ systems with requests.
 
 In the future we may introduce specific and hard technical limits on the number
 of API calls within a period of time.
-
-## Test environment
-
-Our API server (aka "the directory") is available as open source and has a
-Vagrant-based deployment available. If you would like to develop against our
-API please set up a local test installation from
-<https://bitbucket.org/flyingcircus/fc.directory.deployment>.
-
-Using this (over hosted options for test environments) has the benefit that we
-live the open source idea and that you have more control over the environment
-you test against. It also poses less risk of accidentally talking to the wrong
-systems or interleaving production traffic with test traffic when using feature
-flags.
