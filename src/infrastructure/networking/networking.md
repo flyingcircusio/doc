@@ -35,7 +35,7 @@ outside world, private IPv4 address space. DNS example:
 **FE** - Frontend, for providing actual service traffic. This VLAN connects to
 machines that provide customers' applications to the public. This network is
 switched to the virtual machines and leverages completely public traffic. The
-DC firewalls to not filter this. Customer applications are free to use any
+DC firewalls do not filter this. Customer applications are free to use any
 ports they like but must be careful opening them. VMs can filter this network
 locally. All VMs receive a NIC on this VLAN but not necessarily IPv4 addresses
 if they do not provide public traffic. DNS example: *vm00.fe.rzob.gocept.net*.
