@@ -1,3 +1,11 @@
+% last review: XXX
+
+% review schedule: 1 year
+
+% ISMSControl: A.17.1.2
+
+% ISMSControl: A.11.1.4
+
 (disaster-recovery)=
 
 # Disaster recovery

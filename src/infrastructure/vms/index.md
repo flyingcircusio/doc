@@ -1,3 +1,10 @@
+% last review: XXX
+
+% review schedule: 1 year
+
+% ISMSControl: A.12.5.1
+
+
 ```{image} ../../images/vms250.png
 :class: logo
 :width: 250px

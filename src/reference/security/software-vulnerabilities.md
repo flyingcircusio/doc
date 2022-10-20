@@ -1,3 +1,9 @@
+% last review: XXXX
+
+% review schedule: 1 year
+
+% ISMSControl: A.12.6.1
+
 # Software vulnerabilities
 
 Security issues with software installed on machines are monitored using a platform-specific process. Our processes (and specifically timelines) to mitigate vulnerabilities
