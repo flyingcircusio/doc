@@ -15,7 +15,14 @@ built from the default branch of this repo.
 
 ## Development
 
-- Build full documentation locally: `nix-build`
+- Build full documentation locally with pinned nixpkgs: `nix-build`
+  - Building with pinned nixpkgs may take some time and download a lot of
+    stuff if you don't already have the needed packages installed and your
+    local channel differs greatly from the pinned version.
+  - or: build with nixpkgs flake: `nix-build --arg pkgs 'import (builtins.getFlake "nixpkgs") {}'`
+  - or: build with local nixpkgs from NIX_PATH: `nix-build --arg pkgs 'import <nixpkgs> {}'`
+  - At least nixpkgs version 22.11 is required.
+
 - Start Nix development environment which has the tools needed to build the
   documentation and do other maintenance tasks like regenerating the
   translation files: `nix-shell`.
@@ -27,6 +34,8 @@ built from the default branch of this repo.
     - Check all links (slow!): `sphinx-build  src _build -b linkcheck`
     - Show contents of the objects inventory: 
       `python -m sphinx.ext.intersphinx https://doc.flyingcircus.io/platform/objects.inv`
+
+  - Update nixpkgs version: change URL in `default.nix` for the `pkgs` argument, right at the top.
 
 ## External References (intersphinx)
 

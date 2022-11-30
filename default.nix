@@ -1,4 +1,5 @@
-{ pkgs ? import <nixpkgs> {}
+{
+  pkgs ? import (fetchTarball https://hydra.flyingcircus.io/build/207931/download/1/nixexprs.tar.xz) {}
 , revCount ? 0
 , shortRev ? "0000000"
 , gitTag ? ""
@@ -6,7 +7,6 @@
 }:
 
 let
-  myst-docutils = pkgs.python3Packages.callPackage ./myst-docutils.nix {};
   sphinx-intl = pkgs.python3Packages.callPackage ./sphinx-intl.nix {};
 
   buildEnv = pkgs.python3.withPackages (ps: with ps; [
