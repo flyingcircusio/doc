@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/guide/api/types.md:3
 msgid "Resource Types"
@@ -182,7 +182,7 @@ msgid ""
 "become inaccessible to your API key anyway.)"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:107 ../../../src/guide/api/types.md:540
+#: ../../../src/guide/api/types.md:107 ../../../src/guide/api/types.md:553
 msgid "production"
 msgstr ""
 
@@ -535,10 +535,10 @@ msgstr ""
 msgid "resource_group_parent"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:369 ../../../src/guide/api/types.md:477
-#: ../../../src/guide/api/types.md:488 ../../../src/guide/api/types.md:526
-#: ../../../src/guide/api/types.md:534 ../../../src/guide/api/types.md:542
-#: ../../../src/guide/api/types.md:557
+#: ../../../src/guide/api/types.md:369 ../../../src/guide/api/types.md:490
+#: ../../../src/guide/api/types.md:501 ../../../src/guide/api/types.md:539
+#: ../../../src/guide/api/types.md:547 ../../../src/guide/api/types.md:555
+#: ../../../src/guide/api/types.md:570
 msgid "*readonly*"
 msgstr ""
 
@@ -591,11 +591,11 @@ msgid ""
 msgstr ""
 
 #: ../../../src/guide/api/types.md:396
-msgid "`Puppet`"
+msgid "`NixOS`"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:397
-msgid "`NixOS`."
+msgid "`Puppet` (Gentoo platform, obsolete)"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:400
@@ -620,45 +620,95 @@ msgid "The available environments depend on the environments class:"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:412
-msgid "Puppet: `production`, `staging`"
+msgid "NixOS"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:413
-msgid ""
-"NixOS: `fc-19.03-production`, `fc-19.03-staging`, `fc-15.09-production`, "
-"`fc-15.09-staging`"
+msgid "`fc-22.05-production`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:414
+msgid "`fc-22.05-staging`"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:415
-msgid "cores"
+msgid "`fc-21.11-production`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:416
+msgid "`fc-21.11-staging`"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:417
-msgid "*default*: `1`"
+msgid "Outdated environments:"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:418
+msgid "`fc-21.05-production`"
 msgstr ""
 
 #: ../../../src/guide/api/types.md:419
+msgid "`fc-21.05-staging`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:420
+msgid "`fc-20.09-production`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:421
+msgid "`fc-20.09-staging`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:422
+msgid "`fc-19.03-production`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:423
+msgid "`fc-19.03-staging`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:424
+msgid "`fc-15.09-production`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:425
+msgid "`fc-15.09-staging`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:426
+msgid "Puppet: `production`, `staging`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:428
+msgid "cores"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:430
+msgid "*default*: `1`"
+msgstr ""
+
+#: ../../../src/guide/api/types.md:432
 msgid ""
 "The number of virtual cores assigned to the VM. A maximum of 8 cores can "
 "be assigned per VM. If you need more: [contact "
 "us](mailto:support@flyingcircus.io)."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:423
+#: ../../../src/guide/api/types.md:436
 msgid ""
 "Changing the number of cores will schedule a maintenance window to reboot"
 " the VM."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:426
+#: ../../../src/guide/api/types.md:439
 msgid "memory"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:428
+#: ../../../src/guide/api/types.md:441
 msgid "*default*: `256`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:430
+#: ../../../src/guide/api/types.md:443
 msgid ""
 "The amount of memory assigned to the VM in MiB. The minimum of 256 MiB "
 "can not be undercut. Through the API you can assign a maximum of 3072 MiB"
@@ -666,123 +716,123 @@ msgid ""
 "us](mailto:support@flyingcircus.io)."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:435
+#: ../../../src/guide/api/types.md:448
 msgid ""
 "Changing the amount of memory will schedule a maintenance window to "
 "reboot the VM."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:438
+#: ../../../src/guide/api/types.md:451
 msgid "disk"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:440
+#: ../../../src/guide/api/types.md:453
 msgid "*default*: `10`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:442
+#: ../../../src/guide/api/types.md:455
 msgid ""
 "The amount of disk space assigned to the root disk (`/`) of your VM in "
 "GiB. The minimum of 10 GiB can not be undercut. Through the API you can "
 "assign a maximum of 1000GiB to a virtual machine."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:446
+#: ../../../src/guide/api/types.md:459
 msgid "We provide auxiliary space for `/tmp` and `swap` for free."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:448
+#: ../../../src/guide/api/types.md:461
 msgid ""
 "Increasing the amount of disk space will perform an online resize within "
 "a few minutes."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:451
+#: ../../../src/guide/api/types.md:464
 msgid ""
 "Decreasing the amount of disk space will schedule a maintenance window to"
 " reboot the VM."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:454
+#: ../../../src/guide/api/types.md:467
 msgid "rbd_pool"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:456
+#: ../../../src/guide/api/types.md:469
 msgid "*default*: `rbd.hdd`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:458
+#: ../../../src/guide/api/types.md:471
 msgid "Set the storage pool for the VM. Possible values are:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:460
+#: ../../../src/guide/api/types.md:473
 msgid "`rbd.hdd` for HDD backed storage, and"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:461
+#: ../../../src/guide/api/types.md:474
 msgid "`rbd.ssd` for SSD backed storage."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:464
+#: ../../../src/guide/api/types.md:477
 msgid ""
 "This value can only be set when the VM is created, and cannot be changed "
 "later."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:467
+#: ../../../src/guide/api/types.md:480
 msgid "online"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:469
+#: ../../../src/guide/api/types.md:482
 msgid "*default*: True"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:471
+#: ../../../src/guide/api/types.md:484
 msgid "Indicates if the VM *should* be running (True) or not (False)."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:473
+#: ../../../src/guide/api/types.md:486
 msgid ""
 "Setting `online` to `False` will properly shutdown the VM, if possible. "
 "If the shutdown fails, the VM will be killed."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:475
+#: ../../../src/guide/api/types.md:488
 msgid "interfaces"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:479
+#: ../../../src/guide/api/types.md:492
 msgid ""
 "A hierarchy of VLANs, the assigned IP networks (4 and 6) and the "
 "associated IP addresses for the VM."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:482
+#: ../../../src/guide/api/types.md:495
 msgid ""
 "`srv` indicates the server-to-server communication channel. Those "
 "machines will only be assigned private IPv4 addresses but public IPv6 "
 "addresses. `fe` indicates public internet traffic."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:486
+#: ../../../src/guide/api/types.md:499
 msgid "reverses:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:490
+#: ../../../src/guide/api/types.md:503
 msgid ""
 "A list of IP addresses and registered reverse DNS names. We can set those"
 " for you if you contact us."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:493
+#: ../../../src/guide/api/types.md:506
 msgid "frontend_ips_v4"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:495 ../../../src/guide/api/types.md:516
+#: ../../../src/guide/api/types.md:508 ../../../src/guide/api/types.md:529
 msgid "*default:* `0`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:497
+#: ../../../src/guide/api/types.md:510
 msgid ""
 "The number of public IPv4 addresses to allocate for this VM. Increasing "
 "this number will cause more addresses to be allocated. Decreasing this "
@@ -790,7 +840,7 @@ msgid ""
 "us](mailto:support@flyingcircus.io) if you want to reduce this number."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:502
+#: ../../../src/guide/api/types.md:515
 msgid ""
 "Public IPv4 addresses are a scarce resource. Most virtual machines do not"
 " require one. Typically you need only 1 per project, maybe 2 or 3 under "
@@ -798,22 +848,22 @@ msgid ""
 " of IPs available to your VM."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:507
+#: ../../../src/guide/api/types.md:520
 msgid "The number of public IPv4 addresses is limited to 3 per machine."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:509
+#: ../../../src/guide/api/types.md:522
 msgid ""
 "If you have a special case that justifies using more IPv4 addresses, "
 "please [talk to us](mailto:support@flyingcircus.io) and we will be happy "
 "to work on a solution with you."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:514
+#: ../../../src/guide/api/types.md:527
 msgid "frontend_ips_v6"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:518
+#: ../../../src/guide/api/types.md:531
 msgid ""
 "The number of public IPv6 addresses to allocate for this VM. Increasing "
 "this number will cause more addresses to be allocated. Decreasing this "
@@ -821,45 +871,45 @@ msgid ""
 "us](mailto:support@flyingcircus.io) if you want to reduce this number."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:522
+#: ../../../src/guide/api/types.md:535
 msgid "The API limits you to 100 public IPv6 addresses per virtual machine."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:524
+#: ../../../src/guide/api/types.md:537
 msgid "machine"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:528
+#: ../../../src/guide/api/types.md:541
 msgid ""
 "Indicates that this is a virtual machine. In the future we may provide "
 "access to physical machines which would have similar records but display "
 "`physical` instead of `virtual` in this place."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:532
+#: ../../../src/guide/api/types.md:545
 msgid "kvm_host"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:536
+#: ../../../src/guide/api/types.md:549
 msgid ""
 "The hostname of the machine running your VM. Given for informative "
 "purposes. Sometimes having two VMs run on the same host may give "
 "significantly different networking results."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:544
+#: ../../../src/guide/api/types.md:557
 msgid "Reflects the setting of this VM's `production` flag - see above."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:546
+#: ../../../src/guide/api/types.md:559
 msgid "servicing"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:548
+#: ../../../src/guide/api/types.md:561
 msgid "*readonly, default:* `True`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:550
+#: ../../../src/guide/api/types.md:563
 msgid ""
 "Reflects whether this VM is assumed to be doing purposeful things at the "
 "moment. During maintenance this may be set to `False` and may be used by "
@@ -867,11 +917,11 @@ msgid ""
 "appropriate if it was busy."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:555
+#: ../../../src/guide/api/types.md:568
 msgid "last_maintenance_end"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:559
+#: ../../../src/guide/api/types.md:572
 msgid ""
 "The date and time when the VM was last in maintenance mode,  ISO 6801 "
 "formatted with time zone. This can be useful to correlate with monitoring"
@@ -879,143 +929,35 @@ msgid ""
 "time after the maintenance ended to avoid notifications."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:561
+#: ../../../src/guide/api/types.md:574
 msgid "creation_date"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:563
+#: ../../../src/guide/api/types.md:576
 msgid ""
 "Date and time when the VM has been created, ISO 6801 formatted with time "
 "zone."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:566
+#: ../../../src/guide/api/types.md:579
 msgid "deletion"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:568
+#: ../../../src/guide/api/types.md:581
 msgid "*readonly, default:* `{'deadline': '', 'stages': []}`"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:570
+#: ../../../src/guide/api/types.md:583
 msgid ""
 "Reflects the deletion state of this VM. Reflects the deadline and the "
 "stages of the deletion that have been reached already."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:573
-msgid "Here is the full list of all available managed components:"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:575
-msgid "`role::antivirus`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:576
-msgid "`role::appserver`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:577
-msgid "`role::backupclient`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:578
-msgid "`role::dbserver`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:579
-msgid "`role::dovecot`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:580
-msgid "`role::gis`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:581
-msgid "`role::golang`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:582
-msgid "`role::jabber`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:583
-msgid "`role::java`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:584
-msgid "`role::lampserver`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:585
-msgid "`role::ldapserver`"
-msgstr ""
-
 #: ../../../src/guide/api/types.md:586
-msgid "`role::loghost`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:587
-msgid "`role::mailinglistserver`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:588
-msgid "`role::mailserver`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:589
-msgid "`role::mysql`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:590
-msgid "`role::nfs_rg_client`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:591
-msgid "`role::nfs_rg_share`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:592
-msgid "`role::php`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:593
-msgid "`role::postgresql84`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:594
-msgid "`role::postgresql90`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:595
-msgid "`role::postgresql93`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:596
-msgid "`role::pspdf`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:597
-msgid "`role::rabbitmq`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:598
-msgid "`role::redis`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:599
-msgid "`role::webgateway`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:600
-msgid "`role::webproxy`"
-msgstr ""
-
-#: ../../../src/guide/api/types.md:602
 msgid "Deleting a virtual machine"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:604
+#: ../../../src/guide/api/types.md:588
 msgid ""
 "If you delete a VM without any options it will be marked for deletion by "
 "the end of the current month. After that it will not be accounted for any"
@@ -1025,52 +967,52 @@ msgid ""
 "in queries until a few days after its deadline."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:611
+#: ../../../src/guide/api/types.md:595
 msgid "Additionally you can pass the field `deadline` with an ISO date:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:622
+#: ../../../src/guide/api/types.md:606
 msgid ""
 "Deletions must be scheduled in the future. The earliest possible day is "
 "always \"tomorrow\". Our timezone is Europe/Berlin for this."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:626
+#: ../../../src/guide/api/types.md:610
 msgid ""
 "To cancel a pending VM deletion you can simply update the VM without "
 "giving any additional data:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:633
+#: ../../../src/guide/api/types.md:617
 msgid "Maintenance"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:635
+#: ../../../src/guide/api/types.md:619
 msgid ""
 "The API allows querying maintenance windows and activities that have been"
 " scheduled for your services. Maintenance windows can not be changed "
 "through the API."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:639
+#: ../../../src/guide/api/types.md:623
 msgid ""
 "General parameters for maintenance windows can be configured on the "
 "corresponding project object."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:642
+#: ../../../src/guide/api/types.md:626
 msgid "A maintenance record looks like this:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:661
+#: ../../../src/guide/api/types.md:645
 msgid "Times are given in UTC."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:663
+#: ../../../src/guide/api/types.md:647
 msgid "Consumptions"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:665
+#: ../../../src/guide/api/types.md:649
 msgid ""
 "The API allows querying consumptions. Consumptions are used to account "
 "for things that you as a customer use or \"consume\" on our platform. At "
@@ -1078,7 +1020,7 @@ msgid ""
 "invoice items."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:669
+#: ../../../src/guide/api/types.md:653
 msgid ""
 "Consumptions can be queried during a month to see the ongoing view of "
 "your traffic, virtual machines, contracts, and more. Consumptions are "
@@ -1086,34 +1028,34 @@ msgid ""
 "VM, or pass your resources over to a different customer."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:674
+#: ../../../src/guide/api/types.md:658
 msgid ""
 "Access to consumptions is granted based on the customer of the resource "
 "group that your API key is registered for."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:677
+#: ../../../src/guide/api/types.md:661
 msgid "A consumption record looks like this:"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:688
+#: ../../../src/guide/api/types.md:672
 msgid ""
 "The content of `type_id` depends on the type. For example: traffic is "
 "accounted per project. Virtual machines are accounted per virtual "
 "machine. Parameters vary per type as well."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:692
+#: ../../../src/guide/api/types.md:676
 msgid "Invoices"
 msgstr ""
 
-#: ../../../src/guide/api/types.md:694
+#: ../../../src/guide/api/types.md:678
 msgid ""
 "The API allows querying invoices. Invoices are generated on a monthly "
 "basis for each customer based on the corresponding consumptions."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:697
+#: ../../../src/guide/api/types.md:681
 msgid ""
 "Invoices are send out by email in PDF format automatically and can be "
 "retrieved in an automatic fashion from the API. However, due to the "
@@ -1121,7 +1063,7 @@ msgid ""
 "through the API."
 msgstr ""
 
-#: ../../../src/guide/api/types.md:702
+#: ../../../src/guide/api/types.md:686
 msgid "An invoice record looks like this:"
 msgstr ""
 
@@ -1482,5 +1424,97 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Additionally you can pass the field ``deadline`` with an ISO date:"
+#~ msgstr ""
+
+#~ msgid "`Puppet`"
+#~ msgstr ""
+
+#~ msgid "`NixOS`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NixOS: `fc-19.03-production`, `fc-19.03-staging`, "
+#~ "`fc-15.09-production`, `fc-15.09-staging`"
+#~ msgstr ""
+
+#~ msgid "Here is the full list of all available managed components:"
+#~ msgstr ""
+
+#~ msgid "`role::antivirus`"
+#~ msgstr ""
+
+#~ msgid "`role::appserver`"
+#~ msgstr ""
+
+#~ msgid "`role::backupclient`"
+#~ msgstr ""
+
+#~ msgid "`role::dbserver`"
+#~ msgstr ""
+
+#~ msgid "`role::dovecot`"
+#~ msgstr ""
+
+#~ msgid "`role::gis`"
+#~ msgstr ""
+
+#~ msgid "`role::golang`"
+#~ msgstr ""
+
+#~ msgid "`role::jabber`"
+#~ msgstr ""
+
+#~ msgid "`role::java`"
+#~ msgstr ""
+
+#~ msgid "`role::lampserver`"
+#~ msgstr ""
+
+#~ msgid "`role::ldapserver`"
+#~ msgstr ""
+
+#~ msgid "`role::loghost`"
+#~ msgstr ""
+
+#~ msgid "`role::mailinglistserver`"
+#~ msgstr ""
+
+#~ msgid "`role::mailserver`"
+#~ msgstr ""
+
+#~ msgid "`role::mysql`"
+#~ msgstr ""
+
+#~ msgid "`role::nfs_rg_client`"
+#~ msgstr ""
+
+#~ msgid "`role::nfs_rg_share`"
+#~ msgstr ""
+
+#~ msgid "`role::php`"
+#~ msgstr ""
+
+#~ msgid "`role::postgresql84`"
+#~ msgstr ""
+
+#~ msgid "`role::postgresql90`"
+#~ msgstr ""
+
+#~ msgid "`role::postgresql93`"
+#~ msgstr ""
+
+#~ msgid "`role::pspdf`"
+#~ msgstr ""
+
+#~ msgid "`role::rabbitmq`"
+#~ msgstr ""
+
+#~ msgid "`role::redis`"
+#~ msgstr ""
+
+#~ msgid "`role::webgateway`"
+#~ msgstr ""
+
+#~ msgid "`role::webproxy`"
 #~ msgstr ""
 
