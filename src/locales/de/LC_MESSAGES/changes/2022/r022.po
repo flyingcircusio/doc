@@ -16,48 +16,234 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
-
-#: ../../../src/changes/2022/r022.md:3
-msgid "Release 2022_022 (unreleased)"
-msgstr ""
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/changes/2022/r022.md:5
-msgid "Impact"
+msgid "Release 2022_022 (2022-08-30)"
 msgstr ""
 
-#: ../../../src/changes/2022/r022.md:7 ../../../src/changes/2022/r022.md:11
-#: ../../../src/changes/2022/r022.md:15 ../../../src/changes/2022/r022.md:19
-#: ../../../src/changes/2022/r022.md:23 ../../../src/changes/2022/r022.md:27
-#: ../../../src/changes/2022/r022.md:31
-msgid "nothing yet"
+#: ../../../src/changes/2022/r022.md:7
+msgid "NixOS 22.05 platform"
 msgstr ""
 
 #: ../../../src/changes/2022/r022.md:9
-msgid "NixOS 21.11 platform"
+msgid ""
+"This is the first production release of the 22.05 platform. Default "
+"version for new production VMs is still 21.11."
 msgstr ""
 
-#: ../../../src/changes/2022/r022.md:13
-msgid "NixOS 21.05 platform"
+#: ../../../src/changes/2022/r022.md:12
+msgid "Significant package updates, compared to 21.11:"
 msgstr ""
 
-#: ../../../src/changes/2022/r022.md:17
-msgid "NixOS 20.09 platform"
+#: ../../../src/changes/2022/r022.md:14
+msgid "glibc 2.33 -> 2.34"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:15
+msgid "haproxy: 2.3.x -> 2.5.x"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:16
+msgid ""
+"Note that haproxy 2.5 now rejects GET requests with a request body when "
+"using HTTP/1.0, responding with a HTTP 413 status. This is a problem if "
+"your nginx configuration still uses `proxy_http_version 1.0` talking to a"
+" haproxy upstream, for example. Change to version 1.1 if you expect such "
+"GET requests."
 msgstr ""
 
 #: ../../../src/changes/2022/r022.md:21
-msgid "NixOS 15.09 platform"
+msgid "nginx: 1.20.2 -> 1.22"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:22
+msgid "nix: 2.3 -> 2.8"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:23
+msgid "php 8.1: new"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:24
+msgid "openssh: 8.8 -> 9.0"
 msgstr ""
 
 #: ../../../src/changes/2022/r022.md:25
-msgid "Gentoo platform"
+msgid "redis: 6.2.x -> 7.0.x"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:26
+msgid "systemd: 249 -> 250"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:27
+msgid "varnish: 7.0.x -> 7.1.x"
 msgstr ""
 
 #: ../../../src/changes/2022/r022.md:29
+msgid ""
+"Significant behaviour change in the handling of SystemD unit restarts: "
+"NixOS automatically restarts units when meaningful changes to the unit "
+"are detected. Note that changes to comments or whitespace don't trigger a"
+" restart. This behaviour changed compared to versions before 22.05 where "
+"every content change triggered a restart. If you have some value that "
+"should restart the unit when it changes, add it to the `X-Restart-"
+"Triggers` directive in the `[Unit]` section when using plain config or "
+"`restartTriggers` when using NixOS config. See the [NixOS Manual/Unit "
+"handling](https://nixos.org/manual/nixos/stable/index.html#sec-unit-"
+"handling) section for details."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:38
+msgid ""
+"Pull upstream NixOS changes that include security fixes and other updates"
+" (#PL-130858):"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:40
+msgid "discourse: 2.9.0.beta4 -> 2.9.0.beta9"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:41
+msgid "github-runner: 2.294.0 -> 2.295.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:42
+msgid "gitlab: 15.1.4 -> 15.2.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:43
+msgid "gnutls: patch CVE-2022-2509"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:44
+msgid "imagemagick: 7.1.0-44 -> 7.1.0-46"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:45
+msgid "libtiff: add patch for CVE-2022-34526"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:46
+msgid "linux: 5.10.134 -> 5.10.136"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:47
+msgid "matrix-synapse: 1.64.0 -> 1.65.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:48
+msgid "nodejs-16_x: 16.15.0 -> 16.16.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:49
+msgid "nodejs-18_x: 18.2.0 -> 18.7.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:50
+msgid "nspr: 4.34 -> 4.34.1"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:51
+msgid "php80: 8.0.21 -> 8.0.22"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:52
+msgid "php81: 8.1.8 -> 8.1.9"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:53
+msgid "strace: 5.18 -> 5.19"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:54
+msgid "varnish71: 7.1.0 -> 7.1.1"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:55
+msgid "zlib: add fixed patch for CVE-2022-37434"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:57
+msgid ""
+"Go back to Linux 5.10 kernel which we also use on the 21.11 platform. We "
+"have seen problems with hanging file system freezes on 22.05 using Linux "
+"5.15 when mysql/percona/mariadb is running and our backup system tries to"
+" take a snapshot (#PL-130833)."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:62
+msgid ""
+"loghost: fixed various config problems which were discovered after the "
+"latest elasticsearch role changes (#PL-130815)."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:65 ../../../src/changes/2022/r022.md:72
+msgid ""
+"filebeat-journal: set log level to *error* because *warning* still "
+"produced too much noise (#PL-130817)."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:68
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/182987/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:70
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:74
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/183583/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:76
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:78
+msgid "Various internal changes that only affect our physical hosts."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:80
 msgid "Documentation"
 msgstr ""
 
-#: ../../../src/changes/2022/r022.md:33
+#: ../../../src/changes/2022/r022.md:82
+msgid ""
+"Converted all documentation to [MyST Markdown](https://myst-"
+"parser.readthedocs.io)."
+msgstr ""
+
+#: ../../../src/changes/2022/r022.md:84
 msgid "Detailed Changes"
 msgstr ""
+
+#: ../../../src/changes/2022/r022.md:86
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_021/21.11...cef6309db9790d147f2b516b484dd0db69de11b8)."
+msgstr ""
+
+#~ msgid "Release 2022_022 (unreleased)"
+#~ msgstr ""
+
+#~ msgid "Impact"
+#~ msgstr ""
+
+#~ msgid "nothing yet"
+#~ msgstr ""
+
+#~ msgid "NixOS 20.09 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 15.09 platform"
+#~ msgstr ""
+
+#~ msgid "Gentoo platform"
+#~ msgstr ""
 

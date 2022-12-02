@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-11-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2022/r029.md:5
+msgid "Release 2022_029 (2022-11-21)"
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:7
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:9
+msgid ""
+"statshost: deprecate InfluxDB for long-term metrics storage, add options "
+"to disable InfluxDB or just reading/writing from/to InfluxDB for a phase-"
+"out period. InfluxDB consumes a lot of RAM, increasing with the number of"
+" metrics and distinct label values. Prometheus got much better in storing"
+" data for a longer time period while being far better at memory "
+"consumption. Prometheus stores data for at least 10 weeks by default, "
+"which can extended. InfluxDB will be removed completely with the 22.11 "
+"platform version (#PL-131027)."
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:17
+msgid ""
+"fc-postgresql upgrade: use fast cloning mode of pg_upgrade (using XFS "
+"reflinks) if possible; fix `--no-existing-db-check` option (#PL-131056)."
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:19
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/207216/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:22
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r029.md:24
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_028/22.05...b21f33a35cb15a5eb8c0a5fb881513cf4b85b76e)"
+msgstr ""
+

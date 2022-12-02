@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/guide/api/introduction.md:1
 msgid "Introduction"
@@ -150,27 +150,6 @@ msgid ""
 "number of API calls within a period of time."
 msgstr ""
 
-#: ../../../src/guide/api/introduction.md:89
-msgid "Test environment"
-msgstr ""
-
-#: ../../../src/guide/api/introduction.md:91
-msgid ""
-"Our API server (aka \"the directory\") is available as open source and "
-"has a Vagrant-based deployment available. If you would like to develop "
-"against our API please set up a local test installation from "
-"<https://bitbucket.org/flyingcircus/fc.directory.deployment>."
-msgstr ""
-
-#: ../../../src/guide/api/introduction.md:96
-msgid ""
-"Using this (over hosted options for test environments) has the benefit "
-"that we live the open source idea and that you have more control over the"
-" environment you test against. It also poses less risk of accidentally "
-"talking to the wrong systems or interleaving production traffic with test"
-" traffic when using feature flags."
-msgstr ""
-
 #~ msgid ""
 #~ "Our API is provided as an `XML-"
 #~ "RPC <https://de.wikipedia.org/wiki/XML-RPC>`_ "
@@ -218,5 +197,31 @@ msgstr ""
 #~ "develop against our API please set "
 #~ "up a local test installation from "
 #~ "https://bitbucket.org/flyingcircus/fc.directory.deployment."
+#~ msgstr ""
+
+#~ msgid "Test environment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our API server (aka \"the directory\")"
+#~ " is available as open source and "
+#~ "has a Vagrant-based deployment "
+#~ "available. If you would like to "
+#~ "develop against our API please set "
+#~ "up a local test installation from "
+#~ "<https://bitbucket.org/flyingcircus/fc.directory.deployment>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using this (over hosted options for "
+#~ "test environments) has the benefit that"
+#~ " we live the open source idea "
+#~ "and that you have more control "
+#~ "over the environment you test against."
+#~ " It also poses less risk of "
+#~ "accidentally talking to the wrong "
+#~ "systems or interleaving production traffic "
+#~ "with test traffic when using feature "
+#~ "flags."
 #~ msgstr ""
 

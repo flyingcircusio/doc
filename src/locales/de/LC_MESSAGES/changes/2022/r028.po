@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2022-11-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2022/r028.md:5
+msgid "Release 2022_028 (2022-11-14)"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:7
+msgid ""
+"Note that two vulnerabilities affecting **sudo** (CVE-2022-43995) and "
+"**sqlite** (CVE-2022-35737) **on all platforms** have been published. "
+"Fixes are available for platform versions starting with 21.05. Older "
+"platform versions will not be patched anymore. For 22.05, the fixes have "
+"been already rolled out with earlier releases."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:13
+msgid ""
+"Even if we don't expect them to have an immediate security impact as they"
+" require local access or massive amounts of data passed to a C API in the"
+" sqlite case, we still recommend updating as soon as possible. Please "
+"upgrade to our current platform version 22.05 or at least 21.05, which is"
+" the oldest patched version."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:19
+msgid ""
+"If you have pinned *nixpkgs* in your deployments/environments, as "
+"described in {external+platform-current:ref}`nixos-user-package-"
+"management`, please update these as well, also to include the fix for "
+"OpenSSL 3 from the previous 22.05 release."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:24
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:26
+msgid "\\[NixOS 22.05\\] Matomo will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:27
+msgid ""
+"\\[NixOS 21.11\\] Most services will restart because of a core dependency"
+" change."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:28
+msgid ""
+"\\[NixOS 21.05\\] Most services will restart because of a core dependency"
+" change."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:30
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:32
+msgid "matomo: update to 4.12.3 (#PL-131051)."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:33
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/206047/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:35
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:37 ../../../src/changes/2022/r028.md:43
+msgid "sqlite: fix CVE-2022-35737 (#PL-131029)."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:38 ../../../src/changes/2022/r028.md:44
+msgid "sudo: add patch for CVE-2022-43995 (#PL-131049)."
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:39
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/205335/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:41
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:45
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/205431/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:47
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:49
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_027/22.05...e397f188bb9397effcf5022277e91445b1da1830)"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:50
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_023/21.11...6852065437f3c2ae0bab20731951d9b5cc52c3a6)"
+msgstr ""
+
+#: ../../../src/changes/2022/r028.md:51
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_025/21.05...d865a40a0f3d8bf30929b56a70a5e395a11f2e88)"
+msgstr ""
+
