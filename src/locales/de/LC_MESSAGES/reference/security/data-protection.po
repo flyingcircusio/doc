@@ -9,12 +9,12 @@ msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 11:10+0200\n"
-"PO-Revision-Date: 2021-08-18 14:18+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2022-12-02 07:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -66,19 +66,26 @@ msgstr "Inhalte"
 msgid "Responsible bodies"
 msgstr "Verantwortliche Stellen"
 
-#: ../../src/reference/security/data-protection.rst:28
-msgid "**Information Security officer:**"
-msgstr "**Informationssicherheitsbeauftragter:**"
+#: ../../../src/reference/security/data-protection.rst:29
+msgid "**Information Security officers:**"
+msgstr "**Informationssicherheitsbeauftragte:**"
 
-#: ../../src/reference/security/data-protection.rst:30
-msgid "Christian Zagrodnick"
-msgstr "Christian Zagrodnick"
+#: ../../../src/reference/security/data-protection.rst:31
+msgid "Christian Zagrodnick (CISO)"
+msgstr "Christian Zagrodnick (CISO)"
 
 #: ../../src/reference/security/data-protection.rst:31
 msgid "cz@flyingcircus.io"
 msgstr "cz@flyingcircus.io"
 
-#: ../../src/reference/security/data-protection.rst:34
+#: ../../../src/reference/security/data-protection.rst:34
+msgid "Christian Schmidt (ISO)"
+msgstr "Christian Schmidt (ISO)"
+
+#: ../../../src/reference/security/data-protection.rst:35
+msgid "cs@flyingcircus.io"
+msgstr "cs@flyingcircus.io"
+
 msgid "**Data protection officer:**"
 msgstr "**Datenschutzbeauftragter:**"
 

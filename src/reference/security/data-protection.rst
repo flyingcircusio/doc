@@ -26,10 +26,13 @@ based on the following standards and regulations:
 Responsible bodies
 ------------------
 
-**Information Security officer:**
+**Information Security officers:**
 
-| Christian Zagrodnick
+| Christian Zagrodnick (CISO)
 | cz@flyingcircus.io
+
+| Christian Schmidt (ISO)
+| cs@flyingcircus.io
 
 
 **Data protection officer:**
