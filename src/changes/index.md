@@ -8,6 +8,7 @@ infrastructure in reverse chronological order.
 ```{toctree}
 :maxdepth: 1
 
+2023/index
 2022/index
 2021/index
 2020/index
