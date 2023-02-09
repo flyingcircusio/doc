@@ -62,6 +62,7 @@ We do not allow password-based SSH logins. For details, check our
 {ref}`data protection plan <entry-control>`.
 :::
 
+% FIXME: consider moving to the .fcio.net naming scheme in the docs
 Every virtual machine will have a DNS name that follows the pattern
 `<virtualmachine>.gocept.net`. For example, if your resource
 group is called `myapp` the first virtual machine will be known as
@@ -90,7 +91,7 @@ If you have problems connecting to the VM, check our section on
 Server applications should be running in a *service user* account and not in a
 *human user* account. For every project we automatically
 provide a service user with a matching name. For example: if your resource
-group is named `myapp` then there will also be a user account called `myapp` on
+group is named `myapp` then there will also be a user account called `s-myapp` on
 all virtual machines that belong to this project.
 
 Change your user context to this user and perform the necessary tasks to deploy
@@ -145,7 +146,7 @@ public IPv4 addresses on ethsrv.
 :::{note}
 Our firewalls allow all traffic from the internet on the public
 interface (ethfe) but restrict access to the server network (ethsrv) to
-select services like SSH, HTTP and HTTPS. You should therefore be careful
+selected services like SSH, HTTP and HTTPS. You should therefore be careful
 to configure internally used software like databases to listen on the IPs
 of the server network only.
 :::
