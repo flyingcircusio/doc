@@ -1,4 +1,4 @@
-% last review: XXX
+% last review: 2023-02-22
 
 % review schedule: 1 year
 
@@ -10,8 +10,8 @@
 
 # Disaster recovery
 
-This disaster recovery plan provides an overview of the expected disasters and
-how Flying Circus systems and personnel is prepared to deal with them.
+This disaster recovery plan provides an overview of potential disasters and how
+the Flying Circus systems and personnel is prepared to deal with them.
 
 For each scenario we give:
 
@@ -43,8 +43,7 @@ response time is included to notify the standby support technician.
 
 Disaster prevention
 
-: We deploy hot-standby routers, active-active redundant core switches
-  and keep warm standby ports on neighbouring switches.
+: We deploy hot-standby routers and hot-standby switches.
 
 Disaster recovery
 
@@ -56,11 +55,7 @@ Disaster recovery
 
   RTO for hot-standby routers: less than 15 seconds
 
-  RTO for core switches: 0 seconds (active-active)
-
-  RTO for access switch port failures: 1 hour
-
-  RTO for access switch complete failures: 4 hours
+  RTO for switch port failures or complete failures: 1 hour
 
   RPO: n/a
 
@@ -68,13 +63,13 @@ Disaster recovery
 
 Disaster prevention
 
-: We buy professional hardware with those components that are most likely to
-  fail built in redundantly: multiple disks in RAID and a redundant power
-  supply.
+: We buy professional hardware. We use redundant power supplies. OS disks are not
+  made redundant - failure does not impact VM operations and affected hosts
+  will be evacuated if needed.
 
 Disaster recovery
 
-: Restart virtual machines from the failed host on spare hosts.
+: Migrate or restart virtual machines from the failed host on spare hosts.
 
   RTO: within customer-specific SLA + 15 minutes
 
@@ -88,8 +83,10 @@ Disaster prevention
   with n+2 redundancy. Loss of a single server can be masked transparently.
 
   We can loose multiple storage servers, depending on the capacity of our
-  cluster. We expect to be able to loose at least 2 servers without impacting
-  service or data availability.
+  cluster. We expect to be able to loose at least 2 servers in total without
+  impacting service or data availability. A simultaneous failure of 2 servers
+  may cause intermittent service outages while recovering to an n+1 redundancy
+  state.
 
 Disaster recovery
 
@@ -108,6 +105,9 @@ Disaster prevention
   automatic repair abilities requires manual specific diagnostics and
   decision-making.
 
+  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  as an emergemency operations setup with our secondary data center.
+
 Disaster recovery
 
 : Restore virtual machines from backup.
@@ -125,6 +125,9 @@ Disaster prevention
   without over-heating. Also, the data center operator employs a smoke
   detection system that allows for early detection and fire prevention.
 
+  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  as an emergemency operations setup with our secondary data center.
+
 Disaster recovery
 
 : Buy and install new hardware, provision to new rack in data center.
@@ -141,6 +144,10 @@ Disaster prevention
 
 : Require redundant power lines, UPS backup, and diesel generators in the
   data center.
+
+  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  as an emergemency operations setup with our secondary data center.
+
 
 Disaster recovery
 
@@ -160,6 +167,9 @@ Disaster prevention
 
   The Flying Circus has a service level agreement on the availability of the
   network with the data center provider.
+
+  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  as an emergemency operations setup with our secondary data center.
 
 Disaster recovery
 
@@ -185,9 +195,12 @@ Disaster recovery
 
   Alternatively find new data center and rebuild infrastructure.
 
-  RTO: n/a
+  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  as an emergemency operations setup with our secondary data center.
 
-  RPO: n/a
+  RTO: n/a (24h for backup data center operations)
+
+  RPO: n/a (depending on backup frequency)
 
 ## Software errors
 

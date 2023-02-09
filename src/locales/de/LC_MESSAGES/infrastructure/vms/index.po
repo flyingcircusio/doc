@@ -27,7 +27,7 @@ msgid "VMs are run on the Linux Qemu/KVM hypervisor."
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:10
-msgid "Virtual disks are stored in CEPH RBD volumes."
+msgid "Virtual disks are stored in Ceph RBD volumes."
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:12

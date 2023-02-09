@@ -1,4 +1,4 @@
-% last review: XXXX
+% last review: 2023-02-22
 
 % review schedule: 1 year
 
@@ -6,8 +6,8 @@
 
 # Software vulnerabilities
 
-Security issues with software installed on machines are monitored using a platform-specific process. Our processes (and specifically timelines) to mitigate vulnerabilities
-depend on the support status of the respective platform.
+Security issues with system software installed on machines mainly rely on the
+NixOS security process for mitigations. 
 
 When mitigating a vulnerability we may choose different strategies depending
 on the situation:
@@ -25,23 +25,24 @@ on the situation:
   vectors are not relevant on our platform.
 - We might take other actions not listed here, depending on the situation.
 
-## NixOS 19.03
+## NixOS 22.11 (upcoming)
 
-We actively monitor our code base and the packages that are actually installed
-on customer systems (excluding user environments) for matches against public
-vulnerability databases (i.e. NIST CVE).
+This is the currently actively maintained NixOS release that receives timely
+security updates. 
 
-We perform a scan for new vulnerabilities once a week and create work tickets
-with different priorities based on multiple criteria of the vulnerability.
+We update our platform with security updates every 2 weeks, but may update
+intermittently if high risk vulnerabilities become known.
 
-As we included some packages from the upstream NixOS unstable branch we
-regularly keep this branch updated and thus include security fixed provided
-by the NixOS community in a timely manner.
+## NixOS 22.05 (current)
 
-## NixOS 15.09 (outdated)
+The NixOS community has stopped support for this distribution but we monitor
+security updates received on the 22.11 branch for potential backports in
+high risk situations.
+
+## NixOS 21.11 and older (outdated)
 
 No security updates are provided. Customers in need of guaranteed security
-updates are advised to update to NixOS 19.03.
+updates are advised to update to NixOS 22.05
 
 ## Gentoo (outdated)
 
