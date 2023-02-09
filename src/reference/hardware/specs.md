@@ -55,6 +55,7 @@ Historic requirements, usually always given nowadways:
 
 - Base: Thomas Krenn RI1316
 - No separate drives for system needed, it's OK to install on the big raid.
+% FIXME: barbrady06 appears to use mdraid instead
 - High-end hardware RAID controller (Avago MegaRAID 9361-8i SAS3 8x internal) including safe controller cache
 - at least 15 x 2 TB SAS 7.2k disks, depending on actual requirements.
 - at least 12 GiB RAM

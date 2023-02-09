@@ -60,6 +60,8 @@ Disaster recovery
 
 Disaster prevention
 
+% FIXME: we do not use RAID anymore
+
 : We buy professional hardware with those components that are most likely to
   fail built in redundantly: multiple disks in RAID and a redundant power
   supply.

@@ -334,6 +334,9 @@ The availability of resources depending on the data center facilities is
 delegated to the operator of the data center. The Flying Circus facilitates
 service level agreements to make expectations about availability explicit.
 
+% FIXME: we do not use RAID anymore
+% FIXME: why is this still a rst document? If there are legitimate reasons, document them
+
 The selection of hardware is performed by the Flying Circus using professional
 equipment and vendors. The Flying Circus facilitates standard procedures for
 increased availability of single components (e.g., RAID storages, redundant
