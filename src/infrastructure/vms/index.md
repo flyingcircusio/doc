@@ -1,3 +1,10 @@
+% last review: 2023-02-22
+
+% review schedule: 1 year
+
+% ISMSControl: A.12.5.1
+
+
 ```{image} ../../images/vms250.png
 :class: logo
 :width: 250px
@@ -7,7 +14,7 @@
 
 - VMs are run on the Linux Qemu/KVM hypervisor.
 
-- Virtual disks are stored in CEPH RBD volumes.
+- Virtual disks are stored in Ceph RBD volumes.
 
 - The guest operating system is a 64-bit NixOS Linux managed by the Flying Circus.
 
@@ -22,9 +29,9 @@
 
 - VMs can be assigned resources:
 
-  > - 1-8 virtual CPU cores
-  > - 1-60GiB RAM
-  > - 30GiB-10+TiB disk (note that filesystems become unwieldy at a certain size)
+  > - 1-12 virtual CPU cores
+  > - 1-128GiB RAM (the customer API limits you to 64GiB, talk to us if you need more)
+  > - 30GiB-10+TiB disk (note that filesystems become unwieldy at a certain size, we strongly recommend looking into using our S3-compatible object storage in those cases)
 
 - Resources can be resized:
 
