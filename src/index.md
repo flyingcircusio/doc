@@ -29,6 +29,7 @@ reference/index
 ```{toctree}
 :maxdepth: 2
 
+platform/22.11/index
 platform/22.05/index
 platform/21.11/index
 platform/21.05/index
