@@ -104,7 +104,7 @@ Host *.fcio.net
     ProxyCommand ssh flyingcircus-jump-host -W %h:%p
 
 Host flyingcircus-jump-host
-    HostName <VMNAME>.fe.rzob.ipv4.fcio.net
+    HostName <VMNAME>.fe.rzob.ipv4.gocept.net
     User <USERNAME>
     ProxyCommand none
 ```
