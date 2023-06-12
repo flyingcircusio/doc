@@ -11,16 +11,22 @@
 
 ## Physical networks
 
-The physical network in our public datacenter is implemented using physically
-separated switches per layer 2 segment (VLAN) with a hot-spare for each switch
-type.
+The physical network in our public datacenter RZOB is implemented using
+physically separated switches per layer 2 segment (VLAN) with a hot-spare for
+each switch type. In WHQ, we operate multiple layer 2 segments using the same
+physical switches, using VLAN's within the switches for logical separation, but
+*without* hot-spares.
 
 The frontend (FE) and server-to-server (SRV) networks run on 1G infrastructure,
-where as the storage networks are connected with 10G ports. The datacenter
-uplink from our routers uses redundant 2x10G connectivity.
+whereas the storage networks are connected with 10G links. In RZOB our routers
+have redundant 2x10G connectivity to our uplink provider. In WHQ our routers
+have a redundant 2x1G link to our uplink provider, however this provider only
+has *non-redundant* 2.5G connectivity itself.
 
-Routers are attached to upstream ports provided by the data center, a dedicated
-management link, and a link with tagged VLANs for everything else.
+In all locations, routers are connected to upstream ports provided by the
+datacenter and a dedicated management link. In RZOB, a separate physical
+interface is used for each layer 2 segment, and in WHQ all of the layer 2
+networks are delivered over a single physical interface using tagged VLAN's.
 
 (logical-networks)=
 
@@ -34,7 +40,7 @@ The following VLANs and logical networks are in use:
 **MGM** - Management, purely for administrative purposes. This VLAN connects
 switch management ports, Remote Access Controllers, and additional access to
 server OSes via SSH. Not accessible from the outside world, private IPv4
-address space. DNS example: *switch.mgm.rzob.gocept.net*.
+address space.
 
 **FE** - Frontend, for customer application traffic. This VLAN connects to
 machines that provide customers' applications to the public. This network is
