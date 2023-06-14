@@ -46,11 +46,12 @@ address space.
 **FE** - Frontend, for customer application traffic. This VLAN connects to
 machines that provide customers' applications to the public. This network is
 switched to the virtual machines and leverages completely public traffic. The
-DC firewalls do not filter this. Customer applications are free to use any
-ports they like but must be careful opening them. VMs can filter this network
-locally. All VMs receive a NIC on this VLAN but not necessarily IPv4 or IPv6
-addresses if they do not provide public traffic. DNS
-example: *vm00.fe.rzob.gocept.net*.
+DC firewalls do not filter this, however the default system firewall running
+locally on VMs blocks inbound connections. Customer applications are free to
+use any ports they like, however these ports must be listed in the firewall
+configuration in order to receive inbound connections. All VMs receive a NIC on
+this VLAN but not necessarily IPv4 or IPv6 addresses if they do not provide
+public traffic. DNS example: *vm00.fe.rzob.fcio.net*.
 
 **SRV** - Server to server communication. Used for customer application
 components to talk to each other, e.g. database traffic and for management
@@ -72,13 +73,9 @@ replication and self-management. DNS example: *filer.stb.rzob.gocept.net*.
 Individual VMs that run management services, like monitoring, may get bridged
 into the additional VLANs or granted firewall exceptions as necessary.
 
-The routers suppress routing of traffic on VLANs that are "martian", e.g.
-frontend traffic injected on the server-to-server network or private addresses
-from the internet.
-
-Services that require tight control are bound to listening IP addresses on only
-those networks but then can get relaxed ACL rules making configuration simpler
-and easier to understand.
+The routers suppress traffic on VLANs that are "martian", e.g.  frontend
+traffic injected on the server-to-server network or private addresses from the
+internet.
 
 ## Local ports
 
