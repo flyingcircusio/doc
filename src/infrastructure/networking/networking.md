@@ -14,8 +14,8 @@
 The physical network in our public datacenter RZOB is implemented using
 physically separated switches per layer 2 segment (VLAN) with a hot-spare for
 each switch type. In WHQ, we operate multiple layer 2 segments using the same
-physical switches, using VLAN's within the switches for logical separation, but
-*without* hot-spares.
+physical switches, using VLANs within the switches for logical separation, but
+with cold-spares instead of hot-spares.
 
 The frontend (FE) and server-to-server (SRV) networks run on 1G infrastructure,
 whereas the storage networks are connected with 10G links. In RZOB our routers
@@ -23,10 +23,11 @@ have redundant 2x10G connectivity to our uplink provider. In WHQ our routers
 have a redundant 2x1G link to our uplink provider, however this provider only
 has *non-redundant* 2.5G connectivity itself.
 
-In all locations, routers are connected to upstream ports provided by the
-datacenter and a dedicated management link. In RZOB, a separate physical
-interface is used for each layer 2 segment, and in WHQ all of the layer 2
-networks are delivered over a single physical interface using tagged VLAN's.
+In all locations, routers are connected to the datacenter uplink, the frontend
+network, the server-to-server network, and the management network. In RZOB a
+dedicated physical interface is used for each of these networks. In WHQ, all of
+these networks are delivered over a single physical interface using tagged
+VLANs.
 
 (logical-networks)=
 
