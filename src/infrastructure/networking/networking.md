@@ -11,16 +11,23 @@
 
 ## Physical networks
 
-The physical network in our public datacenter is implemented using physically
-separated switches per layer 2 segment (VLAN) with a hot-spare for each switch
-type.
+The physical network in our public datacenter RZOB is implemented using
+physically separated switches per layer 2 segment (VLAN) with a hot-spare for
+each switch type. In WHQ, we operate multiple layer 2 segments using the same
+physical switches, using VLANs within the switches for logical separation, but
+with cold-spares instead of hot-spares.
 
 The frontend (FE) and server-to-server (SRV) networks run on 1G infrastructure,
-where as the storage networks are connected with 10G ports. The datacenter
-uplink from our routers uses redundant 2x10G connectivity.
+whereas the storage networks are connected with 10G links. In RZOB our routers
+have redundant 2x10G connectivity to our uplink provider. In WHQ our routers
+have a redundant 2x1G link to our uplink provider, however this provider only
+has *non-redundant* 2.5G connectivity itself.
 
-Routers are attached to upstream ports provided by the data center, a dedicated
-management link, and a link with tagged VLANs for everything else.
+In all locations, routers are connected to the datacenter uplink, the frontend
+network, the server-to-server network, and the management network. In RZOB a
+dedicated physical interface is used for each of these networks. In WHQ, all of
+these networks are delivered over a single physical interface using tagged
+VLANs.
 
 (logical-networks)=
 
@@ -34,16 +41,17 @@ The following VLANs and logical networks are in use:
 **MGM** - Management, purely for administrative purposes. This VLAN connects
 switch management ports, Remote Access Controllers, and additional access to
 server OSes via SSH. Not accessible from the outside world, private IPv4
-address space. DNS example: *switch.mgm.rzob.gocept.net*.
+address space.
 
 **FE** - Frontend, for customer application traffic. This VLAN connects to
 machines that provide customers' applications to the public. This network is
 switched to the virtual machines and leverages completely public traffic. The
-DC firewalls do not filter this. Customer applications are free to use any
-ports they like but must be careful opening them. VMs can filter this network
-locally. All VMs receive a NIC on this VLAN but not necessarily IPv4 or IPv6
-addresses if they do not provide public traffic. DNS
-example: *vm00.fe.rzob.gocept.net*.
+DC firewalls do not filter this, however the default system firewall running
+locally on VMs blocks inbound connections. Customer applications are free to
+use any ports they like, however these ports must be listed in the firewall
+configuration in order to receive inbound connections. All VMs receive a NIC on
+this VLAN but not necessarily IPv4 or IPv6 addresses if they do not provide
+public traffic. DNS example: *vm00.fe.rzob.fcio.net*.
 
 **SRV** - Server to server communication. Used for customer application
 components to talk to each other, e.g. database traffic and for management
@@ -65,13 +73,9 @@ replication and self-management. DNS example: *filer.stb.rzob.gocept.net*.
 Individual VMs that run management services, like monitoring, may get bridged
 into the additional VLANs or granted firewall exceptions as necessary.
 
-The routers suppress routing of traffic on VLANs that are "martian", e.g.
-frontend traffic injected on the server-to-server network or private addresses
-from the internet.
-
-Services that require tight control are bound to listening IP addresses on only
-those networks but then can get relaxed ACL rules making configuration simpler
-and easier to understand.
+The routers suppress "martian" traffic which is on the wrong VLAN,
+e.g. frontend traffic injected on the server-to-server network or private
+addresses from the internet.
 
 ## Local ports
 
