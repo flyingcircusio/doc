@@ -73,9 +73,9 @@ replication and self-management. DNS example: *filer.stb.rzob.gocept.net*.
 Individual VMs that run management services, like monitoring, may get bridged
 into the additional VLANs or granted firewall exceptions as necessary.
 
-The routers suppress traffic on VLANs that are "martian", e.g.  frontend
-traffic injected on the server-to-server network or private addresses from the
-internet.
+The routers suppress "martian" traffic which is on the wrong VLAN,
+e.g. frontend traffic injected on the server-to-server network or private
+addresses from the internet.
 
 ## Local ports
 
