@@ -11,6 +11,7 @@ The following people are administrators for the Flying Circus:
 - Nils Möller
 - Oliver Schmidt
 - Tobias Stenzel
+- Molly Miller
 
 ## List of stand-by supporters
 
