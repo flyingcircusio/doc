@@ -91,7 +91,7 @@ For each data center used by us we require the following measures:
 * two-factor security for granting access (e.g. personal password and
   transponder card) with logging
 * physical access must be documented
-* 24 hour guard services with linked alarm system
+* preferably 24 hour guard services with linked alarm system
 * separate physical security zones for general areas, data center
   infrastructure and customer-accessible areas
 * separately locked racks with the possibility to use custom locks and keys.
@@ -104,8 +104,8 @@ Physical access to data processing equipment may be performed only by the Flying
 Low-security locations
 ++++++++++++++++++++++
 
-The Flying Circus operates two low-security zones called `development` (used
-for the development of the Flying Circus infrastructure) and `WHQ` (used to as staging environment for platform changes, and to operate non critical internal applications).
+The Flying Circus operates one low-security zone called `development` (used
+for the development of the Flying Circus infrastructure).
 
 Those locations are currently not allowed to be used for customer data storage
 as they are not sufficiently protected.
@@ -137,15 +137,15 @@ credentials with another person is prohibited.  Credentials can be either a
 username and a cryptographic measure (e.g. a private/public key scheme) or a
 password, depending on the applicability.
 
-Users with a Flying Circus account are required to manage their password securely: Passwords must not be compromised if a device is being accessed unauthorizedly (logically or physically). Things to consider are for example: Home directory on a notebook, keychain or password manager software, backups, USB sticks, smartphones. Strongly encrypted storage of passwords is permitted and even advised. For Flying Circus staff there is a separate *guideline for handling secret authentication information*.
+Users with a Flying Circus account are required to manage their password securely: Passwords must not become compromised if a device is being accessed unauthorizedly (logically or physically). Things to consider are for example: Home directory on a notebook, keychain or password manager software, backups, USB sticks, smartphones. Strongly encrypted storage of passwords is permitted and even advised. For Flying Circus staff there is a separate *guideline for handling secret authentication information*.
 
 All hardware machines have emergency root logins which may only be used by
 :ref:`Flying Circus administrators <administrators>` if regular user
-authentication is not working correctly. Such uses must be documented.
+authentication is not working correctly. Such uses are monitored and must be documented.
 
 All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users. Additionally systems logs are shipped to a central log server within the same site where the logs are analysed and monitored.
 
-SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [#log-unsuccessful-attempts]_.
+SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [#log-unsuccessful-attempts]_. Excessive unsuccessful SSH login attempts automatically cause a blocking via firewall rules.
 
 
 .. _access-control:
@@ -232,7 +232,7 @@ ring):
   users associated to that customer. Examples include customer VMs.
 
 All resources that belong logically together (e.g., VMs, storage
-volumes) are bundled into *projects*. projects share that same set
+volumes) are bundled into *resource groups*. Resource groups share that same set
 of user accounts and permissions.
 
 
@@ -274,7 +274,7 @@ Data paths where sensitive information may be transferred include:
 
 * Backups are transferred to backup servers at the same site using either an encrypted
   communication channel or the private storage network. Backup data may also be
-  transferred to off-site backup servers to improve disaster recovery abilities.
+  transferred to off-site backup servers to improve disaster recovery abilities. The transfer must be encrypted.
 
 * In addition to application data, a system can generate data at runtime that
   contains sensitive information, for example log files. Log files usually do
