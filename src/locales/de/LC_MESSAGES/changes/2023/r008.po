@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r008.md:5
+msgid "Release 2023_008 (2023-04-24)"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:9
+msgid ""
+"\\[NixOS 22.11\\] PostgreSQL, PHP-FPM, Gitlab and Synapse will be "
+"restarted.  Machines will schedule a reboot to activate the changed "
+"kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:12
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:14
+msgid ""
+"agent: improve error output, log and display Nix errors properly for the "
+"usual error cases that occur when building the system (PL-131426)."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:16
+msgid ""
+"agent: fix an issue which delayed custom config from the directory "
+"(managed by FC staff) being applied to machines (PL-131354)."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:18
+msgid "Jitsi: update all packages to latest stable release (PL-131329)."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:19
+msgid "statshost: fix Grafana deprecation warnings (PL-131424)."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:20
+msgid ""
+"slurm: improve {external+platform-current:ref}`documentation <nixos-"
+"slurm>`"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:21
+msgid ""
+"Add {external+platform-current:ref}`documentation on upgrades and changes"
+" <nixos-upgrade>` compared the previous platform version (PL-131352)."
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:23
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131436):"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:24
+msgid "consul: 1.14.0 -> 1.14.5"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:25
+msgid "gitlab: 15.10.1 -> 15.10.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:26
+msgid "imagemagick: 7.1.1-5 -> 7.1.1-6"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:27
+msgid "linux: 5.15.105 -> 5.15.107"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:28
+msgid "element-web: 1.11.28 -> 1.11.29"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:29
+msgid "matrix-synapse: 1.80.0 -> 1.81.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:30
+msgid "runc: 1.1.4 -> 1.1.5"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:31
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/249182/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:33
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r008.md:35
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_007/22.11...999866b018b2ead4b0e5393dac1c00bd8a39bde9),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/09ba0ca4298d5b850a74c7b00495c1d962f1d083...bed4ce58b2497f5af5dd8f98a43e349b2cbd57d9)"
+msgstr ""
+

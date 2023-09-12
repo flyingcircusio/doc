@@ -16,10 +16,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/infrastructure/storage.md:3
-msgid "Storage"
+msgid "Virtual Disks / Block Storage"
 msgstr ""
 
 #: ../../../src/infrastructure/storage.md:5
@@ -66,6 +66,194 @@ msgid ""
 "disk usage on basis of the reduced disk size."
 msgstr ""
 
+#: ../../../src/infrastructure/storage.md:32
+msgid "S3-compatible Object Storage"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:34
+msgid ""
+"Our Ceph cluster also provides an S3-compatible object storage. Contact "
+"our support to get you started with credentials."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:37
+msgid "Application Implementation Guidance"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:39
+msgid ""
+"Object storages are flexible and scalable without having to worry too "
+"much how they store the data. However, long term experience shows that a "
+"few rules should be respected when implementing object storage in your "
+"application to avoid problems later on and increase compatibility with "
+"third party applications."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:45
+msgid "Store the object locations in your application's database"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:47
+msgid ""
+"The best investment you can make when starting (or evolving) your usage "
+"of S3 storage in your application is to store the specific bucket and "
+"object key in your application's database together with the main object "
+"record. If you have a table like \"documents\" then store your IDs like "
+"this:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:59
+msgid ""
+"This allows you to later decide for a different organization scheme and "
+"change your application's code that generates those bucket names and "
+"object keys without having to immediately update your database or keep "
+"multiple generations of key generation code alive."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:61
+msgid ""
+"You can then write a (slow) migration script that checks all objects "
+"whether their bucket and id is still the one that your application would "
+"generate now and if it is not you can copy the object, update the "
+"database and delete the old object, to perform a no-downtime migration."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:63
+msgid ""
+"Organize your objects using prefixes (use /pictures/1234.jpg instead of "
+"picture1234.jpg)"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:65
+msgid ""
+"Theoretically you can grow bucket sizes almost infinitely and just throw "
+"objects into it without any structure. However, S3 supports something "
+"resembling a file hierarchy within a bucket by putting forward slashes "
+"(\"/\") into the key names. This helps utilities that need to list keys "
+"because the API allows to efficiently retrieve those listings by "
+"providing a search prefix. The \"/\" is a common delimiter that many "
+"tools (like rclone) can automatically recognize and use."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:73
+msgid ""
+"See details about using prefixes in S3 in the original documentation "
+"(https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-"
+"prefixes.html). Be aware that key lengths must be shorter than 1024 "
+"bytes!"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:77
+msgid ""
+"Within a bucket your could use a \"per client\" and/or \"per type\" "
+"hierarchy, e.g. \"<customer>/<type>/<objectid>\" that would result in "
+"\"acme/pictures/1234.jpg\"."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:79
+msgid ""
+"An alternative sharding criterion if your data does not have a native "
+"hierarchy is to extract a prefix from within the name. If your data has "
+"some randomness early in the filename then you could create an additional"
+" sharding layer. Consider this list of files:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:100
+msgid "Which could be organized with the first 5 characters as a sharding layer:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:121
+msgid ""
+"If your data does not have sufficient randomness in this way you can "
+"generate a sharding layer by hashing your filenames and using the first "
+"few characters:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:132
+msgid ""
+"This would result in the following sharding structure that distributes "
+"quite evenly on the first layer:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:163
+msgid ""
+"Be aware of the global bucket namespace (suffix your buckets with short "
+"uuids – \"app-2022-d7b54fd\")"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:165
+msgid ""
+"S3 considers the bucket namespace to be global \"within a partition\". "
+"This means that you must not rely in specific bucket names to be "
+"available to your application. See Amazon's \"Buckets overview\" for more"
+" information."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:169
+msgid ""
+"Our recommendation is to use a combination of your applications name, the"
+" sharding criteria and a short random uuid (7 hexdigits) and be prepared "
+"to regenerate the random uuid if it already exists but was created by "
+"another account. Examples of good bucket names:"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:179
+msgid ""
+"Due to the inclusion of a random uuid you will also need to store the "
+"specific bucket names that you have created in your application's "
+"database for certain purposes, like (\"this year's bucket for customer X "
+"is named \"myapp-X-2022-54fdb32\")."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:184
+msgid ""
+"Limit total bucket size (organize buckets with \"app-2022\" or \"app-"
+"customer1\")"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:186
+msgid ""
+"Another layer to make things more manageable is to create new buckets to "
+"restrict a single bucket's total size (number of objects and data size). "
+"In general you should not have a lot of buckets. It's fine to have large "
+"buckets as long as you organize them as shown above. However, two reasons"
+" exist to split your data into multiple buckets: failure domain and "
+"customer data separation requirements."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:193
+msgid ""
+"Buckets are a failure domain in the sense that they maintain an internal "
+"index. If this index becomes corrupt (which happens very rarely but has "
+"happened due to bugs in the past) you need to rebuild the bucket based on"
+" your applications data and copy the data to a new bucket. This can "
+"become extremely expensive and slow (think: days or weeks) and may block "
+"other operations that rely on the index (like backups) while rebuilding."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:200
+msgid ""
+"Also, if your customer requires a high level of data separation then it "
+"might be reasonable to create a bucket per customer."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:203
+msgid ""
+"In general our recommendation is: if you don't have a per-customer "
+"separation requirement, then default to splitting your buckets on a time "
+"basis, if you don't know better, then create a new bucket every year."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:207
+msgid ""
+"Amazon hints that their default limit for number of buckets per customer "
+"is 100, so creating a bucket structure that ends up with only few objects"
+" per buckets is not generally recommended. Using multiple criteria to "
+"separate buckets will almost always end up with too many buckets, so most"
+" applications will be fine by sharding the buckets yearly and end up with"
+" something like this:"
+msgstr ""
+
 #~ msgid ""
 #~ "VM storage is provided by a Ceph"
 #~ " cluster. Each block device visible "
@@ -89,5 +277,8 @@ msgstr ""
 #~ "installed.  Nonetheless, we will monitor "
 #~ "disk usage on basis of the reduced"
 #~ " disk size."
+#~ msgstr ""
+
+#~ msgid "Storage"
 #~ msgstr ""
 

@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r012.md:5
+msgid "Release 2023_012 (2023-06-05)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:9
+msgid ""
+"\\[NixOS 22.11\\] Most services will be restarted because of a core "
+"dependency change. Machines will schedule a reboot to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:11
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:13
+msgid ""
+"The new platform version is now available for **non-production** use. We "
+"will roll out the upgrade to most customer **staging** systems on "
+"Thursday, 2023-06-01. See [Platform Upgrades & What's "
+"New](https://doc.flyingcircus.io/roles/fc-23.05-dev/upgrade.html) for "
+"things to consider before upgrading, significant changes and new package "
+"versions (PL-131334)."
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:19
+msgid ""
+"docker: restrict access to forwarded container ports so that they are "
+"only accessible to hosts within the same resource group, and not "
+"accessible over the public internet (PL-131042)."
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:22
+msgid "mailserver: fix permission setup for postfix queue monitoring (PL-129873)."
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:24
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:26
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131517):"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:27
+msgid "cacert: 3.86 -> 3.89.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:28
+msgid ""
+"curl: backport 8.1.0 security fixes (CVE-2023-28320, CVE-2023-28321, "
+"CVE-2023-28322)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:29
+msgid "git: 2.38.4 -> 2.38.5 (CVE-2023-25652, CVE-2023-25815, CVE-2023-29007)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:30
+msgid "gitlab: 15.11.5 -> 15.11.6"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:31
+msgid "imagemagick: 7.1.1-8 -> 7.1.1-10"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:32
+msgid "keycloak: 20.0.5 -> 21.1.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:33
+msgid "libcap: backport 2.69 security fixes (CVE-2023-2602, CVE-2023-2603)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:34
+msgid "libmodsecurity: 3.0.8 -> 3.0.9"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:35
+msgid "linux: 5.15.110 -> 5.15.113"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:36
+msgid "matrix-synapse: 1.82.0 -> 1.84.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:37
+msgid "php81: 8.1.18 -> 8.1.19"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:38
+msgid ""
+"postgresql_11: 11.19 -> 11.20 (for all postgresql packages: "
+"CVE-2023-2454, CVE-2023-2455)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:39
+msgid "postgresql_12: 12.14 -> 12.15"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:40
+msgid "postgresql_13: 13.10 -> 13.11"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:41
+msgid "postgresql_14: 14.7 -> 14.8"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:42
+msgid "postgresql_15: 15.2 -> 15.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:43
+msgid "systemd: 251.15 -> 251.16"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:44
+msgid "wget: 1.21.3 -> 1.21.4"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:45
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/263886/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:48
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:50
+msgid "internal changes only"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:51
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/263769/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:53
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:55
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_011/22.11...e09f914989c02a675bccff6d2c49642b42ca2d18),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/960dab25f0225cf9fd8f48922087d805ae649782...2ecc5d3cb589bf2968cfc0fef4b5cb3a0c23949c)"
+msgstr ""
+
+#: ../../../src/changes/2023/r012.md:57
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_007/21.05...8d13dd4790c9f4c4fbaa46d2f857f2a0a4f8da86)"
+msgstr ""
+

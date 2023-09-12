@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r019.md:5
+msgid "Release 2023_019 (2023-08-07)"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:7
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:9 ../../../src/changes/2023/r019.md:15
+msgid ""
+"Enable and configure `fail2ban` to reduce the impact of brute force "
+"attacks against SSH (PL-131632)."
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:11
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/285894/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:13
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:17
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/285995/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:19
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:21
+msgid "internal changes only"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:22
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/286024/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:24
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:26
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_018/22.11...b3cc4d3d2a7c90969fc58aeb7f121fea40a07e49)"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:27
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_007/22.05...945ae2e29a1850b2f0fa45ae3c6fa22c05b079bf)"
+msgstr ""
+
+#: ../../../src/changes/2023/r019.md:28
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_017/21.05...6b6781264ac8cca51e258dd052409efe70015cce)"
+msgstr ""
+

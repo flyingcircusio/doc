@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r020.md:5
+msgid "Release 2023_020 (2023-08-15)"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:9
+msgid ""
+"\\[NixOS 23.05\\] This is the first update using the new maintenance code"
+"  introduced with the last release. Machines will reboot to activate the"
+"  changed kernel shortly after the update maintenance activity has "
+"finished,  without announcing the reboot separately. In the future, we "
+"will only  explicitly mention service restarts here when there's no "
+"reboot planned.  See our new [automated "
+"maintenance](https://doc.flyingcircus.io/roles/fc-23.05-staging/maintenance.html)"
+"  documentation for more details about how this works."
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:17
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:19
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131682):"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:20
+msgid "curl: apply patch for CVE-2023-32001"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:21
+msgid ""
+"docker-compose: cherry-pick patches to fix starting containers using a "
+"local socket"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:22
+msgid "github-runner: 2.306.0 -> 2.307.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:23
+msgid "gitlab: 16.1.2 -> 16.1.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:24
+msgid "grafana: 9.5.6 -> 9.5.7"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:25
+msgid "imagemagick: 7.1.1-14 -> 7.1.1-15"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:26
+msgid "linux: 6.1.41 -> 6.1.43"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:27
+msgid "mastodon: 4.1.4 -> 4.1.6"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:28
+msgid "matrix-synapse: 1.88.0 -> 1.89.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:29
+msgid "nss_latest: 3.91 -> 3.92"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:30
+msgid "openssl_3: apply patch for CVE-2023-2975"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:31
+msgid "systemd: 253.5 -> 253.6"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:32
+msgid ""
+"gitlab-runner: go back to previous runner version 16.1.0 which fixes the "
+"docker executor (PL-131694)."
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:34
+msgid ""
+"kubernetes/k3s: fix creation of auth token for monitoring purposes "
+"(PL-131681)."
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:35
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/288489/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:37
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:39
+msgid ""
+"Update CPU microcode for virtualization hosts to fix CVE-2023-20593 "
+"\"Zenbleed\". This was a part of the last release and is already rolled "
+"out (PL-131656)."
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:43
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r020.md:45
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_018/23.05...b22e6c8205fab8f1410858e4a7badca30b5fa7f7),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/63d398ecfdda47cbf3077639e370ccfb653c7841...02f9ebcccbc5ca92bd5101108b24ad27a2adc21e)"
+msgstr ""
+

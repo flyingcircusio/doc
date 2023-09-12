@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r005.md:5
+msgid "Release 2023_005 (2023-03-15)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:9
+msgid ""
+"\\[NixOS 22.11\\] Gitlab will restart. Most services will restart because"
+" of  a core dependency change. Machines will schedule a reboot to "
+"activate the  changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:13
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:15
+msgid ""
+"This is the first production release of the 22.11 platform. The default "
+"for new production VMs is still 22.05 which will be changed in the next "
+"weeks."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:18
+msgid ""
+"We rolled out the upgrade to most of the customer **staging** systems on "
+"Tuesday, 2023-03-07."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:20
+msgid ""
+"Some production systems are already using 22.11, for example Gitlab "
+"instances. They will be updated with this release."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:23
+msgid "Significant breaking changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:25
+msgid ""
+"nginx: now uses the *nginx* user to run the master process. This may "
+"cause problems when certificates are read from arbitrary directories, for"
+" example deployments. Normally, the built-in support for Letsencrypt "
+"should be used instead to avoid permission problems and make sure that "
+"certificates are rotated automatically. If using external certificates "
+"cannot be avoided, make sure that permissions allow read access for the "
+"*nginx* user, for example by applying `setfacl -Rm u:nginx:rX` to the "
+"certificate directory. It's also possible to keep the old behavior by "
+"adding `services.nginx.masterUser = \"root\";` as {external+platform-"
+"current:ref}`nixos-custom-modules`."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:35
+msgid ""
+"Deprecated settings `logrotate.paths` and `logrotate.extraConfig` have "
+"been removed. Please convert any uses to `services.logrotate.settings` "
+"instead before upgrading."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:38
+msgid ""
+"`kibana` roles have been removed. Machines that use kibana should stay on"
+" 22.05 for now and move to OpenSearch/OpenSearch Dashboards later."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:40
+msgid ""
+"`graylog`/`loghost` roles have been removed. Machines that use these "
+"roles should stay on 22.05. We are working on a new logging stack on "
+"22.11+ which is planned to be based on [Grafana "
+"Loki](https://grafana.com/oss/loki/)."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:44
+msgid "Other notable changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:46
+msgid ""
+"PHP is now built in NTS (Non-Thread Safe) mode by default. For Apache and"
+" mod_php usage, we enable ZTS (Zend Thread Safe) mode. This has been a "
+"common practice for a long time in other distributions."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:49
+msgid "The `postgresql15` role is now available."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:50
+msgid ""
+"openssh was updated to version 9.1, disabling the generation of DSA keys "
+"when using `ssh-keygen -A` as they are insecure. Also, `SetEnv` "
+"directives in `ssh_config` and `sshd_config` are now first-match-wins."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:53
+msgid "Python now defaults to 3.10, updated from 3.9. Python 3.11 is now stable."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:54
+msgid "PHP now defaults to PHP 8.1, updated from 8.0."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:55
+msgid "OpenSSL now defaults to OpenSSL 3, updated from 1.1.1."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:56
+msgid ""
+"The `nodePackages` package set now defaults to the LTS release in the "
+"`nodejs` package again, instead of being pinned to `nodejs-14_x`. "
+"`nodejs-10_x` has been removed."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:59
+msgid ""
+"The option `services.grafana.extraOptions` has been removed. For a "
+"detailed migration guide, please  review the release notes of NixOS "
+"22.11."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:61
+msgid ""
+"See the [release notes of NixOS "
+"22.11](https://nixos.org/manual/nixos/stable/release-notes.html#sec-"
+"release-22.11-notable-changes) for more details."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:64
+msgid "Significant package updates"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:66
+msgid "docker-compose: 1.29 -> 2.12"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:67
+msgid "git: 2.36 -> 2.38"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:68
+msgid "gitlab: 15.4.6 -> 15.8.4"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:69
+msgid "glibc: 2.34 -> 2.35"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:70
+msgid "haproxy: 2.5 -> 2.6"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:71
+msgid "k3s: 1.23 -> 1.25"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:72
+msgid "keycloak: 18 -> 20"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:73
+msgid "nix: 2.8 -> 2.11"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:74
+msgid "openssh: 9.0 -> 9.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:75
+msgid "postfix: 3.6.6 -> 3.7.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:76
+msgid "powerdns: 4.6 -> 4.7"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:77
+msgid "rabbitmq: 3.9 -> 3.10"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:78
+msgid "roundcube: 1.5 -> 1.6"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:79
+msgid "systemd: 250 -> 251"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:80
+msgid "telegraf: 1.22 -> 1.24"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:81
+msgid "varnish: 7.1 -> 7.2"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:82
+msgid "zlib: 1.2.12 -> 1.2.13"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:83
+msgid "zsh: 5.8 -> 5.9"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:86
+msgid "Changes compared to the pre-production version of 22.11"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:88
+msgid ""
+"These are the changes which will be applied to VMs already running "
+"fc-22.11-production."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:90
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(#PL-131338):"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:91
+msgid "containerd: 1.6.10 -> 1.6.18"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:92
+msgid "curl: fix CVE-2023-23914, CVE-2023-23915, CVE-2023-23916,"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:93
+msgid "git: 2.38.3 -> 2.38.4 (CVE-2023-22490, CVE-2023-23946)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:94
+msgid "grafana: 9.3.6 -> 9.4.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:95
+msgid "haproxy: 2.6.6 -> 2.6.9 (CVE-2023-25725)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:96
+msgid "linux: 5.15.94 -> 5.15.97"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:97
+msgid "matrix-synapse: 1.77.0 -> 1.78.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:98
+msgid "nodejs-14_x: 14.21.1 -> 14.21.3 (CVE-2023-23918, CVE-2023-23920)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:99
+msgid ""
+"nodejs-16_x: 16.18.1 -> 16.19.1 (CVE-2023-23918, CVE-2023-23919, "
+"CVE-2023-23920)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:100
+msgid ""
+"nodejs-18_x: 18.12.1 -> 18.14.1 (CVE-2023-23918, CVE-2023-23919, "
+"CVE-2023-23920, CVE-2023-23936, CVE-2023-24807)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:101
+msgid ""
+"nodejs-19_x: 19.1.0 -> 19.6.1 (CVE-2023-23918, CVE-2023-23919, "
+"CVE-2023-23920)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:102
+msgid "postgresql_11: 11.18 -> 11.19"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:103
+msgid "postgresql_12: 12.13 -> 12.14 (CVE-2022-41862)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:104
+msgid "postgresql_13: 13.9 -> 13.10 (CVE-2022-41862)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:105
+msgid "postgresql_14: 14.6 -> 14.7 (CVE-2022-41862)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:106
+msgid "postgresql_15: 15.1 -> 15.2 (CVE-2022-41862)"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:107
+msgid "strace: 6.1 -> 6.2"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:108
+msgid "strongswan: fix CVE-2023-26463"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:109
+msgid "systemd: 251.11 -> 251.12"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:110
+msgid "xorg.libX11: 1.8.1 -> 1.8.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:111
+msgid ""
+"statshost-master: also use nginx as user, like the webgateway role does "
+"on 22.11 (#PL-131347)."
+msgstr ""
+
+#: ../../../src/changes/2023/r005.md:112
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/237037/download/1/nixexprs.tar.xz"
+msgstr ""
+

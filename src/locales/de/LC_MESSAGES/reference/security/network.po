@@ -9,140 +9,222 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
-#: ../../src/reference/security/network.rst:4
+#: ../../../src/reference/security/network.md:9
 msgid "Network security"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:6
+#: ../../../src/reference/security/network.md:11
 msgid ""
 "Network security is handled on different levels depending on the class of"
 " traffic. The different classes are separated by VLANs and protected from"
-" Internet traffic by a firewall on the gateway in a Flying Circus "
+" Internet traffic by a firewall on the gateways in a Flying Circus "
 "location."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:11
+#: ../../../src/reference/security/network.md:15
 msgid "VLAN classes and gateway firewall"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:14
+#: ../../../src/reference/security/network.md:17
 msgid "Frontend network (fe)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:16
+#: ../../../src/reference/security/network.md:19
 msgid ""
 "Nodes providing services intended for the general public (users of "
 "applications hosted within the Flying Circus) have one or more IPv4/IPv6 "
 "addresses in this network."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:20
+#: ../../../src/reference/security/network.md:23
 msgid ""
-"Traffic to addresses in this network is freely allowed by the gateway "
-"firewall."
+"Traffic to addresses in this network is forwarded by the gateway firewall"
+" without limitations."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:23
+#: ../../../src/reference/security/network.md:26
 msgid ""
-"Customers should only bind services to this IP address that are intended "
-"to be accessed from the internet. Backend services should be bound to the"
-" server network."
+"Customers should only bind services to those IP addresses that are "
+"intended to be accessed from the internet. Backend services should be "
+"bound to the server network."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:28
+#: ../../../src/reference/security/network.md:30
 msgid "Server network (srv)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:30
+#: ../../../src/reference/security/network.md:32
 msgid ""
 "All nodes have an address in the server network. This is used by "
 "applications for internal communication, e.g. application servers "
 "communicating with their database."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:34
+#: ../../../src/reference/security/network.md:36
 msgid ""
-"Server networks use a mixture of public and private IP addresses. "
-"Outbound traffic is generally possible and will be masqueraded on the "
-"gateway firewall if necessary."
+"Machines on the server network generally use private IPv4 addresses and "
+"public IPv6 addresses. Older machines may use public IPv4 addresses for "
+"historic reasons.  Outbound traffic is generally allowed and will be "
+"masqueraded on the gateway firewall if necessary. If a machine needs "
+"unmasqueraded access to the internet ensure to provision an IP address on"
+" the frontend network."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:38
+#: ../../../src/reference/security/network.md:42
 msgid ""
 "Inbound traffic will be blocked on the gateway firewall with the "
 "following exceptions:"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:41
+#: ../../../src/reference/security/network.md:45
 msgid "22/tcp (ssh)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:42
+#: ../../../src/reference/security/network.md:46
 msgid "80/tcp (http)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:43
+#: ../../../src/reference/security/network.md:47
 msgid "443/tcp (https)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:44
+#: ../../../src/reference/security/network.md:48
 msgid "5666/tcp (nrpe)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:45
+#: ../../../src/reference/security/network.md:49
 msgid "8140/tcp (puppet)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:47
+#: ../../../src/reference/security/network.md:51
 msgid ""
-"Ports 80 and 443 are for backend web services like access statistics and "
-"are expected to be turned off in the future."
+"All those ports - except SSH - are required only for historic reasons. "
+"They are not used by newer VMs and will be blocked at some point in the "
+"future."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:51
-msgid "Storage network (sto)"
+#: ../../../src/reference/security/network.md:54
+msgid "Storage network (sto and stb)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:53
+#: ../../../src/reference/security/network.md:56
 msgid ""
-"This network is used for SAN traffic (mainly for storage servers to "
-"provide the iSCSI volumes to KVM hosts or the backup service). It is only"
-" accessible to ring 0 machines owned by the Flying Circus but not "
-"customer-owned equipment or virtual machines."
+"This network is used for storage traffic (Ceph RBD for KVM hosts and "
+"backup servers as well as S3-compatible storage via the Rados Gateway). "
+"It is only accessible to ring 0 machines owned by the Flying Circus but "
+"not customer-owned equipment or virtual machines. Customer-owned "
+"environments implement separate storage networks."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:58
+#: ../../../src/reference/security/network.md:62
 msgid ""
 "This network uses private IPv4 addresses that are not routed from the "
 "internet. Traffic from outside this network is not allowed."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:62
+#: ../../../src/reference/security/network.md:65
 msgid "Management network (mgm)"
 msgstr ""
 
-#: ../../src/reference/security/network.rst:64
+#: ../../../src/reference/security/network.md:67
 msgid ""
 "This network is used for management purposes only: access to base "
-"management controllers (IPMI), switch consoles etc."
+"management controllers (IPMI), switch consoles, machine OSes etc."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:67
+#: ../../../src/reference/security/network.md:70
 msgid ""
 "It uses private IPv4 addresses that are not routed from the internet. "
 "Traffic from outside this network is not allowed."
 msgstr ""
 
-#: ../../src/reference/security/network.rst:72
+#: ../../../src/reference/security/network.md:73
 msgid "Machine firewall"
 msgstr ""
+
+#: ../../../src/reference/security/network.md:75
+msgid ""
+"Every machine is running an additional local firewall using "
+"iptables/nftables and will by default"
+msgstr ""
+
+#: ../../../src/reference/security/network.md:78
+msgid ""
+"block all traffic to the frontend IPs, except when explicitly opened by a"
+" configured service, and"
+msgstr ""
+
+#: ../../../src/reference/security/network.md:80
+msgid ""
+"block all traffic to the server-to-server IPs, except for VMs from the "
+"same resource group."
+msgstr ""
+
+#~ msgid ""
+#~ "Network security is handled on different"
+#~ " levels depending on the class of "
+#~ "traffic. The different classes are "
+#~ "separated by VLANs and protected from"
+#~ " Internet traffic by a firewall on"
+#~ " the gateway in a Flying Circus "
+#~ "location."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Traffic to addresses in this network "
+#~ "is freely allowed by the gateway "
+#~ "firewall."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Customers should only bind services to"
+#~ " this IP address that are intended"
+#~ " to be accessed from the internet."
+#~ " Backend services should be bound to"
+#~ " the server network."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Server networks use a mixture of "
+#~ "public and private IP addresses. "
+#~ "Outbound traffic is generally possible "
+#~ "and will be masqueraded on the "
+#~ "gateway firewall if necessary."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ports 80 and 443 are for backend"
+#~ " web services like access statistics "
+#~ "and are expected to be turned off"
+#~ " in the future."
+#~ msgstr ""
+
+#~ msgid "Storage network (sto)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This network is used for SAN "
+#~ "traffic (mainly for storage servers to"
+#~ " provide the iSCSI volumes to KVM "
+#~ "hosts or the backup service). It "
+#~ "is only accessible to ring 0 "
+#~ "machines owned by the Flying Circus "
+#~ "but not customer-owned equipment or "
+#~ "virtual machines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This network is used for management "
+#~ "purposes only: access to base management"
+#~ " controllers (IPMI), switch consoles etc."
+#~ msgstr ""
 

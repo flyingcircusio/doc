@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r014.md:5
+msgid "Release 2023_014 (2023-06-19)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:9
+msgid ""
+"[NixOS 23.05] most services will be restarted due to a core dependency "
+"change"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:10
+msgid ""
+"[NixOS 22.11] MySQL, PostgreSQL, RabbitMQ, and php-fpm will be restarted."
+" Machines will schedule a reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:12
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:14 ../../../src/changes/2023/r014.md:37
+msgid "Pull upstream NixOS changes, security fixes and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:15
+msgid "element-{web,desktop}: 1.11.32 -> 1.11.33"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:16
+msgid "python38: 3.8.16 -> 3.8.17 (CVE-2023-24329)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:17
+msgid "python39: 3.9.16 -> 3.9.17 (CVE-2023-24329)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:18
+msgid "python312: 3.12.0b1 -> 3.12.0b2"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:19
+msgid "php82: 8.2.6 -> 8.2.7"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:20
+msgid "php81: 8.1.19 -> 8.1.20"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:21
+msgid "php80: 8.0.28 -> 8.0.29"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:22
+msgid "systemd: 253.3 -> 253.5"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:23
+msgid "opencv: add patches for CVE-2023-2617 & CVE-2023-2618"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:24
+msgid ""
+"openssl: 3.0.8 -> 3.0.9 (CVE-2023-2650, CVE-2023-1255, CVE-2023-0466, "
+"CVE-2023-0465          CVE-2023-0464)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:26
+msgid "ffmpeg_4: 4.4.3 -> 4.4.4"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:27
+msgid ""
+"curl: 8.0.1 -> 8.1.1 (CVE-2023-28319, CVE-2023-28320, CVE-2023-28321,"
+"          CVE-2023-28322)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:29
+msgid "binutils: fix CVE-2023-1972"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:30
+msgid "grafana: 9.5.2 -> 9.5.3 (CVE-2023-2801, CVE-2023-2183)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:31
+msgid ""
+"Production channel URL for this release:  "
+"https://hydra.flyingcircus.io/build/269200/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:33
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:35
+msgid "Update nixpkgs"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:38
+msgid "grafana: 9.4.9 -> 9.4.12 (CVE-2023-2183, CVE-2023-2801)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:39
+msgid "matrix-synapse: 1.84.1 -> 1.85.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:40
+msgid ""
+"chromium: 113.0.5672.126 -> 114.0.5735.106 (CVE-2023-3079, CVE-2023-2929 "
+"CVE-2023-2930 CVE-2023-2931 CVE-2023-2932 CVE-2023-2933   CVE-2023-2934 "
+"CVE-2023-2935 CVE-2023-2936 CVE-2023-2937 CVE-2023-2938   CVE-2023-2939 "
+"CVE-2023-2940 CVE-2023-2941)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:43
+msgid "imagemagick: 7.1.1-10 -> 7.1.1-11"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:44
+msgid "linux: 5.15.113 -> 5.15.114"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:45
+msgid ""
+"openssl_1_1: 1.1.1t -> 1.1.1u (CVE-2023-2650, CVE-2023-0466, "
+"CVE-2023-0465, CVE-2023-0464)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:47
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/269306/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:49
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:51
+msgid "internal changes only"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:52
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/269430/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:54
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:56
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_013/22.11...449165cd3ad153895e5f3f2d59561fbf6148c6bf),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/ad5484e847e0e52abd904f4fe401ad39018dac14...fd2c629c33c2212c4444edd8fe59d9d83276af26)"
+msgstr ""
+
+#: ../../../src/changes/2023/r014.md:58
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_013/23.05...ec8b95f6460681c2d8f1797294d445a1e0f4276b),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/77c38c7fcc30beb3e99159c3ed3b5a8944dd20a0...b73bbe5b2e29337b49d6bb6e65a8f275bcce6cc1)"
+msgstr ""
+

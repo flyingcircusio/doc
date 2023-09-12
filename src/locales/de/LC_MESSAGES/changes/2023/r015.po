@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r015.md:5
+msgid "Release 2023_015 (2023-06-26)"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:9
+msgid "[NixOS 23.05] dnsmasq.service will be restarted"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:10
+msgid "[NixOS 22.11] no service restarts"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:12
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:14
+msgid ""
+"simplify upgrade path from 22.11 for users requiring the "
+"`nginxLegacyCrypt` package"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:15
+msgid ""
+"that package is already available as an alias on 22.11 now, enabling "
+"unattended upgrades"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:16
+msgid "internal cleanup of deprecation warnings"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:17
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/271430/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:19
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:21
+msgid "a package alias for `nginxLegacyCrypt`, see 23.05 details"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:22
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/271500/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:24
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:26
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_014/22.11...d32998962045d97d8d3776a6fb96b4296ba42d37)"
+msgstr ""
+
+#: ../../../src/changes/2023/r015.md:27
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_014/23.05...34d10e44f3cae8588bc20cb117eda971365f0124)"
+msgstr ""
+

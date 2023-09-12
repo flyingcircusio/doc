@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r021.md:5
+msgid "Release 2023_021 (unreleased)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:9 ../../../src/changes/2023/r021.md:13
+#: ../../../src/changes/2023/r021.md:17 ../../../src/changes/2023/r021.md:21
+#: ../../../src/changes/2023/r021.md:25 ../../../src/changes/2023/r021.md:29
+#: ../../../src/changes/2023/r021.md:33 ../../../src/changes/2023/r021.md:37
+#: ../../../src/changes/2023/r021.md:41 ../../../src/changes/2023/r021.md:45
+msgid "nothing yet"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:11
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:15
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:19
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:23
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:27
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:31
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:35
+msgid "NixOS 15.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:39
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:43
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:47
+msgid "Detailed Changes"
+msgstr ""
+
