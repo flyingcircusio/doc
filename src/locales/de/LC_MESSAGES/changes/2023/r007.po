@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r007.md:5
+msgid "Release 2023_007 (2023-04-11)"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:9
+msgid ""
+"\\[NixOS 22.11\\] Most services will be restarted due to a core "
+"dependency change. Machines will schedule a reboot to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:10
+msgid ""
+"\\[NixOS 21.05\\] Machines will schedule a reboot to activate the changed"
+" kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:13
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:15 ../../../src/changes/2023/r007.md:35
+msgid ""
+"{command}`fc-manage check` now displays NixOS (deprecation) warnings, "
+"read from {file}`/etc/fcio_nixos_warnings`. The output of this command is"
+" also shown via the `fc-agent` Sensu check. These warnings should be "
+"fixed before upgrading the platform (PL-131380)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:18
+msgid ""
+"devhost: increase timeout for NixOS containers from 1 min to 10 min to "
+"ensure successful startup for slow containers and during boot "
+"(PL-131407)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:19
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131399):"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:20
+msgid "apacheHttpd: 2.4.55 -> 2.4.56 (CVE-2023-27522, CVE-2023-25690)"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:21
+msgid ""
+"curl: fix CVE-2023-27533, CVE-2023-27534, CVE-2023-27535, CVE-2023-27536,"
+" CVE-2023-27537, CVE-2023-27538"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:22
+msgid "gitlab: 15.8.4 -> 15.10.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:23
+msgid "grafana: 9.4.3 -> 9.4.7"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:24
+msgid "imagemagick: 7.1.1-2 -> 7.1.1-5"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:25
+msgid "linux: 5.15.103 -> 5.15.105"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:26
+msgid "matrix-synapse: 1.79.0 -> 1.80.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:27
+msgid "php81: 8.1.16 -> 8.1.17"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:28
+msgid "redis: 7.0.9 -> 7.0.10 (CVE-2023-28425)"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:29
+msgid "systemd: 251.12 -> 251.13"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:30
+msgid ""
+"antivirus: prevent role activation for machines with less than 3GiB RAM "
+"(PL-130703)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:31
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/245482/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:33
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:38
+msgid ""
+"Verbose output of management commands like {command}`fc-manage -v switch`"
+" is now more readable. The flag can be used to see debug messages, build "
+"output and NixOS (deprecation) warnings (PL-131380)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:39
+msgid ""
+"postgresql: fix deprecation warning which was always triggered, even if "
+"no legacy config in {file}`/etc/local/postgresql/14` was present, for "
+"example (PL-131380)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:40
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/246532/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:42
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:44
+msgid "linux: 5.10.159 -> 5.10.175 (PL-131262)."
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:46
+msgid "(internal) includes a back-ported fix for our IPMI logging problems"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:47
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/245830/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:48
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:50
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_006/22.11...46e55d8707c0ddea7f0818a7cc1c2983b03ba109),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/37fc54a5f81db6bafcc4f6b1656c586661c0800c...09ba0ca4298d5b850a74c7b00495c1d962f1d083)"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:52
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_006/22.05...e664cbb525009f811152ae11479bd9a1a04f169b)"
+msgstr ""
+
+#: ../../../src/changes/2023/r007.md:53
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_006/21.05...1893cbd53e0588746b50e6874c27fc1b0a93dc9c)"
+msgstr ""
+

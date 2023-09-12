@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2022/r031.md:5
+msgid "Release 2022_031 (2022-12-19)"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:9
+msgid "\\[NixOS 22.05\\] MySQL/Percona and PHP-FPM services will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:11
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:13
+msgid ""
+"postgresql: warn about legacy plain config in "
+"{file}`/etc/local/postgresql/{version}/*`. This config style doesn't work"
+" properly anymore and must be replaced by custom NixOS config. See "
+"https://doc.flyingcircus.io/roles/fc-22.05-production/postgresql.html for"
+" details. Add a command {command}`fc-postgresql show-config` to show the "
+"{file}`postgresql.conf` for the running `postgresql` service "
+"(#PL-131136)."
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:18
+msgid ""
+"mysql/percona: set binlog duration to 3 days (72 hours) by default and "
+"make it configurable via `flyingcircus.mysql.binlogExpireDays`. The MySQL"
+" default of 30 days is way too long and consumes a lot of space on busy "
+"instances (#PL-131092)."
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:21
+msgid ""
+"statshost-relay: fix log rotation on machines that don't have the "
+"webgateway role (#PL-131140)."
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:23
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(#PL-131134):"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:25
+msgid ""
+"discourse: 2.9.0.beta10 -> 2.9.0.beta14 (CVE-2022-41921, CVE-2022-41944, "
+"CVE-2022-46150, CVE-2022-46159)"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:26
+msgid "gitlab: 15.4.4 -> 15.4.6"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:27
+msgid ""
+"imagemagick6: 6.9.12-26 -> 6.9.12-68 (CVE-2022-1114, CVE-2022-1115, "
+"CVE-2022-3213, CVE-2022-32545, CVE-2022-32546, CVE-2022-32547)"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:28
+msgid "imagemagick: 7.1.0-52 -> 7.1.0-53"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:29
+msgid "linux: 5.10.155 -> 5.10.158"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:30
+msgid "matrix-synapse: 1.72.0 -> 1.73.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:31
+msgid "python311: 3.11.0 -> 3.11.1 (CVE-2022-45061)"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:32
+msgid ""
+"python38: 3.8.15 -> 3.8.16 (CVE-2022-37454, CVE-2022-45061, "
+"CVE-2015-20107)"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:33
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/212976/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:35
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2022/r031.md:37
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_030/22.05...3ca6a0c279f62d454e14b158a2c5d683e956c919),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/973d2539f628b3b1a3e9d18b47f43b91d01f9aee...aa6548b0c705de7ae3cf225636563fd3a76e064b)"
+msgstr ""
+

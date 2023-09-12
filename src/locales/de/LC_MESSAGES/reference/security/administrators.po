@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/reference/security/administrators.md:3
 msgid "List of administrators"
@@ -27,22 +27,22 @@ msgid "The following people are administrators for the Flying Circus:"
 msgstr ""
 
 #: ../../../src/reference/security/administrators.md:7
-#: ../../../src/reference/security/administrators.md:19
+#: ../../../src/reference/security/administrators.md:20
 msgid "Christian Schmidt"
 msgstr ""
 
 #: ../../../src/reference/security/administrators.md:8
-#: ../../../src/reference/security/administrators.md:20
+#: ../../../src/reference/security/administrators.md:21
 msgid "Christian Theune"
 msgstr ""
 
 #: ../../../src/reference/security/administrators.md:9
-#: ../../../src/reference/security/administrators.md:21
+#: ../../../src/reference/security/administrators.md:22
 msgid "Christian Zagrodnick"
 msgstr ""
 
 #: ../../../src/reference/security/administrators.md:10
-#: ../../../src/reference/security/administrators.md:22
+#: ../../../src/reference/security/administrators.md:23
 msgid "Frank Lanitz"
 msgstr ""
 
@@ -55,15 +55,19 @@ msgid "Oliver Schmidt"
 msgstr ""
 
 #: ../../../src/reference/security/administrators.md:13
-#: ../../../src/reference/security/administrators.md:23
+#: ../../../src/reference/security/administrators.md:24
 msgid "Tobias Stenzel"
 msgstr ""
 
-#: ../../../src/reference/security/administrators.md:15
+#: ../../../src/reference/security/administrators.md:14
+msgid "Molly Miller"
+msgstr ""
+
+#: ../../../src/reference/security/administrators.md:16
 msgid "List of stand-by supporters"
 msgstr ""
 
-#: ../../../src/reference/security/administrators.md:17
+#: ../../../src/reference/security/administrators.md:18
 msgid "The following people perform standby support duties:"
 msgstr ""
 

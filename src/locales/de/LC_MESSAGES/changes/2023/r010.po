@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r010.md:5
+msgid "Release 2023_010 (2023-05-15)"
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:9
+msgid "\\[NixOS 22.11\\] Gitlab and Percona 8.0 will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:11
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:13
+msgid "Jitsi: update all packages to latest stable release (PL-131460)."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:14
+msgid ""
+"Percona: update to 8.0.32. **Note:** the MyRocks storage engine is not "
+"available with this version (PL-131425)."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:17
+msgid ""
+"Gitlab: fix a scenario, where gitlab is stopped and never started again "
+"after one of its dependencies had been upgraded (PL-131286)."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:19
+msgid "Gitlab: 15.11.2 -> 15.11.3 (PL-131490)."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:20
+msgid "fc-collect-garbage: ignore {file}`nixpkgs-*` folders in home directories."
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:21
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/256107/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:23
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r010.md:25
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_009/22.11...481d4647ea375085d5ffa43e26a6df1ecff4332c),"
+" [nixpkgs "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/63572e7d205027d8ae4bed36f1d5b166ae620d14...68d3f0e2ec7d290b8686be9df2455c5e25995324)"
+msgstr ""
+

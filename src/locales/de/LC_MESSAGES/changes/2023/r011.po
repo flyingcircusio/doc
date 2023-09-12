@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r011.md:5
+msgid "Release 2023_011 (2023-05-30)"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:9
+msgid ""
+"\\[NixOS 22.11\\] Gitlab will be restarted. Matomo will be unreachable "
+"for a  short time period. Machines will schedule a reboot to activate the"
+" changed  kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:14
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:16
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131494):"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:17
+msgid "linux: 5.15.109 -> 5.15.110"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:18
+msgid "nss_latest: 3.89 -> 3.89.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:19
+msgid "strace: 6.2 -> 6.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:20
+msgid "Gitlab: 15.11.3 -> 15.11.5 (PL-131506)."
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:21
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/259019/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:23
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r011.md:25
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_010/22.11...3632f5af4ec3ea750aa5d131d2fa785bdcc4e30f),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/63572e7d205027d8ae4bed36f1d5b166ae620d14...960dab25f0225cf9fd8f48922087d805ae649782)"
+msgstr ""
+

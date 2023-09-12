@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r003.md:5
+msgid "Release 2023_003 (2023-02-20)"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:7
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:9
+msgid "fc-agent: add monthly log rotation for main log file (PL-131173)."
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:10
+msgid ""
+"nginx: fix allow/deny rule checking for IPv6 + keep-alive and update "
+"nginxMainline to 1.23.3 (platform default is still stable 1.22). Our IP "
+"anonymization patch caused an issue where subsequent requests in a keep-"
+"alive connection were matched against the anonymized address instead of "
+"the real one (PL-131209)."
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:15
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/229234/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:17
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:19
+msgid ""
+"(internal) Add Ceph Nautilus package and structured config for Ceph roles"
+" and services (PL-131024)."
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:21
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/229320/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:23
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:25
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_002/22.05...e5c224235f9e8cff30b9e61f79bfe64fb4c54695)"
+msgstr ""
+
+#: ../../../src/changes/2023/r003.md:26
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_001/21.05...df6c5c5c32df3aff778f706208b3a65518037d6f)"
+msgstr ""
+

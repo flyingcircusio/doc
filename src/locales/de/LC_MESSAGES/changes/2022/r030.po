@@ -19,49 +19,168 @@ msgstr ""
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../../src/changes/2022/r030.md:5
-msgid "Release 2022_030 (unreleased)"
+msgid "Release 2022_030 (2022-12-05)"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../../src/changes/2022/r030.md:9 ../../../src/changes/2022/r030.md:13
-#: ../../../src/changes/2022/r030.md:17 ../../../src/changes/2022/r030.md:21
-#: ../../../src/changes/2022/r030.md:25 ../../../src/changes/2022/r030.md:29
-#: ../../../src/changes/2022/r030.md:33 ../../../src/changes/2022/r030.md:37
-msgid "nothing yet"
+#: ../../../src/changes/2022/r030.md:9
+msgid ""
+"\\[NixOS 22.05\\] Most services will be restarted because of a core "
+"dependency  change. Machines will schedule a reboot to activate the "
+"changed kernel."
 msgstr ""
 
-#: ../../../src/changes/2022/r030.md:11
+#: ../../../src/changes/2022/r030.md:12
 msgid "NixOS 22.05 platform"
 msgstr ""
 
+#: ../../../src/changes/2022/r030.md:14 ../../../src/changes/2022/r030.md:40
+msgid "Add administrator key for Oliver Schmidt."
+msgstr ""
+
 #: ../../../src/changes/2022/r030.md:15
-msgid "NixOS 21.11 platform"
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(#PL-131090):"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:17
+msgid ""
+"curl: add patches for CVE-2022-35252, CVE-2022-32221, CVE-2022-42915, "
+"CVE-2022-42916"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:18
+msgid "github-runner: 2.296.2 -> 2.299.1"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:19
-msgid "NixOS 21.05 platform"
+msgid "grafana: 8.5.14 -> 8.5.15"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:20
+msgid "imagemagick: 7.1.0-48 -> 7.1.0-52"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:21
+msgid ""
+"libtiff: add patches for CVE-2022-3626, CVE-2022-3627, CVE-2022-3597, "
+"CVE-2022-3598, CVE-2022-3570"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:22
+msgid "linux: 5.10.152 -> 5.10.155"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:23
-msgid "NixOS 20.09 platform"
+msgid "matrix-synapse: 1.70.1 -> 1.72.0"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:24
+msgid "nss: 3.79.1 -> 3.79.2"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:25
+msgid "php74: 7.4.32 -> 7.4.33 (CVE-2022-31630, CVE-2022-37454)"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:26
+msgid "python310: 3.10.4 -> 3.10.8 (CVE-2020-10735)"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:27
-msgid "NixOS 15.09 platform"
+msgid "python38: 3.8.13 -> 3.8.15 (CVE-2020-10735)"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:28
+msgid "python39: 3.9.13 -> 3.9.15 (CVE-2020-10735)"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:29
+msgid "redis: patch for CVE-2022-3647"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:30
+msgid "strace: 5.19 -> 6.0"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:31
-msgid "Gentoo platform"
+msgid "systemd: 250.4 -> 250.8"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:32
+msgid ""
+"tomcat9: 9.0.53 -> 9.0.68 (CVE-2021-42340, CVE-2021-43980, "
+"CVE-2022-23181, CVE-2022-29885, CVE-2022-34305, CVE-2022-42252)"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:33
+msgid ""
+"tomcat10: 10.0.11 -> 10.0.27 (CVE-2021-42340, CVE-2021-43980 "
+"CVE-2022-23181, CVE-2022-29885, CVE-2022-34305, CVE-2022-42252)"
 msgstr ""
 
 #: ../../../src/changes/2022/r030.md:35
-msgid "Documentation"
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/209823/download/1/nixexprs.tar.xz"
 msgstr ""
 
-#: ../../../src/changes/2022/r030.md:39
+#: ../../../src/changes/2022/r030.md:38
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:41
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/209950/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:43
+msgid "NixOS 20.09 platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:45 ../../../src/changes/2022/r030.md:50
+msgid "Add administrator key for Oliver Schmidt and Nils Möller."
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:46
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/209714/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:48
+msgid "Gentoo platform"
+msgstr ""
+
+#: ../../../src/changes/2022/r030.md:52
 msgid "Detailed Changes"
 msgstr ""
+
+#: ../../../src/changes/2022/r030.md:54
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_029/22.05...78604951a6a02f04e0d3d477b0dd410495e75e82),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/fdb6f647b03d2099e2ca943b69895bd5f1dceb00...973d2539f628b3b1a3e9d18b47f43b91d01f9aee)"
+msgstr ""
+
+#~ msgid "Release 2022_030 (unreleased)"
+#~ msgstr ""
+
+#~ msgid "nothing yet"
+#~ msgstr ""
+
+#~ msgid "NixOS 21.05 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 15.09 platform"
+#~ msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr ""
 

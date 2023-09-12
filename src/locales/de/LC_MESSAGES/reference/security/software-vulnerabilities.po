@@ -9,111 +9,159 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
-#: ../../src/reference/security/software-vulnerabilities.rst:2
+#: ../../../src/reference/security/software-vulnerabilities.md:7
 msgid "Software vulnerabilities"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:4
+#: ../../../src/reference/security/software-vulnerabilities.md:9
 msgid ""
-"Security issues with software installed on machines are monitored using a"
-" platform-specific process. Our processes (and specifically timelines) to"
-" mitigate vulnerabilities depend on the support status of the respective "
-"platform."
+"Security issues with system software installed on machines mainly rely on"
+" the NixOS security process for mitigations."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:7
+#: ../../../src/reference/security/software-vulnerabilities.md:12
 msgid ""
 "When mitigating a vulnerability we may choose different strategies "
 "depending on the situation:"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:10
+#: ../../../src/reference/security/software-vulnerabilities.md:15
 msgid ""
 "Ideally we will update the package to an unaffected version that stays "
 "API compatible."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:13
+#: ../../../src/reference/security/software-vulnerabilities.md:17
 msgid ""
 "We may update to a package with API incompatibility but will help our "
 "customers to fix breakage."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:16
+#: ../../../src/reference/security/software-vulnerabilities.md:19
 msgid ""
 "We may stay on the existing version and include a patch provided by the "
 "vendor, security researchers, other distributions or other sources we "
 "deem trustworthy after a review."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:20
+#: ../../../src/reference/security/software-vulnerabilities.md:22
 msgid ""
 "We may contain the effect of the vulnerability by disabling features, "
 "adjusting configuration, firewalling or other measures."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:23
+#: ../../../src/reference/security/software-vulnerabilities.md:24
 msgid ""
 "We may choose to ignore the security vulnerability if the impact or "
 "attack vectors are not relevant on our platform."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:26
+#: ../../../src/reference/security/software-vulnerabilities.md:26
 msgid "We might take other actions not listed here, depending on the situation."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:30
-msgid "NixOS 19.03"
+#: ../../../src/reference/security/software-vulnerabilities.md:28
+msgid "NixOS 22.11 (upcoming)"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:32
+#: ../../../src/reference/security/software-vulnerabilities.md:30
 msgid ""
-"We actively monitor our code base and the packages that are actually "
-"installed on customer systems (excluding user environments) for matches "
-"against public vulnerability databases (i.e. NIST CVE)."
+"This is the currently actively maintained NixOS release that receives "
+"timely security updates."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:36
+#: ../../../src/reference/security/software-vulnerabilities.md:33
 msgid ""
-"We perform a scan for new vulnerabilities once a week and create work "
-"tickets with different priorities based on multiple criteria of the "
-"vulnerability."
+"We update our platform with security updates every 2 weeks, but may "
+"update intermittently if high risk vulnerabilities become known."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:39
+#: ../../../src/reference/security/software-vulnerabilities.md:36
+msgid "NixOS 22.05 (current)"
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:38
 msgid ""
-"As we included some packages from the upstream NixOS unstable branch we "
-"regularly keep this branch updated and thus include security fixed "
-"provided by the NixOS community in a timely manner."
+"The NixOS community has stopped support for this distribution but we "
+"monitor security updates received on the 22.11 branch for potential "
+"backports in high risk situations."
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:45
-msgid "NixOS 15.09 (outdated)"
+#: ../../../src/reference/security/software-vulnerabilities.md:42
+msgid "NixOS 21.11 and older (outdated)"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:47
+#: ../../../src/reference/security/software-vulnerabilities.md:44
 msgid ""
 "No security updates are provided. Customers in need of guaranteed "
-"security updates are advised to update to NixOS 19.03."
+"security updates are advised to update to NixOS 22.05"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:51
+#: ../../../src/reference/security/software-vulnerabilities.md:47
 msgid "Gentoo (outdated)"
 msgstr ""
 
-#: ../../src/reference/security/software-vulnerabilities.rst:53
+#: ../../../src/reference/security/software-vulnerabilities.md:49
 msgid ""
 "We provide selective security updates by reviewing the published list of "
 "Gentoo Linux Security Advisories (GLSA) every 2 months and selecting "
 "critical security updates where necessary."
 msgstr ""
+
+#~ msgid ""
+#~ "Security issues with software installed "
+#~ "on machines are monitored using a "
+#~ "platform-specific process. Our processes "
+#~ "(and specifically timelines) to mitigate "
+#~ "vulnerabilities depend on the support "
+#~ "status of the respective platform."
+#~ msgstr ""
+
+#~ msgid "NixOS 19.03"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We actively monitor our code base "
+#~ "and the packages that are actually "
+#~ "installed on customer systems (excluding "
+#~ "user environments) for matches against "
+#~ "public vulnerability databases (i.e. NIST "
+#~ "CVE)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We perform a scan for new "
+#~ "vulnerabilities once a week and create"
+#~ " work tickets with different priorities "
+#~ "based on multiple criteria of the "
+#~ "vulnerability."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As we included some packages from "
+#~ "the upstream NixOS unstable branch we"
+#~ " regularly keep this branch updated "
+#~ "and thus include security fixed provided"
+#~ " by the NixOS community in a "
+#~ "timely manner."
+#~ msgstr ""
+
+#~ msgid "NixOS 15.09 (outdated)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No security updates are provided. "
+#~ "Customers in need of guaranteed security"
+#~ " updates are advised to update to "
+#~ "NixOS 19.03."
+#~ msgstr ""
 

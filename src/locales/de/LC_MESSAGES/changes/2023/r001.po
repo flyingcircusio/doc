@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r001.md:5
+msgid "Release 2023_001 (2023-01-17)"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:9
+msgid ""
+"\\[NixOS 22.05\\] Most services will be restarted because of a core "
+"dependency change. Machines will schedule a reboot to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:10
+msgid "\\[NixOS 22.05\\] matomo will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:11
+msgid ""
+"\\[NixOS 22.05\\] Jitsi will be restarted and conferences will be "
+"interrupted for a short period of time."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:14
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:16
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(#PL-131189):"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:17
+msgid "cacert: 3.83 -> 3.86"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:18
+msgid "cacert: Distrust TrustCor root certificates"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:19
+msgid "curl: backport 7.87.0 security fixes (CVE-2022-43551, CVE-2022-43552)"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:20
+msgid "imagemagick: 7.1.0-53 -> 7.1.0-56"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:21
+msgid "libtiff: add patch for CVE-2022-3970"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:22
+msgid "linux: 5.10.158 -> 5.10.161"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:23
+msgid "matrix-synapse: 1.73.0 -> 1.74.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:24
+msgid "nss_latest: 3.84 -> 3.86"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:25
+msgid ""
+"python310: 3.10.8 -> 3.10.9 (CVE-2022-37454, CVE-2022-45061, "
+"CVE-2022-42919)"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:26
+msgid "python310: revert asyncio changes done in 3.10.9"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:27
+msgid ""
+"python39: 3.9.15 -> 3.9.16 (CVE-2022-37454, CVE-2022-42919, "
+"CVE-2022-45061, CVE-2015-20107)"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:28
+msgid ""
+"python3Packages.pillow: add patch for CVE-2022-45198, test for "
+"CVE-2022-45199"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:29
+msgid "qemu: add patches for CVE-2022-4172 & CVE-2022-4144"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:30
+msgid "sqlite: add patch for CVE-2022-46908"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:31
+msgid "systemd: 250.8 -> 250.9"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:33
+msgid "matomo: update to 4.13.0 (#PL-131146)."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:34
+msgid "Jitsi: update all packages to latest stable release (#PL-131178)."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:35
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/216361/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:38
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:40
+msgid "Add administrator key for Oliver Schmidt."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:41
+msgid ""
+"Various internal changes affecting Ceph storage and KVM hosts. Fix issues"
+" with VM live migration which caused sporadic VM downtimes for up to 10 "
+"minutes (#PL-131066, #PL-130693, #PL-131149)."
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:44
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/216558/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:47
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:49
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_031/22.05...50cecd8f369d01e0ae4d7cab4e2bfdc7549f65fa),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/aa6548b0c705de7ae3cf225636563fd3a76e064b...e4de71784c346c987e715ed370f05866d68a6604)"
+msgstr ""
+
+#: ../../../src/changes/2023/r001.md:52
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_028/21.05...84aa15799e4d363bfc8c240b44ba3b4e7987dfd2)"
+msgstr ""
+

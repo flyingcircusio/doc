@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r006.md:5
+msgid "Release 2023_006 (2023-03-27)"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:9
+msgid ""
+"\\[NixOS 22.11\\] docker, elasticsearch, httpd/phpfpm-lamp, openvpn-"
+"access,  postgresql, rabbitmq and redis services will be restarted. "
+"Machines will  schedule a reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:12
+msgid "\\[NixOS 22.05\\] postgresql will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:13
+msgid "\\[NixOS 21.11\\] postgresql will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:14
+msgid ""
+"\\[NixOS 21.05\\] Most services will be restarted due to a core "
+"dependency change."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:16
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:18
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131136):"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:19
+msgid "github-runner: 2.302.1 -> 2.303.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:20
+msgid "imagemagick: 7.1.0-62 -> 7.1.1-2"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:21
+msgid "libX11: 1.8.3 -> 1.8.4"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:22
+msgid "linux: 5.15.97 -> 5.15.103"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:23
+msgid "matrix-synapse: 1.78.0 -> 1.79.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:24
+msgid "nss_latest: 3.88.1 -> 3.89"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:25
+msgid "redis: 7.0.8 -> 7.0.9 (CVE-2023-25155, CVE-2022-36021)"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:26
+msgid "sudo: 1.9.13 -> 1.9.13p3"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:27
+msgid ""
+"Add `slurm-*` roles. Slurm is a highly scalable cluster management and "
+"job scheduling system (PL-131067)."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:29 ../../../src/changes/2023/r006.md:46
+#: ../../../src/changes/2023/r006.md:60 ../../../src/changes/2023/r006.md:72
+msgid ""
+"postgresql: improve monitoring, auto-restart when `postgresql` service is"
+" inactive (PL-131358)."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:32 ../../../src/changes/2023/r006.md:49
+#: ../../../src/changes/2023/r006.md:63 ../../../src/changes/2023/r006.md:75
+msgid ""
+"The database user `fcio_monitoring` can only be accessed using the local "
+"UNIX socket by the system users for monitoring (`sensuclient` and "
+"`telegraf`). There's now a `postgresql-alive` UNIX socket database "
+"connection check and the existing `postgresql-listen-*` checks are "
+"changed to simple TCP connection checks."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:37 ../../../src/changes/2023/r006.md:54
+msgid ""
+"postgresql docs: when upgrading from a version before 12 with enabled "
+"PostGIS extension, dump/restore has to be used (PL-131271)."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:39
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/242270/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:41
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:43
+msgid ""
+"Pre-build `nodejs-*` packages so machines don't have to do it. We saw "
+"this taking a long time and even hitting the management task timeout "
+"(PL-131331)."
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:56
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/241578/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:58
+msgid "NixOS 21.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:68
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/241562/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:70
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:80
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/241702/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:82
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:84
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_005/22.11...44c96dbb1a24a7d5f915f99790ad00df05e6e913),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/631c55323a67a20854056fb7e289edb7a7950e49...37fc54a5f81db6bafcc4f6b1656c586661c0800c)"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:86
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_004/22.05...d507076886c55f3999d0f87dc794a54af58efbe6)"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:87
+msgid ""
+"NixOS 21.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2022_030/21.11...35832eed467afd2285ad0a99b80a6bf29e4070b7)"
+msgstr ""
+
+#: ../../../src/changes/2023/r006.md:88
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_004/21.05...778841c7a723f0cfb64d8492836ce2e26e828604)"
+msgstr ""
+

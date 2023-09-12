@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../../src/changes/2023/r002.md:5
+msgid "Release 2023_002 (2023-01-30)"
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:7
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:9
+msgid ""
+"Prevent *fc-collect-garbage* and system rebuilds by *fc-manage* from "
+"running at the same time which caused Nix store corruption breaking *fc-"
+"manage* in rare cases which had to be fixed by manual Nix store repairs."
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:13
+msgid ""
+"As a side effect of the changes, *service* and *sudo-srv* users can now "
+"run {command}`sudo fc-collect-garbage` to clean up unneeded paths from "
+"the Nix store with full speed, in contrast to the *fc-collection-"
+"garbage.service* which runs throttled and may take a long time. This is "
+"helpful for situations when disk space is critically low."
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:19
+msgid ""
+"The garbage collector now keeps build-only Nix dependencies until the "
+"dependent packages are collected which also helps to reduce the risk of "
+"Nix store corruption and also reduces IO stress."
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:23
+msgid ""
+"We have seen issues with files missing from the Nix store that are still "
+"expected to be there, breaking fc-manage until the corruption is fixed "
+"manually. We have also seen a Nix store path that got garbage-collected "
+"partially in one case. These are probably problems in Nix which have to "
+"be addressed upstream but our changes are expected to prevent that in the"
+" meantime (#PL-131232)."
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:30
+msgid ""
+"**fc-userscan**: fix directory path excludes and add *zsh* + *bash* shell"
+" history files, `.viminfo` and internal Nix directories to the exclude "
+"file. This avoids keeping around packages that are not used anymore. "
+"Please review the list of excluded directories in the improved {external"
+"+platform-current:ref}`nixos-gc-fc-userscan` documentation. (#PL-130486)."
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:36
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/225011/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:39
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r002.md:41
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_001/22.05...6db6af608332a334fdd039a7c0ece399f8820bbf)"
+msgstr ""
+
