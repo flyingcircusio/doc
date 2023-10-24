@@ -8,10 +8,11 @@ The following people are administrators for the Flying Circus:
 - Christian Theune
 - Christian Zagrodnick
 - Frank Lanitz
+- Molly Miller
 - Nils Möller
 - Oliver Schmidt
+- Philipp Herzog
 - Tobias Stenzel
-- Molly Miller
 
 ## List of stand-by supporters
 
