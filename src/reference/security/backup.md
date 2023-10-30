@@ -1,4 +1,4 @@
-% last review: 2022-05-05
+% last review: 2023-10-26
 
 % review schedule: 1 year
 
@@ -22,6 +22,8 @@ restored into Ceph.
 The application software used for backups is [Backy], an open-source
 backup solution.
 
+S3 data is *not* backed up automatically.
+
 ## Schedule
 
 Backups are run daily or hourly, depending on the chosen backup level.
@@ -44,8 +46,14 @@ The the *longterm* backup schedule retains the following backups:
 - Daily backups for the past 30 days.
 - Monthly backups for the last 12 months.
 
+The *hourly+longterm* backup schedule retains the following backups:
+
+- Hourly backups for the last 25 hours
+- Daily backups for the past 30 days.
+- Monthly backups for the past 12 months.
+
 If backups were missed then the retention period keeps at least that many
-copies before deleting them, i.e. there will always be 25 hourly backups  even
+copies before deleting them, i.e. there will always be 25 hourly backups even
 if a backup was missed for some reason.
 
 Backups are created at fixed intervals but the time during the interval is not
