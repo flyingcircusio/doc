@@ -7,6 +7,9 @@ We usually create a project-specific Matrix channel and invite all needed person
 
 If you want to use our Matrix setup, our pre-configured Element is available at [chat.flyingcircus.io](https://chat.flyingcircus.io).
 
+There's a number of alternatives to the web version of Element available. An overview can be found at [matrix.org/ecosystem/clients](https://matrix.org/ecosystem/clients/).
+Please make sure to use a client that's actively developed and supports end-to-end encryption (E2EE).
+
 If you want to use your own client, please find the needed information below:
 
 ```{eval-rst}
