@@ -1,4 +1,4 @@
-% last review: 2023-02-22
+% last review: 2024-02-02
 
 % review schedule: 1 year
 
@@ -48,7 +48,7 @@ machines that provide customers' applications to the public. This network is
 switched to the virtual machines and leverages completely public traffic. The
 DC firewalls do not filter this, however the default system firewall running
 locally on VMs blocks inbound connections. Customer applications are free to
-use any ports they like, however these ports must be listed in the firewall
+use any ports they like. These ports must be listed in the firewall
 configuration in order to receive inbound connections. All VMs receive a NIC on
 this VLAN but not necessarily IPv4 or IPv6 addresses if they do not provide
 public traffic. DNS example: *vm00.fe.rzob.fcio.net*.

@@ -1,4 +1,4 @@
-% last review: 2023-02-22
+% last review: 2024-02-02
 
 % review schedule: 1 year
 
@@ -19,8 +19,8 @@
 - The guest operating system is a 64-bit NixOS Linux managed by the Flying Circus.
 
   > - Packages are installed through the managed components globally or in your
-  >   service user using the `nix-env` utility. You are also free to compile
-  >   things in your service users' home, however, on NixOS this can have
+  >   service user using Nix. You are also free to compile
+  >   things in your service users' home. However, on NixOS, this can have
   >   suprising effects - talk to us if you need to do that.
   > - We are always looking for more components to manage for you but as a
   >   general rule new managed components take their time to develop them.
