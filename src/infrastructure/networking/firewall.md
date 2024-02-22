@@ -40,7 +40,7 @@ example:
 
 How to add custom firewall rules depends on the platform of your VM:
 
-- [NixOS 19.03 and newer](/roles/current/firewall.html)
+- NixOS 19.03 and newer each have their dedicated {external+platform-current:ref}`nixos-firewall` page.
 - {ref}`NixOS 15.09 <nixos-firewall>`
 
 % vim: set spell spelllang=en:
