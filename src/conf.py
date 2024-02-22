@@ -93,6 +93,9 @@ pygments_style = 'sphinx'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
+# allow tel: links
+myst_url_schemes=["http", "https", "tel", "mailto"]
+
 
 # -- Options for HTML output ---------------------------------------------------
 

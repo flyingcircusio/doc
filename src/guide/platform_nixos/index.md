@@ -6,7 +6,7 @@ Our second-generation platform is based upon [NixOS 15.09](http://nixos.org/).
 We are providing a subset of the features and components that
 are available on our first-generation Gentoo-based platform.
 
-It is outdated and replaced by current [NixOS platforms](/roles/current).
+It is outdated and replaced by a current {external+platform-current:ref}`NixOS platform <nixos-platform-index>`.
 Updates and changes are provided to assist migration to the new platform.
 
 NixOS provides new approaches for installing and managing software. Also,
