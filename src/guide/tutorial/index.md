@@ -90,7 +90,7 @@ If you have problems connecting to the VM, check our section on
 Server applications should be running in a *service user* account and not in a
 *human user* account. For every project we automatically
 provide a service user with a matching name. For example: if your resource
-group is named `myapp` then there will also be a user account called `myapp` on
+group is named `myapp` then there will also be a user account called `s-myapp` on
 all virtual machines that belong to this project.
 
 Change your user context to this user and perform the necessary tasks to deploy
