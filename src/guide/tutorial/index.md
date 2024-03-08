@@ -88,10 +88,11 @@ If you have problems connecting to the VM, check our section on
 ## Application Deployment
 
 Server applications should be running in a *service user* account and not in a
-*human user* account. For every project we automatically
-provide a service user with a matching name. For example: if your resource
-group is named `myapp` then there will also be a user account called `myapp` on
-all virtual machines that belong to this project.
+*human user* account. For every project you can register service user accounts
+ through our portal. Service users will always be named with a `s-` prefix, so
+ you if your application is named `myapp` then you could set up a service user
+ named `s-myapp`. Service users have their home directorys in the `/srv`
+ directory and appear on every VM within a resource group.
 
 Change your user context to this user and perform the necessary tasks to deploy
 your application:
