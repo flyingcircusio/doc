@@ -118,7 +118,7 @@ If you have an older SSH that doesn't yet support the `ProxyJump`
 ```
 Host *.gocept.net
     User <USERNAME>
-    ProxyJump ssh flyingcircus-jump-host -W %h:%p
+    ProxyCommand ssh flyingcircus-jump-host -W %h:%p
 
 Host *.fcio.net
     User <USERNAME>
