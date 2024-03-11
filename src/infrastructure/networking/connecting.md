@@ -95,9 +95,30 @@ Put the following in your {file}`~/.ssh/config` to enable transparent SSH jump
 hosts:
 
 ```
+Host fcio-jumphost
+  Hostname <VMNAME>.fe.rzob.ipv4.gocept.net
+
+Host *.gocept.net
+  User <USERNAME>
+  ProxyJump fcio-jumphost
+
+Host *.fcio.net
+  User <USERNAME>
+  ProxyJump fcio-jumphost
+```
+
+Remember to replace \<VMNAME> with the name of a VM that has a public frontend
+IPv4 address configured. It doesn't matter which other VM you connect to. Also,
+replace \<USERNAME> with the unix username that you are using in the Flying
+Circus.
+
+
+If you have an older SSH that doesn't yet support the `ProxyJump`
+
+```
 Host *.gocept.net
     User <USERNAME>
-    ProxyCommand ssh flyingcircus-jump-host -W %h:%p
+    ProxyJump ssh flyingcircus-jump-host -W %h:%p
 
 Host *.fcio.net
     User <USERNAME>
@@ -109,10 +130,6 @@ Host flyingcircus-jump-host
     ProxyCommand none
 ```
 
-Remember to replace \<VMNAME> with the name of a VM that has a public frontend
-IPv4 address configured. It doesn't matter which other VM you connect to. Also,
-replace \<USERNAME> with the unix username that you are using in the Flying
-Circus.
 
 ### Using a private OpenVPN server
 
