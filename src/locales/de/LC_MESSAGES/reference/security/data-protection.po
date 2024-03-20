@@ -260,7 +260,7 @@ msgid ""
 "delegate physical access to other persons (e.g., data center staff)."
 msgstr ""
 "Der physische Zugang zu Datenverarbeitungsanlagen darf nur von den Flying "
-"Circus :ref:`Aministratoren <administrators>` vorgenommen werden. "
+"Circus :ref:`Administratoren <administrators>` vorgenommen werden. "
 "Administratoren können den physischen Zugang an andere Personen (z.B. "
 "Mitarbeiter des Rechenzentrums) delegieren."
 
