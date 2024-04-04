@@ -23,3 +23,4 @@ and can be clicked to show them completely:
 The log itself is also available throug the API.
 See the {ref}`log() method <log-method>`.
 :::
+
