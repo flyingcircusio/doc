@@ -7,6 +7,7 @@
 
 networking
 connecting
+outbound
 firewall
 fallback-router
 ```
