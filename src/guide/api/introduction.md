@@ -29,10 +29,6 @@ in our database. This in turn causes maintenance to be scheduled for a
 controlled reboot of the VM depending on the project's maintenance
 window configuration.
 
-```{contents}
-:local: true
-```
-
 ## Confidentiality
 
 Access to the API is intended to be confidential. We provide the API only

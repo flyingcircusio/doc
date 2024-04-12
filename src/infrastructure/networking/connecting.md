@@ -14,10 +14,6 @@ However, due to a shortage of IPv4 addresses and an unpredictable status of
 IPv6 deployments, this might not work out of the box. Let's go through a
 couple of options you have, if the example above does not work out of the box.
 
-```{contents}
-:local: true
-```
-
 ## Getting an overview of your situation
 
 **VM has a public IPv4 address on SRV**:
