@@ -21,8 +21,6 @@ based on the following standards and regulations:
 * Germany's `federal data protection law (BDSG) <http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz>`_, and
 * the EU's `General Data Protection Regulation (GDPR) <https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung>`_.
 
-.. contents::
-
 Responsible bodies
 ------------------
 
