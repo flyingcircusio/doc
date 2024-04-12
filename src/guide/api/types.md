@@ -9,11 +9,6 @@ Each type has a set of identifying keys which correspond to the RDBMS
 "primary key" concept. When updating or deleting a record you need to specify
 at least the primary key to ensure unambiguity.
 
-```{contents}
-:depth: 1
-:local: true
-```
-
 ## Project
 
 Projects are the foundational building block for organizing resources
