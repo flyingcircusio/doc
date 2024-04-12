@@ -4,10 +4,6 @@ The API provides two generic XML-RPC methods: one for applying changes to
 resources (`apply()`) and one for querying for resource information
 (`query()`).
 
-```{contents}
-:local: true
-```
-
 ## apply(\[resource_record, ...\])
 
 `apply()` accepts a list of resource records. It is guaranteed that either

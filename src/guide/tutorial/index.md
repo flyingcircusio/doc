@@ -12,13 +12,7 @@ Welcome to the Flying Circus!
 For this tutorial we assume that you have ordered a virtual machine and we
 finished provisioning it for you.
 
-To get you started we would like to take you on a quick tour with the following
-parts:
-
-```{contents}
-:depth: 1
-:local: true
-```
+To get you started we would like to take you on a quick tour:
 
 ## Projects
 
