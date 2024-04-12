@@ -15,6 +15,7 @@ let
     sphinx
     sphinx-intl
     sphinx_rtd_theme
+    furo
   ]);
 
   version = "${toString revCount}.${shortRev}";
