@@ -1,10 +1,5 @@
 (gocept-net-doc)=
 
-```{image} ./images/flying-circus-logo.png
-:class: logo
-:target: http://flyingcircus.io
-:width: 192px
-```
 
 # Flying Circus operator's manual
 
