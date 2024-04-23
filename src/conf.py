@@ -112,7 +112,24 @@ html_theme = "furo"
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    "sidebar_hide_name": True,
+    "dark_logo": "RZ_FC-Logo_RGB_INV-BL_100-1080.svg",
+    "dark_css_variables": {
+        "color-brand-content": "#a9d2b6",
+        "color-brand-primary": "#a9d2b6",
+        "color-highlight-on-target": "#666",
+        "color-headings": "#fff",
+    },
+    "light_logo": "RZ_FC-Logo_RGB_100-1080.svg",
+    "light_css_variables": {
+        "color-brand-content": "#52a46c",
+        "color-brand-primary": "#52a46c",
+        "color-highlight-on-target": "#f2f5f8",
+        "color-headings": "#002855",
+        "font-stack": "Fira Sans, Helvetica, Arial, sans-serif",
+    },
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = ['themes']
