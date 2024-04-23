@@ -1,56 +1,32 @@
 @import "https://flyingcircus.io/fileadmin/global-data/fira/fira-small.css";
-body,
-body[data-theme=dark] {
-    --font-stack: "Fira Sans", Helvetica, Arial, sans-serif;
-    --color-brand-content: #52a46c;
-    --color-brand-primary: #52a46c;
-   --color-highlight-on-target:  #f2f5f8;
-}
-body[data-theme=dark] {
-    --color-brand-content: #a9d2b6;
-    --color-brand-primary: #a9d2b6;
-    --color-highlight-on-target:#666;
-}
-img.logo {
-    float: right;
-    margin-left: 2em;
-    margin-bottom: 2em;
+
+.highlight {
+    background: var(--color-highlight-on-target);
 }
 
-img.logo.frame {
-    border:2px solid black;
-}
-body[data-theme=dark] h1, body[data-theme=dark] h2, body[data-theme=dark] h3, body[data-theme=dark] h4, body[data-theme=dark] h5, body[data-theme=dark] h6 {
-    color: #ffffff;
-}
 h1, h2, h3, h4, h5, h6 {
-    color: #002855;
+    color: var(--color-headings);
 }
+
 /* Layout */
-.highlight {
-    background: #f2f5f8;
-}
-.sidebar-brand-text {
-    height: 2.5em;
-    background: url("https://flyingcircus.io/fileadmin/global-data/logo/RZ_FC-Logo_RGB_100-1080.svg");
-    text-indent: -9999px;
-    background-repeat: no-repeat;
-  }
-  body[data-theme=dark] .sidebar-brand-text {
-    background: url("https://flyingcircus.io/fileadmin/global-data/logo/RZ_FC-Logo_RGB_INV-BL_100-1080.svg");
-    background-repeat: no-repeat;
+.sidebar-logo {
+    width: 80%;
+    max-width: 300px;
+    margin: 0;
 }
 
 .sidebar-container {
     box-sizing: border-box;
     width: 85%;
 }
+
 .toctree-l1,
 ul,
 ul ul {
     list-style-type: square;
 }
+
 li::marker {
-    color: #52a46c;
-  }
+    color: var(--color-brand-content);
+}
 
