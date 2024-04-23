@@ -13,6 +13,7 @@ let
     linkify-it-py
     myst-docutils
     sphinx
+    sphinx-copybutton
     sphinx-intl
     sphinx_rtd_theme
     furo
