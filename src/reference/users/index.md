@@ -1,4 +1,4 @@
-% last review: 2023-02-22
+% last review: 2024-05-07
 
 % review schedule: 1 year
 
@@ -22,15 +22,16 @@ ssh-keygen
 
 ## Principles
 
-- Users are either humans, or non-human users for services.
-- All users of a resource group are configured (e.g. visible via getent) on all
-  hosts of a resource group.
-- The following attributes are globally unique: username and UID for users; group
-  name and GID for groups.
+- Users are distinguished as human or service users.
+- All users of a resource group are configured (e.g. visible via `getent`) on all
+  nodes of a resource group.
+- The following attributes are globally unique: UID for users; group
+  name and GID for groups. 
 - The presence of an account alone does not imply any permission assignments.
 
 ## Human users
 
+- The username is globally unique and must not start with `s-`.
 - The primary group is `users`.
 - The home directory is located in {file}`/home/$USER`.
 
@@ -39,7 +40,8 @@ ssh-keygen
 ## Service users
 
 - The primary group is `service`.
-- Usernames usually start with `s-`
+- Usernames usually start with `s-` and are unique within a resource group.
+  Different resource groups can reuse the same service user names.
 - The home directory is located in {file}`/srv/$USER`.
 - No SSH login is allowed by default to support the general data protection guidelines. In exceptional cases SSH access may be granted.
 - Human users that have the *sudo-srv* permission in a project are
