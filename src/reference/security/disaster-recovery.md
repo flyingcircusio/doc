@@ -1,4 +1,4 @@
-% last review: 2023-02-22
+% last review: 2024-05-07
 
 % review schedule: 1 year
 
@@ -11,7 +11,7 @@
 # Disaster recovery
 
 This disaster recovery plan provides an overview of potential disasters and how
-the Flying Circus systems and personnel is prepared to deal with them.
+the Flying Circus systems and personnel are prepared to deal with them.
 
 For each scenario we give:
 
@@ -24,13 +24,13 @@ For each scenario we give:
 
 RTO
 
-: Recovery time objective. The planned time needed between discovering a
-  disaster and restoring the service.
+: Recovery time objective – the maximum time it takes to restore a service after
+  discovering a disaster.
 
 RPO
 
-: Recovery point objective. The point in time to which data will be
-  available after recovery. Given as in "time before the disaster".
+: Recovery point objective - the maximum age of data that will be made available
+  after recovery from a disaster. Given as "time before the disaster".
 
 :::{note}
 If recovery actions are neither self-service nor automatic then a 1 hour
@@ -43,19 +43,21 @@ response time is included to notify the standby support technician.
 
 Disaster prevention
 
-: We deploy hot-standby routers and hot-standby switches.
+: We deploy hot-standby routers and active-active redundant switch infrastructure. Selected networks that aren't part of our main platform may run on switches with warm-standby redundancy.
 
 Disaster recovery
 
 : Swap faulty component with standby component. This happens automatically
-  for routers and manually for switches.
+  for routers and for active-active redundant switches.
 
   Depending on the affected services higher level components' redundancies (
   storage, virtualisation) may allow faster recovery times.
 
   RTO for hot-standby routers: less than 15 seconds
 
-  RTO for switch port failures or complete failures: 1 hour
+  RTO for active-active redundant switch failures: less than 15 seconds
+
+  RTO for warm standby redundant switch failures: 8 hours
 
   RPO: n/a
 
@@ -79,8 +81,9 @@ Disaster recovery
 
 Disaster prevention
 
-: We store all virtual machine images on a distributed storage system (Ceph)
-  with n+2 redundancy. Loss of a single server can be masked transparently.
+: We store all virtual machine images and object storage data on a distributed
+  storage system (Ceph) with at least n+2 redundancy. Loss of individual disks
+  and servers can be masked transparently.
 
   We can loose multiple storage servers, depending on the capacity of our
   cluster. We expect to be able to loose at least 2 servers in total without
@@ -105,7 +108,7 @@ Disaster prevention
   automatic repair abilities requires manual specific diagnostics and
   decision-making.
 
-  Customers wanting to exceed this may choose to keep an offsite-backup as well
+  Customers wanting to exceed this may choose to keep an offsite backup as well
   as an emergemency operations setup with our secondary data center.
 
 Disaster recovery
@@ -132,7 +135,7 @@ Disaster recovery
 
 : Buy and install new hardware, provision to new rack in data center.
 
-  RTO: 2 weeks
+  RTO: 2-4 weeks
 
   RPO: not available
 
@@ -142,12 +145,12 @@ Disaster recovery
 
 Disaster prevention
 
-: Require redundant power lines, UPS backup, and diesel generators in the
-  data center.
+: High SLA requirements from the data center. Regular personal inspections and
+  interviews. Require redundant power lines, UPS backup, and diesel generators
+  in the data center.
 
   Customers wanting to exceed this may choose to keep an offsite-backup as well
   as an emergemency operations setup with our secondary data center.
-
 
 Disaster recovery
 
@@ -163,13 +166,13 @@ Disaster prevention
 
 : The data center provides redundant uplinks to the internet together with
   separate underground cables from different directions. The data center
-  also uses a highly-available routers and network.
+  also uses highly available routers and network infrastructure.
 
   The Flying Circus has a service level agreement on the availability of the
   network with the data center provider.
 
   Customers wanting to exceed this may choose to keep an offsite-backup as well
-  as an emergemency operations setup with our secondary data center.
+  as an advanced backup operations setup with our secondary data center.
 
 Disaster recovery
 
@@ -208,15 +211,15 @@ Disaster recovery
 
 Disaster prevention
 
-: We use mature file systems in our storage cluster, backup solutions and
-  with the VMs which can cause inconsistencies under failure scenarios.
+: We use mature file systems in our storage cluster, backup solutions, and
+  in the VM disks to avoid inconsistencies under failure scenarios.
 
 Disaster recovery
 
 : Restore filesystem or missing files from backups, recreate backups in case
   of file system errors on backup systems.
 
-  RTO: depends on SLA [^fn2]
+  RTO: depends on SLA [^fn2] and may require customer interaction to validate the restored data
 
   RPO: 1 day/1 hour [^fn1]
 
@@ -259,7 +262,7 @@ Disaster recovery
 
 Disaster prevention
 
-: Performing backups.
+: Performing backups. Customers may choose to increase the standard schedule (once every 24 hours) to a more frequent schedule (hourly).
 
 Disaster recovery
 

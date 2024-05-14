@@ -1,4 +1,4 @@
-% last review: 2023-02-22
+% last review: 2024-05-07
 
 % review schedule: 1 year
 
@@ -25,7 +25,14 @@ on the situation:
   vectors are not relevant on our platform.
 - We might take other actions not listed here, depending on the situation.
 
-## NixOS 22.11 (upcoming)
+## NixOS 24.05 (upcoming)
+
+This is the currently actively developed NixOS release that receives timely
+security updates.
+
+We update our platform frequently to follow upstream development.
+
+## NixOS 23.11 (current)
 
 This is the currently actively maintained NixOS release that receives timely
 security updates. 
@@ -33,19 +40,20 @@ security updates.
 We update our platform with security updates every 2 weeks, but may update
 intermittently if high risk vulnerabilities become known.
 
-## NixOS 22.05 (current)
-
-The NixOS community has stopped support for this distribution but we monitor
-security updates received on the 22.11 branch for potential backports in
-high risk situations.
-
-## NixOS 21.11 and older (outdated)
+## NixOS 23.05 and older (outdated)
 
 No security updates are provided. Customers in need of guaranteed security
 updates are advised to update to NixOS 22.05
 
-## Gentoo (outdated)
+## NixOS 21.05 (outdated)
 
-We provide selective security updates by reviewing the published list of
-Gentoo Linux Security Advisories (GLSA) every 2 months and selecting
-critical security updates where necessary.
+We are currently using NixOS 21.05 as our hardware platform due to interlocking
+reasons to update some of the lower level infrastructure. We apply security
+updates as needed for the components used.
+
+Customers are not receiving security updates on 21.05 any longer.
+
+## Gentoo (retired)
+
+We do not provide security updates for this platform any longer. Customers
+have been informed about the sunsetting of Gentoo since 2018. 
