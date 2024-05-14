@@ -43,7 +43,7 @@ intermittently if high risk vulnerabilities become known.
 ## NixOS 23.05 and older (outdated)
 
 No security updates are provided. Customers in need of guaranteed security
-updates are advised to update to NixOS 22.05
+updates are advised to update to NixOS 23.11
 
 ## NixOS 21.05 (outdated)
 
