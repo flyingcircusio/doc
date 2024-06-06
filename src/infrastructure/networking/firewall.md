@@ -22,6 +22,7 @@ can be opened by default. Machines inside the same project may access the
 Currently we allow public access for:
 
 - SSH (22) - to provide login access to VMs
+- HTTP/S (80, 443) - to allow using HTTP-based verification of Let's Encrypt certificates on the internal network and to present select services (IPv6 only) as needed
 - NTP (123) - to synchronize clocks with outside hosts
 - BGP (179, INPUT routers) to peer with uplink providers
 - Domain (53, INPUT on routers) to provide access to selected authoritative zones
