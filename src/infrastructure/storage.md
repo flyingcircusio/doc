@@ -2,30 +2,82 @@
 
 # Virtual Disks / Block Storage
 
-VM storage is provided by a Ceph cluster. Each block device visible in VMs
-(e.g., {file}`/dev/vda` or {file}`/dev/sda`) reflects an underlying Ceph [RBD
-volume][rbd volume].
+VM storage is provided by a Ceph cluster as virtual disks / block devices.
+
+Each virtual disk is visible in VMs as {file}`/dev/vda` and reflects an
+underlying Ceph [RBD volume][rbd volume].
 
 ## Disk Layout
 
-Each RBD volume contains a complete virtual disk image consisting of a partition
-table and one or more filesystems. We use both XFS and ext4 filesystems in VMs.
+VMs are fitted with 3 different virtual disks:
+
+`/dev/vda`
+
+: This disk contains an XFS partition and is mounted to the VFS root(`/`) and
+  has the nominal size as requested in the VM configuration. The minimum size
+  is 30 GiB and it contains the operating system as well as your application
+  and user data.
+
+  Depending on the installed software you may need to reserve between 5-15 GiB
+  of this disk for the operating system. Our use of NixOS has a higher
+  footprint here than other OSes as we support atomic updates and may need to
+  keep up to 4 copies of the OS environment in this store at some points in
+  time.
+
+`/dev/vdb`
+
+: This disk contains swap. It is sized depending on your machine's memory and 
+  is at least 1 GiB or 32 times the square root of your VMs memory.
+
+  Swap is only provided to allow the VM some wiggle room if it runs out of
+  memory in critical situations and allows for some room to interact and
+  diagnose VMs that are running low on memory. Our VM configuration prefers to
+  not use swap as much as possible as it impacts performance quite badly. 
+
+  | VM memory | Swap size |
+  |---|---|
+  | 1 GiB | 1 GiB |
+  | 2 GiB | 1.4 GiB |
+  | 4 GiB | 2 GiB |
+  | 8 GiB | 2.8 GiB |
+  | 16 GiB | 4 GiB |
+  | 32 GiB | 5.7 GiB |
+  | 64 GiB | 8 GiB |
+
+`/dev/vdc`
+
+: contains an XFS partition used as a bounded `/tmp` filesystem. Some
+  applications (like MySQl) exercise their use of /tmp based on available space
+  of this partition and - if mounted to `/` - can cause the disk to fill up and
+  cause issues for other applications.
+
+  If your application needs a larger or more specific amount of temporary
+  space, create a separate directory in your deployment and point your
+  application to it by setting the `TMPDIR` environment variable (or use
+  application specific configuration to adjust this).
+
+  This disk is sized depending on your root disk: it is at least 5 GiB or
+  the square root of your root disk.
+
+  | VM root disk | /tmp size |
+  |---|---|
+  | 10 GiB | 5 GiB |
+  | 50 GiB | 7 GiB |
+  | 100 GiB | 10 GiB |
+  | 250 GiB | 15 GiB |
+  | 500 GiB | 22 GiB |
 
 ## Growing and shrinking disks
 
-Such a virtual disk is quite easy to grow but not so easy to shrink.
+Virtual disks can be grown on the fly without shutting down the VM but shrinking
+is not supported.
 
 When *growing* a virtual disk, we enlarge the underlying RBD volume, adapt the
 partition table and resize the main filesystem. This procedure is fully
 transpart and can be performed without downtime.
 
-*Shrinking* a virtual disk is not directly supported. On customer request, we
-install a filesystem quota to ensure that no more space is used than booked. On
-newer NixOS VMs with XFS filesystems, tools like
-{command}`df` report that reduced size correctly. Older Gentoo-based VMs
-with ext4 filesystems are not so smart; {command}`df` still
-reports the old size even when a quota is installed.  Nonetheless, we will
-monitor disk usage on basis of the reduced disk size.
+*Shrinking* a virtual disk is not supported. To shrink a disk you need to 
+provision a new VM and copy the data to a smaller disk.
 
 [rbd volume]: http://docs.ceph.com/docs/master/architecture/
 
