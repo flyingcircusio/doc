@@ -23,4 +23,6 @@ The following people perform standby support duties:
 - Christian Theune
 - Christian Zagrodnick
 - Frank Lanitz
+- Nils Möller
+- Philipp Herzog
 - Tobias Stenzel
