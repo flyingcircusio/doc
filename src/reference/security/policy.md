@@ -1,10 +1,10 @@
 # Policy
 
 :::{note}
-This documents the ISMS Policy, as released on 2021-09-21
+This documents the ISMS Policy, as released on 2024-06-20.
 :::
 
-% https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=6099
+% https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=10259
 
 We, the management of Flying Circus Internet Operations, decided to establish an Information Security Management System (ISMS) according to the international standard ISO/IEC 27001.
 
@@ -30,17 +30,17 @@ This ISMS policy defines the management’s mandate towards the information secu
 
 Information security at FCIO plays a significant role to accomplish the business objectives. There must be appropriate safeguards to secure the confidentiality, integrity, authenticity, and availability of information. This will help us to:
 
-- ensure safety of operation,
+- ensure security and safety of operation,
 - avoid unacceptable economical damage to us and our customers,
 - comply with legal provisions, regulatory requirements, and
 - comply with unit specific policies, business directives and procedures.
 
 This leads to the following goals regarding information security:
 
-- Ensure that information security is managed at an adequate level of maturity.
-- Ensure that all significant risks are identified, evaluated, and reduced to an acceptable level – taking into account the entire value chain and life cycle of information and its associated resources.
-- Engage staff and ensure that they follow specific policies, business directives, and procedures for information security.
-- Ensure that service providers and partner companies follow relevant requirements out of specified policies, business directives, and procedures for information security.
+1. Ensure that information security is managed at an adequate level of maturity.
+2. Ensure that all significant risks are identified, evaluated, and reduced to an acceptable level – taking into account the entire value chain and life cycle of information and its associated resources.
+3. Engage staff and ensure that they follow specific policies, business directives, and procedures for information security.
+4. Ensure that service providers and partner companies follow relevant requirements out of specified policies, business directives, and procedures for information security.
 
 The commitment to accomplish the above goals is to be carried forward into practice through the following key points:
 
