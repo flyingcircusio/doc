@@ -197,6 +197,16 @@ operations to ensure traceability of actions.
 Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
+(data-at-rest-encryption)=
+
+### Data-at-Rest Encryption
+
+All data in our [storage cluster](#infrastructure-storage) is stored encrypted. This includes the *Virtual Disk Block Storage*, our *S3-compatible Object Storage*, and [all automated backups](#backup). Whenever storage media are located outside our trusted areas, we have technical and organisational measures in place to ensure the confidentiality of the data stored there.
+
+On a technical level, we utilise the common Linux [cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata and XTS-AES-512 cipher. We regularly review recommendations in standard guidelines or working groups and are able to update the used encryption parameters once necessary.
+
+On an organisational level, we have procedures in place that ensure the separation of storage medium and key material when disks leave trusted areas.
+
 ### Separation
 
 **Measures for separation ensure that data that is collected for separate
