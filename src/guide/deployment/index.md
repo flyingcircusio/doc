@@ -11,4 +11,5 @@ This section includes information on how to operate certain tech stacks within t
 
 ```{toctree}
 lamp
+mongodb
 ```
