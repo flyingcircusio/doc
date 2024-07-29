@@ -32,14 +32,6 @@ platform/22.05/index
 platform/21.11/index
 platform/21.05/index
 platform/20.09/index
-platform/19.03/index
-```
-
-```{toctree}
-:maxdepth: 1
-
-guide/platform_nixos/index
-guide/platform_gentoo/index
 ```
 
 ## Support
