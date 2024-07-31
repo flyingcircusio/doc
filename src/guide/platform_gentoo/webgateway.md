@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 (nixos-webgateway)=
 
 # Webgateway (NGINX, HAProxy)
