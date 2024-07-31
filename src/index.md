@@ -49,5 +49,6 @@ Or refer to {ref}`detailed support information <support>`.
 ```{toctree}
 :hidden: true
 
+guide/platform_gentoo/webgateway
 support/index
 ```
