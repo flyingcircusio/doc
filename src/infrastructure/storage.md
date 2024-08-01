@@ -3,6 +3,8 @@
 # Virtual Disks / Block Storage
 
 VM storage is provided by a Ceph cluster as virtual disks / block devices.
+The data in the cluster is transparently encrypted before being stored onto
+physical disks, see [](#data-at-rest-encryption) for details.
 
 Each virtual disk is visible in VMs as {file}`/dev/vda` and reflects an
 underlying Ceph [RBD volume][rbd volume].
