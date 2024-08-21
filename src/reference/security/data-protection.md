@@ -137,6 +137,24 @@ All privileged actions need to be securely logged. For machines based on our cur
 
 SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [^log-unsuccessful-attempts]. Excessive unsuccessful SSH login attempts automatically cause a blocking via firewall rules.
 
+(data-at-rest-encryption)=
+
+### Data media control
+
+All data in our [storage clusters](#infrastructure-storage) is stored encrypted.
+This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
+Storage*, and [all automated backups](#backup). There are technical and
+organisational measures in place to protect the relevant keys.
+
+On a technical level, we utilise the common Linux [cryptsetup]
+(https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
+and XTS-AES-512 cipher. We regularly review recommendations in standard
+guidelines or working groups and are able to update the used encryption
+parameters as needed.
+
+Disposal of used media happens using a certified data destruction service
+provider.
+
 (access-control)=
 
 ### Access control
@@ -197,15 +215,6 @@ operations to ensure traceability of actions.
 Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
-(data-at-rest-encryption)=
-
-### Data-at-Rest Encryption
-
-All data in our [storage cluster](#infrastructure-storage) is stored encrypted. This includes the *Virtual Disk Block Storage*, our *S3-compatible Object Storage*, and [all automated backups](#backup). Whenever storage media are located outside our trusted areas, we have technical and organisational measures in place to ensure the confidentiality of the data stored there.
-
-On a technical level, we utilise the common Linux [cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata and XTS-AES-512 cipher. We regularly review recommendations in standard guidelines or working groups and are able to update the used encryption parameters once necessary.
-
-On an organisational level, we have procedures in place that ensure the separation of storage medium and key material when disks leave trusted areas.
 
 ### Separation
 
