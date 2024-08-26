@@ -24,6 +24,9 @@ backup solution.
 
 S3 data is *not* backed up automatically.
 
+All backup storage data is transparently encrypted before being stored onto
+physical disks, see [](#data-at-rest-encryption) for details.
+
 ## Schedule
 
 Backups are run daily or hourly, depending on the chosen backup level.
