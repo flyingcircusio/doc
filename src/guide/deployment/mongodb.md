@@ -84,7 +84,7 @@ in {
     preStart = "echo never > /sys/kernel/mm/transparent_hugepage/defrag";
     postStop = "echo always > /sys/kernel/mm/transparent_hugepage/defrag";
     # intial creating of journal takes ages
-    serviceConfig.TimeoutStartSec = 1200;
+    serviceConfig.TimeoutStartSec = lib.mkForce 1200;
     serviceConfig.LimitNOFILE = 64000;
     serviceConfig.LimitNPROC = 32000;
     serviceConfig.Restart = "always";
@@ -102,6 +102,9 @@ in {
     shell = "/run/current-system/sw/bin/bash";
     home = "/srv/mongodb";
   };
+
+  # Only needed when using `pkgs.mongodb-X_Y`
+  flyingcircus.allowedUnfreePackageNames = [ "mongodb" ];
 
   flyingcircus.infrastructure.preferNoneSchedulerOnSsd = true;
 
