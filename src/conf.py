@@ -229,7 +229,7 @@ if platform_doc_objects_inventory in ("", "null"):
     platform_doc_objects_inventory = None
 
 intersphinx_mapping = {
-    "platform-current": ("https://doc.flyingcircus.io/roles/fc-23.11-production", platform_doc_objects_inventory)
+    "platform-current": ("https://doc.flyingcircus.io/roles/fc-24.05-production", platform_doc_objects_inventory)
 }
 
 myst_enable_extensions = [
