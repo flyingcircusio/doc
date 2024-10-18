@@ -1,3 +1,8 @@
+% last review: 2024-10-18
+
+% review schedule: 1 year
+
+
 (data-centers)=
 
 # List of data centers
