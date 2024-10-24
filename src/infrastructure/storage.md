@@ -69,6 +69,23 @@ VMs are fitted with 3 different virtual disks:
   | 250 GiB | 15 GiB |
   | 500 GiB | 22 GiB |
 
+## Migrating disks between storage pools
+
+We provide multiple storage pools with different performance characteristics:
+named HDD and SSD as an indicator of the expected performance. 
+
+VM disks can be migrated between those pools by selecting a new pool. The VM
+will detect the change and schedule a maintenance to perform the migration at a
+convenient time.
+
+Initialising the migration itself is a short offline operation, but takes only a
+few seconds until the VM is then started again. The actual data migration
+happens transparently in the background.
+
+To speed up the process you can take the VM offline and online again to
+initiate the migration immediately.
+
+
 ## Growing and shrinking disks
 
 Virtual disks can be grown on the fly without shutting down the VM but shrinking
