@@ -59,13 +59,13 @@ msgstr ""
 
 #: ../../../src/changes/2023/r008.md:20
 msgid ""
-"slurm: improve {external+platform-current:ref}`documentation <nixos-"
+"slurm: improve `documentation <nixos-"
 "slurm>`"
 msgstr ""
 
 #: ../../../src/changes/2023/r008.md:21
 msgid ""
-"Add {external+platform-current:ref}`documentation on upgrades and changes"
+"Add `documentation on upgrades and changes"
 " <nixos-upgrade>` compared the previous platform version (PL-131352)."
 msgstr ""
 

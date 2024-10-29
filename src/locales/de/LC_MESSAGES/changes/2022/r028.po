@@ -43,7 +43,7 @@ msgstr ""
 #: ../../../src/changes/2022/r028.md:19
 msgid ""
 "If you have pinned *nixpkgs* in your deployments/environments, as "
-"described in {external+platform-current:ref}`nixos-user-package-"
+"described in `nixos-user-package-"
 "management`, please update these as well, also to include the fix for "
 "OpenSSL 3 from the previous 22.05 release."
 msgstr ""

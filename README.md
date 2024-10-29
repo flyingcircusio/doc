@@ -37,26 +37,11 @@ built from the default branch of this repo.
 
   - Update nixpkgs version: change URL in `default.nix` for the `pkgs` argument, right at the top.
 
-## External References (intersphinx)
+## External References
 
-We need to link to platform/role docs which are version-specific and live in the
-[flyingcircusio/fc-nixos](https://github.com/flyingcircusio/fc-nixos) repository
-under `doc`. The current default version of the platform/role docs is configured
-in `src/conf.py` as `platform-current`. When building locally, the object
-inventory file (objects.inv) is pulled from the URL specified there.
-
-To link from this repo here to the platform/role docs, use
-`{external+platform-current:ref}` like:
-
-~~~
-Refer to the {external+platform-current:ref}`nixos-postgresql-server` role documentation.
-~~~
-
-Available symbols can be checked with, for example:
-
-~~~
-python -m sphinx.ext.intersphinx https://doc.flyingcircus.io/roles/fc-21.11-production/objects.inv`
-~~~
+We need to link to platform/role docs, which we do by linking to
+non-version-specific roles at /roles/current and which will be dynamically
+redirected to the most recent version.
 
 ## Translations
 

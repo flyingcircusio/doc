@@ -3,7 +3,6 @@
 , revCount ? 0
 , shortRev ? "0000000"
 , gitTag ? ""
-, platformDocObjectsInventory ? null # path to objects.inv of flyingcircusio/fc-nixos/doc
 }:
 
 let
@@ -38,5 +37,5 @@ in pkgs.stdenv.mkDerivation {
   src = ./.;
   dontStrip = true;
   dontPatchELF = true;
-  inherit revCount shortRev gitTag version platformDocObjectsInventory;
+  inherit revCount shortRev gitTag version;
 }

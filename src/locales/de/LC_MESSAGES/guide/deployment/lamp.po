@@ -179,6 +179,6 @@ msgstr ""
 #: ../../../src/guide/deployment/lamp.md:153
 msgid ""
 "You will find more details on NGINX configuration in the role "
-"documentation for {external+platform-current:ref}`nixos-webgateway`."
+"documentation for `nixos-webgateway`."
 msgstr ""
 
