@@ -1,3 +1,8 @@
+---
+orphan: true
+nosearch: true
+---
+
 # DevOps-Leitfaden
 
 % This document is being linked to from dead media

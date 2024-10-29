@@ -143,7 +143,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 All data in our [storage clusters](#infrastructure-storage) is stored encrypted.
 This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
-Storage*, and [all automated backups](#backup). There are technical and
+Storage*, and {ref}`all automated backups <backup>`. There are technical and
 organisational measures in place to protect the relevant keys.
 
 On a technical level, we utilise the common Linux [cryptsetup]

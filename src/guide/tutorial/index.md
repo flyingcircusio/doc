@@ -92,16 +92,15 @@ Change your user context to this user and perform the necessary tasks to deploy
 your application:
 
 ```
-$ ssh bob@myapp00.gocept.net
+$ ssh bob@myapp00.fcio.net
 bob@myapp00 ~ $ sudo -u s-myapp -i
 s-myapp@myapp00 ~ $ # ... execute commands to install your application ...
 ```
 
 The advantage of running applications in a service user is that applications are
-not bound to any individuals, but run in a rather neutral context. Some features
-like {ref}`automatic service start on VM boot <userinit>` work only for service
-users. Further information about our user account concept can be found in
-the {ref}`useraccounts` section.
+not bound to any individuals, but run in a rather neutral context. Some
+features like work only for service users. Further information about our user
+account concept can be found in the {ref}`useraccounts` section.
 
 For a detailed application deployment walk-through, please ref to the
 {ref}`application-deployment` section.

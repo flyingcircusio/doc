@@ -41,13 +41,8 @@ support/index
 ```{toctree}
 :maxdepth: 2
 
-platform/24.05/index
-platform/23.11/index
-platform/23.05/index
-platform/22.11/index
-platform/22.05/index
-platform/21.11/index
-platform/21.05/index
-platform/20.09/index
+platform/24.05/fc-24.05-dev
+platform/23.11/fc-23.11-dev
+platform/23.05/fc-23.05-dev
 ```
 

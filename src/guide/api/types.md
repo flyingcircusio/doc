@@ -374,7 +374,7 @@ classes
 
   Those are names for the "managed components", or "roles" that we provide
   to install on your machine. You can find details about each class
-  in the {ref}`managed-components` documentation.
+  in the specific platform release documentation.
 
   A few roles are not selectable by you: if your VM runs in a production
   project, it will always be marked as `role::backupclient` to
