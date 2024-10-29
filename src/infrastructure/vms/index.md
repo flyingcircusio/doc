@@ -93,7 +93,7 @@ Hard
 
 Purge
 
-: (t+8 days)
+: (t+32 days)
 
   Delete the VMs backups.
 
