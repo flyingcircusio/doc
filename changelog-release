@@ -49,6 +49,7 @@ def last_release():
 
 
 def finalize_old_changelog(last_release, release_date):
+    subprocess.check_call(["scriv", "collect"])
     text = last_release.read_changelog()
     parts = text.split("---", maxsplit=3)
     if len(parts) != 3:
