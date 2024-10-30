@@ -14,6 +14,7 @@ The following people are administrators for the Flying Circus:
 - Oliver Schmidt
 - Philipp Herzog
 - Tobias Stenzel
+- Leona Maroni
 
 ## List of stand-by supporters
 
