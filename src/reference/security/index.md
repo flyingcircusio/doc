@@ -21,5 +21,4 @@ disaster-recovery
 backup
 software-vulnerabilities
 network
-administrators
 ```
