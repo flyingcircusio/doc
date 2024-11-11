@@ -143,6 +143,8 @@ Disaster recovery
 
 ### Loss of power in the data center
 
+% ISMSCoDntrol: 7.5
+
 Disaster prevention
 
 : High SLA requirements from the data center. Regular personal inspections and

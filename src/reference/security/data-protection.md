@@ -67,12 +67,14 @@ Periodical check for compliance to regulations:
   result needs to be documented in written form. The audit usually needs to be
   performed by a third party.
 
-## Confidentiality
 
-### Admission control
+## Measures
 
-**Measures for admission control ensure that unauthorized persons cannot
-physically access the data processing equipment.**
+(entry-control)=
+
+### 1. Equipment access control
+
+**Purpose: deny unauthorized persons access to processing equipment used for processing**
 
 The physical assets (servers, switches, hard drives, ...) are located in EU
 data centers operated by third parties. The ownership of the physical equipment
@@ -89,9 +91,15 @@ For each data center used by us we require the following measures:
   infrastructure and customer-accessible areas
 - separately locked racks with the possibility to use custom locks and keys.
 
+
+% ISMSControl: 7.1
+% ISMSControl: 7.2
+% ISMSControl: 7.3
+% ISMSControl: 7.4
+
 We maintain a separate {ref}`data-centers`.
 
-Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other persons (e.g., data center staff).
+Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other persons (e.g., data center personnel).
 
 #### Low-security locations
 
@@ -103,14 +111,50 @@ as they are not sufficiently protected.
 
 Due to this limitations, the services in high-security locations are not allowed to depend on services provided in low-security locations.
 
-(entry-control)=
 
-### Entry control
+### 2. Data media control
 
-**Measures for entry control ensure that unauthorized third parties can not make use
-of the data processing systems.**
+**Purpose: prevent the unauthorized reading, copying, modification or erasure of data media**
+
+Only Flying Circus administrators may have physical access to data media. Access may be delegated e.g. to data center personnel.
+
+Transfer of data media between secure locations is handled by Flying Circus personnel or trusted shipping providers.
+
+Disposal of used media happens using a certified data destruction service
+provider.
+
+
+(data-at-rest-encryption)=
+
+### 3. Storage control
+
+**Purpose: prevent the unauthorized input of personal data and the unauthorized inspection, modification or deletion of stored personal data**
+
+All data in our [storage clusters](#infrastructure-storage) is stored encrypted.
+This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
+Storage*, and {ref}`all automated backups <backup>`. There are technical and
+organisational measures in place to protect the relevant keys.
+
+On a technical level, we utilise the common Linux [cryptsetup]
+(https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
+and XTS-AES-512 cipher. We regularly review recommendations in standard
+guidelines or working groups and are able to update the used encryption
+parameters as needed.
+
+Additionally:
+
+- We delete data after the retention times required by tax or commercial law.
+- Access log files are being anonymised.
+- We delete customer data upon customer's request.
+
+
+### 4. User control
+
+**Purpose: prevent the use of automated processing systems by unauthorized persons using data communication equipment**
+
 
 % ISMSControl: A.9.4.2
+% ISMSControl: 8.5
 
 Machines managed within the Flying Circus can be accessed by a variety of ways for
 management purposes: SSH, web interfaces, and others. For those we employ
@@ -136,29 +180,15 @@ All privileged actions need to be securely logged. For machines based on our cur
 
 SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [^log-unsuccessful-attempts]. Excessive unsuccessful SSH login attempts automatically cause a blocking via firewall rules.
 
-(data-at-rest-encryption)=
-
-### Data media control
-
-All data in our [storage clusters](#infrastructure-storage) is stored encrypted.
-This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
-Storage*, and {ref}`all automated backups <backup>`. There are technical and
-organisational measures in place to protect the relevant keys.
-
-On a technical level, we utilise the common Linux [cryptsetup]
-(https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
-and XTS-AES-512 cipher. We regularly review recommendations in standard
-guidelines or working groups and are able to update the used encryption
-parameters as needed.
-
-Disposal of used media happens using a certified data destruction service
-provider.
 
 (access-control)=
 
-### Access control
+### 5. Data access control
+
+**Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
 % ISMSControl: A.9.1.1
+% ISMSControl: 5.15
 
 **Measures for access control protect against access by unauthorized
 personnel.**
@@ -166,10 +196,9 @@ personnel.**
 Customer-owned virtual machines may be accessed by all Flying Circus administrators implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
 % ISMSControl: A.9.2.1
-
 % ISMSControl: A.9.2.2
-
 % ISMSControl: A.9.2.6
+% ISMSControl: 5.16
 
 Users are centrally managed using <https://my.flyingcircus.io>. Users are automatically provisioned to all relevant systems, including proper removal of access rights.
 
@@ -215,48 +244,46 @@ Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
 
-### Separation
+### 6. Communication control
 
-**Measures for separation ensure that data that is collected for separate
-purposes must be processed separately.**
+**Purpose: ensure that it is possible to verify and establish the bodies to which personal data have been or may be transmitted or made available using data communication equipment**
 
-To separate data from different customers the Flying Circus facilitates virtualization:
-both virtual machines (to separate execution context) and SAN (to separate
-storage) ensure that customers can only access data belonging to them. Within a
-single machine access to different files and processes is available using
-standard UNIX permissions.
+The communication control is generally the responsibility of the customer's application.
 
-Machines (both virtual and physical) live in a specific *access ring* (short:
-ring):
+Data entered into the Flying Circus portal is not transmitted to third parties.
 
-- *Ring 0* machines perform infrastructure tasks. Thus, they need to process
-  data belonging to several customers.  Only administrator access is allowed on
-  such machines.  Examples include VM hosts and storage servers.
-- *Ring 1* machines process data for a specific customer and are accessible to
-  users associated to that customer. Examples include customer VMs.
 
-All resources that belong logically together (e.g., VMs, storage
-volumes) are bundled into *resource groups*. Resource groups share that same set
-of user accounts and permissions.
+### 7. Input control
 
-### Pseudonymisation
+**Purpose: ensure that it is subsequently possible to verify and establish which personal data have been input into automated processing systems and when and by whom the personal data were input**
 
-**Measures to ensure that personal data can no longer be attributed to a specific person without the use of additional information.**
+The security of data entry, change and deletion is generally part of the
+customer's application. Customers must ensure that data entry,
+deletion and removal are handled appropriately according to their applicable
+data protection laws.
 
-- We delete data after the retention times required by tax or commercial law.
-- Access log files are being anonymised.
-- We delete customer data upon customer's request.
+However, during maintenance work it may be necessary that
+administrators need to enter, change, or delete data records on a low technical
+level to ensure the continued operation of the overall system. This will only
+happen after having informed the affected customers and having documented this
+in our issue tracking system.
 
-## Integrity and Authenticity
+Managed log files are rotated by the Flying Circus infrastructure automatically
+with sensible retention times.
 
-### Transfer control
+Changes in the Flying Circus portal (e.g., SSH keys) can be performed by
+the customer themselves or through our support. If the change happens through
+our support then it must be documented beforehand and confirmed by the customer
+after the change has been performed.
+
+
+### 8. Transport control
+
+**Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
 
 % ISMSControl: A.14.1.2
+% ISMSControl: 8.26
 
-**Measures for transfer control ensure that data that is being saved or
-transferred is protected against unauthorized reading, copying, modification, or
-deletion. It also requires that the points for intentional transfer are
-documented.**
 
 All private data transferred past the boundary of a machine must use an
 authenticated and encrypted communication channel (exceptions see below).
@@ -277,34 +304,36 @@ Data paths where sensitive information may be transferred include:
   not leave the machine on which they were generated, unless the customer operates a logging server. Log data may also be transferred to a log server on the same site operated by Flying Circus via an encrypted channel. Only Flying Circus
   administrators may have access to the central log server.
 
-### Input control
 
-**Measures for input control ensure that input, change, and deletion of data are
-documented showing at least who worked when on what data.**
+### 9. Recovery
 
-The security of data entry, change and deletion is generally part of the
-customer's application. Customers must ensure that data entry,
-deletion and removal are handled appropriately according to their applicable
-data protection laws.
+**Purpose: ensure that installed systems may, in the case of interruption, be restored**
 
-However, during maintenance work it may be necessary that
-administrators need to enter, change, or delete data records on a low technical
-level to ensure the continued operation of the overall system. This will only
-happen after having informed the affected customers and having documented this
-in our issue tracking system.
+Recovery scenarios are documented at {ref}`disaster-recovery`.
 
-Managed log files are rotated by the Flying Circus infrastructure automatically
-with sensible retention times.
+### 10. Reliability
 
-Changes in the Flying Circus user directory (e.g., SSH keys) can be performed by
-the customer themselves or through our support. If the change happens through
-our support then it must be documented beforehand and confirmed by the customer
-after the change has been performed.
+**Purpose: ensure that all system functions perform and that the appearance of faults in the functions is reported**
 
-### Order control
+All systems are monitored continuously. Depending on the severity of the monitored system our emergency support is notified, a support ticket is created automatically, or tickets are created manually during monitoring review.
 
-**Measures for order control ensure that data is only processed according to the
-orders of the client.**
+### 11. Integrity
+
+**Purpose: ensure that stored personal data cannot be corrupted by means of a malfunctioning of the system**
+
+Integrity is assured on several levels:
+
+* filesystem level checksums
+* redundant storage of data
+* backups of data, see {ref}`backup`.
+
+For details and recovery times, see {ref}`disaster-recovery`.
+
+
+### 12. Processing control
+
+**Purpose: ensure that personal data processed on behalf of the controller can only be processed in compliance with the controller’s instructions**
+
 
 The Flying Circus ensures that all actions taken by system administrators are
 covered by a contract or order with the customers affected by the action. This
@@ -315,10 +344,9 @@ request tracking system. Other means of documentation to control changes are pos
 
 Specific actions performed will be reported to the customer if required.
 
-## Availability
+### 13. Availability control
 
-**Measures for availability ensure that data is not accidentally destroyed or
-lost.**
+**Purpose: ensure that personal data are protected against loss and destruction**
 
 The availability of resources depending on the data center facilities is
 delegated to the operator of the data center. The Flying Circus facilitates
@@ -335,6 +363,33 @@ by administrators on request. Additionally, a
 {ref}`disaster recovery plan <disaster-recovery>` details failure scenarios,
 our preventative and recovery measures.
 
+### 14. Separability
+
+**Purpose: ensure that personal data collected for different purposes can be processed separately**
+
+
+To separate data from different customers the Flying Circus facilitates virtualization:
+both virtual machines (to separate execution context) and SAN (to separate
+storage) ensure that customers can only access data belonging to them. Within a
+single machine access to different files and processes is available using
+standard UNIX permissions.
+
+Machines (both virtual and physical) live in a specific *access ring* (short:
+ring):
+
+- *Ring 0* machines perform infrastructure tasks. Thus, they need to process
+  data belonging to several customers.  Only administrator access is allowed on
+  such machines.  Examples include VM hosts and storage servers.
+- *Ring 1* machines process data for a specific customer and are accessible to
+  users associated to that customer. Examples include customer VMs.
+
+All resources that belong logically together (e.g., VMs, storage
+volumes) are bundled into *resource groups*. Resource groups share that same set
+of user accounts and permissions.
+
+
+
+
 ## Other measures
 
 - Our support process and incident response measures are documented at {ref}`the support overview <support-details>`.
@@ -343,10 +398,12 @@ our preventative and recovery measures.
 ```{rubric} Footnotes
 ```
 
-[^customer-owned]: If a customer owns equipment managed within the Flying Circus we
+[^customer-owned]:
+    If a customer owns equipment managed within the Flying Circus we
     require that this customer uses a separate rack with separate access control.
 
-[^log-unsuccessful-attempts]: We consider not logging unsuccessful logins
+[^log-unsuccessful-attempts]:
+    We consider not logging unsuccessful logins
     acceptable, as SSH logins are only valid using cryptographic private/public
     key authentication. Password logins are always rejected. Potential attack
     vectors are thus limited to stolen or cracked private keys or vulnerabilities
@@ -358,5 +415,6 @@ our preventative and recovery measures.
     would cause spamming of the logging infrastructure which in turn can be a
     vector for DOS attacks.
 
-[^trace-tty]: Individual actions performed with administrative privileges are
+[^trace-tty]:
+    Individual actions performed with administrative privileges are
     only partially logged.
