@@ -51,10 +51,3 @@ rendered German version can be found here:
 https://doc.flyingcircus.io/platform/de/reference/security/data-protection.html
 
 After changes to this file, `make update-translations` should be run.
-
-Note that there is currently a bug in MyST which incorrectly renders footnote references
-in translated strings. If you need footnotes + translation in a file, just keep it as RestructuredText with the ending `.rst`.
-
-Bug report:
-
-https://github.com/executablebooks/MyST-Parser/issues/445
