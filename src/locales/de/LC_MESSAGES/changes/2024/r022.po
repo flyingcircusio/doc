@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r022.md:5
+msgid "Release 2024_022 (2024-07-22)"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:9
+msgid ""
+"\\[NixOS 24.05] Machines will reboot after the update to activate the  "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:11
+msgid "\\[NixOS 23.11] Percona/MySQL and Gitlab will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:13
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:15 ../../../src/changes/2024/r022.md:39
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132805):"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:16
+msgid "apacheHttpd: 2.4.59 -> 2.4.61"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:17 ../../../src/changes/2024/r022.md:40
+msgid "chromedriver: 126.0.6478.61 -> 126.0.6478.126"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:18 ../../../src/changes/2024/r022.md:41
+msgid "chromium: 126.0.6478.61 -> 126.0.6478.126"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:19
+msgid ""
+"discourse: 3.2.2 -> 3.2.3 (CVE-2024-35227, CVE-2024-35234, "
+"CVE-2024-36113, CVE-2024-36122)"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:20
+msgid "element-web: 1.11.69 -> 1.11.70"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:21
+msgid "firefox: 127.0.2 -> 128.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:22
+msgid "gitlab: 16.11.5 -> 17.1.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:23
+msgid "go: 1.21.11 -> 1.21.12"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:24
+msgid "grafana: 10.4.4 -> 10.4.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:25
+msgid "k3s: 1.30.1+k3s1 -> 1.30.2+k3s2"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:26
+msgid "linux_5_15: 5.15.161 -> 5.15.162"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:27
+msgid "mastodon: 4.2.9 -> 4.2.10 (CVE-2024-37903)"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:28 ../../../src/changes/2024/r022.md:43
+msgid "mysql80: 8.0.36 -> 8.0.37"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:29
+msgid "nodejs_18: 18.20.2 -> 18.20.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:30
+msgid "nss_latest: 3.101 -> 3.101.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:31
+msgid "php82: 8.2.20 -> 8.2.21"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:32
+msgid "php83: 8.3.8 -> 8.3.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:33
+msgid "prometheus: 2.52.0 → 2.53.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:34 ../../../src/changes/2024/r022.md:46
+msgid ""
+"`pkgs.python3Packages.result` was accidentally missing from our shipped "
+"version of nixpkgs. It is available again (PL-132753)."
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:35
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/461765/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:37
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:42
+msgid "grafana: 10.2.7 -> 10.2.8"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:44
+msgid "nix: 2.18.1 -> 2.18.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:45
+msgid "gitlab: security update 16.11.5 -> 16.11.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:47
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/461833/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:49
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:51
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_021/24.05...243ae616c29ba8339efe8c2712e0ee83c45cca27),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/11e806085509a1517f33fe94019d969b13b323a6...41a14fc52d08954ad18d3efb05dc283cba9ce346)"
+msgstr ""
+
+#: ../../../src/changes/2024/r022.md:53
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_021/23.11...49126dd288669debbd15d104155b9cc152d5840f),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/6219d53a07ea47253b08967d3b449e7b28000b2a...d9fbd7e2be156b9081161a2bbd34467ddbea1a1b)"
+msgstr ""
+

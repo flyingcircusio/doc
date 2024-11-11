@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/infrastructure/storage.md:3
 msgid "Virtual Disks / Block Storage"
@@ -24,63 +24,252 @@ msgstr ""
 
 #: ../../../src/infrastructure/storage.md:5
 msgid ""
-"VM storage is provided by a Ceph cluster. Each block device visible in "
-"VMs (e.g., {file}`/dev/vda` or {file}`/dev/sda`) reflects an underlying "
-"Ceph [RBD volume][rbd volume]."
+"VM storage is provided by a Ceph cluster as virtual disks / block "
+"devices. The data in the cluster is transparently encrypted before being "
+"stored onto physical disks, see [](#data-at-rest-encryption) for details."
 msgstr ""
 
 #: ../../../src/infrastructure/storage.md:9
+msgid ""
+"Each virtual disk is visible in VMs as {file}`/dev/vda` and reflects an "
+"underlying Ceph [RBD volume][rbd volume]."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:12
 msgid "Disk Layout"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:11
-msgid ""
-"Each RBD volume contains a complete virtual disk image consisting of a "
-"partition table and one or more filesystems. We use both XFS and ext4 "
-"filesystems in VMs."
-msgstr ""
-
 #: ../../../src/infrastructure/storage.md:14
-msgid "Growing and shrinking disks"
+msgid "VMs are fitted with 3 different virtual disks:"
 msgstr ""
 
 #: ../../../src/infrastructure/storage.md:16
-msgid "Such a virtual disk is quite easy to grow but not so easy to shrink."
+msgid "`/dev/vda`"
 msgstr ""
 
 #: ../../../src/infrastructure/storage.md:18
+msgid ""
+"This disk contains an XFS partition and is mounted to the VFS root(`/`) "
+"and has the nominal size as requested in the VM configuration. The "
+"minimum size is 30 GiB and it contains the operating system as well as "
+"your application and user data."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:23
+msgid ""
+"Depending on the installed software you may need to reserve between 5-15 "
+"GiB of this disk for the operating system. Our use of NixOS has a higher "
+"footprint here than other OSes as we support atomic updates and may need "
+"to keep up to 4 copies of the OS environment in this store at some points"
+" in time."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:29
+msgid "`/dev/vdb`"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:31
+msgid ""
+"This disk contains swap. It is sized depending on your machine's memory "
+"and  is at least 1 GiB or 32 times the square root of your VMs memory."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:34
+msgid ""
+"Swap is only provided to allow the VM some wiggle room if it runs out of "
+"memory in critical situations and allows for some room to interact and "
+"diagnose VMs that are running low on memory. Our VM configuration prefers"
+" to not use swap as much as possible as it impacts performance quite "
+"badly."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "VM memory"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "Swap size"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "1 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "2 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "1.4 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "4 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "8 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "2.8 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "16 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "32 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "5.7 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "64 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:49
+msgid "`/dev/vdc`"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:51
+msgid ""
+"contains an XFS partition used as a bounded `/tmp` filesystem. Some "
+"applications (like MySQl) exercise their use of /tmp based on available "
+"space of this partition and - if mounted to `/` - can cause the disk to "
+"fill up and cause issues for other applications."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:56
+msgid ""
+"If your application needs a larger or more specific amount of temporary "
+"space, create a separate directory in your deployment and point your "
+"application to it by setting the `TMPDIR` environment variable (or use "
+"application specific configuration to adjust this)."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:61
+msgid ""
+"This disk is sized depending on your root disk: it is at least 5 GiB or "
+"the square root of your root disk."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "VM root disk"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "/tmp size"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "10 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "5 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "50 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "7 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "100 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "250 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "15 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "500 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md
+msgid "22 GiB"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:72
+msgid "Migrating disks between storage pools"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:74
+msgid ""
+"We provide multiple storage pools with different performance "
+"characteristics: named HDD and SSD as an indicator of the expected "
+"performance."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:77
+msgid ""
+"VM disks can be migrated between those pools by selecting a new pool. The"
+" VM will detect the change and schedule a maintenance to perform the "
+"migration at a convenient time."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:81
+msgid ""
+"Initialising the migration itself is a short offline operation, but takes"
+" only a few seconds until the VM is then started again. The actual data "
+"migration happens transparently in the background."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:85
+msgid ""
+"To speed up the process you can take the VM offline and online again to "
+"initiate the migration immediately."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:89
+msgid "Growing and shrinking disks"
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:91
+msgid ""
+"Virtual disks can be grown on the fly without shutting down the VM but "
+"shrinking is not supported."
+msgstr ""
+
+#: ../../../src/infrastructure/storage.md:94
 msgid ""
 "When *growing* a virtual disk, we enlarge the underlying RBD volume, "
 "adapt the partition table and resize the main filesystem. This procedure "
 "is fully transpart and can be performed without downtime."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:22
+#: ../../../src/infrastructure/storage.md:98
 msgid ""
-"*Shrinking* a virtual disk is not directly supported. On customer "
-"request, we install a filesystem quota to ensure that no more space is "
-"used than booked. On newer NixOS VMs with XFS filesystems, tools like "
-"{command}`df` report that reduced size correctly. Older Gentoo-based VMs "
-"with ext4 filesystems are not so smart; {command}`df` still reports the "
-"old size even when a quota is installed.  Nonetheless, we will monitor "
-"disk usage on basis of the reduced disk size."
+"*Shrinking* a virtual disk is not supported. To shrink a disk you need to"
+"  provision a new VM and copy the data to a smaller disk."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:32
+#: ../../../src/infrastructure/storage.md:103
 msgid "S3-compatible Object Storage"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:34
+#: ../../../src/infrastructure/storage.md:105
 msgid ""
 "Our Ceph cluster also provides an S3-compatible object storage. Contact "
 "our support to get you started with credentials."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:37
+#: ../../../src/infrastructure/storage.md:108
 msgid "Application Implementation Guidance"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:39
+#: ../../../src/infrastructure/storage.md:110
 msgid ""
 "Object storages are flexible and scalable without having to worry too "
 "much how they store the data. However, long term experience shows that a "
@@ -89,11 +278,11 @@ msgid ""
 "third party applications."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:45
+#: ../../../src/infrastructure/storage.md:116
 msgid "Store the object locations in your application's database"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:47
+#: ../../../src/infrastructure/storage.md:118
 msgid ""
 "The best investment you can make when starting (or evolving) your usage "
 "of S3 storage in your application is to store the specific bucket and "
@@ -102,7 +291,7 @@ msgid ""
 "this:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:59
+#: ../../../src/infrastructure/storage.md:130
 msgid ""
 "This allows you to later decide for a different organization scheme and "
 "change your application's code that generates those bucket names and "
@@ -110,7 +299,7 @@ msgid ""
 "multiple generations of key generation code alive."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:61
+#: ../../../src/infrastructure/storage.md:132
 msgid ""
 "You can then write a (slow) migration script that checks all objects "
 "whether their bucket and id is still the one that your application would "
@@ -118,13 +307,13 @@ msgid ""
 "database and delete the old object, to perform a no-downtime migration."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:63
+#: ../../../src/infrastructure/storage.md:134
 msgid ""
 "Organize your objects using prefixes (use /pictures/1234.jpg instead of "
 "picture1234.jpg)"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:65
+#: ../../../src/infrastructure/storage.md:136
 msgid ""
 "Theoretically you can grow bucket sizes almost infinitely and just throw "
 "objects into it without any structure. However, S3 supports something "
@@ -135,7 +324,7 @@ msgid ""
 "tools (like rclone) can automatically recognize and use."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:73
+#: ../../../src/infrastructure/storage.md:144
 msgid ""
 "See details about using prefixes in S3 in the original documentation "
 "(https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-"
@@ -143,14 +332,14 @@ msgid ""
 "bytes!"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:77
+#: ../../../src/infrastructure/storage.md:148
 msgid ""
 "Within a bucket your could use a \"per client\" and/or \"per type\" "
 "hierarchy, e.g. \"<customer>/<type>/<objectid>\" that would result in "
 "\"acme/pictures/1234.jpg\"."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:79
+#: ../../../src/infrastructure/storage.md:150
 msgid ""
 "An alternative sharding criterion if your data does not have a native "
 "hierarchy is to extract a prefix from within the name. If your data has "
@@ -158,30 +347,30 @@ msgid ""
 " sharding layer. Consider this list of files:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:100
+#: ../../../src/infrastructure/storage.md:171
 msgid "Which could be organized with the first 5 characters as a sharding layer:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:121
+#: ../../../src/infrastructure/storage.md:192
 msgid ""
 "If your data does not have sufficient randomness in this way you can "
 "generate a sharding layer by hashing your filenames and using the first "
 "few characters:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:132
+#: ../../../src/infrastructure/storage.md:203
 msgid ""
 "This would result in the following sharding structure that distributes "
 "quite evenly on the first layer:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:163
+#: ../../../src/infrastructure/storage.md:234
 msgid ""
 "Be aware of the global bucket namespace (suffix your buckets with short "
 "uuids – \"app-2022-d7b54fd\")"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:165
+#: ../../../src/infrastructure/storage.md:236
 msgid ""
 "S3 considers the bucket namespace to be global \"within a partition\". "
 "This means that you must not rely in specific bucket names to be "
@@ -189,7 +378,7 @@ msgid ""
 " information."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:169
+#: ../../../src/infrastructure/storage.md:240
 msgid ""
 "Our recommendation is to use a combination of your applications name, the"
 " sharding criteria and a short random uuid (7 hexdigits) and be prepared "
@@ -197,7 +386,7 @@ msgid ""
 "another account. Examples of good bucket names:"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:179
+#: ../../../src/infrastructure/storage.md:250
 msgid ""
 "Due to the inclusion of a random uuid you will also need to store the "
 "specific bucket names that you have created in your application's "
@@ -205,13 +394,13 @@ msgid ""
 "is named \"myapp-X-2022-54fdb32\")."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:184
+#: ../../../src/infrastructure/storage.md:255
 msgid ""
 "Limit total bucket size (organize buckets with \"app-2022\" or \"app-"
 "customer1\")"
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:186
+#: ../../../src/infrastructure/storage.md:257
 msgid ""
 "Another layer to make things more manageable is to create new buckets to "
 "restrict a single bucket's total size (number of objects and data size). "
@@ -221,7 +410,7 @@ msgid ""
 "customer data separation requirements."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:193
+#: ../../../src/infrastructure/storage.md:264
 msgid ""
 "Buckets are a failure domain in the sense that they maintain an internal "
 "index. If this index becomes corrupt (which happens very rarely but has "
@@ -231,20 +420,20 @@ msgid ""
 "other operations that rely on the index (like backups) while rebuilding."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:200
+#: ../../../src/infrastructure/storage.md:271
 msgid ""
 "Also, if your customer requires a high level of data separation then it "
 "might be reasonable to create a bucket per customer."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:203
+#: ../../../src/infrastructure/storage.md:274
 msgid ""
 "In general our recommendation is: if you don't have a per-customer "
 "separation requirement, then default to splitting your buckets on a time "
 "basis, if you don't know better, then create a new bucket every year."
 msgstr ""
 
-#: ../../../src/infrastructure/storage.md:207
+#: ../../../src/infrastructure/storage.md:278
 msgid ""
 "Amazon hints that their default limit for number of buckets per customer "
 "is 100, so creating a bucket structure that ends up with only few objects"
@@ -280,5 +469,41 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Storage"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "VM storage is provided by a Ceph"
+#~ " cluster. Each block device visible "
+#~ "in VMs (e.g., {file}`/dev/vda` or "
+#~ "{file}`/dev/sda`) reflects an underlying Ceph"
+#~ " [RBD volume][rbd volume]."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each RBD volume contains a complete "
+#~ "virtual disk image consisting of a "
+#~ "partition table and one or more "
+#~ "filesystems. We use both XFS and "
+#~ "ext4 filesystems in VMs."
+#~ msgstr ""
+
+#~ msgid "Such a virtual disk is quite easy to grow but not so easy to shrink."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Shrinking* a virtual disk is not "
+#~ "directly supported. On customer request, "
+#~ "we install a filesystem quota to "
+#~ "ensure that no more space is used"
+#~ " than booked. On newer NixOS VMs "
+#~ "with XFS filesystems, tools like "
+#~ "{command}`df` report that reduced size "
+#~ "correctly. Older Gentoo-based VMs with"
+#~ " ext4 filesystems are not so smart;"
+#~ " {command}`df` still reports the old "
+#~ "size even when a quota is "
+#~ "installed.  Nonetheless, we will monitor "
+#~ "disk usage on basis of the reduced"
+#~ " disk size."
 #~ msgstr ""
 

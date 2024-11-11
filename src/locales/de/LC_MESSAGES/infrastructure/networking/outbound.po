@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/infrastructure/networking/outbound.md:3
+msgid "Outbound connectivity from VMs"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:5
+msgid ""
+"How outbound connectivity from a VM to external hosts outside of the "
+"Flying Circus works depends on the network configuration for that VM:"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:8
+msgid ""
+"VMs can always connect to remote IPv6 destinations directly, as all VMs "
+"are assigned public IPv6 addresses."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:11
+msgid ""
+"If a VM has a public IPv4 address, then it can connect to remote IPv4 "
+"destinations directly."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:14
+msgid ""
+"If a VM does *not* have a public IPv4 address available, then we perform "
+"network address translation (NAT) on our site border routers, to ensure "
+"that a public address is used as the source address of connections "
+"outside of our network."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:19
+msgid ""
+"We use a fixed set of addresses as NAT source addresses for outbound IPv4"
+" connections in each location."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:22
+msgid "**RZOB** (Production datacenter):"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:23
+msgid "195.62.112.82"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:24
+msgid "195.62.112.83"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:25
+msgid "195.62.112.90"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:26
+msgid "195.62.112.91"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:27
+msgid "**WHQ** (Backup and staging datacenter):"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/outbound.md:28
+msgid "213.187.81.2"
+msgstr ""
+

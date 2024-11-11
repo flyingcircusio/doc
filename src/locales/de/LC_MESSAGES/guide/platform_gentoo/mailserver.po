@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:3
+msgid "Mail server"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:5
+msgid ""
+"Provides an MTA (Mail Transfer Agent) to process incoming and outgoing "
+"customer emails."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:8
+msgid "Components"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:10
+msgid "Postfix"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:11
+msgid "policyd-weight"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:12
+msgid "postgrey"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:13
+msgid "AMaViS"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:14
+msgid "SpamAssassin"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:16
+msgid "Configuration"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:18
+msgid ""
+"Overrule/extend standard system aliases in {file}`/etc/mail/local-"
+"aliases`."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:20
+msgid ""
+"There are various maps in {file}`/etc/mail` that allow customizing mail "
+"delivery and access control. User-customizable maps include:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:23
+msgid "access-client"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:24
+msgid "access-helo"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:25
+msgid "access-recipient"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:26
+msgid "access-sender"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:27
+msgid "canonical"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:28
+msgid "canonical.pcre"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:29
+msgid "external-networks"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:30
+msgid "local-aliases"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:31
+msgid "relay-domains"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:32
+msgid "transport"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:33
+msgid "virtual-aliases"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:35
+msgid ""
+"The host name announced in HELO can be set in "
+"{file}`/etc/postfix/myhostname`. Please note that DNS records "
+"(forward/reverse) must be in place before changing this file."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:39
+msgid ""
+"Customizations to main.cf parameters can be written into "
+"{file}`/etc/postfix/main.d/40_local.cf`. It is also OK to create new "
+"files in the form {file}`/etc/postfix/main.d/{NN_NAME}.cf`."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:43
+msgid "Sending mail from applications"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:45
+msgid ""
+"Mails should generally be injected via the *submission* port (587). Port "
+"25 is reserved for incoming mail delivery. Specifically, delivery to port"
+" 25 may result in a temporary failure (4xx response codes) and must be "
+"retried. Mails submitted via port 587 are always spooled by the mail "
+"server."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:50
+msgid ""
+"By default, mails from localhost are accepted without authentication. To "
+"submit mails from other hosts, choose one of two options:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:53
+msgid ""
+"Set SMTP AUTH credentials on the mail server using {command}`sudo "
+"saslpasswd2 {USERNAME}` and let submission clients authenticate against "
+"the mail server (preferred)."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:56
+msgid ""
+"List IP addresses or CIDR networks in {file}`/etc/mail/external-"
+"networks`. Mail submission from one of the listed addresses will proceed"
+"  without authentication."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:60
+msgid "Forwarding mail to applications"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:62
+msgid ""
+"Custom pipe transports are generated automatically for each service user "
+"following the naming scheme \"user-*username*\". For example, if the "
+"service user *webapp* is defined, there is a pipe transport named `user-"
+"webapp`. It delivers mails by calling {file}`{HOME}/bin/deliver` in the "
+"respective service users' home directory."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:68
+msgid ""
+"Use {file}`/etc/mail/transport` rules to forward mails to user-specific "
+"transports. For example, a transport line"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:75
+msgid ""
+"causes all mails sent to a virtual domain being piped into the executable"
+" {file}`~webapp/bin/deliver`. The local delivery script is called for "
+"every incoming mail with the parameters"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:84
+msgid ""
+"Set `user-USER_destination_recipient_limit = 1` in "
+"{file}`/etc/postfix/main.d/40_local.cf` to avoid delivery to multiple "
+"recipients."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:89
+msgid ""
+"All other aspects like local mail server names etc. must be configured by"
+" an administrator."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:92
+msgid "DNS Setup"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:94
+msgid ""
+"Mail servers require a special DNS setup. Please check with our "
+"{ref}`support` that the following conditions hold. Unclean DNS setups may"
+" cause bad anti-spam scorings on remote mail servers."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:98
+msgid "Mail server name (HELO name)"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:100
+msgid ""
+"Each mail server must have a distinguished own name (HELO name) which "
+"configured as MX of the server's virtual domains and known internally as "
+"`myhostname`. In the following examples, the mail server's name is "
+"`mail.test.fcio.net`."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:104
+#: ../../../src/guide/platform_gentoo/mailserver.md:122
+msgid "DNS configuration:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:110
+msgid "Local configuration:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:117
+msgid "IP addresses"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:119
+msgid ""
+"The forward and reverse resolution of the mail server's frontend "
+"addresses must match exactly its HELO name."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:132
+msgid "Postfix configuration:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:139
+msgid "Greylisting"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:141
+msgid ""
+"By default external mail servers have to pass [greylisting] when "
+"delivering mail for the first time. Service users may whitelist specific "
+"clients or recipients by setting a whiteliste rule in "
+"{file}`/etc/postfix/postgrey_whitelist_clients.local` or "
+"{file}`/etc/postfix/postgrey_whitelist_recipients.local` as described on "
+"the [postgrey man page]."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:148
+msgid ""
+"To put changes into effect, invoke {command}`sudo /etc/init.d/postgrey "
+"restart` as service user."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:151
+msgid "Interaction"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:153
+msgid ""
+"To put changed postfix maps and aliases into effect, invoke "
+"{command}`sudo /etc/init.d/postfix reload` as service user."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:155
+msgid ""
+"Use {command}`sudo saslpasswd2` to edit the Postfix authentication "
+"database as service user. (see {manpage}`saslpasswd2(8)`). Note that the "
+"{literal}`-f` option is not allowed. Use {command}`sudo sasldblistusers2`"
+" to inspect the SASL authentication database."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:160
+msgid ""
+"If the {ref}`antivirus` role is also present on the same VM, all mails "
+"are automatically scanned for viruses. If the antivirus role is not "
+"present, mails are only scanned for spam."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:164
+msgid "Monitoring"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:166
+msgid "An extensive range on checks is provided by default, including:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:168
+msgid "process checks"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:169
+msgid "port checks for SMTP"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:170
+msgid "rejection checks for spam and virus mails"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/mailserver.md:171
+msgid "stale postfix maps"
+msgstr ""
+

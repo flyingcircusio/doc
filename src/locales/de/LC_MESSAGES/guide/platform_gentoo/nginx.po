@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/platform_gentoo/nginx.md:3
+msgid "Web gateway"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:5
+msgid "Description"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:7
+msgid "Installs services needed for a public facing web server."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:9
+msgid "Components"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:11
+msgid "{ref}`nginx`"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:12
+msgid "{ref}`modsecurity`"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:13
+msgid "{ref}`awstats`"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:17
+msgid "nginx"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:19
+msgid "Interaction"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:21
+msgid ""
+"Service users may invoke {command}`sudo /etc/init.d/nginx "
+"{reload,restart}` to activate updated nginx configurations."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:24
+#: ../../../src/guide/platform_gentoo/nginx.md:152
+msgid "Configuration"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:26
+msgid "Virtual hosts"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:28
+msgid ""
+"We provide a basic nginx configuration, but do not define virtual hosts. "
+"Service users may create individual config files in "
+"{file}`/etc/nginx/local` that will be included in a `http` context."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:32
+msgid ""
+"The file {file}`/etc/nginx/local/example-configuration` may serve as a "
+"start. Copy this file to something like "
+"{file}`/etc/nginx/local/{vhost}.conf` and edit it. You must at least:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:36
+msgid "replace *www.example.com* with the action virtual host name"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:37
+msgid "adapt the proxy statements to match your application."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:39
+msgid "Anonymization"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:41
+msgid ""
+"If you want IP addresses (IPv4 and IPv6) in nginx log files to be "
+"anonymized, use the log format \"anonymized\" by adding the following "
+"line inside your *server* declaration block:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:49
+msgid ""
+"This way, only a /24 prefix for IPv4 addresses and a /48 prefix for IPv6 "
+"addresses will be logged."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:52
+msgid ""
+"nginx' error log in {file}`/var/log/nginx/error.log` can not be "
+"anonymized this way. You can, however, modify it's log level (or turn off"
+" the error log completely) by overriding the "
+"[error_log](http://nginx.org/en/docs/ngx_core_module.html#error_log) "
+"directive `outside` your server declaration block."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:57
+msgid "Performance logging"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:59
+msgid ""
+"In addition to the normal access log files found in "
+"{file}`/var/log/nginx/{site}.access_log` (common log format), nginx logs "
+"performance data for each request. There is a single log file "
+"{file}`/var/log/nginx/performance.log` which has lines consisting of the "
+"following fields:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:65
+msgid "request time in ISO 8601 format"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:66
+msgid "request identifier (see {ref}`nginx-req-id` below)"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:67
+msgid "HTTP method"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:68
+msgid "full URL in the form \"SCHEME://HOST/URI\\*\""
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:69
+msgid "request status"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:70
+msgid "length (bytes) of the response sent to the client"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:71
+msgid "length (bytes) of the request received from the client"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:72
+msgid "**p** if the request was pipelined, **-** otherwise"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:73
+msgid ""
+"total request time (from receiving the first byte until sending the last "
+"byte)"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:75
+msgid ""
+"comma-separated list of upstream request processing times (several items "
+"may be logged in case of upstream retries)"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:77
+msgid "mod_gzip compression ratio or **-** if no compression took place."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:79
+msgid "Example log line:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:85
+msgid "Example [Pandas](http://pandas.pydata.org/) data import:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:96
+msgid "Example [PostgreSQL](http://www.postgresql.org/) data import:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:119
+msgid "Request IDs"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:121
+msgid ""
+"`nginx` assigns each HTTP request a unique id. In the default "
+"configuration, the id gets logged to `performance.log` and passed to "
+"upstream servers in the `X-Nginx-Id` request header."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:125
+msgid ""
+"See {file}`/etc/nginx/nginx.conf` for details. Users who configure their "
+"own `proxy_set_header` directives should be aware that they have to set "
+"this header on their own if needed."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:130
+msgid ""
+"Request ids are not guaranteed to be unique forever. It is reasonable to "
+"assume that request ids will not repeat on the same host on the same day."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:134
+msgid "Monitoring"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:136
+msgid "By default, the presence of nginx processes is checked."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:137
+msgid ""
+"To get checks for individual web pages (presence, specific content, "
+"response time), please notify the support."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:140
+msgid "Testing"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:142
+msgid ""
+"To test your settings, e.g. to ensure you did not introduce some syntax "
+"error, you can use {command}`sudo /etc/init.d/nginx configtest`."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:147
+msgid "mod_security"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:149
+msgid ""
+"The open-source web application firewall "
+"[mod_security](http://modsecurity.org/) is included on all web gateways. "
+"In the default configuration, however, it is inactive."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:154
+msgid ""
+"To activate `mod_security`, enable it in a nginx configuration section "
+"(e.g., `server` or `location`):"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:162
+msgid ""
+"This system-wide configuration file contains some useful defaults like "
+"activating the base rule set etc. Initially, `mod_security` runs in "
+"report-only mode. Additional configuration like switching to policing "
+"mode or including custom rule sets goes into "
+"{file}`/etc/nginx/modsecurity/local.conf`. Service users can also put "
+"completely different mod_security configuration files into the "
+"{file}`/etc/nginx/modsecurity` directory and use these in place of the "
+"default configuration file."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:170
+msgid "Log files"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:172
+msgid ""
+"All `mod_security` events are logged into a directory hierarchy under "
+"{file}`/var/log/nginx/modsec_audit`. Each event is written to a new file."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:175
+msgid ""
+"Log directories which are more than a day old are archived as tarballs "
+"under {file}`/var/log/nginx/modsec_audit_{DATE}.tar.xz` and are subject "
+"to normal log retention."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:181
+msgid "AWStats"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:183
+msgid ""
+"The system generates awstats configuration files automatically for every "
+"vhost configured in nginx. awstats configuration generally goes into "
+"{file}`/etc/awstats/vhosts.d` and individual configuration files follow "
+"the naming convention {file}`awstats.{VHOST}.conf`."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:188
+msgid ""
+"awstats configuration for individual vhosts can be augmented with custom "
+"configuration. Just put it into "
+"{file}`/etc/awstats/vhosts.d/local.{VHOST}.conf` and it will be picked up"
+" during the next awstats run."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:192
+msgid ""
+"Application deployments may install configuration files for additional "
+"vhosts or replace the system-generated awstats configuration altogether. "
+"To do this, remove the system-generated configuration files (which belong"
+" to the `awstats` user) and replace them with files owned by an service "
+"user. Such files will not be touched by the automatic configuration "
+"update."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:198
+msgid ""
+"Web statistics generated on a VM can be accessed through the [My Flying "
+"Circus](https://my.flyingcircus.io) dashboard."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/nginx.md:201
+msgid ""
+"By default, a list of all configured vhosts is presented. The "
+"presentation can be adjusted by creating {file}`/etc/awstats/pages.cfg`. "
+"See the comments in {file}`/srv/www/localhost/cgi-bin/stats.cgi` for "
+"details."
+msgstr ""
+

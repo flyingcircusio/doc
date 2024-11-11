@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/infrastructure/vms/index.md:13
 msgid "Virtual machines"
@@ -39,9 +39,9 @@ msgstr ""
 #: ../../../src/infrastructure/vms/index.md:21
 msgid ""
 "Packages are installed through the managed components globally or in your"
-" service user using the `nix-env` utility. You are also free to compile "
-"things in your service users' home, however, on NixOS this can have "
-"suprising effects - talk to us if you need to do that."
+" service user using Nix. You are also free to compile things in your "
+"service users' home. However, on NixOS, this can have suprising effects -"
+" talk to us if you need to do that."
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:25
@@ -202,7 +202,7 @@ msgid "Purge"
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:96
-msgid "(t+8 days)"
+msgid "(t+32 days)"
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:98
@@ -241,5 +241,19 @@ msgstr ""
 #~ msgid ""
 #~ "30GiB-10+TiB disk (note that filesystems "
 #~ "become unwieldy at a certain size)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Packages are installed through the "
+#~ "managed components globally or in your"
+#~ " service user using the `nix-env` "
+#~ "utility. You are also free to "
+#~ "compile things in your service users'"
+#~ " home, however, on NixOS this can "
+#~ "have suprising effects - talk to "
+#~ "us if you need to do that."
+#~ msgstr ""
+
+#~ msgid "(t+8 days)"
 #~ msgstr ""
 

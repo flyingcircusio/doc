@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r016.md:5
+msgid "Release 2024_016 (2024-05-23)"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:9
+msgid "LAMP/PHP applications (PHP 8.2, PHP 8.3) and Keycloak will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:13
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132551):"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:14
+msgid "chromedriver: 124.0.6367.91 -> 124.0.6367.201"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:15
+msgid "chromium: 124.0.6367.118 -> 124.0.6367.201"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:16
+msgid "github-runner: 2.316.0 -> 2.316.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:17
+msgid "nss_latest: 3.99 -> 3.100"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:18
+msgid "php82: 8.2.18 -> 8.2.19"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:19
+msgid "php83: 8.3.6 -> 8.3.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:20
+msgid ""
+"Additional security update not covered by upstream NixOS changes "
+"(PL-132551):"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:21
+msgid "keycloak: 23.0.6 -> 24.0.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:22
+msgid ""
+"Fix statically configured time server (NTP) names. This was already "
+"released as production hotfix on 2024-05-20."
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:23
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/427040/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:25
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r016.md:27
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_015/23.11...6b3596594ff47e72e0bb11e663dbf4da22889517),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/74af142a49fdd56119868d5d77cac55801b2953a...2b151fba3ac708c04ae98c0bd2e4efd18869e80d)"
+msgstr ""
+

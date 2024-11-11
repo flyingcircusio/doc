@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r013.md:5
+msgid "Release 2024_013 (2024-04-23)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:9
+msgid ""
+"\\[NixOS 23.11\\] Machines will reboot after the update to activate the  "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:12
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:14
+msgid "**lamp** role: support for php-8.3. Introduces new package `lamp_php83`."
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:15
+msgid "mysql/percona: add **percona81** role."
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:16
+msgid "tideways_module: 5.5.14 -> 5.7.4 (for php-8.3 support)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:17
+msgid ""
+"Clean up the location-specific nameservers: instead of using multiple "
+"machine-specific addresses, we now only select a single IP which "
+"corresponds to a highly available virtual IP on our routers. This reduces"
+" the potential for inconsistent settings that may result in sub-optimal "
+"performance on some applications, like nginx resolvers (PL-132394)."
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:22
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132372):"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:23
+msgid ""
+"apacheHttpd: 2.4.58 -> 2.4.59 (CVE-2024-27316, CVE-2024-27316 and "
+"CVE-2023-38709)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:24
+msgid "chromedriver: 123.0.6312.86 -> 123.0.6312.122"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:25
+msgid "coreutils: apply patch for CVE-2024-0684"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:26
+msgid "curl: apply patches for CVE-2024-2398 and CVE-2024-2004"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:27
+msgid "element-web: 1.11.61 -> 1.11.64"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:28
+msgid "firefox: 124.0.1 -> 124.0.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:29
+msgid "gitlab-container-registry: 3.90.0 -> 3.92.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:30
+msgid "gitlab-runner: 16.9.1 -> 16.10.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:31
+msgid "gitlab: 16.9.3 -> 16.10.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:32
+msgid "go: 1.21.8 -> 1.21.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:33
+msgid "libressl: 3.8.2 -> 3.8.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:34
+msgid "linux_5_15: 5.15.152 -> 5.15.155"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:35
+msgid "matrix-synapse: 1.103.0 -> 1.104.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:36
+msgid "nodejs_21: 21.6.2 -> 21.7.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:37
+msgid "openjpeg: 2.5.0 -> 2.5.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:38
+msgid "php81: 8.1.27 -> 8.1.28 (CVE-2024-2756, CVE-2024-3096)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:39
+msgid "php82: 8.2.17 -> 8.2.18 (CVE-2024-2756, CVE-2024-3096)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:40
+msgid "php83: 8.3.4 -> 8.3.6 (CVE-2024-2756, CVE-2024-2757, CVE-2024-3096)"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:41
+msgid "podman: add patch for CVE-2024-1753"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:42
+msgid "python310: 3.10.13 -> 3.10.14"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:43
+msgid "systemd: 254.6 -> 254.10"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:44
+msgid "webkitgtk: 2.42.5 → 2.44.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:45
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/410766/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:48
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r013.md:50
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_012/23.11...dfeb09dacfdb236fc117f205e5012074382f7ec9),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/828c9768fa53d526b1828854a59b1f74eff51f16...a7d730a3346ec321b47f36094d315a8d97e34bf8)"
+msgstr ""
+

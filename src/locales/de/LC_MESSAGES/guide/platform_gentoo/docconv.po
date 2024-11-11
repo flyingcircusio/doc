@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/platform_gentoo/docconv.md:7
+msgid "Document converters"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:9
+msgid ""
+"This role provides various utilities that are needed for common document "
+"processing tasks."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:12
+msgid "Components"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:14
+msgid "Abiword"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:15
+msgid "Aspell with German and English dictionaries"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:16
+msgid "Ghostscript, Poppler"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:17
+msgid "qpdf, pdftk"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:18
+msgid "ImageMagick"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:19
+msgid "WVware"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:20
+msgid "tesseract OCR"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:21
+msgid "supporting stuff like fonts"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:23
+msgid "Configuration"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:25
+msgid "There are currently no user-configurable parts."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:27
+msgid "Interaction"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:29
+msgid ""
+"No services running - just invoke the utilities from scripts or "
+"application code."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:32
+msgid "Monitoring"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/docconv.md:34
+msgid "No monitoring by default."
+msgstr ""
+

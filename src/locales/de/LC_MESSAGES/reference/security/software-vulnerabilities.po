@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/reference/security/software-vulnerabilities.md:7
 msgid "Software vulnerabilities"
@@ -70,51 +70,68 @@ msgid "We might take other actions not listed here, depending on the situation."
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:28
-msgid "NixOS 22.11 (upcoming)"
+msgid "NixOS 24.05 (upcoming)"
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:30
+msgid ""
+"This is the currently actively developed NixOS release that receives "
+"timely security updates."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:33
+msgid "We update our platform frequently to follow upstream development."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:35
+msgid "NixOS 23.11 (current)"
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:37
 msgid ""
 "This is the currently actively maintained NixOS release that receives "
 "timely security updates."
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:33
+#: ../../../src/reference/security/software-vulnerabilities.md:40
 msgid ""
 "We update our platform with security updates every 2 weeks, but may "
 "update intermittently if high risk vulnerabilities become known."
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:36
-msgid "NixOS 22.05 (current)"
+#: ../../../src/reference/security/software-vulnerabilities.md:43
+msgid "NixOS 23.05 and older (outdated)"
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:38
-msgid ""
-"The NixOS community has stopped support for this distribution but we "
-"monitor security updates received on the 22.11 branch for potential "
-"backports in high risk situations."
-msgstr ""
-
-#: ../../../src/reference/security/software-vulnerabilities.md:42
-msgid "NixOS 21.11 and older (outdated)"
-msgstr ""
-
-#: ../../../src/reference/security/software-vulnerabilities.md:44
+#: ../../../src/reference/security/software-vulnerabilities.md:45
 msgid ""
 "No security updates are provided. Customers in need of guaranteed "
-"security updates are advised to update to NixOS 22.05"
+"security updates are advised to update to NixOS 23.11"
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:47
-msgid "Gentoo (outdated)"
+#: ../../../src/reference/security/software-vulnerabilities.md:48
+msgid "NixOS 21.05 (outdated)"
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:49
+#: ../../../src/reference/security/software-vulnerabilities.md:50
 msgid ""
-"We provide selective security updates by reviewing the published list of "
-"Gentoo Linux Security Advisories (GLSA) every 2 months and selecting "
-"critical security updates where necessary."
+"We are currently using NixOS 21.05 as our hardware platform due to "
+"interlocking reasons to update some of the lower level infrastructure. We"
+" apply security updates as needed for the components used."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:54
+msgid "Customers are not receiving security updates on 21.05 any longer."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:56
+msgid "Gentoo (retired)"
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:58
+msgid ""
+"We do not provide security updates for this platform any longer. "
+"Customers have been informed about the sunsetting of Gentoo since 2018."
 msgstr ""
 
 #~ msgid ""
@@ -163,5 +180,40 @@ msgstr ""
 #~ "Customers in need of guaranteed security"
 #~ " updates are advised to update to "
 #~ "NixOS 19.03."
+#~ msgstr ""
+
+#~ msgid "NixOS 22.11 (upcoming)"
+#~ msgstr ""
+
+#~ msgid "NixOS 22.05 (current)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The NixOS community has stopped support"
+#~ " for this distribution but we monitor"
+#~ " security updates received on the "
+#~ "22.11 branch for potential backports in"
+#~ " high risk situations."
+#~ msgstr ""
+
+#~ msgid "NixOS 21.11 and older (outdated)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No security updates are provided. "
+#~ "Customers in need of guaranteed security"
+#~ " updates are advised to update to "
+#~ "NixOS 22.05"
+#~ msgstr ""
+
+#~ msgid "Gentoo (outdated)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We provide selective security updates by"
+#~ " reviewing the published list of "
+#~ "Gentoo Linux Security Advisories (GLSA) "
+#~ "every 2 months and selecting critical"
+#~ " security updates where necessary."
 #~ msgstr ""
 

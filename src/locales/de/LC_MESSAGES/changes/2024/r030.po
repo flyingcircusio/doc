@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r030.md:5
+msgid "Release 2024_030 (2024-10-28)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:9
+msgid "[NixOS 24.05] The following core services will be restarted:"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:10
+msgid "mysql"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:11
+msgid "grafana"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:13
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:15
+msgid ""
+"VMs will now automatically schedule reboots during maintenance when "
+"changes in KVM parameters such as CPU flags or VM backing storage (i.e. "
+"SSD or HDD) are detected (PL-131857)."
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:16
+msgid ""
+"percona84: new role providing percona-8.4.0.1 and the corresponding "
+"percona-xtrabackup (PL-132970)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:17
+msgid ""
+"percona83: The version is end-of-life and won't receive any updates "
+"anymore, we recommend upgrading to the percona84 role (PL-132970)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:18
+msgid ""
+"role and package continue to be provided by the Flyingcircus Platform "
+"throughout the release"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:19
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates: "
+"(PL-133101)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:20
+msgid ""
+"chromium: 129.0.6668.70 -> 129.0.6668.100 (https://github.com/advisories"
+"/GHSA-4v8q-vp3v-vvxh, https://github.com/advisories/GHSA-92m3-m5pw-p2x9, "
+"CVE-2024-7025, CVE-2024-9369 CVE-2024-9370)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:22
+msgid "element-web: 1.11.79 -> 1.11.81"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:23
+msgid ""
+"firefox: 130.0.1 -> 131.0.3 (https://github.com/advisories/GHSA-hm3j-"
+"qgpw-pj98)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:24
+msgid "github-runner: 2.319.1 -> 2.320.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:25
+msgid ""
+"gitlab: 17.2.8 -> 17.2.9 (https://github.com/advisories/GHSA-xc4q-wvjc-"
+"4v56, https://github.com/advisories/GHSA-fh2j-rw8g-c7f3, "
+"https://github.com/advisories/GHSA-ccj4-qhw4-4rrm, CVE-2024-9631 "
+"https://github.com/advisories/GHSA-m9cp-4p2h-f9p9, "
+"https://github.com/advisories/GHSA-m8gr-q643-3q88, "
+"https://github.com/advisories/GHSA-58jq-vjfq-8v45, "
+"https://github.com/advisories/GHSA-r4v6-vp2q-qh25)"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:26
+msgid "gitlab-container-registry: 4.9.0 -> 4.10.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:27
+msgid "grafana: 10.4.9 -> 10.4.10"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:28
+msgid "keycloak: 24.0.5 -> 25.0.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:29
+msgid "keycloak: enable hostname:v1 feature by default"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:30
+msgid "matrix-synapse: 1.116.0 -> 1.117.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:31
+msgid ""
+"Media repository workers handling Media APIs can now handle additional "
+"endpoint patterns https://github.com/element-"
+"hq/synapse/blob/develop/docs/upgrade.md#new-worker-endpoints-for-"
+"authenticated-client-and-federation-media"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:32
+msgid "nginxMainline: 1.27.1 -> 1.27.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:33
+msgid "percona80: 8.0.36-28 -> 8.0.37-29"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:34
+msgid "percona-server_innovation: 8.3.0-1 -> 8.4.0-1"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:35
+msgid "percona84: init at 8.4.0-1"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:36
+msgid "percona-xtrabackup_8_0: 8.0.35-30 -> 8.0.35-31"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:37
+msgid "percona-xtrabackup_innovation: 8.3.0-1 -> 8.4.0-1"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:38
+msgid "zoneminder: 1.36.33 -> 1.36.34"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:41
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r030.md:43
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_029/24.05...4f0b572eb1cc9d0b077b3e686263bed0d9ea9ff2),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/1a4ac073de5f6c533f3929c97994125a60d68a29...f4f7b96b213014c55cc2a54c4cdb771c244a7308)"
+msgstr ""
+

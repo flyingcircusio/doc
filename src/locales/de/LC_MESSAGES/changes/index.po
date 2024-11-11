@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/changes/index.md:3
-msgid "ChangeLog"
+msgid "Changelog"
 msgstr ""
 
 #: ../../../src/changes/index.md:5
@@ -29,5 +29,8 @@ msgid ""
 msgstr ""
 
 #~ msgid "You can subscribe to our `RSS feed of changes <../../rss.xml>`_."
+#~ msgstr ""
+
+#~ msgid "ChangeLog"
 #~ msgstr ""
 

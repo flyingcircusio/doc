@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r019.md:5
+msgid "Release 2024_019 (2024-06-24)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:9
+msgid ""
+"\\[NixOS 23.11] Machines will schedule a maintenance reboot to activate "
+"the updated kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:13
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132692):"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:14
+msgid "asterisk: 20.5.2 -> 20.8.1 (CVE-2024-35190)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:15
+msgid "chromedriver: 125.0.6422.78 -> 125.0.6422.141"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:16
+msgid "chromium: 125.0.6422.112 -> 125.0.6422.141"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:17
+msgid ""
+"git: 2.42.0 -> 2.42.2 (CVE-2024-32002, CVE-2024-32004, CVE-2024-32465, "
+"CVE-2024-32020, CVE-2024-32021)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:19
+msgid "gitlab: 16.10.6 -> 16.10.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:20
+msgid ""
+"glibc: 2.38-66 -> 2.38-77 (CVE-2024-33599, CVE-2024-33600, "
+"CVE-2024-33601, CVE-2024-33602)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:22
+msgid "github-runner: 2.316.1 -> 2.317.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:23
+msgid "go: 1.21.9 -> 1.21.10"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:24
+msgid "grafana: 10.2.6 -> 10.2.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:25
+msgid "libxml2: 2.11.7 -> 2.11.8 (CVE-2024-34459)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:26
+msgid "linux_5_15: 5.15.159 -> 5.15.160"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:27
+msgid "mastodon: 4.2.8 -> 4.2.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:28
+msgid "matrix-synapse: 1.107.0 -> 1.108.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:29
+msgid ""
+"nginxMainline: 1.25.4 -> 1.25.5 (CVE-2024-32760, CVE-2024-31079, "
+"CVE-2024-35200, CVE-2024-34161)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:31
+msgid "nss_latest: 3.100 -> 3.101"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:32
+msgid ""
+"php81: 8.1.28 -> 8.1.29 (CVE-2024-4577, CVE-2024-5458, CVE-2024-2408, "
+"CVE-2024-5585)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:34
+msgid ""
+"php82: 8.2.19 -> 8.2.20 (CVE-2024-4577, CVE-2024-5458, CVE-2024-2408, "
+"CVE-2024-5585)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:36
+msgid ""
+"php83: 8.3.7 -> 8.3.8 (CVE-2024-4577, CVE-2024-5458, CVE-2024-2408, "
+"CVE-2024-5585)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:38
+msgid "phpPackages.composer: 2.7.6 -> 2.7.7 (CVE-2024-35241, CVE-2024-3524)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:39
+msgid ""
+"postgresql: 12.18 -> 12.19, 13.14 -> 13.15, 14.11 -> 14.12, 15.6 -> 15.7,"
+" 16.2 -> 16.3 (CVE-2024-4317)"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:40
+msgid "ruby_3_2: 3.2.3 -> 3.2.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:41
+msgid "util-linux: backport patch for CVE-2024-28085"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:42
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/443808/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:45
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r019.md:47
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_017/23.11... "
+"0d9defa6c4d6d4434387f9059abfec952e0b058c), [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c7a78f96557f5ab6144173d69866658973a88b41...c7db71f5e6bbec6d50187b752095c29f749a6a7b)"
+msgstr ""
+

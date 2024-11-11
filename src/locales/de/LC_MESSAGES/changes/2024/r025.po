@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r025.md:5
+msgid "Release 2024_025 (2024-08-19)"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:9
+msgid ""
+"\\[NixOS 24.05] Machines will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:12
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:14
+msgid ""
+"Updated documentation URLs in role README files to point to the correct "
+"platform version (PL-132885)."
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:16
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132908):"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:17
+msgid "asterisk: 20.8.1 -> 20.9.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:18
+msgid "chromedriver: 126.0.6478.182 -> 127.0.6533.72"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:19
+msgid "chromium: 126.0.6478.182 -> 127.0.6533.72"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:20
+msgid "curl: fix CVE-2024-6197"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:21
+msgid "discourse: 3.2.4 -> 3.2.5 (CVE-2024-37165, CVE-2024-39320, CVE-2024-37299)"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:22
+msgid "element-web: 1.11.71 -> 1.11.73"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:23
+msgid "github-runner: 2.317.0 -> 2.319.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:24
+msgid "imagemagick: 7.1.1-35 -> 7.1.1-36"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:25
+msgid "linux_5_15: 5.15.163 -> 5.15.164"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:26
+msgid "matrix-synapse: 1.111.0 -> 1.112.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:27
+msgid "nss: 3.90.2 -> 3.101.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:28
+msgid "roundcube: 1.6.7 -> 1.6.8 (CVE-2024-42009, CVE-2024-42008, CVE-2024-42010)"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:29
+msgid "slurm: 23.11.7.1 -> 23.11.9.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:30
+msgid "systemd: 255.6 -> 255.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:31
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/472473/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:33
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:35
+msgid ""
+"opensearch: single-node clusters will now enter maintenance without "
+"checking if the cluster health is in the green state (PL-132905)."
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:37
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/472662/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:39
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:41
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_024/24.05...c447159cf4173ee0dacd4523fe0830ec82170a1a),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/d589a8e686ecdb4080b78578348d2ddb95c9b344...67385d65beeb877876792d396dc979f132fb2fe1)"
+msgstr ""
+
+#: ../../../src/changes/2024/r025.md:43
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_022/23.11...267b05f46fc27d3aca31c2dc5d99915cc2eb2da5)"
+msgstr ""
+

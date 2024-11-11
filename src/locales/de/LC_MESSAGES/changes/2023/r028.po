@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2023/r028.md:5
+msgid "Release 2023_028 (2023-11-07)"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:9
+msgid ""
+"\\[NixOS 23.05\\] Machines will reboot after the update to activate the  "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:12
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:14
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131879):"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:15
+msgid "apacheHttpd: 2.4.57 -> 2.4.58 (CVE-2023-45802)"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:16
+msgid "chromedriver: 117.0.5938.149 -> 118.0.5993.70"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:17
+msgid "chromium: 117.0.5938.149 -> 118.0.5993.117"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:18
+msgid "github-runner: 2.309.0 -> 2.311.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:19
+msgid "gitlab-runner: 16.4.0 -> 16.5.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:20
+msgid "grafana: 9.5.8 -> 9.5.13 (CVE-2023-4822)"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:21
+msgid "imagemagick: 7.1.1-19 -> 7.1.1-21"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:22
+msgid "jetty: 11.0.14 -> 11.0.17"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:23
+msgid "linux: 6.1.57 -> 6.1.61"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:24
+msgid "matrix-synapse: 1.94.0 -> 1.95.1 (CVE-2023-43796)"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:25
+msgid "php81: 8.1.24 -> 8.1.25"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:26
+msgid "php82: 8.2.11 -> 8.2.12"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:27
+msgid "redis: 7.0.13 -> 7.0.14 (CVE-2023-45145)"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:28
+msgid "slurm: 23.02.3.1 -> 23.02.6.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:29
+msgid ""
+"Update pyslurm to current Git version to fix build error caused by the "
+"slurm package update."
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:31
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/315847/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:33
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r028.md:35
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_027/23.05...efc5cebaa28b2bd86b805348dc51263b7d2fbe7a),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/23c15991cbda41508bd8c2e7e645acb0d16ac756...0943e993141eff793076e1b51757a1058d1d4eb8)"
+msgstr ""
+

@@ -9,21 +9,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/reference/security/policy.md:1
 msgid "Policy"
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:4
-msgid "This documents the ISMS Policy, as released on 2021-09-21"
+msgid "This documents the ISMS Policy, as released on 2024-06-20."
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:9
@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:33
-msgid "ensure safety of operation,"
+msgid "ensure security and safety of operation,"
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:34
@@ -189,5 +189,11 @@ msgid ""
 msgstr ""
 
 #~ msgid "This documents the ISMS Policy, as released on 2020-08-03"
+#~ msgstr ""
+
+#~ msgid "This documents the ISMS Policy, as released on 2021-09-21"
+#~ msgstr ""
+
+#~ msgid "ensure safety of operation,"
 #~ msgstr ""
 

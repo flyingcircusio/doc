@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r015.md:5
+msgid "Release 2024_015 (2024-05-15)"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:9
+msgid ""
+"\\[NixOS 23.11\\] Machines will reboot after the update to activate the  "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:12
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:14
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132490):"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:15
+msgid "chromedriver: 123.0.6312.122 -> 124.0.6367.91"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:16
+msgid "chromium: 123.0.6312.122 -> 124.0.6367.118"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:17
+msgid "element-web: 1.11.64 -> 1.11.65"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:18
+msgid "firefox: 124.0.2 -> 125.0.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:19
+msgid "gitlab: 16.10.4 -> 16.10.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:20
+msgid "glibc: 2.38-44 -> 2.38-66 (CVE-2024-2961)"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:21
+msgid "imagemagick: 7.1.1-29 -> 7.1.1-30"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:22
+msgid "linux_5_15: 5.15.155 -> 5.15.158"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:23
+msgid "matrix-synapse: 1.104.0 -> 1.106.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:24
+msgid "phpPackages.composer: 2.7.1 -> 2.7.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:25
+msgid "qemu: add patches for CVE-2024-3446, CVE-2024-3447, CVE-2024-3567"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:26
+msgid "webkitgtk: 2.44.0 → 2.44.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:27
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/425617/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:30
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:32
+msgid ""
+"security: various updates for networking, software vulnerabilities and "
+"disaster recovery documentation."
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:34
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r015.md:36
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_014/23.11...b0094c2357dadb851eb815b77d90ba2a763a23d1),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c0bcdbf87575a89263497d36a1cb60882cae98e6...74af142a49fdd56119868d5d77cac55801b2953a)"
+msgstr ""
+

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r028.md:5
+msgid "Release 2024_028 (2024-09-23)"
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:9
+msgid "\\[NixOS 24.05] varnish will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:11
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:13
+msgid ""
+"matomo: Matomo 5.x is now officially supported for new instances and "
+"upgrades from 4.x. See `nixos-matomo-upgrade` (PL-132236)."
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:14
+msgid ""
+"webproxy/varnish: use varnish default work dir and restart varnish on "
+"unit file changes. Before, we always reloaded the service which can cause"
+" various problems when changes are not picked up. We ran into this "
+"problem when the varnish work dir changed in NixOS. To simplify things, "
+"we also override the work dir and use the varnish default of "
+"`/run/varnishd` instead of symlinking it to a different location. This "
+"path is checked by CLI tools like varnishadm, for example. (PL-132901)."
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:16
+msgid "gitlab: security update 17.2.5 -> 17.2.7 (PL-132033)."
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:17
+msgid "Add {command}`rclone` as default package."
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:18
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/488995/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:20
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r028.md:22
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_027/24.05...e65d11c267acf7b070e0cf9e458d581e8ad9f561),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/4c934f9fa9a0c9239a1bc2817d01231807f5d2ba...ecb04ae94077cca3595752f8c3adce8a5e445b34)"
+msgstr ""
+

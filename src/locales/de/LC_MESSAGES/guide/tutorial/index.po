@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/guide/tutorial/index.md:8
 msgid "Getting started"
@@ -33,16 +33,14 @@ msgid ""
 msgstr ""
 
 #: ../../../src/guide/tutorial/index.md:15
-msgid ""
-"To get you started we would like to take you on a quick tour with the "
-"following parts:"
+msgid "To get you started we would like to take you on a quick tour:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:23
+#: ../../../src/guide/tutorial/index.md:17
 msgid "Projects"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:25
+#: ../../../src/guide/tutorial/index.md:19
 msgid ""
 "When you ordered a virtual machine, we asked you for a project name. "
 "Let's assume your project is called `myapp`. Based on this we gave your "
@@ -52,18 +50,18 @@ msgid ""
 "`myapp01`, `myapp02`, and so on."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:31
+#: ../../../src/guide/tutorial/index.md:25
 msgid ""
 "At Flying Circus we use projects to describe that a set of resources "
 "(virtual machines) that belong together and have some common settings "
 "(like user permissions, firewalling, etc.)."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:33
+#: ../../../src/guide/tutorial/index.md:27
 msgid "User Accounts"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:35
+#: ../../../src/guide/tutorial/index.md:29
 msgid ""
 "To access any virtual machine in the Flying Circus, you need a personal "
 "user account. This account will automatically synchronize over all your "
@@ -71,20 +69,20 @@ msgid ""
 "you need them!"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:39
+#: ../../../src/guide/tutorial/index.md:33
 msgid ""
 "To create your account, simply go to https://my.flyingcircus.io/signup "
 "and fill out the form. You will then receive an email in which you will "
 "be asked to verify your account. Please do so."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:43
+#: ../../../src/guide/tutorial/index.md:37
 msgid ""
 "Once the verification is done, we get notified about your account "
 "creation automatically and will get in touch with you."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:47
+#: ../../../src/guide/tutorial/index.md:41
 msgid ""
 "The user account is for maintenance purposes only. Do not consider to run"
 " your application in the user account context, since many fundamental "
@@ -93,27 +91,27 @@ msgid ""
 " tutorial."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:53
+#: ../../../src/guide/tutorial/index.md:47
 msgid "SSH Login"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:55
+#: ../../../src/guide/tutorial/index.md:49
 msgid "Virtual machines can be accessed by simply using SSH."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:57
+#: ../../../src/guide/tutorial/index.md:51
 msgid ""
 "Logging in requires you to use your personal username and the SSH key you"
 " provided us when establishing your account."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:61
+#: ../../../src/guide/tutorial/index.md:55
 msgid ""
 "We do not allow password-based SSH logins. For details, check our "
 "{ref}`data protection plan <entry-control>`."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:65
+#: ../../../src/guide/tutorial/index.md:59
 msgid ""
 "Every virtual machine will have a DNS name that follows the pattern "
 "`<virtualmachine>.gocept.net`. For example, if your resource group is "
@@ -121,65 +119,67 @@ msgid ""
 "`myapp00.gocept.net`."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:74
+#: ../../../src/guide/tutorial/index.md:68
 msgid ""
 "Based on your SSH login you can also transfer files from and to the "
 "virtual machine using SFTP:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:82
+#: ../../../src/guide/tutorial/index.md:76
 msgid ""
 "If you have problems connecting to the VM, check our section on "
 "{ref}`connecting`."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:88
+#: ../../../src/guide/tutorial/index.md:82
 msgid "Application Deployment"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:90
+#: ../../../src/guide/tutorial/index.md:84
 msgid ""
 "Server applications should be running in a *service user* account and not"
-" in a *human user* account. For every project we automatically provide a "
-"service user with a matching name. For example: if your resource group is"
-" named `myapp` then there will also be a user account called `myapp` on "
-"all virtual machines that belong to this project."
+" in a *human user* account. For every project you can register service "
+"user accounts  through our portal. Service users will always be named "
+"with a `s-` prefix, so  you if your application is named `myapp` then you"
+" could set up a service user  named `s-myapp`. Service users have their "
+"home directorys in the `/srv`  directory and appear on every VM within a "
+"resource group."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:96
+#: ../../../src/guide/tutorial/index.md:91
 msgid ""
 "Change your user context to this user and perform the necessary tasks to "
 "deploy your application:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:105
+#: ../../../src/guide/tutorial/index.md:100
 msgid ""
 "The advantage of running applications in a service user is that "
 "applications are not bound to any individuals, but run in a rather "
-"neutral context. Some features like {ref}`automatic service start on VM "
-"boot <userinit>` work only for service users. Further information about "
-"our user account concept can be found in the {ref}`useraccounts` section."
+"neutral context. Some features like work only for service users. Further "
+"information about our user account concept can be found in the "
+"{ref}`useraccounts` section."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:111
+#: ../../../src/guide/tutorial/index.md:105
 msgid ""
 "For a detailed application deployment walk-through, please ref to the "
 "{ref}`application-deployment` section."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:114
+#: ../../../src/guide/tutorial/index.md:108
 msgid "Anatomy of a Virtual Machine"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:116
+#: ../../../src/guide/tutorial/index.md:110
 msgid "Network"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:118
+#: ../../../src/guide/tutorial/index.md:112
 msgid "Here is how the network for a virtual machine looks like:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:136
+#: ../../../src/guide/tutorial/index.md:130
 msgid ""
 "There are always two network interfaces: one for public access from the "
 "Internet (ethfe, the **frontend**) and one for communication between VMs "
@@ -192,7 +192,7 @@ msgid ""
 "ethsrv."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:146
+#: ../../../src/guide/tutorial/index.md:140
 msgid ""
 "Our firewalls allow all traffic from the internet on the public interface"
 " (ethfe) but restrict access to the server network (ethsrv) to select "
@@ -201,35 +201,35 @@ msgid ""
 " the server network only."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:153
+#: ../../../src/guide/tutorial/index.md:147
 msgid ""
 "Further information about our networking concept can be found in the "
 "{ref}`networking` section."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:156
+#: ../../../src/guide/tutorial/index.md:150
 msgid "Disks"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:158
+#: ../../../src/guide/tutorial/index.md:152
 msgid "Every virtual machine has three disks mounted:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:171
+#: ../../../src/guide/tutorial/index.md:165
 msgid "vda1"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:173
+#: ../../../src/guide/tutorial/index.md:167
 msgid ""
 "is the root partition with the size that you gave when ordering the "
 "virtual machine. This partition will hold your application's data."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:176
+#: ../../../src/guide/tutorial/index.md:170
 msgid "vdc"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:178
+#: ../../../src/guide/tutorial/index.md:172
 #, python-format
 msgid ""
 "is a separate virtual disk mounted to /tmp. This disk has 10% of the size"
@@ -238,78 +238,78 @@ msgid ""
 " and reformatted when your virtual machine is restarted."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:183
+#: ../../../src/guide/tutorial/index.md:177
 msgid "vdb"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:185
+#: ../../../src/guide/tutorial/index.md:179
 msgid ""
 "is the swap partition. It is generally half the amount of RAM, but at "
 "least 1GiB."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:188
+#: ../../../src/guide/tutorial/index.md:182
 msgid "Managed Components"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:190
+#: ../../../src/guide/tutorial/index.md:184
 msgid ""
 "You can use our managed components/roles to avoid having to install and "
 "maintain complex setups yourself. Some examples for components we "
 "provide:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:193
+#: ../../../src/guide/tutorial/index.md:187
 msgid "postgresql"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:194
+#: ../../../src/guide/tutorial/index.md:188
 msgid "mysql"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:195
+#: ../../../src/guide/tutorial/index.md:189
 msgid "webgateway (nginx, haproxy)"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:196
+#: ../../../src/guide/tutorial/index.md:190
 msgid "mailserver (postfix, dovecot, roundcube)"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:197
+#: ../../../src/guide/tutorial/index.md:191
 msgid "redis"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:199
+#: ../../../src/guide/tutorial/index.md:193
 msgid "The benefit of managed components are:"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:201
+#: ../../../src/guide/tutorial/index.md:195
 msgid "automated, repeatable installation and production-ready configuration"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:202
+#: ../../../src/guide/tutorial/index.md:196
 msgid "all maintenance included"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:203
+#: ../../../src/guide/tutorial/index.md:197
 msgid "monitoring included"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:204
+#: ../../../src/guide/tutorial/index.md:198
 msgid "fast security updates"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:205
+#: ../../../src/guide/tutorial/index.md:199
 msgid "regular upgrades and configuration optimization"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:207
+#: ../../../src/guide/tutorial/index.md:201
 msgid ""
-"For details on available software, have a look at the [current NixOS "
-"platform documentation](/roles/current)."
+"For details on available software, have a look at the `current NixOS "
+"platform documentation <nixos-platform-index>`."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:210
+#: ../../../src/guide/tutorial/index.md:204
 msgid ""
 "You can see and change the managed components/roles for your VMs by "
 "visiting the [My Flying Circus](https://my.flyingcircus.io) and selecting"
@@ -317,11 +317,11 @@ msgid ""
 " `Configuration`."
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:215
+#: ../../../src/guide/tutorial/index.md:209
 msgid "Access to Monitoring"
 msgstr ""
 
-#: ../../../src/guide/tutorial/index.md:217
+#: ../../../src/guide/tutorial/index.md:211
 msgid ""
 "Virtual machines are monitored by [Sensu](https://sensu.io) for correct "
 "operation. Check results are displayed on the status pages at [My Flying "
@@ -434,5 +434,43 @@ msgstr ""
 #~ "Check results are displayed on the "
 #~ "status pages at `My Flying Circus "
 #~ "<https://my.flyingcircus.io>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get you started we would like"
+#~ " to take you on a quick tour"
+#~ " with the following parts:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Server applications should be running in"
+#~ " a *service user* account and not "
+#~ "in a *human user* account. For "
+#~ "every project we automatically provide a"
+#~ " service user with a matching name."
+#~ " For example: if your resource group"
+#~ " is named `myapp` then there will "
+#~ "also be a user account called "
+#~ "`myapp` on all virtual machines that "
+#~ "belong to this project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The advantage of running applications in"
+#~ " a service user is that applications"
+#~ " are not bound to any individuals,"
+#~ " but run in a rather neutral "
+#~ "context. Some features like {ref}`automatic"
+#~ " service start on VM boot <userinit>`"
+#~ " work only for service users. Further"
+#~ " information about our user account "
+#~ "concept can be found in the "
+#~ "{ref}`useraccounts` section."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For details on available software, have"
+#~ " a look at the [current NixOS "
+#~ "platform documentation](/roles/current)."
 #~ msgstr ""
 

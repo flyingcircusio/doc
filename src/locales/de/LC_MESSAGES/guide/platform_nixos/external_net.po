@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/platform_nixos/external_net.md:3
+msgid "External network gateway"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:5
+msgid ""
+"The external network gateway (external_net) role provides connectivity "
+"between VPN and VxLAN tunnels and the local project. Client connections "
+"across these tunnels may access ports in the RG's backend network (srv)."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:9
+msgid "Components"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:11
+#: ../../../src/guide/platform_nixos/external_net.md:31
+msgid "OpenVPN"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:13
+msgid ""
+"An OpenVPN gateway listens on the standard port (1194/udp) on the "
+"gateway's frontend network (fe). The standard configuration requires two "
+"levels of authentication: both a certificate and a valid FC login must be"
+" presented on connection initiation. The certificate is fixed for all "
+"users of a given RG and is mostly used to keep out dictionary attackers. "
+"This authentication scheme requires that users connecting to the gateway "
+"have a valid login for this RG."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:20
+#: ../../../src/guide/platform_nixos/external_net.md:47
+msgid "VxLAN"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:22
+msgid ""
+"The external network gateway contains also provisions to interconnect the"
+" local RG with a remote network via [VxLAN]. Contact the {ref}`support` "
+"for details."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:25
+msgid "mosh"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:27
+msgid "As a courtesy, external network gateways run a [mosh] server by default."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:29
+msgid "Configuration"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:33
+msgid ""
+"An OpenVPN server needs correct DNS settings (forward and reverse names)."
+" Contact the {ref}`support` to get this set up. Additional options (like "
+"address pools) can be set in {file}`/etc/local/openvpn/networks.json`. "
+"The README file in the same directory contains a detailed description of "
+"available options."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:38
+msgid ""
+"By default, OpenVPN allocates client addresses from the pools "
+"10.70.67.0/24 and fd3e:65c4:fc10::/48."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:42
+msgid ""
+"Our OpenVPN servers push routes for the whole location (data center). "
+"This means that opening VPN connections to external network gateways in "
+"several RGs at once may not be a good idea."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:49
+msgid ""
+"A VxLAN tunnel is created if the file "
+"{file}`/etc/local/vxlan/config.json` exists. See the accompanying README "
+"file for details."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:52
+msgid "Interaction"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:54
+msgid ""
+"A default client configuration file (`*.ovpn`) is provided on OpenVPN "
+"gateways in the directory {file}`/etc/local/openvpn`. Import this "
+"configuration file into your OpenVPN client of choice."
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:58
+msgid "Monitoring"
+msgstr ""
+
+#: ../../../src/guide/platform_nixos/external_net.md:60
+msgid "Currently, OpenVPN server processes are checked for liveness."
+msgstr ""
+

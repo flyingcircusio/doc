@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r002.md:5
+msgid "Release 2024_002 (2024-01-15)"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:7
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:9
+msgid ""
+"lamp: allow overriding of default values for "
+"`services.phpfpm.pools.<name>.settings.*` set by our role, without the "
+"need for `lib.mkOverride/lib.mkForce` (PL-132068)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:12
+msgid "Add `postgresql16` role (PL-132063)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:13
+msgid "Add experimental `ferretdb` role, an alternative to MongoDB (PL-132063)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:14
+msgid "gitlab: 16.5.4 -> 16.5.6 (PL-132090)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:15
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/357097/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:18
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:20
+msgid "Introduce Philipp Herzog as new global admin (FC-27885)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:21
+msgid "Introduce Maximilian Bosch as new global admin (FC-34774)."
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:22
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/355751/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:24
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:26
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_001/23.11...56d94a4205fc8bb481415b2a81558c05aa9704d5)"
+msgstr ""
+
+#: ../../../src/changes/2024/r002.md:27
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_026/22.05...d65b1678e6d6b8f8440918e3f4a0eb91e68fd3fb)"
+msgstr ""
+

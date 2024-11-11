@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r001.md:5
+msgid "Release 2024_001 (2024-01-08)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:9
+msgid ""
+"\\[NixOS 23.11\\] Machines will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:10
+msgid ""
+"\\[NixOS 23.05\\] Machines will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:12
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:14
+msgid ""
+"Make 23.11 the default platform version. New VMs created via the customer"
+" self-service portal are now running 23.11."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:16 ../../../src/changes/2024/r001.md:56
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132050):"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:17 ../../../src/changes/2024/r001.md:59
+msgid "chromedriver: 120.0.6099.71 -> 120.0.6099.129"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:18 ../../../src/changes/2024/r001.md:60
+msgid "chromium: 120.0.6099.71 -> 120.0.6099.129"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:19
+msgid "consul: 1.16.3 -> 1.16.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:20
+msgid "containerd: 1.7.9 -> 1.7.11"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:21
+msgid "gitlab: 16.5.3 -> 16.5.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:22
+msgid "grafana: 10.2.0 -> 10.2.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:23 ../../../src/changes/2024/r001.md:63
+msgid "grub: apply fixes for CVE-2023-4692 and CVE-2023-4693"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:24
+msgid "jicofo: 1.0-1050 -> 1.0-1057"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:25
+msgid "jitsi-meet: 1.0.7531 -> 1.0.7629"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:26
+msgid "jitsi-videobridge: 2.3-59-g5c48e421 -> 2.3-61-g814bffd6"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:27
+msgid "keycloak: 23.0.0 -> 23.0.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:28 ../../../src/changes/2024/r001.md:64
+msgid "linux_5_15: 5.15.142 -> 5.15.145"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:29
+msgid "matrix-synapse: 1.97.0 -> 1.98.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:30
+msgid "nss_latest: 3.95 -> 3.96.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:31
+msgid "pdns: 4.8.3 -> 4.8.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:32
+msgid "php81: 8.1.26 -> 8.1.27"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:33
+msgid "php82: 8.2.13 -> 8.2.14"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:34
+msgid "postfix: 3.8.3 -> 3.8.4 (CVE-2023-51764)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:35 ../../../src/changes/2024/r001.md:67
+msgid ""
+"Security: this adds options for full SMTP smuggling attack protection "
+"which are disabled by default. Many forms of the attack are already "
+"prevented by default settings of our platform. See "
+"https://www.postfix.org/smtp-smuggling.html#long for more information."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:38 ../../../src/changes/2024/r001.md:71
+msgid ""
+"slurm: 23.02.6.1 -> 23.02.7.1 (CVE-2023-49935, CVE-2023-49936, "
+"CVE-2023-49937, CVE-2023-49938, CVE-2023-49933)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:40 ../../../src/changes/2024/r001.md:73
+msgid "webkitgtk: 2.42.3 → 2.42.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:41 ../../../src/changes/2024/r001.md:76
+#: ../../../src/changes/2024/r001.md:84
+msgid "Introduce Maximilian Bosch as new global admin (FC-34774)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:42
+#, python-format
+msgid ""
+"Improve the reliability of NFS during machine startup, both for clients "
+"and servers. As the network may not be 100% reliable during startup (e.g."
+" name resolution not yet fully functional) we retry both export "
+"registration as well as mounts (PL-131563, PL-130113)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:46 ../../../src/changes/2024/r001.md:77
+msgid ""
+"**openssh**: update to 9.6p1 to fix SSH vulnerability \"Terrapin\". This "
+"was released on 2023-12-20 as hotfix to staging/production (PL-132033)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:48
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/352371/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:50
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:52
+msgid ""
+"This is the last release with regular updates from upstream NixOS. We "
+"will still patch critical security issues ourselves but recommend "
+"[upgrading to the 23.11 platform "
+"version](https://doc.flyingcircus.io/roles/fc-23.11-production/upgrade.html)"
+" to keep packages up-to-date."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:57
+msgid ""
+"asterisk: 20.2.1 -> 20.5.1 (CVE-2023-49294, CVE-2023-49786, "
+"CVE-2022-23537)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:58
+msgid "cacert: 3.92 -> 3.95"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:61
+msgid "ghostscript: 10.02.0 -> 10.02.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:62
+msgid "grafana: 9.5.13 -> 9.5.15"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:65
+msgid "nss_latest: 3.95 -> 3.96"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:66
+msgid "postfix: 3.8.2 -> 3.8.4 (CVE-2023-51764)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:70
+msgid "python3Packages.urllib3: revert upstream commit to fix jupyter-server"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:74
+msgid ""
+"Add (no-op) option `flyingcircus.services.nginx.logPerVirtualHost` to "
+"allow smooth updates between 23.05 and 23.11."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:79
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/352539/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:81
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:83
+msgid "Introduce Philipp Herzog as new global admin (FC-27885)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:85
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/352267/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:87
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:89
+msgid "Add Maximilian Bosch as administrator (FC-34774)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:90
+msgid "Chat: add link to curated list of Matrix clients (PL-131976)."
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:92
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:94
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_033/23.11...5b70e80452f63d3591e158474a116ec4826875a7),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/2370ae203043de61d67ddeee10753d3a557cf68c...5e75070eaa501746b12067f4c7d50598550e5482)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:96
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_033/23.05...fcac45f66d4b7be43c34d1a9c0c05bf4f70054f9),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e8b676d267c5024421cf177527f271da5a0c6344...0337338999a6aa4d294b9b5f71294787de04e673)"
+msgstr ""
+
+#: ../../../src/changes/2024/r001.md:98
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_026/22.11...1620614fa5526e15d6cfb094a060faa9600e9887)"
+msgstr ""
+

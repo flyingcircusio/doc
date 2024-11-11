@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/deployment/mongodb.md:1
+msgid "How to deploy a MongoDB"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:3
+msgid ""
+"By default, it's recommended to use the MongoDB packages provided by "
+"upstream NixOS. All provided packages can be found in [our package "
+"search](https://search.flyingcircus.io/search/packages?q=mongodb&channel=fc-23.11-production)."
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:6
+msgid ""
+"Please keep in mind that NixOS doesn't provide binaries for MongoDB due "
+"to the license not being OSI-approved."
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:9
+msgid ""
+"The following versions of MongoDB are regularly built by Hydra for "
+"platform releases:"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "Version"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "Attribute"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "min. platform release"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "6.0.x"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "`pkgs.mongodb-6_0`"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "for 23.11: 2024_019, part of 24.05 or newer"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:16
+msgid ""
+"For legacy setups, the following store-paths are available in our binary "
+"cache and can be used to run old versions of MongoDB:"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "Store Path"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "Platform release"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "4.0.27"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "`/nix/store/jg8mgbfkyg9vbc68dwizy7vj92gzzsvs-mongodb-4.0.27`"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "2024_001/22.11"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "4.2.24"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "`/nix/store/86f2ff9w16whjmq3y0c6aywmxxd27mva-mongodb-4.2.24`"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md
+msgid "2024_002/23.05"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:24
+msgid ""
+"NixOS has support for providing a MongoDB systemd service. It can be "
+"configured as follows in `/etc/local/nixos/mongodb.nix`:"
+msgstr ""
+
+#: ../../../src/guide/deployment/mongodb.md:190
+msgid ""
+"Additional configuration for MongoDB can be appended into the contents of"
+" `mongoCnf`."
+msgstr ""
+

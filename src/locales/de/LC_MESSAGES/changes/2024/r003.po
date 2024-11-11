@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r003.md:5
+msgid "Release 2024_003 (2024-01-22)"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:9
+msgid ""
+"\\[NixOS 23.11\\] Machines will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:13
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132102):"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:14
+msgid "asterisk: 20.5.1 -> 20.5.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:15
+msgid "chromium: 120.0.6099.129 -> 120.0.6099.216"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:16
+msgid "element-web: 1.11.52 -> 1.11.53"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:17
+msgid "firefox: 121.0 -> 121.0.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:18
+msgid "gitlab: 16.5.6 -> 16.7.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:19
+msgid "imagemagick: 7.1.1-21 -> 7.1.1-25"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:20
+msgid "jicofo: 1.0-1057 -> 1.0-1059"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:21
+msgid "jitsi-meet: 1.0.7629 -> 1.0.7712"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:22
+msgid "jitsi-videobridge: 2.3-61-g814bffd6 -> 2.3-64-g719465d1"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:23
+msgid "keycloak: 23.0.3 -> 23.0.4"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:24
+msgid "linux_5_15: 5.15.145 -> 5.15.146"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:25
+msgid "tomcat10: 10.1.16 -> 10.1.18"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:26
+msgid "tomcat9: 9.0.83 -> 9.0.85"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:27
+msgid ""
+"mongodb roles from version 3.2 to 4.2 are now available again to allow "
+"upgrades of older machines (PL-131229)."
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:28
+msgid ""
+"MySQL: reduce verbosity of slow logs by logging less queries without "
+"index (PL-131975)."
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:29
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/359387/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:32
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:34
+msgid ""
+"gitlab: 16.5.3 -> 16.5.6, applied as hotfix to all Gitlab machines on "
+"2024-01-12 (PL-132090)."
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:37
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r003.md:39
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_002/23.11...746d8cf264e60d47016f6fe51aa6abe1b468fdc2),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/5e75070eaa501746b12067f4c7d50598550e5482...59068595c8a4f66d4ec007b15e8dc331d4682f3f)"
+msgstr ""
+
