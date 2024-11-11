@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2023/r029.md:5
+msgid "Release 2023_029 (2023-11-13)"
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:9
+msgid ""
+"\\[NixOS 23.05\\] VMs will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:11
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:13
+msgid ""
+"Move back to Linux 5.15. We experienced multiple VM crashes and slowdowns"
+" due to a known but unsolved kernel memory management bug with the 6.1 "
+"kernel branch (PL-131574)."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:16
+msgid ""
+"`fc-maintenance` commands for viewing requests (`show` and `list`) and "
+"monitoring/telemetry (`check` and `metrics`) can now be used without sudo"
+" by all users (PL-131813)."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:19
+msgid ""
+"`fc-maintenance show <request ID prefix>` now has improved output and "
+"also works for archived maintenance requests. Active requests are "
+"preferred when there are multiple matches for the given request ID prefix"
+" (PL-131813)."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:22
+msgid ""
+"Command output generated during execution of an update activity is now "
+"logged to separate files in `/var/log/fc-agent`, like for `fc-manage` "
+"calls (PL-131813)."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:25
+msgid ""
+"Unhandled errors in `fc-manage` and `fc-maintenance` are now logged "
+"properly to the system journal and can be viewed with `journalctl "
+"SYSLOG_IDENTIFIER=fc-agent` (PL-131813)."
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:28
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/317538/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:30
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r029.md:32
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_028/23.05...41dc64b7b89248676536fb9fc71214055e6773a6)"
+msgstr ""
+

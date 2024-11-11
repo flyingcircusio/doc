@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/infrastructure/networking/firewall.md:3
 msgid "Firewall"
@@ -61,57 +61,68 @@ msgid "SSH (22) - to provide login access to VMs"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/firewall.md:25
-msgid "NTP (123) - to synchronize clocks with outside hosts"
+msgid ""
+"HTTP/S (80, 443) - to allow using HTTP-based verification of Let's "
+"Encrypt certificates on the internal network and to present select "
+"services (IPv6 only) as needed"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/firewall.md:26
-msgid "BGP (179, INPUT routers) to peer with uplink providers"
+msgid "NTP (123) - to synchronize clocks with outside hosts"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/firewall.md:27
+msgid "BGP (179, INPUT routers) to peer with uplink providers"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/firewall.md:28
 msgid ""
 "Domain (53, INPUT on routers) to provide access to selected authoritative"
 " zones"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:28
+#: ../../../src/infrastructure/networking/firewall.md:29
 msgid "RSYNC (873) - to allow binhosts to provide data to other locations"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:30
+#: ../../../src/infrastructure/networking/firewall.md:31
 msgid ""
 "Managed components that are installed on a machine may provide additional"
 " firewall exceptions (either for public or data center-internal traffic),"
 " for example:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:34
+#: ../../../src/infrastructure/networking/firewall.md:35
 msgid "Grafana (statshost) opens ports 2003 and 2004."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:35
+#: ../../../src/infrastructure/networking/firewall.md:36
 msgid "VxLAN/OpenVPN servers open several ports depending on their configuration."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:39
+#: ../../../src/infrastructure/networking/firewall.md:40
 msgid "Adding custom firewall rules"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/firewall.md:41
-msgid "How to add custom firewall rules depends on the platform of your VM:"
-msgstr ""
-
-#: ../../../src/infrastructure/networking/firewall.md:43
-msgid "[NixOS 19.03 and newer](/roles/current/firewall.html)"
-msgstr ""
-
-#: ../../../src/infrastructure/networking/firewall.md:44
-msgid "{ref}`NixOS 15.09 <nixos-firewall>`"
+#: ../../../src/infrastructure/networking/firewall.md:42
+msgid ""
+"How to add custom firewall rules depends on the platform of your VM - see"
+" the specific platform release documentation about the appropriate "
+"mechanism."
 msgstr ""
 
 #~ msgid "`NixOS 19.03 and newer </roles/current/firewall.html>`_"
 #~ msgstr ""
 
 #~ msgid ":ref:`NixOS 15.09 <nixos-firewall>`"
+#~ msgstr ""
+
+#~ msgid "How to add custom firewall rules depends on the platform of your VM:"
+#~ msgstr ""
+
+#~ msgid "[NixOS 19.03 and newer](/roles/current/firewall.html)"
+#~ msgstr ""
+
+#~ msgid "{ref}`NixOS 15.09 <nixos-firewall>`"
 #~ msgstr ""
 

@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2023/r026.md:5
+msgid "Release 2023_026 (2023-10-24)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:9
+msgid "\\[NixOS 23.05\\] Machines will reboot after the update."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:11
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:13
+msgid ""
+"*awscli*, *firefox*: track version changes in our release change logs. "
+"They are also built by our Hydra (cache) now to make sure that machines "
+"don't have to compile these if the upstream NixOS cache doesn't have "
+"them, yet. We noticed this when rolling out the last release which caused"
+" a mass rebuild of packages which was due to the glibc security patch "
+"(PL-131831)."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:18
+msgid "*matomo* (PL-131600, PL-131631)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:19
+msgid "Update package to 4.15.1."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:20
+msgid "Add role documentation."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:21
+msgid "Allow `sudo-srv` users to run `matomo-console`."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:22
+msgid "Automatically enable Nginx service when `matomo` role is enabled."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:23
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131842):"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:24
+msgid "clamav: 1.0.1 -> 1.0.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:25
+msgid "curl: apply patch for CVE-2023-38039"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:26
+msgid "curl: apply patch for CVE-2023-38545"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:27
+msgid "ghostscript: 10.01.2 -> 10.02.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:28
+msgid "gitlab-runner: 16.1.0 -> 16.4.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:29
+msgid "github-runner: 2.309.0 -> 2.310.2"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:30
+msgid "go_1_19: 1.19.12 -> 1.19.13"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:31
+msgid "imagemagick: 7.1.1-18 -> 7.1.1-19"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:32
+msgid "libwebp: 1.3.1 -> 1.3.2 (CVE-2023-4863)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:33
+msgid "linux: 6.1.55 -> 6.1.57"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:34
+msgid "nss_latest: 3.93 -> 3.94"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:35
+msgid "openssl: 3.0.10 -> 3.0.11 (CVE-2023-4807)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:36
+msgid "percona-xtrabackup_8_0: 8.0.32-26 -> 8.0.34-29"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:37
+msgid "python310: 3.10.12 -> 3.10.13 (CVE-2023-40217)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:38
+msgid "python311: 3.11.4 -> 3.11.5 (CVE-2023-40217)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:39
+msgid "redis: 7.0.12 -> 7.0.13 (CVE-2023-41053)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:40
+msgid "xorg.libX11: 1.8.6 -> 1.8.7"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:41
+msgid ""
+"Improve monitoring of automated maintenance to detect stuck requests and "
+"other anomalies earlier (PL-131185)."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:43 ../../../src/changes/2023/r026.md:51
+#: ../../../src/changes/2023/r026.md:56
+msgid "Introduce Molly Miller as new global admin (PL-131590)."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:44
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/311661/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:46
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:48
+msgid ""
+"opensearch: implement automated migration from ElasticSearch 7. Note that"
+" migrations from ES6 require re-indexing on ES7 before migrating to "
+"OpenSearch. See the OpenSearch role docs for details (PL-1315530)."
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:52
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/311512/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:54
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:57
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/311545/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:59
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:61
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_025/23.05...4159afda367a713326a72363159911baef952073),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/7899ff5f912ab691346382fc4c75957f3e33096d...67391dd2848d1f83b2313b2811190cd29038835d)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:63
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_024/22.11...92909f3b97c76ca98b423c9734c5882343d11153)"
+msgstr ""
+
+#: ../../../src/changes/2023/r026.md:64
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_024/22.05...6dff68d982118d782fa1a12d808a8b60f29533d5)"
+msgstr ""
+

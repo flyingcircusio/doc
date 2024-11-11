@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2023/r027.md:5
+msgid "Release 2023_027 (2023-11-01)"
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:7
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:9
+msgid "roundcube: 1.6.3 -> 1.6.4 (CVE-2023-5631) (PL-131869)."
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:10
+msgid "Introduce Philipp Herzog as new global admin (FC-27885)."
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:11
+msgid "Add *lnav* and *fd* as default packages installed on all systems."
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:12
+msgid ""
+"Add more packages to the important packages list: *webkitgtk*, *slurm*, "
+"*python310Packages.pyslurm*, *awscli2*, *jetbrains.jdk*"
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:14
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/314430/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:16
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r027.md:18
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_026/23.05...5c7f55d133ab2de21c044066fd6f22a9a08c9a49),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/67391dd2848d1f83b2313b2811190cd29038835d...23c15991cbda41508bd8c2e7e645acb0d16ac756)"
+msgstr ""
+

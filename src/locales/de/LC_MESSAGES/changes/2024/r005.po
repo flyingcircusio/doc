@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r005.md:5
+msgid "Release 2024_005 (2024-02-12)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:9
+msgid ""
+"\\[NixOS 23.11] Many services will restart due to a core dependency "
+"change."
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:10
+msgid ""
+"\\[NixOS 23.05] Many services will restart due to a core dependency "
+"change."
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:12
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:14
+msgid ""
+"**nginx**/**webgateway**: set default rate and add connection limiting to"
+" further improve protections against the rapid reset HTTP/2 vulnerability"
+" (https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-"
+"vulnerability-cve-2023-44487) (PL-131836)."
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:18
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132173, PL-132184):"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:19
+msgid "chromium: 121.0.6167.85 -> 121.0.6167.139"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:20
+msgid "containerd: 1.7.11 -> 1.7.13 (CVE-2024-21626)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:21
+msgid "imagemagick: 7.1.1-25 -> 7.1.1-26"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:22
+msgid "gitlab: 16.7.4 -> 16.7.5 (CVE-2023-6840, CVE-2023-6386, CVE-2024-1066)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:23
+msgid "gitlab-container-registry: 3.88.0 -> 3.88.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:24
+msgid "keycloak: 23.0.4 -> 23.0.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:25
+msgid "mastodon: 4.2.4 -> 4.2.5 (CVE-2024-23832)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:26
+msgid "monitoring-plugins: 2.3.0 -> 2.3.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:27
+msgid "mysql80: 8.0.35 -> 8.0.36"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:28
+msgid "qemu: 8.1.4 -> 8.1.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:29
+msgid "qemu: add patch for CVE-2023-6693"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:30
+msgid "redis: 7.2.3 -> 7.2.4 (7.2.3 -> 7.2.4)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:31
+msgid "ruby_3_2: 3.2.2 -> 3.2.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:32
+msgid "runc: 1.1.10 -> 1.1.12 (CVE-2024-21626)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:33
+msgid ""
+"security wrappers (setuid binaries): limit argv0 length as mitigation  "
+"for a glibc vulnerability (CVE-2023-6246)."
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:35
+msgid "strace: 6.6 -> 6.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:36
+msgid "varnish: 7.4.1 -> 7.4.2 (CVE-2023-44487)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:37
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/372861/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:39
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:41
+msgid ""
+"**glibc**: update to 2.37-64 to fix a vulnerability which may lead to "
+"local privilege escalation (CVE-2023-6246, CVE-2023-6779, CVE-2023-6780),"
+" add patch for qsort mem corruption (PL-132173)."
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:44
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/372757/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:46
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:48
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_004/23.11...ab0b9079f5ceafe3904c91ab375481b2a581e735),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/159aa075fe1fe7ccaf1027345b9f28a342c50dae...ba2e1304f4d32379d4d884abe679df5ad06fbfa0)"
+msgstr ""
+
+#: ../../../src/changes/2024/r005.md:50
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_001/23.05...f3c9f9fc3e0aaadbcaa6f47e3c39def290add314),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/026fa132b1ec8f0def774c933d2869fff5fb983d...5a7db58a8a8528e558b5d4bf10433b43766249bf)"
+msgstr ""
+

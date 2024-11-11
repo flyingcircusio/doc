@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r021.md:5
+msgid "Release 2024_021 (2024-07-15)"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:9
+msgid "\\[NixOS 23.11] `sshd.service` will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:10
+msgid "\\[NixOS 23.05] `sshd.service` will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:11
+msgid "\\[NixOS 22.11] `sshd.service` will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:12
+msgid "\\[NixOS 22.05] `sshd.service` will be restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:14
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:16
+msgid ""
+"This is the first production release of the 24.05 platform. The default "
+"for new VMs is still 23.11 which will be changed in the coming weeks."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:19
+msgid ""
+"See [Platform Upgrades & What's "
+"New](https://doc.flyingcircus.io/roles/fc-24.05-dev/upgrade.html) for "
+"things to consider before upgrading, significant changes and new package "
+"versions"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:22
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/457353/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:25
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:27 ../../../src/changes/2024/r021.md:35
+msgid "openssh: apply patches for CVE-2024-6387"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:28 ../../../src/changes/2024/r021.md:36
+msgid "already released as a hotfix ahead of schedule on 2024-07-01"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:29 ../../../src/changes/2024/r021.md:37
+msgid ""
+"fixes a remote code execution vulnerability "
+"https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:30 ../../../src/changes/2024/r021.md:38
+msgid ""
+"additionally also backport a fix for a minor logic error in "
+"ObscureKeystrokeTiming"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:31
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/450243/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:33
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:39
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/456547/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:41
+msgid "NixOS 22.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:43 ../../../src/changes/2024/r021.md:48
+msgid "Fix statically configured time server (NTP) names."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:44
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/458782/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:46
+msgid "NixOS 22.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:49
+msgid ""
+"openssh: apply patches for https://github.com/advisories/GHSA-2x8c-95vh-"
+"gfv4, default package used changes 9.0p1 -> 9.6p1. This was already "
+"released as a hotfix on 2024-07-05. Also fixes a remote code execution "
+"vulnerability "
+"https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt. Note "
+"that this only updates the `openssh_9_6` package, which is used by the "
+"in-path `ssh` command and the `sshd.service` of the platform. This might "
+"affect the defaults for cryptographic algorithms, see the [openssh "
+"release notes](https://www.openssh.com/releasenotes.html) for details."
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:50
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/457389/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:52
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:54
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_020/23.11...b1ea9c90ef98da11265855708ed353f514a88233)"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:55
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_017/23.05...d428f843d3a68e214a7d52998b7ae488e13cf092)"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:56
+msgid ""
+"NixOS 22.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_007/22.11...b8faff60591b66ef6f178466be8e5cfa8f4cf3fa)"
+msgstr ""
+
+#: ../../../src/changes/2024/r021.md:57
+msgid ""
+"NixOS 22.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_006/22.05...15aed81a65defbea1ce852454421abb360bec20d)"
+msgstr ""
+

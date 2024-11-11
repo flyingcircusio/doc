@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2023/r033.md:5
+msgid "Release 2023_033_1 (2023-12-18)"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:9
+msgid ""
+"\\[NixOS 23.05\\] VMs will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:13
+msgid ""
+"This is the first production release of the 23.11 platform. The default "
+"for new production VMs is still 23.05 which will be changed in the coming"
+" weeks."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:16
+msgid ""
+"See [Platform Upgrades & What's "
+"New](https://doc.flyingcircus.io/roles/fc-23.11-dev/upgrade.html) for "
+"things to consider before upgrading, significant changes and new package "
+"versions"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:19
+msgid ""
+"We rolled out the upgrade to most of the customer **staging** systems on "
+"Thursday, 2023-12-05."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:22
+msgid "The following changes were added after the staging roll-out:"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:24 ../../../src/changes/2023/r033.md:65
+msgid ""
+"**\\[hotfix] openssh**: update to 9.6p1 to fix SSH vulnerability "
+"\"Terrapin\". This was released on 2023-12-20 as hotfix to "
+"staging/production (PL-132033)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:26
+msgid ""
+"**agent**: increase file descriptor limit for system builds. We have seen"
+" crashes of the `fc-update-channel` service on a single customer VM with "
+"a high number of Letsencrypt certificates (PL-131964)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:29
+msgid ""
+"**devhost**: Add new feature to use VMs instead of containers. The new "
+"feature is not enabled by default (PL-131470)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:31
+msgid "**lamp**: Enable the PHP-FPM slowlog by default (PL-131946)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:32
+msgid ""
+"**mailserver** the role now requires TLS versions 1.2 and later both when"
+" acting as an SMTP server and SMTP client. Encryption is still optional "
+"by default (PL-131937)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:35
+msgid ""
+"**webgateway**/**nginx**: add warnings for deprecated features which are "
+"planned for removal with the 24.05 platform version: `masterUser = "
+"\"root\"`, JSON config in `/etc/local/nginx` and the "
+"`listenAddress`/`listenAddress6` options (PL-131984)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:38
+msgid ""
+"**webgateway**/**nginx**: add an option "
+"`flyingcircus.services.nginx.logPerVirtualHost` to enable per-vhost "
+"access and error logs in nginx under `/var/log/nginx/access-<vhost-"
+"name>.log` and `/var/log/nginx/error-<vhost-name>.log` respectively. This"
+" is the new default behavior (PL-131947)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:44
+msgid ""
+"**webproxy**: Added multi-host functionality via "
+"`flyingcircus.services.varnish` (PL-131840)."
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:46 ../../../src/changes/2023/r033.md:67
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-131990):"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:47 ../../../src/changes/2023/r033.md:68
+msgid "chromedriver: 119.0.6045.105 -> 120.0.6099.71"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:48
+msgid "chromium: 119.0.6045.199 -> 120.0.6099.71"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:49
+msgid "element-web: 1.11.50 -> 1.11.51"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:50 ../../../src/changes/2023/r033.md:71
+msgid "gitlab-container-registry: 3.85.0 -> 3.86.2"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:51 ../../../src/changes/2023/r033.md:72
+msgid "gitlab: 16.5.1 -> 16.5.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:52
+msgid "keycloak: 22.0.5 -> 23.0.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:53
+msgid "linux_5_15: 5.15.140 -> 5.15.142"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:54
+msgid "mastodon: 4.2.1 -> 4.2.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:55
+msgid "opensearch: 2.11.0 -> 2.11.1"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:56
+msgid "qemu: 8.1.2 -> 8.1.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:57
+msgid "python312: 3.12.0 -> 3.12.1 (CVE-2023-6507)"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:58
+msgid "tomcat10: 10.1.15 -> 10.1.16"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:59
+msgid "tomcat9: 9.0.82 -> 9.0.83"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:60
+msgid "webkitgtk: 2.42.2 → 2.42.3 (CVE-2023-42916, CVE-2023-42917)"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:61
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/346984/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:63
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:69
+msgid "chromium: 119.0.6045.159 -> 120.0.6099.71"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:70
+msgid "element-web: 1.11.47  -> 1.11.51"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:73
+msgid "linux_5_15: 5.15.139 -> 5.15.142"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:74
+msgid "mastodon: 4.1.10 -> 4.1.11"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:75
+msgid "nss_latest: 3.94 -> 3.95"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:76
+msgid "webkitgtk: 2.42.2 → 2.42.3"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:77
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/347002/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:80
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2023/r033.md:82
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_032/23.05...cb2b46c1741dc01273bdef8c141f804b91e8aff0),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/045aea9af69a56bafe26cc2c59b94e237ecc1f98...e8b676d267c5024421cf177527f271da5a0c6344)"
+msgstr ""
+

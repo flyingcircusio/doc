@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2023-08-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:7
+msgid "Tomcat"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:9
+msgid ""
+"Runs a [Tomcat](http://tomcat.apache.org) server as a container for "
+"custom Java applications. The server listens on *localhost:8091* for HTTP"
+" requests to access the deployed applications."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:13
+msgid "Components"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:15
+msgid "Sun JDK"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:16
+msgid "Tomcat server"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:17
+msgid "JDBC postgresql"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:19
+msgid "Configuration"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:21
+msgid ""
+"The main configuration is managed automatically with the following "
+"flexible parts editable by service users:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:24
+msgid ""
+"{file}`/etc/tomcat-6/tomcat-users.xml` to define users, passwords and "
+"roles for accessing the tomcat management interfaces."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:26
+msgid ""
+"{file}`/etc/tomcat-6/Catalina/localhost` to place context definitions for"
+" deploying applications."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:28
+msgid ""
+"The server is configured to not automatically reload applications when "
+"their on-disk deployment files change."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:31
+msgid ""
+"Applications may be dynamically deployed using the [manager "
+"application](http://tomcat.apache.org/tomcat-6.0-doc/manager-howto.html)."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:33
+msgid "Interaction"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:35
+msgid ""
+"After configuration changes, invoke {command}`sudo /etc/init.d/tomcat-6 "
+"restart` as service user to acticate the new configuration."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:38
+msgid ""
+"If dynamic class-loading is used heavily the JVM's permanent generation "
+"space may fill up causing Tomcat to become completely unresponsive. In "
+"this case a restart using the init script is required."
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:42
+msgid "Monitoring"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:44
+msgid "We monitor by default:"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:46
+msgid "whether the local HTTP port is reachable and responsive"
+msgstr ""
+
+#: ../../../src/guide/platform_gentoo/tomcat.md:47
+msgid "whether a reasonable number of Tomcat processes are running"
+msgstr ""
+

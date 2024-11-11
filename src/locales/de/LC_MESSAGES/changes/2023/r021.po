@@ -9,68 +9,207 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2023-08-17\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/changes/2023/r021.md:5
-msgid "Release 2023_021 (unreleased)"
+msgid "Release 2023_021 (2023-08-29)"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:7
 msgid "Impact"
 msgstr ""
 
-#: ../../../src/changes/2023/r021.md:9 ../../../src/changes/2023/r021.md:13
-#: ../../../src/changes/2023/r021.md:17 ../../../src/changes/2023/r021.md:21
-#: ../../../src/changes/2023/r021.md:25 ../../../src/changes/2023/r021.md:29
-#: ../../../src/changes/2023/r021.md:33 ../../../src/changes/2023/r021.md:37
-#: ../../../src/changes/2023/r021.md:41 ../../../src/changes/2023/r021.md:45
-msgid "nothing yet"
+#: ../../../src/changes/2023/r021.md:9
+msgid ""
+"\\[NixOS 23.05\\] Machines will reboot after the update to activate the  "
+"changed kernel."
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:11
+msgid ""
+"\\[NixOS 21.05\\] Machines will schedule a reboot to activate the changed"
+" kernel."
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:13
 msgid "NixOS 23.05 platform"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:15
-msgid "NixOS 22.11 platform"
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates: "
+"(PL-131687, PL-131688)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:16
+msgid "cacert: 3.90 -> 3.92"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:17
+msgid "element-web: 1.11.36 -> 1.11.38"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:18
+msgid "gitlab-container-registry: 3.77.0 -> 3.79.0"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:19
-msgid "NixOS 22.05 platform"
+msgid "go_1_19: 1.19.10 -> 1.19.12 (CVE-2023-29409)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:20
+msgid "go_1_20: 1.20.6 -> 1.20.7 (CVE-2023-29409)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:21
+msgid "linux: 6.1.43 -> 6.1.45"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:22
+msgid "Fixes Inception (AMD) and Downfall (Intel) CPU vulnerabilities."
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:23
-msgid "NixOS 21.11 platform"
+msgid "matrix-synapse: 1.89.0 -> 1.90.0"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:24
+msgid "nix: 2.13.3 -> 2.13.5"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:25
+msgid ""
+"nodejs_16: 16.20.1 -> 16.20.2 (CVE-2023-32002, CVE-2023-32006, "
+"CVE-2023-32559)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:26
+msgid ""
+"nodejs_18: 18.61.1 -> 18.17.1 (CVE-2023-32002, CVE-2023-32006, "
+"CVE-2023-32559)"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:27
-msgid "NixOS 21.05 platform"
+msgid ""
+"nodejs_20: 20.3.1 -> 20.5.1 (CVE-2023-32002, CVE-2023-32004, "
+"CVE-2023-32006, CVE-2023-32558, ...)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:28
+msgid "openssl: 3.0.9 -> 3.0.10 (CVE-2023-3817, CVE-2023-3446, CVE-2023-2975)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:29
+msgid "php82: 8.2.7 -> 8.2.9"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:30
+msgid "postgresql_11: 11.20 -> 11.21 (CVE-2023-39417)"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:31
-msgid "NixOS 20.09 platform"
+msgid "postgresql_12: 12.15 -> 12.16 (CVE-2023-39417)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:32
+msgid "postgresql_13: 13.11 -> 13.12 (CVE-2023-39417)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:33
+msgid "postgresql_14: 14.8 -> 14.9 (CVE-2023-39417)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:34
+msgid "postgresql_15: 15.3 -> 15.4 (CVE-2023-39417, CVE-2023-3941)"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:35
-msgid "NixOS 15.09 platform"
+msgid ""
+"Note for all postgresql versions: If you use BRIN indexes to look up NULL"
+" values, you will need to "
+"[reindex](https://www.postgresql.org/docs/current/sql-reindex.html) them "
+"after upgrading to this release."
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:38
+msgid "qemu: 8.0.2 -> 8.0.3"
 msgstr ""
 
 #: ../../../src/changes/2023/r021.md:39
-msgid "Gentoo platform"
+msgid "sysstat: add patch for CVE-2023-33204"
 msgstr ""
 
-#: ../../../src/changes/2023/r021.md:43
-msgid "Documentation"
+#: ../../../src/changes/2023/r021.md:40
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/291513/download/1/nixexprs.tar.xz"
 msgstr ""
 
-#: ../../../src/changes/2023/r021.md:47
+#: ../../../src/changes/2023/r021.md:42
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:44
+msgid ""
+"Patch Inception (AMD) and Downfall (Intel) CPU vulnerabilities on "
+"virtualization hosts and VMs (PL-131687, PL-131688)."
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:46
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/291577/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:48
 msgid "Detailed Changes"
 msgstr ""
+
+#: ../../../src/changes/2023/r021.md:50
+msgid ""
+"NixOS 23.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_020/23.05...2172365df6b5b19082509637929febe54bef1d5d),"
+" [upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/02f9ebcccbc5ca92bd5101108b24ad27a2ac21e...4060dd02cf545bb0ab61f9416d31b960ab05aa4f)"
+msgstr ""
+
+#: ../../../src/changes/2023/r021.md:52
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2023_019/21.05...71b66b96328b53049a433b08c009e275e384245a)"
+msgstr ""
+
+#~ msgid "Release 2023_021 (unreleased)"
+#~ msgstr ""
+
+#~ msgid "nothing yet"
+#~ msgstr ""
+
+#~ msgid "NixOS 22.11 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 22.05 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 21.11 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 20.09 platform"
+#~ msgstr ""
+
+#~ msgid "NixOS 15.09 platform"
+#~ msgstr ""
+
+#~ msgid "Gentoo platform"
+#~ msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr ""
 

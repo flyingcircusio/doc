@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r017.md:5
+msgid "Release 2024_017 (2024-06-05)"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:9
+msgid ""
+"\\[NixOS 23.11] Machines will schedule a maintenance reboot to activate "
+"the updated kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:13
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132631):"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:14
+msgid "chromedriver: 124.0.6367.201 -> 125.0.6422.112"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:15
+msgid "chromium: 124.0.6367.201 -> 125.0.6422.112"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:16
+msgid "clamav: 1.2.2 -> 1.2.3 (CVE-2024-20380)"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:17
+msgid ""
+"docker: 24.0.5 -> 24.0.9 (CVE-2024-21626, CVE-2024-23651, CVE-2024-23652,"
+" CVE-2024-23653)"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:18
+msgid "firefox: 125.0.3 -> 126.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:19
+msgid "gitlab: 16.10.5 -> 16.10.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:20
+msgid "libressl: backport to replace expiring certs"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:21
+msgid "linux_5_15: 5.15.158 -> 5.15.159"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:22
+msgid "matrix-synapse: 1.106.0 -> 1.107.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:23
+msgid "roundcube: 1.6.6 -> 1.6.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:24
+msgid "strace: 6.8 -> 6.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:25
+msgid "webkitgtk: 2.44.1 → 2.44.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:26
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/432516/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:28
+msgid "NixOS 23.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:30
+msgid ""
+"Fix statically configured time server (NTP) names. This was already "
+"released as production hotfix on 2024-05-27."
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:32
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r017.md:34
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_016/23.11...68d28b00c731677e4cec84f2517ff8a3124eb7ad),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/2b151fba3ac708c04ae98c0bd2e4efd18869e80d...c7a78f96557f5ab6144173d69866658973a88b41)"
+msgstr ""
+

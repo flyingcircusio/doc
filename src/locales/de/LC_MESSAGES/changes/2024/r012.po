@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r012.md:5
+msgid "Release 2024_012 (2024-04-08)"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:9
+msgid ""
+"\\[NixOS 23.11\\] Machines will reboot after the update to activate the "
+"changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:11
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:13
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-132333):"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:14
+msgid "chromedriver: 122.0.6261.94 -> 123.0.6312.86"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:15
+msgid "chromium: 122.0.6261.111 -> 123.0.6312.86"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:16
+msgid "element-web: 1.11.59 -> 1.11.61"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:17
+msgid "firefox: 123.0.1 -> 124.0.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:18
+msgid "github-runner: 2.314.1 -> 2.315.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:19
+msgid "gitlab-runner: 16.7.0 -> 16.9.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:20
+msgid "gitlab-container-registry: 3.90.0 -> 3.91.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:21
+msgid "gitlab: 16.7.7 -> 16.9.3"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:22
+msgid "grafana: 10.2.4 -> 10.2.6 (CVE-2024-1442)"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:23
+msgid "jetty: 12.0.5 -> 12.0.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:24
+msgid "jicofo: 1.0-1059 -> 1.0-1075"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:25
+msgid "jitsi-meet: 1.0.7712 -> 1.0.7790"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:26
+msgid "jitsi-videobridge: 2.3-64-g719465d1 -> 2.3-92-g64f9f34f"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:27
+msgid "linux_5_15: 5.15.151 -> 5.15.152"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:28
+msgid "matrix-synapse: 1.102.0 -> 1.103.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:29
+msgid "nss_latest: 3.98 -> 3.99"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:30
+msgid "php82: 8.2.16 -> 8.2.17"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:31
+msgid "prometheus: 2.49.0 -> 2.49.1"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:32
+msgid "python38: 3.8.18 -> 3.8.19 (CVE-2023-52425, CVE-2024-0450, CVE-2023-6597)"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:33
+msgid "python39: 3.9.18 -> 3.9.19 (CVE-2023-52425, CVE-2024-0450, CVE-2023-6597)"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:34
+msgid "strace: 6.7 -> 6.8"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:35
+msgid "tomcat10: 10.1.18 -> 10.1.20"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:36
+msgid "tomcat9: 9.0.85 -> 9.0.87"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:37
+msgid "varnish: 7.4.2 -> 7.4.3 (CVE-2023-44487)"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:38
+msgid ""
+"**mailserver**, rspamd: fix duplicate and syntactically wrong header "
+"settings (PL-132289)."
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:39
+msgid ""
+"**webgateway**/**nginx**, with modsecurity activated: Fix rotation of "
+"audit log files. Log files matching  the pattern "
+"`/var/log/nginx/modsec_*.log` are now rotated via copying and then "
+"truncating the open log. All nginx modsecurity logfiles need to follow "
+"the naming scheme `modsec_*` to not accidentally grow unrotated. This is "
+"the naming convention suggested by our nginx modsecurity configuration "
+"examples. A small amount of log entries written at the time of rotation "
+"might be lost (PL-132296)."
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:46
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/402189/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:49
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r012.md:51
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_011/23.11...56327dd6b972a0e5845f4fe5ab6a19c6e042cfc6),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/6f99099c456b0793be58ac42c4612df9396d8384...828c9768fa53d526b1828854a59b1f74eff51f16)"
+msgstr ""
+

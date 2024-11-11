@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2024-11-08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r009.md:5
+msgid "Release 2024_009 (2024-03-11)"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:7
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:9
+msgid ""
+"\\[NixOS 23.11] Gitlab and `phpfpm-*` services (including Matomo) will be"
+" restarted."
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:12
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:14
+msgid ""
+"**agent**: check free disk space before preparing a system update. At "
+"least the size of the current system plus a fixed value must be "
+"available. A Sensu check warns before the limit is reached and becomes "
+"critical if updates cannot run anymore. The default fixed value of 5 GiB "
+"can be configured using the `flyingcircus.agent.diskKeepFree` option "
+"(PL-131859)."
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:19
+msgid ""
+"**docker**: the firewall should now continue to function properly after "
+"the Docker role is removed (PL-131699)."
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:21
+msgid "**gitlab** security update (PL-132277):"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:22
+msgid "gitlab: 16.7.6 -> 16.7.7 (CVE-2024-0199, CVE-2024-1299)"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:23
+msgid "gitlab-container-registry: 3.88.1 -> 3.90.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:24
+msgid ""
+"**lamp**: ensure read access to `/var/log/httpd/*` files for users from "
+"sudo-srv and services groups (PL-131938)."
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:26
+msgid ""
+"**opensearch**: check cluster redundancy before running automated "
+"maintenance activities to avoid an impact on availability. The cluster "
+"must be in state *green* and other nodes must not be in maintenance at "
+"the same time (PL-132247)."
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:30
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/390433/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:32
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r009.md:34
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_008/23.11...b6d4fe6429a1a3c0c616cc8b948c8bce2e8cf62d),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/5857afb599983e1fbbbc0c5237ee64492f911df4...223066281ca570f5be77d351df0d880d21bcc9de)"
+msgstr ""
+

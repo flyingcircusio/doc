@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/reference/security/backup.md:11
 msgid "Backup"
@@ -45,60 +45,80 @@ msgid ""
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:25
-msgid "Schedule"
+msgid "S3 data is *not* backed up automatically."
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:27
-msgid "Backups are run daily or hourly, depending on the chosen backup level."
+msgid ""
+"All backup storage data is transparently encrypted before being stored "
+"onto physical disks, see [](#data-at-rest-encryption) for details."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:29
-msgid "The *default* (daily) backup schedule retains the following backups:"
-msgstr ""
-
-#: ../../../src/reference/security/backup.md:31
-#: ../../../src/reference/security/backup.md:38
-msgid "Daily backups for the past 10 days."
+#: ../../../src/reference/security/backup.md:30
+msgid "Schedule"
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:32
-#: ../../../src/reference/security/backup.md:39
-msgid "Weekly backups for the past 5 weeks."
+msgid "Backups are run daily or hourly, depending on the chosen backup level."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:33
-#: ../../../src/reference/security/backup.md:40
-msgid "Monthly backups for the past 4 months."
+#: ../../../src/reference/security/backup.md:34
+msgid "The *default* (daily) backup schedule retains the following backups:"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:35
-msgid "The *hourly* backup schedule retains the following backups:"
+#: ../../../src/reference/security/backup.md:36
+#: ../../../src/reference/security/backup.md:43
+msgid "Daily backups for the past 10 days."
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:37
-msgid "Hourly backups for the last 25 hours"
+#: ../../../src/reference/security/backup.md:44
+msgid "Weekly backups for the past 5 weeks."
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:38
+#: ../../../src/reference/security/backup.md:45
+msgid "Monthly backups for the past 4 months."
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:40
+msgid "The *hourly* backup schedule retains the following backups:"
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:42
-msgid "The the *longterm* backup schedule retains the following backups:"
-msgstr ""
-
-#: ../../../src/reference/security/backup.md:44
-msgid "Daily backups for the past 30 days."
-msgstr ""
-
-#: ../../../src/reference/security/backup.md:45
-msgid "Monthly backups for the last 12 months."
+#: ../../../src/reference/security/backup.md:54
+msgid "Hourly backups for the last 25 hours"
 msgstr ""
 
 #: ../../../src/reference/security/backup.md:47
+msgid "The the *longterm* backup schedule retains the following backups:"
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:49
+#: ../../../src/reference/security/backup.md:55
+msgid "Daily backups for the past 30 days."
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:50
+msgid "Monthly backups for the last 12 months."
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:52
+msgid "The *hourly+longterm* backup schedule retains the following backups:"
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:56
+msgid "Monthly backups for the past 12 months."
+msgstr ""
+
+#: ../../../src/reference/security/backup.md:58
 msgid ""
 "If backups were missed then the retention period keeps at least that many"
 " copies before deleting them, i.e. there will always be 25 hourly backups"
-"  even if a backup was missed for some reason."
+" even if a backup was missed for some reason."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:51
+#: ../../../src/reference/security/backup.md:62
 msgid ""
 "Backups are created at fixed intervals but the time during the interval "
 "is not guaranteed. I.e. daily backups for a specific VM occur every 24 "
@@ -106,23 +126,23 @@ msgid ""
 "like 03:00."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:55
+#: ../../../src/reference/security/backup.md:66
 msgid ""
 "Backups are *only* stored on-site. Off-site replication is available, "
 "please contact our [support](https://my.flyingcircus.io/support/)."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:57
+#: ../../../src/reference/security/backup.md:68
 msgid "Procedure"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:59
+#: ../../../src/reference/security/backup.md:70
 msgid ""
 "Backups are performed outside of the virtual machine: the backup server "
 "directly accesses the Ceph cluster to retrieve the data."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:62
+#: ../../../src/reference/security/backup.md:73
 msgid ""
 "First the VM's filesystem is being frozen to ensure consistency of the "
 "backup. Then a snapshot of the volume is made. The snapshot is then "
@@ -131,33 +151,33 @@ msgid ""
 "snapshot, to further ensure consistency."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:66
+#: ../../../src/reference/security/backup.md:77
 msgid ""
 "The backup procedure is logged to the filesystem of the backup server. We"
 " automatically monitor that all backups are taken within the agreed "
 "schedule."
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:68
+#: ../../../src/reference/security/backup.md:79
 msgid "Restore"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:70
+#: ../../../src/reference/security/backup.md:81
 msgid ""
 "Single files or full VMs can be restored by our infrastructure "
 "administrators. Please submit a support request with the following "
 "information:"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:73
+#: ../../../src/reference/security/backup.md:84
 msgid "which machine to restore files for"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:74
+#: ../../../src/reference/security/backup.md:85
 msgid "which files (specific path names)"
 msgstr ""
 
-#: ../../../src/reference/security/backup.md:75
+#: ../../../src/reference/security/backup.md:86
 msgid "from which approximate time (e.g. \"before last saturday\")"
 msgstr ""
 
@@ -165,5 +185,14 @@ msgstr ""
 #~ "The application software used for "
 #~ "backups is `Backy`_, an open-source "
 #~ "backup solution."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If backups were missed then the "
+#~ "retention period keeps at least that "
+#~ "many copies before deleting them, i.e."
+#~ " there will always be 25 hourly "
+#~ "backups  even if a backup was "
+#~ "missed for some reason."
 #~ msgstr ""
 

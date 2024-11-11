@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 1980-01-01 00:00+0000\n"
+"POT-Creation-Date: 2024-11-11 08:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/infrastructure/networking/connecting.md:3
 msgid "Connecting to VMs"
@@ -36,69 +36,69 @@ msgid ""
 "the box."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:21
+#: ../../../src/infrastructure/networking/connecting.md:17
 msgid "Getting an overview of your situation"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:23
+#: ../../../src/infrastructure/networking/connecting.md:19
 msgid "**VM has a public IPv4 address on SRV**:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:36
+#: ../../../src/infrastructure/networking/connecting.md:32
 msgid "**VM has a private IPv4 address on SRV**:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:43
+#: ../../../src/infrastructure/networking/connecting.md:39
 msgid "**VM is accessible through IPv6**:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:57
+#: ../../../src/infrastructure/networking/connecting.md:53
 msgid "**VM is not accessible through IPv6**:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:65
+#: ../../../src/infrastructure/networking/connecting.md:61
 msgid ""
 "If you get a result that isn't shown here, please contact our support and"
 " we'll amend this list."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:68
+#: ../../../src/infrastructure/networking/connecting.md:64
 msgid "VM has a public IPv4 address"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:70
+#: ../../../src/infrastructure/networking/connecting.md:66
 msgid ""
 "Everything should be fine: independently of whether your ISP provides you"
 " with IPv4 and/or IPv6  you should be able to connect. If not: please "
 "contact our support."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:74
+#: ../../../src/infrastructure/networking/connecting.md:70
 msgid "VM has a private IPV4 address but you have native IPv6 from your ISP"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:76
+#: ../../../src/infrastructure/networking/connecting.md:72
 msgid ""
 "Excellent! You should be able to connect as IPv6 will automatically pick "
 "up where IPv4 dropped the ball. If you can not connect in this scenario: "
 "please contact our support."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:80
+#: ../../../src/infrastructure/networking/connecting.md:76
 msgid "VM has a private IPv4 and you do not have native IPv6"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:82
+#: ../../../src/infrastructure/networking/connecting.md:78
 msgid ""
 "This is the tricky part: the VM is only accessible via IPv6 directly from"
 " the outside but you don't have it yet."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:87
+#: ../../../src/infrastructure/networking/connecting.md:83
 msgid "Using an IPv4 SSH jump host"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:89
+#: ../../../src/infrastructure/networking/connecting.md:85
 msgid ""
 "SSH can perform complex connection setups including proxying through "
 "other machines. Fortunately there will always be at least one public IPv4"
@@ -106,13 +106,13 @@ msgid ""
 " machine you actually want to go to."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:94
+#: ../../../src/infrastructure/networking/connecting.md:90
 msgid ""
 "Put the following in your {file}`~/.ssh/config` to enable transparent SSH"
 " jump hosts:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:112
+#: ../../../src/infrastructure/networking/connecting.md:106
 msgid ""
 "Remember to replace \\<VMNAME> with the name of a VM that has a public "
 "frontend IPv4 address configured. It doesn't matter which other VM you "
@@ -120,32 +120,36 @@ msgid ""
 "are using in the Flying Circus."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:117
+#: ../../../src/infrastructure/networking/connecting.md:112
+msgid "If you have an older SSH that doesn't yet support the `ProxyJump`"
+msgstr ""
+
+#: ../../../src/infrastructure/networking/connecting.md:130
 msgid "Using a private OpenVPN server"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:119
+#: ../../../src/infrastructure/networking/connecting.md:132
 msgid ""
 "If a project has an OpenVPN server available (`external_net` role), "
 "tunneling through a VPN connection may be a convenient alternative."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:122
+#: ../../../src/infrastructure/networking/connecting.md:135
 msgid "Using IPv6 rapid deployment options"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:124
+#: ../../../src/infrastructure/networking/connecting.md:137
 msgid ""
 "Even if your provider does not provide you with IPv6 there is a good "
 "chance you can easily get IPv6 with one of the following \"rapid "
 "deployment\" options."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:127
+#: ../../../src/infrastructure/networking/connecting.md:140
 msgid "The technologies we recommend are:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:129
+#: ../../../src/infrastructure/networking/connecting.md:142
 msgid ""
 "[6to4](https://en.wikipedia.org/wiki/6to4) which works in many cases and "
 "is supported by Linux, Windows, Mac OS X and many routers. You can often "
@@ -153,25 +157,25 @@ msgid ""
 "6to4\" option in your router."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:133
+#: ../../../src/infrastructure/networking/connecting.md:146
 msgid ""
 "[Teredo tunneling](https://en.wikipedia.org/wiki/Teredo_tunneling) may be"
 " a last-resort option that can be configured on individual machines and "
 "is supported on Windows and Linux."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:135
+#: ../../../src/infrastructure/networking/connecting.md:148
 msgid ""
 "Traditional IP tunnels, like provided by "
 "[Tunnelbroker](https://tunnelbroker.net/) are also an option, although "
 "their performance and reliability varies."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:138
+#: ../../../src/infrastructure/networking/connecting.md:151
 msgid "Further support"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/connecting.md:140
+#: ../../../src/infrastructure/networking/connecting.md:153
 msgid ""
 "IPv6 deployment is gaining traction but the rapid deployment options are "
 "unreliable at times. Check above options or let us know if you found a "
