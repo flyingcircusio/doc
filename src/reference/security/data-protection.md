@@ -74,7 +74,7 @@ Periodical check for compliance to regulations:
 
 ### 1. Equipment access control
 
-**Purpose: deny unauthorized persons access to processing equipment used for processing**
+**Purpose: deny unauthorized people access to processing equipment used for processing**
 
 The physical assets (servers, switches, hard drives, ...) are located in EU
 data centers operated by third parties. The ownership of the physical equipment
@@ -99,7 +99,7 @@ For each data center used by us we require the following measures:
 
 We maintain a separate {ref}`data-centers`.
 
-Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other persons (e.g., data center personnel).
+Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other people (e.g., data center personnel).
 
 #### Low-security locations
 
@@ -150,7 +150,7 @@ Additionally:
 
 ### 4. User control
 
-**Purpose: prevent the use of automated processing systems by unauthorized persons using data communication equipment**
+**Purpose: prevent the use of automated processing systems by unauthorized people using data communication equipment**
 
 
 % ISMSControl: A.9.4.2
@@ -185,7 +185,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 ### 5. Data access control
 
-**Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
+**Purpose: ensure that people authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
 % ISMSControl: A.9.1.1
 % ISMSControl: 5.15
