@@ -114,7 +114,7 @@ Due to this limitations, the services in high-security locations are not allowed
 
 ### 2. Data media control
 
-**Purpose: prevent the unauthorized reading, copying, modification or erasure of data media**
+**Purpose: prevent the unauthorized reading, copying, modification, or erasure of data media**
 
 Only Flying Circus administrators may have physical access to data media. Access may be delegated e.g. to data center personnel.
 
@@ -190,9 +190,6 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 % ISMSControl: A.9.1.1
 % ISMSControl: 5.15
 
-**Measures for access control protect against access by unauthorized
-personnel.**
-
 Customer-owned virtual machines may be accessed by all Flying Circus administrators implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
 % ISMSControl: A.9.2.1
@@ -246,21 +243,21 @@ controllers are stored as copies in a strongly encrypted password manager.
 
 ### 6. Communication control
 
-**Purpose: ensure that it is possible to verify and establish the bodies to which personal data have been or may be transmitted or made available using data communication equipment**
+**Purpose: ensure that it is possible to verify and establish the bodies to which personal data has been or may be transmitted or made available using data communication equipment**
 
-The communication control is generally the responsibility of the customer's application.
+Communication control is generally the responsibility of the customer's application.
 
 Data entered into the Flying Circus portal is not transmitted to third parties.
 
 
 ### 7. Input control
 
-**Purpose: ensure that it is subsequently possible to verify and establish which personal data have been input into automated processing systems and when and by whom the personal data were input**
+**Purpose: ensure that it is possible to verify and establish which personal data has been entered into automated processing systems including when and by whom**
 
-The security of data entry, change and deletion is generally part of the
-customer's application. Customers must ensure that data entry,
-deletion and removal are handled appropriately according to their applicable
-data protection laws.
+The security of data entry, change, and deletion is generally part of the
+customer's application. Customers must ensure that data entry, deletion, and
+removal are handled appropriately according to their applicable data protection
+laws.
 
 However, during maintenance work it may be necessary that
 administrators need to enter, change, or delete data records on a low technical
@@ -279,7 +276,7 @@ after the change has been performed.
 
 ### 8. Transport control
 
-**Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
+**Purpose: ensure that the confidentiality and integrity of personal data is protected during transfers of personal data or during transport of data media**
 
 % ISMSControl: A.14.1.2
 % ISMSControl: 8.26
@@ -313,7 +310,7 @@ Recovery scenarios are documented at {ref}`disaster-recovery`.
 
 ### 10. Reliability
 
-**Purpose: ensure that all system functions perform and that the appearance of faults in the functions is reported**
+**Purpose: ensure that all system functions are performed as expected and that the appearance of faults in the functions is reported**
 
 All systems are monitored continuously. Depending on the severity of the monitored system our emergency support is notified, a support ticket is created automatically, or tickets are created manually during monitoring review.
 
@@ -323,9 +320,10 @@ All systems are monitored continuously. Depending on the severity of the monitor
 
 Integrity is assured on several levels:
 
-* filesystem level checksums
+* filesystem-level checksums on XFS filesystems
+* block-level checksums on Ceph bluestore OSDs
 * redundant storage of data
-* backups of data, see {ref}`backup`.
+* backups of data with hash-based integrity checks, see {ref}`backup`.
 
 For details and recovery times, see {ref}`disaster-recovery`.
 
@@ -346,7 +344,7 @@ Specific actions performed will be reported to the customer if required.
 
 ### 13. Availability control
 
-**Purpose: ensure that personal data are protected against loss and destruction**
+**Purpose: ensure that personal data is protected against loss and destruction**
 
 The availability of resources depending on the data center facilities is
 delegated to the operator of the data center. The Flying Circus facilitates
@@ -368,11 +366,11 @@ our preventative and recovery measures.
 **Purpose: ensure that personal data collected for different purposes can be processed separately**
 
 
-To separate data from different customers the Flying Circus facilitates virtualization:
-both virtual machines (to separate execution context) and SAN (to separate
-storage) ensure that customers can only access data belonging to them. Within a
-single machine access to different files and processes is available using
-standard UNIX permissions.
+To separate data from different customers the Flying Circus facilitates
+virtualization: both virtual machines (to separate execution context) and
+virtualized storage (Ceph) ensures that customers can only access data
+belonging to them. Within a single machine access to different files and
+processes is available using standard UNIX permissions.
 
 Machines (both virtual and physical) live in a specific *access ring* (short:
 ring):
@@ -387,7 +385,8 @@ All resources that belong logically together (e.g., VMs, storage
 volumes) are bundled into *resource groups*. Resource groups share that same set
 of user accounts and permissions.
 
-
+Access to S3-compatible object storage buckets is separated by resource group
+with dedicated authentication credentials.
 
 
 ## Other measures
