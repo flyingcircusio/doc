@@ -143,7 +143,7 @@ Disaster recovery
 
 ### Loss of power in the data center
 
-% ISMSCoDntrol: 7.5
+% ISMSControl: 7.5
 
 Disaster prevention
 
