@@ -28,6 +28,7 @@ The structure of a resource group record looks like this:
  'in_maintenance': False,
  'maintenance_end': 5,
  'maintenance_start': 22,
+ 'maintenance_until': '',
  'name': 'services',
  'notification_leadtime': 12,
  'parent': '',
@@ -55,6 +56,10 @@ in_maintenance
 
   True, if the resource group is in maintenance mode. This prevents alerting FC staff.
 
+  Maintenance will be limited to 1 hour from initial setting the value and automatically reset.
+
+  An error is retured if `in_maintenance` and `maintenance_until` have contradicting values.
+
 maintenance_start
 
 : *filterable, default:* `22`
@@ -66,6 +71,16 @@ maintenance_end
 : *filterable, default:* `5`
 
   Hour in the day when scheduled maintenance windows should end.
+
+maintenance_until
+
+: *datetime* (ISO 8601 with time zone)
+
+  The resource group is in maintenance until the given date.
+
+  Set to an empty string or a date in the past to end maintenance.
+
+  An error is retured if `maintenance_until` and `in_maintenance` have contradicting values.
 
 notification_leadtime
 
