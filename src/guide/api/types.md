@@ -9,21 +9,18 @@ Each type has a set of identifying keys which correspond to the RDBMS
 "primary key" concept. When updating or deleting a record you need to specify
 at least the primary key to ensure unambiguity.
 
-## Project
+## Resource Group
 
-Projects are the foundational building block for organizing resources
+Resource Group are the foundational building block for organizing resources
 in the Flying Circus platform: they group together which machines belong
-to the same project, which users have permissions for them, what rules
+to the same resource group, which users have permissions for them, what rules
 apply for maintenance, and more.
 
-:::{note}
-In technical terms a project is just a thing grouping resource, hence we used to call projects "resource groups". The API still uses the old term, and will continue to do so to ensure compatibility.
-:::
 
-In addition to the project that your key is associated with, you
-can create new child projects.
+In addition to the resource group that your key is associated with, you
+can create new child resource group.
 
-The structure of a project record looks like this:
+The structure of a resource group record looks like this:
 
 ```python
 {'__type__': 'resourcegroup',
@@ -43,20 +40,20 @@ name
 
 : *read-only, primary key, filterable*
 
-  The name of the project. Needs to be a valid Linux group name.
+  The name of the resource group. Needs to be a valid Linux group name.
 
 customer_no
 
 : *readonly, filterable, default: inherited or pre-set*
 
   The customer number of the customer who is charged for resources
-  that belong to this project.
+  that belong to this resource group.
 
 in_maintenance
 
 : *bool, default:* `False`
 
-  True, if the project is in maintenance mode. This prevents alerting FC staff.
+  True, if the resource group is in maintenance mode. This prevents alerting FC staff.
 
 maintenance_start
 
@@ -89,11 +86,11 @@ parent
 
 : *default:* `''`
 
-  Name of the parent project if this project has one.
+  Name of the parent resource group if this resource group has one.
 
-  If you create new projects, this will be set to the name
-  of the project that your API key belongs to. Alternatively
-  you can set the parent to any project that your API key
+  If you create new resource groups, this will be set to the name
+  of the resource group that your API key belongs to. Alternatively
+  you can set the parent to any resource group that your API key
   has access to.
 
   (Making new top-level projects does not make much sense as
@@ -103,7 +100,7 @@ production
 
 : *filterable, default:* `True`
 
-  Indicates whether the services of this project are considered
+  Indicates whether the services of this resource group are considered
   for production use (in contrast to testing, staging, dev, or similar
   non-production instances).
 
@@ -125,7 +122,7 @@ recursively.
 
 You can query, create, update and delete service users. Their names always
 start with `s-` to make them distinguishable from regular users. Their names
-are unique per project, so you can have multiple services users named
+are unique per resource group, so you can have multiple services users named
 `s-myservice` in different projects.
 
 The structure of a service user record looks like this:
@@ -149,7 +146,7 @@ uid
 : *needs to be set on create, read-only otherwise; primary key; filterable*
 
   The Linux name of this service user. Needs to start with `s-` and
-  be unique within each project.
+  be unique within each resource group.
 
 resource_group
 
@@ -216,7 +213,7 @@ virtual_machines
 
 ## User permissions
 
-Permissions are assigned to users (human and service) on a per-project
+Permissions are assigned to users (human and service) on a per-resource group
 basis and control the access level that users have to login and interact with
 virtual machines and other services.
 
@@ -257,7 +254,7 @@ resource_group
 
 : *read-only, primary key*
 
-  The name of the project the permission is granted.
+  The name of the resource group the permission is granted.
   Applies to child projects as long as the child resource
   group does not define any other permission.
 
@@ -322,7 +319,7 @@ name
 
 : *read-only, primary key*
 
-  The name of the virtual machine. All machines within a project
+  The name of the virtual machine. All machines within a resource group
   need to adhere to the schema `<nameofrg><serialnumber>`. You can choose
   how to allocate those numbers as you like.
 
@@ -337,7 +334,7 @@ resource_group
 
 : *readonly, required*
 
-  The name of the project this VM belongs to.
+  The name of the resource group this VM belongs to.
 
 location
 
@@ -363,7 +360,7 @@ resource_group_parent
 
 : *readonly*
 
-  The name of the parent project of the project this
+  The name of the parent resource group of the resource group this
   VM belongs to.
 
   > 'timezone': 'Europe/Berlin'
@@ -377,7 +374,7 @@ classes
   in the specific platform release documentation.
 
   A few roles are not selectable by you: if your VM runs in a production
-  project, it will always be marked as `role::backupclient` to
+  resource group, it will always be marked as `role::backupclient` to
   ensure safety of your data.
 
   Generally your VM will always have the `role::generic` class applied.
@@ -508,7 +505,7 @@ frontend_ips_v4
 
 :::{note}
 Public IPv4 addresses are a scarce resource. Most virtual machines
-do not require one. Typically you need only 1 per project,
+do not require one. Typically you need only 1 per resource group,
 maybe 2 or 3 under certain conditions. In the case of excessive use
 we may reduce the number of IPs available to your VM.
 
@@ -616,7 +613,7 @@ scheduled for your services. Maintenance windows can not be changed
 through the API.
 
 General parameters for maintenance windows can be configured on the
-corresponding project object.
+corresponding resource group object.
 
 A maintenance record looks like this:
 
@@ -647,7 +644,7 @@ end of a month, those consumptions are reviewed and turned into invoice items.
 
 Consumptions can be queried during a month to see the ongoing view of
 your traffic, virtual machines, contracts, and more. Consumptions are also
-historic data and remain available even if you delete a project, a VM,
+historic data and remain available even if you delete a resource group, a VM,
 or pass your resources over to a different customer.
 
 Access to consumptions is granted based on the customer of the resource
@@ -665,7 +662,7 @@ A consumption record looks like this:
 ```
 
 The content of `type_id` depends on the type. For example: traffic is
-accounted per project. Virtual machines are accounted per virtual
+accounted per resource group. Virtual machines are accounted per virtual
 machine. Parameters vary per type as well.
 
 ## Invoices
