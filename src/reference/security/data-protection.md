@@ -74,7 +74,7 @@ Periodical check for compliance to regulations:
 
 ### 1. Equipment access control
 
-**Purpose: deny unauthorized people access to processing equipment used for processing**
+**Purpose: deny unauthorized persons access to processing equipment used for processing**
 
 The physical assets (servers, switches, hard drives, ...) are located in EU
 data centers operated by third parties. The ownership of the physical equipment
@@ -114,7 +114,7 @@ Due to this limitations, the services in high-security locations are not allowed
 
 ### 2. Data media control
 
-**Purpose: prevent the unauthorized reading, copying, modification, or erasure of data media**
+**Purpose: prevent the unauthorized reading, copying, modification or erasure of data media**
 
 Only Flying Circus administrators may have physical access to data media. Access may be delegated e.g. to data center personnel.
 
@@ -150,7 +150,7 @@ Additionally:
 
 ### 4. User control
 
-**Purpose: prevent the use of automated processing systems by unauthorized people using data communication equipment**
+**Purpose: prevent the use of automated processing systems by unauthorized persons using data communication equipment**
 
 
 % ISMSControl: A.9.4.2
@@ -185,7 +185,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 ### 5. Data access control
 
-**Purpose: ensure that people authorized to use an automated processing system have access only to the personal data covered by their access authorization**
+**Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
 % ISMSControl: A.9.1.1
 % ISMSControl: 5.15
@@ -243,7 +243,7 @@ controllers are stored as copies in a strongly encrypted password manager.
 
 ### 6. Communication control
 
-**Purpose: ensure that it is possible to verify and establish the bodies to which personal data has been or may be transmitted or made available using data communication equipment**
+**Purpose: ensure that it is possible to verify and establish the bodies to which personal data have been or may be transmitted or made available using data communication equipment**
 
 Communication control is generally the responsibility of the customer's application.
 
@@ -252,7 +252,7 @@ Data entered into the Flying Circus portal is not transmitted to third parties.
 
 ### 7. Input control
 
-**Purpose: ensure that it is possible to verify and establish which personal data has been entered into automated processing systems including when and by whom**
+**Purpose: ensure that it is subsequently possible to verify and establish which personal data have been input into automated processing systems and when and by whom the personal data were input**
 
 The security of data entry, change, and deletion is generally part of the
 customer's application. Customers must ensure that data entry, deletion, and
@@ -276,7 +276,7 @@ after the change has been performed.
 
 ### 8. Transport control
 
-**Purpose: ensure that the confidentiality and integrity of personal data is protected during transfers of personal data or during transport of data media**
+**Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
 
 % ISMSControl: A.14.1.2
 % ISMSControl: 8.26
@@ -310,7 +310,7 @@ Recovery scenarios are documented at {ref}`disaster-recovery`.
 
 ### 10. Reliability
 
-**Purpose: ensure that all system functions are performed as expected and that the appearance of faults in the functions is reported**
+**Purpose: ensure that all system functions perform and that the appearance of faults in the functions is reported**
 
 All systems are monitored continuously. Depending on the severity of the monitored system our emergency support is notified, a support ticket is created automatically, or tickets are created manually during monitoring review.
 
@@ -344,7 +344,7 @@ Specific actions performed will be reported to the customer if required.
 
 ### 13. Availability control
 
-**Purpose: ensure that personal data is protected against loss and destruction**
+**Purpose: ensure that personal data are protected against loss and destruction**
 
 The availability of resources depending on the data center facilities is
 delegated to the operator of the data center. The Flying Circus facilitates
