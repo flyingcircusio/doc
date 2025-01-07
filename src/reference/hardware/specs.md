@@ -1,3 +1,7 @@
+% last review: 2025-01-07
+
+% review schedule: 1 year
+
 ---
 Publish Date: '2013-06-13'
 ---
@@ -17,15 +21,14 @@ at the time of installation.
 
 All servers, independently of their role, require:
 
-- 2 10 GE copper network ports, onboard, shared IPMI port (Intel)
-- OS disks: 2 SSDs (internal or rear side)
-- CPU-Architecture: x86_64
+- 1 1G network port onboard with shared IPMI and PXE boot functionality
+- 2 25G network ports with VXLAN offloading (Nvidia Connect X-4 or newer)
+- Support for UEFI boot
+- OS disks: 1 SSD M.2 internal, >= 240 GiB
+- CPU-Architecture: x86_64, preferably AMD
 - BMC supporting IPMI 2.0 with serial console via LAN on shared port
 - Redundant power supply
 - Sliding rack rails
-- Support contract for at least 5 years (next business day, parts
-  included)
-- Bootable, built-in rescue system
 
 Historic requirements, usually always given nowadways:
 
@@ -34,48 +37,47 @@ Historic requirements, usually always given nowadways:
 
 ### Application servers
 
-- Chassis: Thomas Krenn RI2208
-- 512 GiB RAM
-- 2x18 Core CPU at affordable speed
-- Microarchitecture: Westmere+
+- Chassis: 2 rack units
+- at least 768 GiB RAM
+- at least 2x28 Core CPU at affordable speeds
+- Microarchitecture: at least Zen 3 (Milan)
 - Machine name: kyleXX
 
 ### Storage servers
 
-- Base: Thomas Krenn RI2224
-- 16 slots for hard drives
-- at leat 16 cores with sufficient thread performance (2x Intel Xeon E5-2640v3 8-Core)
-- 128 GiB RAM
-- HDD Pool: 2-3 Micron S610DC
-- SSD Pool: 2-3 Intel 800 GB SATA III Intel SSD MLC 2,5" (DC S3610 Series)
-- Journal: 400 GB Intel SSD MLC NVMe PCI-E 3.0 (DC P3700 Series)
+- Base: 2 rack units
+- 24 slots for U.2/U.3 NVMe drives
+- at least 1x24 cores with sufficient single-thread performance (3GHz+)
+- 256 GiB RAM
+- Drives: 15 TiB NVMe, e.g. Micron 7450 Pro
 - code name: cartmanXY
 
 ### Backup servers
 
-- Base: Thomas Krenn RI1316
-- No separate drives for system needed, it's OK to install on the big raid.
-- High-end hardware RAID controller (Avago MegaRAID 9361-8i SAS3 8x internal) including safe controller cache
-- at least 15 x 2 TB SAS 7.2k disks, depending on actual requirements.
-- at least 12 GiB RAM
-- at least 4 processor cores
+- Base: 2 rack units
+- 24 slots for U.2/U.3 NVMe drives
+- at least 1x16 cores
+- 96 GiB RAM
+- Drives: 15 TiB NVMe, e.g. Micron 7450 Pro, Kioxia and Solidigm are valid, too.
 - code name: barbradyXY
 
 ### Routers
 
-- at least 4 GiB RAM
-- Power saving CPU
+- Base: 2 rack units
+- 3-4 PCIe slots for additional network cards
+- at least 16 GiB RAM
+- at least 1x8 cores, potentially power saving options
 - code name: kennyXY
 
 ## Network infrastructure
 
 ### Switches
 
-- Recommended models: Brocade VDX 6740T
-- 24 Ports
+- Recommended model: Nokia 7220 IXR D2L
+- 48 Ports
 - code name: stanXY
 
 ### Cabling
 
-- Use Cat7
-- Respect color coding
+- LC-Duplex OS2
+- Use patchboxes for clean cable management
