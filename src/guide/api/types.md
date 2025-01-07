@@ -11,14 +11,13 @@ at least the primary key to ensure unambiguity.
 
 ## Resource Group
 
-Resource Group are the foundational building block for organizing resources
-in the Flying Circus platform: they group together which machines belong
-to the same resource group, which users have permissions for them, what rules
-apply for maintenance, and more.
-
+Resource group are the foundational building block for organizing resources
+in the Flying Circus platform: they form groups of (virtual) machines and
+control which users have permissions for them, what rules to apply for maintenance,
+and more.
 
 In addition to the resource group that your key is associated with, you
-can create new child resource group.
+can create new child resource groups.
 
 The structure of a resource group record looks like this:
 
@@ -58,7 +57,7 @@ in_maintenance
 
   Maintenance will be limited to 1 hour from initial setting the value and automatically reset.
 
-  An error is retured if `in_maintenance` and `maintenance_until` have contradicting values.
+  An error is returned if `in_maintenance` and `maintenance_until` have contradicting values.
 
 maintenance_start
 
@@ -80,7 +79,7 @@ maintenance_until
 
   Set to an empty string or a date in the past to end maintenance.
 
-  An error is retured if `maintenance_until` and `in_maintenance` have contradicting values.
+  An error is returned if `maintenance_until` and `in_maintenance` have contradicting values.
 
 notification_leadtime
 
