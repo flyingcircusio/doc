@@ -72,7 +72,7 @@ Periodical check for compliance to regulations:
 
 (entry-control)=
 
-### 1. Equipment access control
+### (1) Equipment access control
 
 **Purpose: deny unauthorized persons access to processing equipment used for processing**
 
@@ -112,7 +112,7 @@ as they are not sufficiently protected.
 Due to this limitations, the services in high-security locations are not allowed to depend on services provided in low-security locations.
 
 
-### 2. Data media control
+### (2) Data media control
 
 **Purpose: prevent the unauthorized reading, copying, modification or erasure of data media**
 
@@ -126,7 +126,7 @@ provider.
 
 (data-at-rest-encryption)=
 
-### 3. Storage control
+### (3) Storage control
 
 **Purpose: prevent the unauthorized input of personal data and the unauthorized inspection, modification or deletion of stored personal data**
 
@@ -148,7 +148,7 @@ Additionally:
 - We delete customer data upon customer's request.
 
 
-### 4. User control
+### (4) User control
 
 **Purpose: prevent the use of automated processing systems by unauthorized persons using data communication equipment**
 
@@ -183,7 +183,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 (access-control)=
 
-### 5. Data access control
+### (5) Data access control
 
 **Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
@@ -241,7 +241,7 @@ Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
 
-### 6. Communication control
+### (6) Communication control
 
 **Purpose: ensure that it is possible to verify and establish the bodies to which personal data have been or may be transmitted or made available using data communication equipment**
 
@@ -250,7 +250,7 @@ Communication control is generally the responsibility of the customer's applicat
 Data entered into the Flying Circus portal is not transmitted to third parties.
 
 
-### 7. Input control
+### (7) Input control
 
 **Purpose: ensure that it is subsequently possible to verify and establish which personal data have been input into automated processing systems and when and by whom the personal data were input**
 
@@ -274,7 +274,7 @@ our support then it must be documented beforehand and confirmed by the customer
 after the change has been performed.
 
 
-### 8. Transport control
+### (8). Transport control
 
 **Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
 
@@ -302,19 +302,19 @@ Data paths where sensitive information may be transferred include:
   administrators may have access to the central log server.
 
 
-### 9. Recovery
+### (9). Recovery
 
 **Purpose: ensure that installed systems may, in the case of interruption, be restored**
 
 Recovery scenarios are documented at {ref}`disaster-recovery`.
 
-### 10. Reliability
+### (10) Reliability
 
 **Purpose: ensure that all system functions perform and that the appearance of faults in the functions is reported**
 
 All systems are monitored continuously. Depending on the severity of the monitored system our emergency support is notified, a support ticket is created automatically, or tickets are created manually during monitoring review.
 
-### 11. Integrity
+### (11) Integrity
 
 **Purpose: ensure that stored personal data cannot be corrupted by means of a malfunctioning of the system**
 
@@ -328,7 +328,7 @@ Integrity is assured on several levels:
 For details and recovery times, see {ref}`disaster-recovery`.
 
 
-### 12. Processing control
+### (12) Processing control
 
 **Purpose: ensure that personal data processed on behalf of the controller can only be processed in compliance with the controller’s instructions**
 
@@ -342,7 +342,7 @@ request tracking system. Other means of documentation to control changes are pos
 
 Specific actions performed will be reported to the customer if required.
 
-### 13. Availability control
+### (13) Availability control
 
 **Purpose: ensure that personal data are protected against loss and destruction**
 
@@ -361,7 +361,7 @@ by administrators on request. Additionally, a
 {ref}`disaster recovery plan <disaster-recovery>` details failure scenarios,
 our preventative and recovery measures.
 
-### 14. Separability
+### (14) Separability
 
 **Purpose: ensure that personal data collected for different purposes can be processed separately**
 
