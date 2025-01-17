@@ -58,6 +58,8 @@ Machines should *not* be rebooted manually on the command line (e.g. `sudo syste
 
 ## Deletion
 
+% ISMSControl: 8.10
+
 VMs are deleted in a multi-stage process that takes around 38 days. You can
 schedule the deletion of a VM at earliest for the next day (midnight
 Europe/Berlin).
