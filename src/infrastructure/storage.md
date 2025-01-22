@@ -102,8 +102,44 @@ provision a new VM and copy the data to a smaller disk.
 
 # S3-compatible Object Storage
 
-Our Ceph cluster also provides an S3-compatible object storage. Contact our
-support to get you started with credentials.
+Our Ceph cluster also provides an S3-compatible object storage.
+The data in the cluster is transparently encrypted before being stored onto
+physical disks, see [](#data-at-rest-encryption) for details.
+
+S3 user management can be done in the customer portal at [my.flyingcircus.io](https://my.flyingcircus.io).
+`manager` permission is required to manage S3 users.
+After creating users, please allow up to 10 minutes for the user to be created.
+You can see the current status of the user in the portal.
+
+Secret keys of an user are only shown once. If you loose the secret key, you can rotate the key in the customer portal.
+This will invalidate the old secret key!
+
+## Deletion
+
+When an S3 user is deleted, all owned buckets are also deleted in a multi-stage process that takes around 20 days.
+
+The stages of deletion are:
+
+Soft
+
+: (at t=0)
+
+  Revoke access keys. Acccess to the user and it's buckets is no longer possible.
+
+  At this point you can still cancel the deletion. A new secret key is then generated.
+
+Hard
+
+: (t+14 days)
+
+  Delete the S3 user and all owned buckets.
+
+Recycle
+
+: (t+20 days)
+
+  Delete the S3 user deletion notice which will allows the S3 user id to be reused. 
+
 
 ## Application Implementation Guidance
 
