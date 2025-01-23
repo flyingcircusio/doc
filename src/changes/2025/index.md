@@ -6,4 +6,5 @@ Releases performed in 2025.
 :maxdepth: 1
 
 r001
+r002
 ```
