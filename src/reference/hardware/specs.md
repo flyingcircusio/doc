@@ -1,10 +1,11 @@
+---
+Publish Date: '2013-06-13'
+---
+
 % last review: 2025-01-07
 
 % review schedule: 1 year
 
----
-Publish Date: '2013-06-13'
----
 
 (hardware-specs)=
 
