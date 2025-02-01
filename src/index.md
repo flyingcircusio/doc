@@ -19,6 +19,7 @@ infrastructure/index
 reference/index
 ```
 
+(fcio-support)=
 ## Support
 
 We are here to help. Here is how to get in touch with us:
