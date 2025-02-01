@@ -92,7 +92,7 @@ For each data center used by us we require the following measures:
 
 We maintain a separate {ref}`data-centers`.
 
-Physical access to data processing equipment may be performed only by the Flying Circus' {ref}`administrators <administrators>`. Administrators may delegate physical access to other persons (e.g., data center staff).
+Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other persons (e.g., data center staff).
 
 #### Low-security locations
 
@@ -130,7 +130,7 @@ password, depending on the applicability.
 Users with a Flying Circus account are required to manage their password securely: Passwords must not become compromised if a device is being accessed unauthorizedly (logically or physically). Things to consider are for example: Home directory on a notebook, keychain or password manager software, backups, USB sticks, smartphones. Strongly encrypted storage of passwords is permitted and even advised. For Flying Circus staff there is a separate *guideline for handling secret authentication information*.
 
 All hardware machines have emergency root logins which may only be used by
-{ref}`Flying Circus administrators <administrators>` if regular user
+Flying Circus administrators if regular user
 authentication is not working correctly. Such uses are monitored and must be documented.
 
 All privileged actions need to be securely logged. For machines based on our current (NixOS) platform, this is achieved via a local logging journal, which cannot be tampered with by normal users. Additionally systems logs are shipped to a central log server within the same site where the logs are analysed and monitored.
@@ -164,7 +164,7 @@ provider.
 **Measures for access control protect against access by unauthorized
 personnel.**
 
-Customer-owned virtual machines may be accessed by all Flying Circus {ref}`administrators <administrators>` implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
+Customer-owned virtual machines may be accessed by all Flying Circus administrators implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
 % ISMSControl: A.9.2.1
 
@@ -192,7 +192,7 @@ administrative operations:
    requires the user to log into a regular account using his SSH key and
    additionally provide his password to access privileged operations.
 2. Using a user account which is member of the global
-   group of administrators (see {ref}`administrators`) which grants access to
+   group of administrators which grants access to
    all machines within the Flying Circus infrastructure.
 3. Emergency root logins (see above in {ref}`entry-control`).
 
