@@ -41,9 +41,9 @@ support/index
 ```{toctree}
 :maxdepth: 2
 
-platform/24.11/fc-24.11-dev
-platform/24.05/fc-24.05-dev
-platform/23.11/fc-23.11-dev
-platform/23.05/fc-23.05-dev
+platform/24.11/fc-24.11-production
+platform/24.05/fc-24.05-production
+platform/23.11/fc-23.11-production
+platform/23.05/fc-23.05-production
 ```
 
