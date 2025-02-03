@@ -1,5 +1,5 @@
 {
-  pkgs ? import (fetchTarball "https://hydra.flyingcircus.io/build/457353/download/1/nixexprs.tar.xz") {}
+  pkgs ? import (fetchTarball "https://hydra.flyingcircus.io/build/4347582/download/1/nixexprs.tar.xz") {}
 , revCount ? 0
 , shortRev ? "0000000"
 , gitTag ? ""
