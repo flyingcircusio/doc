@@ -82,8 +82,7 @@ is with the Flying Circus, or, in special cases by our customers
 For each data center used by us we require the following measures:
 
 - video surveillance (outside facilities, in-doors and rack corridors)
-- two-factor security for granting access (e.g. personal password and
-  transponder card) with logging
+- two-factor security for granting access with logging
 - physical access must be documented
 - preferably 24 hour guard services with linked alarm system
 - separate physical security zones for general areas, data center
