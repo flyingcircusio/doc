@@ -8,4 +8,5 @@ Releases performed in 2025.
 r001
 r002
 r003
+r004
 ```
