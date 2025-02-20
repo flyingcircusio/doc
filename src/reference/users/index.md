@@ -3,6 +3,7 @@
 % review schedule: 1 year
 
 % ISMSControl: A.9.2.2
+% ISMSControl: 5.18
 
 
 ```{image} ../../images/users250.png
