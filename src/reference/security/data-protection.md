@@ -154,6 +154,8 @@ Additionally:
 
 
 % ISMSControl: A.9.4.2
+% ISMSControl: 5.16
+% ISMSControl: 5.17
 % ISMSControl: 8.5
 
 Machines managed within the Flying Circus can be accessed by a variety of ways for
@@ -189,19 +191,22 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 % ISMSControl: A.9.1.1
 % ISMSControl: 5.15
+% ISMSControl: 5.18
+% ISMSControl: 8.3
 
 Customer-owned virtual machines may be accessed by all Flying Circus administrators implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
 % ISMSControl: A.9.2.1
 % ISMSControl: A.9.2.2
 % ISMSControl: A.9.2.6
-% ISMSControl: 5.16
 
 Users are centrally managed using <https://my.flyingcircus.io>. Users are automatically provisioned to all relevant systems, including proper removal of access rights.
 
 Flying Circus implements a permission-based concept to separate application
 maintenance tasks from privileged administrative tasks: for example, customer
 software updates or database access versus OS updates or OS configuration.
+
+% ISMSControl: 8.2
 
 Privileged administrative access is generally not granted to customers.
 In cases where another person who is not an
@@ -274,7 +279,7 @@ our support then it must be documented beforehand and confirmed by the customer
 after the change has been performed.
 
 
-### (8). Transport control
+### (8) Transport control
 
 **Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
 
@@ -302,7 +307,7 @@ Data paths where sensitive information may be transferred include:
   administrators may have access to the central log server.
 
 
-### (9). Recovery
+### (9) Recovery
 
 **Purpose: ensure that installed systems may, in the case of interruption, be restored**
 
@@ -346,9 +351,12 @@ Specific actions performed will be reported to the customer if required.
 
 **Purpose: ensure that personal data are protected against loss and destruction**
 
-The availability of resources depending on the data center facilities is
+% ISMSControl: 7.5
+% ISMSControl: 8.14
+
+The availability of resources depending on the data center facilities may be
 delegated to the operator of the data center. The Flying Circus facilitates
-service level agreements to make expectations about availability explicit.
+service level agreements to make expectations about availability explicit. This includes proper air-conditioning and uninterruptible power supplies.
 
 The selection of hardware is performed by the Flying Circus using professional
 equipment and vendors. The Flying Circus facilitates standard procedures for
