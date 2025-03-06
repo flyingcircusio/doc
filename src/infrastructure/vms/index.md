@@ -1,4 +1,4 @@
-% last review: 2024-02-02
+% last review: 2025-03-06
 
 % review schedule: 1 year
 
@@ -44,7 +44,7 @@
 ## Maintenance
 
 For every project our automatic maintenance window is by default set between
-22:00 and 5:00 (Europe/Berlin) with a pre-announcement period of 24 hours.
+22:00 and 5:00 (Europe/Berlin) with a pre-announcement period of 12 hours.
 
 When our tools notice that maintenance is required they will automatically
 pick a window matching the configured limits and notify your technical contacts.
