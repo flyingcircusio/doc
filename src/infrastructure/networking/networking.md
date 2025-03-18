@@ -11,6 +11,9 @@
 
 ## Physical networks
 
+```{image} physical.png
+```
+
 We use a redundant routed layer 3 network as the basis of production network
 functions in all our public datacenters. All of our servers in each location are
 connected to a pair of core switches, which forward network traffic between the
