@@ -102,8 +102,72 @@ provision a new VM and copy the data to a smaller disk.
 
 # S3-compatible Object Storage
 
-Our Ceph cluster also provides an S3-compatible object storage. Contact our
-support to get you started with credentials.
+Our Ceph cluster also provides an S3-compatible object storage.
+The data in the cluster is transparently encrypted before being stored onto
+physical disks, see [](#data-at-rest-encryption) for details.
+
+## Creation
+
+S3 users are managed in the customer portal at [my.flyingcircus.io](https://my.flyingcircus.io) in the "S3 Users" page.
+
+```{image} ../images/infrastructure_s3_users_main.png
+```
+
+Click the "Add S3 user" button to create a new user. *manager* permission is required for this.
+
+The user id is a suffix appended to the resource group name.
+It can be used when there are multiple applications in one resource group which should not have access to each others data.
+The display name is for your discretion to explain the use of the user. If left empty, it defaults to the user id.
+
+```{image} ../images/infrastructure_s3_users_add.png
+```
+
+You will be redirected to a page that shows the secret key of the user.
+Secret keys of a user are only shown once. If you loose the secret key, you can rotate the key in the customer portal.
+This will invalidate the old secret key!
+
+After a user is created, please allow up to 10 minutes for it to be created in the cluster.
+You can see the current status of the user in the portal.
+While the status is pending, it is not yet available:
+
+```{image} ../images/infrastructure_s3_users_main_pending.png
+```
+
+As soon as the status changes to active, it can be used.
+
+```{image} ../images/infrastructure_s3_users_main_active.png
+```
+
+## Deletion
+
+When an S3 user is deleted, all owned buckets are also deleted in a multi-stage process that takes around 20 days.
+
+The stages of deletion are:
+
+Soft
+
+: (at t=0)
+
+  Revoke access keys. Acccess to the user and it's buckets is no longer possible.
+
+  At this point you can still cancel the deletion. A new secret key is then generated.
+
+Hard
+
+: (t+14 days)
+
+  Delete the S3 user and all owned buckets.
+
+Recycle
+
+: (t+20 days)
+
+  Delete the S3 user deletion notice which will allows the S3 user id to be reused. 
+
+## Access the cluster
+
+To access our S3 cluster, you need to setup a gateway on a VM. Our support is happy to assist with that.
+Currently, we only support path-style URL access. 
 
 ## Application Implementation Guidance
 
