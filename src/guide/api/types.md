@@ -489,7 +489,7 @@ online
 
   Indicates if the VM *should* be running (True) or not (False).
 
-  Setting `online` to `False` will properly shutdown the VM, if possible. If the shutdown fails, the VM will be killed.
+  Setting `online` to `False` will properly shutdown the VM, if possible. If the shutdown fails, the VM will be killed.
 
 interfaces
 
@@ -539,6 +539,12 @@ frontend_ips_v6
   will *not* remove IP addresses at this time. [Contact us](mailto:support@flyingcircus.io) if you want to reduce this number.
 
   The API limits you to 100 public IPv6 addresses per virtual machine.
+
+backy_schdule
+
+: *default:* `default`
+
+  The backy schedule defines how often the VM is backed up and how long the backups are retained. See <project:../../reference/security/backup.md> for possible values.
 
 machine
 
