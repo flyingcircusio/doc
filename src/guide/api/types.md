@@ -540,7 +540,7 @@ frontend_ips_v6
 
   The API limits you to 100 public IPv6 addresses per virtual machine.
 
-backy_schdule
+backy_schedule
 
 : *default:* `default`
 
