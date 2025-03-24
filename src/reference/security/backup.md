@@ -31,25 +31,25 @@ physical disks, see [](#data-at-rest-encryption) for details.
 
 Backups are run daily or hourly, depending on the chosen backup level.
 
-The *default* (daily) backup schedule retains the following backups:
+The `default` (daily) backup schedule retains the following backups:
 
 - Daily backups for the past 10 days.
 - Weekly backups for the past 5 weeks.
 - Monthly backups for the past 4 months.
 
-The *hourly* backup schedule retains the following backups:
+The `frequent` (hourly) backup schedule retains the following backups:
 
 - Hourly backups for the last 25 hours
 - Daily backups for the past 10 days.
 - Weekly backups for the past 5 weeks.
 - Monthly backups for the past 4 months.
 
-The the *longterm* backup schedule retains the following backups:
+The the `longterm` backup schedule retains the following backups:
 
 - Daily backups for the past 30 days.
 - Monthly backups for the last 12 months.
 
-The *hourly+longterm* backup schedule retains the following backups:
+The `frequent+longterm` backup schedule retains the following backups:
 
 - Hourly backups for the last 25 hours
 - Daily backups for the past 30 days.
