@@ -13,7 +13,7 @@
   <key attr.name="description" attr.type="string" for="edge" id="d9"/>
   <key for="edge" id="d10" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
+    <data key="d0" xml:space="preserve"/>
     <node id="n0">
       <data key="d6">
         <y:SVGNode>
@@ -33,7 +33,7 @@
           <y:Geometry height="19.583999633789062" width="69.15814971923828" x="349.8418502807617" y="302.0772476196289"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.259765625" x="96.52826690673828" xml:space="preserve" y="0.7255935668945312">Redundant core switches<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.0" offsetX="27.3701171875" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="201.09765625" x="96.52826690673828" xml:space="preserve" y="0.7255935668945312">Redundant network infrastructure<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.0" offsetX="27.3701171875" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="1"/>
@@ -61,7 +61,7 @@
           <y:Geometry height="126.4889395350109" width="23.0" x="56.04592514038086" y="248.624777669018"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="33.34375" x="2.43359375" xml:space="preserve" y="46.57259476750539">MGM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="33.34375" x="2.43359375" xml:space="preserve" y="46.57259476750545">MGM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -136,7 +136,6 @@
       </data>
     </node>
     <edge id="e0" source="n6" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -147,7 +146,6 @@
       </data>
     </edge>
     <edge id="e1" source="n6" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -158,7 +156,6 @@
       </data>
     </edge>
     <edge id="e2" source="n5" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -169,7 +166,6 @@
       </data>
     </edge>
     <edge id="e3" source="n4" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -180,7 +176,6 @@
       </data>
     </edge>
     <edge id="e4" source="n4" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -191,7 +186,6 @@
       </data>
     </edge>
     <edge id="e5" source="n5" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -202,7 +196,6 @@
       </data>
     </edge>
     <edge id="e6" source="n2" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -213,7 +206,6 @@
       </data>
     </edge>
     <edge id="e7" source="n2" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -224,7 +216,6 @@
       </data>
     </edge>
     <edge id="e8" source="n2" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="1.4540748596191406" ty="-41.86924743652344">
@@ -238,7 +229,6 @@
       </data>
     </edge>
     <edge id="e9" source="n6" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="11.49313735961914" ty="-9.869247436523438">
@@ -254,7 +244,6 @@
       </data>
     </edge>
     <edge id="e10" source="n5" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="8.45407485961914" ty="13.130752563476562">
@@ -278,7 +267,6 @@
       </data>
     </edge>
     <edge id="e11" source="n4" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="39.13075256347656">
@@ -294,7 +282,6 @@
       </data>
     </edge>
     <edge id="e12" source="n7" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
