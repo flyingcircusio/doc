@@ -1,8 +1,11 @@
-% last review: 2024-05-07
+% last review: 2025-05-07
 
 % review schedule: 1 year
 
 % ISMSControl: A.13.1.1
+% ISMSControl: A.8.20
+% ISMSControl: A.8.21
+% ISMSControl: A.8.22
 
 (network-security)=
 

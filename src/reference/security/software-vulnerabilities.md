@@ -1,8 +1,9 @@
-% last review: 2024-05-07
+% last review: 2025-05-07
 
 % review schedule: 1 year
 
 % ISMSControl: A.12.6.1
+% ISMSControl: A.8.8
 
 # Software vulnerabilities
 

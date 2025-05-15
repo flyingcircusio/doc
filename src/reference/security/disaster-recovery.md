@@ -1,10 +1,12 @@
-% last review: 2024-05-07
+% last review: 2025-05-07
 
 % review schedule: 1 year
 
 % ISMSControl: A.17.1.2
+% ISMSControl: A.5.29
 
 % ISMSControl: A.11.1.4
+% ISMSControl: A.7.5
 
 (disaster-recovery)=
 
