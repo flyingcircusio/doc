@@ -135,8 +135,7 @@ This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
 Storage*, and {ref}`all automated backups <backup>`. There are technical and
 organisational measures in place to protect the relevant keys.
 
-On a technical level, we utilise the common Linux [cryptsetup]
-(https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
+On a technical level, we utilise the common Linux [cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
 and XTS-AES-512 cipher. We regularly review recommendations in standard
 guidelines or working groups and are able to update the used encryption
 parameters as needed.
@@ -390,7 +389,7 @@ ring):
   users associated to that customer. Examples include customer VMs.
 
 All resources that belong logically together (e.g., VMs, storage
-volumes) are bundled into *resource groups*. Resource groups share that same set
+volumes) are bundled into *resource groups*. Those resources share that same set
 of user accounts and permissions.
 
 Access to S3-compatible object storage buckets is separated by resource group

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-08 14:57+0100\n"
-"PO-Revision-Date: 2025-01-08 14:58+0100\n"
+"POT-Creation-Date: 2025-05-16 13:44+0200\n"
+"PO-Revision-Date: 2025-05-16 13:45+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../../src/reference/security/data-protection.md:9
 msgid "Data protection measures"
@@ -31,8 +31,8 @@ msgid ""
 "on the following standards and regulations:"
 msgstr ""
 "Neben rein technischen Sicherheitsmaßnahmen implementieren wir zusätzliche "
-"Maßnahmen, um eine sichere Umgebung für deine Daten und die Daten deiner "
-"Kunden zu schaffen, basierend auf den folgenden Standards und Vorschriften:"
+"Maßnahmen, um eine sichere Umgebung für deine Daten und die Daten deiner Kunden "
+"zu schaffen, basierend auf den folgenden Standards und Vorschriften:"
 
 #: ../../../src/reference/security/data-protection.md:21
 msgid ""
@@ -47,8 +47,8 @@ msgid ""
 "Germany's [federal data protection law (BDSG)](http://de.wikipedia.org/wiki/"
 "Bundesdatenschutzgesetz), and"
 msgstr ""
-"Das `Bundesdatenschutzgesetz (BDSG) <http://de.wikipedia.org/wiki/"
-"Bundesdatenschutzgesetz>`_, und"
+"Das [Bundesdatenschutzgesetz (BDSG)](http://de.wikipedia.org/wiki/"
+"Bundesdatenschutzgesetz), und"
 
 #: ../../../src/reference/security/data-protection.md:23
 msgid ""
@@ -197,24 +197,20 @@ msgstr ""
 msgid "video surveillance (outside facilities, in-doors and rack corridors)"
 msgstr "Videoüberwachung (Außenanlagen, Innenräume und Rack-Korridore)"
 
-#: ../../../src/reference/security/data-protection.md:87
 # XXX didn't translate
-msgid ""
-"two-factor security for granting access (e.g. personal password and transponder "
-"card) with logging"
-msgstr ""
-"Ein zweiter Faktoren für die Zugangsgewährung (z.B. persönliches Passwort und "
-"Transponderkarte) mit Protokollierung"
+#: ../../../src/reference/security/data-protection.md:87
+msgid "two-factor security for granting access with logging"
+msgstr "Ein zweiter Faktoren für die Zugangsgewährung mit Protokollierung"
 
-#: ../../../src/reference/security/data-protection.md:89
+#: ../../../src/reference/security/data-protection.md:88
 msgid "physical access must be documented"
 msgstr "der physische Zugang muss dokumentiert werden"
 
-#: ../../../src/reference/security/data-protection.md:90
+#: ../../../src/reference/security/data-protection.md:89
 msgid "preferably 24 hour guard services with linked alarm system"
 msgstr "vorzugsweise 24 Stunden Wachdienst mit vernetztem Alarmsystem"
 
-#: ../../../src/reference/security/data-protection.md:91
+#: ../../../src/reference/security/data-protection.md:90
 msgid ""
 "separate physical security zones for general areas, data center infrastructure "
 "and customer-accessible areas"
@@ -222,18 +218,18 @@ msgstr ""
 "getrennte physische Sicherheitszonen für allgemeine Bereiche, "
 "Rechenzentrumsinfrastruktur und für Kunden zugängliche Bereiche"
 
-#: ../../../src/reference/security/data-protection.md:93
+#: ../../../src/reference/security/data-protection.md:92
 msgid "separately locked racks with the possibility to use custom locks and keys."
 msgstr ""
 "separat abschließbare Racks mit der Möglichkeit eigene Schlösser und Schlüssel "
 "zu verwenden."
 
-#: ../../../src/reference/security/data-protection.md:101
+#: ../../../src/reference/security/data-protection.md:100
 msgid "We maintain a separate {ref}`data-centers`."
 msgstr "Wir unterhalten ein separates {ref}`data-centers`."
-# XXX "List of data centers" übersetzt nicht
 
-#: ../../../src/reference/security/data-protection.md:103
+# XXX "List of data centers" übersetzt nicht
+#: ../../../src/reference/security/data-protection.md:102
 msgid ""
 "Physical access to data processing equipment may be performed only by the "
 "Flying Circus' administrators. Administrators may delegate physical access to "
@@ -244,11 +240,11 @@ msgstr ""
 "physischen Zugang an andere Personen (z.B. Mitarbeiter des Rechenzentrums) "
 "delegieren."
 
-#: ../../../src/reference/security/data-protection.md:105
+#: ../../../src/reference/security/data-protection.md:104
 msgid "Low-security locations"
 msgstr "Standorte mit niedriger Sicherheit"
 
-#: ../../../src/reference/security/data-protection.md:107
+#: ../../../src/reference/security/data-protection.md:106
 msgid ""
 "The Flying Circus operates one low-security zone called `development` (used for "
 "the development of the Flying Circus infrastructure)."
@@ -257,16 +253,17 @@ msgstr ""
 "`development` (für die Entwicklung der Infrastruktur des Flying Circus) genannt "
 "wird."
 
-# XXX Verwendung von "Zone" und "Standort" sind hier etwas unscharf. die situation
-# von rzhal darzustellen ist auch interessant, weil die mischung aus sicher/unsicher
+# XXX Verwendung von "Zone" und "Standort" sind hier etwas unscharf. die
+# situation
+# von rzhal darzustellen ist auch interessant, weil die mischung aus
+# sicher/unsicher
 # sich in dieser form nicht gut erklärt.
-# (satz oben und satz unten). auch einzahl vs. mehrzahl. 
-
+# (satz oben und satz unten). auch einzahl vs. mehrzahl.
 # XXX "currently now allowed" ist imho nicht ganz passend - low security zones
 # sollten auch perspektivisch nicht genutzt werden, dass die da nicht
 # ausreichend geschützt sind muss eigentlich nicht wiederholt werden, weil
 # das ja schon teil der prämisse von low security zones war.
-#: ../../../src/reference/security/data-protection.md:110
+#: ../../../src/reference/security/data-protection.md:109
 msgid ""
 "Those locations are currently not allowed to be used for customer data storage "
 "as they are not sufficiently protected."
@@ -274,7 +271,7 @@ msgstr ""
 "Diese Standorte dürfen derzeit nicht für die Speicherung von Kundendaten "
 "genutzt werden, da sie nicht ausreichend geschützt sind."
 
-#: ../../../src/reference/security/data-protection.md:113
+#: ../../../src/reference/security/data-protection.md:112
 msgid ""
 "Due to this limitations, the services in high-security locations are not "
 "allowed to depend on services provided in low-security locations."
@@ -282,11 +279,11 @@ msgstr ""
 "Aufgrund dieser Einschränkungen dürfen die Dienste in Hochsicherheitsbereichen "
 "nicht von den Diensten in Niedrigsicherheitsbereichen abhängen."
 
-#: ../../../src/reference/security/data-protection.md:116
+#: ../../../src/reference/security/data-protection.md:115
 msgid "(2) Data media control"
 msgstr "(2) Datenträgerkontrolle"
 
-#: ../../../src/reference/security/data-protection.md:118
+#: ../../../src/reference/security/data-protection.md:117
 msgid ""
 "**Purpose: prevent the unauthorized reading, copying, modification or erasure "
 "of data media**"
@@ -294,7 +291,7 @@ msgstr ""
 "**Zweck: Verhinderung des unbefugten Lesens, Kopierens, Veränderns oder "
 "Löschens von Datenträgern**"
 
-#: ../../../src/reference/security/data-protection.md:120
+#: ../../../src/reference/security/data-protection.md:119
 msgid ""
 "Only Flying Circus administrators may have physical access to data media. "
 "Access may be delegated e.g. to data center personnel."
@@ -302,7 +299,7 @@ msgstr ""
 "Nur Flying Circus Administratoren dürfen physischen Zugriff auf Datenträger "
 "haben. Der Zugriff kann z.B. an Mitarbeiter des Rechenzentrums delegiert werden."
 
-#: ../../../src/reference/security/data-protection.md:122
+#: ../../../src/reference/security/data-protection.md:121
 msgid ""
 "Transfer of data media between secure locations is handled by Flying Circus "
 "personnel or trusted shipping providers."
@@ -310,7 +307,7 @@ msgstr ""
 "Die Überführung von Datenträgern zwischen sicheren Standorten wird von Flying "
 "Circus Mitarbeitern oder vertrauenswürdigen Versanddienstleistern abgewickelt."
 
-#: ../../../src/reference/security/data-protection.md:124
+#: ../../../src/reference/security/data-protection.md:123
 msgid ""
 "Disposal of used media happens using a certified data destruction service "
 "provider."
@@ -318,13 +315,13 @@ msgstr ""
 "Die Entsorgung gebrauchter Medien erfolgt über einen zertifizierten "
 "Datenvernichtungsdienstleister."
 
-# XXX die verschlüsselung greift hier auch schon ein, das überlappt zwischen datenträger und speicherkontrolle
-
-#: ../../../src/reference/security/data-protection.md:130
+# XXX die verschlüsselung greift hier auch schon ein, das überlappt zwischen
+# datenträger und speicherkontrolle
+#: ../../../src/reference/security/data-protection.md:129
 msgid "(3) Storage control"
 msgstr "(3) Speicherkontrolle"
 
-#: ../../../src/reference/security/data-protection.md:132
+#: ../../../src/reference/security/data-protection.md:131
 msgid ""
 "**Purpose: prevent the unauthorized input of personal data and the unauthorized "
 "inspection, modification or deletion of stored personal data**"
@@ -333,7 +330,7 @@ msgstr ""
 "der unbefugten Kenntnisnahme, Veränderung und Löschung von gespeicherten "
 "personenbezogenen Daten**"
 
-#: ../../../src/reference/security/data-protection.md:134
+#: ../../../src/reference/security/data-protection.md:133
 msgid ""
 "All data in our [storage clusters](#infrastructure-storage) is stored "
 "encrypted. This includes the *Virtual Disk Block Storage*, our *S3-compatible "
@@ -347,43 +344,42 @@ msgstr ""
 "entsprechenden Schlüssel."
 
 # der cryptsetup-link ist kaputt, ich vermute das ist das leerzeichen
-
-#: ../../../src/reference/security/data-protection.md:139
+#: ../../../src/reference/security/data-protection.md:138
 msgid ""
-"On a technical level, we utilise the common Linux [cryptsetup] (https://gitlab."
-"com/cryptsetup/cryptsetup) software stack with LUKS2 metadata and XTS-AES-512 "
-"cipher. We regularly review recommendations in standard guidelines or working "
-"groups and are able to update the used encryption parameters as needed."
+"On a technical level, we utilise the common Linux [cryptsetup](https://"
+"gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata and XTS-"
+"AES-512 cipher. We regularly review recommendations in standard guidelines or "
+"working groups and are able to update the used encryption parameters as needed."
 msgstr ""
-"Auf technischer Ebene verwenden wir den üblichen Linux [cryptsetup] (https://"
+"Auf technischer Ebene verwenden wir den üblichen Linux [cryptsetup](https://"
 "gitlab.com/cryptsetup/cryptsetup) Software-Stack mit LUKS2-Metadaten und XTS-"
 "AES-512-Verschlüsselung. Wir überprüfen regelmäßig die Empfehlungen in "
-"Standardrichtlinien und aus Arbeitsgruppen und sind in der Lage, die verwendeten "
-"Verschlüsselungsparameter bei Bedarf zu aktualisieren."
+"Standardrichtlinien und aus Arbeitsgruppen und sind in der Lage, die "
+"verwendeten Verschlüsselungsparameter bei Bedarf zu aktualisieren."
 
-#: ../../../src/reference/security/data-protection.md:145
+#: ../../../src/reference/security/data-protection.md:143
 msgid "Additionally:"
 msgstr "Außerdem:"
 
-#: ../../../src/reference/security/data-protection.md:147
+#: ../../../src/reference/security/data-protection.md:145
 msgid ""
 "We delete data after the retention times required by tax or commercial law."
 msgstr ""
 "Wir löschen Daten nach den steuer- oder handelsrechtlichen Aufbewahrungsfristen."
 
-#: ../../../src/reference/security/data-protection.md:148
+#: ../../../src/reference/security/data-protection.md:146
 msgid "Access log files are being anonymised."
 msgstr "Die Zugriffslogdateien werden anonymisiert."
 
-#: ../../../src/reference/security/data-protection.md:149
+#: ../../../src/reference/security/data-protection.md:147
 msgid "We delete customer data upon customer's request."
 msgstr "Wir löschen Kundendaten auf Wunsch des Kunden."
 
-#: ../../../src/reference/security/data-protection.md:152
+#: ../../../src/reference/security/data-protection.md:150
 msgid "(4) User control"
 msgstr "(4) Benutzerkontrolle"
 
-#: ../../../src/reference/security/data-protection.md:154
+#: ../../../src/reference/security/data-protection.md:152
 msgid ""
 "**Purpose: prevent the use of automated processing systems by unauthorized "
 "persons using data communication equipment**"
@@ -398,12 +394,11 @@ msgid ""
 "homogeneous scheme to identify and authorize users within the Flying Circus. "
 "Management access to systems must use encrypted communication channels."
 msgstr ""
-"Maschinen, die vom Flying Circus verwaltet werden, können über mehrere "
-"Wege zu Verwaltungszwecken erreicht werden: SSH, Webschnittstellen "
-"und andere. Wir verwenden dabei ein einheitliches Schema, um Benutzer "
-"innerhalb des Flying Circus zu identifizieren und zu autorisieren. Der Zugriff "
-"zur Verwaltung der Systeme muss über verschlüsselte Kommunikationskanäle "
-"erfolgen."
+"Maschinen, die vom Flying Circus verwaltet werden, können über mehrere Wege zu "
+"Verwaltungszwecken erreicht werden: SSH, Webschnittstellen und andere. Wir "
+"verwenden dabei ein einheitliches Schema, um Benutzer innerhalb des Flying "
+"Circus zu identifizieren und zu autorisieren. Der Zugriff zur Verwaltung der "
+"Systeme muss über verschlüsselte Kommunikationskanäle erfolgen."
 
 #: ../../../src/reference/security/data-protection.md:165
 msgid ""
@@ -425,16 +420,15 @@ msgid ""
 "username and a cryptographic measure (e.g. a private/public key scheme) or a "
 "password, depending on the applicability."
 msgstr ""
+"Die Benutzeridentifizierung muss mit *persönlichen* Zugangsdaten erfolgen, "
+"damit Aktionen zu einem individuellen Urheber zurückverfolgt werden können. Die "
+"Weitergabe der eigenen Zugangsdaten an andere Personen ist daher verboten. Die "
+"Zugangsdaten können je nach Anwendbarkeit entweder aus einem Benutzernamen und "
+"einem kryptografischen Verfahren (z. B. einem privaten/öffentlichen Schlüssel) "
+"oder einem Passwort bestehen."
 
-# XXX das "entweder/oder" ist nicht ganz schlüssig, aber auch schon im Englischen.
-
-"Die Benutzeridentifikation muss mit *persönlichen* Anmeldedaten erfolgen, damit "
-"Aktionen zu einem individuellen Urheber zurückverfolgt werden können. Daher ist "
-"es verboten, seine Anmeldedaten mit einer anderen Person zu teilen. Abhängig "
-"von der Anwendung können Anmeldedaten entweder ein Benutzername und eine "
-"kryptographische Maßnahme (z.B. ein privates/öffentliches Schlüsselschema) oder "
-"ein Passwort sein."
-
+# XXX das "entweder/oder" ist nicht ganz schlüssig, aber auch schon im
+# Englischen.
 #: ../../../src/reference/security/data-protection.md:174
 msgid ""
 "Users with a Flying Circus account are required to manage their password "
@@ -447,17 +441,18 @@ msgid ""
 msgstr ""
 "Nutzer mit einem Flying-Circus-Konto sind verpflichtet, ihr Passwort sicher zu "
 "verwalten: Passwörter dürfen nicht kompromittiert werden, wenn auf ein Gerät "
-"unbefugt zugegriffen wird (logisch oder physisch). Zu beachtende Dinge sind z."
-"B.: Home-Verzeichnis auf einem Notebook, Schlüsselbund oder Passwortmanager-"
+"unbefugt zugegriffen wird (logisch oder physisch). Zu beachtende Dinge sind "
+"z.B.: Home-Verzeichnis auf einem Notebook, Schlüsselbund oder Passwortmanager-"
 "Software, Backups, USB-Sticks, Smartphones. Stark verschlüsselte Speicherung "
 "von Passwörtern ist erlaubt und sogar angeraten. Für Flying Circus Mitarbeiter "
 "gibt es eine separate *Richtlinie zum Umgang mit geheimen "
 "Authentifizierungsinformationen*."
 
-# xxx das stimmt so nicht. alle maschinen - auch vms (außer dann in zukunft cloud-init)
+# xxx das stimmt so nicht. alle maschinen - auch vms (außer dann in zukunft
+# cloud-init)
 # haben diese separaten root-logins
-# außerdem dürfen die root-logins in einzelfällen für massenoperationen benutzt werden
-
+# außerdem dürfen die root-logins in einzelfällen für massenoperationen
+# benutzt werden
 #: ../../../src/reference/security/data-protection.md:176
 msgid ""
 "All hardware machines have emergency root logins which may only be used by "
@@ -467,10 +462,9 @@ msgstr ""
 "Alle Hardware-Maschinen haben Notfall-Root-Logins, die nur von Flying Circus "
 "Administratoren verwendet werden dürfen, wenn die reguläre "
 "Benutzerauthentifizierung nicht korrekt funktioniert. Solche Verwendungen "
-"werden überwacht müssen dokumentiert werden."
+"werden überwacht und müssen dokumentiert werden."
 
 # xxx das "current (nixos) plattform" scheint hier nicht passend zu sein
-
 #: ../../../src/reference/security/data-protection.md:180
 msgid ""
 "All privileged actions need to be securely logged. For machines based on our "
@@ -488,8 +482,6 @@ msgstr ""
 
 # xxx ich bin mit diesen "must be"-formulierungen nicht immer auf einer linie.
 # beschreiben wir das was wir umsetzen oder das was wir umsetzen wollen?
-
-
 #: ../../../src/reference/security/data-protection.md:182
 msgid ""
 "SSH logins must be performed using SSH keys. Password authentication is not "
@@ -518,7 +510,7 @@ msgstr ""
 "Verarbeitungssystems Berechtigten ausschließlich zu den von ihrer "
 "Zugangsberechtigung umfassten personenbezogenen Daten Zugang haben**"
 
-#: ../../../src/reference/security/data-protection.md:194
+#: ../../../src/reference/security/data-protection.md:196
 msgid ""
 "Customer-owned virtual machines may be accessed by all Flying Circus "
 "administrators implicitly. In projects additional staff (e.g. support staff) "
@@ -530,7 +522,7 @@ msgstr ""
 "Mitarbeiter) expliziten Zugriff erhalten. Der Zugriff durch andere (z.B. "
 "Kundenpersonal, Dritte) muss durch einen Kundenvertreter autorisiert werden."
 
-#: ../../../src/reference/security/data-protection.md:201
+#: ../../../src/reference/security/data-protection.md:202
 msgid ""
 "Users are centrally managed using <https://my.flyingcircus.io>. Users are "
 "automatically provisioned to all relevant systems, including proper removal of "
@@ -540,7 +532,7 @@ msgstr ""
 "werden automatisch auf alle relevanten Systeme provisioniert, einschließlich "
 "der ordnungsgemäßen Entfernung von Zugriffsrechten."
 
-#: ../../../src/reference/security/data-protection.md:203
+#: ../../../src/reference/security/data-protection.md:204
 msgid ""
 "Flying Circus implements a permission-based concept to separate application "
 "maintenance tasks from privileged administrative tasks: for example, customer "
@@ -551,7 +543,7 @@ msgstr ""
 "trennen: zum Beispiel Kundensoftware-Updates oder Datenbankzugriff versus "
 "Betriebssystem-Updates oder Betriebssystemkonfiguration."
 
-#: ../../../src/reference/security/data-protection.md:207
+#: ../../../src/reference/security/data-protection.md:210
 msgid ""
 "Privileged administrative access is generally not granted to customers. In "
 "cases where another person who is not an administrator is needed to solve a "
@@ -564,7 +556,7 @@ msgstr ""
 "Administrator und der anderen Person eingerichtet werden (z.B. mit {command}"
 "`screen`)."
 
-#: ../../../src/reference/security/data-protection.md:213
+#: ../../../src/reference/security/data-protection.md:216
 msgid ""
 "Technically, there are three access variants to perform privileged "
 "administrative operations:"
@@ -572,7 +564,7 @@ msgstr ""
 "Technisch gesehen gibt es drei Zugangsvarianten, um privilegierte "
 "administrative Operationen durchzuführen:"
 
-#: ../../../src/reference/security/data-protection.md:216
+#: ../../../src/reference/security/data-protection.md:219
 msgid ""
 "Using a user account which has been granted the 'login' and 'wheel' {ref}"
 "`permissions <permissions>` for a certain project. This requires the user to "
@@ -585,7 +577,7 @@ msgstr ""
 "Account einloggt und zusätzlich sein Passwort angibt, um auf privilegierte "
 "Operationen zuzugreifen."
 
-#: ../../../src/reference/security/data-protection.md:220
+#: ../../../src/reference/security/data-protection.md:223
 msgid ""
 "Using a user account which is member of the global group of administrators "
 "which grants access to all machines within the Flying Circus infrastructure."
@@ -594,11 +586,11 @@ msgstr ""
 "Administratoren ist, die Zugriff auf alle Maschinen innerhalb der Flying Circus "
 "Infrastruktur gewährt."
 
-#: ../../../src/reference/security/data-protection.md:223
+#: ../../../src/reference/security/data-protection.md:226
 msgid "Emergency root logins (see above in {ref}`entry-control`)."
 msgstr "Notfall-Root-Logins (siehe oben in {ref}`entry-control`)."
 
-#: ../../../src/reference/security/data-protection.md:225
+#: ../../../src/reference/security/data-protection.md:228
 msgid ""
 "Authorized and unauthorized access to privileged operations is logged and "
 "analysed on a central loghost within the same site. [^trace-tty]"
@@ -607,20 +599,20 @@ msgstr ""
 "auf einem zentralen Loghost innerhalb desselben Standorts protokolliert und "
 "analysiert. [^trace-tty]"
 
-#: ../../../src/reference/security/data-protection.md:228
+#: ../../../src/reference/security/data-protection.md:231
 msgid ""
 "Flying Circus maintains a set of permissions which enable users to perform "
 "application maintenance and other semi-privileged tasks, e.g. access to service "
 "user accounts or database administration rights. Permissions are granted to "
 "individual users by the customer or upon customer request."
 msgstr ""
-"Flying Circus unterhält eine Reihe von Berechtigungen, die es den Nutzern "
+"Flying Circus pflegt eine Liste von Berechtigungen, die es den Nutzern "
 "ermöglichen, Anwendungswartung und andere semi-privilegierte Aufgaben "
 "durchzuführen, z.B. Zugriff auf Service-Benutzerkonten oder Datenbank-"
 "Administrationsrechte. Die Berechtigungen werden den einzelnen Nutzern durch "
 "den Kunden oder auf Kundenwunsch gewährt."
 
-#: ../../../src/reference/security/data-protection.md:233
+#: ../../../src/reference/security/data-protection.md:236
 msgid ""
 "All permission assignments are traceable and explicitly documented: their "
 "effects are documented in the configuration code and their assignments are "
@@ -632,7 +624,7 @@ msgstr ""
 "Konfigurationsdatenbank dokumentiert. Eine umfassende Liste der Benutzer und "
 "ihrer Berechtigungen kann auf Wunsch automatisch erstellt werden."
 
-#: ../../../src/reference/security/data-protection.md:238
+#: ../../../src/reference/security/data-protection.md:241
 msgid ""
 "Group accounts are generally not allowed to perform privileged administrative "
 "operations to ensure traceability of actions."
@@ -640,7 +632,7 @@ msgstr ""
 "Gruppenkonten dürfen generell keine privilegierten administrativen Operationen "
 "durchführen, um die Nachvollziehbarkeit von Aktionen zu gewährleisten."
 
-#: ../../../src/reference/security/data-protection.md:241
+#: ../../../src/reference/security/data-protection.md:244
 msgid ""
 "Passwords for physical machines granting access to root accounts and IPMI "
 "controllers are stored as copies in a strongly encrypted password manager."
@@ -649,11 +641,11 @@ msgstr ""
 "Controller gewähren, werden als Kopien in einem stark verschlüsselten "
 "Passwortmanager gespeichert."
 
-#: ../../../src/reference/security/data-protection.md:245
+#: ../../../src/reference/security/data-protection.md:248
 msgid "(6) Communication control"
 msgstr "(6) Übertragungskontrolle"
 
-#: ../../../src/reference/security/data-protection.md:247
+#: ../../../src/reference/security/data-protection.md:250
 msgid ""
 "**Purpose: ensure that it is possible to verify and establish the bodies to "
 "which personal data have been or may be transmitted or made available using "
@@ -663,7 +655,7 @@ msgstr ""
 "Stellen personenbezogene Daten mit Hilfe von Einrichtungen zur Datenübertragung "
 "übermittelt oder zur Verfügung gestellt wurden oder werden können**"
 
-#: ../../../src/reference/security/data-protection.md:249
+#: ../../../src/reference/security/data-protection.md:252
 msgid ""
 "Communication control is generally the responsibility of the customer's "
 "application."
@@ -671,18 +663,18 @@ msgstr ""
 "Die Übertragungskontrolle liegt in der Regel in der Verantwortung der Anwendung "
 "des Kunden."
 
-#: ../../../src/reference/security/data-protection.md:251
+#: ../../../src/reference/security/data-protection.md:254
 msgid ""
 "Data entered into the Flying Circus portal is not transmitted to third parties."
 msgstr ""
 "In das Flying Circus Portal eingegebene Daten werden nicht an Dritte "
 "weitergegeben."
 
-#: ../../../src/reference/security/data-protection.md:254
+#: ../../../src/reference/security/data-protection.md:257
 msgid "(7) Input control"
 msgstr "(7) Eingabekontrolle"
 
-#: ../../../src/reference/security/data-protection.md:256
+#: ../../../src/reference/security/data-protection.md:259
 msgid ""
 "**Purpose: ensure that it is subsequently possible to verify and establish "
 "which personal data have been input into automated processing systems and when "
@@ -692,7 +684,7 @@ msgstr ""
 "kann, welche personenbezogenen Daten zu welcher Zeit und von wem in "
 "automatisierte Verarbeitungssysteme eingegeben oder verändert worden sind**"
 
-#: ../../../src/reference/security/data-protection.md:258
+#: ../../../src/reference/security/data-protection.md:261
 msgid ""
 "The security of data entry, change, and deletion is generally part of the "
 "customer's application. Customers must ensure that data entry, deletion, and "
@@ -700,11 +692,11 @@ msgid ""
 "laws."
 msgstr ""
 "Die Sicherheit der Dateneingabe, -änderung und -löschung ist generell Teil der "
-"Anwendung des Kunden. Kunden müssen sicherstellen, dass die Dateneingabe, -"
-"löschung und -entfernung entsprechend ihrer geltenden Datenschutzgesetze "
+"Anwendung des Kunden. Kunden müssen sicherstellen, dass die Dateneingabe, "
+"-löschung und -entfernung entsprechend ihrer geltenden Datenschutzgesetze "
 "angemessen gehandhabt wird."
 
-#: ../../../src/reference/security/data-protection.md:263
+#: ../../../src/reference/security/data-protection.md:266
 msgid ""
 "However, during maintenance work it may be necessary that administrators need "
 "to enter, change, or delete data records on a low technical level to ensure the "
@@ -713,12 +705,12 @@ msgid ""
 "tracking system."
 msgstr ""
 "Im Rahmen von Wartungsarbeiten kann es jedoch notwendig sein, dass "
-"Administratoren auf einem niedrigen technischen Niveau Datensätze eingeben, "
+"Administratoren Datensätze auf einer niedrigeren, technischen Ebene eingeben, "
 "ändern oder löschen müssen, um den weiteren Betrieb des Gesamtsystems zu "
 "gewährleisten. Dies wird nur geschehen, nachdem wir die betroffenen Kunden "
 "informiert und dies in unserem Issue-Tracking-System dokumentiert haben."
 
-#: ../../../src/reference/security/data-protection.md:269
+#: ../../../src/reference/security/data-protection.md:272
 msgid ""
 "Managed log files are rotated by the Flying Circus infrastructure automatically "
 "with sensible retention times."
@@ -726,7 +718,7 @@ msgstr ""
 "Verwaltete Log-Dateien werden von der Flying Circus Infrastruktur automatisch "
 "mit sinnvollen Aufbewahrungszeiten rotiert."
 
-#: ../../../src/reference/security/data-protection.md:272
+#: ../../../src/reference/security/data-protection.md:275
 msgid ""
 "Changes in the Flying Circus portal (e.g., SSH keys) can be performed by the "
 "customer themselves or through our support. If the change happens through our "
@@ -738,11 +730,11 @@ msgstr ""
 "Änderung durch unseren Support, so muss diese vorher dokumentiert und nach der "
 "Änderung durch den Kunden bestätigt werden."
 
-#: ../../../src/reference/security/data-protection.md:278
-msgid "(8). Transport control"
+#: ../../../src/reference/security/data-protection.md:281
+msgid "(8) Transport control"
 msgstr "(8) Transportkontrolle"
 
-#: ../../../src/reference/security/data-protection.md:280
+#: ../../../src/reference/security/data-protection.md:283
 msgid ""
 "**Purpose: ensure that the confidentiality and integrity of personal data are "
 "protected during transfers of personal data or during transport of data media**"
@@ -751,7 +743,7 @@ msgstr ""
 "sowie beim Transport von Datenträgern die Vertraulichkeit und Integrität der "
 "Daten geschützt werden**"
 
-#: ../../../src/reference/security/data-protection.md:286
+#: ../../../src/reference/security/data-protection.md:289
 msgid ""
 "All private data transferred past the boundary of a machine must use an "
 "authenticated and encrypted communication channel (exceptions see below). Data "
@@ -762,7 +754,7 @@ msgstr ""
 "nutzen (Ausnahmen siehe unten). Zu den Datenpfaden, auf denen sensible "
 "Informationen übertragen werden können, gehören:"
 
-#: ../../../src/reference/security/data-protection.md:290
+#: ../../../src/reference/security/data-protection.md:293
 msgid ""
 "Application data (e.g., database contents) is transferred from or to the "
 "customer using the standardised encrypted protocols, e.g., SCP/SFTP, https."
@@ -770,7 +762,7 @@ msgstr ""
 "Anwendungsdaten (z.B. Datenbankinhalte) werden vom oder zum Kunden über die "
 "standardisierten verschlüsselten Protokolle, z.B. SCP/SFTP, https, übertragen."
 
-#: ../../../src/reference/security/data-protection.md:292
+#: ../../../src/reference/security/data-protection.md:295
 msgid ""
 "Persistent data is saved on storage servers. Storage traffic is not encrypted "
 "due to performance reasons. Storage servers are connected to application "
@@ -778,13 +770,13 @@ msgid ""
 "are granted to customers are not allowed to connect directly to the storage "
 "network (see also {ref}`network-security`)."
 msgstr ""
-"Persistente Daten werden auf Storage-Servern gespeichert. Der Speicherverkehr "
+"Persistente Daten werden auf Storage-Servern gespeichert. Der Datentransfer "
 "wird aus Performance-Gründen nicht verschlüsselt. Storage-Server sind mit "
 "Anwendungsservern über ein privates Netzwerk verbunden. Maschinen, auf denen "
 "Kunden administrative Privilegien gewährt werden, dürfen sich nicht direkt mit "
 "dem Speichernetzwerk verbinden (siehe auch {ref}`network-security`)."
 
-#: ../../../src/reference/security/data-protection.md:297
+#: ../../../src/reference/security/data-protection.md:300
 msgid ""
 "Backups are transferred to backup servers at the same site using either an "
 "encrypted communication channel or the private storage network. Backup data may "
@@ -797,7 +789,7 @@ msgstr ""
 "werden, um die Desaster-Recovery-Fähigkeiten zu verbessern. Die "
 "Datenübertragung muss verschlüsselt erfolgen."
 
-#: ../../../src/reference/security/data-protection.md:300
+#: ../../../src/reference/security/data-protection.md:303
 msgid ""
 "In addition to application data, a system can generate data at runtime that "
 "contains sensitive information, for example log files. Log files usually do not "
@@ -814,11 +806,11 @@ msgstr ""
 "selben Standort übertragen werden. Nur Flying Circus-Administratoren dürfen "
 "Zugriff auf den zentralen Log-Server haben."
 
-#: ../../../src/reference/security/data-protection.md:306
-msgid "(9). Recovery"
+#: ../../../src/reference/security/data-protection.md:309
+msgid "(9) Recovery"
 msgstr "(9) Wiederherstellbarkeit"
 
-#: ../../../src/reference/security/data-protection.md:308
+#: ../../../src/reference/security/data-protection.md:311
 msgid ""
 "**Purpose: ensure that installed systems may, in the case of interruption, be "
 "restored**"
@@ -826,16 +818,16 @@ msgstr ""
 "**Zweck: Gewährleistung, dass eingesetzte Systeme im Störungsfall "
 "wiederhergestellt werden können**"
 
-#: ../../../src/reference/security/data-protection.md:310
+#: ../../../src/reference/security/data-protection.md:313
 msgid "Recovery scenarios are documented at {ref}`disaster-recovery`."
 msgstr ""
 "Wiederherstellungsszenarien sind unter {ref}`disaster-recovery` dokumentiert."
 
-#: ../../../src/reference/security/data-protection.md:312
+#: ../../../src/reference/security/data-protection.md:315
 msgid "(10) Reliability"
 msgstr "(10) Zuverlässigkeit"
 
-#: ../../../src/reference/security/data-protection.md:314
+#: ../../../src/reference/security/data-protection.md:317
 msgid ""
 "**Purpose: ensure that all system functions perform and that the appearance of "
 "faults in the functions is reported**"
@@ -843,7 +835,7 @@ msgstr ""
 "**Zweck: Gewährleistung, dass alle Funktionen des Systems zur Verfügung stehen "
 "und auftretende Fehlfunktionen gemeldet werden**"
 
-#: ../../../src/reference/security/data-protection.md:316
+#: ../../../src/reference/security/data-protection.md:319
 msgid ""
 "All systems are monitored continuously. Depending on the severity of the "
 "monitored system our emergency support is notified, a support ticket is created "
@@ -854,11 +846,11 @@ msgstr ""
 "Ticket automatisch erstellt, oder manuell ein Ticket während der Monitoring-"
 "Review erstellt."
 
-#: ../../../src/reference/security/data-protection.md:318
+#: ../../../src/reference/security/data-protection.md:321
 msgid "(11) Integrity"
 msgstr "(11) Datenintegrität"
 
-#: ../../../src/reference/security/data-protection.md:320
+#: ../../../src/reference/security/data-protection.md:323
 msgid ""
 "**Purpose: ensure that stored personal data cannot be corrupted by means of a "
 "malfunctioning of the system**"
@@ -866,38 +858,38 @@ msgstr ""
 "**Zweck: Gewährleistung, dass gespeicherte personenbezogene Daten nicht durch "
 "Fehlfunktionen des Systems beschädigt werden können**"
 
-#: ../../../src/reference/security/data-protection.md:322
+#: ../../../src/reference/security/data-protection.md:325
 msgid "Integrity is assured on several levels:"
 msgstr "Integrität wird auf mehreren Ebenen gewährleistet:"
 
-#: ../../../src/reference/security/data-protection.md:324
+#: ../../../src/reference/security/data-protection.md:327
 msgid "filesystem-level checksums on XFS filesystems"
 msgstr "Prüfsummen auf Dateisystemebene bei XFS-Dateisystemen"
 
-#: ../../../src/reference/security/data-protection.md:325
+#: ../../../src/reference/security/data-protection.md:328
 msgid "block-level checksums on Ceph bluestore OSDs"
 msgstr "Prüfsummen auf Blockebene bei Ceph bluestore OSDs"
 
-#: ../../../src/reference/security/data-protection.md:326
+#: ../../../src/reference/security/data-protection.md:329
 msgid "redundant storage of data"
 msgstr "Redundante Speicherung von Daten"
 
-#: ../../../src/reference/security/data-protection.md:327
+#: ../../../src/reference/security/data-protection.md:330
 msgid "backups of data with hash-based integrity checks, see {ref}`backup`."
 msgstr ""
 "Datensicherungen mit Hash-basierten Integritätsprüfungen, siehe {ref}`backup`."
 
-#: ../../../src/reference/security/data-protection.md:329
+#: ../../../src/reference/security/data-protection.md:332
 msgid "For details and recovery times, see {ref}`disaster-recovery`."
 msgstr ""
 "Einzelheiten und Wiederherstellungszeiten finden Sie unter {ref}`disaster-"
 "recovery`."
 
-#: ../../../src/reference/security/data-protection.md:332
+#: ../../../src/reference/security/data-protection.md:335
 msgid "(12) Processing control"
 msgstr "(12) Auftragskontrolle"
 
-#: ../../../src/reference/security/data-protection.md:334
+#: ../../../src/reference/security/data-protection.md:337
 msgid ""
 "**Purpose: ensure that personal data processed on behalf of the controller can "
 "only be processed in compliance with the controller’s instructions**"
@@ -906,7 +898,7 @@ msgstr ""
 "verarbeitet werden, nur entsprechend den Weisungen des Auftraggebers "
 "verarbeitet werden können**"
 
-#: ../../../src/reference/security/data-protection.md:337
+#: ../../../src/reference/security/data-protection.md:340
 msgid ""
 "The Flying Circus ensures that all actions taken by system administrators are "
 "covered by a contract or order with the customers affected by the action. This "
@@ -914,10 +906,11 @@ msgid ""
 msgstr ""
 "Der Flying Circus stellt sicher, dass alle von Systemadministratoren "
 "durchgeführten Aktionen durch einen Vertrag oder Auftrag mit den von der Aktion "
-"betroffenen Kunden abgedeckt sind. Dies kann aufgrund von breit angelegten "
-"Wartungsverträgen oder aufgrund von spezifischen Supportanfragen sein."
+"betroffenen Kunden abgedeckt sind. Ein solcher Vertrag oder Auftrag  kann "
+"aufgrund von breit angelegten Wartungsverträgen oder aufgrund von spezifischen "
+"Supportanfragen zustande kommen."
 
-#: ../../../src/reference/security/data-protection.md:341
+#: ../../../src/reference/security/data-protection.md:344
 msgid ""
 "Individual change requests should have an associated ticket in the Flying "
 "Circus request tracking system. Other means of documentation to control changes "
@@ -928,16 +921,16 @@ msgstr ""
 "von Änderungen sind möglich, z.B. erklärende Commit-Nachrichten in einem "
 "Versionskontrollsystem."
 
-#: ../../../src/reference/security/data-protection.md:344
+#: ../../../src/reference/security/data-protection.md:347
 msgid "Specific actions performed will be reported to the customer if required."
 msgstr ""
 "Spezifische durchgeführte Aktionen werden dem Kunden bei Bedarf mitgeteilt."
 
-#: ../../../src/reference/security/data-protection.md:346
+#: ../../../src/reference/security/data-protection.md:349
 msgid "(13) Availability control"
 msgstr "(13) Verfügbarkeitskontrolle"
 
-#: ../../../src/reference/security/data-protection.md:348
+#: ../../../src/reference/security/data-protection.md:351
 msgid ""
 "**Purpose: ensure that personal data are protected against loss and "
 "destruction**"
@@ -945,30 +938,30 @@ msgstr ""
 "**Zweck: Gewährleistung, dass personenbezogene Daten gegen Zerstörung oder "
 "Verlust geschützt sind**"
 
-#: ../../../src/reference/security/data-protection.md:350
+#: ../../../src/reference/security/data-protection.md:356
 msgid ""
-"The availability of resources depending on the data center facilities is "
+"The availability of resources depending on the data center facilities may be "
 "delegated to the operator of the data center. The Flying Circus facilitates "
-"service level agreements to make expectations about availability explicit."
+"service level agreements to make expectations about availability explicit. This "
+"includes proper air-conditioning and uninterruptible power supplies."
 msgstr ""
-"Die Verfügbarkeit von Ressourcen, in Abhängigkeit von den "
-"Rechenzentrumseinrichtungen, wird an den Betreiber des Rechenzentrums "
-"delegiert. Bereitgestellte Service Level Agreements ermöglichen dem Flying "
-"Circus, die Erwartungen an die Verfügbarkeit explizit zu machen."
+"Die Verfügbarkeit von Ressourcen, die von Rechenzentrumseinrichtungen abhängen, "
+"wird an den Betreiber des Rechenzentrums delegiert. Bereitgestellte Service "
+"Level Agreements ermöglichen dem Flying Circus, die Erwartungen an die "
+"Verfügbarkeit explizit zu machen."
 
-#: ../../../src/reference/security/data-protection.md:354
+#: ../../../src/reference/security/data-protection.md:360
 msgid ""
 "The selection of hardware is performed by the Flying Circus using professional "
 "equipment and vendors. The Flying Circus facilitates standard procedures for "
 "increased availability of single components (e.g., RAID storages, redundant "
 "power supplies, spare components)."
 msgstr ""
-"Die Auswahl der Hardware wird vom Flying Circus mit professionellem Equipment "
-"und Anbietern durchgeführt. Der Flying Circus ermöglicht Standardverfahren zur "
-"Erhöhung der Verfügbarkeit einzelner Komponenten (z.B. RAID-Speicher, "
-"redundante Netzteile, Ersatzkomponenten)."
+"Hardware wird vom Flying Circus von professionellem Anbietern bezogen. Der "
+"Flying Circus nutzt Standardverfahren zur Erhöhung der Verfügbarkeit einzelner "
+"Komponenten (z.B. RAID-Speicher, redundante Netzteile, Ersatzkomponenten)."
 
-#: ../../../src/reference/security/data-protection.md:359
+#: ../../../src/reference/security/data-protection.md:365
 msgid ""
 "Customer data is regularly backed up according to the Flying Circus' {ref}"
 "`backup schedule <backup>`. Restoration of past states may be performed by "
@@ -982,11 +975,11 @@ msgstr ""
 "`Desaster Recovery Plan <disaster-recovery>`, der Ausfallszenarien, unsere "
 "Präventiv- und Wiederherstellungsmaßnahmen detailliert beschreibt."
 
-#: ../../../src/reference/security/data-protection.md:365
+#: ../../../src/reference/security/data-protection.md:371
 msgid "(14) Separability"
 msgstr "(14) Trennbarkeit"
 
-#: ../../../src/reference/security/data-protection.md:367
+#: ../../../src/reference/security/data-protection.md:373
 msgid ""
 "**Purpose: ensure that personal data collected for different purposes can be "
 "processed separately**"
@@ -994,7 +987,7 @@ msgstr ""
 "**Zweck: Gewährleistung, dass zu unterschiedlichen Zwecken erhobene "
 "personenbezogene Daten getrennt verarbeitet werden können**"
 
-#: ../../../src/reference/security/data-protection.md:370
+#: ../../../src/reference/security/data-protection.md:376
 msgid ""
 "To separate data from different customers the Flying Circus facilitates "
 "virtualization: both virtual machines (to separate execution context) and "
@@ -1009,7 +1002,7 @@ msgstr ""
 "einer einzelnen Maschine ist der Zugriff auf verschiedene Dateien und Prozesse "
 "über Standard-UNIX-Berechtigungen möglich."
 
-#: ../../../src/reference/security/data-protection.md:376
+#: ../../../src/reference/security/data-protection.md:382
 msgid ""
 "Machines (both virtual and physical) live in a specific *access ring* (short: "
 "ring):"
@@ -1017,17 +1010,17 @@ msgstr ""
 "Maschinen (sowohl virtuelle als auch physische) leben in einem bestimmten "
 "*Access Ring* (kurz: Ring):"
 
-#: ../../../src/reference/security/data-protection.md:379
+#: ../../../src/reference/security/data-protection.md:385
 msgid ""
 "*Ring 0* machines perform infrastructure tasks. Thus, they need to process data "
 "belonging to several customers.  Only administrator access is allowed on such "
 "machines.  Examples include VM hosts and storage servers."
 msgstr ""
-"*Ring 0* Maschinen führen Infrastrukturaufgaben aus. So müssen sie Daten "
-"verarbeiten, die zu mehreren Kunden gehören. Auf solchen Maschinen ist nur "
-"Administratoren der Zugriff erlaubt. Beispiele sind VM-Hosts und Storage-Server."
+"*Ring 0* Maschinen führen Infrastrukturaufgaben aus. Sie verarbeitenDaten, die "
+"zu mehreren Kunden gehören. Auf solchen Maschinen ist nur Administratoren der "
+"Zugriff erlaubt. Beispiele sind VM-Hosts und Storage-Server."
 
-#: ../../../src/reference/security/data-protection.md:382
+#: ../../../src/reference/security/data-protection.md:388
 msgid ""
 "*Ring 1* machines process data for a specific customer and are accessible to "
 "users associated to that customer. Examples include customer VMs."
@@ -1036,29 +1029,29 @@ msgstr ""
 "Benutzer zugänglich, die mit diesem Kunden verbunden sind. Beispiele sind "
 "Kunden-VMs."
 
-#: ../../../src/reference/security/data-protection.md:385
+#: ../../../src/reference/security/data-protection.md:391
 msgid ""
 "All resources that belong logically together (e.g., VMs, storage volumes) are "
-"bundled into *resource groups*. Resource groups share that same set of user "
+"bundled into *resource groups*. Those resources share that same set of user "
 "accounts and permissions."
 msgstr ""
 "Alle Ressourcen, die logisch zusammengehören (z.B. VMs, Storage Volumes), "
-"werden in *Ressourcen-Gruppen* gebündelt. Projekte teilen sich dasselbe Set an "
-"Benutzerkonten und Berechtigungen."
+"werden in *Ressourcen-Gruppen* gebündelt. Innerhalb einer Ressourcen-Gruppe "
+"werden dieselben Benutzerkonten und Berechtigungen verwendet."
 
-#: ../../../src/reference/security/data-protection.md:389
+#: ../../../src/reference/security/data-protection.md:395
 msgid ""
 "Access to S3-compatible object storage buckets is separated by resource group "
 "with dedicated authentication credentials."
 msgstr ""
-"Der Zugriff auf S3-kompatible Objektspeicher-Buckets wird pro Ressourcengruppe "
-"mit dedizierten Authentifizierungsdaten getrennt."
+"Der Zugriff auf S3-kompatible Objektspeicher wird pro Ressourcengruppe mit "
+"dedizierten Authentifizierungsdaten getrennt."
 
-#: ../../../src/reference/security/data-protection.md:393
+#: ../../../src/reference/security/data-protection.md:399
 msgid "Other measures"
 msgstr "Andere Maßnahmen"
 
-#: ../../../src/reference/security/data-protection.md:395
+#: ../../../src/reference/security/data-protection.md:401
 msgid ""
 "Our support process and incident response measures are documented at {ref}`the "
 "support overview <support-details>`."
@@ -1066,7 +1059,7 @@ msgstr ""
 "Unser Supportprozess und die Maßnahmen zur Reaktion auf Vorfälle sind unter "
 "{ref}`Support-Details <support-details>` dokumentiert."
 
-#: ../../../src/reference/security/data-protection.md:396
+#: ../../../src/reference/security/data-protection.md:402
 msgid ""
 "We have a process for emergency and crisis management including contingency "
 "plans for critical business processes (business continuity). See also {ref}"
@@ -1076,11 +1069,11 @@ msgstr ""
 "Notfallplänen für kritische Geschäftsprozesse (Business Continuity). Siehe auch "
 "{ref}`disaster-recovery`."
 
-#: ../../../src/reference/security/data-protection.md:398
+#: ../../../src/reference/security/data-protection.md:404
 msgid "Footnotes"
-msgstr "Fußzeile"
+msgstr "Fußnoten"
 
-#: ../../../src/reference/security/data-protection.md:402
+#: ../../../src/reference/security/data-protection.md:408
 msgid ""
 "If a customer owns equipment managed within the Flying Circus we require that "
 "this customer uses a separate rack with separate access control."
@@ -1089,7 +1082,7 @@ msgstr ""
 "wird, verlangen wir, dass dieser Kunde ein separates Rack mit separater "
 "Zugangskontrolle nutzt."
 
-#: ../../../src/reference/security/data-protection.md:406
+#: ../../../src/reference/security/data-protection.md:412
 msgid ""
 "We consider not logging unsuccessful logins acceptable, as SSH logins are only "
 "valid using cryptographic private/public key authentication. Password logins "
@@ -1115,7 +1108,7 @@ msgstr ""
 "Spamming der Logging-Infrastruktur führen, was wiederum ein Vektor für DOS-"
 "Angriffe sein kann."
 
-#: ../../../src/reference/security/data-protection.md:419
+#: ../../../src/reference/security/data-protection.md:425
 msgid ""
 "Individual actions performed with administrative privileges are only partially "
 "logged."
