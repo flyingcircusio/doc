@@ -3,6 +3,9 @@
 % review schedule: 1 year
 
 % ISMSControl: A.13.1.1
+% ISMSControl: 8.20
+% ISMSControl: 8.21
+% ISMSControl: 8.22
 
 (network-security)=
 
