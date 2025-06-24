@@ -46,6 +46,5 @@ platform/25.05/fc-25.05-production
 platform/24.11/fc-24.11-production
 platform/24.05/fc-24.05-production
 platform/23.11/fc-23.11-production
-platform/23.05/fc-23.05-production
 ```
 
