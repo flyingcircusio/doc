@@ -25,14 +25,14 @@ on the situation:
   vectors are not relevant on our platform.
 - We might take other actions not listed here, depending on the situation.
 
-## NixOS 24.05 (upcoming)
+## NixOS 25.11 (upcoming)
 
 This is the currently actively developed NixOS release that receives timely
 security updates.
 
 We update our platform frequently to follow upstream development.
 
-## NixOS 23.11 (current)
+## NixOS 25.05 (current)
 
 This is the currently actively maintained NixOS release that receives timely
 security updates. 
@@ -40,18 +40,10 @@ security updates.
 We update our platform with security updates every 2 weeks, but may update
 intermittently if high risk vulnerabilities become known.
 
-## NixOS 23.05 and older (outdated)
+## NixOS 24.11 and older (outdated)
 
 No security updates are provided. Customers in need of guaranteed security
-updates are advised to update to NixOS 23.11
-
-## NixOS 21.05 (outdated)
-
-We are currently using NixOS 21.05 as our hardware platform due to interlocking
-reasons to update some of the lower level infrastructure. We apply security
-updates as needed for the components used.
-
-Customers are not receiving security updates on 21.05 any longer.
+updates are advised to update to NixOS 25.05.
 
 ## Gentoo (retired)
 
