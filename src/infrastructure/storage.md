@@ -69,10 +69,22 @@ VMs are fitted with 3 different virtual disks:
   | 250 GiB | 15 GiB |
   | 500 GiB | 22 GiB |
 
-## Migrating disks between storage pools
+(infrastructure-storage-performance)=
 
-We provide multiple storage pools with different performance characteristics:
-named HDD and SSD as an indicator of the expected performance. 
+## Storage Performance
+
+We provide multiple storage pools with different performance characteristics, named **HDD** and **SSD** as an indicator of the expected performance:
+
+|                 | HDD         | SSD        |
+|:----------------|:-----------:|:----------:|
+| IOPS (regular)  |         250 |      10000 |
+| IOPS burst rate | 10× for 60s | 2× for 60s |
+| bandwidth       |   250 MiB/s |  500 MiB/s |
+
+The IOPS limit is accounted and enforced separately for *read* and *write* operations.  \
+The bursting limits are calculated through the Qemu [*leaky bucket*][qemu-throttling] mechanism and thus can extend the burst period for burst rates smaller than the maximum.
+
+[qemu-throttling]: https://github.com/qemu/qemu/blob/3656e761bcdd207b7759cdcd608212d2a6f9c12d/docs/throttle.txt
 
 VM disks can be migrated between those pools by selecting a new pool. The VM
 will detect the change and schedule a maintenance to perform the migration at a
