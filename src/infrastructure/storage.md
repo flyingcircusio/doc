@@ -1,5 +1,7 @@
 (infrastructure-storage)=
 
+(infrastructure-storage-block)=
+
 # Virtual Disks / Block Storage
 
 VM storage is provided by a Ceph cluster as virtual disks / block devices.
@@ -8,6 +10,8 @@ physical disks, see [](#data-at-rest-encryption) for details.
 
 Each virtual disk is visible in VMs as {file}`/dev/vda` and reflects an
 underlying Ceph [RBD volume][rbd volume].
+
+(infrastructure-storage-disk-layout)=
 
 ## Disk Layout
 
@@ -69,10 +73,26 @@ VMs are fitted with 3 different virtual disks:
   | 250 GiB | 15 GiB |
   | 500 GiB | 22 GiB |
 
-## Migrating disks between storage pools
+(infrastructure-storage-performance)=
 
-We provide multiple storage pools with different performance characteristics:
-named HDD and SSD as an indicator of the expected performance. 
+## Storage Performance
+
+We provide multiple storage pools with different performance characteristics, named **HDD** and **SSD** as an indicator of the expected performance:
+
+|                 | HDD         | SSD        |
+|:----------------|:-----------:|:----------:|
+| IOPS (regular)  |         250 |      10000 |
+| IOPS burst rate | 10× for 60s | 2× for 60s |
+| bandwidth       |   250 MiB/s |  500 MiB/s |
+
+The IOPS limit is accounted and enforced separately for *read* and *write* operations.  \
+The bursting limits are calculated through the Qemu [*leaky bucket*][qemu-throttling] mechanism and thus can extend the burst period for burst rates smaller than the maximum.
+
+[qemu-throttling]: https://github.com/qemu/qemu/blob/3656e761bcdd207b7759cdcd608212d2a6f9c12d/docs/throttle.txt
+
+(infrastructure-storage-pool-migration)=
+
+## Migrating disks between storage pools
 
 VM disks can be migrated between those pools by selecting a new pool. The VM
 will detect the change and schedule a maintenance to perform the migration at a
@@ -100,6 +120,7 @@ provision a new VM and copy the data to a smaller disk.
 
 [rbd volume]: http://docs.ceph.com/docs/master/architecture/
 
+(storage-objects)=
 # S3-compatible Object Storage
 
 Our Ceph cluster also provides an S3-compatible object storage.
