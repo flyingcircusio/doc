@@ -1,4 +1,4 @@
-% last review: 2024-08-25
+% last review: 2025-07-31
 
 % review schedule: 1 year
 
@@ -152,7 +152,6 @@ Additionally:
 **Purpose: prevent the use of automated processing systems by unauthorized persons using data communication equipment**
 
 
-% ISMSControl: A.9.4.2
 % ISMSControl: 5.16
 % ISMSControl: 5.17
 % ISMSControl: 8.5
@@ -188,16 +187,13 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 
 **Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
-% ISMSControl: A.9.1.1
 % ISMSControl: 5.15
 % ISMSControl: 5.18
 % ISMSControl: 8.3
 
 Customer-owned virtual machines may be accessed by all Flying Circus administrators implicitly. In projects additional staff (e.g. support staff) may get explicit access. Access by others (e.g., customer personnel, third parties) must be authorised by a client representative.
 
-% ISMSControl: A.9.2.1
-% ISMSControl: A.9.2.2
-% ISMSControl: A.9.2.6
+% ISMSControl: 5.16
 
 Users are centrally managed using <https://my.flyingcircus.io>. Users are automatically provisioned to all relevant systems, including proper removal of access rights.
 
@@ -282,7 +278,6 @@ after the change has been performed.
 
 **Purpose: ensure that the confidentiality and integrity of personal data are protected during transfers of personal data or during transport of data media**
 
-% ISMSControl: A.14.1.2
 % ISMSControl: 8.26
 
 
