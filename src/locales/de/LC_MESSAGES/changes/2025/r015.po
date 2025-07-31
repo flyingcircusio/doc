@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r015.md:6
+msgid "Release 2025_015 (2025-05-19)"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:12
+msgid ""
+"k3s: version 1.29 is end-of-life and should be considered insecure. Users"
+" are encouraged to upgrade their k3s cluster to a more recent version."
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:14
+msgid "the following services will restart: slurm, gitlab, rabbitmq, postgresql"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:17
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:19
+msgid ""
+"varnish: Listen addresses are filtered by uniqueness. Before that, adding"
+" the same listen IP twice would break Varnish on startup."
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:21
+msgid "The default Nix has been upgraded to 2.25."
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:23
+msgid "Slurm nodes will be returned to service after an unexpected reboot."
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:25
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:26
+msgid "chromedriver: 136.0.7103.59 -> 136.0.7103.92"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:27
+msgid "chromium: 136.0.7103.59 -> 136.0.7103.92"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:28
+msgid "erlang: 25.3.2.20 -> 25.3.2.21"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:29
+msgid "gitaly: 17.11.1 -> 17.11.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:30
+msgid "gitlab: 17.11.1 -> 17.11.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:31
+msgid "gitlab-container-registry: 4.20.0 -> 4.21.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:32
+msgid "gitlab-ee: 17.11.1 -> 17.11.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:33
+msgid "gitlab-pages: 17.11.1 -> 17.11.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:34
+msgid "gitlab-workhorse: 17.11.1 -> 17.11.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:35
+msgid "k3s: 1.31.7+k3s1 -> 1.31.8+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:36
+msgid "k3s_1_30: 1.30.11+k3s1 -> 1.30.12+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:37
+msgid "k3s_1_31: 1.31.7+k3s1 -> 1.31.8+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:38
+msgid "mastodon: 4.3.7 -> 4.3.8"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:39
+msgid "matrix-synapse: 1.128.0 -> 1.129.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:40
+msgid "php83: 8.3.20 -> 8.3.21"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:41
+msgid "php84: 8.4.6 -> 8.4.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:42
+msgid "postgresql_13: 13.20 -> 13.21"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:43
+msgid "postgresql_14: 14.17 -> 14.18"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:44
+msgid "postgresql_15: 15.12 -> 15.13"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:45
+msgid "postgresql_17: 17.4 -> 17.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:48
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r015.md:50
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/2451a14576630b3878ba9a6f183c4257c2519c7c...5b979caa68ab93a0d5eee64c0e7b516eae5ed15d),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/a3e8604615b951b95dc778e0bdf305aa3f7f96dc...f61b71d2692690b5a5fe1d8cab4f379a4dbf76e9),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_015),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4480294/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r022.md:6
+msgid "Release 2025_022 (2025-06-30)"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:12
+msgid ""
+"None, this is an initial release of a new platform version. No existing "
+"customer machines are upgraded automatically."
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:17
+msgid ""
+"This is the first production release of the 24.11 platform. On 2025-07-01"
+" it will become the default release for new VMs. Regular maintenance for "
+"the 24.11 platform is discontinued, please update to 25.05 to continue "
+"receiving bug fixes and feature improvements. The 24.11 platform will "
+"only receive the most critical security fixes from now on."
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:19
+msgid ""
+"See [Platform Upgrades & What’s "
+"New](https://doc.flyingcircus.io/roles/fc-25.05-production/upgrade.html) "
+"for things to consider before upgrading, significant changes and new "
+"package versions."
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:22
+msgid "Details"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:24
+msgid "[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_022)"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:26
+msgid ""
+"[channel "
+"url](https://hydra.flyingcircus.io/build/5919876/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r022.md:29
+msgid "Detailed Changes"
+msgstr ""
+

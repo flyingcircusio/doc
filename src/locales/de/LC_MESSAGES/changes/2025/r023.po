@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r023.md:6
+msgid "Release 2025_023 (2025-07-07)"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:12
+msgid ""
+"This is the last 24.11 Platform release including regular NixOS software "
+"updates from the upstream distribution. Please *consider updating to "
+"Platform 25.05*. Security updates will only be performed for selected "
+"packages with a high impact and an (even indirect) remote vector, for a "
+"limited period."
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:16
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:18
+msgid ""
+"Improve convergence in internal S3 user management. Secrets are now also "
+"being reported back to our configuration management. This reduces error "
+"potential in the future in the secret management (PL-133656)"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:21
+msgid ""
+"Improve our internal image update script to not fail on temporary DNS "
+"errors (PL-133726)"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:23
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:24
+msgid "chromedriver: 137.0.7151.119 -> 138.0.7204.49"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:25
+msgid "chromium: 137.0.7151.119 -> 138.0.7204.49"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:26
+msgid "clamav: 1.4.2 -> 1.4.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:27
+msgid "firefox: 139.0.4 -> 140.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:28
+msgid "gitaly: 17.11.4 -> 17.11.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:29
+msgid "gitlab: 17.11.4 -> 17.11.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:30
+msgid "gitlab-ee: 17.11.4 -> 17.11.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:31
+msgid "gitlab-pages: 17.11.4 -> 17.11.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:32
+msgid "gitlab-workhorse: 17.11.4 -> 17.11.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:33
+msgid "linuxKernelStable: 6.6.94 -> 6.12.34"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:34
+msgid "nss_latest: 3.112 -> 3.113"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:35
+msgid "sudo: 1.9.17 -> 1.9.17p1 (CVE-2025-32462, CVE-2025-32463)"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:38
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:40
+msgid "no user facing changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:44
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:46
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/920b3aaf6bc804e6d36188ca551f4f76bf01ec99...42697a14a71616edc4f7450a36e5303c9eb8ace3),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/7a49d0ead610694a58e716c37ac616f310b1b156...999b4004c4db402f811a26e180363696fd4ffe18),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_023),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/6234926/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r023.md:48
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/7c0ab567cc4f94429db943113365668f43d30cbd...d8f322667ca159306d28dca60ff6feec614aabba),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_023),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/6244780/download/1/nixexprs.tar.xz)"
+msgstr ""
+

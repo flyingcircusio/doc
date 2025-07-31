@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2024-11-08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -129,24 +129,30 @@ msgstr ""
 msgid "unifi8: 8.4.62 -> 8.5.6"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:50
+#: ../../../src/changes/2024/r031.md:49
+msgid ""
+"Production channel URL for this release: "
+"https://hydra.flyingcircus.io/build/1168991/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r031.md:51
 msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:53
+#: ../../../src/changes/2024/r031.md:54
 msgid ""
 "This is an internal release not available to customer VMs. As this "
 "release powers the Flyingcircus Infrastructure, changes resulting in "
 "customer-facing behaviour are included here nonetheless."
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:58
+#: ../../../src/changes/2024/r031.md:59
 msgid ""
 "Implement automatic (offline) migration of VM disks between different "
 "pools (SSD <-> HDD). (PL-131857)"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:61
+#: ../../../src/changes/2024/r031.md:62
 msgid ""
 "Switch our central DNS recursive resolvers to prefer the default Quad9 "
 "servers to alleviate reliability issues. We used to prefer the Quad9 "
@@ -155,15 +161,15 @@ msgid ""
 "default servers. (PL-133125)"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:67
+#: ../../../src/changes/2024/r031.md:68
 msgid "Improve central DNS recursive resolver debugging capabilities. (PL-133125)"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:70
+#: ../../../src/changes/2024/r031.md:71
 msgid "Detailed Changes"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:72
+#: ../../../src/changes/2024/r031.md:73
 msgid ""
 "NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
 "nixos/compare/fc/r2024_030/24.05...4113e66b8b23f570f35d5892c0309be616260c52),"
@@ -171,7 +177,7 @@ msgid ""
 "changes](https://github.com/flyingcircusio/nixpkgs/compare/f4f7b96b213014c55cc2a54c4cdb771c244a7308...e418e84f113fe9ee0fad1604af830036d1432862)"
 msgstr ""
 
-#: ../../../src/changes/2024/r031.md:75
+#: ../../../src/changes/2024/r031.md:76
 msgid ""
 "NixOS 21.05 (internal): [platform code](https://github.com/flyingcircusio"
 "/fc-"

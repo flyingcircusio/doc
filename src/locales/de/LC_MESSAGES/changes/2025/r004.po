@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r004.md:6
+msgid "Release 2025_004 (2025-02-10)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:10
+msgid "21.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:12 ../../../src/changes/2025/r004.md:17
+#: ../../../src/changes/2025/r004.md:22
+msgid "None."
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:15
+msgid "23.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:20
+msgid "24.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:25
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:27
+msgid ""
+"Machines will schedule a maintenance reboot to activate the updated linux"
+" kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:30
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:33
+msgid ""
+"This is an internal release not available to customer VMs. As this "
+"release powers the Flying Circus infrastructure, changes resulting in "
+"customer-facing behaviour are included here nonetheless."
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:38 ../../../src/changes/2025/r004.md:43
+#: ../../../src/changes/2025/r004.md:48 ../../../src/changes/2025/r004.md:57
+msgid "Set the `download-timeout` for Nix to 1 second."
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:41
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:46
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:51
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:53
+msgid "devhost: migrate dnsmasq extraConfig to structured settings (PL-133369)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:55
+msgid ""
+"`fc-slurm check` does not crash anymore on hosts that are not a core "
+"slurm-node, but provides a helpful warning (PL-133153)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:59
+msgid "Pull upstream NixOS changes, security fixes and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:60
+msgid "gitaly: 17.7.1 -> 17.8.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:61
+msgid "gitlab: 17.7.1 -> 17.8.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:62
+msgid "gitlab-container-registry: 4.14.0 -> 4.15.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:63
+msgid "gitlab-ee: 17.7.1 -> 17.8.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:64
+msgid "gitlab-pages: 17.7.1 -> 17.8.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:65
+msgid "gitlab-workhorse: 17.7.1 -> 17.8.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:66
+msgid "grafana: 11.3.2 -> 11.3.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:67
+msgid "linuxKernelStable: 6.6.74 -> 6.6.75"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:68
+msgid "linuxKernelVerify: 6.6.74 -> 6.6.75"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:69
+msgid "matrix-synapse: 1.122.0 -> 1.123.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:70
+msgid "mysql80: 8.0.40 -> 8.0.41"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:71
+msgid "percona-xtrabackup_8_0: 8.0.35-31 -> 8.0.35-32"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:72
+msgid "postgresql13Packages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:73
+msgid "postgresql14Packages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:74
+msgid "postgresql15Packages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:75
+msgid "postgresql16Packages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:76
+msgid "postgresql17Packages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:77
+msgid "postgresqlPackages.postgis: 3.5.0 -> 3.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:80
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:82
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/f4d1983f2a2f2fc372ed590280eb00e860307ddb...cb34a33a284401eb8ae87ec5e90d8b9226d4cff2),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-21.05-production/2025_004),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4355692/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:84
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/84077003f93175ed9ce00b31e6bcee03708b09b4...888693e578bd47f8ceb6342fa13f5bc6347fd835),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-23.11-production/2025_004),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4355894/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:86
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/6dec8072040d475496158a1dcf51b3f0c9b993ed...84e13e3c6749021490bd84d21a3056403fb52654),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.05-production/2025_004),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4355921/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r004.md:88
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/3cb6e1abc453c2db86c1c1049d93259f1134894e...6641aba14d53aa0bb38cb49c52fe9f4b9ee9c590),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/d6f8a181c810da7200483680ccf011db767faa22...9f961dec97e23c97e35dad3c25438cd4d8ee9cbc),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_004),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4355446/download/1/nixexprs.tar.xz)"
+msgstr ""
+

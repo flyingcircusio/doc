@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2024-11-08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -21,18 +21,43 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/changes/2024/r032.md:5
-msgid "Release 2024_032 (unreleased)"
+msgid "Release 2024_032 (2024-11-12)"
 msgstr ""
 
 #: ../../../src/changes/2024/r032.md:9
-msgid "Documentation"
+msgid "NixOS 21.05 platform"
 msgstr ""
 
-#: ../../../src/changes/2024/r032.md:11
-msgid "nothing yet"
+#: ../../../src/changes/2024/r032.md:12
+msgid ""
+"This is an internal release not available to customer VMs. As this "
+"release powers the Flyingcircus Infrastructure, changes resulting in "
+"customer-facing behaviour are included here nonetheless."
 msgstr ""
 
-#: ../../../src/changes/2024/r032.md:13
+#: ../../../src/changes/2024/r032.md:17
+msgid ""
+"fc.qemu: fix bug that may cause accidental root disk shrinks after a cold"
+" reboot. (PL-133166)"
+msgstr ""
+
+#: ../../../src/changes/2024/r032.md:20
 msgid "Detailed Changes"
 msgstr ""
+
+#: ../../../src/changes/2024/r032.md:22
+msgid ""
+"NixOS 21.05 (internal): [platform code](https://github.com/flyingcircusio"
+"/fc-"
+"nixos/compare/fc/r2024_031/21.05...8b3d6e3c080036f6967f12f8792986b17768d9ae)"
+msgstr ""
+
+#~ msgid "Release 2024_032 (unreleased)"
+#~ msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr ""
+
+#~ msgid "nothing yet"
+#~ msgstr ""
 

@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r002.md:6
+msgid "Release 2025_002 (2025-01-27)"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:10
+msgid "24.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:12
+msgid "rabbitmq will be restarted"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:15
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:17
+msgid ""
+"Reorganize the dashboards that are provided for every customer with a "
+"statshost component in the Grafana UI into separate folders (PL-133028)"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:19
+msgid ""
+"Automatically enable all feature flags after an upgrade for single-node "
+"rabbitmq clusters. (PL-132311)"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:22
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r002.md:24
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/8f8f90fd1615ef0cb660a65adc58e9edcbc48d70...6dec8072040d475496158a1dcf51b3f0c9b993ed),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.05-production/2025_002),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4339686/download/1/nixexprs.tar.xz)"
+msgstr ""
+

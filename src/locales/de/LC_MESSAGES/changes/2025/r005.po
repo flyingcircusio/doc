@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r005.md:6
+msgid "Release 2025_005 (2025-02-24)"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:12
+msgid ""
+"Machines will schedule a maintenance reboot to activate the changed "
+"kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:15
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:17
+msgid "make fc-devhost operational on this platform version (PL-133416)"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:19
+msgid ""
+"Update backup software (backy and backy-extract). Mostly cosmetic changes"
+" and minor bug fixes."
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:22
+msgid ""
+"fc.agent.s3users: add timeouts, silence errors after user was deleted and"
+" add monitoring (PL-133447)"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:24
+msgid ""
+"Fix rotation of some service logs by relaxing logrotate service hardening"
+" (haproxy, mysql, ceph, …) [PL-133439]"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:25
+msgid ""
+"The affected services might need to be restarted, but this will also "
+"happen as a side affect of the machine reboot scheduled by this release."
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:27
+msgid ""
+"lamp: For a phpfpm pool `name`, the executables `php-name` and `composer-"
+"name` are available in the VM. `php-name` calls the PHP interpreter "
+"that's also used by the phpfpm pool with the `php.ini` configuration of "
+"the phpfpm pool."
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:31
+msgid ""
+"percona: add configuration for alloy that exports slow logs to loki if "
+"configured for the resource group (PL-133028)"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:33
+msgid "Pull upstream NixOS changes, security fixes and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:34
+msgid "chromedriver: 132.0.6834.159 -> 133.0.6943.98"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:35
+msgid "chromium: 132.0.6834.159 -> 133.0.6943.98"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:36
+msgid "firefox: 134.0.2 -> 135.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:37
+msgid "gitaly: 17.8.1 -> 17.8.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:38
+msgid "github-runner: 2.321.0 -> 2.322.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:39
+msgid "gitlab: 17.8.1 -> 17.8.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:40
+msgid "gitlab-ee: 17.8.1 -> 17.8.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:41
+msgid "gitlab-pages: 17.8.1 -> 17.8.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:42
+msgid "gitlab-workhorse: 17.8.1 -> 17.8.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:43
+msgid "go_1_22: 1.22.11 -> 1.22.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:44
+msgid "keycloak: 26.1.0 -> 26.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:45
+msgid "linuxKernelStable: 6.6.75 -> 6.6.77"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:46
+msgid "linuxKernelVerify: 6.6.75 -> 6.6.77"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:47
+msgid "mariadb: 10.11.10 -> 10.11.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:48
+msgid "matrix-synapse: 1.123.0 -> 1.124.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:49
+msgid "mysql: 10.11.10 -> 10.11.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:50
+msgid "nginx: 1.26.2 -> 1.26.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:51
+msgid "nginxMainline: 1.27.3 -> 1.27.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:52
+msgid "nginxStable: 1.26.2 -> 1.26.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:53
+msgid "nodejs_22: 22.13.1 -> 22.14.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:54
+msgid "nss_latest: 3.107 -> 3.108"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:55
+msgid "powerdns: 4.9.2 -> 4.9.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:56
+msgid "webkitgtk: 2.46.5 -> 2.46.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:59
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r005.md:61
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/6641aba14d53aa0bb38cb49c52fe9f4b9ee9c590...1088e22317f44523bbef8f0fed1d68445d78ed68),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/9f961dec97e23c97e35dad3c25438cd4d8ee9cbc...164fd2f0a101118f57ef3a485706578181038666),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_005),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4370602/download/1/nixexprs.tar.xz)"
+msgstr ""
+

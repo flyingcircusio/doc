@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r026.md:6
+msgid "Release 2025_026 (2025-07-28)"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:12
+msgid "rabbitmq is restarted"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:14
+msgid "machines will reboot to activate a new kernel"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:17
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:19 ../../../src/changes/2025/r026.md:29
+#, python-format
+msgid ""
+"On most machines, agent units (fc-agent, fc-collect-garbage, fc-update-"
+"channel) now use a more dynamic throttling mechanism (cgroup's "
+"`io.weight`) so that the new burst mechanism and generally idle IOPS can "
+"be used without hurting application load. Under stress those units can "
+"consume at most 20% of all available IOPS."
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:24 ../../../src/changes/2025/r026.md:34
+msgid ""
+"Database VMs (mongodb, mysql, postgresql) are still using the previous, "
+"more strict throttling mechanism due to implementation challenges."
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:27
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:36
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:37
+msgid "chromedriver: 138.0.7204.100 -> 138.0.7204.157"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:38
+msgid "chromium: 138.0.7204.100 -> 138.0.7204.157"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:39
+msgid "erlang: 27.3.4.1 -> 27.3.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:40
+msgid "github-runner: 2.325.0 -> 2.326.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:41
+msgid "gitlab-runner: 18.1.0 -> 18.1.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:42
+msgid "k3s: 1.32.5+k3s1 -> 1.32.6+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:43
+msgid "k3s_1_31: 1.31.9+k3s1 -> 1.31.10+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:44
+msgid "k3s_1_32: 1.32.5+k3s1 -> 1.32.6+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:45
+msgid "k3s_1_33: 1.33.1+k3s1 -> 1.33.2+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:46
+msgid "linuxKernelStable: 6.12.37 -> 6.12.39"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:47
+msgid "linuxKernelVerify: 6.12.37 -> 6.12.39"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:48
+msgid "prometheus: 3.4.2 -> 3.5.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:49
+msgid "uv: 0.7.20 -> 0.7.21"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:52
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:54
+msgid "add detailed documentation on {ref}`infrastructure-storage-performance`"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:57
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:59
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/42697a14a71616edc4f7450a36e5303c9eb8ace3...5961378079307f3e2d9bfc827dac4d56ed37af74),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_026),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/10503246/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r026.md:61
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/8cbd8224e1962895f3a89b35478fa93dcadf1ecb...02e3f3d5c7b488a3c8442699386d686b56d2b2b6),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/5b84c538023d45435b912c2613cb6ce3ed4160b5...fad1efce221502d04beb74629557f8bf13ff7950),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_026),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/10492829/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r010.md:6
+msgid "Release 2025_010 (2025-04-14)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:12
+msgid ""
+"A wide variety of services will be reloaded and restarted due to the "
+"`nss_latest` update."
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:15
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:17
+msgid ""
+"router: add support for providing gateway services on layer 3 routed "
+"networks using VRFs. (PL-133324)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:20
+msgid ""
+"kvm: add support for VMs which have interfaces in layer 3 routed "
+"networks. (PL-133324)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:23
+msgid ""
+"nfs: fix platform network configuration to prevent machines with NFS "
+"mountpoints from hanging when switching to new system configurations. "
+"(PL-133570)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:27
+msgid ""
+"Update our virtualisation tooling to Python 3.11 and remove C-level Ceph "
+"dependencies. (FC-133553)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:29
+msgid ""
+"Add documentation for the statshost role, specifically on how to use it "
+"from a customer's perspective (PL-133028)"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:31
+msgid "Pull upstream NixOS changes, security fixes and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:32
+msgid "chromedriver: 134.0.6998.165 -> 135.0.7049.52"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:33
+msgid "chromium: 134.0.6998.165 -> 135.0.7049.52"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:34
+msgid "docker: 27.3.1 -> 27.5.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:35
+msgid "element-web: 1.11.95 -> 1.11.96"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:36
+msgid "erlang: 25.3.2.18 -> 25.3.2.19"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:37
+msgid "firefox: 136.0.3 -> 137.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:38
+msgid "ghostscript: 10.04.0 -> 10.05.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:39
+msgid "go: 1.23.6 -> 1.23.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:40
+msgid "go_1_23: 1.23.6 -> 1.23.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:41
+msgid "grafana: 11.3.4 -> 11.3.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:42
+msgid "nodejs: 20.18.3 -> 20.19.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:43
+msgid "nodejs_18: 18.20.7 -> 18.20.8"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:44
+msgid "nodejs_20: 20.18.3 -> 20.19.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:45
+msgid "nss_latest: 3.109 -> 3.110"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:46
+msgid "vim: 9.1.1046 -> 9.1.1122"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:49
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r010.md:51
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/632fb0ea984b553f88076160be83d50d2f1498a0...b182861adb8737f6b48f1cb1110f8f96cdaf6b8f),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_010),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4436845/download/1/nixexprs.tar.xz)"
+msgstr ""
+

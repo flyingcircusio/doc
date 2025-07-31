@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,7 +100,7 @@ msgstr ""
 msgid ""
 "For every project our automatic maintenance window is by default set "
 "between 22:00 and 5:00 (Europe/Berlin) with a pre-announcement period of "
-"24 hours."
+"12 hours."
 msgstr ""
 
 #: ../../../src/infrastructure/vms/index.md:49
@@ -132,92 +132,92 @@ msgstr ""
 msgid "Deletion"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:61
+#: ../../../src/infrastructure/vms/index.md:63
 msgid ""
 "VMs are deleted in a multi-stage process that takes around 38 days. You "
 "can schedule the deletion of a VM at earliest for the next day (midnight "
 "Europe/Berlin)."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:65
+#: ../../../src/infrastructure/vms/index.md:67
 msgid "The stages of deletion are:"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:67
+#: ../../../src/infrastructure/vms/index.md:69
 msgid "Prepare"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:69
+#: ../../../src/infrastructure/vms/index.md:71
 msgid "(t-5 days)"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:71
+#: ../../../src/infrastructure/vms/index.md:73
 msgid ""
 "Create a maintenance period to let technical contacts know that a VM is "
 "due for deletion soon."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:74
+#: ../../../src/infrastructure/vms/index.md:76
 msgid ""
 "Also, add downtimes in our monitoring systems to stop any alerts related "
 "to the VM starting from their deletion date."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:77
+#: ../../../src/infrastructure/vms/index.md:79
 msgid "Soft"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:79
+#: ../../../src/infrastructure/vms/index.md:81
 msgid "(at t=0)"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:81
+#: ../../../src/infrastructure/vms/index.md:83
 msgid "Shutdown the VM but keep all existing records, IPs, disks, etc."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:83
+#: ../../../src/infrastructure/vms/index.md:85
 msgid ""
 "At this point you can still cancel the deletion and start up the VM as it"
 " was including all persistent data."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:86
+#: ../../../src/infrastructure/vms/index.md:88
 msgid "Hard"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:88
+#: ../../../src/infrastructure/vms/index.md:90
 msgid "(t+3 days)"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:90
+#: ../../../src/infrastructure/vms/index.md:92
 msgid "Delete the VMs hard disk from activate storage."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:92
+#: ../../../src/infrastructure/vms/index.md:94
 msgid "Also delete all records from our directory and allow the IPs to be reused."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:94
+#: ../../../src/infrastructure/vms/index.md:96
 msgid "Purge"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:96
+#: ../../../src/infrastructure/vms/index.md:98
 msgid "(t+32 days)"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:98
+#: ../../../src/infrastructure/vms/index.md:100
 msgid "Delete the VMs backups."
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:100
+#: ../../../src/infrastructure/vms/index.md:102
 msgid "Recycle"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:102
+#: ../../../src/infrastructure/vms/index.md:104
 msgid "(t+38 days)"
 msgstr ""
 
-#: ../../../src/infrastructure/vms/index.md:104
+#: ../../../src/infrastructure/vms/index.md:106
 msgid ""
 "Delete the VM deletion notice which will in turn allow the VMs name to be"
 " used again."
@@ -255,5 +255,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "(t+8 days)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For every project our automatic "
+#~ "maintenance window is by default set "
+#~ "between 22:00 and 5:00 (Europe/Berlin) "
+#~ "with a pre-announcement period of "
+#~ "24 hours."
 #~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,73 +18,90 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../../src/infrastructure/networking/networking.md:10
+#: ../../../src/infrastructure/networking/networking.md:11
 msgid "Overview"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:12
+#: ../../../src/infrastructure/networking/networking.md:13
 msgid "Physical networks"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:14
+#: ../../../src/infrastructure/networking/networking.md:18
 msgid ""
-"The physical network in our public datacenter RZOB is implemented using "
-"physically separated switches per layer 2 segment (VLAN) with a hot-spare"
-" for each switch type. In WHQ, we operate multiple layer 2 segments using"
-" the same physical switches, using VLANs within the switches for logical "
-"separation, but with cold-spares instead of hot-spares."
+"We use a redundant routed layer 3 network as the basis of production "
+"network functions in all our public datacenters. All of our servers in "
+"each location are connected to redundant network infrastructure, which "
+"forwards network traffic between the servers. This redundancy allows "
+"maintenance actions or failures of individual network devices without "
+"customer impact."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:20
+#: ../../../src/infrastructure/networking/networking.md:24
 msgid ""
-"The frontend (FE) and server-to-server (SRV) networks run on 1G "
-"infrastructure, whereas the storage networks are connected with 10G "
-"links. In RZOB our routers have redundant 2x10G connectivity to our "
-"uplink provider. In WHQ our routers have a redundant 2x1G link to our "
-"uplink provider, however this provider only has *non-redundant* 2.5G "
-"connectivity itself."
+"On top of this routed network we use an overlay technology called EVPN-"
+"VXLAN, which allows us to run multiple logically separate layer 2 "
+"networks over shared physical infrastructure. All of our logical networks"
+" aside from the out-of-band management network are implemented as virtual"
+" networks running through this overlay."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:26
+#: ../../../src/infrastructure/networking/networking.md:30
 msgid ""
-"In all locations, routers are connected to the datacenter uplink, the "
-"frontend network, the server-to-server network, and the management "
-"network. In RZOB a dedicated physical interface is used for each of these"
-" networks. In WHQ, all of these networks are delivered over a single "
-"physical interface using tagged VLANs."
+"The management network uses separate physical infrastructure and is "
+"implemented as a simple flat layer 2 network using dedicated switches."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:34
+#: ../../../src/infrastructure/networking/networking.md:33
+msgid ""
+"In all locations, the routed layer 3 network carrying production traffic "
+"uses links of at least 10G, which is available to all the virtual "
+"networks running on top of the overlay. In our public datacenter RZOB "
+"both routers each have 10G connectivity to our uplink provider. In WHQ "
+"our routers each have a 1G link to our uplink provider, however this "
+"provider only has *non-redundant* 2.5G connectivity itself."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/networking.md:40
+msgid ""
+"The routers participate in the EVPN-VXLAN overlay, having access to the "
+"frontend network and server-to-server network, and are additionally "
+"connected to the management network."
+msgstr ""
+
+#: ../../../src/infrastructure/networking/networking.md:46
 msgid "Logical networks"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:39
-msgid "The following VLANs and logical networks are in use:"
+#: ../../../src/infrastructure/networking/networking.md:51
+msgid ""
+"Our logical networks can be implemented as either layer 2 VLANs or "
+"virtual networks inside an EVPN-VXLAN overlay due to a unified internal "
+"numbering scheme. We have the following logical networks in use:"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:41
+#: ../../../src/infrastructure/networking/networking.md:55
 msgid ""
-"**MGM** - Management, purely for administrative purposes. This VLAN "
+"**MGM** - Management, purely for administrative purposes. This network "
 "connects switch management ports, Remote Access Controllers, and "
 "additional access to server OSes via SSH. Not accessible from the outside"
 " world, private IPv4 address space."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:46
+#: ../../../src/infrastructure/networking/networking.md:60
 msgid ""
-"**FE** - Frontend, for customer application traffic. This VLAN connects "
-"to machines that provide customers' applications to the public. This "
-"network is switched to the virtual machines and leverages completely "
-"public traffic. The DC firewalls do not filter this, however the default "
-"system firewall running locally on VMs blocks inbound connections. "
+"**FE** - Frontend, for customer application traffic. This network "
+"connects to machines that provide customers' applications to the public. "
+"This network is switched to the virtual machines and leverages completely"
+" public traffic. The DC firewalls do not filter this, however the default"
+" system firewall running locally on VMs blocks inbound connections. "
 "Customer applications are free to use any ports they like. These ports "
 "must be listed in the firewall configuration in order to receive inbound "
-"connections. All VMs receive a NIC on this VLAN but not necessarily IPv4 "
-"or IPv6 addresses if they do not provide public traffic. DNS example: "
-"*vm00.fe.rzob.fcio.net*."
+"connections. All VMs receive a NIC on this network but not necessarily "
+"IPv4 or IPv6 addresses if they do not provide public traffic. DNS "
+"example: *vm00.fe.rzob.fcio.net*."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:56
+#: ../../../src/infrastructure/networking/networking.md:70
 msgid ""
 "**SRV** - Server to server communication. Used for customer application "
 "components to talk to each other, e.g. database traffic and for "
@@ -97,7 +114,7 @@ msgid ""
 "or simply *vm00.fcio.net*."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:66
+#: ../../../src/infrastructure/networking/networking.md:79
 msgid ""
 "**STO** - Storage communication. Used by the virtualization and backup "
 "servers to access the network storages where the VM disk images as well "
@@ -105,39 +122,39 @@ msgid ""
 "*filer.sto.rzob.gocept.net*."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:70
+#: ../../../src/infrastructure/networking/networking.md:84
 msgid ""
 "**STB** - Storage backend communication. Used by the storage layer for "
 "replication and self-management. DNS example: "
 "*filer.stb.rzob.gocept.net*."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:73
+#: ../../../src/infrastructure/networking/networking.md:87
 msgid ""
 "Individual VMs that run management services, like monitoring, may get "
-"bridged into the additional VLANs or granted firewall exceptions as "
+"bridged into additional networks or granted firewall exceptions as "
 "necessary."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:76
+#: ../../../src/infrastructure/networking/networking.md:90
 msgid ""
 "The routers suppress \"martian\" traffic which is on the wrong VLAN, e.g."
 " frontend traffic injected on the server-to-server network or private "
 "addresses from the internet."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:80
+#: ../../../src/infrastructure/networking/networking.md:95
 msgid "Local ports"
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:82
+#: ../../../src/infrastructure/networking/networking.md:97
 msgid ""
 "Your application is generally free to use any open port on a machine "
 "above 1024. Especially if you run a component that has a registered, "
 "well-known port, please use that."
 msgstr ""
 
-#: ../../../src/infrastructure/networking/networking.md:86
+#: ../../../src/infrastructure/networking/networking.md:101
 msgid ""
 "However, custom applications may run into the trouble of colliding with "
 "other components. For that we guarantee that the ports 61000-61999 will "
@@ -289,5 +306,85 @@ msgstr ""
 #~ "IPv6 addresses if they do not "
 #~ "provide public traffic. DNS example: "
 #~ "*vm00.fe.rzob.fcio.net*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The physical network in our public "
+#~ "datacenter RZOB is implemented using "
+#~ "physically separated switches per layer "
+#~ "2 segment (VLAN) with a hot-spare"
+#~ " for each switch type. In WHQ, "
+#~ "we operate multiple layer 2 segments "
+#~ "using the same physical switches, using"
+#~ " VLANs within the switches for "
+#~ "logical separation, but with cold-spares"
+#~ " instead of hot-spares."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The frontend (FE) and server-to-"
+#~ "server (SRV) networks run on 1G "
+#~ "infrastructure, whereas the storage networks"
+#~ " are connected with 10G links. In "
+#~ "RZOB our routers have redundant 2x10G"
+#~ " connectivity to our uplink provider. "
+#~ "In WHQ our routers have a "
+#~ "redundant 2x1G link to our uplink "
+#~ "provider, however this provider only has"
+#~ " *non-redundant* 2.5G connectivity itself."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In all locations, routers are connected"
+#~ " to the datacenter uplink, the "
+#~ "frontend network, the server-to-server"
+#~ " network, and the management network. "
+#~ "In RZOB a dedicated physical interface"
+#~ " is used for each of these "
+#~ "networks. In WHQ, all of these "
+#~ "networks are delivered over a single "
+#~ "physical interface using tagged VLANs."
+#~ msgstr ""
+
+#~ msgid "The following VLANs and logical networks are in use:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**MGM** - Management, purely for "
+#~ "administrative purposes. This VLAN connects"
+#~ " switch management ports, Remote Access "
+#~ "Controllers, and additional access to "
+#~ "server OSes via SSH. Not accessible "
+#~ "from the outside world, private IPv4 "
+#~ "address space."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FE** - Frontend, for customer "
+#~ "application traffic. This VLAN connects "
+#~ "to machines that provide customers' "
+#~ "applications to the public. This network"
+#~ " is switched to the virtual machines"
+#~ " and leverages completely public traffic."
+#~ " The DC firewalls do not filter "
+#~ "this, however the default system "
+#~ "firewall running locally on VMs blocks"
+#~ " inbound connections. Customer applications "
+#~ "are free to use any ports they "
+#~ "like. These ports must be listed "
+#~ "in the firewall configuration in order"
+#~ " to receive inbound connections. All "
+#~ "VMs receive a NIC on this VLAN "
+#~ "but not necessarily IPv4 or IPv6 "
+#~ "addresses if they do not provide "
+#~ "public traffic. DNS example: "
+#~ "*vm00.fe.rzob.fcio.net*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Individual VMs that run management "
+#~ "services, like monitoring, may get "
+#~ "bridged into the additional VLANs or "
+#~ "granted firewall exceptions as necessary."
 #~ msgstr ""
 

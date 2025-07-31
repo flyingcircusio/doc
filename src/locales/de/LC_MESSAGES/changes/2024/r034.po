@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r034.md:5
+msgid "Release 2024_034 (2024-12-02)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:9
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:11
+msgid "24.05"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:13
+msgid ""
+"There is a small but non-zero potential that some clients may experience "
+"connectivity issues with nginx. Multiple connectivity testing tools "
+"showed no change for clients and/or libraries but cannot cover every "
+"single implementation out there."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:16
+msgid "services using an updated package will be restarted"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:18
+msgid "Activate DDoS SSH rules in fail2ban for production machines."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:20
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:23
+msgid ""
+"This is an internal release not available to customer VMs. As this "
+"release powers the Flyingcircus Infrastructure, changes resulting in "
+"customer-facing behaviour are included here nonetheless."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:28
+msgid ""
+"fc-luks: fix rekeying to use the specified encryption parameters. We "
+"accidentally fell back to defaults before. (PL-133174)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:30
+msgid ""
+"router: the ISC DHCP server, which is end-of-life, has been replaced with"
+" its successor implementation, Kea. (PL-133205)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:33
+msgid ""
+"pkgs: fix the monitoring script for the IPv4 underlay network to "
+"correctly handle next hop addresses sent by Nokia SR Linux switches. "
+"(PL-133199)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:37
+msgid ""
+"router: fix radvd config generation to use the correct derived interface "
+"name. (PL-133201)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:40
+msgid "NixOS 23.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:42
+msgid "Rotate CS' root ssh key as the old one was over 5 years old (FC-41948)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:43
+msgid "release: use globs for constituents (PL-133119)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:44
+msgid "Use scriv for changelog management (PL-133099)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:45
+msgid "Add leona root key (PL-133122)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:46
+msgid ""
+"Production channel for this release: "
+"https://hydra.flyingcircus.io/build/3745308/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:48
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:50
+msgid ""
+"agent: fix merging cold boot activities into warm reboots. We noticed "
+"maintenance requests that have been postponed multiple times on some "
+"machines, causing repeated maintenance notification mails. (PL-133180)."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:52
+msgid ""
+"Increase SSL validation check timeout to better distinguish DNS "
+"resolution errors and other causes of timeouts. (PL-133125)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:55
+msgid ""
+"Restrict a class of key agreement protocols, called Diffie-Hellman "
+"Elliptic Curves, enabled in Nginx to mitigate a DoS attack vector "
+"described in CVE-2024-41996. The curves for ECDHE ciphers are then "
+"restricted to x25519, secp256r1, and x448."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:58
+msgid "Update the mailserver role documentation with an example nix configuration"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:60
+msgid ""
+"Fix permissions for some platform logic that creates a `.erlang.cookie` "
+"for rabbitmq which would previously cause a failure when starting the "
+"service. The problem was caused due to insufficient write permissions "
+"when attempting to write the cookie after rabbitmq's first startup. "
+"During first startup, rabbimq generates a random cookie, writes it to the"
+" appropriate file and sets that file to be read-only."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:64
+msgid ""
+"Pull upstream NixOS changes, security fixes and package updates "
+"(PL-133203):"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:65
+msgid ""
+"chromium: 130.0.6723.69 -> 130.0.6723.116 (CVE-2024-10826, "
+"CVE-2024-10827, CVE-2024-10487, CVE-2024-10488)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:66
+msgid "element-web: 1.11.82 -> 1.11.85"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:67
+msgid "firefox: 132.0 -> 132.0.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:68
+msgid "ghostscript: 10.03.1 -> 10.04.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:69
+msgid "git: 2.44.1 -> 2.44.2"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:70
+msgid "github-runner: 2.320.0 -> 2.321.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:71
+msgid "gitlab: 17.2.9 -> 17.3.7"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:72
+msgid "go_1_22: 1.22.6 -> 1.22.8"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:73
+msgid "go_1_22: 1.22.6 -> 1.22.8, (#345953)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:74
+msgid "grafana: 10.4.11 -> 10.4.12"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:75
+msgid "imagemagick: 7.1.1-38 -> 7.1.1-39"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:76
+msgid "libtiff: patch for CVE-2023-52356 & CVE-2024-7006"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:77
+msgid "matrix-synapse: 1.118.0 -> 1.119.0"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:78
+msgid "nodejs_18: 18.20.4 -> 18.20.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:79
+msgid "nodejs_22: 22.8.0 -> 22.10.0, (#349157)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:80
+msgid "nspr: 4.35 -> 4.36"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:81
+msgid "nss_latest: 3.105 -> 3.106"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:82
+msgid "postgresql_12: 12.20 -> 12.21"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:83
+msgid "postgresql_13: 13.16 -> 13.17"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:84
+msgid "postgresql_14: 14.13 -> 14.14"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:85
+msgid "postgresql_15: 15.8 -> 15.9"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:86
+msgid "postgresql_16: 16.4 -> 16.5"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:87
+msgid "python311: 3.11.9 -> 3.11.10"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:88
+msgid "python312: 3.12.5 -> 3.12.6"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:89
+msgid "redis: 7.2.4 -> 7.2.6 (CVE-2024-31449, CVE-2024-31227, CVE-2024-31228)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:90
+msgid "unzip: apply patch for CVE-2021-4217"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:91
+msgid "vim: 9.1.0707 -> 9.1.0765 (CVE-2024-47814)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:93
+msgid "Scheduled rotation of CS' root ssh key"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:95
+msgid ""
+"Activate DDoS SSH rules in fail2ban for all machines as protection "
+"against SSH DHeat attacks. (PL-132477) This may have impact if you have "
+"multiple unauthenticated SSH connections in a short time. We tested this "
+"change on non-production machines over the last 3 weeks and got no "
+"reports of problems."
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:99
+msgid ""
+"Production channel for this release: "
+"https://hydra.flyingcircus.io/build/3725196/download/1/nixexprs.tar.xz"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:101 ../../../src/changes/2024/r034.md:110
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:103
+msgid ""
+"NixOS 21.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/0b52963cef46e62fbf6397c3aba334ff02fdfb16...0d336728318db4687b018dca786863c39fb564d9)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:105
+msgid ""
+"NixOS 23.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/14fd82eed4338e952558e9a65d09d3d16507d203...f20b923200bc4f769938fa2e391c61d4d44058b2)"
+msgstr ""
+
+#: ../../../src/changes/2024/r034.md:107
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/fc/r2024_032/24.05...990ab0e638e9f54b23b08c3ba6bb2f4b672ce0c8),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e418e84f113fe9ee0fad1604af830036d1432862...e8368806d2c792603b4c47afe0e3709a51d232a2)"
+msgstr ""
+

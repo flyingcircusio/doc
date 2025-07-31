@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r025.md:6
+msgid "Release 2025_025 (2025-07-21)"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:8
+msgid "General Improvements"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:10
+msgid ""
+"We have improved IO throttling on our hypervisors. These performance "
+"gains are available to all running VMs, irrespectively of their platform "
+"version:"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:13
+msgid ""
+"HDD-class VMs can burst from their baseline of 250 IOPS up to 2.500 IOPS "
+"for 60 seconds and have an explicit bandwidth limit of 250 MiB/s."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:15
+msgid ""
+"SSD-class VMs can burst from their baseline of 10000 IOPS up to 20.000 "
+"IOPS for 60 seconds and have an explicit bandwidth limit of 500 MiB/s."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:17
+msgid ""
+"Reads and writes are now throttled separately, so all VMs can use their "
+"IOPS limit separately for reading and writing at the same time."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:21
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:23
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:25
+msgid "The following services may be restarted: postgresql.service, redis.service"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:28
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:30
+msgid "devhost: switch to kea as dhcp server (PL-133857)"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:32
+msgid ""
+"We had seen issues with DHCP packets having an invalid checksum. Kea "
+"handles this better and seems to resolve provisioning issues. We continue"
+" to monitor the issues."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:35
+msgid ""
+"postgresql: add role `postgresql17` for newest major release. All "
+"existing versions of the postgresql role remain available."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:37
+msgid ""
+"Make XFS upgrades at boot-time optional and disable it by default.  "
+"(PL-133864)"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:39
+msgid ""
+"We introduced the XFS upgrade code in the 25.05 cycle to allow long-"
+"living filesystems enable features like \"bigtime\" which makes the "
+"filesystem year 2038 compatible. The implementation chose robustness over"
+" performance but the tradeoff ended up with boot times of tens of minutes"
+" even for small or medium VMs. We're taking this feature back to the "
+"drawing board, but provide a knob so it can be used in situations where "
+"it's really needed."
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:46
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:47
+msgid "chromedriver: 138.0.7204.92 -> 138.0.7204.100"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:48
+msgid "chromium: 138.0.7204.92 -> 138.0.7204.100"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:49
+msgid "firefox: 140.0.2 -> 140.0.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:50
+msgid "gitaly: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:51
+msgid "gitlab: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:52
+msgid "gitlab-container-registry: 4.23.1 -> 4.24.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:53
+msgid "gitlab-ee: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:54
+msgid "gitlab-pages: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:55
+msgid "gitlab-workhorse: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:56
+msgid "go_1_23: 1.23.10 -> 1.23.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:57
+msgid "keycloak: 26.1.4 -> 26.2.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:58
+msgid "linuxKernelStable: 6.12.35 -> 6.12.37"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:59
+msgid "linuxKernelVerify: 6.12.35 -> 6.12.37"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:60
+msgid "postgresql13Packages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:61
+msgid "postgresql14Packages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:62
+msgid "postgresql15Packages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:63
+msgid "postgresql16Packages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:64
+msgid "postgresql17Packages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:65
+msgid "postgresqlPackages.postgis: 3.5.2 -> 3.5.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:66
+msgid "promtail: 3.4.4 -> 3.4.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:67
+msgid "python3Packages.structlog: 25.3.0 -> 25.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:68
+msgid "redis: 7.2.9 -> 7.2.10"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:69
+msgid "uv: 0.7.19 -> 0.7.20"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:72
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:74
+msgid ""
+"updated NAT endpoint IP addresses used by outbound traffic from machines "
+"with no public IPv4 address: {ref}`outbound`"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:76
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r025.md:78
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/29c53792b6a771323069b374d5b0ff83b40957a3...8cbd8224e1962895f3a89b35478fa93dcadf1ecb),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/5456fd668551c2c244499b9e7e91eacc1b9a75ee...5b84c538023d45435b912c2613cb6ce3ed4160b5),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_025),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/7988790/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r014.md:6
+msgid "Release 2025_014 (2025-05-12)"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:12
+msgid "Machines will reboot to activate a new kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:14
+msgid "rabbitmq.service is restarted"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:17
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:19
+msgid "nixos/default-packages: remove atop (PL-133575)"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:21
+msgid ""
+"atop has/had security problems and we see not much use. Remove in the "
+"default platform as it's still accessible with nix-shell."
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:24
+msgid "antivirus: fix listen statement on devhost setups (PL-133648)"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:26
+msgid "s3users: error when unknown error occurs (PL-133656)"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:28
+msgid ""
+"This is a safeguard against unexpected errors happen in the rgw user list"
+" / user info calls leading to a re-creation of the user with a new secret"
+" key."
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:31
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:32
+msgid "chromedriver: 135.0.7049.114 -> 136.0.7103.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:33
+msgid "chromium: 135.0.7049.114 -> 136.0.7103.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:34
+msgid "firefox: 137.0.2 -> 138.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:35
+msgid "linuxKernelStable: 6.6.88 -> 6.6.89"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:36
+msgid "linuxKernelVerify: 6.6.88 -> 6.12.26"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:37
+msgid "nss_latest: 3.110 -> 3.111"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:40
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r014.md:42
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/7d020004ea183d5fa1a2c558547c27c7923b3f65...2451a14576630b3878ba9a6f183c4257c2519c7c),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c1b76eb244f82650ffa532a0c537012b896f45f3...a3e8604615b951b95dc778e0bdf305aa3f7f96dc),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_014),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4470911/download/1/nixexprs.tar.xz)"
+msgstr ""
+

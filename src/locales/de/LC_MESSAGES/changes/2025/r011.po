@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r011.md:6
+msgid "Release 2025_011 (2025-04-21)"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:12
+msgid "VMs will restart due to kernel updates."
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:14
+msgid "DevHost VMs restart"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:17
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:19
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:20
+msgid "chromedriver: 135.0.7049.52 -> 135.0.7049.84"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:21
+msgid "chromium: 135.0.7049.52 -> 135.0.7049.84"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:22
+msgid "clamav: 1.4.1 -> 1.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:23
+msgid "firefox: 137.0 -> 137.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:24
+msgid "github-runner: 2.322.0 -> 2.323.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:25
+msgid "linuxKernelStable: 6.6.85 -> 6.6.87"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:26
+msgid "linuxKernelVerify: 6.6.85 -> 6.6.87"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:27
+msgid "mastodon: 4.3.6 -> 4.3.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:28
+msgid "matrix-synapse: 1.127.1 -> 1.128.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:29
+msgid "nix: 2.24.13 -> 2.24.14"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:31
+msgid "devhost: Fix graceful shutdown of devhost VMs (PL-133536)"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:33
+msgid ""
+"router: add support for providing gateway services on layer 3 routed "
+"networks using VRFs. (PL-133324)"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:36
+msgid ""
+"kvm: support layer 3 routed networks when bootstrapping cloud-init VM's. "
+"(PL-133325)"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:40
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:47
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r011.md:49
+msgid ""
+"NixOS 24.11: "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_011),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4443436/download/1/nixexprs.tar.xz)"
+msgstr ""
+

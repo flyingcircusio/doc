@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r021.md:6
+msgid "Release 2025_021 (2025-06-30)"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:12
+msgid ""
+"the following services will be restarted: redis.service, mysql.service, "
+"opensearch.service, postgresql.service"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:14
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:17
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:19
+msgid "Linux kernel: use 6.12.x LTS series as default stable kernel (PL-133760)"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:21
+msgid "Promote the 6.12.x LTS Linux kernel series as our default stable kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:23
+msgid "This seems to help resolve some recent IO latency / stalling issues"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:25
+msgid ""
+"Memory management: switch to smaller, fixed size dirty page buffers "
+"(PL-133760)"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:27
+msgid ""
+"This also seems to be a factor in the recent IO latency / stalling "
+"issues: The dirty page buffers were based on percentages of the installed"
+" RAM so far, but can cause long periods of stalling when the kernel "
+"passes the hard threshold to flush it."
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:32
+msgid ""
+"We now provide much smaller and fixed sizes for dirty pages (16 MiB to "
+"start flushing in the background and 64 MiB to enforce flushing)."
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:35
+msgid ""
+"agent: the command `fc-manage switch` now has a `-R` option which will "
+"activate the new configuration by performing an immediate reboot, similar"
+" to the process used for upgrading between major versions. (PL-133308)"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:40
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:41
+msgid "chromedriver: 137.0.7151.103 -> 137.0.7151.119"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:42
+msgid "chromium: 137.0.7151.103 -> 137.0.7151.119"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:43
+msgid "linuxKernelStable: 6.6.93 -> 6.6.94"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:44
+msgid "linuxKernelVerify: 6.12.33 -> 6.12.34"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:45
+msgid "matrix-synapse: 1.131.0 -> 1.132.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:46
+msgid "sudo: 1.9.16p2 -> 1.9.17"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:47
+msgid "tomcat10: 10.1.41 -> 10.1.42"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:48
+msgid "tomcat9: 9.0.105 -> 9.0.106"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:49
+msgid "nix: fix GHSA-g948-229j-48j3"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:52
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r021.md:54
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/45cad6ab6b9d982ded0ea07770b2c5720879d1bf...920b3aaf6bc804e6d36188ca551f4f76bf01ec99),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/db7890c29f03648549073eebbbf5110ebe262fe4...7a49d0ead610694a58e716c37ac616f310b1b156),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_021),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/5499433/download/1/nixexprs.tar.xz)"
+msgstr ""
+

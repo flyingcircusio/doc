@@ -9,20 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 11:10+0200\n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
-#: ../../src/reference/hardware/specs.rst:6
+#: ../../../src/reference/hardware/specs.md:12
 msgid "Hardware specifications"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:8
+#: ../../../src/reference/hardware/specs.md:14
 msgid ""
 "All hardware we procure for our infrastructure will comply to the "
 "following specifications. Older hardware may have been bought adhering to"
@@ -30,205 +30,289 @@ msgid ""
 "as necessary."
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:12
+#: ../../../src/reference/hardware/specs.md:18
 msgid ""
 "Housing customers' equipment also needs to comply to the specification "
 "valid at the time of installation."
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:16
+#: ../../../src/reference/hardware/specs.md:21
 msgid "Servers"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:18
+#: ../../../src/reference/hardware/specs.md:23
 msgid "All servers, independently of their role, require:"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:20
-msgid "2 10 GE copper network ports, onboard, shared IPMI port (Intel)"
+#: ../../../src/reference/hardware/specs.md:25
+msgid "1 1G network port onboard with shared IPMI and PXE boot functionality"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:21
-msgid "OS disks: 2 SSDs (internal or rear side)"
+#: ../../../src/reference/hardware/specs.md:26
+msgid "2 25G network ports with VXLAN offloading (Nvidia Connect X-4 or newer)"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:22
-msgid "CPU-Architecture: x86_64"
+#: ../../../src/reference/hardware/specs.md:27
+msgid "Support for UEFI boot"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:23
+#: ../../../src/reference/hardware/specs.md:28
+msgid "OS disks: 1 SSD M.2 internal, >= 240 GiB"
+msgstr ""
+
+#: ../../../src/reference/hardware/specs.md:29
+msgid "CPU-Architecture: x86_64, preferably AMD"
+msgstr ""
+
+#: ../../../src/reference/hardware/specs.md:30
 msgid "BMC supporting IPMI 2.0 with serial console via LAN on shared port"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:24
+#: ../../../src/reference/hardware/specs.md:31
 msgid "Redundant power supply"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:25
+#: ../../../src/reference/hardware/specs.md:32
 msgid "Sliding rack rails"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:26
-msgid "Support contract for at least 5 years (next business day, parts included)"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:28
-msgid "Bootable, built-in rescue system"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:30
+#: ../../../src/reference/hardware/specs.md:34
 msgid "Historic requirements, usually always given nowadways:"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:32
+#: ../../../src/reference/hardware/specs.md:36
 msgid "Needs to be bootable from USB flash drive"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:33
+#: ../../../src/reference/hardware/specs.md:37
 msgid "PCIe bus"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:36
+#: ../../../src/reference/hardware/specs.md:39
 msgid "Application servers"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:38
-msgid "Chassis: Thomas Krenn RI2208"
+#: ../../../src/reference/hardware/specs.md:41
+msgid "Chassis: 2 rack units"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:39
-msgid "512 GiB RAM"
+#: ../../../src/reference/hardware/specs.md:42
+msgid "at least 768 GiB RAM"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:40
-msgid "2x18 Core CPU at affordable speed"
+#: ../../../src/reference/hardware/specs.md:43
+msgid "at least 2x28 Core CPU at affordable speeds"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:41
-msgid "Microarchitecture: Westmere+"
+#: ../../../src/reference/hardware/specs.md:44
+msgid "Microarchitecture: at least Zen 3 (Milan)"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:42
+#: ../../../src/reference/hardware/specs.md:45
 msgid "Machine name: kyleXX"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:45
+#: ../../../src/reference/hardware/specs.md:47
 msgid "Storage servers"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:47
-msgid "Base: Thomas Krenn RI2224"
+#: ../../../src/reference/hardware/specs.md:49
+#: ../../../src/reference/hardware/specs.md:58
+#: ../../../src/reference/hardware/specs.md:67
+msgid "Base: 2 rack units"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:48
-msgid "16 slots for hard drives"
+#: ../../../src/reference/hardware/specs.md:50
+#: ../../../src/reference/hardware/specs.md:59
+msgid "24 slots for U.2/U.3 NVMe drives"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:49
-msgid ""
-"at leat 16 cores with sufficient thread performance (2x Intel Xeon "
-"E5-2640v3 8-Core)"
+#: ../../../src/reference/hardware/specs.md:51
+msgid "at least 1x24 cores with sufficient single-thread performance (3GHz+)"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:50
-msgid "128 GiB RAM"
+#: ../../../src/reference/hardware/specs.md:52
+msgid "256 GiB RAM"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:51
-msgid "HDD Pool: 2-3 Micron S610DC"
+#: ../../../src/reference/hardware/specs.md:53
+msgid "Drives: 15 TiB NVMe, e.g. Micron 7450 Pro"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:52
-msgid "SSD Pool: 2-3 Intel 800 GB SATA III Intel SSD MLC 2,5\" (DC S3610 Series)"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:53
-msgid "Journal: 400 GB Intel SSD MLC NVMe PCI-E 3.0 (DC P3700 Series)"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:54
+#: ../../../src/reference/hardware/specs.md:54
 msgid "code name: cartmanXY"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:57
+#: ../../../src/reference/hardware/specs.md:56
 msgid "Backup servers"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:59
-msgid "Base: Thomas Krenn RI1316"
+#: ../../../src/reference/hardware/specs.md:60
+msgid "at least 1x16 cores"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:60
-msgid "No separate drives for system needed, it's OK to install on the big raid."
+#: ../../../src/reference/hardware/specs.md:61
+msgid "96 GiB RAM"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:61
+#: ../../../src/reference/hardware/specs.md:62
 msgid ""
-"High-end hardware RAID controller (Avago MegaRAID 9361-8i SAS3 8x "
-"internal) including safe controller cache"
+"Drives: 15 TiB NVMe, e.g. Micron 7450 Pro, Kioxia and Solidigm are valid,"
+" too."
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:62
-msgid "at least 15 x 2 TB SAS 7.2k disks, depending on actual requirements."
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:63
-msgid "at least 12 GiB RAM"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:64
-msgid "at least 4 processor cores"
-msgstr ""
-
-#: ../../src/reference/hardware/specs.rst:65
+#: ../../../src/reference/hardware/specs.md:63
 msgid "code name: barbradyXY"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:68
+#: ../../../src/reference/hardware/specs.md:65
 msgid "Routers"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:70
-msgid "at least 4 GiB RAM"
+#: ../../../src/reference/hardware/specs.md:68
+msgid "3-4 PCIe slots for additional network cards"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:71
-msgid "Power saving CPU"
+#: ../../../src/reference/hardware/specs.md:69
+msgid "at least 16 GiB RAM"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:72
+#: ../../../src/reference/hardware/specs.md:70
+msgid "at least 1x8 cores, potentially power saving options"
+msgstr ""
+
+#: ../../../src/reference/hardware/specs.md:71
 msgid "code name: kennyXY"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:75
+#: ../../../src/reference/hardware/specs.md:73
 msgid "Network infrastructure"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:78
+#: ../../../src/reference/hardware/specs.md:75
 msgid "Switches"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:80
-msgid "Recommended models: Brocade VDX 6740T"
+#: ../../../src/reference/hardware/specs.md:77
+msgid "Recommended model: Nokia 7220 IXR D2L"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:81
-msgid "24 Ports"
+#: ../../../src/reference/hardware/specs.md:78
+msgid "48 Ports"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:82
+#: ../../../src/reference/hardware/specs.md:79
 msgid "code name: stanXY"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:85
+#: ../../../src/reference/hardware/specs.md:81
 msgid "Cabling"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:87
-msgid "Use Cat7"
+#: ../../../src/reference/hardware/specs.md:83
+msgid "LC-Duplex OS2"
 msgstr ""
 
-#: ../../src/reference/hardware/specs.rst:88
-msgid "Respect color coding"
+#: ../../../src/reference/hardware/specs.md:84
+msgid "Use patchboxes for clean cable management"
 msgstr ""
+
+#~ msgid "2 10 GE copper network ports, onboard, shared IPMI port (Intel)"
+#~ msgstr ""
+
+#~ msgid "OS disks: 2 SSDs (internal or rear side)"
+#~ msgstr ""
+
+#~ msgid "CPU-Architecture: x86_64"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Support contract for at least 5 "
+#~ "years (next business day, parts "
+#~ "included)"
+#~ msgstr ""
+
+#~ msgid "Bootable, built-in rescue system"
+#~ msgstr ""
+
+#~ msgid "Chassis: Thomas Krenn RI2208"
+#~ msgstr ""
+
+#~ msgid "512 GiB RAM"
+#~ msgstr ""
+
+#~ msgid "2x18 Core CPU at affordable speed"
+#~ msgstr ""
+
+#~ msgid "Microarchitecture: Westmere+"
+#~ msgstr ""
+
+#~ msgid "Base: Thomas Krenn RI2224"
+#~ msgstr ""
+
+#~ msgid "16 slots for hard drives"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "at leat 16 cores with sufficient "
+#~ "thread performance (2x Intel Xeon "
+#~ "E5-2640v3 8-Core)"
+#~ msgstr ""
+
+#~ msgid "128 GiB RAM"
+#~ msgstr ""
+
+#~ msgid "HDD Pool: 2-3 Micron S610DC"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "SSD Pool: 2-3 Intel 800 GB SATA"
+#~ " III Intel SSD MLC 2,5\" (DC "
+#~ "S3610 Series)"
+#~ msgstr ""
+
+#~ msgid "Journal: 400 GB Intel SSD MLC NVMe PCI-E 3.0 (DC P3700 Series)"
+#~ msgstr ""
+
+#~ msgid "Base: Thomas Krenn RI1316"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No separate drives for system needed,"
+#~ " it's OK to install on the big"
+#~ " raid."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High-end hardware RAID controller (Avago"
+#~ " MegaRAID 9361-8i SAS3 8x internal) "
+#~ "including safe controller cache"
+#~ msgstr ""
+
+#~ msgid "at least 15 x 2 TB SAS 7.2k disks, depending on actual requirements."
+#~ msgstr ""
+
+#~ msgid "at least 12 GiB RAM"
+#~ msgstr ""
+
+#~ msgid "at least 4 processor cores"
+#~ msgstr ""
+
+#~ msgid "at least 4 GiB RAM"
+#~ msgstr ""
+
+#~ msgid "Power saving CPU"
+#~ msgstr ""
+
+#~ msgid "Recommended models: Brocade VDX 6740T"
+#~ msgstr ""
+
+#~ msgid "24 Ports"
+#~ msgstr ""
+
+#~ msgid "Use Cat7"
+#~ msgstr ""
+
+#~ msgid "Respect color coding"
+#~ msgstr ""
 

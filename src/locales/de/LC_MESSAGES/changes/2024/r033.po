@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2024/r033.md:5
+msgid "Release 2024_033 (2024-11-20)"
+msgstr ""
+
+#: ../../../src/changes/2024/r033.md:9
+msgid "NixOS 21.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2024/r033.md:11
+msgid ""
+"physical machines: load `dm_mirror` kernel module by default, to support "
+"several LVM disk migration scenarios"
+msgstr ""
+
+#: ../../../src/changes/2024/r033.md:13
+msgid "Update fc.qemu to ensure reduce cluster load on rbd list. (PL-133194)"
+msgstr ""
+
+#: ../../../src/changes/2024/r033.md:15
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2024/r033.md:17
+msgid ""
+"NixOS 21.05 (internal): [platform code](https://github.com/flyingcircusio"
+"/fc-"
+"nixos/compare/fc/r2024_032/21.05...0b52963cef46e62fbf6397c3aba334ff02fdfb16)"
+msgstr ""
+

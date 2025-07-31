@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r013.md:6
+msgid "Release 2025_013 (2025-05-05)"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:10
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:12
+msgid "Reboot due to updated kernels."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:15
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:17 ../../../src/changes/2025/r013.md:37
+msgid ""
+"Activate configuration changes in an (immediate) boot cycle when "
+"upgrading (or downgrading) the NixOS major release. (PL-133570)"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:20 ../../../src/changes/2025/r013.md:40
+msgid ""
+"We've experienced too many paper cuts, trying to get pure \"online "
+"upgrades\" working reliably in our fleet. Many edge cases like systemd "
+"upgrades, NFS connections, have shown that this isn't possible in the "
+"general case."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:24 ../../../src/changes/2025/r013.md:44
+msgid ""
+"As NixOS major releases ship with different kernel versions anyway and "
+"thus always scheduled to perform an immediate reboot in maintenance, we "
+"no defer the whole config update into that reboot."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:28 ../../../src/changes/2025/r013.md:48
+msgid ""
+"If a config change is applied manually and causes a major version change,"
+" the reboot will be applied immediately - after warning the user visually"
+" and giving a 10 second countdown in case of the user wanting to abort."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:33
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:35
+msgid ""
+"lamp: Fix evaluation error when a `php.ini` references a derivation "
+"(PL-133642)."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:52
+msgid ""
+"nixos/kernel: update verification kernel 6.6 -> 6.12 (PL-133562) Kernel "
+"verision 6.12 is the new LTS. This change makes that version default on "
+"non-production hosts to try it out."
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:56
+msgid "Rotate zagy's root ssh key (PL-133335)"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:58
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:59
+msgid "chromedriver: 135.0.7049.95 -> 135.0.7049.114"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:60
+msgid "chromium: 135.0.7049.95 -> 135.0.7049.114"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:61
+msgid "element-web: 1.11.97 -> 1.11.99"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:62
+msgid "gitaly: 17.10.4 -> 17.11.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:63
+msgid "gitlab: 17.10.4 -> 17.11.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:64
+msgid "gitlab-container-registry: 4.19.0 -> 4.20.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:65
+msgid "gitlab-ee: 17.10.4 -> 17.11.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:66
+msgid "gitlab-pages: 17.10.4 -> 17.11.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:67
+msgid "gitlab-workhorse: 17.10.4 -> 17.11.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:68
+msgid "grafana: 11.3.5 -> 11.3.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:69
+msgid "linuxKernelStable: 6.6.87 -> 6.6.88"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:70
+msgid "linuxKernelVerify: 6.6.87 -> 6.12.25"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:71
+msgid "slurm: 24.05.4.1 -> 24.05.7.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:72
+msgid "webkitgtk: 2.48.0 -> 2.48.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:75
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:77
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:79
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/a6649370b1bd2d4fde9ac5a1b7cd278d1928f233...a3ff9d2d0a634cece676d6fadeb42ef0bcf2c56b),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.05-production/2025_013),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4460283/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r013.md:81
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/70d55cfee268e62487336364534cf9cea254e563...7d020004ea183d5fa1a2c558547c27c7923b3f65),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/98287b1730b7443e1eb841402bd727f7bf4edb6f...c1b76eb244f82650ffa532a0c537012b896f45f3),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_013),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4460412/download/1/nixexprs.tar.xz)"
+msgstr ""
+

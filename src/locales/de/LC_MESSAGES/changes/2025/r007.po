@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r007.md:6
+msgid "Release 2025_007 (2025-03-24)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:10
+msgid "24.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:12
+msgid ""
+"rabbitmq users: When running multiple VMs with the `rabbitmq` role in the"
+" same RG, [feature flags need to be enabled "
+"manually](https://doc.flyingcircus.io/roles/fc-24.05-production/rabbitmq.html"
+"#feature-flags-and-upgrading) after the upgrade to prepare for later "
+"updates."
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:14
+msgid "rabbitmq will be restarted due to a version upgrade"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:17
+msgid "24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:19
+msgid ""
+"[`rabbitmqadmin-ng`](https://www.rabbitmq.com/docs/management-cli) is now"
+" installed by default on machines with the `rabbitmq` role."
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:22
+msgid "Devhost VMs get restarted"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:24
+msgid "machines will schedule a maintennace reboot to activate the changed kernel"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:27
+msgid "NixOS 24.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:29
+msgid "rabbitmq-server: 3.12.13 -> 3.13.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:30
+msgid "necessary preparation for the update to rabbitmq-server 4.x in NixOS 24.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:33
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:35
+msgid ""
+"nginx, monitoring: also check validity of ACME (Letsencrypt) certificates"
+" that are not used for nginx HTTPS. There are two separate checks now: "
+"all ACME certs are checked via the local file system. Certificates used "
+"for nginx HTTPS get an additional check that works like the previous one,"
+" using HTTPS requests. We still assume here that nginx is listening for "
+"HTTPS on port 443. For special configurations, the sensu check command "
+"has to be overridden manually."
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:44
+msgid "devhost: stop VMs gracefully (PL-133536)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:46
+msgid ""
+"percona83: bring back role to allow upgrading existing VMs from platform "
+"24.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:47
+msgid ""
+"percona-8.3.x is already end-of-life, we do not recommend adopting this "
+"role for new VMs"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:48
+msgid ""
+"percona80 continues to be supported as a long-term support release "
+"thoughout the 24.11 platform version"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:50
+msgid ""
+"hardware: unload the XHCI USB driver at shutdown to work around a problem"
+" with certain kernel and hardware combinations improperly deconfiguring "
+"USB devices at shutdown (PL-133421)."
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:54
+msgid ""
+"varnish: fix `varnish_http` sensu check execution, also check IPv6 bind "
+"addresses (PL-133554)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:56
+msgid "issue trace messages when nixpkgs-21.05 is evaluated (PL-33522)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:57
+msgid ""
+"We still use parts of nixpkgs-21.05 for certain hardware and "
+"infrastructure features. As we generally do not expect it to be used in "
+"virtual machines though, emit a trace during evaluation to discover cases"
+" that differ."
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:59
+msgid ""
+"Monitoring for network interface speed: remove the limit for maximum "
+"speeds and make a more differentiated expectation around where we expect "
+"1G or 10G+ links. (PL-133472)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:63
+msgid "devhost: improve error handling in image download (PL-133539)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:65
+msgid "Pull upstream NixOS changes, security fixes and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:66
+msgid "chromedriver: 133.0.6943.141 -> 134.0.6998.88"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:67
+msgid "chromium: 133.0.6943.141 -> 134.0.6998.88"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:68
+msgid "element-web: 1.11.91 -> 1.11.95"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:69
+msgid "erlang: 25.3.2.16 -> 25.3.2.18"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:70
+msgid "firefox: 135.0.1 -> 136.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:71
+msgid "gitaly: 17.9.1 -> 17.9.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:72
+msgid "gitlab: 17.9.1 -> 17.9.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:73
+msgid "gitlab-container-registry: 4.16.0 -> 4.17.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:74
+msgid "gitlab-ee: 17.9.1 -> 17.9.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:75
+msgid "gitlab-pages: 17.9.1 -> 17.9.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:76
+msgid "gitlab-workhorse: 17.9.1 -> 17.9.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:77
+msgid "imagemagick: 7.1.1-43 -> 7.1.1-45"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:78
+msgid "keycloak: 26.1.3 -> 26.1.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:79
+msgid "linuxKernelStable: 6.6.80 -> 6.6.83"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:80
+msgid "linuxKernelVerify: 6.6.80 -> 6.6.83"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:81
+msgid "matrix-synapse: 1.125.0 -> 1.126.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:82
+msgid "nss_latest: 3.108 -> 3.109"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:83
+msgid "percona: 8.0.40-31 -> 8.0.41-32"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:84
+msgid "percona-server_8_0: 8.0.40-31 -> 8.0.41-32"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:85
+msgid "percona80: 8.0.40-31 -> 8.0.41-32"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:86
+msgid "php81: 8.1.31 -> 8.1.32"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:87
+msgid "php82: 8.2.27 -> 8.2.28"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:88
+msgid "php83: 8.3.17 -> 8.3.19"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:89
+msgid "php84: 8.4.4 -> 8.4.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:92
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:94
+msgid ""
+"NixOS 24.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/cf08a6dc0f000f300120b17ef20f55f274a6b792...a6649370b1bd2d4fde9ac5a1b7cd278d1928f233),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/9c9d7506c8f0883338ed9737dd8c886c64768ad2...09ffa23f4ce10d4af5abe3b506f74fa21bef2dba),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.05-production/2025_007),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4402353/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r007.md:96
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/16e80127f6eb368e1113d4932e4fba7f6104dda6...7e5a007fc51cb73a53fa4a32e8e1f841b807a858),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c8f53d39ab5537ccbc402ad25fb5573b860e5bb0...63f2fccd2cfaa026b2f314706aeb4a28ddfff9d0),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_007),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/4402957/download/1/nixexprs.tar.xz)"
+msgstr ""
+
