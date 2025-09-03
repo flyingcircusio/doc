@@ -79,8 +79,8 @@ addresses allocated automatically. DNS example: *vm00.srv.rzob.fcio.net* or
 simply *vm00.fcio.net*.
 
 **PUB** - Public, for traffic to unmanaged VMs. Unmanaged VMs which are not
-running our managed platform receive a NIC this network and public IPv4 and IPv6
-addresses in order to provide general access to and from the the internet. This
+running our managed platform receive a NIC on this network and public IPv4 and IPv6
+addresses in order to provide general access to and from the internet. This
 network uses a layer 3 transport, and is not firewalled. Unmanaged VMs do not
 come with a preconfigured local firewall – if such a firewall is desired then
 customers must configure this themselves. DNS example: *vm00.pub.rzob.fcio.net*
