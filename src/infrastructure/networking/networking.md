@@ -22,10 +22,10 @@ between the servers. This redundancy allows maintenance actions or failures of
 individual network devices without customer impact.
 
 On top of this routed network we use an overlay technology called EVPN-VXLAN,
-which allows us to run multiple logically separate layer 2 networks over shared
-physical infrastructure. All of our logical networks aside from the out-of-band
-management network are implemented as virtual networks running through this
-overlay.
+which allows us to run multiple logically separate layer 2 or layer 3 networks
+over shared physical infrastructure. All of our logical networks aside from the
+out-of-band management network are implemented as virtual networks running
+through this overlay.
 
 The management network uses separate physical infrastructure and is implemented
 as a simple flat layer 2 network using dedicated switches.
@@ -50,31 +50,40 @@ management network.
 
 Our logical networks can be implemented as either layer 2 VLANs or virtual
 networks inside an EVPN-VXLAN overlay due to a unified internal numbering
-scheme. We have the following logical networks in use:
+scheme. All networks use layer 2 transport unless otherwise noted. We have the
+following logical networks in use:
 
 **MGM** - Management, purely for administrative purposes. This network connects
-switch management ports, Remote Access Controllers, and additional access to
-server OSes via SSH. Not accessible from the outside world, private IPv4 address
-space.
+switch management ports, baseband management controllers, and additional access
+to server OSes via SSH. Not accessible from the outside world, private IPv4
+address space.
 
 **FE** - Frontend, for customer application traffic. This network connects to
-machines that provide customers' applications to the public. This network is
-switched to the virtual machines and leverages completely public traffic. The DC
-firewalls do not filter this, however the default system firewall running
-locally on VMs blocks inbound connections. Customer applications are free to use
+managed machines that provide customers' application to the public. This network
+is switched to the VM and leverages completely public traffic. The DC firewalls
+do not filter this, however the default system firewall running locally on
+managed VMs blocks inbound connections. Customer applications are free to use
 any ports they like. These ports must be listed in the firewall configuration in
-order to receive inbound connections. All VMs receive a NIC on this network but
-not necessarily IPv4 or IPv6 addresses if they do not provide public
-traffic. DNS example: *vm00.fe.rzob.fcio.net*.
+order to receive inbound connections. All managed VMs receive a NIC on this
+network but not necessarily IPv4 or IPv6 addresses if they do not provide public
+services. DNS example: *vm00.fe.rzob.fcio.net*.
 
 **SRV** - Server to server communication. Used for customer application
-components to talk to each other, e.g. database traffic and for management
-purposes on the application level. This network is firewalled from the internet
-at our DC edge firewalls and allows only HTTP/S and SSH traffic. Additionally
-VMs can filter this traffic locally and only allow arbitrary traffic from VMs
-belonging to the same project by default. This network is used on all VMs and
-has IPv4 (usually private) and IPv6 addresses allocated automatically. DNS
-example: *vm00.srv.rzob.fcio.net* or simply *vm00.fcio.net*.
+components running in managed VMs to talk to each other, e.g. database traffic
+and for management purposes on the application level. This network is firewalled
+from the internet at our DC edge firewalls and allows only HTTP(S) and SSH
+traffic. Additionally, managed VMs can filter this traffic locally, and only
+allow arbitrary traffic from VMs belonging to the same project by default. This
+network is used on all managed VMs and has IPv4 (usually private) and IPv6
+addresses allocated automatically. DNS example: *vm00.srv.rzob.fcio.net* or
+simply *vm00.fcio.net*.
+
+**PUB** - Public, for traffic to unmanaged VMs. Unmanaged VMs which are not
+running our managed platform receive a NIC on this network and public IPv4 and IPv6
+addresses in order to provide general access to and from the internet. This
+network uses a layer 3 transport, and is not firewalled. Unmanaged VMs do not
+come with a preconfigured local firewall – if such a firewall is desired then
+customers must configure this themselves. DNS example: *vm00.pub.rzob.fcio.net*
 
 **STO** - Storage communication. Used by the virtualization and backup servers
 to access the network storages where the VM disk images as well as object
