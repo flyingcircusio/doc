@@ -6,14 +6,14 @@ To aid AI and ML workflows we offer API based access to various models for chat,
 ## Available Models
 
 
-| Model | Origin | Usage |
-| - | - | - |
-| gpt-oss:20b | OpenAI | llm |
-| gpt-oss:120b | OpenAI | llm |
-| mistral-small3.2:latest | Mistral AI | Multi / vision |
-| Nomic-embed-text:v1.5 | Nomic | embedding |
-| bge-m3:567m  | Beijing Academy of Artificial Intelligence | embedding |
-| embeddinggemma:300m | Google | embedding |
+| Model | Origin | License | Usage |
+| - | - | - | - |
+| [gpt-oss:20b](https://ollama.com/library/gpt-oss:20b) | OpenAI | Apache License Version 2.0 | llm |
+| [gpt-oss:120b](https://ollama.com/library/gpt-oss:120b) | OpenAI | Apache License Version 2.0 | llm |
+| [mistral-small3.2:latest](https://ollama.com/library/mistral-small3.2:latest) | Mistral AI | Apache License Version 2.0 | Multi / vision |
+| [Nomic-embed-text:v1.5](https://ollama.com/library/nomic-embed-text:v1.5) | Nomic | Apache License Version 2.0 | embedding |
+| [bge-m3:567m](https://ollama.com/library/bge-m3:567m)  | Beijing Academy of Artificial Intelligence | MIT License | embedding |
+| [embeddinggemma:300m](https://ollama.com/library/embeddinggemma:300m) | Google | [Gemma Terms of Use](https://ai.google.dev/gemma/terms) | embedding |
 
 ## APIs and Access
 
