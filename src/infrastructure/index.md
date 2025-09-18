@@ -11,4 +11,5 @@ customer VMs, some implementation details do affect VM operation.
 vms/index
 networking/index
 storage
+ai
 ```
