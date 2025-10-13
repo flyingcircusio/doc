@@ -20,17 +20,17 @@ We use a fixed set of addresses as NAT source addresses for outbound
 IPv4 connections in each location.
 
 - **RZOB** (Production datacenter):
-  - 185.105.253.74
-  - 185.105.253.72
+  - **185.105.253.74**
+  - **185.105.253.72**
   - 195.62.112.82 (retired 2025-07-08)
   - 195.62.112.83 (retired 2025-07-08)
   - 195.62.112.90 (retired 2025-07-08)
   - 195.62.112.91 (retired 2025-07-08)
 
 - **WHQ** (Backup and staging datacenter):
-  - 213.187.81.2 (will be retired in Q3)
-  - 185.105.255.3 (will be added in the near future)
-  - 185.105.255.21 (will be added in the near future)
+  - **185.105.255.3**
+  - **185.105.255.21**
+  - 213.187.81.2 (retired 2025-09-30)
 
 :::{warning}
 If you are using NAT to connect to outside machines **and** those outside machines
