@@ -2,8 +2,7 @@
 
 % review schedule: 1 year
 
-% ISMSControl: A.12.5.1
-
+% ISMSControl: 8.19
 
 ```{image} ../../images/vms250.png
 :class: logo
@@ -18,7 +17,7 @@
 
 - The guest operating system is a 64-bit NixOS Linux managed by the Flying Circus.
 
-  > - Packages are installed through the managed components globally or in your
+  > - Packages are installed through the managed components (roles) globally or in your
   >   service user using Nix. You are also free to compile
   >   things in your service users' home. However, on NixOS, this can have
   >   suprising effects - talk to us if you need to do that.
@@ -26,6 +25,8 @@
   >   general rule new managed components take their time to develop them.
   >   Contact us if you would like to see a managed component we do not yet
   >   support.
+
+- CloudInit based operating systems are supported and managed by the customer.
 
 - VMs can be assigned resources:
 
