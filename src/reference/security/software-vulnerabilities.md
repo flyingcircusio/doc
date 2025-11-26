@@ -26,25 +26,34 @@ on the situation:
   vectors are not relevant on our platform.
 - We might take other actions not listed here, depending on the situation.
 
-## NixOS 25.11 (upcoming)
+## NixOS 26.05 (upcoming)
 
-This is the currently actively developed NixOS release that receives timely
+This is the currently actively developed unstable NixOS release that receives timely
 security updates.
 
 We update our platform frequently to follow upstream development.
 
-## NixOS 25.05 (current)
+## NixOS 25.11 (current)
+
+This NixOS release is currently actively maintained and recieves timely security update.
+
+We update our platform with security updates every week, but may update
+intermittently if high risk vulnerabilities become known.
+
+## NixOS 25.05 (supported)
 
 This is the currently actively maintained NixOS release that receives timely
 security updates. 
 
-We update our platform with security updates every 2 weeks, but may update
+We update our platform with security updates every week, but may update
 intermittently if high risk vulnerabilities become known.
 
-## NixOS 24.11 and older (outdated)
+Customers are advised to update to 25.11 to receive security updates for a prolonged period of time.
 
-No security updates are provided. Customers in need of guaranteed security
-updates are advised to update to NixOS 25.05.
+## NixOS 24.11 and older (unsupported)
+
+No security updates are provided. Customers are advised to update to NixOS 25.05 or 25.11
+to receive security updates.
 
 ## Gentoo (retired)
 
