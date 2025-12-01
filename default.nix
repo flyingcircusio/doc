@@ -1,5 +1,5 @@
 {
-  pkgs ? import (fetchTarball "https://hydra.flyingcircus.io/build/5919876/download/1/nixexprs.tar.xz") {}
+  pkgs ? import (fetchTarball "https://hydra.flyingcircus.io/build/36380067/download/1/nixexprs.tar.xz") {}
 , revCount ? 0
 , shortRev ? "0000000"
 , gitTag ? ""
@@ -14,7 +14,7 @@ let
     sphinx
     sphinx-copybutton
     sphinx-intl
-    sphinx_rtd_theme
+    sphinx-rtd-theme
     furo
   ]);
 
