@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,13 +70,13 @@ msgid "We might take other actions not listed here, depending on the situation."
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:29
-msgid "NixOS 25.11 (upcoming)"
+msgid "NixOS 26.05 (upcoming)"
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:31
 msgid ""
-"This is the currently actively developed NixOS release that receives "
-"timely security updates."
+"This is the currently actively developed unstable NixOS release that "
+"receives timely security updates."
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:34
@@ -84,36 +84,53 @@ msgid "We update our platform frequently to follow upstream development."
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:36
-msgid "NixOS 25.05 (current)"
+msgid "NixOS 25.11 (current)"
 msgstr ""
 
 #: ../../../src/reference/security/software-vulnerabilities.md:38
+msgid ""
+"This NixOS release is currently actively maintained and recieves timely "
+"security update."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:40
+#: ../../../src/reference/security/software-vulnerabilities.md:48
+msgid ""
+"We update our platform with security updates every week, but may update "
+"intermittently if high risk vulnerabilities become known."
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:43
+msgid "NixOS 25.05 (supported)"
+msgstr ""
+
+#: ../../../src/reference/security/software-vulnerabilities.md:45
 msgid ""
 "This is the currently actively maintained NixOS release that receives "
 "timely security updates."
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:41
+#: ../../../src/reference/security/software-vulnerabilities.md:51
 msgid ""
-"We update our platform with security updates every 2 weeks, but may "
-"update intermittently if high risk vulnerabilities become known."
+"Customers are advised to update to 25.11 to receive security updates for "
+"a prolonged period of time."
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:44
-msgid "NixOS 24.11 and older (outdated)"
+#: ../../../src/reference/security/software-vulnerabilities.md:53
+msgid "NixOS 24.11 and older (unsupported)"
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:46
+#: ../../../src/reference/security/software-vulnerabilities.md:55
 msgid ""
-"No security updates are provided. Customers in need of guaranteed "
-"security updates are advised to update to NixOS 25.05."
+"No security updates are provided. Customers are advised to update to "
+"NixOS 25.05 or 25.11 to receive security updates."
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:49
+#: ../../../src/reference/security/software-vulnerabilities.md:58
 msgid "Gentoo (retired)"
 msgstr ""
 
-#: ../../../src/reference/security/software-vulnerabilities.md:51
+#: ../../../src/reference/security/software-vulnerabilities.md:60
 msgid ""
 "We do not provide security updates for this platform any longer. "
 "Customers have been informed about the sunsetting of Gentoo since 2018."
@@ -231,5 +248,34 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Customers are not receiving security updates on 21.05 any longer."
+#~ msgstr ""
+
+#~ msgid "NixOS 25.11 (upcoming)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the currently actively developed"
+#~ " NixOS release that receives timely "
+#~ "security updates."
+#~ msgstr ""
+
+#~ msgid "NixOS 25.05 (current)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We update our platform with security "
+#~ "updates every 2 weeks, but may "
+#~ "update intermittently if high risk "
+#~ "vulnerabilities become known."
+#~ msgstr ""
+
+#~ msgid "NixOS 24.11 and older (outdated)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No security updates are provided. "
+#~ "Customers in need of guaranteed security"
+#~ " updates are advised to update to "
+#~ "NixOS 25.05."
 #~ msgstr ""
 

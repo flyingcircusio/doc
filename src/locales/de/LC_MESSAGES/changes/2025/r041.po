@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r041.md:6
+msgid "Release 2025_041 (2025-11-10)"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:12
+msgid ""
+"DevHost VMs can now have configurable disk sizes, allowing for larger "
+"development environments when needed."
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:14
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:17
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:19
+msgid ""
+"DevHost: Added support for setting custom disk sizes for VMs via the "
+"`--disk-size` parameter and `disk-size` batou configuration option. VMs "
+"default to 25G if not specified. The filesystem automatically expands to "
+"use the full disk space on boot using existing fc-resize-disk "
+"functionality. (FC-48241)"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:21
+msgid "nixos/k3s: don't set cluster DNS in hosts resolv.conf (PL-134112)"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:23
+msgid ""
+"The hosts' resolv.conf is passed to the k3s cluster coredns, which leads "
+"to coredns trying to _sometimes_ resolve requests to itself. This leads "
+"to timeouts and otherwise failing DNS request."
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:27
+msgid ""
+"This change also modifies the behavior of DNS resolving on the host "
+"directly. Especially HAProxy now requires to especially set the CoreDNS "
+"as resolver. We checked that this won't affect customers currently."
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:31
+msgid "mailman: fix service throwing evaluation error on NixOS 25.05 (PL-133981)"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:33
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:34
+msgid "chromedriver: 141.0.7390.122 -> 142.0.7444.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:35
+msgid "chromium: 141.0.7390.122 -> 142.0.7444.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:36
+msgid "erlang: 27.3.4.3 -> 27.3.4.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:37
+msgid "firefox: 144.0 -> 144.0.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:38
+msgid "github-runner: 2.328.0 -> 2.329.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:39
+msgid "go: 1.24.6 -> 1.24.9"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:40
+msgid "imagemagick: 7.1.2-7 -> 7.1.2-8"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:41
+msgid "jdk: 21.0.8+9 -> 21.0.9+8"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:42
+msgid "jre: 21.0.8+9 -> 21.0.9+8"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:43
+msgid "linuxKernelStable: 6.12.55 -> 6.12.56"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:44
+msgid "linuxKernelVerify: 6.12.55 -> 6.12.56"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:45
+msgid "matrix-synapse: 1.140.0 -> 1.141.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:46
+msgid "mysql80: 8.0.43 -> 8.0.44"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:47
+msgid "nodejs: 22.19.0 -> 22.20.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:48
+msgid "nodejs_22: 22.19.0 -> 22.20.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:49
+msgid "openjdk: 21.0.8+9 -> 21.0.9+8"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:50
+msgid "openssl: 3.4.2 -> 3.4.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:51
+msgid "openssl_3: 3.0.17 -> 3.0.18"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:52
+msgid "postfix: 3.10.4 -> 3.10.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:53
+msgid "python3: 3.12.11 -> 3.12.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:54
+msgid "python312: 3.12.11 -> 3.12.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:55
+msgid "strace: 6.16 -> 6.17"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:56
+msgid "systemd: 257.9 -> 257.10"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:59
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r041.md:61
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/2d7df0b793492dc7fa35e262ad7bd6568e9742cb...dc55735487b09e0d75c4aab94a2eeaecbae4761a),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e4747f1f650161f8ed548b181fbe80ac79f8db77...d181bb5ce22aad7814ea1bfa92d2dacd2a01b0cb),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_041),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/33580493/download/1/nixexprs.tar.xz)"
+msgstr ""
+

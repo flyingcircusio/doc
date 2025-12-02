@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r044.md:6
+msgid "Release 2025_044 (2025-12-01)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:12
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:14
+msgid ""
+"Our AI service gateways will be restarted potentially being unreachable "
+"for a few seconds."
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:17
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:19
+msgid "fc.qemu: fix a race condition between inner and outer shutdown (PL-134195)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:21
+msgid "gitlab: fix false-positive nginx enableACME warning (PL-131381)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:23
+msgid "nix: enable opportunistic nix store auto-optimisation (PL-134223)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:25
+msgid ""
+"This is a preparatory step and will reduce storage needs for the nix "
+"store in the future with more aggressive changes coming up in the 25.11 "
+"release. Enabling opportunistic optimisation here will reduce the "
+"required effort to scan the store when upgrading."
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:30
+msgid "open-webui role: login flow redirects to correct host (FC-134218)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:32
+msgid ""
+"Upgrade Ollama to the most current 0.12 release to support upgraded "
+"models."
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:34
+msgid ""
+"Upgrade our AI service gateway (skvaider) to improve logging, fix a few "
+"stability issues and increase monitoring depth. (PL-134061)"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:36
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:37
+msgid "chromedriver: 142.0.7444.162 -> 142.0.7444.175"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:38
+msgid "chromium: 142.0.7444.162 -> 142.0.7444.175"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:39
+msgid "containerd: 2.1.4 -> 2.1.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:40
+msgid "firefox: 145.0 -> 145.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:41
+msgid "linuxKernelStable: 6.12.57 -> 6.12.58"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:42
+msgid "linuxKernelVerify: 6.12.57 -> 6.12.58"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:43
+msgid "nss_latest: 3.117 -> 3.118.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:46
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r044.md:48
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/ceccb86471ba90eb1e2dfde3fd390aa097801c30...7d7110d12381e79588cc6124b057754a06b486e2),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/de4ed5d01530db05b4dde51ad375449818e6acef...c1da39e192f819c0ebc8ff81ae829a7e6969804f),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_044),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/35983782/download/1/nixexprs.tar.xz)"
+msgstr ""
+

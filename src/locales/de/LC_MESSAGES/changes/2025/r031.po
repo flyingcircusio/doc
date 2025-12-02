@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r031.md:6
+msgid "Release 2025_031 (2025-09-01)"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:12
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:17
+msgid ""
+"Remove warning that file-based VCL configuration for varnish would be "
+"deprecated. (PL-133914)"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:19
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:20
+msgid "chromedriver: 139.0.7258.127 -> 139.0.7258.138"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:21
+msgid "chromium: 139.0.7258.127 -> 139.0.7258.138"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:22
+msgid "firefox: 141.0.3 -> 142.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:23
+msgid "github-runner: 2.326.0 -> 2.327.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:24
+msgid "imagemagick: 7.1.2-0 -> 7.1.2-1"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:25
+msgid "linuxKernelStable: 6.12.42 -> 6.12.43"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:26
+msgid "linuxKernelVerify: 6.12.42 -> 6.12.43"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:27
+msgid "ruby_3_2: 3.2.8 -> 3.2.9"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:30
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r031.md:32
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/e5610fa6bbf6ebd147cc85f6ad9314ec8c627667...8fd5768ed6074723a264bacfc44b21b979014dfc),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/7131cf8997667037e6f7fd1ce2a5aefe693cb157...1b94725f6fd86dedd5963872dd9e20c0b658d9e0),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_031),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/19154851/download/1/nixexprs.tar.xz)"
+msgstr ""
+

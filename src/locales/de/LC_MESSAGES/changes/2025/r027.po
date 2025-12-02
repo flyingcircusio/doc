@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r027.md:6
+msgid "Release 2025_027 (2025-08-04)"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:12
+msgid "Machines will reboot to activate an updated kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:17
+msgid ""
+"The secret for the communication between `coturn` & `prosody` is no "
+"longer generated at eval-time (PL-133672)."
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:19
+msgid ""
+"This fixes issues where the secret's store-path is garbage-collected and "
+"a new secret is enrolled on an agent run which lead to a subsequent "
+"restart of Jitsi mid-day in rare cases."
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:22
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:23
+msgid "chromedriver: 138.0.7204.157 -> 138.0.7204.168"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:24
+msgid "chromium: 138.0.7204.157 -> 138.0.7204.168"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:25
+msgid "element-web: 1.11.105 -> 1.11.106"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:26
+msgid "firefox: 140.0.4 -> 141.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:27
+msgid "gitaly: 18.1.2 -> 18.2.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:28
+msgid "gitlab: 18.1.2 -> 18.2.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:29
+msgid "gitlab-container-registry: 4.24.0 -> 4.25.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:30
+msgid "gitlab-ee: 18.1.2 -> 18.2.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:31
+msgid "gitlab-pages: 18.1.2 -> 18.2.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:32
+msgid "gitlab-runner: 18.1.1 -> 18.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:33
+msgid "gitlab-workhorse: 18.1.2 -> 18.2.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:34
+msgid "grafana: 12.0.2 -> 12.0.2+security-01"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:35
+msgid "k3s_1_30: 1.30.13+k3s1 -> 1.30.14+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:36
+msgid "linuxKernelStable: 6.12.39 -> 6.12.40"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:37
+msgid "linuxKernelVerify: 6.12.39 -> 6.12.40"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:38
+msgid "mastodon: 4.3.9 -> 4.3.10"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:39
+msgid "matrix-synapse: 1.133.0 -> 1.134.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:40
+msgid "nodejs_20: 20.19.3 -> 20.19.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:41
+msgid "nss_latest: 3.113 -> 3.114"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:42
+msgid "postfix: 3.10.2 -> 3.10.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:43
+msgid "tomcat10: 10.1.42 -> 10.1.43"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:44
+msgid "tomcat9: 9.0.106 -> 9.0.107"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:45
+msgid "uv: 0.7.21 -> 0.7.22"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:48
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r027.md:50
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/02e3f3d5c7b488a3c8442699386d686b56d2b2b6...4f77e54dc1d2ffb0b5efb4ad3781a586a80a1172),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/fad1efce221502d04beb74629557f8bf13ff7950...49a74927323f469062638ec05a665fa9c3f21ad1),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_027),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/12679885/download/1/nixexprs.tar.xz)"
+msgstr ""
+

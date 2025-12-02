@@ -180,6 +180,8 @@ All privileged actions need to be securely logged. For machines based on our cur
 
 SSH logins must be performed using SSH keys. Password authentication is not allowed and prevented by the system configuration. Successful SSH logins to machines are logged, unsuccessful SSH login attempts are not [^log-unsuccessful-attempts]. Excessive unsuccessful SSH login attempts automatically cause a blocking via firewall rules.
 
+Passwords for physical machines granting access to root accounts and IPMI
+controllers are stored as copies in a strongly encrypted password manager.
 
 (access-control)=
 
@@ -237,9 +239,9 @@ their permissions may be produced automatically on request.
 Group accounts are generally not allowed to perform privileged administrative
 operations to ensure traceability of actions.
 
-Passwords for physical machines granting access to root accounts and IPMI
-controllers are stored as copies in a strongly encrypted password manager.
+% ISMSControl: 8.11
 
+There are no special data masking regulations[^data-masking].
 
 ### (6) Communication control
 
@@ -419,3 +421,6 @@ with dedicated authentication credentials.
 [^trace-tty]:
     Individual actions performed with administrative privileges are
     only partially logged.
+
+[^data-masking]:
+    Standard Linux data masking applies, e.g. Passwords are not revealed during entry.

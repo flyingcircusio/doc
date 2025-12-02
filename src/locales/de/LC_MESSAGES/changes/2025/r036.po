@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r036.md:6
+msgid "Release 2025_036 (2025-10-06)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:12
+msgid "grafana.service will be restarted"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:17
+msgid ""
+"loghost/graylog: Fix LDAP by pinning Java to a known good version. "
+"(PL-133980)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:19
+msgid ""
+"hardware: remove settings for aggressive filesystem caching which are no "
+"longer appropriate with widespread adoption of SSD-backed storage from "
+"the default hardware profile."
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:23
+msgid ""
+"Add a NixOS option `increaseVfsCacheWeight` in the backyserver role to "
+"allow enabling the previous behaviour on old HDD-based backup servers "
+"which may still benefit from increased caching. (PL-133712)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:27
+msgid ""
+"nixos/nginx: add deprecation warning for `virtualHosts.<name>.emailACME` "
+"as this option is deprecated and will be removed with fc-nixos 25.11 "
+"(PL-131381)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:29
+msgid "nixos/statshost: Disable default insecure admin user (PL-134036)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:31
+msgid ""
+"Currently, we have an insecure default admin activated, as this is the "
+"grafana default. With this change, this user is disabled on new "
+"installations and our AppOps team will disable the user on existing "
+"instances."
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:34
+msgid ""
+"nixos/nginx: Add warning for implicitly enabled "
+"`flyingcircus.services.nginx.virtualHosts.<name>.enableACME` as this "
+"behavior is deprecated and will be removed with fc-nixos 25.11 "
+"(PL-131381)"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:36
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:37
+msgid "chromedriver: 140.0.7339.185 -> 140.0.7339.207"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:38
+msgid "chromium: 140.0.7339.185 -> 140.0.7339.207"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:39
+msgid "firefox: 143.0 -> 143.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:40
+msgid "gitaly: 18.3.2 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:41
+msgid "gitlab: 18.3.2 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:42
+msgid "gitlab-ee: 18.3.2 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:43
+msgid "gitlab-pages: 18.3.2 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:44
+msgid "gitlab-workhorse: 18.3.2 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:45
+msgid "mastodon: 4.3.12 -> 4.3.13"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:46
+msgid "phpPackages.composer: 2.8.11 -> 2.8.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:49
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r036.md:51
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/5dd81c9b6e5c7081e128d455012d9e4125337a1a...177149a0ee795b4871c276705db38ed529e7166a),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/1b123efd5f728a9e39439202c37adbc9a2039bad...16e22cdde2db180be6a51be732bbe01ce2a44d37),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_036),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/27550634/download/1/nixexprs.tar.xz)"
+msgstr ""
+

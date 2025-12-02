@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2025-07-31\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -21,6 +21,9 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../../src/platform/24.05/fc-24.05-production.md:5
-msgid "Platform 24.05"
+msgid "Platform 24.05 (EOL)"
 msgstr ""
+
+#~ msgid "Platform 24.05"
+#~ msgstr ""
 

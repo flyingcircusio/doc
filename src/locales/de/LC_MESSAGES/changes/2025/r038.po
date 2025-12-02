@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r038.md:6
+msgid "Release 2025_038 (2025-10-20)"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:12
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:17
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:18
+msgid "chromedriver: 141.0.7390.54 -> 141.0.7390.76"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:19
+msgid "chromium: 141.0.7390.54 -> 141.0.7390.76"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:20
+msgid "element-web: 1.12.0 -> 1.12.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:21
+msgid "gitaly: 18.4.1 -> 18.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:22
+msgid "gitlab: 18.4.1 -> 18.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:23
+msgid "gitlab-ee: 18.4.1 -> 18.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:24
+msgid "gitlab-pages: 18.4.1 -> 18.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:25
+msgid "gitlab-runner: 18.3.1 -> 18.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:26
+msgid "gitlab-workhorse: 18.4.1 -> 18.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:27
+msgid "imagemagick: 7.1.2-3 -> 7.1.2-5"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:28
+msgid "jetty: 12.1.1 -> 12.1.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:29
+msgid "linuxKernelStable: 6.12.50 -> 6.12.51"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:30
+msgid "linuxKernelVerify: 6.12.50 -> 6.12.51"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:31
+msgid "nginxMainline: 1.29.1 -> 1.29.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:32
+msgid "python310: 3.10.18 -> 3.10.19"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:33
+msgid "python311: 3.11.13 -> 3.11.14"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:34
+msgid "tomcat10: 10.1.46 -> 10.1.47"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:35
+msgid "tomcat9: 9.0.109 -> 9.0.110"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:37
+msgid "Improvements to machine maintenance management:"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:39
+msgid ""
+"Maintenances now automatically time out after the predicted time with "
+"some additional buffer. This reduces the risk of maintenances getting "
+"stuck without us noticing."
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:43
+msgid ""
+"Failed maintenances now communicate their stdout/stderr so that those can"
+" be quickly looked centrally and are noted in the relevant tickets for "
+"supporters to quickly diagnose."
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:47
+msgid "(PL-134087)"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:49
+msgid ""
+"fc-maintenance: fix detection whether a reboot is needed based on the "
+"kernel package (PL-134119)"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:52
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r038.md:54
+msgid ""
+"NixOS 25.05: "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_038),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/31294423/download/1/nixexprs.tar.xz),"
+" [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/474e130255d639b5d930cfd30cedfc0d7a0fa580...fbe3a039cb25b911d5c95862036856e53ed0d050),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c51bbd3dd7d603ad0f873473f110c4d0298c3c67...b2afa861e943dad6df65c7e6434cd2c5deddd268)"
+msgstr ""
+
