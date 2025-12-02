@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r043.md:6
+msgid "Release 2025_043 (2025-11-24)"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:12
+msgid "restaring services: `dnsmasq.service`"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:17
+msgid "Multiple bugfixes in fc.qemu for edge cases improving resiliency."
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:19
+msgid "Fix k3s firewall integration for IPv6 enabled k3s clusters. (PL-133889)"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:21
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:22
+msgid "chromedriver: 142.0.7444.134 -> 142.0.7444.162"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:23
+msgid "chromium: 142.0.7444.134 -> 142.0.7444.162"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:24
+msgid "firefox: 144.0.2 -> 145.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:25
+msgid "gitaly: 18.5.1 -> 18.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:26
+msgid "gitlab: 18.5.1 -> 18.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:27
+msgid "gitlab-container-registry: 4.29.0 -> 4.31.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:28
+msgid "gitlab-ee: 18.5.1 -> 18.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:29
+msgid "gitlab-pages: 18.5.1 -> 18.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:30
+msgid "gitlab-workhorse: 18.5.1 -> 18.5.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:31
+msgid "keycloak: 26.4.1 -> 26.4.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:32
+msgid "nss_latest: 3.116 -> 3.117"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:35
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r043.md:37
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/e6b151d20a672899be50d55695f9350fc6b1e0d5...ceccb86471ba90eb1e2dfde3fd390aa097801c30),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/a028660f5c42b5ca486004fded1f8413d00fbec8...de4ed5d01530db05b4dde51ad375449818e6acef),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_043),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/34950091/download/1/nixexprs.tar.xz)"
+msgstr ""
+

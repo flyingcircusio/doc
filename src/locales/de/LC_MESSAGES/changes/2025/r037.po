@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r037.md:6
+msgid "Release 2025_037 (2025-10-13)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:12
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:15
+msgid "NixOS 24.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:17 ../../../src/changes/2025/r037.md:46
+msgid "Increase DNS resolver timeouts. (PL-129951)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:19 ../../../src/changes/2025/r037.md:48
+msgid ""
+"We've seen sporadic but annoying DNS resolution issues which are likely "
+"caused by somewhat laggy DNS authoritatives or forwarders. One aspect of "
+"our previous combination of low timeouts and high retry count meant that "
+"clients a) might not be retrying correctly and b) resolvers might be "
+"retrying with different upstream servers that all exhibit the same "
+"sluggishness and thus then fail over and over and over."
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:26 ../../../src/changes/2025/r037.md:55
+msgid ""
+"Increasing the timeouts will reduce fragility and reducing the number of "
+"retries means applications don't get stuck too long in case resolvers "
+"aren't responding"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:30 ../../../src/changes/2025/r037.md:59
+msgid ""
+"Note: we're also adjusting our resolver setup in the next releases for "
+"further reliability improvements that integrate with this change."
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:34
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:36
+msgid ""
+"statshost-global: The Flying Circus infrastructure-wide statshost now "
+"stores metrics of the `nstat` telegraf output (PL-133683)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:38
+msgid ""
+"fc-maintenance: detect need for reboot based on kernel package, not only "
+"version number (PL-134082)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:40
+msgid ""
+"This makes the parsing of a system's used kernel more robust, and "
+"introduces reboots for changed kernels within the same version number."
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:42
+msgid ""
+"fc-agent: Fix automatic maintenance updates that referred to already "
+"garbage-collected system paths (PL-133993)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:44
+msgid ""
+"This avoids breakage of updates even when they have been pending for a "
+"while and the current system state already changed, e.g. due to modified "
+"configuration."
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:62
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:63
+msgid "chromedriver: 140.0.7339.207 -> 141.0.7390.54"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:64
+msgid "chromium: 140.0.7339.207 -> 141.0.7390.54"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:65
+msgid "element-web: 1.11.112 -> 1.12.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:66
+msgid "fetchmail: 6.5.1 -> 6.5.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:67
+msgid "firefox: 143.0.1 -> 143.0.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:68
+msgid "gitaly: 18.4.0 -> 18.4.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:69
+msgid "gitlab: 18.4.0 -> 18.4.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:70
+msgid "gitlab-container-registry: 4.27.0 -> 4.28.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:71
+msgid "gitlab-ee: 18.4.0 -> 18.4.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:72
+msgid "gitlab-pages: 18.4.0 -> 18.4.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:73
+msgid "gitlab-workhorse: 18.4.0 -> 18.4.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:74
+msgid "grafana: 12.0.4 -> 12.0.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:75
+msgid "jetty: 12.1.0 -> 12.1.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:76
+msgid "libressl: 4.0.0 -> 4.1.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:77
+msgid "linuxKernelStable: 6.12.48 -> 6.12.50"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:78
+msgid "linuxKernelVerify: 6.12.48 -> 6.12.50"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:79
+msgid "matrix-synapse: 1.138.0 -> 1.139.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:80
+msgid "php83: 8.3.25 -> 8.3.26"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:81
+msgid "php84: 8.4.12 -> 8.4.13"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:82
+msgid "redis: 7.2.10 -> 7.2.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:83
+msgid "tomcat10: 10.1.44 -> 10.1.46"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:84
+msgid "tomcat9: 9.0.108 -> 9.0.109"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:85
+msgid "webkitgtk: 2.48.6 -> 2.50.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:88
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:90
+msgid ""
+"NixOS 24.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/e56d2d5c517c30fafdc11d869a7eaa9bcaa01269...b0137d786eea4a8324ad4835d153e8fd887ab1ce),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-24.11-production/2025_037),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/29644240/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r037.md:92
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/177149a0ee795b4871c276705db38ed529e7166a...474e130255d639b5d930cfd30cedfc0d7a0fa580),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/16e22cdde2db180be6a51be732bbe01ce2a44d37...c51bbd3dd7d603ad0f873473f110c4d0298c3c67),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_037),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/29651736/download/1/nixexprs.tar.xz)"
+msgstr ""
+
