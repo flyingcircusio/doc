@@ -33,8 +33,8 @@ as a simple flat layer 2 network using dedicated switches.
 In all locations, the routed layer 3 network carrying production traffic uses
 links of at least 10G, which is available to all the virtual networks running on
 top of the overlay. In our public datacenter RZOB both routers each have 10G
-connectivity to our uplink provider. In WHQ our routers each have a 1G link to
-our uplink provider, however this provider only has *non-redundant* 2.5G
+connectivity to our uplink provider. In WHQ our routers each have a 10G link to
+our uplink provider, however this provider only has *non-redundant* 3G
 connectivity itself.
 
 The routers participate in the EVPN-VXLAN overlay, having access to the frontend
