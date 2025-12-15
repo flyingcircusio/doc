@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r045.md:6
+msgid "Release 2025_045 (2025-12-01)"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:12
+msgid ""
+"None, this is an initial release of a new platform version. No existing "
+"customer machines are upgraded automatically."
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:15
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:17
+msgid ""
+"This is the initial production release of the 25.11 platform. As of "
+"December 1, 2025 it became the default release for new VMs. The 25.05 "
+"platform is still maintained until December 31, 2025. To continue "
+"receiving security updates, please update to 25.11 soon."
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:19
+msgid ""
+"See [Platform Upgrades & What’s "
+"New](https://doc.flyingcircus.io/roles/fc-25.11-production/upgrade.html) "
+"for things to consider before upgrading, breaking and significant changes"
+" and new package versions."
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:22
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:29
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r045.md:31
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/662e56d6745bf11dc57d8556256693b74e382969...2d2b1ab328f693f96dc1da78ed3e9b3567f9da81),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/abd283bb74f96f7c6b87302b317851572ff6ba1f...75957e55d5eb564a83be9875bf5d780844efa34b),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2025_045),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/36380067/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r039.md:6
+msgid "Release 2025_039 (2025-10-27)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:12
+msgid "Machines will reboot to activate a new kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:17
+msgid ""
+"nixos/mysql57: add deprecation warning if `mysql57` role is activated, as"
+" MySQL 5.7 is end-of-life for 2 years (PL-134105)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:19
+msgid ""
+"fc.qemu: fix Ceph lock cleanups under some race conditions when shutting "
+"down VMs internally (FC-48755)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:22
+msgid ""
+"nixos/mysql: Add new option bufferMemoryPercentage to allow adjusting mem"
+" usage (PL-133850)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:24
+msgid ""
+"Currently, the memory percentage is fixed to 70%. This is too much when "
+"there is another service on the host. This option allows to customize "
+"this"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:27
+msgid ""
+"hardware: introduce a separate sensu check for the underlay network "
+"interfaces, to allow problems with these interfaces to be monitored and "
+"alerted upon separately. (PL-134114)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:31
+msgid ""
+"hardware: fix networking for VMs with routed PUB interfaces. This was "
+"silently broken due to a previous fix for improving network stability. "
+"(PL-134136)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:35
+msgid ""
+"hardware: monitor BGP sessions on underlay links, to allow detection of "
+"and alerting on conditions which would otherwise cause them to fail "
+"silently. (PL-133897)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:39
+msgid ""
+"fc.qemu: add diagnostics for race condition on missing partition devices "
+"(PL-134011)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:41
+msgid "fc.qemu: add retry logic for migration keepalive pings (PL-134121)"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:43
+msgid ""
+"Increase timeout for nix network connections from 1s to 5s. We used to "
+"run with a very low timeout to assist with automatic failovers for S3 "
+"reachability but are noticing that this is too twitchy in real world "
+"network scenarios too often and causes noise and alert fatigue."
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:47
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:48
+msgid "chromedriver: 141.0.7390.76 -> 141.0.7390.107"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:49
+msgid "chromium: 141.0.7390.76 -> 141.0.7390.107"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:50
+msgid "firefox: 143.0.4 -> 144.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:51
+msgid "imagemagick: 7.1.2-5 -> 7.1.2-7"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:52
+msgid "keycloak: 26.2.5 -> 26.3.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:53
+msgid "linuxKernelStable: 6.12.51 -> 6.12.53"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:54
+msgid "linuxKernelVerify: 6.12.51 -> 6.12.53"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:55
+msgid "mastodon: 4.3.13 -> 4.3.14"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:56
+msgid "matrix-synapse: 1.139.2 -> 1.140.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:57
+msgid "tomcat10: 10.1.47 -> 10.1.48"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:58
+msgid "tomcat9: 9.0.110 -> 9.0.111"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:59
+msgid "webkitgtk: 2.50.0 -> 2.50.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:62
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r039.md:64
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/160242b0939bc269b95604666191c8803fac6750...d115b68a2aa27645c4930b1f9808d87c236a5a36),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/b2afa861e943dad6df65c7e6434cd2c5deddd268...fde1c651ed75d569ad48fbde762e847b7264257a),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_039),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/32046062/download/1/nixexprs.tar.xz)"
+msgstr ""
+

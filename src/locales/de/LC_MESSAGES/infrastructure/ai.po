@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/infrastructure/ai.md:1
+msgid "Artificial Intelligence and Machine Learning"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:3
+msgid ""
+"To aid AI and ML workflows we offer API based access to various models "
+"for chat, embedding, and image recognition. The system is backed by AMD "
+"W7900 GPUs."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:6
+msgid "Available Models"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Model"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Origin"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "License"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Usage"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "OpenAI"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Apache License Version 2.0"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "llm"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[gpt-oss:120b](https://ollama.com/library/gpt-oss:120b)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid ""
+"[mistral-small3.2:latest](https://ollama.com/library/mistral-"
+"small3.2:latest)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Mistral AI"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Multi / vision"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[Nomic-embed-text:v1.5](https://ollama.com/library/nomic-embed-text:v1.5)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Nomic"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "embedding"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[bge-m3:567m](https://ollama.com/library/bge-m3:567m)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Beijing Academy of Artificial Intelligence"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "MIT License"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[embeddinggemma:300m](https://ollama.com/library/embeddinggemma:300m)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Google"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[Gemma Terms of Use](https://ai.google.dev/gemma/terms)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:18
+msgid "APIs and Access"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:20
+msgid ""
+"We provide location-specific OpenAI-compatible API endpoints. Access to "
+"the AI API can be enabled for any resource group via our customer portal "
+"https://my.flyingcircus.io/. Manager permissions are required to do this."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:24
+msgid ""
+"To use the API, an authentication token is required as a bearer token. We"
+" recommend using application specific token. These tokens can be created "
+"in our customer portal by any user with manager permissions in the "
+"resource group."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:28
+msgid "Public endpoints:"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:30
+msgid "RZOB: https://ai.rzob.fcio.net/openai/v1"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:31
+msgid "RZHAL: https://ai.whq.fcio.net/openai/v1"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:33
+msgid "Customer-owned hardware is available via custom endpoints."
+msgstr ""
+

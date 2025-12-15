@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2024-11-08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-31 10:41+0200\n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -61,11 +61,11 @@ msgid "**RZOB** (Production datacenter):"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:23
-msgid "185.105.253.74"
+msgid "**185.105.253.74**"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:24
-msgid "185.105.253.72"
+msgid "**185.105.253.72**"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:25
@@ -89,15 +89,15 @@ msgid "**WHQ** (Backup and staging datacenter):"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:31
-msgid "213.187.81.2 (will be retired in Q3)"
+msgid "**185.105.255.3**"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:32
-msgid "185.105.255.3 (will be added in the near future)"
+msgid "**185.105.255.21**"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:33
-msgid "185.105.255.21 (will be added in the near future)"
+msgid "213.187.81.2 (retired 2025-09-30)"
 msgstr ""
 
 #: ../../../src/infrastructure/networking/outbound.md:36
@@ -142,5 +142,20 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "213.187.81.2"
+#~ msgstr ""
+
+#~ msgid "185.105.253.74"
+#~ msgstr ""
+
+#~ msgid "185.105.253.72"
+#~ msgstr ""
+
+#~ msgid "213.187.81.2 (will be retired in Q3)"
+#~ msgstr ""
+
+#~ msgid "185.105.255.3 (will be added in the near future)"
+#~ msgstr ""
+
+#~ msgid "185.105.255.21 (will be added in the near future)"
 #~ msgstr ""
 

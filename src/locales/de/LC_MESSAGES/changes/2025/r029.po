@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r029.md:6
+msgid "Release 2025_029 (2025-08-18)"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:12
+msgid ""
+"The following services will be restarted: clamav, apache-httpd, "
+"opensearch, openvpn, phpfpm, postgresql, nginx, mysql, rabbitmq, redis, "
+"varnishncsa (logging), prometheus, telegraf, sshd"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:14
+msgid ""
+"The core networking service is restarted, possibly causing a brief "
+"interruption of network availability"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:17
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:19
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:20
+msgid "asterisk: 20.15.0 -> 20.15.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:21
+msgid "cacert: 3.111 -> 3.113.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:22
+msgid "chromedriver: 138.0.7204.183 -> 139.0.7258.66"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:23
+msgid "chromium: 138.0.7204.183 -> 139.0.7258.66"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:24
+msgid "containerd: 2.1.3 -> 2.1.4"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:25
+msgid "discourse: 3.4.4 -> 3.4.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:26
+msgid "firefox: 141.0 -> 141.0.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:27
+msgid "gcc: 14.2.1.20250322 -> 14.3.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:28
+msgid "git: 2.49.0 -> 2.50.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:29
+msgid "gnupg: 2.4.7 -> 2.4.8"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:30
+msgid "go: 1.24.4 -> 1.24.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:31
+msgid "go_1_23: 1.23.11 -> 1.23.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:32
+msgid "k3s: 1.32.6+k3s1 -> 1.32.7+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:33
+msgid "k3s_1_30: 1.30.14+k3s1 -> 1.30.14+k3s2"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:34
+msgid "k3s_1_31: 1.31.10+k3s1 -> 1.31.11+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:35
+msgid "k3s_1_32: 1.32.6+k3s1 -> 1.32.7+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:36
+msgid "k3s_1_33: 1.33.2+k3s1 -> 1.33.3+k3s1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:37
+msgid "mastodon: 4.3.10 -> 4.3.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:38
+msgid "matrix-synapse: 1.134.0 -> 1.135.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:39
+msgid "mongodb: 7.0.16 -> 7.0.21"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:40
+msgid "mysql80: 8.0.42 -> 8.0.43"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:41
+msgid "nodejs: 22.16.0 -> 22.17.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:42
+msgid "nodejs_22: 22.16.0 -> 22.17.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:43
+msgid "nspr: 4.36 -> 4.37"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:44
+msgid "openssl: 3.4.1 -> 3.4.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:45
+msgid "openssl_3: 3.0.16 -> 3.0.17"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:46
+msgid "systemd: 257.6 -> 257.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:47
+msgid "util-linux: 2.41 -> 2.41.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:48
+msgid "vim: 9.1.1336 -> 9.1.1566"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:51
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r029.md:53
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/d12b01e196db3a7b766dd1ffa6dcb39a48370053...7dbe31686d80b28cd3cb2a2cd233752b551a1fa4),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/ff4c4f45271bcee274f7697c08f21a7149e68f95...2c4565ef552a5d7d1a63e25794d5938cab2677e1),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_029),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/15608362/download/1/nixexprs.tar.xz)"
+msgstr ""
+

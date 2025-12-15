@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r030.md:6
+msgid "Release 2025_030 (2025-08-25)"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:12
+msgid "Machines will reboot to activate the updated kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:17
+msgid ""
+"Added a patch to libmodsecurity to fix a problem that caused nginx "
+"installations with modsecurity to segfault on reloads (PL-133894)"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:19
+msgid "Switch Ceph monitor connection config to IP addresses. (PL-133752)"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:21
+msgid ""
+"After a refactoring of our Ceph client library bindings, switching from "
+"C-based bindings to CLI calls we are now more prone to any DNS issues "
+"causing problems when instrumenting live migrations. We now connect to "
+"mons directly using their IP addresses which takes DNS out of the loop as"
+" a potential failure point."
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:27
+msgid ""
+"Kubernetes events are now shipped to both our custom monitoring platform "
+"as well as RG-specific loki instances to be used in grafana dashboards "
+"etc. (PL-133636)"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:29
+msgid "nginx: re-enable proxy buffering, but only in memory. (FC-47149)"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:31
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:32
+msgid "apacheHttpd: 2.4.62 -> 2.4.65"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:33
+msgid "chromedriver: 139.0.7258.66 -> 139.0.7258.127"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:34
+msgid "chromium: 139.0.7258.66 -> 139.0.7258.127"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:35
+msgid "element-web: 1.11.108 -> 1.11.109"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:36
+msgid "gitaly: 18.2.1 -> 18.2.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:37
+msgid "gitlab: 18.2.1 -> 18.2.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:38
+msgid "gitlab-container-registry: 4.25.0 -> 4.26.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:39
+msgid "gitlab-ee: 18.2.1 -> 18.2.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:40
+msgid "gitlab-pages: 18.2.1 -> 18.2.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:41
+msgid "gitlab-workhorse: 18.2.1 -> 18.2.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:42
+msgid "imagemagick: 7.1.1-47 -> 7.1.2-0"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:43
+msgid "linuxKernelStable: 6.12.41 -> 6.12.42"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:44
+msgid "linuxKernelVerify: 6.12.41 -> 6.12.42"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:45
+msgid "matrix-synapse: 1.135.0 -> 1.136.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:46
+msgid "nginxMainline: 1.27.5 -> 1.29.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:47
+msgid "postgresql: 17.5 -> 17.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:48
+msgid "postgresql_13: 13.21 -> 13.22"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:49
+msgid "postgresql_14: 14.18 -> 14.19"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:50
+msgid "postgresql_15: 15.13 -> 15.14"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:51
+msgid "postgresql_16: 16.9 -> 16.10"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:52
+msgid "postgresql_17: 17.5 -> 17.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:53
+msgid "tomcat10: 10.1.43 -> 10.1.44"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:54
+msgid "tomcat9: 9.0.107 -> 9.0.108"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:55
+msgid "varnish: 7.7.1 -> 7.7.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:58
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r030.md:60
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/7dbe31686d80b28cd3cb2a2cd233752b551a1fa4...e5610fa6bbf6ebd147cc85f6ad9314ec8c627667),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/2c4565ef552a5d7d1a63e25794d5938cab2677e1...7131cf8997667037e6f7fd1ce2a5aefe693cb157),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_030),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/16731801/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r042.md:6
+msgid "Release 2025_042 (2025-11-17)"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:12
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:17
+msgid ""
+"statshost: fix Admin role mapping for OIDC. Note that OIDC is not enabled"
+" by default, yet, so instances with default configuration haven't been "
+"affected by this issue. (PL-134142)"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:19
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:20
+msgid "chromedriver: 142.0.7444.59 -> 142.0.7444.134"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:21
+msgid "chromium: 142.0.7444.59 -> 142.0.7444.134"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:22
+msgid "element-web: 1.12.1 -> 1.12.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:23
+msgid "linuxKernelStable: 6.12.56 -> 6.12.57"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:24
+msgid "linuxKernelVerify: 6.12.56 -> 6.12.57"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:25
+msgid "mongodb: 7.0.21 -> 7.0.25"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:26
+msgid "php83: 8.3.26 -> 8.3.27"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:27
+msgid "php84: 8.4.13 -> 8.4.14"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:30
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r042.md:32
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/dc55735487b09e0d75c4aab94a2eeaecbae4761a...e6b151d20a672899be50d55695f9350fc6b1e0d5),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/d181bb5ce22aad7814ea1bfa92d2dacd2a01b0cb...a028660f5c42b5ca486004fded1f8413d00fbec8),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_042),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/34283236/download/1/nixexprs.tar.xz)"
+msgstr ""
+

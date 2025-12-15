@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2025-12-02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r033.md:6
+msgid "Release 2025_033 (2025-09-15)"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:12
+msgid "Reboot due to kernel updates."
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:15
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:17
+msgid ""
+"devhost: guest VM interfaces will now be correctly reattached to the "
+"bridge on the host if the host bridge interface is restarted. (PL-133436)"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:21
+msgid ""
+"Reduce size of fc-nixos release tarballs. Pinned old nixpkgs channels are"
+" only pulled in on-demand, not occupying space on most machines."
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:23
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:24
+msgid "asterisk: 20.15.1 -> 20.15.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:25
+msgid "bind: 9.20.11 -> 9.20.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:26
+msgid "chromedriver: 139.0.7258.154 -> 140.0.7339.80"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:27
+msgid "chromium: 139.0.7258.154 -> 140.0.7339.80"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:28
+msgid "element-web: 1.11.109 -> 1.11.110"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:29
+msgid "firefox: 142.0 -> 142.0.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:30
+msgid "imagemagick: 7.1.2-2 -> 7.1.2-3"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:31
+msgid "jetty: 12.0.21 -> 12.1.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:32
+msgid "linuxKernelStable: 6.12.44 -> 6.12.45"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:33
+msgid "linuxKernelVerify: 6.12.44 -> 6.12.45"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:34
+msgid "matomo_5: 5.3.2 -> 5.4.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:35
+msgid "nix: 2.28.4 -> 2.28.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:36
+msgid "nodejs_20: 20.19.4 -> 20.19.5"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:37
+msgid "nss_latest: 3.115 -> 3.115.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:38
+msgid "php83: 8.3.24 -> 8.3.25"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:39
+msgid "php84: 8.4.11 -> 8.4.12"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:40
+msgid "webkitgtk: 2.48.5 -> 2.48.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:43
+msgid "Documentation"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:50
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r033.md:52
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/cd34ca75cf2ca7e8ec0d687281208f5a62e856c4...dbc74d9dc3412d1359a9857cb43e5159ef6320b2),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e6dbe6794e06cd2749cafe464c6b2256a748307f...69ec69d9621a5c22dfd211918968cf7e2baffb25),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_033),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/24474121/download/1/nixexprs.tar.xz)"
+msgstr ""
+
