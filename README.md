@@ -15,6 +15,9 @@ built from the default branch of this repo.
 
 ## Development
 
+- On non-Nix machines executing `bootstrap.sh` will create the needed
+  virtualenv and install all dependencies from `requirements.txt` into it.
+  Later e.g. `make html` is working without activating the freshly created virtualenv.
 - Build full documentation locally with pinned nixpkgs: `nix-build`
   - Building with pinned nixpkgs may take some time and download a lot of
     stuff if you don't already have the needed packages installed and your
@@ -32,7 +35,7 @@ built from the default branch of this repo.
     - Build english (source language) documentation: `make html`
     - Build translated documentation in German: `make html-de`
     - Check all links (slow!): `sphinx-build  src _build -b linkcheck`
-    - Show contents of the objects inventory: 
+    - Show contents of the objects inventory:
       `python -m sphinx.ext.intersphinx https://doc.flyingcircus.io/platform/objects.inv`
 
   - Update nixpkgs version: change URL in `default.nix` for the `pkgs` argument, right at the top.
