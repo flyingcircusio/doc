@@ -1,0 +1,9 @@
+# 2026
+
+Releases performed in 2026.
+
+```{toctree}
+:maxdepth: 1
+
+r001
+```
