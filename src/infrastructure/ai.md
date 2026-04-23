@@ -1,6 +1,6 @@
 # Artificial Intelligence and Machine Learning
 
-To aid AI and ML workflows we offer API based access to various models for chat, embedding, and image recognition. The system is backed by AMD W7900 GPUs.
+To aid AI and ML workflows we offer API based access to various models for chat, embedding, and image recognition. The system is backed by NVIDIA RTX PRO 6000 GPUs.
 
 
 ## Available Models
@@ -8,12 +8,12 @@ To aid AI and ML workflows we offer API based access to various models for chat,
 
 | Model | Origin | License | Usage |
 | - | - | - | - |
-| [gpt-oss:20b](https://ollama.com/library/gpt-oss:20b) | OpenAI | Apache License Version 2.0 | llm |
-| [gpt-oss:120b](https://ollama.com/library/gpt-oss:120b) | OpenAI | Apache License Version 2.0 | llm |
-| [mistral-small3.2:latest](https://ollama.com/library/mistral-small3.2:latest) | Mistral AI | Apache License Version 2.0 | Multi / vision |
-| [Nomic-embed-text:v1.5](https://ollama.com/library/nomic-embed-text:v1.5) | Nomic | Apache License Version 2.0 | embedding |
-| [bge-m3:567m](https://ollama.com/library/bge-m3:567m)  | Beijing Academy of Artificial Intelligence | MIT License | embedding |
-| [embeddinggemma:300m](https://ollama.com/library/embeddinggemma:300m) | Google | [Gemma Terms of Use](https://ai.google.dev/gemma/terms) | embedding |
+| [gpt-oss:20b](https://huggingface.co/openai/gpt-oss-20b) | OpenAI | Apache License Version 2.0 | llm |
+| [gpt-oss:120b](https://huggingface.co/openai/gpt-oss-120b) | OpenAI | Apache License Version 2.0 | llm |
+| [rednote-hilab/dots.mocr](https://huggingface.co/rednote-hilab/dots.mocr) | Red Note (hilab)	 | MIT License | Image-Text-to-Text |
+| [Nomic-embed-text:v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF) | Nomic | Apache License Version 2.0 | embedding |
+| [bge-m3:567m](https://huggingface.co/BAAI/bge-m3)  | Beijing Academy of Artificial Intelligence | MIT License | embedding |
+| [embeddinggemma:300m](https://huggingface.co/google/embeddinggemma-300m) | Google | [Gemma Terms of Use](https://ai.google.dev/gemma/terms) | embedding |
 
 ## APIs and Access
 
