@@ -106,3 +106,57 @@ Recycle
 
   Delete the VM deletion notice which will in turn allow the VMs name to
   be used again.
+
+
+## Minimum memory requirements (NixOS-based VMS only)
+
+We have a minimum memory requirement of 3 GiB for virtual VMs running our NixOS platform, which - under extreme circumstances - be exhausted by system services.
+
+To understand where our memory requirements come from and to check whether we might be exceeding those assumptions, we provide a detailed list of the expected memory consumption on a small machine. Some of those usages are dynamic and may be (much) larger on larger VMs with a higher load:
+
+### Kernel internal structures (150 MiB)
+
+On a 3 GiB VM the kernel reserves around 150 MiB for internal purposes in a way 
+that this memory will not be visible in the "MemTotal" fields of monitoring tools like "top".
+
+On larger machines this is expected to asymptotically reach around 2% of the virtual memory the VM is provisioned with. A 64 GiB VM can thus consume around 1,3 GiB of reserved kernel space.
+
+### System management tools (1.1 GiB)
+
+Those are the tools to build the system, its configuration and keep it updated and clean. A large part of this is system configuration evaluation when running `nixos-rebuild` to install new packages or apply new configuration.
+
+This happens regularly - around every 10 minutes.
+
+I addition some jobs like preparing larger release upgrades or cleaning the nix store may leverage a similar high amount. However, those tools are prohibited from running in parallel, thus limiting the usage to a bit more than 1 GiB. 
+
+Some tools, like the nix store garbage collection, may use higher values depending on the system usage profile.
+
+### Monitoring and Telemetry (1 GiB)
+
+We run a variety of tools to monitor systems for proper operations at all times. Most tools are relatively light weight, but the number and combination of application-specific tasks adds up, especially because some of them spawn a number of (parallel) subprocesses to inspect the system state.
+
+* Telegraf (256 MiB)
+* Sensu (256 MiB)
+* filebeat (100-200 MiB, depending on number of log servers)
+* systemd journal (100 MiB)
+* fail2ban (100 MiB)
+
+### Baseline Linux userland (100 MiB)
+
+This includes the SSH daemon, systemd, and a variety of userland processes, including shells of logged-in users.
+
+### Target size for buffers and VFS cache (1 GiB)
+
+For any system to stay responsive and operational hot data must be cached in RAM and buffers must be available for data to stream from and to devices and the network.
+
+We expect around 1 GiB to be available for this.
+
+### Total expected memory usage (3 GiB)
+
+The values provided here are the observed maximum values in healthy systems which typically are not required at exactly the same time - but may happen from time to time or under situations of stress. We expect that in regular cases a VM with 3 GiB will be able to carry some small application load (512 MiB) without frequent issues.
+
+### Swap handling
+
+To give systems some breathing room in unexpected situations we provide a certain amount of swap on all machines so that the kernel can write some data that is not currently needed on disk for a short period. To keep systems as responsive as possible, we generally avoid placing data in swap until significant memory pressure is detected.
+
+If the memory pressure becomes too intense, the kernel will - at some point - start killing processes. We manage this in a proactive way, so that hard lockups are avoided and applications that are the likely culprit of the high usage will be restarted while the system is still healthy - avoiding unnecessary downtimes and giving direct feedback which application caused the memory spike. Those are automatically tracked in our ticket system and followed up on to investigate and adjust the system parameters as needed - either optimizing the configuration or adjusting the amount of available memory.
