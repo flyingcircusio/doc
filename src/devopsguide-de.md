@@ -15,8 +15,7 @@ gängigen Ticketsystemen wie Github, Gitlab, Youtrack oder Jira zu verwenden.
 Einfach den jeweiligen Abschnitt kopieren, ein neues Ticket anlegen, den Titel
 eintragen und die kopierte Vorlage einfügen. 
 
-(projekt)=
-## Das Projekt
+## Das Projekt { #projekt }
 
 ```
 (Titel des Tickets) Das Projekt
@@ -34,8 +33,7 @@ _Um digitale Projekte erfolgreich zu starten und weiterzuentwickeln braucht es h
 * [ ] **Wie sieht der bestmögliche Erfolg für dieses Projekt aus?**
 ```
 
-(team)=
-## Kund\*in und Team
+## Kund\*in und Team { #team }
 
 
 ```
@@ -79,8 +77,7 @@ _Neben dem Verständnis für das Projekt selbst müssen viele Absprachen getroff
 
 ```
 
-(zeitplan)=
-## Zeitplan und Roadmap
+## Zeitplan und Roadmap { #zeitplan }
 
 
 ```
@@ -125,8 +122,7 @@ _Deadlines, festgelegte Termine und andere relevante Ereignisse im weiteren Kont
 * [ ] **Welches Wachstum wird in den nächsten 24 Monaten erwartet?**
 ```
 
-(sicherheit)=
-## Datenschutz, Sicherheit, Compliance
+## Datenschutz, Sicherheit, Compliance { #sicherheit }
 
 ```
 (Titel des Tickets) Datenschutz, Sicherheit, Compliance
@@ -167,8 +163,7 @@ _Der Flying Circus ist umfassend nach ISO 27001 zur IT-Sicherheit zertifiziert. 
 
 ```
 
-(architektur)=
-## Architektur und Handwerkliches
+## Architektur und Handwerkliches { #architektur }
 
 ```
 (Titel des Tickets) Architektur und Handwerkliches
@@ -217,8 +212,7 @@ _Regelmäßige Tasks sollten mindestens davor geschützt werden parallel zu lauf
 _Die Umgebungen im Flying Circus bilden Einheiten um Anforderungen an Sicherheit und Verfügbarkeit einheitlich zu verwalten. In komplexen Anwendungen, die mehrere Dutzend VMs verwenden, kann es sinnvoll sein, diese in unterschiedliche Einheiten aufzutrennen um separate Zugriffsrechte zu pflegen oder unterschiedliche SLA-Level vorzusehen._
 ```
 
-(deployment)=
-## Deployment und Konfiguration    
+## Deployment und Konfiguration     { #deployment }
 
 ```
 (Titel des Tickets) Deployment und Konfiguration
@@ -267,8 +261,7 @@ _Eine Eigenart von PHP besteht darin, dass der Quelltext bei potentiell jedem Re
 
 ```
 
-(kapazitaetsplanung)=
-## Last- und Kapazitätsplanung 
+## Last- und Kapazitätsplanung  { #kapazitaetsplanung }
 
 ```
 (Titel des Tickets) Last- und Kapazitätsplanung
@@ -321,8 +314,7 @@ _Lastprofile unterscheiden sich häufig je nach Tageszeit, aber auch über Woche
 
 ```
 
-(skalierung)=
-## Performance und Skalierbarkeit  
+## Performance und Skalierbarkeit   { #skalierung }
 
 ```
 (Titel des Tickets) Performance und Skalierbarkeit
@@ -355,8 +347,7 @@ _Gleichzeitig können wir spezielle Regeln vorsehen um komplexere Caching-Strate
 
 ```
 
-(netzwerk)=
-## Netzwerk, Internet, externe Dienste und APIs    
+## Netzwerk, Internet, externe Dienste und APIs     { #netzwerk }
 
 ```
 (Titel des Tickets) Netzwerk, Internet, externe Dienste und APIs
@@ -404,8 +395,7 @@ _Abseits von den Nutzer*innen der Anwendung kann es sein, dass eingehende oder a
 
 ```
 
-(monitoring)=
-## Monitoring, Zuverlässigkeit, Business Continuity    
+## Monitoring, Zuverlässigkeit, Business Continuity     { #monitoring }
 
 ```
 (Titel des Tickets) Monitoring, Zuverlässigkeit, Business Continuity

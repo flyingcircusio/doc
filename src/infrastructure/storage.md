@@ -1,19 +1,15 @@
-(infrastructure-storage)=
+<a id="infrastructure-storage"></a>
 
-(infrastructure-storage-block)=
-
-# Virtual Disks / Block Storage
+# Virtual Disks / Block Storage { #infrastructure-storage-block }
 
 VM storage is provided by a Ceph cluster as virtual disks / block devices.
 The data in the cluster is transparently encrypted before being stored onto
 physical disks, see [](#data-at-rest-encryption) for details.
 
-Each virtual disk is visible in VMs as {file}`/dev/vda` and reflects an
+Each virtual disk is visible in VMs as `/dev/vda` and reflects an
 underlying Ceph [RBD volume][rbd volume].
 
-(infrastructure-storage-disk-layout)=
-
-## Disk Layout
+## Disk Layout { #infrastructure-storage-disk-layout }
 
 VMs are fitted with 3 different virtual disks:
 
@@ -73,9 +69,7 @@ VMs are fitted with 3 different virtual disks:
   | 250 GiB | 15 GiB |
   | 500 GiB | 22 GiB |
 
-(infrastructure-storage-performance)=
-
-## Storage Performance
+## Storage Performance { #infrastructure-storage-performance }
 
 We provide multiple storage pools with different performance characteristics, named **HDD** and **SSD** as an indicator of the expected performance:
 
@@ -90,9 +84,7 @@ The bursting limits are calculated through the Qemu [*leaky bucket*][qemu-thrott
 
 [qemu-throttling]: https://github.com/qemu/qemu/blob/3656e761bcdd207b7759cdcd608212d2a6f9c12d/docs/throttle.txt
 
-(infrastructure-storage-pool-migration)=
-
-## Migrating disks between storage pools
+## Migrating disks between storage pools { #infrastructure-storage-pool-migration }
 
 VM disks can be migrated between those pools by selecting a new pool. The VM
 will detect the change and schedule a maintenance to perform the migration at a
@@ -120,8 +112,7 @@ provision a new VM and copy the data to a smaller disk.
 
 [rbd volume]: http://docs.ceph.com/docs/master/architecture/
 
-(storage-objects)=
-# S3-compatible Object Storage
+# S3-compatible Object Storage { #storage-objects }
 
 Our Ceph cluster also provides an S3-compatible object storage.
 The data in the cluster is transparently encrypted before being stored onto
@@ -131,8 +122,7 @@ physical disks, see [](#data-at-rest-encryption) for details.
 
 S3 users are managed in the customer portal at [my.flyingcircus.io](https://my.flyingcircus.io) in the "S3 Users" page.
 
-```{image} ../images/infrastructure_s3_users_main.png
-```
+![](../images/infrastructure_s3_users_main.png)
 
 Click the "Add S3 user" button to create a new user. *manager* permission is required for this.
 
@@ -140,8 +130,7 @@ The user id is a suffix appended to the resource group name.
 It can be used when there are multiple applications in one resource group which should not have access to each others data.
 The display name is for your discretion to explain the use of the user. If left empty, it defaults to the user id.
 
-```{image} ../images/infrastructure_s3_users_add.png
-```
+![](../images/infrastructure_s3_users_add.png)
 
 You will be redirected to a page that shows the secret key of the user.
 Secret keys of a user are only shown once. If you loose the secret key, you can rotate the key in the customer portal.
@@ -151,13 +140,11 @@ After a user is created, please allow up to 10 minutes for it to be created in t
 You can see the current status of the user in the portal.
 While the status is pending, it is not yet available:
 
-```{image} ../images/infrastructure_s3_users_main_pending.png
-```
+![](../images/infrastructure_s3_users_main_pending.png)
 
 As soon as the status changes to active, it can be used.
 
-```{image} ../images/infrastructure_s3_users_main_active.png
-```
+![](../images/infrastructure_s3_users_main_active.png)
 
 ## Deletion
 

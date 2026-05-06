@@ -4,10 +4,7 @@
 
 % ISMSControl: 8.19
 
-```{image} ../../images/vms250.png
-:class: logo
-:width: 250px
-```
+![](../../images/vms250.png){ .logo }
 
 # Virtual machines
 

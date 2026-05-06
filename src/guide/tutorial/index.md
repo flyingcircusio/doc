@@ -1,11 +1,6 @@
-```{image} ../../images/vorteile250.png
-:class: logo
-:width: 250px
-```
+![](../../images/vorteile250.png){ .logo }
 
-(firststeps)=
-
-# Getting started
+# Getting started { #firststeps }
 
 Welcome to the Flying Circus!
 
@@ -37,12 +32,11 @@ verify your account. Please do so.
 Once the verification is done, we get notified about your account creation
 automatically and will get in touch with you.
 
-:::{note}
-The user account is for maintenance purposes only. Do not consider to
-run your application in the user account context, since many fundamental
-features are not available. For information in how to deploy you application
-check the {ref}`application-deployment-intro` section in this tutorial.
-:::
+!!! note
+    The user account is for maintenance purposes only. Do not consider to
+    run your application in the user account context, since many fundamental
+    features are not available. For information in how to deploy you application
+    check the [application-deployment-intro](../../guide/tutorial/index.md#application-deployment-intro) section in this tutorial.
 
 ## SSH Login
 
@@ -51,10 +45,9 @@ Virtual machines can be accessed by simply using SSH.
 Logging in requires you to use your personal username and the SSH key you
 provided us when establishing your account.
 
-:::{note}
-We do not allow password-based SSH logins. For details, check our
-{ref}`data protection plan <entry-control>`.
-:::
+!!! note
+    We do not allow password-based SSH logins. For details, check our
+    [data protection plan](../../reference/security/data-protection.md#entry-control).
 
 Every virtual machine will have a DNS name that follows the pattern
 `<virtualmachine>.gocept.net`. For example, if your resource
@@ -72,14 +65,11 @@ machine using SFTP:
 $ scp my-file myuser@myapp00.gocept.net:
 ```
 
-:::{warning}
-If you have problems connecting to the VM, check our section on
-{ref}`connecting`.
-:::
+!!! warning
+    If you have problems connecting to the VM, check our section on
+    [connecting](../../infrastructure/networking/connecting.md#connecting).
 
-(application-deployment-intro)=
-
-## Application Deployment
+## Application Deployment { #application-deployment-intro }
 
 Server applications should be running in a *service user* account and not in a
 *human user* account. For every project you can register service user accounts
@@ -100,10 +90,10 @@ s-myapp@myapp00 ~ $ # ... execute commands to install your application ...
 The advantage of running applications in a service user is that applications are
 not bound to any individuals, but run in a rather neutral context. Some
 features like work only for service users. Further information about our user
-account concept can be found in the {ref}`useraccounts` section.
+account concept can be found in the [useraccounts](../../reference/users/index.md#useraccounts) section.
 
 For a detailed application deployment walk-through, please ref to the
-{ref}`application-deployment` section.
+[application-deployment](../../guide/deployment/index.md#application-deployment) section.
 
 ## Anatomy of a Virtual Machine
 
@@ -136,16 +126,15 @@ addresses provide connectivity within the data center, so you can use them to
 talk to other VMs and central services (like DNS or mail). Some VMs also have
 public IPv4 addresses on ethsrv.
 
-:::{note}
-Our firewalls allow all traffic from the internet on the public
-interface (ethfe) but restrict access to the server network (ethsrv) to
-select services like SSH, HTTP and HTTPS. You should therefore be careful
-to configure internally used software like databases to listen on the IPs
-of the server network only.
-:::
+!!! note
+    Our firewalls allow all traffic from the internet on the public
+    interface (ethfe) but restrict access to the server network (ethsrv) to
+    select services like SSH, HTTP and HTTPS. You should therefore be careful
+    to configure internally used software like databases to listen on the IPs
+    of the server network only.
 
 Further information about our networking concept can be found in the
-{ref}`networking` section.
+[networking](../../infrastructure/networking/index.md#networking) section.
 
 ### Disks
 

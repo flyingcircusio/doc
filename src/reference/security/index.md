@@ -12,13 +12,3 @@ logical) located in the infrastructure.
 In this section we document our goals, general thoughts, solutions, and
 policies to issues.
 
-```{toctree}
-:maxdepth: 1
-
-policy
-data-protection
-disaster-recovery
-backup
-software-vulnerabilities
-network
-```

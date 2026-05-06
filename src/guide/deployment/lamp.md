@@ -4,9 +4,9 @@ The Flying Circus platform provides components which can be used to set up an en
 
 What you should know before starting:
 
-- The general ideas of the Flying Circus platform: {ref}`firststeps`.
-- The difference between human users and service users: {ref}`useraccounts`
-- How to connect to VMs via SSH (or SFTP): {ref}`connecting`
+- The general ideas of the Flying Circus platform: [firststeps](../../guide/tutorial/index.md#firststeps).
+- The difference between human users and service users: [useraccounts](../../reference/users/index.md#useraccounts)
+- How to connect to VMs via SSH (or SFTP): [connecting](../../infrastructure/networking/connecting.md#connecting)
 
 Assumptions:
 
@@ -45,7 +45,7 @@ mysql> GRANT ALL on myservice.* TO myservice@'%';
 
 You will of course need a real username and password for your application.
 
-Note that we used `myservice@'%'` as user name. This generally allows access from everywhere (`%`). Our firewall rules make sure that MySQL is only reachable via the SRV interface and only from other VMs in the *same* resource group. See {ref}`firewall` for details.
+Note that we used `myservice@'%'` as user name. This generally allows access from everywhere (`%`). Our firewall rules make sure that MySQL is only reachable via the SRV interface and only from other VMs in the *same* resource group. See [firewall](../../infrastructure/networking/firewall.md#firewall) for details.
 
 ### Apache / FPM
 

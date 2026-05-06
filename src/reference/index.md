@@ -1,15 +1,4 @@
-```{image} ../images/reference300.png
-:class: logo
-:width: 300px
-```
+![](../images/reference300.png){ .logo }
 
 # Reference
 
-```{toctree}
-:maxdepth: 2
-
-about
-security/index
-users/index
-hardware/index
-```

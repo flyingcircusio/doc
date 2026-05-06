@@ -6,9 +6,7 @@
 % ISMSControl: A.12.3.1
 % ISMSControl: 8.13
 
-(backup)=
-
-# Backup
+# Backup { #backup }
 
 All persistent data of a virtual machine is stored on a central storage
 cluster. The storage cluster is independent of the host that runs the virtual

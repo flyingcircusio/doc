@@ -7,9 +7,7 @@ Publish Date: '2013-06-13'
 % review schedule: 1 year
 
 
-(hardware-specs)=
-
-# Hardware specifications
+# Hardware specifications { #hardware-specs }
 
 All hardware we procure for our infrastructure will comply to the following
 specifications. Older hardware may have been bought adhering to former

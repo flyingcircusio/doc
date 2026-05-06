@@ -1,8 +1,7 @@
 # Policy
 
-:::{note}
-This documents the ISMS Policy, as released on 2024-06-20.
-:::
+!!! note
+    This documents the ISMS Policy, as released on 2024-06-20.
 
 % https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=10259
 

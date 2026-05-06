@@ -12,14 +12,4 @@ Please make sure to use a client that's actively developed and supports end-to-e
 
 If you want to use your own client, please find the needed information below:
 
-```{eval-rst}
-+------------------+------------------------------------+
-| Homeserver       |  customermatrix.flyingcircus.io    |
-+------------------+------------------------------------+
-| Login            |  <your_flyingcircus_username>      |
-+------------------+------------------------------------+
-| Password         |  <your_flyingcircus_password>      |
-+------------------+------------------------------------+
-| Matrix handle    |  @<username>:my.flyingcircus.io    |
-+------------------+------------------------------------+
-```
+<!-- eval-rst block removed during Zensical migration -->

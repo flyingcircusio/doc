@@ -6,20 +6,10 @@
 % ISMSControl: 5.18
 
 
-```{image} ../../images/users250.png
-:class: logo
-:width: 250px
-```
+![](../../images/users250.png){ .logo }
 
-(useraccounts)=
+# User accounts { #useraccounts }
 
-# User accounts
-
-```{toctree}
-:hidden: true
-
-ssh-keygen
-```
 
 ## Principles
 
@@ -34,25 +24,21 @@ ssh-keygen
 
 - The username is globally unique and must not start with `s-`.
 - The primary group is `users`.
-- The home directory is located in {file}`/home/$USER`.
+- The home directory is located in `/home/$USER`.
 
-(service-users)=
-
-## Service users
+## Service users { #service-users }
 
 - The primary group is `service`.
 - Usernames usually start with `s-` and are unique within a resource group.
   Different resource groups can reuse the same service user names.
-- The home directory is located in {file}`/srv/$USER`.
+- The home directory is located in `/srv/$USER`.
 - No SSH login is allowed by default to support the general data protection guidelines. In exceptional cases SSH access may be granted.
 - Human users that have the *sudo-srv* permission in a project are
   allowed to change to the service user ({command}`sudo -u <service_user_name>
   -i`) and execute commands as a service user ({command}`sudo -u
   <service_user_name> <command>`).
 
-(permissions)=
-
-## Permissions
+## Permissions { #permissions }
 
 Users own a separate set of permissions for every project they are a
 member of. Common permissions include:

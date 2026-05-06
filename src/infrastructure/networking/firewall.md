@@ -1,6 +1,4 @@
-(firewall)=
-
-# Firewall
+# Firewall { #firewall }
 
 ## Concept
 
@@ -35,9 +33,7 @@ example:
 - Grafana (statshost) opens ports 2003 and 2004.
 - VxLAN/OpenVPN servers open several ports depending on their configuration.
 
-(custom-firewall-rules)=
-
-## Adding custom firewall rules
+## Adding custom firewall rules { #custom-firewall-rules }
 
 How to add custom firewall rules depends on the platform of your VM - see the
 specific platform release documentation about the appropriate mechanism.

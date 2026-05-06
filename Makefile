@@ -1,25 +1,17 @@
-PATH          := ./bin:${PATH}
-SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = flyingcircus
-SOURCEDIR     = src
-ROOTDIR       = _build
-BUILDDIR      = $(ROOTDIR)/en
+PATH    := .venv/bin:${PATH}
+SOURCEDIR = src
 
-$(warning $(PATH) $(origin PATH))
+.PHONY: html html-de update-translations gettext all
 
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+html:
+	uv run zensical build
 
-.PHONY: help Makefile html-de update-translations all
+html-de:
+	uv run python scripts/apply_translations.py
+	ZENSICAL_DOCS_DIR=src-de ZENSICAL_SITE_DIR=_build/de uv run zensical build
 
 update-translations: gettext
-	bin/sphinx-intl -c src/conf.py update -l de -p _build/en/gettext
+	uv run sphinx-intl -c src/conf.py update -l de -p _build/en/gettext
 
-html-de: SPHINXOPTS+="-Dlanguage=de"
-html-de: BUILDDIR="$(ROOTDIR)/de"
-html-de: html
-
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+gettext:
+	uv run sphinx-build -b gettext $(SOURCEDIR) _build/en/gettext

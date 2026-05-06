@@ -8,9 +8,7 @@
 % ISMSControl: A.11.1.4
 % ISMSControl: A.7.5
 
-(disaster-recovery)=
-
-# Disaster recovery
+# Disaster recovery { #disaster-recovery }
 
 This disaster recovery plan provides an overview of potential disasters and how
 the Flying Circus systems and personnel are prepared to deal with them.
@@ -34,10 +32,9 @@ RPO
 : Recovery point objective - the maximum age of data that will be made available
   after recovery from a disaster. Given as "time before the disaster".
 
-:::{note}
-If recovery actions are neither self-service nor automatic then a 1 hour
-response time is included to notify the standby support technician.
-:::
+!!! note
+    If recovery actions are neither self-service nor automatic then a 1 hour
+    response time is included to notify the standby support technician.
 
 ## Hardware errors
 

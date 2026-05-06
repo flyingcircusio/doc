@@ -1,6 +1,4 @@
-(connecting)=
-
-# Connecting to VMs
+# Connecting to VMs { #connecting }
 
 Generally you can connect to VMs on their "SRV" interface from the outside by calling:
 
@@ -57,9 +55,8 @@ $ ping6 myvm00.fcio.net
 ping6: UDP connect: No route to host
 ```
 
-:::{note}
-If you get a result that isn't shown here, please contact our support and we'll amend this list.
-:::
+!!! note
+    If you get a result that isn't shown here, please contact our support and we'll amend this list.
 
 ## VM has a public IPv4 address
 
@@ -78,16 +75,14 @@ contact our support.
 This is the tricky part: the VM is only accessible via IPv6 directly from the
 outside but you don't have it yet.
 
-(jumphost)=
-
-### Using an IPv4 SSH jump host
+### Using an IPv4 SSH jump host { #jumphost }
 
 SSH can perform complex connection setups including proxying through other
 machines. Fortunately there will always be at least one public IPv4 address
 that is accessible to you and you can use this to connect to the machine you
 actually want to go to.
 
-Put the following in your {file}`~/.ssh/config` to enable transparent SSH jump
+Put the following in your `~/.ssh/config` to enable transparent SSH jump
 hosts:
 
 ```

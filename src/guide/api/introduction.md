@@ -57,10 +57,9 @@ the access key belongs to. A key is granted either full access (r/w)
 to any object within the project or no access at all. This includes
 all objects of any child projects.
 
-:::{note}
-The API key can not be used to delete the project it belongs to.
-It can only delete child projects.
-:::
+!!! note
+    The API key can not be used to delete the project it belongs to.
+    It can only delete child projects.
 
 ## Limits
 

@@ -15,7 +15,7 @@ Resource records are mappings that specify:
 
 `__type__`
 
-: The type of the resource (see {ref}`api-resource-types`). *Mandatory*.
+: The type of the resource (see [api-resource-types](../../guide/api/types.md#api-resource-types)). *Mandatory*.
 
 `__action__`
 
@@ -60,7 +60,7 @@ The `query()` method returns all resources of a given type that are visible
 to the current access key. Without any filters this includes the data of
 all child projects.
 
-The list of valid types is given in the section {ref}`api-resource-types`.
+The list of valid types is given in the section [api-resource-types](../../guide/api/types.md#api-resource-types).
 
 Filters are specified as a dictionary selecting type-specific keys from the
 result for exact matches:
@@ -70,9 +70,7 @@ result for exact matches:
 [{'__type__': 'virtualmachine', 'name': 'test00', 'cores': 1, 'memory': 512, ...}]
 ```
 
-(log-method)=
-
-## log(serial=None)
+## log(serial=None) { #log-method }
 
 The `log()` method returns all log entries about any call to the other
 methods within the same project.  This allows you to integrate our API
@@ -115,7 +113,6 @@ Here's an example:
 []
 ```
 
-:::{note}
-The data for `args` and `result` in
-the log are JSON-encoded strings.
-:::
+!!! note
+    The data for `args` and `result` in
+    the log are JSON-encoded strings.

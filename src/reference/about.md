@@ -117,7 +117,7 @@ Security
   - employing both technical and organisational measures
   - applying security patches timely
   - selecting appropriate data centers
-  - {doc}`documenting our approach closely </reference/security/index>`
+  - [documenting our approach closely](../reference/security/index.md)
 
 % XXX
 %

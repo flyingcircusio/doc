@@ -1,6 +1,4 @@
-(api-resource-types)=
-
-# Resource Types
+# Resource Types { #api-resource-types }
 
 The API supports various resource types. Some of them can be queried and
 updated, others can only be queried.
@@ -279,9 +277,7 @@ uid
   The uid of the user that this permission applies to. Can apply to
   human and service users.
 
-(api-virtual-machines)=
-
-## Virtual Machines
+## Virtual Machines { #api-virtual-machines }
 
 The API allows querying, creating, updating, and deleting the VM resources
 that your services need.
@@ -517,18 +513,17 @@ frontend_ips_v4
   number will cause more addresses to be allocated. Decreasing this number
   will *not* remove IP addresses at this time. [Contact us](mailto:support@flyingcircus.io) if you want to reduce this number.
 
-:::{note}
-Public IPv4 addresses are a scarce resource. Most virtual machines
-do not require one. Typically you need only 1 per resource group,
-maybe 2 or 3 under certain conditions. In the case of excessive use
-we may reduce the number of IPs available to your VM.
+!!! note
+    Public IPv4 addresses are a scarce resource. Most virtual machines
+    do not require one. Typically you need only 1 per resource group,
+    maybe 2 or 3 under certain conditions. In the case of excessive use
+    we may reduce the number of IPs available to your VM.
 
-The number of public IPv4 addresses is limited to 3 per machine.
+    The number of public IPv4 addresses is limited to 3 per machine.
 
-If you have a special case that justifies using more IPv4 addresses, please
-[talk to us](mailto:support@flyingcircus.io) and we will be happy to work
-on a solution with you.
-:::
+    If you have a special case that justifies using more IPv4 addresses, please
+    [talk to us](mailto:support@flyingcircus.io) and we will be happy to work
+    on a solution with you.
 
 frontend_ips_v6
 
@@ -614,10 +609,9 @@ Additionally you can pass the field `deadline` with an ISO date:
 ...      'name': 'services10'}])
 ```
 
-:::{note}
-Deletions must be scheduled in the future. The earliest possible
-day is always "tomorrow". Our timezone is Europe/Berlin for this.
-:::
+!!! note
+    Deletions must be scheduled in the future. The earliest possible
+    day is always "tomorrow". Our timezone is Europe/Berlin for this.
 
 To cancel a pending VM deletion you can simply update the VM without giving
 any additional data:

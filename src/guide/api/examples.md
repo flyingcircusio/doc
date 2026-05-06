@@ -84,12 +84,11 @@ Now we can create a VM in this project:
   'timezone': 'Europe/Berlin'}]
 ```
 
-:::{note}
-The location identifies the datacenter you want to place the virtual
-machine in and is required. It cannot be changed unless you delete
-the VM first. The test environment has a location named `'vgr'`
-available. Our production data center is called `'rzob'`.
-:::
+!!! note
+    The location identifies the datacenter you want to place the virtual
+    machine in and is required. It cannot be changed unless you delete
+    the VM first. The test environment has a location named `'vgr'`
+    available. Our production data center is called `'rzob'`.
 
 To let the VM do something useful, we can select classes:
 

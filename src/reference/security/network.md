@@ -6,9 +6,7 @@
 % ISMSControl: 8.21
 % ISMSControl: 8.22
 
-(network-security)=
-
-# Network security
+# Network security { #network-security }
 
 Network security is handled on different levels depending on the class of
 traffic. The different classes are separated by harmonized use of

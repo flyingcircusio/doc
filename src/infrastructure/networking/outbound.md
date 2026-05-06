@@ -1,6 +1,4 @@
-(outbound)=
-
-# Outbound connectivity from VMs
+# Outbound connectivity from VMs { #outbound }
 
 How outbound connectivity from a VM to external hosts outside of the
 Flying Circus works depends on the network configuration for that VM:
@@ -32,18 +30,17 @@ IPv4 connections in each location.
   - **185.105.255.21**
   - 213.187.81.2 (retired 2025-09-30)
 
-:::{warning}
-If you are using NAT to connect to outside machines **and** those outside machines
-use a firewall to filter traffic based on the source addresses, those need to be
-kept in sync over time.
+!!! warning
+    If you are using NAT to connect to outside machines **and** those outside machines
+    use a firewall to filter traffic based on the source addresses, those need to be
+    kept in sync over time.
 
-Our NAT addresses change rarely, however, it has happened in the past that we needed to
-quickly respond to technical incidents and had to change those addresses.
+    Our NAT addresses change rarely, however, it has happened in the past that we needed to
+    quickly respond to technical incidents and had to change those addresses.
 
-So, to reduce the "mean time to recovery" in those situations, please remember to add
-appropriate monitoring that is included in our application-specific status pages so
-our team will be automatically alerted if an application breaks due to NAT issues.
+    So, to reduce the "mean time to recovery" in those situations, please remember to add
+    appropriate monitoring that is included in our application-specific status pages so
+    our team will be automatically alerted if an application breaks due to NAT issues.
 
-Additionally, those checks will detect other situations where your application relies
-on an outside service and will be helpful in many other cases as well.
-:::
+    Additionally, those checks will detect other situations where your application relies
+    on an outside service and will be helpful in many other cases as well.

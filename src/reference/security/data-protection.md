@@ -4,19 +4,13 @@
 
 % Customers need to be notified when substantial changes occur in this document!
 
-(data-protection)=
-
-# Data protection measures
+# Data protection measures { #data-protection }
 
 In addition to purely technical security measures we implement additional
 measures to provide a safe environment for your and your customers' data
 based on the following standards and regulations:
 
-```{image} Zertlogo_Flying_Circus_bunt.png
-:align: right
-:target: https://flyingcircus.io/iso-27001-en.pdf
-:width: 25%
-```
+![](Zertlogo_Flying_Circus_bunt.png)
 
 - [Certified](https://flyingcircus.io/iso-27001-en.pdf) Information Security Management System (ISMS) based on ISO/IEC 27001,
 - Germany's [federal data protection law (BDSG)](http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz), and
@@ -70,9 +64,7 @@ Periodical check for compliance to regulations:
 
 ## Measures
 
-(entry-control)=
-
-### (1) Equipment access control
+### (1) Equipment access control { #entry-control }
 
 **Purpose: deny unauthorized persons access to processing equipment used for processing**
 
@@ -97,7 +89,7 @@ For each data center used by us we require the following measures:
 % ISMSControl: 7.3
 % ISMSControl: 7.4
 
-We maintain a separate {ref}`data-centers`.
+We maintain a separate [data-centers](../../reference/hardware/data-centers.md#data-centers).
 
 Physical access to data processing equipment may be performed only by the Flying Circus' administrators. Administrators may delegate physical access to other people (e.g., data center personnel).
 
@@ -124,15 +116,13 @@ Disposal of used media happens using a certified data destruction service
 provider.
 
 
-(data-at-rest-encryption)=
-
-### (3) Storage control
+### (3) Storage control { #data-at-rest-encryption }
 
 **Purpose: prevent the unauthorized input of personal data and the unauthorized inspection, modification or deletion of stored personal data**
 
-All data in our [storage clusters](#infrastructure-storage) is stored encrypted.
+All data in our [storage clusters](../../infrastructure/storage.md#infrastructure-storage) is stored encrypted.
 This includes the *Virtual Disk Block Storage*, our *S3-compatible Object
-Storage*, and {ref}`all automated backups <backup>`. There are technical and
+Storage*, and [all automated backups](../../reference/security/backup.md#backup). There are technical and
 organisational measures in place to protect the relevant keys.
 
 On a technical level, we utilise the common Linux [cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) software stack with LUKS2 metadata
@@ -183,9 +173,7 @@ SSH logins must be performed using SSH keys. Password authentication is not allo
 Passwords for physical machines granting access to root accounts and IPMI
 controllers are stored as copies in a strongly encrypted password manager.
 
-(access-control)=
-
-### (5) Data access control
+### (5) Data access control { #access-control }
 
 **Purpose: ensure that persons authorized to use an automated processing system have access only to the personal data covered by their access authorization**
 
@@ -209,19 +197,19 @@ Privileged administrative access is generally not granted to customers.
 In cases where another person who is not an
 administrator is needed to solve a problem, a shared session between an
 administrator and the other person must be established
-(e.g. with {command}`screen`).
+(e.g. with `screen`).
 
 Technically, there are three access variants to perform privileged
 administrative operations:
 
 1. Using a user account which has been granted the 'login' and
-   'wheel' {ref}`permissions <permissions>` for a certain project. This
+   'wheel' [permissions](../../reference/users/index.md#permissions) for a certain project. This
    requires the user to log into a regular account using his SSH key and
    additionally provide his password to access privileged operations.
 2. Using a user account which is member of the global
    group of administrators which grants access to
    all machines within the Flying Circus infrastructure.
-3. Emergency root logins (see above in {ref}`entry-control`).
+3. Emergency root logins (see above in [entry-control](../../reference/security/data-protection.md#entry-control)).
 
 Authorized and unauthorized access to privileged operations is logged and analysed on a central loghost within the same site.
 [^trace-tty]
@@ -293,7 +281,7 @@ Data paths where sensitive information may be transferred include:
   due to performance reasons. Storage servers are connected to application
   servers using a private network. Machines on which administrative privileges
   are granted to customers are not allowed to connect directly to the storage
-  network (see also {ref}`network-security`).
+  network (see also [network-security](../../reference/security/network.md#network-security)).
 - Backups are transferred to backup servers at the same site using either an encrypted
   communication channel or the private storage network. Backup data may also be
   transferred to off-site backup servers to improve disaster recovery abilities. The transfer must be encrypted.
@@ -307,7 +295,7 @@ Data paths where sensitive information may be transferred include:
 
 **Purpose: ensure that installed systems may, in the case of interruption, be restored**
 
-Recovery scenarios are documented at {ref}`disaster-recovery`.
+Recovery scenarios are documented at [disaster-recovery](../../reference/security/disaster-recovery.md#disaster-recovery).
 
 ### (10) Reliability
 
@@ -324,9 +312,9 @@ Integrity is assured on several levels:
 * filesystem-level checksums on XFS filesystems
 * block-level checksums on Ceph bluestore OSDs
 * redundant storage of data
-* backups of data with hash-based integrity checks, see {ref}`backup`.
+* backups of data with hash-based integrity checks, see [backup](../../reference/security/backup.md#backup).
 
-For details and recovery times, see {ref}`disaster-recovery`.
+For details and recovery times, see [disaster-recovery](../../reference/security/disaster-recovery.md#disaster-recovery).
 
 
 ### (12) Processing control
@@ -360,9 +348,9 @@ increased availability of single components (e.g., RAID storages, redundant
 power supplies, spare components).
 
 Customer data is regularly backed up according to the Flying Circus'
-{ref}`backup schedule <backup>`. Restoration of past states may be performed
+[backup schedule](../../reference/security/backup.md#backup). Restoration of past states may be performed
 by administrators on request. Additionally, a
-{ref}`disaster recovery plan <disaster-recovery>` details failure scenarios,
+[disaster recovery plan](../../reference/security/disaster-recovery.md#disaster-recovery) details failure scenarios,
 our preventative and recovery measures.
 
 ### (14) Separability
@@ -395,11 +383,10 @@ with dedicated authentication credentials.
 
 ## Other measures
 
-- Our support process and incident response measures are documented at {ref}`the support overview <support-details>`.
-- We have a process for emergency and crisis management including contingency plans for critical business processes (business continuity). See also {ref}`disaster-recovery`.
+- Our support process and incident response measures are documented at [the support overview](../../support/overview.md).
+- We have a process for emergency and crisis management including contingency plans for critical business processes (business continuity). See also [disaster-recovery](../../reference/security/disaster-recovery.md#disaster-recovery).
 
-```{rubric} Footnotes
-```
+#### Footnotes
 
 [^customer-owned]:
     If a customer owns equipment managed within the Flying Circus we

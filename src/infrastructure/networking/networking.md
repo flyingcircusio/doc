@@ -6,14 +6,11 @@
 % ISMSControl: 8.22
 
 
-(networking-overview)=
-
-# Overview
+# Overview { #networking-overview }
 
 ## Physical networks
 
-```{image} physical.png
-```
+![](physical.png)
 
 We use a redundant routed layer 3 network as the basis of production network
 functions in all our public datacenters. All of our servers in each location are
@@ -41,12 +38,9 @@ The routers participate in the EVPN-VXLAN overlay, having access to the frontend
 network and server-to-server network, and are additionally connected to the
 management network.
 
-(logical-networks)=
+## Logical networks { #logical-networks }
 
-## Logical networks
-
-```{image} logical.png
-```
+![](logical.png)
 
 Our logical networks can be implemented as either layer 2 VLANs or virtual
 networks inside an EVPN-VXLAN overlay due to a unified internal numbering

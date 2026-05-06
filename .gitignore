@@ -9,3 +9,5 @@ pyvenv.cfg
 /share/
 /result
 *.mo
+.venv
+src-de/

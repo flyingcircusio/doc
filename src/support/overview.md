@@ -1,6 +1,4 @@
-(support-details)=
-
-# Overview
+# Overview { #support-details }
 
 We are happy to assist you with any issues that you may have when using our
 services. We have multiple informal ways that you may be communicating with us

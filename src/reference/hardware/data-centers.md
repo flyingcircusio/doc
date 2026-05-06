@@ -3,9 +3,7 @@
 % review schedule: 1 year
 
 
-(data-centers)=
-
-# List of data centers
+# List of data centers { #data-centers }
 
 The following data centers are currently used by the Flying Circus:
 
