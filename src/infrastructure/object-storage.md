@@ -5,29 +5,27 @@ Our Ceph cluster also provides an S3-compatible object storage.
 The data in the cluster is transparently encrypted before being stored onto
 physical disks, see [](#data-at-rest-encryption) for details.
 
-## Creation
+## Creating users
 
-Object Storage users are managed in the customer portal at [my.flyingcircus.io](https://my.flyingcircus.io) in the "Object Storage users" page.
+Object storage users are managed in our customer portal at [my.flyingcircus.io](https://my.flyingcircus.io) in the "Object Storage users" page of each resource group.
 
 ```{image} ../images/infrastructure_object_storage_users_main.png
 ```
 
 Click the "Add Object Storage user" button to create a new user. *manager* permission is required for this.
 
-The user id is a suffix appended to the resource group name.
-It can be used when there are multiple applications in one resource group which should not have access to each others data.
-The display name is for your discretion to explain the use of the user. If left empty, it defaults to the user id.
+The user id is a suffix appended to the resource group name. It can be used when there are multiple applications in one resource group which should not have access to each others data. The display name is for your discretion to explain the use of the user. If left empty, it defaults to the user id.
 
 ```{image} ../images/infrastructure_object_storage_users_add.png
 ```
 
 You will be redirected to a page that shows the secret key of the user.
-Secret keys of a user are only shown once. If you loose the secret key, you can rotate the key in the customer portal.
-This will invalidate the old secret key!
+Secret keys of a user are shown only once. If you loose the secret key, you can rotate the key in the customer portal.
+However, this will invalidate the old secret key!
 
-After a user is created, please allow up to 10 minutes for it to be created in the cluster.
+After a user is created (or the secret is rotated), allow up to 10 minutes for it to be synchronized with the cluster.
 You can see the current status of the user in the portal.
-While the status is pending, it is not yet available:
+While the status is pending, it the user will not be available:
 
 ```{image} ../images/infrastructure_object_storage_users_main_pending.png
 ```
@@ -37,24 +35,24 @@ As soon as the status changes to active, it can be used.
 ```{image} ../images/infrastructure_object_storage_users_main_active.png
 ```
 
-## Access the cluster
+## Access the object storage
 
-After the user is active, you can connect with the displayed access key and secret key.
+After the user is active, you can connect to the storage using the corresponding access key and secret key.
 
-The endpoint for our clusters is `https://objects.<location>.fcio.net`.
-If you have an on-premise deployment, the endpoint differs. Ask our support for the endpoint in this case.
+The endpoint for our public object storage services follows the pattern `https://objects.<location>.fcio.net`.
+If you have an on-premise deployment, you will have set up a custom endpoint. If you are unsure, ask your project contacts for the endpoint details in your case.
 
-This means for our data centers the endpoints are:
+Our public data center endpoints are:
 
 * RZOB (production): `https://objects.rzob.fcio.net`
-* RZHAL: WHQ (secondary, offsite): `https://objects.whq.fcio.net`
+* RZHAL/WHQ (secondary, offsite): `https://objects.whq.fcio.net`
 
 You can see the data center associated with your key in the table in our portal.
 
-With your user, you can create buckets via the S3 API and use it for other operations.
+With your user, you can create buckets via the S3-compatible API and use it for other operations.
 
 :::{note}
-Because of incompatibilities with new changes from AWS in their provided S3 clients, the following options need to be set
+Because of incompatibilities due to changes from AWS in their original S3 clients, the following options need to be set
 in your client config:
 
 ```
@@ -93,7 +91,7 @@ aws_secret_access_key=displayed_secret_key
 
 With the following command you can setup your bucket in our object storage cluster.
 Please note that the bucket name must be unique in the cluster.
-Read [](#object-storage-global-bucket-namespace) as a guideline for naming buckets.
+Read [our guideline for naming buckets](#object-storage-global-bucket-namespace) to avoid surprises with name collisions by other clients.
  
 ```
 aws s3api create-bucket --bucket mybucketname-23123
@@ -104,7 +102,7 @@ Now you can use the object storage and store files in it.
 
 ## Deletion
 
-When an Object Storage user is deleted, all owned buckets are also deleted in a multi-stage process that takes around 20 days.
+When an object storage user is deleted, all its owned buckets are also deleted in a multi-stage process that takes around 20 days.
 
 The stages of deletion are:
 
@@ -120,13 +118,13 @@ Hard
 
 : (t+14 days)
 
-  Delete the Object Storage user and all owned buckets.
+  Delete the object storage user and all owned buckets.
 
 Recycle
 
 : (t+20 days)
 
-  Delete the Object Storage user deletion notice which will allows the Object Storage user id to be reused. 
+  Delete the object storage user deletion notice which will allows the object storage user id to be reused. 
 
 ## Application Implementation Guidance
 
@@ -314,28 +312,24 @@ myapp-2023-46663de
 
 ## Common configuration examples
 
-In this section we provide guides for common configurations.
+### Including static assets from a different domain (Cross-Origin Resource Sharing/CORS)
 
-### Cross-Origin Resource Sharing (CORS)
-
-If you want to access objects directly from a web browser (e.g., displaying
-images on a website or performing client-side uploads), you need to configure
-**CORS (Cross-Origin Resource Sharing)**.
-By default, browsers block requests to a different domain for security reasons.
-A CORS configuration tells the browser that your web application is allowed to
-access the resources in your bucket.
+Using our central object gateways means you have to be aware of CORS issues when embedding static
+resources from an object storage bucket: our generic domains (e.g. `objects.rzob.fcio.net`) will be considered 
+foreign domains when embedding resources from e.g. `example.com`. This is a security feature and modern browsers will block those requests if not configured properly.
 
 CORS is managed on a per-bucket basis using the S3 API.
 The commands depend on the tool you are using. Here is an example with `awscli2`.
 
 1. Create a configuration file (e.g., `cors-config.json`):
+
   This example allows a specific domain to perform `GET` and `HEAD` requests and enables the browser to cache the permission for one hour (`MaxAgeSeconds`).
 
   ```json
   {
    "CORSRules": [
      {
-       "AllowedOrigins": ["https://your-application.com"],
+       "AllowedOrigins": ["https://example.com"],
        "AllowedMethods": ["GET", "HEAD"],
        "AllowedHeaders": ["*"],
        "MaxAgeSeconds": 3600
@@ -350,32 +344,43 @@ The commands depend on the tool you are using. Here is an example with `awscli2`
   * `AllowedHeaders`: Specifies which headers are allowed in a preflight request.
   * `MaxAgeSeconds`: How long (in seconds) the browser should cache the CORS response.
 
-  To learn more about these and the other available parameters, please read
+  To learn more about these and the other available parameters, check
   the official S3 documentation ["Elements of a CORS configuration"](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html).
 
-
 2. Apply the configuration to your bucket:
-  Replace `mybucketname-23123` with your actual bucket name.
+
+  Replace `<mybucketname-23123>` with your actual bucket name.
 
   ```bash
-  aws s3api put-bucket-cors --bucket mybucketname-23123 --cors-configuration file://cors-config.json
+  aws s3api put-bucket-cors --bucket <mybucketname-23123> --cors-configuration file://cors-config.json
   ```
 
 3. Verify the configuration:
   ```bash
-  aws s3api get-bucket-cors --bucket mybucketname-23123
+  aws s3api get-bucket-cors --bucket <mybucketname-23123>
   ```
 
-### Restricting Access: Read-Only Policies
+### Using separate object storage users to provide read-only access
 
-By default, a newly created Object Storage user has full access to the buckets they own.
-To achieve the Principle of Least Privilege, you can create multiple users that have
-restricted access to the bucket via _Bucket Policies_.
-Here, we create a read-only bucket policy that grants only `s3:Get*` and `s3:List*` permissions with `awscli2`.
+Object storage users have full access to all buckets and objects that have been created by them.
 
-1. Create a Read-Only Policy File
+If you need to separate access in a more fine grained way, for example to have non-public objects
+accessible by some application with only read access, you can create a separate user and grant
+permissions to specific objects and buckets using _bucket policies_.
+
+In this example, we create a read-only bucket policy that grants only `s3:Get*` and `s3:List*` permissions with `awscli2`.
+
+1. Create two users in the portal:
+
+  In our example we use "myrg:main-user" and "myrg:readonly-user", replace those with your specific user IDs.
+
+  Note: the read-only user will still be able to create buckets and objects under its own account, but will
+  only have read access to the data stored by the "main-user".
+
+2. Create a read-only policy file
+ 
   Create a file named `readonly-policy.json`.
-  Replace `YOUR_USER_ID` with the User ID shown in the portal and `mybucketname-23123` with your actual bucket name.
+  Replace `myrg:readonly-user` with the user id shown in the portal and `mybucketname-23123` with your actual bucket name.
 
   ```json
   {
@@ -385,7 +390,7 @@ Here, we create a read-only bucket policy that grants only `s3:Get*` and `s3:Lis
         "Sid": "ReadOnlyAccess",
         "Effect": "Allow",
         "Principal": {
-          "AWS": ["arn:aws:iam:::user/YOUR_USER_ID"]
+          "AWS": ["arn:aws:iam:::user/myrg:readonly-user"]
         },
         "Action": [
           "s3:Get*",
@@ -405,7 +410,7 @@ Here, we create a read-only bucket policy that grants only `s3:Get*` and `s3:Lis
   for listing actions, and the objects within it (`.../*`) for retrieval actions.
   :::
 
-2. Apply the policy to your bucket
+3. Apply the policy to your bucket
 
   Run this command with the bucket owner credentials or another user that has administrator privileges on the bucket:
 
@@ -413,7 +418,8 @@ Here, we create a read-only bucket policy that grants only `s3:Get*` and `s3:Lis
   aws s3api put-bucket-policy --bucket mybucketname-23123 --policy file://readonly-policy.json
   ```
 
-3. Verify Permissions
+4. Verify permissions
+
   Once applied, the user will be able to perform:
   * `aws s3 ls s3://mybucketname-23123` (Listing objects)
   * `aws s3 cp s3://mybucketname-23123/file.txt .` (Downloading objects)
@@ -424,11 +430,11 @@ Here, we create a read-only bucket policy that grants only `s3:Get*` and `s3:Lis
 
 ### Object Lifecycle Management
 
-To manage your storage costs and keep your buckets clean, you can use **Lifecycle Policies**.
-These allow you to automatically delete or transition objects after a certain period of time
-(e.g., deleting temporary logfiles after 30 days).
+If you have buckets with data that is only intended to be temporary, you can leverage **Lifecycle Policies**
+to automatically clean up your data and manage storage cost.
 
-1. Create a Lifecycle Configuration
+1. Create a lifecycle configuration
+
   Create a file named `lifecycle.json`.
   This example defines a rule that automatically deletes all objects with the prefix `logs/` after 90 days.
 
@@ -447,41 +453,35 @@ These allow you to automatically delete or transition objects after a certain pe
   }
   ```
 
-2. Apply the Policy
+2. Apply the policy
+
   Apply the configuration to your bucket:
 
   ```bash
   aws s3api put-bucket-lifecycle-configuration --bucket mybucketname-23123 --lifecycle-configuration file://lifecycle.json
   ```
 
-3. Verify the Policy
+3. Verify the policy
   ```bash
   aws s3api get-bucket-lifecycle-configuration --bucket mybucketname-23123
   ```
 
 :::{warning}
-**Data Deletion is Permanent:** Once an object is deleted by a lifecycle policy, it cannot be recovered.
+**Data deletion is permanent:** Once an object is deleted by a lifecycle policy, it cannot be recovered.
 Always test your prefixes carefully before enabling a rule, e.g. in a test bucket.
 :::
 
-## Object Storage feature support
+## Object Storage Feature Support
 
-Our Object Storage is powered by **Ceph (RadosGW)**. While we aim for 100% S3 compatibility,
-some advanced AWS-specific features may differ or are not yet available.
-Below is an overview of supported operations.
+Our object storage is powered by **Ceph** using the RadosGW service. While we aim for 100% S3 compatibility,
+due to the fact that S3 is a vendor-specific defacto standard, not all of original AWS features are available
+and may diverge over time depending on decisions made by Amazon and the ability of the Ceph commmunity to 
+adapt to those changes.
 
-| Feature Category | Operation / Feature | Support Status | Notes |
-| :--- | :--- | :--- | :--- |
-| **Bucket Operations** | Create / Delete / List | Supported | Standard S3 commands. |
-| | Bucket Policies | Supported | Via `put-bucket-policy`. |
-| | CORS | Supported | Via `put-bucket-cors`. |
-| | Lifecycle | Supported | Expiration rules only. |
-| | Versioning | Supported | Can be enabled per bucket. |
-| **Object Operations** | Put / Get / Delete | Supported | Standard object handling. |
-| | Multi-part Upload | Supported | Recommended for files > 100MB. |
-| | Pre-signed URLs | Supported | For temporary private access. |
-| | Metadata (Custom) | Supported | User-defined key-value pairs. |
-| **Advanced Features** | Object Lock (WORM) | Partial support | Requires specific bucket setup. |
-| | S3 Select | Not Supported | Querying CSV/JSON via SQL. |
-| | Website Hosting | Supported | Static website hosting via S3 API. |
+If you need specific features, you can check the [Ceph S3 feature support matrix](https://docs.ceph.com/en/nautilus/radosgw/s3/#features-support).
 
+Some features may be supported but are subject to further conditions within our cluster. At the moment the following notes apply:
+
+* Version support is not yet fully unreliable and we've seen bucket corruption in the past.
+* We do not provide different storage classes.
+* Features supported by Ceph, but unsupported by us: **Bucket Request Payment**, **Bucket Website**
