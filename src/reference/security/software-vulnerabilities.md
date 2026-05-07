@@ -1,4 +1,4 @@
-% last review: 2025-05-07
+% last review: 2026-05-07
 
 % review schedule: 1 year
 
@@ -58,4 +58,4 @@ to receive security updates.
 ## Gentoo (retired)
 
 We do not provide security updates for this platform any longer. Customers
-have been informed about the sunsetting of Gentoo since 2018. 
+have been informed about the sunsetting of Gentoo since 2018.
