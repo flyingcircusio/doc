@@ -110,7 +110,7 @@ Recycle
 
 ## Minimum memory requirements (NixOS-based VMS only)
 
-We have a minimum memory requirement of 3 GiB for virtual VMs running our NixOS platform, which - under extreme circumstances - be exhausted by system services.
+Even before your actual application starts, the operating system and its infrastructure components require RAM. We have a minimum memory requirement of 3 GiB for virtual VMs running our NixOS platform, which - under extreme circumstances - be exhausted by system services.
 
 To understand where our memory requirements come from and to check whether we might be exceeding those assumptions, we provide a detailed list of the expected memory consumption on a small machine. Some of those usages are dynamic and may be (much) larger on larger VMs with a higher load:
 
@@ -123,9 +123,7 @@ On larger machines this is expected to asymptotically reach around 2% of the vir
 
 ### System management tools (1.1 GiB)
 
-Those are the tools to build the system, its configuration and keep it updated and clean. A large part of this is system configuration evaluation when running `nixos-rebuild` to install new packages or apply new configuration.
-
-This happens regularly - around every 10 minutes.
+Our platform is designed to provide reliable system upgrades and deterministic states ("predictable outcomes"). To achieve this, we use specialized agents—tools responsible for building the system and its configuration while keeping it updated and clean. A large part of this involves system configuration evaluation via nixos-rebuild, which runs regularly (approximately every 10 minutes) to install new packages or apply configuration changes.
 
 I addition some jobs like preparing larger release upgrades or cleaning the nix store may leverage a similar high amount. However, those tools are prohibited from running in parallel, thus limiting the usage to a bit more than 1 GiB. 
 
