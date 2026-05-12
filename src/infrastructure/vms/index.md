@@ -158,7 +158,7 @@ When adding up the fixed and dynamic values mentioned above, it becomes clear th
 
 The values provided here represent the observed maximums in healthy systems. While these typically do not peak at exactly the same time, they may do so during periods of high stress. We expect that, under normal conditions, a VM with 3 GiB of RAM will be able to carry a small application load (approx. 512 MiB) without frequent issues.
 
-What comes "on top"?
+**What comes "on top"?**
 The actual workloads for which the server was commissioned are added to this baseline consumption:
 
 * Component Roles: Databases like PostgreSQL or MySQL, Webgateway (NGINX, HAProxy), Docker or container orchestration like K3s.
