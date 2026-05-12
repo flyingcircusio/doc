@@ -135,11 +135,15 @@ Some tools, like the nix store garbage collection, may use higher values dependi
 
 We run a variety of tools to monitor systems for proper operations at all times. Most tools are relatively light weight, but the number and combination of application-specific tasks adds up, especially because some of them spawn a number of (parallel) subprocesses to inspect the system state.
 
-* Telegraf (256 MiB)
-* Sensu (256 MiB)
-* filebeat (100-200 MiB, depending on number of log servers)
-* systemd journal (100 MiB)
-* fail2ban (100 MiB)
+| Component / Service | Reserved Memory | Function & Purpose |
+| --- | --- | --- |
+| **Telegraf** | 256 MiB | **Metric Collection:** Continuously collects performance data (CPU, RAM, Disk I/O) and sends it to our central dashboards for visualization. |
+| **Sensu** | 256 MiB | **Monitoring & Alerting:** Performs proactive system checks and reliably triggers alarms in the event of failures or critical states. |
+| **Alloy (optional)** | 256 MiB | **Extended Telemetry:** A flexible agent for collecting, processing, and forwarding metrics, logs, and traces. |
+| **Filebeat (1–2 instances)** | 100 MiB per instance | **Log Shipper:** Collects local system and application logs and transports them securely for platform-wide, central analysis. |
+| **systemd journal** | 100 MiB | **Local Log Management:** Captures, stores, and structures the log output of the kernel and all local services. |
+| **Fail2ban** | 100 MiB | **Intrusion Prevention:** Analyzes live logs and protects the server from brute-force attacks by blocking IP addresses after repeated failed logins (e.g., SSH). |
+
 
 ### Baseline Linux userland (100 MiB)
 
@@ -151,9 +155,17 @@ For any system to stay responsive and operational hot data must be cached in RAM
 
 We expect around 1 GiB to be available for this.
 
-### Total expected memory usage (3 GiB)
+### Total Expected Memory Usage & Workloads (3 GiB Baseline)
+When adding up the fixed and dynamic values mentioned above, it becomes clear that a base system under load (e.g., during a system update while monitoring is active) can easily consume 2 to 3 GB of RAM.
 
-The values provided here are the observed maximum values in healthy systems which typically are not required at exactly the same time - but may happen from time to time or under situations of stress. We expect that in regular cases a VM with 3 GiB will be able to carry some small application load (512 MiB) without frequent issues.
+The values provided here represent the observed maximums in healthy systems. While these typically do not peak at exactly the same time, they may do so during periods of high stress. We expect that, under normal conditions, a VM with 3 GiB of RAM will be able to carry a small application load (approx. 512 MiB) without frequent issues.
+
+What comes "on top"?
+The actual workloads for which the server was commissioned are added to this baseline consumption:
+
+* Component Roles: Databases like PostgreSQL or MySQL, Webgateway (NGINX, HAProxy), Docker or container orchestration like K3s.
+
+* Frameworks & Applications: Your individual customer applications (e.g., Ruby on Rails, Django, Node.js, Java).
 
 ### Swap handling
 
