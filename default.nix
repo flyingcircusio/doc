@@ -1,29 +1,41 @@
 {
-  pkgs ? import (fetchTarball "https://hydra.flyingcircus.io/build/36380067/download/1/nixexprs.tar.xz") {}
-, revCount ? 0
-, shortRev ? "0000000"
-, gitTag ? ""
+  pkgs ?
+    import (fetchTarball "https://hydra.flyingcircus.io/build/54361754/download/1/nixexprs.tar.xz")
+      { },
+  revCount ? 0,
+  shortRev ? "0000000",
+  gitTag ? "",
 }:
 
 let
-  sphinx-intl = pkgs.python3Packages.callPackage ./sphinx-intl.nix {};
+  sphinx-intl = pkgs.python3Packages.callPackage ./sphinx-intl.nix { };
 
-  buildEnv = pkgs.python3.withPackages (ps: with ps; [
-    linkify-it-py
-    myst-docutils
-    sphinx
-    sphinx-copybutton
-    sphinx-intl
-    sphinx-rtd-theme
-    furo
-  ]);
+  buildEnv = pkgs.python3.withPackages (
+    ps: with ps; [
+      linkify-it-py
+      myst-docutils
+      sphinx
+      sphinx-copybutton
+      sphinx-intl
+      sphinx-rtd-theme
+      furo
+    ]
+  );
 
   version = "${toString revCount}.${shortRev}";
 
-in pkgs.stdenv.mkDerivation {
+in
+pkgs.stdenv.mkDerivation {
   name = "flyingcircus-docs";
   configurePhase = ":";
-  buildInputs = [ buildEnv ] ++ (with pkgs; [ python3 git gnumake ]);
+  buildInputs = [
+    buildEnv
+  ]
+  ++ (with pkgs; [
+    python3
+    git
+    gnumake
+  ]);
   doCheck = false;
   buildPhase = ''
     make html
@@ -37,5 +49,10 @@ in pkgs.stdenv.mkDerivation {
   src = ./.;
   dontStrip = true;
   dontPatchELF = true;
-  inherit revCount shortRev gitTag version;
+  inherit
+    revCount
+    shortRev
+    gitTag
+    version
+    ;
 }
