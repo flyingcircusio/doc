@@ -35,12 +35,16 @@ Customer-owned hardware is available via custom endpoints.
 
 ## Known issues and restrictions
 
-Our open source based stack using Linux, VLLM, and other components is under active development from a broad community of developers. At the same time, the nature of implementing a de-facto standard like the OpenAI API 
-for a wide variety of GPUs, model architectures and an ever growing feature matrix may cause specific compatibility issues. 
+Our AI stack is built faithfully on an open source approach building on top of a wide variety
+of open source components including Linux with its GPU drivers, VLLM as the core of the inference engine (which in turn also uses a large number of other projects' libraries) as well as in-house developed tools.
 
-To support our customers we provide a list of issues that have had visible impact in the past. This list
-is given on a best effort basis and as many AI features have fuzzy behaviour, we suggest to try them
-for your specific use case still.
+All of those are under active development from a global community of developers. At the same time, the nature of implementing a de-facto standard like the OpenAI API for a wide variety of GPUs, model architectures and an ever growing feature matrix may cause specific compatibility issues and vary over time. 
+
+We make an explicit effort to provide a consistent experience for our customers, which includes providing
+a transparent list of compatibility issues that have had visible impact in the past. However, even if you
+might be impacted, we encourage you to revisit the items in this list from time to time if they are 
+relevant to your use case as they might behave differently in your context and might even have improved
+over time but may not have been documented clearly in the upstream projects.
 
 Look-around regular expressions in structured output are not supported
 : Using regular expression that leverage look-around/look-ahead/look-behind features
