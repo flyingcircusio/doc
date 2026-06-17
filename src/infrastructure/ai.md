@@ -31,3 +31,28 @@ Public endpoints:
 - RZHAL: https://ai.whq.fcio.net/openai/v1
 
 Customer-owned hardware is available via custom endpoints.
+
+
+## Known issues and restrictions
+
+Our open source based stack using Linux, VLLM, and other components is under active development from a broad community of developers. At the same time, the nature of implementing a de-facto standard like the OpenAI API 
+for a wide variety of GPUs, model architectures and an ever growing feature matrix may cause specific compatibility issues. 
+
+To support our customers we provide a list of issues that have had visible impact in the past. This list
+is given on a best effort basis and as many AI features have fuzzy behaviour, we suggest to try them
+for your specific use case still.
+
+Look-around regular expressions in structured output are not supported
+: Using regular expression that leverage look-around/look-ahead/look-behind features
+  results in to help guiding structured output may result in errors like this:
+
+  ```
+  {
+    "error": {
+      "message": "Grammar error: regex parse error:\n    ^(?!^[-+.]*$)[+-]?0*[0-9]*\\.?[0-9]*$\n     ^^^\nerror: look-around, including look-ahead and look-behind, is not supported",
+      "type": "BadRequestError",
+      "param": null,
+      "code": 400
+    }  
+  }
+  ```
