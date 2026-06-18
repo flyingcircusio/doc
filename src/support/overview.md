@@ -18,7 +18,7 @@ affect production services or not.
 ## General Support
 
 For non-production critical issues please contact our support by sending an
-email to <mailto:support@flyingcircus.io>. This will create a ticket and our staff will
+email to [support@flyingcircus.io](mailto:support@flyingcircus.io). This will create a ticket and our staff will
 follow up with you within at most a business day.
 
 ## Emergency Support
@@ -63,6 +63,6 @@ When an emergency ticket is created the active supporters are immediately
 notified via
 
 - Pushover (<https://pushover.net/>),
-- Pager (<http://www.ecityruf.de/>) and
+- Pager (<https://www.emessage.de/>) and
 - Email.
 :::
