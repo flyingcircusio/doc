@@ -1,10 +1,10 @@
 # Policy
 
 :::{note}
-This documents the ISMS Policy, as released on 2024-06-20.
+This documents the ISMS Policy, as released on 2026-06-30.
 :::
 
-% https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=10259
+% https://wiki.flyingcircus.io/index.php?title=ISMS_Policy&oldid=12993
 
 We, the management of Flying Circus Internet Operations, decided to establish an Information Security Management System (ISMS) according to the international standard ISO/IEC 27001.
 
@@ -28,7 +28,7 @@ This ISMS policy defines the management’s mandate towards the information secu
 
 ## Goals and Principles of Information Security
 
-Information security at FCIO plays a significant role to accomplish the business objectives. There must be appropriate safeguards to secure the confidentiality, integrity, authenticity, and availability of information. This will help us to:
+Information security at FCIO plays a significant role to accomplish the business objectives. There must be appropriate safeguards to secure the confidentiality, integrity, and availability of information. This will help us to:
 
 - ensure security and safety of operation,
 - avoid unacceptable economical damage to us and our customers,
