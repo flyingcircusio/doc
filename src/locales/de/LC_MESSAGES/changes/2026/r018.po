@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r018.md:6
+msgid "Release 2026_018 (2026-05-18)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:12 ../../../src/changes/2026/r018.md:17
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:15
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:20
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:22 ../../../src/changes/2026/r018.md:31
+msgid ""
+"linux kernel: mitigate \"dirty frag\" vulnerabilities (CVE-2026-43500, "
+"CVE-2026-4328)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:24 ../../../src/changes/2026/r018.md:41
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:25 ../../../src/changes/2026/r018.md:52
+msgid "linuxKernelStable: 6.12.85 -> 6.12.87"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:26 ../../../src/changes/2026/r018.md:53
+msgid "linuxKernelVerify: 6.12.85 -> 6.12.87"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:29
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:33
+msgid ""
+"fc-collect-garbage: warn about unknown/human users with gcroots. "
+"(PL-134227)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:35
+msgid "router: remove various deprecated and obsolete role options. (PL-135248)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:37
+msgid ""
+"nix: use redundant object storage gateways as binary cache while removing"
+" superfluous old binary cache (PL-135325)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:39
+msgid ""
+"This change leads to a better performance for Nix invocations that are "
+"not in any binary cache."
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:42
+msgid "apacheHttpd: 2.4.66 -> 2.4.67"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:43
+msgid "chromedriver: 147.0.7727.137 -> 148.0.7778.96"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:44
+msgid "chromium: 147.0.7727.137 -> 148.0.7778.96"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:45
+msgid "firefox: 150.0.1 -> 150.0.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:46
+msgid "gitaly: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:47
+msgid "gitlab: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:48
+msgid "gitlab-ee: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:49
+msgid "gitlab-pages: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:50
+msgid "gitlab-runner: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:51
+msgid "gitlab-workhorse: 18.11.1 -> 18.11.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:54
+msgid "matrix-synapse: 1.152.0 -> 1.152.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:55
+msgid "php82: 8.2.30 -> 8.2.31"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:56
+msgid "php83: 8.3.30 -> 8.3.31"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:57
+msgid "php84: 8.4.20 -> 8.4.21"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:58
+msgid "php85: 8.5.5 -> 8.5.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:59
+msgid "redis: 8.2.3 -> 8.6.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:62
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:64
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/4144908efad29569f8b2752b8348a2124109ab1b...75820343e354a703791a66b7e690411b602b3a9b),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/703e4e6ee1f12eb0843f955eb94ce43cd9092948...0fdad067f131fe1f86243a3bab8fcad283e4898d),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2026_018),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/53477094/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2026/r018.md:66
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/6578d98c7bf3f147192952536a28b59904ecd078...00acc2db86e212fd71e9c16e100ce2cc42761e4f),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/b61b86b0b5588b2e32e1a885ca5b41018e0274fe...750de436f459134da1de4e2d6e1e7eb6c1bbd3b3),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_018),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/53477269/download/1/nixexprs.tar.xz)"
+msgstr ""
+

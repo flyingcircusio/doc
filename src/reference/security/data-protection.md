@@ -1,4 +1,4 @@
-% last review: 2025-07-31
+% last review: 2026-07-31
 
 % review schedule: 1 year
 
@@ -77,7 +77,7 @@ Periodical check for compliance to regulations:
 **Purpose: deny unauthorized persons access to processing equipment used for processing**
 
 The physical assets (servers, switches, hard drives, ...) are located in EU
-data centers operated by third parties. The ownership of the physical equipment
+data centers, which may be operated by third parties. The ownership of the physical equipment
 is with the Flying Circus, or, in special cases by our customers
 [^customer-owned].
 

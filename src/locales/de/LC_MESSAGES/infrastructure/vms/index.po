@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,262 @@ msgstr ""
 msgid ""
 "Delete the VM deletion notice which will in turn allow the VMs name to be"
 " used again."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:111
+msgid "Minimum memory requirements (NixOS-based VMS only)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:113
+msgid ""
+"Even before your actual application starts, the operating system and its "
+"infrastructure components require RAM. We have a minimum memory "
+"requirement of 3 GiB for virtual VMs running our NixOS platform, which - "
+"under extreme circumstances - be exhausted by system services."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:115
+msgid ""
+"To understand where our memory requirements come from and to check "
+"whether we might be exceeding those assumptions, we provide a detailed "
+"list of the expected memory consumption on a small machine. Some of those"
+" usages are dynamic and may be (much) larger on larger VMs with a higher "
+"load:"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:117
+msgid "Kernel internal structures (150 MiB)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:119
+msgid ""
+"On a 3 GiB VM the kernel reserves around 150 MiB for internal purposes in"
+" a way  that this memory will not be visible in the \"MemTotal\" fields "
+"of monitoring tools like \"top\"."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:122
+#, python-format
+msgid ""
+"On larger machines this is expected to asymptotically reach around 2% of "
+"the virtual memory the VM is provisioned with. A 64 GiB VM can thus "
+"consume around 1,3 GiB of reserved kernel space."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:124
+msgid "System management tools (1.1 GiB)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:126
+msgid ""
+"Our platform is designed to provide reliable system upgrades and "
+"deterministic states (\"predictable outcomes\"). To achieve this, we use "
+"specialized agents—tools responsible for building the system and its "
+"configuration while keeping it updated and clean. A large part of this "
+"involves system configuration evaluation via nixos-rebuild, which runs "
+"regularly (approximately every 10 minutes) to install new packages or "
+"apply configuration changes."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:128
+msgid ""
+"I addition some jobs like preparing larger release upgrades or cleaning "
+"the nix store may leverage a similar high amount. However, those tools "
+"are prohibited from running in parallel, thus limiting the usage to a bit"
+" more than 1 GiB."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:130
+msgid ""
+"Some tools, like the nix store garbage collection, may use higher values "
+"depending on the system usage profile."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:132
+msgid "Monitoring and Telemetry (1 GiB)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:134
+msgid ""
+"We run a variety of tools to monitor systems for proper operations at all"
+" times. Most tools are relatively light weight, but the number and "
+"combination of application-specific tasks adds up, especially because "
+"some of them spawn a number of (parallel) subprocesses to inspect the "
+"system state."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "Component / Service"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "Reserved Memory"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "Function & Purpose"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**Telegraf**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "256 MiB"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Metric Collection:** Continuously collects performance data (CPU, RAM, "
+"Disk I/O) and sends it to our central dashboards for visualization."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**Sensu**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Monitoring & Alerting:** Performs proactive system checks and reliably "
+"triggers alarms in the event of failures or critical states."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**Alloy (optional)**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Extended Telemetry:** A flexible agent for collecting, processing, and "
+"forwarding metrics, logs, and traces."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**Filebeat (1–2 instances)**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "100 MiB per instance"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Log Shipper:** Collects local system and application logs and "
+"transports them securely for platform-wide, central analysis."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**systemd journal**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "100 MiB"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Local Log Management:** Captures, stores, and structures the log output"
+" of the kernel and all local services."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid "**Fail2ban**"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:7
+msgid ""
+"**Intrusion Prevention:** Analyzes live logs and protects the server from"
+" brute-force attacks by blocking IP addresses after repeated failed "
+"logins (e.g., SSH)."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:146
+msgid "Baseline Linux userland (100 MiB)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:148
+msgid ""
+"This includes the SSH daemon, systemd, and a variety of userland "
+"processes, including shells of logged-in users."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:150
+msgid "Target size for buffers and VFS cache (1 GiB)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:152
+msgid ""
+"For any system to stay responsive and operational hot data must be cached"
+" in RAM and buffers must be available for data to stream from and to "
+"devices and the network."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:154
+msgid "We expect around 1 GiB to be available for this."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:156
+msgid "Total Expected Memory Usage & Workloads (3 GiB Baseline)"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:157
+msgid ""
+"When adding up the fixed and dynamic values mentioned above, it becomes "
+"clear that a base system under load (e.g., during a system update while "
+"monitoring is active) can easily consume 2 to 3 GB of RAM."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:159
+msgid ""
+"The values provided here represent the observed maximums in healthy "
+"systems. While these typically do not peak at exactly the same time, they"
+" may do so during periods of high stress. We expect that, under normal "
+"conditions, a VM with 3 GiB of RAM will be able to carry a small "
+"application load (approx. 512 MiB) without frequent issues."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:161
+msgid ""
+"**What comes \"on top\"?** The actual workloads for which the server was "
+"commissioned are added to this baseline consumption:"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:164
+msgid ""
+"Component Roles: Databases like PostgreSQL or MySQL, Webgateway (NGINX, "
+"HAProxy), Docker or container orchestration like K3s."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:166
+msgid ""
+"Frameworks & Applications: Your individual customer applications (e.g., "
+"Ruby on Rails, Django, Node.js, Java)."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:168
+msgid "Swap handling"
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:170
+msgid ""
+"To give systems some breathing room in unexpected situations we provide a"
+" certain amount of swap on all machines so that the kernel can write some"
+" data that is not currently needed on disk for a short period. To keep "
+"systems as responsive as possible, we generally avoid placing data in "
+"swap until significant memory pressure is detected."
+msgstr ""
+
+#: ../../../src/infrastructure/vms/index.md:172
+msgid ""
+"If the memory pressure becomes too intense, the kernel will - at some "
+"point - start killing processes. We manage this in a proactive way, so "
+"that hard lockups are avoided and applications that are the likely "
+"culprit of the high usage will be restarted while the system is still "
+"healthy - avoiding unnecessary downtimes and giving direct feedback which"
+" application caused the memory spike. Those are automatically tracked in "
+"our ticket system and followed up on to investigate and adjust the system"
+" parameters as needed - either optimizing the configuration or adjusting "
+"the amount of available memory."
 msgstr ""
 
 #~ msgid ""

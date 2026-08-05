@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r029.md:6
+msgid "Release 2026_029 (2026-07-20)"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:10
+msgid "26.05"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:12
+msgid "NixOS 26.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:14
+msgid ""
+"physical hosts: explicitly load more filesystem kernel modules to fix an "
+"intermittent issue where servers would occasionally fail to recognize the"
+" boot partition during startup (PL-135585)"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:16
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:17
+msgid "chromedriver: 150.0.7871.46 -> 150.0.7871.114"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:18
+msgid "chromium: 150.0.7871.46 -> 150.0.7871.114"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:19
+msgid "docker: 29.6.0 -> 29.6.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:20
+msgid "firefox: 152.0.4 -> 152.0.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:21
+msgid "matrix-synapse: 1.155.0 -> 1.156.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:22
+msgid "mongodb: 7.0.34 -> 7.0.37"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:23
+msgid "php82: 8.2.31 -> 8.2.32"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:24
+msgid "php83: 8.3.31 -> 8.3.32"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:25
+msgid "php84: 8.4.22 -> 8.4.23"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:26
+msgid "php85: 8.5.7 -> 8.5.8"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:27
+msgid "phpPackages.composer: 2.10.1 -> 2.10.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:28
+msgid "postfix: 3.11.3 -> 3.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:29
+msgid "rclone: 1.74.3 -> 1.74.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:30
+msgid "roundcube: 1.7.1 -> 1.7.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:33
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r029.md:35
+msgid ""
+"NixOS 26.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/8a4faa6f061a233bcb74bea40d2fa4c1c0b98e7b...9ad627b1277f4187647775bbcaa8b0019d82a49d),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/57ffeaeab2f9f5337a513b82c43e82ad3a27a56e...e8944ba726e17dec3e1eb9dce74b46218010d4dd),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-26.05-production/2026_029),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/57636686/download/1/nixexprs.tar.xz)"
+msgstr ""
+

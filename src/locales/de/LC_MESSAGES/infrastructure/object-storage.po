@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/infrastructure/object-storage.md:2
+msgid "S3-compatible Object Storage"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:4
+msgid ""
+"Our Ceph cluster also provides an S3-compatible object storage. The data "
+"in the cluster is transparently encrypted before being stored onto "
+"physical disks, see [](#data-at-rest-encryption) for details."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:8
+msgid "Creating users"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:10
+msgid ""
+"Object storage users are managed in our customer portal at "
+"[my.flyingcircus.io](https://my.flyingcircus.io) in the \"Object Storage "
+"users\" page of each resource group."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:15
+msgid ""
+"Click the \"Add Object Storage user\" button to create a new user. "
+"*manager* permission is required for this."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:17
+msgid ""
+"The user id is a suffix appended to the resource group name. It can be "
+"used when there are multiple applications in one resource group which "
+"should not have access to each others data. The display name is for your "
+"discretion to explain the use of the user. If left empty, it defaults to "
+"the user id."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:22
+msgid ""
+"You will be redirected to a page that shows the secret key of the user. "
+"Secret keys of a user are shown only once. If you loose the secret key, "
+"you can rotate the key in the customer portal. However, this will "
+"invalidate the old secret key!"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:26
+msgid ""
+"After a user is created (or the secret is rotated), allow up to 10 "
+"minutes for it to be synchronized with the cluster. You can see the "
+"current status of the user in the portal. While the status is pending, it"
+" the user will not be available:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:33
+msgid "As soon as the status changes to active, it can be used."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:38
+msgid "Access the object storage"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:40
+msgid ""
+"After the user is active, you can connect to the storage using the "
+"corresponding access key and secret key."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:42
+msgid ""
+"The endpoint for our public object storage services follows the pattern "
+"`https://objects.<location>.fcio.net`. If you have an on-premise "
+"deployment, you will have set up a custom endpoint. If you are unsure, "
+"ask your project contacts for the endpoint details in your case."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:45
+msgid "Our public data center endpoints are:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:47
+msgid "RZOB (production): `https://objects.rzob.fcio.net`"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:48
+msgid "RZHAL/WHQ (secondary, offsite): `https://objects.whq.fcio.net`"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:50
+msgid ""
+"You can see the data center associated with your key in the table in our "
+"portal."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:52
+msgid ""
+"With your user, you can create buckets via the S3-compatible API and use "
+"it for other operations."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:55
+msgid ""
+"Because of incompatibilities due to changes from AWS in their original S3"
+" clients, the following options need to be set in your client config:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:64
+msgid "Getting started"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:66
+msgid "Here are some examples how to interact with our cluster with `awscli2`."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:68
+msgid "Setup the configuration"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:70
+msgid ""
+"Create the file `~/.aws/config` with the following content. This ensures "
+"compatibility with our object storage implementation."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:78
+msgid ""
+"Create the file `~/.aws/credentials` with the following content. Adjust "
+"the access key and secret key with the values presented to you when you "
+"created the user. Also adjust the endpoint if your object storage user is"
+" in a different location."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:90
+msgid "Create your first bucket"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:92
+msgid ""
+"With the following command you can setup your bucket in our object "
+"storage cluster. Please note that the bucket name must be unique in the "
+"cluster. Read [our guideline for naming buckets](#object-storage-global-"
+"bucket-namespace) to avoid surprises with name collisions by other "
+"clients."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:100
+msgid "Now you can use the object storage and store files in it."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:103
+msgid "Deletion"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:105
+msgid ""
+"When an object storage user is deleted, all its owned buckets are also "
+"deleted in a multi-stage process that takes around 20 days."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:107
+msgid "The stages of deletion are:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:109
+msgid "Soft"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:111
+msgid "(at t=0)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:113
+msgid ""
+"Revoke access keys. Acccess to the user and it's buckets is no longer "
+"possible."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:115
+msgid ""
+"At this point you can still cancel the deletion. A new secret key is then"
+" generated."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:117
+msgid "Hard"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:119
+msgid "(t+14 days)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:121
+msgid "Delete the object storage user and all owned buckets."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:123
+msgid "Recycle"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:125
+msgid "(t+20 days)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:127
+msgid ""
+"Delete the object storage user deletion notice which will allows the "
+"object storage user id to be reused."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:129
+msgid "Application Implementation Guidance"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:131
+msgid ""
+"Object storages are flexible and scalable without having to worry too "
+"much how they store the data. However, long term experience shows that a "
+"few rules should be respected when implementing object storage in your "
+"application to avoid problems later on and increase compatibility with "
+"third party applications."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:137
+msgid "Store the object locations in your application's database"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:139
+msgid ""
+"The best investment you can make when starting (or evolving) your usage "
+"of object storage your application is to store the specific bucket and "
+"object key in your application's database together with the main object "
+"record. If you have a table like \"documents\" then store your IDs like "
+"this:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:151
+msgid ""
+"This allows you to later decide for a different organization scheme and "
+"change your application's code that generates those bucket names and "
+"object keys without having to immediately update your database or keep "
+"multiple generations of key generation code alive."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:153
+msgid ""
+"You can then write a (slow) migration script that checks all objects "
+"whether their bucket and id is still the one that your application would "
+"generate now and if it is not you can copy the object, update the "
+"database and delete the old object, to perform a no-downtime migration."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:155
+msgid ""
+"Organize your objects using prefixes (use /pictures/1234.jpg instead of "
+"picture1234.jpg)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:157
+msgid ""
+"Theoretically you can grow bucket sizes almost infinitely and just throw "
+"objects into it without any structure. However, S3 supports something "
+"resembling a file hierarchy within a bucket by putting forward slashes "
+"(\"/\") into the key names. This helps utilities that need to list keys "
+"because the API allows to efficiently retrieve those listings by "
+"providing a search prefix. The \"/\" is a common delimiter that many "
+"tools (like rclone) can automatically recognize and use."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:165
+msgid ""
+"See details about using prefixes in S3 in the original documentation "
+"(https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-"
+"prefixes.html). Be aware that key lengths must be shorter than 1024 "
+"bytes!"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:169
+msgid ""
+"Within a bucket your could use a \"per client\" and/or \"per type\" "
+"hierarchy, e.g. \"<customer>/<type>/<objectid>\" that would result in "
+"\"acme/pictures/1234.jpg\"."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:171
+msgid ""
+"An alternative sharding criterion if your data does not have a native "
+"hierarchy is to extract a prefix from within the name. If your data has "
+"some randomness early in the filename then you could create an additional"
+" sharding layer. Consider this list of files:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:192
+msgid "Which could be organized with the first 5 characters as a sharding layer:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:213
+msgid ""
+"If your data does not have sufficient randomness in this way you can "
+"generate a sharding layer by hashing your filenames and using the first "
+"few characters:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:224
+msgid ""
+"This would result in the following sharding structure that distributes "
+"quite evenly on the first layer:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:257
+msgid ""
+"Be aware of the global bucket namespace (suffix your buckets with short "
+"uuids – \"app-2022-d7b54fd\")"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:259
+msgid ""
+"S3 considers the bucket namespace to be global \"within a partition\". "
+"This means that you must not rely in specific bucket names to be "
+"available to your application. See Amazon's \"Buckets overview\" for more"
+" information."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:263
+msgid ""
+"Our recommendation is to use a combination of your applications name, the"
+" sharding criteria and a short random uuid (7 hexdigits) and be prepared "
+"to regenerate the random uuid if it already exists but was created by "
+"another account. Examples of good bucket names:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:273
+msgid ""
+"Due to the inclusion of a random uuid you will also need to store the "
+"specific bucket names that you have created in your application's "
+"database for certain purposes, like (\"this year's bucket for customer X "
+"is named \"myapp-X-2022-54fdb32\")."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:278
+msgid ""
+"Limit total bucket size (organize buckets with \"app-2022\" or \"app-"
+"customer1\")"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:280
+msgid ""
+"Another layer to make things more manageable is to create new buckets to "
+"restrict a single bucket's total size (number of objects and data size). "
+"In general you should not have a lot of buckets. It's fine to have large "
+"buckets as long as you organize them as shown above. However, two reasons"
+" exist to split your data into multiple buckets: failure domain and "
+"customer data separation requirements."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:287
+msgid ""
+"Buckets are a failure domain in the sense that they maintain an internal "
+"index. If this index becomes corrupt (which happens very rarely but has "
+"happened due to bugs in the past) you need to rebuild the bucket based on"
+" your applications data and copy the data to a new bucket. This can "
+"become extremely expensive and slow (think: days or weeks) and may block "
+"other operations that rely on the index (like backups) while rebuilding."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:294
+msgid ""
+"Also, if your customer requires a high level of data separation then it "
+"might be reasonable to create a bucket per customer."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:297
+msgid ""
+"In general our recommendation is: if you don't have a per-customer "
+"separation requirement, then default to splitting your buckets on a time "
+"basis, if you don't know better, then create a new bucket every year."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:301
+msgid ""
+"Amazon hints that their default limit for number of buckets per customer "
+"is 100, so creating a bucket structure that ends up with only few objects"
+" per buckets is not generally recommended. Using multiple criteria to "
+"separate buckets will almost always end up with too many buckets, so most"
+" applications will be fine by sharding the buckets yearly and end up with"
+" something like this:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:313
+msgid "Common configuration examples"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:315
+msgid ""
+"Including static assets from a different domain (Cross-Origin Resource "
+"Sharing/CORS)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:317
+msgid ""
+"Using our central object gateways means you have to be aware of CORS "
+"issues when embedding static resources from an object storage bucket: our"
+" generic domains (e.g. `objects.rzob.fcio.net`) will be considered  "
+"foreign domains when embedding resources from e.g. `example.com`. This is"
+" a security feature and modern browsers will block those requests if not "
+"configured properly."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:321
+msgid ""
+"CORS is managed on a per-bucket basis using the S3 API. The commands "
+"depend on the tool you are using. Here is an example with `awscli2`."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:324
+msgid "Create a configuration file (e.g., `cors-config.json`):"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:326
+msgid ""
+"This example allows a specific domain to perform `GET` and `HEAD` "
+"requests and enables the browser to cache the permission for one hour "
+"(`MaxAgeSeconds`)."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:341
+msgid "The parameters used here are:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:342
+msgid ""
+"`AllowedOrigins`: The domains allowed to access the bucket (e.g., "
+"`https://example.com`)."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:343
+msgid ""
+"`AllowedMethods`: HTTP methods allowed (e.g., `GET`, `PUT`, `POST`, "
+"`DELETE`, `HEAD`)."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:344
+msgid ""
+"`AllowedHeaders`: Specifies which headers are allowed in a preflight "
+"request."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:345
+msgid ""
+"`MaxAgeSeconds`: How long (in seconds) the browser should cache the CORS "
+"response."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:347
+msgid ""
+"To learn more about these and the other available parameters, check   the"
+" official S3 documentation [\"Elements of a CORS "
+"configuration\"](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html)."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:350
+#: ../../../src/infrastructure/object-storage.md:458
+msgid "Apply the configuration to your bucket:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:352
+msgid "Replace `<mybucketname-23123>` with your actual bucket name."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:358
+msgid "Verify the configuration:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:363
+msgid "Using separate object storage users to provide read-only access"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:365
+msgid ""
+"Object storage users have full access to all buckets and objects that "
+"have been created by them."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:367
+msgid ""
+"If you need to separate access in a more fine grained way, for example to"
+" have non-public objects accessible by some application with only read "
+"access, you can create a separate user and grant permissions to specific "
+"objects and buckets using _bucket policies_."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:371
+msgid ""
+"In this example, we create a read-only bucket policy that grants only "
+"`s3:Get*` and `s3:List*` permissions with `awscli2`."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:373
+msgid "Create two users in the portal:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:375
+msgid ""
+"In our example we use \"myrg:main-user\" and \"myrg:readonly-user\", "
+"replace those with your specific user IDs."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:377
+msgid ""
+"Note: the read-only user will still be able to create buckets and objects"
+" under its own account, but will   only have read access to the data "
+"stored by the \"main-user\"."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:380
+msgid "Create a read-only policy file"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:382
+msgid ""
+"Create a file named `readonly-policy.json`.   Replace `myrg:readonly-"
+"user` with the user id shown in the portal and `mybucketname-23123` with "
+"your actual bucket name."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:409
+msgid ""
+"Note that the policy includes two resources: the bucket itself "
+"(`arn:aws:s3:::mybucketname-23123`) for listing actions, and the objects "
+"within it (`.../*`) for retrieval actions."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:413
+msgid "Apply the policy to your bucket"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:415
+msgid ""
+"Run this command with the bucket owner credentials or another user that "
+"has administrator privileges on the bucket:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:421
+msgid "Verify permissions"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:423
+msgid "Once applied, the user will be able to perform:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:424
+msgid "`aws s3 ls s3://mybucketname-23123` (Listing objects)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:425
+msgid "`aws s3 cp s3://mybucketname-23123/file.txt .` (Downloading objects)"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:427
+msgid ""
+"Any attempt to upload (`s3 cp <local> s3://mybucketname-23123/xyz`)   or "
+"delete (`s3 rm`) will result in an **Access Denied (403)** error."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:431
+msgid "Object Lifecycle Management"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:433
+msgid ""
+"If you have buckets with data that is only intended to be temporary, you "
+"can leverage **Lifecycle Policies** to automatically clean up your data "
+"and manage storage cost."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:436
+msgid "Create a lifecycle configuration"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:438
+msgid ""
+"Create a file named `lifecycle.json`.   This example defines a rule that "
+"automatically deletes all objects with the prefix `logs/` after 90 days."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:456
+msgid "Apply the policy"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:464
+msgid "Verify the policy"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:470
+msgid ""
+"**Data deletion is permanent:** Once an object is deleted by a lifecycle "
+"policy, it cannot be recovered. Always test your prefixes carefully "
+"before enabling a rule, e.g. in a test bucket."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:474
+msgid "Object Storage Feature Support"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:476
+msgid ""
+"Our object storage is powered by **Ceph** using the RadosGW service. "
+"While we aim for 100% S3 compatibility, due to the fact that S3 is a "
+"vendor-specific defacto standard, not all of original AWS features are "
+"available and may diverge over time depending on decisions made by Amazon"
+" and the ability of the Ceph commmunity to  adapt to those changes."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:481
+msgid ""
+"If you need specific features, you can check the [Ceph S3 feature support"
+" matrix](https://docs.ceph.com/en/nautilus/radosgw/s3/#features-support)."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:483
+msgid ""
+"Some features may be supported but are subject to further conditions "
+"within our cluster. At the moment the following notes apply:"
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:485
+msgid ""
+"Version support is not yet fully unreliable and we've seen bucket "
+"corruption in the past."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:486
+msgid "We do not provide different storage classes."
+msgstr ""
+
+#: ../../../src/infrastructure/object-storage.md:487
+msgid ""
+"Features supported by Ceph, but unsupported by us: **Bucket Request "
+"Payment**, **Bucket Website**"
+msgstr ""
+

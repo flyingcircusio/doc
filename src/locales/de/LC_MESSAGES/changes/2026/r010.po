@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r010.md:6
+msgid "Release 2026_010 (2026-03-23)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:12
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:15
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:17
+msgid ""
+"Adjusted the defaut threshold for k3s' automatic image garbage collection"
+" (FC-52143)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:19
+msgid "flyingcircus.raid: ensure dm-raid module is loaded (PL-135206)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:21
+msgid "webgateway: fix nginx_config sensu check (PL-135234)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:23
+msgid "jitsi: fix role and simplify it (PL-135075)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:25
+msgid "Add package lamp_php85 (FC-52201)"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:27
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:28
+msgid "chromedriver: 145.0.7632.159 -> 146.0.7680.80"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:29
+msgid "chromium: 145.0.7632.159 -> 146.0.7680.80"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:30
+msgid "discourse: 2025.12.1 -> 2025.12.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:31
+msgid "erlang: 28.3.3 -> 28.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:32
+msgid "firefox: 148.0 -> 148.0.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:33
+msgid "grafana: 12.3.4 -> 12.3.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:34
+msgid "keycloak: 26.5.4 -> 26.5.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:35
+msgid "linuxKernelStable: 6.12.75 -> 6.12.76"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:36
+msgid "linuxKernelVerify: 6.12.75 -> 6.12.76"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:37
+msgid "matrix-synapse: 1.148.0 -> 1.149.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:38
+msgid "nfs-utils: 2.7.1 -> 2.8.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:39
+msgid "nodejs_20: 20.20.0 -> 20.20.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:40
+msgid "php84: 8.4.18 -> 8.4.19"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:43
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r010.md:45
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/d58d93af285b0442d550076127c0686e40ac72e9...44a93f9e046ab12efee955f1117f66ee68e50cf7),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/5a19bc344f0254c87a7d88caf27daae20c0055be...5cdb442ab841b52f3d849640d905f942cf8b3a79),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_010),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/49164995/download/1/nixexprs.tar.xz)"
+msgstr ""
+

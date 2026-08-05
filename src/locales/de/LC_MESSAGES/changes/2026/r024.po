@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r024.md:6
+msgid "Release 2026_024 (2026-06-22)"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:12 ../../../src/changes/2026/r024.md:17
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:15
+msgid "26.05"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:20
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:22 ../../../src/changes/2026/r024.md:59
+msgid ""
+"Increase loki's internal grpc message size limit to enable larger queries"
+" against log lines (PL-135503)"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:24 ../../../src/changes/2026/r024.md:61
+msgid ""
+"Default to storing loki's data in the automatically configured object "
+"storage (PL-135489)"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:26
+msgid ""
+"Fix a small bug with the Grafana frontend showing a basic auth form "
+"sometimes due to improper subpath handling in the frontend."
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:28
+msgid ""
+"Fix an issue where object storage credentials were not passed to loki "
+"correctly. (PL-135488)"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:30 ../../../src/changes/2026/r024.md:63
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:31
+msgid "chromedriver: 149.0.7827.53 -> 149.0.7827.114"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:32
+msgid "chromium: 149.0.7827.53 -> 149.0.7827.114"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:33
+msgid "docker_29: 29.5.2 -> 29.5.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:34
+msgid "erlang: 28.5 -> 28.5.0.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:35 ../../../src/changes/2026/r024.md:69
+msgid "firefox: 151.0.3 -> 151.0.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:36
+msgid "gitaly: 18.11.4 -> 18.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:37
+msgid "gitlab: 18.11.4 -> 18.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:38
+msgid "gitlab-ee: 18.11.4 -> 18.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:39
+msgid "gitlab-pages: 18.11.4 -> 18.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:40
+msgid "gitlab-workhorse: 18.11.4 -> 18.11.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:41
+msgid "keycloak: 26.5.7 -> 26.6.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:42 ../../../src/changes/2026/r024.md:70
+msgid "linuxKernelStable: 6.12.92 -> 6.12.93"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:43 ../../../src/changes/2026/r024.md:71
+msgid "linuxKernelVerify: 6.12.92 -> 6.12.93"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:44
+msgid "mastodon: 4.5.10 -> 4.5.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:45 ../../../src/changes/2026/r024.md:72
+msgid "matrix-synapse: 1.153.0 -> 1.154.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:46
+msgid "openssl_3: 3.0.20 -> 3.0.21"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:47
+msgid "percona: 8.4.7-7 -> 8.4.8-8"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:48
+msgid "percona-server: 8.4.7-7 -> 8.4.8-8"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:49
+msgid "percona-server_8_0: 8.0.45-36 -> 8.0.46-37"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:50
+msgid "percona-xtrabackup_8_0: 8.0.35-34 -> 8.0.35-36"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:51
+msgid "percona80: 8.0.45-36 -> 8.0.46-37"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:52
+msgid "php84: 8.4.21 -> 8.4.22"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:53
+msgid "php85: 8.5.6 -> 8.5.7"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:54
+msgid "redis: 8.6.3 -> 8.6.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:57
+msgid "NixOS 26.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:64
+msgid "chromedriver: 149.0.7827.53 -> 149.0.7827.102"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:65
+msgid "chromium: 149.0.7827.53 -> 149.0.7827.102"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:66
+msgid "docker: 29.5.2 -> 29.5.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:67
+msgid "element-web: 1.12.18 -> 1.12.21"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:68
+msgid "erlang: 28.5.0.1 -> 28.5.0.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:73
+msgid "strongswan: 6.0.6 -> 6.0.7"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:74
+msgid "uv: 0.11.16 -> 0.11.19"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:77
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:79
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/bb33980ce4fe2fb3f2a3b1502f47fe57a3574ce3...94c638a4c193f89a6a7a5db3d1e2ce9d05418ba6),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/b871950de34b384ada0efd5fc4ef272334e2e7df...a74089a9dd5a21678f2802fc26d3094bfee238be),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_024),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/54625134/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2026/r024.md:81
+msgid ""
+"NixOS 26.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/832f79d6c0ea77c5e77cda3c5b78e00d2c9becc9...87eb5badc97779f54ba146e2955b27a6bc6d74c4),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/6132e93192e7249c28a8fc8e7f77061f20e6fdc9...3a766d10142858045d6cac35cadcc492c73687b6),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-26.05-production/2026_024),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/54625379/download/1/nixexprs.tar.xz)"
+msgstr ""
+

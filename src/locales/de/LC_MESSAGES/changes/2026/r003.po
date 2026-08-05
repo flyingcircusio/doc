@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r003.md:6
+msgid "Release 2026_003 (2026-01-26)"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:12
+msgid ""
+"restart of the postfix service due to configuration changes if the "
+"mailstub role is active"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:14
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:17
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:19
+msgid ""
+"fix an issue with the Postfix configuration when using the mailstub "
+"service that would lead to an unintended hostname in SMTP HELO and EHLO "
+"commands"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:21
+msgid "nginx: run logrotate daily (PL-135102)"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:23
+msgid ""
+"This regressed with our 25.11 overhaul of the NGINX module. Reverting to "
+"our previous behavior."
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:26
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:27
+msgid "chromedriver: 143.0.7499.192 -> 144.0.7559.59"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:28
+msgid "chromium: 143.0.7499.192 -> 144.0.7559.59"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:29
+msgid "erlang: 28.3 -> 28.3.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:30
+msgid "firefox: 146.0.1 -> 147.0.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:31
+msgid "keycloak: 26.4.7 -> 26.5.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:32
+msgid "linuxKernelStable: 6.12.65 -> 6.12.66"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:33
+msgid "linuxKernelVerify: 6.12.65 -> 6.12.66"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:34
+msgid "matrix-synapse: 1.144.0 -> 1.145.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:35
+msgid "nodejs_20: 20.19.6 -> 20.20.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:36
+msgid "uv: 0.9.24 -> 0.9.26"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:39
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r003.md:41
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/45bb58a321f45ba3a9f105528737c3ae0b999db7...6dc645b5f56ebe30be6065621454cb1755257995),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/33352f714db7064ddbbe4d92f775381ad40835ea...df9f1ab32cee0236e36a3bea5bda58651af3c535),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_003),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/43372499/download/1/nixexprs.tar.xz)"
+msgstr ""
+
