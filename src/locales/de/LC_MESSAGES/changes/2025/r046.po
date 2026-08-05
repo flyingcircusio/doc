@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r046.md:6
+msgid "Release 2025_046 (2025-12-08)"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:12
+msgid ""
+"k3s clusters with custom `clusterDNS`, `podCidr`, `serviceCidr` will fail"
+" to evaluate until adapted. See the change description below for details."
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:14
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:17
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:19
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:21
+msgid ""
+"k3s clusters: options `clusterDns`, `podCidr`, `serviceCidr` are now a "
+"list"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:23
+msgid ""
+"affected roles: `k3s-agent`, `k3s-server`, `k3s-single-node`, "
+"`webgateway` when in a resource group with k3s nodes (PL-133889)"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:25
+msgid ""
+"The options `clusterDns`, `podCidr`, `serviceCidr` in the namespace "
+"`flyingcircus.kubernetes.network` have changed from option type *string* "
+"to a *list of strings*. This better reflects the ability to specify "
+"multiple IP address entries and process them at other parts of the "
+"configuration. \\ Deployments deviating from the default option value "
+"require manual adjustment of the option. The new system will fail to "
+"evaluate, preventing this release from bein installed automatically until"
+" the configuration value has been adjusted."
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:32
+msgid ""
+"ai-model-server: GPU monitoring amd_rocm_smi plugin: ensure all global "
+"tags are included but only include rocm specific tags that do not "
+"endanger label cardinality. Note: we include all fields, some are "
+"converted to tags but those are fine"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:34
+msgid ""
+"nixos/k3s: Fix resolving of cluster-internal hostnames in our frontend "
+"module (PL-134217)"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:36 ../../../src/changes/2025/r046.md:62
+msgid ""
+"KVM hosts: fix a regression in maintenance handling (PL-134247) fc.qemu "
+"accidentally scrapped return codes set via sys.exit and replaced them "
+"with a 0, rendering maintenance guards ineffective. \\ Has been released "
+"as a hotfix to affected hosts ahead of schedule."
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:40 ../../../src/changes/2025/r046.md:66
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:41
+msgid "firefox: 145.0.1 -> 145.0.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:42
+msgid "gitaly: 18.5.2 -> 18.6.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:43
+msgid "gitlab: 18.5.2 -> 18.6.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:44
+msgid "gitlab-container-registry: 4.31.0 -> 4.32.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:45
+msgid "gitlab-ee: 18.5.2 -> 18.6.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:46
+msgid "gitlab-pages: 18.5.2 -> 18.6.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:47
+msgid "gitlab-workhorse: 18.5.2 -> 18.6.1"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:48
+msgid "grafana: 12.0.6 -> 12.0.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:49
+msgid "linuxKernelStable: 6.12.58 -> 6.12.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:50
+msgid "linuxKernelVerify: 6.12.58 -> 6.12.59"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:51
+msgid "mastodon: 4.3.14 -> 4.3.15"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:52
+msgid "percona: 8.0.43-34 -> 8.0.44-35"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:53
+msgid "percona-server_8_0: 8.0.43-34 -> 8.0.44-35"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:54
+msgid "percona80: 8.0.43-34 -> 8.0.44-35"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:55
+msgid "php83: 8.3.27 -> 8.3.28"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:56
+msgid "php84: 8.4.14 -> 8.4.15"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:57
+msgid "webkitgtk: 2.50.1 -> 2.50.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:60
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:67
+msgid "matrix-synapse: 1.142.1 -> 1.143.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:70
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:72
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/7d7110d12381e79588cc6124b057754a06b486e2...c4b06461586d86b7fc334bfe462bff90ed79eec5),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/c1da39e192f819c0ebc8ff81ae829a7e6969804f...62f4129a2097dc4c9dd6e9090cb5d1a90d8d5c9c),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_046),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/37092970/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r046.md:74
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/ba62df044ef7f0ee6ac1c7f30a88b2850f33987f...98042009db0aca3994b4bd083045e24d6949449f),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/a95730b1cb21239894bf161488fbbf2cb06bbd1f...d49a756b23d2bcdf344c2b3990644816610bbc26),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2025_046),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/37089457/download/1/nixexprs.tar.xz)"
+msgstr ""
+

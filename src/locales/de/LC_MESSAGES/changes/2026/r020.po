@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r020.md:6
+msgid "Release 2026_020 (2026-06-01)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:12
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:15
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:17
+msgid "roles/kvm: support Ceph Pacific and qemu-10.1 (PL-131408)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:19
+msgid "not yet enabled by default, will be manually rolled out location-wise"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:21
+msgid "Document upgrade procedures for k3s. (PL-132803)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:23
+msgid ""
+"fc-ceph: Work around a known [Ceph "
+"bug](https://tracker.ceph.com/issues/74424) that leaves OSDs stuck after "
+"maintenance. (PL-135425)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:25
+msgid "add the loki-relay role that enables cross-rg log shipping (PL-135168)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:27
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:28
+msgid "chromedriver: 148.0.7778.167 -> 148.0.7778.178"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:29
+msgid "chromium: 148.0.7778.167 -> 148.0.7778.178"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:30
+msgid "discourse: 2026.1.3 -> 2026.1.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:31
+msgid "firefox: 150.0.3 -> 151.0.1"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:32
+msgid "gitaly: 18.11.2 -> 18.11.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:33
+msgid "github-runner: 2.333.1 -> 2.334.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:34
+msgid "gitlab: 18.11.2 -> 18.11.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:35
+msgid "gitlab-ee: 18.11.2 -> 18.11.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:36
+msgid "gitlab-pages: 18.11.2 -> 18.11.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:37
+msgid "gitlab-workhorse: 18.11.2 -> 18.11.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:38
+msgid "grafana: 12.3.6 -> 12.3.6+security-01"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:39
+msgid "imagemagick6: 6.9.13-38 -> 6.9.13-48"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:40
+msgid "linuxKernelStable: 6.12.87 -> 6.12.90"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:41
+msgid "linuxKernelVerify: 6.12.87 -> 6.12.90"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:42
+msgid "mastodon: 4.5.9 -> 4.5.10"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:43
+msgid "mongodb: 7.0.31 -> 7.0.34"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:44
+msgid "nodejs_20: (new version missing)"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:45
+msgid "nss_latest: 3.123.1 -> 3.124"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:46
+msgid "pdns: 4.9.14 -> 4.9.15"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:47
+msgid "phpPackages.composer: 2.9.7 -> 2.9.8"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:48
+msgid "postgresql: 17.9 -> 17.10"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:49
+msgid "postgresql_14: 14.22 -> 14.23"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:50
+msgid "postgresql_15: 15.17 -> 15.18"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:51
+msgid "postgresql_16: 16.13 -> 16.14"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:52
+msgid "postgresql_17: 17.9 -> 17.10"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:53
+msgid "postgresql_18: 18.3 -> 18.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:54
+msgid "varnish80: 8.0.1 -> 8.0.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:57
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r020.md:59
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/108aedcee448bad1f64b428d4a2da350382ea1cc...bc88784059ebc08f0c29d4702b2c27b5dc6cc84a),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/144365d1069470f9e3083bdffa84ff674b4bbd56...5c72c7ba0bd420c3b6ef5db34dd48487f120c6ed),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_020),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/54359689/download/1/nixexprs.tar.xz)"
+msgstr ""
+

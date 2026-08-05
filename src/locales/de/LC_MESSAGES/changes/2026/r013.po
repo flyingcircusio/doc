@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r013.md:6
+msgid "Release 2026_013 (2026-04-13)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:12
+msgid ""
+"webgateway: TLS- or ACME-enabled vhosts that do not define a single valid"
+" hostname do not receive an automatic certificate check anymore "
+"(PL-135244)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:14
+msgid ""
+"An evaluation warning informs about that behaviour change. The warning "
+"will be removed after 2 releases."
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:16
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:19
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:21 ../../../src/changes/2026/r013.md:27
+msgid ""
+"fix Nix security vulnerability CVE-2026-39860 / GHSA-g3g9-5vj6-r3gj "
+"(FC-52786)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:22
+msgid "nix: 2.28.5 -> 2.28.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:25
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:29
+msgid ""
+"webgateway: Only generate certificate checks for vhosts defining a single"
+" valid hostname (PL-135244)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:31
+msgid ""
+"`flyingcircus.services.sensu-client.checks`: Prevent illegal check names "
+"that would crash the client service (PL-135244)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:33
+msgid ""
+"`flyingcircus.services.sensu-client.checks.<name>.enable`: introduce new "
+"option to explicitly disable checks"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:35
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:36
+msgid "bind: 9.20.18 -> 9.20.21"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:37
+msgid "chromedriver: 146.0.7680.164 -> 146.0.7680.177"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:38
+msgid "chromium: 146.0.7680.164 -> 146.0.7680.177"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:39
+msgid "curl: 8.18.0 -> 8.19.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:40
+msgid "go: 1.25.7 -> 1.25.8"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:41
+msgid "imagemagick: 7.1.2-13 -> 7.1.2-18"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:42
+msgid "keycloak: 26.5.6 -> 26.5.7"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:43
+msgid "linuxKernelStable: 6.12.78 -> 6.12.80"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:44
+msgid "linuxKernelVerify: 6.12.78 -> 6.12.80"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:45
+msgid "mongodb: 7.0.30 -> 7.0.31"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:46
+msgid "nix: 2.31.2 -> 2.31.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:47
+msgid "nodejs: 22.22.0 -> 22.22.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:48
+msgid "nodejs_22: 22.22.0 -> 22.22.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:49
+msgid "python311: 3.11.14 -> 3.11.15"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:50
+msgid "python312: 3.12.12 -> 3.12.13"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:51
+msgid "roundcube: 1.6.14 -> 1.6.15"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:52
+msgid "systemd: 258.3 -> 258.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:55
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:57
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/4c9d5b1edefb9db7884d5ee794513c97dc19ea7e...b812fef70435925294e6cba99ae30e949f3636c4),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/7ebd1a5cfb836296c3d988067f89c6882a7d0e62...9d30244089af7b1851d979e4555596c4fa341e9b),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2026_013),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/50514108/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2026/r013.md:59
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/0e396441b463e997f0b562c7906b68824b325eec...95b1b79455d3e17a437d8010c7643e06d5fe71a0),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/b84b55e9c3f409827c13a54f443535aaef1de935...9fb20de9878156f234a28ece30f91f71458222a1),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_013),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/50514619/download/1/nixexprs.tar.xz)"
+msgstr ""
+

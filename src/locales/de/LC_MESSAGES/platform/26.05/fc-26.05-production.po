@@ -2,12 +2,12 @@
 # Copyright (C) Flying Circus Internet Operations GmbH
 # This file is distributed under the same license as the Flying Circus
 # Platform package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flying Circus Platform 2025-07-31\n"
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-05 08:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -20,13 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../../src/platform/25.05/fc-25.05-production.md:5
-msgid "Platform 25.05 (EOL)"
+#: ../../../src/platform/26.05/fc-26.05-production.md:5
+msgid "Platform 26.05 (current stable)"
 msgstr ""
-
-#~ msgid "Platform 25.05 (current)"
-#~ msgstr ""
-
-#~ msgid "Platform 25.05 (old stable)"
-#~ msgstr ""
 

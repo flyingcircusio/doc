@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2021-07-27\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 08:30+0100\n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Policy"
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:4
-msgid "This documents the ISMS Policy, as released on 2024-06-20."
+msgid "This documents the ISMS Policy, as released on 2026-06-30."
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:9
@@ -98,8 +98,8 @@ msgstr ""
 msgid ""
 "Information security at FCIO plays a significant role to accomplish the "
 "business objectives. There must be appropriate safeguards to secure the "
-"confidentiality, integrity, authenticity, and availability of "
-"information. This will help us to:"
+"confidentiality, integrity, and availability of information. This will "
+"help us to:"
 msgstr ""
 
 #: ../../../src/reference/security/policy.md:33
@@ -195,5 +195,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "ensure safety of operation,"
+#~ msgstr ""
+
+#~ msgid "This documents the ISMS Policy, as released on 2024-06-20."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Information security at FCIO plays a "
+#~ "significant role to accomplish the "
+#~ "business objectives. There must be "
+#~ "appropriate safeguards to secure the "
+#~ "confidentiality, integrity, authenticity, and "
+#~ "availability of information. This will "
+#~ "help us to:"
 #~ msgstr ""
 

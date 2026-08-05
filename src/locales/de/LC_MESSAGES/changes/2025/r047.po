@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2025/r047.md:6
+msgid "Release 2025_047 (2025-12-15)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:10
+msgid "25.05"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:12 ../../../src/changes/2025/r047.md:17
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:15
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:20
+msgid "NixOS 25.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:22 ../../../src/changes/2025/r047.md:49
+msgid ""
+"nixos/mail: correct dns.zone file with a non-default dkimSelector "
+"(PL-134262)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:24 ../../../src/changes/2025/r047.md:51
+msgid "devhost: start VMs only after network setup ran (PL-134208)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:26 ../../../src/changes/2025/r047.md:53
+msgid "installer: ignore failures when setting IPMI usernames"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:28 ../../../src/changes/2025/r047.md:64
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:29
+msgid "cacert: 3.115 -> 3.117"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:30 ../../../src/changes/2025/r047.md:65
+msgid "chromedriver: 142.0.7444.175 -> 143.0.7499.40"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:31 ../../../src/changes/2025/r047.md:66
+msgid "chromium: 142.0.7444.175 -> 143.0.7499.40"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:32 ../../../src/changes/2025/r047.md:68
+msgid "github-runner: 2.329.0 -> 2.330.0"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:33
+msgid "go: 1.24.9 -> 1.24.10"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:34
+msgid "jdk: 21.0.9+8 -> 21.0.9+10"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:35
+msgid "jre: 21.0.9+8 -> 21.0.9+10"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:36 ../../../src/changes/2025/r047.md:69
+msgid "keycloak: 26.4.5 -> 26.4.7"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:37 ../../../src/changes/2025/r047.md:70
+msgid "linuxKernelStable: 6.12.59 -> 6.12.60"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:38 ../../../src/changes/2025/r047.md:71
+msgid "linuxKernelVerify: 6.12.59 -> 6.12.60"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:39 ../../../src/changes/2025/r047.md:72
+msgid "nginxMainline: 1.29.2 -> 1.29.3"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:40 ../../../src/changes/2025/r047.md:73
+msgid "nodejs_20: 20.19.5 -> 20.19.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:41
+msgid "nspr: 4.37 -> 4.38"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:42
+msgid "openjdk: 21.0.9+8 -> 21.0.9+10"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:45
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:47
+msgid ""
+"s3users: eliminate \"--gen-secret\" invocation. This further reduces "
+"failure potential in our internal S3 user handling (PL-133656)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:55
+msgid ""
+"KVM hosts: fix a regression in maintenance handling (PL-134247) fc.qemu "
+"accidentally scrapped return codes set via sys.exit and replaced them "
+"with a 0, rendering maintenance guards ineffective. \\ Has been released "
+"as a hotfix to affected hosts ahead of schedule."
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:59
+msgid "mail: fix roundcube with STARTTLS deprecation (PL-134260)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:61
+msgid ""
+"Roundcube instances on 25.11 had problems with connecting to the mail "
+"server. This change fixes this."
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:67
+msgid "element-web: 1.12.3 -> 1.12.6"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:74
+msgid "promtail: 3.5.8 -> 3.6.2"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:75
+msgid "uv: 0.9.13 -> 0.9.15"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:78
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:80
+msgid ""
+"NixOS 25.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/c4b06461586d86b7fc334bfe462bff90ed79eec5...2c810ae788eb260eb6582592ef07736c26d7f026),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/62f4129a2097dc4c9dd6e9090cb5d1a90d8d5c9c...d83469941078605b63024aa2e719d3dc6e47d2b5),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.05-production/2025_047),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/37808292/download/1/nixexprs.tar.xz)"
+msgstr ""
+
+#: ../../../src/changes/2025/r047.md:82
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/98042009db0aca3994b4bd083045e24d6949449f...46077dc3a8c63a19a1699a2dadc020bfd2c1d386),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/d49a756b23d2bcdf344c2b3990644816610bbc26...fc38c81168c2a4673db847848026d09af1d658b5),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2025_047),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/37811779/download/1/nixexprs.tar.xz)"
+msgstr ""
+

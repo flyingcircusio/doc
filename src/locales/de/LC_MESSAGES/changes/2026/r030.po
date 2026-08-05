@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r030.md:6
+msgid "Release 2026_030 (2026-07-27)"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:10
+msgid "26.05"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:12
+msgid "Machines will reboot to activate a changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:15
+msgid "NixOS 26.05 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:17
+msgid "router: add 26.05 release to IPXE (PL-134240)"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:19
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:20
+msgid "cacert: 3.123 -> 3.125"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:21
+msgid "chromedriver: 150.0.7871.114 -> 150.0.7871.128"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:22
+msgid "chromium: 150.0.7871.114 -> 150.0.7871.128"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:23
+msgid "cmake: 4.1.2 -> 4.1.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:24
+msgid "curl: 8.20.0 -> 8.21.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:25
+msgid "element-web: 1.12.22 -> 1.12.23"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:26
+msgid "ffmpeg: 8.1.1 -> 8.1.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:27
+msgid "firefox: 152.0.5 -> 152.0.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:28
+msgid "go: 1.26.4 -> 1.26.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:29
+msgid "imagemagick: 7.1.2-24 -> 7.1.2-27"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:30
+msgid "jq: 1.8.1 -> 1.8.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:31
+msgid "keycloak: 26.6.4 -> 26.7.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:32
+msgid "linuxKernelStable: 6.12.95 -> 6.12.96"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:33
+msgid "linuxKernelVerify: 6.18.38 -> 6.18.39"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:34
+msgid "nginx: 1.30.3 -> 1.30.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:35
+msgid "nginxMainline: 1.31.2 -> 1.31.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:36
+msgid "nginxStable: 1.30.3 -> 1.30.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:37
+msgid "nix: 2.34.7 -> 2.34.8"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:38
+msgid "nodejs: 24.16.0 -> 24.18.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:39
+msgid "nodejs_24: 24.16.0 -> 24.18.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:40
+msgid "nss_latest: 3.125 -> 3.126"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:41
+msgid "openssh: 10.3p1 -> 10.4p1"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:42
+msgid "openssl: 3.6.2 -> 3.6.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:43
+msgid "prosody: 13.0.3 -> 13.0.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:44
+msgid "python3: 3.13.13 -> 3.13.14"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:45
+msgid "python3Packages.pillow: 12.2.0 -> 12.3.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:46
+msgid "qemu-ceph-pacific: 10.2.2 -> 10.2.4"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:47
+msgid "util-linux: 2.42 -> 2.42.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:50
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r030.md:52
+msgid ""
+"NixOS 26.05: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/9ad627b1277f4187647775bbcaa8b0019d82a49d...1fe4291c84e7c97d27e6e6305c1ba56819ebe765),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/e8944ba726e17dec3e1eb9dce74b46218010d4dd...50c3d3158d10ebef57473cd2eb9771c6d7407d33),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-26.05-production/2026_030),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/57832529/download/1/nixexprs.tar.xz)"
+msgstr ""
+

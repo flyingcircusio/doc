@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flying Circus Internet Operations GmbH
+# This file is distributed under the same license as the Flying Circus
+# Platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flying Circus Platform 2026-07-30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../src/changes/2026/r012.md:6
+msgid "Release 2026_012 (2026-04-07)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:8
+msgid "Impact"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:10
+msgid "25.11"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:12
+msgid "Machines will reboot to activate the changed kernel."
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:15
+msgid "NixOS 25.11 platform"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:17
+msgid ""
+"gitlab: run container registry migrations for instances that use a "
+"database as backend (PL-135270)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:19
+msgid ""
+"flyingcircus-physical: show grub-bios bootloader menu over serial console"
+" as well (PL-130728)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:21
+msgid "Hotfix upgrade for skvaider (AI API). (PL-135254)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:23
+msgid "provide `varnish80` package (PL-135243)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:25
+msgid ""
+"Add extra configuration to Varnish's default VCL that mitigates VSV00018 "
+"(FC-52533)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:27
+msgid ""
+"fc-ceph: Add locking to internal object storage accounting to prevent "
+"race conditions (PL-128135)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:29
+msgid ""
+"backy: make whole object diff configurable and disable by default. "
+"(PL-134246)"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:31
+msgid "Pull upstream NixOS changes, security fixes, and package updates:"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:32
+msgid "chromedriver: 146.0.7680.153 -> 146.0.7680.164"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:33
+msgid "chromium: 146.0.7680.153 -> 146.0.7680.164"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:34
+msgid "discourse: 2025.12.2 -> 2026.1.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:35
+msgid "firefox: 148.0.2 -> 149.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:36
+msgid "gitaly: 18.9.2 -> 18.9.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:37
+msgid "gitlab: 18.9.2 -> 18.9.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:38
+msgid "gitlab-container-registry: 4.37.0 -> 4.39.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:39
+msgid "gitlab-ee: 18.9.2 -> 18.9.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:40
+msgid "gitlab-pages: 18.9.2 -> 18.9.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:41
+msgid "gitlab-workhorse: 18.9.2 -> 18.9.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:42
+msgid "grafana: 12.3.5 -> 12.3.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:43
+msgid "keycloak: 26.5.5 -> 26.5.6"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:44
+msgid "linuxKernelStable: 6.12.76 -> 6.12.78"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:45
+msgid "linuxKernelVerify: 6.12.76 -> 6.12.78"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:46
+msgid "mastodon: 4.5.7 -> 4.5.8"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:47
+msgid "matrix-synapse: 1.149.1 -> 1.150.0"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:48
+msgid "nginx: 1.28.2 -> 1.28.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:49
+msgid "nginxMainline: 1.29.5 -> 1.29.7"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:50
+msgid "nginxStable: 1.28.2 -> 1.28.3"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:51
+msgid "nodejs_20: 20.20.1 -> 20.20.2"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:52
+msgid "nss_latest: 3.121 -> 3.122"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:53
+msgid "strongswan: 6.0.4 -> 6.0.5"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:54
+msgid "uv: 0.9.29 -> 0.9.30"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:57
+msgid "Detailed Changes"
+msgstr ""
+
+#: ../../../src/changes/2026/r012.md:59
+msgid ""
+"NixOS 25.11: [platform code](https://github.com/flyingcircusio/fc-"
+"nixos/compare/543183af64984541968b757502465329074b2dcc...0e396441b463e997f0b562c7906b68824b325eec),"
+" [nixpkgs/upstream "
+"changes](https://github.com/flyingcircusio/nixpkgs/compare/48df8af484107d4768a777160145117e809a3e64...b84b55e9c3f409827c13a54f443535aaef1de935),"
+" "
+"[metadata](https://my.flyingcircus.io/releases/metadata/fc-25.11-production/2026_012),"
+" [channel "
+"url](https://hydra.flyingcircus.io/build/50507046/download/1/nixexprs.tar.xz)"
+msgstr ""
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flying Circus Platform 2025-12-02\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 08:35+0100\n"
+"POT-Creation-Date: 2026-08-05 08:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -27,8 +27,8 @@ msgstr ""
 #: ../../../src/infrastructure/ai.md:3
 msgid ""
 "To aid AI and ML workflows we offer API based access to various models "
-"for chat, embedding, and image recognition. The system is backed by AMD "
-"W7900 GPUs."
+"for chat, embedding, and image recognition. The system is backed by "
+"NVIDIA RTX PRO 6000 GPUs."
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md:6
@@ -52,7 +52,11 @@ msgid "Usage"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
-msgid "[gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)"
+msgid "Context Size"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[gpt-oss:20b](https://huggingface.co/openai/gpt-oss-20b)"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
@@ -68,25 +72,41 @@ msgid "llm"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
-msgid "[gpt-oss:120b](https://ollama.com/library/gpt-oss:120b)"
+msgid "65.536"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[gpt-oss:120b](https://huggingface.co/openai/gpt-oss-120b)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "131.072"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[rednote-hilab/dots.mocr](https://huggingface.co/rednote-hilab/dots.mocr)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Red Note (hilab)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "MIT License"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "Image-Text-to-Text"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "32.768"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
 msgid ""
-"[mistral-small3.2:latest](https://ollama.com/library/mistral-"
-"small3.2:latest)"
-msgstr ""
-
-#: ../../../src/infrastructure/ai.md
-msgid "Mistral AI"
-msgstr ""
-
-#: ../../../src/infrastructure/ai.md
-msgid "Multi / vision"
-msgstr ""
-
-#: ../../../src/infrastructure/ai.md
-msgid "[Nomic-embed-text:v1.5](https://ollama.com/library/nomic-embed-text:v1.5)"
+"[Nomic-embed-text:v1.5](https://huggingface.co/nomic-ai/nomic-embed-"
+"text-v1.5-GGUF)"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
@@ -98,7 +118,11 @@ msgid "embedding"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
-msgid "[bge-m3:567m](https://ollama.com/library/bge-m3:567m)"
+msgid "8.192"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "[bge-m3:567m](https://huggingface.co/BAAI/bge-m3)"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
@@ -106,11 +130,7 @@ msgid "Beijing Academy of Artificial Intelligence"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
-msgid "MIT License"
-msgstr ""
-
-#: ../../../src/infrastructure/ai.md
-msgid "[embeddinggemma:300m](https://ollama.com/library/embeddinggemma:300m)"
+msgid "[embeddinggemma:300m](https://huggingface.co/google/embeddinggemma-300m)"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md
@@ -119,6 +139,10 @@ msgstr ""
 
 #: ../../../src/infrastructure/ai.md
 msgid "[Gemma Terms of Use](https://ai.google.dev/gemma/terms)"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md
+msgid "2.048"
 msgstr ""
 
 #: ../../../src/infrastructure/ai.md:18
@@ -155,4 +179,84 @@ msgstr ""
 #: ../../../src/infrastructure/ai.md:33
 msgid "Customer-owned hardware is available via custom endpoints."
 msgstr ""
+
+#: ../../../src/infrastructure/ai.md:36
+msgid "Known issues and restrictions"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:38
+msgid ""
+"Our AI stack is built faithfully on an open source approach building on "
+"top of a wide variety of open source components including Linux with its "
+"GPU drivers, VLLM as the core of the inference engine (which in turn also"
+" uses a large number of other projects' libraries) as well as in-house "
+"developed tools."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:41
+msgid ""
+"All of those are under active development from a global community of "
+"developers. At the same time, the nature of implementing a de-facto "
+"standard like the OpenAI API for a wide variety of GPUs, model "
+"architectures and an ever growing feature matrix may cause specific "
+"compatibility issues and vary over time."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:43
+msgid ""
+"We make an explicit effort to provide a consistent experience for our "
+"customers, which includes providing a transparent list of compatibility "
+"issues that have had visible impact in the past. However, even if you "
+"might be impacted, we encourage you to revisit the items in this list "
+"from time to time if they are  relevant to your use case as they might "
+"behave differently in your context and might even have improved over time"
+" but may not have been documented clearly in the upstream projects."
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:49
+msgid "Look-around regular expressions in structured output are not supported"
+msgstr ""
+
+#: ../../../src/infrastructure/ai.md:50
+msgid ""
+"Using regular expression that leverage look-around/look-ahead/look-behind"
+" features results in to help guiding structured output may result in "
+"errors like this:"
+msgstr ""
+
+#~ msgid ""
+#~ "To aid AI and ML workflows we "
+#~ "offer API based access to various "
+#~ "models for chat, embedding, and image"
+#~ " recognition. The system is backed by"
+#~ " AMD W7900 GPUs."
+#~ msgstr ""
+
+#~ msgid "[gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)"
+#~ msgstr ""
+
+#~ msgid "[gpt-oss:120b](https://ollama.com/library/gpt-oss:120b)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[mistral-small3.2:latest](https://ollama.com/library/mistral-"
+#~ "small3.2:latest)"
+#~ msgstr ""
+
+#~ msgid "Mistral AI"
+#~ msgstr ""
+
+#~ msgid "Multi / vision"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Nomic-embed-text:v1.5](https://ollama.com/library"
+#~ "/nomic-embed-text:v1.5)"
+#~ msgstr ""
+
+#~ msgid "[bge-m3:567m](https://ollama.com/library/bge-m3:567m)"
+#~ msgstr ""
+
+#~ msgid "[embeddinggemma:300m](https://ollama.com/library/embeddinggemma:300m)"
+#~ msgstr ""
 
