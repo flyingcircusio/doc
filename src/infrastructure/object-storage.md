@@ -478,10 +478,10 @@ due to the fact that S3 is a vendor-specific defacto standard, not all of origin
 and may diverge over time depending on decisions made by Amazon and the ability of the Ceph commmunity to 
 adapt to those changes.
 
-If you need specific features, you can check the [Ceph S3 feature support matrix](https://docs.ceph.com/en/nautilus/radosgw/s3/#features-support).
+If you need specific features, you can check the [Ceph S3 feature support matrix](https://docs.ceph.com/en/pacific/radosgw/s3/#features-support).
 
 Some features may be supported but are subject to further conditions within our cluster. At the moment the following notes apply:
 
-* Version support is not yet fully unreliable and we've seen bucket corruption in the past.
+* Version support is not yet fully reliable and we have seen bucket corruption in the past.
 * We do not provide different storage classes.
 * Features supported by Ceph, but unsupported by us: **Bucket Request Payment**, **Bucket Website**
