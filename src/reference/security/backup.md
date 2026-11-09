@@ -1,9 +1,5 @@
-% last review: 2025-11-06
-
+% last review: 2026-11-06
 % review schedule: 1 year
-
-% ISMSControl: A.5.1.1
-% ISMSControl: A.12.3.1
 % ISMSControl: 8.13
 
 (backup)=
